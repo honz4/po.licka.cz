@@ -1,0 +1,27 @@
+<WRAP center round tip 60%>
+modelování zatížení sítě, hledání optimálních tras, alokace zdrojů, strom minimálního rozpětí - teorie, aplikace v GIS
+</WRAP>
+====== Modelování zatížení sítě ======
+
+  * Rozbor dopravní situace v případě uzavření některé komunikace, pohyb plynu na základě vlastností (průřez, sklon, kvalita povrchu)
+  * Vyžaduje identifikaci = sledování proudění přes propojení sítě 
+  * Např. všechny odběratele vody ovlivněné přerušením rozvodné sítě
+  * Po směru i proti směru
+
+====== Hledání optimálních tras ======
+  * Od počátečního ke koncovému uživateli
+  * **Optimální trasa** (nejkratší trasa přesunu, pro ISZS, trasa přesunu s minimálním oceněním – Dijkstrův algoritmus) / **Optimální okružní trasa** (problém obchodního cestujícího, čínského listonoše)
+
+====== Strom minimálního napětí (minimální kostra grafu?) ======
+   * Síť která vyhovuje třem kritériím: spojuje všechny uzly minimálním počtem spojů, kořen každého stromu je umístěn v jednom z uzlů v síti, vzdálenost mezi každým uzlem a kořenem je minimální
+   * Kruskalův algoritmus: začnu tou nejmenší a postupně jedu -> pokud vznikne kružnice, tak hranu nechci
+   * Mám odběrná místa na elektřinu a chci je propojit s použitím nejmenšího počtu drátů
+
+====== Rozdělování – alokace zdrojů ======
+  * Definice center v síti které mají kapacity (děti ve škole, kapacita nemocnic), záchranky ČR
+  * Modeluje, jak lidi přecházejí přes síť, aby se k tomu dostali
+  * Výsledek = plochy obslužné každým zařízením / určí polohu spotřebitele a současně k nim přidělí i spotřebitele
+  * **Lokační**: jak optimálně objekty rozmístit (lokalizace – určení polohy objektů) / **Alokační** (přiřazení spotřebitelů k jednotlivým zdrojům – zásobování)
+
+
+

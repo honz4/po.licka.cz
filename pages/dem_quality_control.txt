@@ -1,0 +1,21 @@
+====== ANALYSIS OF THE GLOBAL DIGITAL ELEVATIONS MODELS ======
+===== ASTER GDEM2 =====
+==== sources ====
+
+  * Vertical accuracy:
+        * face to absolute geodetic references in USA
+        * face to national mesh of USA and JAPAN
+        * face to DEM from SRTM 
+        * face to global data from laser altimeter
+  * Horizontal accuracy:
+        * comparing with SRTM (by Japanese)
+  * horizontal resolution:
+        * independently calculated by both teams
+
+==== altimetric accuracy ====
+        * Similar to the GDEM1 validation, the GDEM2 was evaluated over the CONUS against the “GPS on Bench Marks” data set (Gesch et al., 2011) as an absolute geodetic reference . GDEM2 postings were bi-linearly interpolated over the benchmarks for the comparison
+        * The GDEM2 was also evaluated against other 1 arcsecond elevation grids over the CONUS: the National Elevation Dataset (NED), the Shuttle Radar Topography Mission (SRTM) DEM, and the original GDEM1. The NED data set has a published vertical accuracy of 2-3 meter root-mean-squared error (RMSE), and thus was used as the primary reference for pixel-by-pixel grid comparisons. As with the Japan study, the CONUS assessments were segmented by land cover classes to look for relationships between accuracy and cover type
+        * The land cover dataset used is the 2006 update of the National Land Cover Database (NLCD), which includes 19 classes 5
+derived from 30-meter Landsat data. Like the GDEM1 validation study, all 934 1x1 degree GDEM2 tiles covering the CONUS were
+included in this validation effort. The US effort focused on vertical accuracies and land cover effects
+

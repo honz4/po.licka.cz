@@ -1,0 +1,79 @@
+  * biodiversita = druhová rozmanitost
+  * genová – záležitost molekulární biologie a genetiky
+  * druhová – zachování jednotlivých druhů, záchranné programy, WWF, telemetrie, mezinárodní úmluvy
+  * ochrana:
+      * in-site: ochrana druhů v jejich přirozeném prostředí.
+      * ex-site: ochrana druhů za využití uměle vytvořeného prostředí, např. pěstování v živném roztoku.
+  * nejlepší ochranou druhové diversity je ochrana celých ekosystémů, kde druh žije
+  * ekosystémová – ochrana biotopů, USES, N2, UNEP-GRID - neschopnost racionálně využívat ekosystémy
+  * kulturní – týká se člověka – kultury, kulturní plodiny
+
+  * odhad bioty 3-50 mil. druhů
+  * dodnes popsáno 1,7 mil (40 000 obratlovců, 250 000 vyšších rostlin)
+  * asi 1/10 rostlinných druhů je bezprostředně ohroženo vyhubením
+
+  * musí se ctít a chtít celosvětově (Agenda21, mez. smlouvy)– absurdní případ se žábami
+====== Hodnocení vegetace ======
+  * Aktuální vegetace
+    * aktuální vegetace (současná reálná vegetace)  - skutečný stav vegetace k datu jejího mapování.
+    * historicky reálná (aktuální) vegetace - přibližný stav aktuální vegetace v různých historických obdobích.
+
+  * **Rekonstrukční mapy** - mapy extrapolují vegetaci přirozenou nebo přírodní, tvořenou primárními společenstvy, vycházejíce z jejich   dosud zachovalých zbytků a jejich vztahů s prostředím
+  * **mapy potenciální přirozené vegetace**
+    * vegetace, která by se vytvořila v daném místě a čase za předpokladu absence vlivu člověka
+    * __PPV__ -  odráží vlastnosti stanoviště = souhrn všech faktorů, působících v daném místě na vývoj vegetačního krytu
+    * mapovací vegetační jednotky = přirozená, stabilizovaná rostlinná společenstva na nejvyšším stupni vývoje, odrážející současný   charakter přirozeného, případně i člověkem ireverzibilně změněného prostředí
+    * na základě analýz zachovalých  zbytků přirozené vegetace (nebo vegetace blízké přirozené) a jejího vztahu k prostředí – extrapolace údajů na analogické polohy s obdobnými stanovištními podmínkami
+    * __MPPV__  -  vyjadřují soubory stanovišť s relativně podobnými charakteristikami - v rámci téže jednotky - lze očekávat obdobné reakce na různé antropické zásahy (např. odvodnění, zalesnění, intenzifikace hospodaření apod.)
+    * srovnáním s mapou aktuální vegetace  -> stupeň synantropizace – míra přírodního charakteru krajiny
+
+  * **mapy rekonstruované přirozené vegetace**
+    * RPV = vegetace, která by za současného klimatu pokrývala zemský povrch, kdyby člověk v historii nezasahoval do přírody.
+    * nejsou zohledněny antropické zásahy (odvodňování, skrývek omice, zakládání výsypek, výstavby rybníků apod).
+    * mapa prezentuje původní stanovištní poměry vymezením v současnosti zachovaných území přirozené vegetace a její rekonstrukcí tam, kde se 	již nevyskytuje.
+    * významný podklad  při zjišťování stupně synantropizace vegetace.
+    * mapy přirozené vegetace odpovídající stavu prostředí
+
+  * Složení rostlinného společenstva (=floristické složení) = jmenovitý výčet druhů (popř. i nižších taxonů), z jejichž populací je společenstvo složeno
+  * zahrnuty kvalitativní charakteristiky  - taxonomická specifikace  kvantitativní charakteristiky - biomasa, pokryvnost, druhová diverzita
+
+  * **Struktura rostlinného společenstva**  = prostorové uspořádání jedinců jednotlivých druhových populací
+    *  závisí na druhovém složení společenstva - není jím však jednoznačně determinována
+    * vertikální stavbu společenstva - vegetační patra
+    * horizontální uspořádání - mozaikovitost
+    * časovou proměnlivost rostlinných společenstev
+
+  * **Stratifikace (=patrovitost)**
+    * charakteristická vertikální stavby společenstva - charakterizuje nadzemní i podzemní biomasu rostlin
+    * Nadzemní patrp - přízemní, bylinné, keřové, stromové
+
+====== Fytocenologický snímek ======
+  * = informační obraz studovaného společenstva, jakožto objektu výzkumu a jednotlivý porost, resp. jeho část, kde byl snímek zapsán,   * představuje logické individuum syntaxonomie a odpovídající snímek element syntaxonomického zpracování
+  * základ analýzy a popisu rostlinného společenstva
+  * obsahuje souhrn znaků vyplývajících ze struktury a druhového složení společenstva
+  * druhy se řadí po patrech počínaje stromovým patrem.
+  * každý zaznamenaný druh je charakterizován kvantitativním zastoupením.
+  * u každého patra se vyhodnotí pokryvnost - různé stupnice
+  * další doprovodné údaje: lokalizaci, souřadnice, sklon svahu, expozice svahu, datum aj.
+  * významný faktor  vegetačního snímkování - výběr studijní plochy - získání reprezentativních výsledků - pro určitou krajinnou jednotku
+  * grafické znázornění typizace aktuální vegetace
+  * mapy aktuální (reálné) vegetace
+====== Typy sítí ======
+  * **KFME (Kartierung der Flora Mitteleuropas)**
+    * mapové pole je lichoběžník
+    * měří 10 minut zeměpisné délky a 6 minut zeměpisné šířky, tj. na naší úrovni přibližně 11,2 x 12,0 km
+    * pole se označuje čtyřmístným číselným kódem
+    * první dvě čísla označují řadu (číslováno od severu k jihu)
+    * druhá dvě čísla označují sloupec (číslováno od západu k východu) 7170
+    * pole  se dá dělit na čtyři stejné díly, označené malými písmeny a,b,c,d.
+    * ve střední Evropě mnohem používanější
+
+  * **Universal Transverse Mercator**
+    * základní čtverec je 100 x 100 km
+    * jemnější dělení je na 50 x 50 km a 10 x 10 km
+    * vychází z příčného Mercatorova zobrazení
+
+
+----
+  * metody sběru: Pomocí terénního záznamníku bez lokalizace na mapu, Pomocí škrtacího seznamu s kopií mapy, Síťové mapování s mapou a škrtacím seznamem, Terénní záznamník a „turistická“ GPS, biolog
+

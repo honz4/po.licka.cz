@@ -1,0 +1,25 @@
+<WRAP center round tip 60%>
+dělení single x multi-user geodatabáze, ArcSDE, třídy prvků, domény, podtypy, anotace, relace, pravidla topologie, geometrická síť
+</WRAP>
+
+  * **Geografická databáze** = základ GIS SW, soubor strukturovaných dat, která se vybírají a ukládají v souladu s určitým datovým modelem a datovou strukturou, spojuje grafická a negrafická data, ukládá a spravuje prostorová data
+  * __Single__ (individuální práce v desktopovém prostředí) X __Multi__ (více uživatelů nad jednou gdb)
+  * **Single Personal GDB:** formát .mdb (miscosoft acces file), limit 2GB, víc čtenářů ale jeden editor
+  * **Single File GDB:** formát .gdb, 1TB, jako adresář na disku, víceuživatelská editace při více datasetech
+      * Výhody: snazší manipulace, výkon, velikost dat, uzamykání souborů, ukládání rastrů, sítí, anotací, tabulek, domény a subtypy, topologie, kartografické reprezentace
+  * **Multi ArcSDE GDB** (Arc Spatial Database Engine): pro přístup a správu v relačních databázích, víceuživatelské čtení i editace (lepší zabezpečení, zálohování, verzování, archivace), neomezená velikost, není volně dostupná v ArcGis, podporuje OGC, ISO a SQL
+
+
+  * Třídy prvků (feature class): jako shp, skupina tříd geoprvků se stejným souřadnicovým systémem
+  * Body, linie, polygony, anotace, dimension, multipoints, multipatches
+  * Domény (domain): jako číselník nebo rozsah hodnot, pro více tříd prvků v jedné gdb
+  * Subtypy: pro jednu třídu prvk, musí být int, vytvoření pouze kódovaných hodnot
+  * Anotace: v mapě (jednodušší editace, ale ztratím propojení s atributovými daty) / v geodatabázi (vznikne samostatná třída prvků, musím zapnout editaci, automaticky se promítnou změny hodnot atributů) 
+  * Statické, individuální nastavení pro každý prvek zvlášť, před konverzí je nutno nastavit referenční měřítko
+  * Relace: mezi tabulkama, třídama prvků, mezi tabulkou a třídou prvků
+  * Join na základě shody primárního a cizího klíče, pro 1:1, pro vizualizaci
+  * Relace nejsou použít pro vizualizaci -> nestanou se součástí vrstvy ale můžeme se na ně dotazovat nebo je vypisovat, pokud nejsou uložené v gdb ale v projektu musí se vždy definovat znovu
+  * Pravidla topologie: sada pravidel a vlastností definující prostorové vztahy mezi daty
+  * 2 druhy modelů sítě: síťový dataset (undirect flow systém <- silniční síť) a geometrická síť (directed flow systém <- potrubí)
+  * Geometrická síť: hrany, uzly, umožňuje využívat grafové algoritmy, jednoduchá a komplexní hrana, i nad shp, ohodnocení hran, pouze v datasetu ne v gdb
+  * Jakákoliv změna vyvolá okamžitou změnu v logické síti

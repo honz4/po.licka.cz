@@ -1,0 +1,8 @@
+  * test, zda soubor dat sledované náhodné veličiny odpovídá Gaussovu normálnímu rozdělení pravděpodobností, nebo ne
+  * X<sup>2</sup> test dobré shody je vedle šikmosti a špičatosti normálního rozdělení jedním z nejpoužívanějších testů normality dat
+
+===  X2 test dobré shody ===
+   * používaný obecně k testování shody četností (především u nominálních dat)
+   * je založen na posouzení rozdílu mezi skutečnými (empirickými) četnostmi výskytu hodnot ve výběrovém souboru a očekávanými (teoretickými) četnostm, odpovídajícími příslušnému předpokládanému rozdělení pravděpodobností
+   * rozhoduje, zda je rozdíl mezi empirickými a teoretickými četnostmi způsoben pouze náhodně a výběrový soubor pochází z populaces normálním rozdělením, nebo je rozdíl natolik velký, že je způsoben tím, že výběrový soubor nepochází z populace
+

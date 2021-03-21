@@ -1,0 +1,58 @@
+====== urban and regional models ======
+  * DNA argument
+  * challenges for forecasting:
+          * emergentní chování
+          * ne jednoduše deterministické
+      * Hurricase forecast tracks
+            * nejistota je tam znázorněna kuželem
+            * vize: dá se něco podobného udělat i v socio?
+            * {{ ::cone.png?nolink&300 |}}
+  * použili 
+        * GA (jaké změny je nutno udělat, aby bylo centrum rotterdamu stabilní?)
+        * MAS 
+        * spider network 
+              * to represent the transport system
+
+====== modelování vnitřních prostor ======
+  * kaliforničani stráví 87 % svého času uvnitř, němci 65 %
+  * možnost využití: navigace, dočasně prostorové analýzy 
+  * technicky:
+        * sběr dat: 
+              * {{::poisitioning.png?nolink&300 |}}
+        * georeferencování
+  * model buď 3D nebo propojený 2D
+
+====== fuzzy apod. ======
+  * vágnost
+        * je zrnko písku kupa? Ne. tak dvě? taky ne. tak tři? taky ne. tak kdy je?
+        * je to paradox
+        * mám n zrnek, a n+1 zrnek mi nikdy nevytvoří kupu
+
+====== smart cities ======
+  * v Londýna Big Data - z oyster, z kol
+  * online mapping a crowdsourcing
+        * mapování úvěrové krize
+        * SurveyMapper
+        * phone tracking data, twitter data
+  * spatial analysis of urban activity using twitter data
+  * https://www.bigdatatoolkit.org/
+  * http://www.gisagents.org/
+  * http://www.digitalurban.org/
+  * http://www.complexcity.info/fractals/
+
+====== VGI and formal data ======
+  * interaction between informal a formal data
+  * VGI: flickr, panoramio, commercial satellite imagery, OSM
+  * využití data interaction:
+        * photosynth
+        * SatNav , TomTOm
+        * hazard and disaster mapping - sri lanka, haiti
+        * SDI - inspire
+        * environmental monitoring
+        * mapping of informal settlemtns
+        * srazenazver.cz ???
+  * potřeba standardizace?
+        * parametry, co cojí za zvážení
+        * geometrie, semantika, přesnost, úplnost, ...
+        * 
+

@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+atmosféra, meteorologické prvky a jevy; meteorologické služby a organizace
+</WRAP>

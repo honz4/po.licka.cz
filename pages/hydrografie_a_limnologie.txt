@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+kvantifikace zásob vody v hydrosféře; klasifikace odtokových režimů řek a povrchový odtok; prvky hydrologické bilance; postupy měření a zpracování základních hydrologických veličin; ochrana vod
+</WRAP>

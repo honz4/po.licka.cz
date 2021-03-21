@@ -1,0 +1,7 @@
+  - Statistical methods with R -> SemivariogramExp.R (lines 1-80)
+  - Experimental semivariogram -> Semivariogram-exp.R
+  - model of semivariogram -> Variogram-Teo.R
+  - Kriging -> Kriging2017 (inverse distance method, simple block kriging, ordinary kriging)
+        - crossvalidation
+
+  * in exam we can use the maximum of selected points

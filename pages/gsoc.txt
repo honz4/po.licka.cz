@@ -1,0 +1,1136 @@
+====== urbanizační procesy a sídelní struktury ======
+===== urbanizační procesy =====
+  * vývoj měst
+  * změna fyzické a sociální struktury
+  * migrace obyvatel (ve městě, mimo město)
+  * teorie popisující rozvoj měst (ven den berg)
+
+==== van den bergova teorie rozvoje měst ====
+  * **Urbanizace** jako první stádium vývoje je vyvolána přebytkem pracovní síly v zemědělských oblastech, poklesem mezd v zemědělství a rozvojem průmyslu ve městech. Tyto skutečnosti podněcují postupně přesun obyvatelstva z venkova do měst (ze sektoru zemědělství do průmyslu). Obyvatelstvo se usazuje především v centrálních oblastech měst, poblíž průmyslových továren, což je podmíněno prozatím nízkou dopravní mobilitou lidí odkázaných většinou na pěší docházku do zaměstnání. V prostorovém průmětu vede tento proces ke koncentraci obyvatelstva a k expanzi průmyslových a obytných částí města.
+V dalším vývoji dochází k nebývalému územnímu rozvoji města formou výstavby nových průmyslových a obytných čtvrtí, zlepšuje se technická infrastruktura a především dopravní propojenost centra a předměstí. K tomu slouží především kolejová doprava. Do města přicházejí další generace přistěhovalců a v centrálních částech měst se tvoří příjmové zóny často s velmi špatnými životními podmínkami. Životní úroveň první generace přistěhovalců se postupně vylepšuje především díky vyšším příjmům, dostupnosti vzdělání a zvyšování kvalifikace. Dochází k procesu sukcese (Burgess 1925) - postupnému stěhování původního obyvatelstva do oblastí s lepším bydlením (většinou směrem k okraji města) a jeho nahrazování novými přistěhovalci s nižším sociálním statusem. V nejprůmyslovějších oblastech města narůstají slamy.
+V tomto stádiu vývoje měst dochází k růstu celého regionu, přičemž výrazně roste především jádrové město, zatímco v zázemí většinou obyvatelstvo ubývá (absolutní centralizace) nebo přibývá méně než v jádru (relativní centralizace). 
+  * **Suburbanizace** je pokračováním vývoje města v průmyslové éře. Začínají se projevovat kvalitativní změny především v oblasti bydlení a dopravy. Objevují se automobily a autobusy, budují se nové trasy veřejné dopravy (tramvaje) roste propojenost se zázemím města prostřednictvím vlakových spojení. Následkem zlepšených dopravních možností dochází k přesunu obyvatelstva směrem na okraj města, za zdravějším bydlením - uplatňují se první projekty zahradních měst. Přesouvá se zároveň i průmyslová výroba do míst, kde nejsou továrny na obtíž a mají stále dobrou dopravní dostupnost. Dochází k oddělení bydliště a pracoviště a nárůstu dojížďky do zaměstnání. Formují se městské aglomerace, často hvězdicového tvaru s obyvatelstvem koncentrovaným podél hlavních dopravních tahů v okolí města. "Město se rozkládá na doposud nevídané rozloze a je pro něj vhodnější spíše označení městská oblast nebo městský distrikt" (van den Berg a kol. 1982: 34). Obyvatelstvo v socialistických zemích je v této fázi vývoje obvykle odkázáno na veřejnou dopravu, narozdíl od situace v západních zemích, kde se stále více prosazuje individuální automobilová doprava (Herman, Regulski 1977). 
+        * relativní = roste jak jádro, tak zázemí
+        * absolutní = roste zázemí, jádro je v mínusu
+        * celý FUR je ziskový
+        * rezidenční = osídlení periferních oblastí města, realizované výstavbou rodinných domů a nízkopodlažní zástavbou (vznik satelitních městeček)
+        * komerční - vznik nových obchodních, výrobních, skladovacích a logistických aktivit
+  * Třetí stádium vývoje je nazýváno **desurbanizací**. Kromě výše popsaných výhod suburbanizace se ve zvětšené míře začínají projevovat i nevýhody související především s neúnosným zatížením dopravního systému města. Centrum jako pracoviště se stává stále méně dostupným, snižuje se propustnost dopravní sítě a zvyšují se nároky na parkovací místa. Zároveň roste tlak terciérního sektoru na obytnou funkci v centrálních částech měst. Kanceláře a obchodní plochy nahrazují bydlení, některé služby se stěhují za obyvatelstvem do oblastí za hranicemi města. Pokles počtu obyvatelstva zaznamenává nejen jádrové město, ale rovněž většina předměstí, zatímco původně venkovské oblasti v širším zázemí města se transformují na městská sídla, většinou na úkor přírodního prostředí a zemědělské půdy. Pokles počtu obyvatelstva v centrálním městě je natolik razantní, že dochází v součtu k populačnímu úbytku celého funkčního regionu. Přitom rostou především menší centra za hranicí dojížďkové vzdálenosti dominantního města. 
+  * Jako odlišnou alternativu k procesu desurbanizace nabízí van den Berg a kol. koncept **reurbanizace**, který je spojen především se snahou politické reprezentace o znovuoživení center velkých měst. K tomu slouží "programy na zlepšení image města, rehabilitace obytného prostředí, zlepšení dopravní situace, vytváření pěších zón a vylepšení sociální infrastruktury"(van den Berg a kol. 1982: 40). Jako východisko, které může odvrátit úpadek měst (urban decline), vidí autoři aktivní městskou politiku orientovanou především na řešení dopravních problémů. K tomu může přispět například opětovné přiblížení místa bydliště a pracoviště (suburbanizace pracovních příležitostí) a podpora reurbanizačních tendencí obyvatelstva. 
+
+  * charakterizovány změnami podílu obyvatel žijících ve městech a v jejich zázemí (FUR)
+  * ke změnám dochází různými směry pohybu obyvatel
+==== satelitní města ====
+  * obec či malý uměle vytvořený sídelní celek ležící poblíž velkých měst nebo industriálních oblastí (továrna, závod) a sdílející ekonomický a demografický systém
+  * v ČR od 90 let 20. století
+  * Typy satelitních měst: Industriální, Rekreační, Obytné, Finanční, Vojenské, Historické, Rasové a etnické
+
+==== projevy rezidenční suburbanizace ====
+  * nárust dopravy, bytová výstavba, nárust zastavěných ploch, nové údp, změna struktury obyvatel
+  * monitoring: sege metody, dpz
+
+==== brownfields ====
+  * staré, nevyužívané nebo ekonomicky nedostatečně efektivně využívané průmyslové (někdy také logistické, komerční nebo obytné) objekty v kompaktně zastavěných územích a zemědělské nebo vojenské plochy ve volné krajině
+  * značný problém mnoha měst: :nevzhlednost, zchátralost, problematické vlastnictví, ekologická zátěž, řešeno pomocí sanací a regenerací (revitalizací), V ČR 2355 brownfieldů, rozloha cca 11 000 ha
+
+==== greenfields ====
+  * výstavba na zelené louce
+  * zemědělské, lesnické nebo rekreační plochy mimo kompaktně zastavěná území měst, které byly definovány jako rozvojové lokality určené k rezidenční, komerční nebo průmyslové zástavbě
+  * obvykle vybaveno dopravní a technickou infrastrukturou
+  * nejčastěji výstavba skladovacích areálů, obchodních nebo logistických center
+    * automobilky (Hyundai v Nošovicích u Ostravy)
+    * souvislost s investičními pobídkami
+
+==== urban sprawl ====
+  * neřízený (neregulovaný) nebo nedostatečně regulovaný (chaotický) růst měst
+  * velmi nízká hustota zástavby
+  * nízká prostorová separace jednotlivých lidských aktivit (bydlení, pracovní příležitosti, nakupování)
+  * vysoké nároky na zábor půd
+  * vysoké náklady na budování dopravní a technické infrastruktury
+  * roste mobilita obyvatelstva
+  * vlivem ztrát v rozvodných sítích roste také spotřeba energií
+  * v ČR v podobě rozvolněné zástavby
+  * výstavba:
+        * mimo existující kompaktní zastavěná území
+        * v oblastech vlivu rozvoje metropolitních měst
+        * v pásech okolo hlavních dopravních tahů
+        * na křižovatkách hlavních dopravních tahů
+        * usměrnění pomocí nástrojů územního plánování
+        * důsledné vymezení zastavěného a zastavitelného území
+==== metodika GUIS ====
+  * Geospatial Indices of Urban Sprawl
+  * za účelem zhodnocení tří nově zastavěných oblastí bytovými a domovními jednotkami na území města New Jersey
+  * 12 geoprostorových indexů
+        * napomáhají rozeznat urban sprawl (sídelní kaše) od smart growth (inteligentní růst) městských částí
+  * indexy:
+        * Density - intenzita zastavěné plochy
+        * Leap-fog - „žabí skok“
+        * Segregated land use - oddělená užitná plocha
+        * Regional planning inconsistency - proměnlivost regionálního plánování
+        * Highway strip - silniční pruh
+        * Road infrastructure inefficiency - neefektivnost hlavní silniční infrastruktury
+        * Transit inaccessibility - režim alternativní dopravní dostupnosti
+        * Community node inaccessibility - dostupnost do hlavních společenských uzlů
+        * Consumption of important land resources – ztráta významných půdních zdrojů (mokřady, primární zemědělské půdy)
+        * Sensitive open space encroachment -
+        * citlivý zásah do otevřeného prostoru
+        * Impervious surface coverage - nepřístupnost pokrytého povrchu
+        * Growth trajectory - růstová trajektorie
+
+==== případová studie ====
+  * Přírůstek počtu obyvatel
+  * Podíl rodinných domů na trvale obydlených domech
+  * Podíl rodinných domů postavených v letech 1991 až 2001
+  * Oddělenost od kompaktní zástavby.
+===== sídelní struktura =====
+  * struktura definovaná: rozmístěním, velikostí, členěním a vzájemnými prostorovými i funkčními vztahy sídelních útvarů (základních sídelních jednotek) a ostatních prvků osídlení (dopravní síť, lineární infrastruktura, výrobní, průmyslové a rekreační zóny, prvky krajiny, atd.)
+
+===== sídelní soustava =====
+  * sídelní struktura organizována do sídelní sítě
+  * obsahuje sídelní útvary různé velikosti a různého sociálně-ekonomického profilu a významu plní výrazněji specializované funkce
+  * součásti jsou navzájem spjaty ekonomickými, sociálními a technickými vztahy a tvoří funkčně integrovaný organismus
+
+===== systém osídlení =====
+  * monocentrický
+        * výrazné centrum v území založené na průmyslovém potenciálu a jeho obslužné funkci
+        * většina obyvatelstva dojíždí za prací a službami
+        * typická je také hustá dopravní síť a výrazná nadřazenost centra nad ostatními sídelními útvary
+  * polycentrický
+        * vzniká integrací několika sídelních útvarů
+        * spojeno silnými vzájemnými funkčními vazbami, energetickými a dopravními systémy, občanskou vybaveností atd.
+        * vazby v území jsou více rozprostřeny do celé oblasti
+
+===== regionální struktura čr =====
+  * makroregiony
+        * Přirozené geografické členění: polabský (Čechy), podunajský (Morava), pooderský (České Slezsko)
+        * Dle socioekonomických a historických vlivů: Česká republika = makroregion vyššího stupně, Čechy a Morava s českým Slezskem = makroregiony nižšího stupně
+        * Čechy jsou mononodální (Praha), Moravsko-slezský makroregion je polynodální (Praha, Brno, Ostrava)
+  * mezoregiony
+        * rozsáhlé územní oblasti, charakteristické např. migrací obyvatelstva
+        * dojížďka do hierarchicky vyšších center služeb
+        * 7 mezoregionů v ČR nebo jednotlivé kraje
+  * mikroregiony
+        * účelové, akční svazky, účelem je prosazení společných zájmů obcí
+        * v ČR v podobě MAS (Místní akční skupiny)
+        * společná propagace, turistické stezky, hipostezky, projekty, dotace
+        * zásadní vztahy mezi bydlištěm, pracovištěm a koncentrací služeb
+
+===== areály maximálního zalidnění =====
+  * poprvé rozpracoval a použil J. KORČÁK (1966)
+  * území, které má rozlohu minimálně 50 km² a hustotu zalidnění právě 1000 obyv./km²
+  * má odpovídat hustotě zalidnění středoevropských velkoměst s jejich okolím
+  * využíváno pro vymezování sídelních aglomerací
+  * nevychází pouze z admin. vymezených územních jednotek
+  * největší nevýhodou je obtížnost realizace
+  * obce se připojují do značné míry subjektivně, což znesnadňuje rozhodnutí o správnosti vymezení
+  * subjektivní zásada uzavřenosti areálu
+  * rozpor, zda upřednostnit uzavřenost na úkor jeho velikosti
+  * nezohledňuje žádné vazby jádra aglomerace s okolím
+=== postup ===
+  * 1.Vyhledání měst s alespoň 30 až 40 tisíci obyvateli
+  * 2.Stanovení kritické hustoty zalidnění
+  * –obvykle se provádí jako x-násobek prům. hustoty v daném státě
+  * –počítají se areály na 20x, 10x nebo 5x prům. hustoty, nejpoužívanější je ale 5x nebo 10x průměrná hustota zalidnění ČR
+  * 3.Vyhledání potenciálních AMZ
+  * –vyhledání všech obcí s hustotou zalidnění vyšší než minimální kritická hranice
+  * 4.Připojování sousedních obcí s vysokou lidnatostí
+  * –tak, aby obecná hustota zalidnění neklesla pod stanovenou hodnotu
+  * –nejdříve se připojují obce největší a nejbližší, avšak dále od centrální obce může existovat více směrů dalšího postupu
+  * –při připojování obcí je vhodné sledovat např. směry hlavních komunikací
+  * –zároveň by však měla být alespoň částečně zachovávána zásada, aby tvar získaného areálu byl pokud možno uzavřený
+  * 4. Připojování sousedních obcí s vysokou lidnatostí
+  * –sledování, zda může potenciální AMZ po připojení sousedních obcí splnit jak minimální kritickou hustotu zalidnění, tak i minimální počet obyvatel a jejich případné rozšiřování na úroveň kritických hodnot
+  * –snaha o přesné dosažení kritické hodnota hustoty zalidnění
+  * vzhledem k hranicím obcí obtížně splnitelné
+  * možnost dělení obcí (rozloha i počet obyvatel)
+
+===== index heterogenity =====
+  * vyjadřuje podíl plochy celkového území, na kterém žije právě polovina počtu obyvatel
+  * Postup při definování indexu:
+  * 1.zjištění poloviny počtu obyvatel v daném území
+  * 2.postupným načítáním počtu obyvatel v souvislém území dojit k této hodnotě (počátek od populačně největší obce)
+  * 3.sečtení výměry vybraných obcí
+  * 4.určení procentuální části těchto obcí z celku
+  * 5.index heterogenity je doplňkem do 100% této výměry jakožto podílu na výměře celého území
+
+====== prostorové struktury ======
+==== definice města ====
+  * neexistuje přesné a jednoznačné vymezení urbanizovaného nebo městského území nebo města samotného
+  * není možné stanovit univerzální postup nebo metodiku
+  * sídelní útvar, který charakterizuje:
+    * vysoká hustota a koncentrace obyvatelstva
+    * relativní velikost (v porovnání s jinými sídly)
+    * vysoká koncentrace a kompaktnost zástavby
+    * specifická demografická, profesní a sociální skladba obyv.
+    * koncentrace správních, řídících a obslužných funkcí
+    * vysoká vnitřní různorodost (funkční diferenciace) a komplexnost (funkční integrita rozmanitých dílčích prvků)
+    * specifický městský způsob života
+
+==== klasifikace měst ====
+  * popisná kritéria (populace, poloha, půdorys, vzdálenost od centra)
+  * vývojová kritéria (rostoucí, tagnující nebo upadající dynamika města)
+  * Kulturně-civilizační kritéria (předindustriální, industriální, postindustriální...)
+  * Ekonomicko-demografická kritéria (např. podle převažujícího sektoru ekonomiky)
+  * Image, kvalita životního prostředí (mezinárodní otevřenost)...
+  * kombinace
+
+==== vymezování města ====
+  * stabilizovaný, geograficky vymezený sídelní útvar s výraznou výrobní, správní a obslužnou funkcí
+  * obyvatelstvo pracuje většinou mimo zemědělství, má specifickou sociální strukturu a specifický způsob života, čemuž odpovídá i způsob zastavění
+  * způsoby:
+        * **administrativně**
+          * nejpoužívanější přístup
+          * vymezeno administrativními hranicemi obcí nebo případně pomocí podrobnějších vzájemně skladebných celků
+          * katastrální území, základní sídelní jednotky, sčítací okrsky nebo volební obvody
+          * je možné zařadit obec do určité kategorie (např. městský, přechodný a venkovský prostor), ale nelze měnit samotné hranice
+          * jako město vymezeno celé k. úz. (včetně lesů, luk, polí, které městem ve skutečnosti nejsou)
+          * nejčastěji používaným kritériem pro vymezení města jeho populační velikost měst
+          * v ČR stanoveno zákonem č. 128/2000 Sb., o obcích
+          * 3000 obyvatel
+          * z historických důvodů existují v ČR i menší města
+          * rozdílné přístupy v rámci světa
+          * pro město využíván nejen pojem „city“ ale také „town“ (malé město)
+          * např. city v Anglii - minimálně 300 000 obyv.
+        * **morfologicky**
+          * kompaktně zastavěné území (hranice zastavěného území, souvislá zástavba)
+          * lépe odpovídá reálnému rozložení obyvatelstva a jeho aktivit
+          * snadné aplikovat pomocí využití leteckých či družicových snímků
+          * rozdílné hranice města při administrativním a morfologickém vymezení
+          * **zastavěné vymezení**
+            * z pohledu územního plánování: Pozemky uvnitř obce bez vinic, chmelnic a zemědělských pozemků / Zahrnuje i stavební proluky, vjezdy, zahrádky v těsné blízkosti domů
+            * z pohledu geografie: pouze zastavěné plochy, velká potenciál DPZ
+        * funkční vymezení
+          * na základě integrity vztahů uvnitř městského systému (např. dojížďkou za prací nebo do škol)
+          * tímto způsobem se obvykle vymezují aglomerace, metropolitní regiony nebo tzv. „funkční městské regiony“
+        * Alternativní přístupy k vymezení města: hustota komunikací, c služeb, síť MHD, chodníky, kočky, vymysli si co chceš
+===== dichotomie / kontinuum =====
+  * dichotomie (protiklad)
+        * Historicky starší teorie dichotomie
+        * Území je rozděleno mezi dvě oblasti
+          * město (moderní region) - velké fyzikální celky a vysokou fyzickou hustotou
+          * venkov (tradiční region) - silná sociální hustota (sociální sítě)
+  * kontinuum
+        * roztažení měst do prostoru a vznik kontinua město-venkov
+        * město a venkov tvoří jednotný, neoddělitelný systém
+        * vztah není možné pojímat v dichotomii, ale jako závislost venkova na městu
+
+===== venkov =====
+  * odlehlá osídlení a oblasti volné nezastavěné krajiny tvořící mozaiku drobnějších sídel, zemědělských a vodních ploch, lesů, ploch místních komunikací a ostatních ploch
+  * Charakteristika venkova
+  * nízká hustota zalidnění, menší sídla
+  * vyšší zaměstnanost v zemědělství
+  * pozitivní vztah místních obyvatel k okolní krajině
+  * specifický architektonický ráz a charakter zástavby
+  * Různý typ venkova - samoty, malé osady, rozlehlé vesnice
+
+==== OECD vymezení ====
+  * založeno na podílu obyvatelstva žijícího na území s hustotou zalidnění menší než 150 obyvatel na km2 regiony
+  * 3 typy regionů
+    * 1.převážně venkovské, kde ve venkovských obcích žije více než 50 % obyvatel regionu
+    * 2.významně venkovské, kde ve venkovských obcích žije 15 až 50 % obyvatel regionu
+    * 3.výrazně městské, kde ve venkovských obcích žije méně než 15 % obyvatel regionu
+  * metodika OECD:
+        * ke kritériu hustoty zalidnění přidána také absolutní hodnota počtu obyvatel v daném území
+        * 3 kategorie:
+          * 1.hustě obydlené zóny s hustotou zalidnění vyšší než 500 obyvatel na km2 a počtem obyvatel alespoň 50 000
+          * 2.přechodné zóny s hustotou zalidnění 100 až 500 obyvatel na km2 a počtem obyvatel alespoň 50 000
+          * 3.řídce obydlené zóny jsou všechny ostatní regiony
+===== vymezování zázemí města =====
+==== metropolitní areály ====
+  * 1) jádrová oblast je tvořena významnými, hustě obydlenými a na sebe navazujícími obcemi
+  * 2) významné integrované obce reprezentují významná sídla silně funkčně spjatá s jádrovou oblastí prostřednictvím dojížďky do zaměstnání a do škol
+  * 3) zázemí (ostatní obce) tvoří další obce metropolitního areálu se silnými pracovními vazbami na jádrovou oblast a na významné integrované obce
+
+==== vymezování zázemí ====
+  * vymezování na základě denní dojížďky za prací
+  * Funkční městský region (Functional urban region - FUR)
+  * Funkční městská oblast (Functional urban area - FUA)
+  * Místní pracovištní systémy – pracovní regiony (Local labour system – LLS, Local labour market area - LLMA)
+  * Denní urbánní systém (Daily urban system - DUS)
+
+==== kritéria ====
+  * Dojížďka do centrálního města
+  * Časová dostupnost centra
+  * Podíl ekonomicky aktivních obyvatel vyjíždějících z dané obce za prací
+  * Saldo migrace
+  * Počet dokončených bytů
+
+==== FUR ====
+  * prostorově souvislé území, které je vnitřně koherentní a navenek relativně uzavřené vzhledem k dennímu pohybu obyvatelstva
+  * Nejčastěji vymezováno na základě dojížďky za prací
+  * Funkční městská oblast (FUA) a pracovní regiony (LSS)
+        * funkční pracovištní systémy (LSS) - pracovní regiony
+          * území, která spádují z hlediska dojížďky za prací k místním pracovištním centrům
+        * funkční urbanizovaná (městská) území (FUA)
+          * vymezeno v rámci LLS
+          * xistuje zvláště silná vazba na pracoviště v centru
+          * oblast dojížďky za prací, aglomerace pracovních míst, přitahující pracovní sílu z okolí
+          * skládá se z centrální obce (města) a obcí, které toto centrum obklopují
+
+==== DUS ====
+  * oblast charakterizovaná denní dojížďkou za prací
+  * dvě základní podmínky
+    * interakce musí být založena na principu denní dojížďky
+    * musí překročit určitou hladinu významnosti
+  * kromě dojížďky za prací možné posuzovat také dojížďku do škol, za službami nebo rekreací, atd.
+  * podle velikosti pracovního trhu vymezeny:
+    * lokální, regionální, nadregionální a evropská pracovištní centra
+
+==== metropole ====
+  * hlavní město státu
+  * obecně jakékoli velké město (velkoměsto) s jeho metropolitní oblastí
+  * kulturní a ekonomické centrum s velkým množstvím státních institucí a soukromých firem
+  * silné koncentrické vazby
+  * např. brněnská metropole – Brno, hanácká metropole – Olomouc
+
+==== aglomerace ====
+  * výrazně urbanizované území zahrnující větší město a jeho zázemí
+  * intenzivní, dopravní, ekonomické, sociálními a technické vazby
+  * monocentrické, bicentrické, polycentrické aglomerace (konurbace)
+  * vysoká hustota zalidnění, denní mobilita obyvatelstva,
+  * např. většina hlavních měst států, v ČR např. Praha, Ostrava
+
+==== Konurbace (souměstí) ====
+  * polycentrická forma aglomerace
+  * obvykle nemá jedno centrum a nemusí mít ani společné zázemí
+  * několik měst, velkoměst nebo aglomerací srostlých v jednu souvisle zastavěnou plochu
+  * např. Zlín-Otrokovice nebo tzv. Trojměstí (Gdaňsk-Gdyně-Sopoty)
+  * spojením několika konurbací vzniká megalopolis
+
+==== Megalopolis (megalopole) ====
+  * rozsáhlá oblast souvislého (případně těsně navazujícího) osídlení městského charakteru
+  * vzniká spojením dvou nebo více městských oblastí (aglomerací)
+  * extrémní případ rozrůstání měst (forma urban sprawl)
+  * poč. obyvatel většinou přesahuje 10 mil. např. oblast mezi Bostonem a Washingtonem
+  * –Tokio – Osaka - Nagoja
+
+==== Shrinking cities (smršťování měst) ====
+  * pokles počtu obyvatel v některých městech a s ním související jevy
+  * oslabení politického, ekonomického či jiného významu v rámci hierarchie sídelního systému
+  * vede k nerovnoměrnému rozvoji evropských městských regionů
+  * často v oblastech s utlumenou těžbou
+  * příčiny:
+        * 1.Deindustrializace - regionální ekonomiky a ekonomický pokles v národním či globálním kontextu vedou k meziregionální migraci z průmyslových regionů, motivované primárně nedostatkem pracovních příležitostí
+        * 2.Demografické změny - snížení porodnosti a dlouhodobé procesy stárnutí populace jsou hlavním důvodem klesajícího počtu obyvatel a změny věkové struktury
+        * 3.Suburbanizace a urban sprawl - výstavba zejména nízkopodlažních a rodinných domů mimo vnitřní města, vystěhovalectví z vnitřních měst a nárůst počtu obyvatel v zázemí měst
+
+===== prostorové struktury měst =====
+  * Prostorová struktura města z hlediska
+    * 1. Administrativního
+    * 2. Fyzického – (morfologie, morfogeneze) fyzický stav objektu, přírodní prostředí nebo prostředí vytvořené člověkem
+    * 3. Sociálního - na základě charakteru lidských aktivit nebo samotných lidí (demografický, sociální, etnický nebo jiný statut)
+    * 4. Funkčního – na základě funkčního využití území – bydlení, průmysl, atd.
+  * Morfologická struktura města – v rámci fyzické
+    * utvářena odlišným způsobem zastavění jednotlivých částí města
+    * základními prvky jsou ulice, pozemky a budovy
+    * složitějšími systémy jsou potom tvořeny uliční sítí, bloky zástavby nebo urbanistickými celky
+    * morfologie zástavby má jako horizontální tak i vertikální dimenzi
+
+=== administrativní hledisko ===
+  * městské obvody,urbanistické obvody,městské čtvrtě,komise místních částí,katastrální území,základní sídelní jednotky,volební obvody,volební okrsky
+
+=== fyzivcké hledisko ===
+  * městské obvody
+  * urbanistické obvody
+  * městské čtvrtě
+  * komise místních částí
+  * katastrální území
+  * základní sídelní jednotky
+  * volební obvody
+  * volební okrsky
+
+===== morfologie města =====
+  * nejvíce se projevuje v typu uliční sítě, a charakteru zástavby
+  * Typ sítě (půdorys města):
+    * –nepravidelný
+    * –šachovnicovitý
+    * –radiálně koncentrický
+    * –lineární
+    * –pro různá časová období ve vývoji města převažují různé půdorysné typy
+  * Charakter zástavby
+    * –Bloková
+    * –Řádková
+    * –Rozvolněná
+    * –Rozptýlená
+  * Výška zástavby
+    * –Nízkopodlažní
+    * –Vysokopodlažní
+  * Hustota zástavby
+=== město z hlediska morfologie ===
+  * Matlovič (2001) :
+    * –A centrum (staré město) – zpravidla středověké jádro města s nejbližším okolím
+    * –B vnitřní město - kompaktní zástavba z období industrializace, většinou z konce 19. a počátku 20. století
+    * –C vilové čtvrtě - části města vzniklé v průběhu 20. Století, jejich morfologickým znakem je převaha rodinných domů a vil
+    * –D sídliště - rozsáhlé obytné soubory, které byly budovány na okrajích měst v druhé polovině 20. století
+    * –E periferní zóna - za hranicí kompaktního města, reprezentována méně kompaktní zástavbou: typické je prolínání původní venkovské zástavby se stavbami typickými pro suburbanizaci (továrny, sklady, rekreace, zemědělství, technická infrastruktura)
+  * Ouředníček (2008)
+    * historické centrum
+    * vnitřní město
+    * vnější město
+  *  Sýkora (1999)
+    * 1) historické centrum
+    * 2) vnitřní město
+    * 3) pás zahradních měst
+    * 4) pás panelových sídlišť
+    * 5) venkovskou zónu
+
+===== centrum města =====
+  * okrsek města s nejintenzivnějším komerčním využitím plochy, kde jsou soustředěny obchody, finanční a kulturní instituce a zastoupení velkých firem
+  * obvykle nejdražší pozemky, většina plochy je využita jako kancelářské a obchodní prostory, obytná funkce je potlačena
+  * central business district (CBD)
+    * –srdce města, často umístěné v místě, kam směřuje městská doprava, které obsahuje nejvyšší procento obchodů a kancelářských prostor
+    * –ceny pozemků jsou kvůli dostupnosti vysoké, a proto je země využívána co nejintenzivněji
+  * vymezení:
+        * jádrový okrsek města s nejintenzivnějším komerčním využitím plochy, kde jsou soustředěny obchody, finanční a kulturní instituce a zastoupení velkých firem
+        * v centru jsou nejdražší pozemky, většina plochy je využita jako kancelářské a obchodní prostory, obytná funkce je potlačena
+        * central business district (CBD) - srdce města, často umístěné v místě, kam směřuje městská doprava, které obsahuje nejvyšší procento obchodů a kancelářských prostor, ceny pozemků jsou kvůli dostupnosti vysoké, a proto je země využívána co nejintenzivněji
+
+
+----
+  * rodinný dům, řadovka, sídliště
+        * sídliště:
+            * výstavba od 50. let 20. století (do 90. let)
+            * jen za období 1970-1980 cca 800 tis. bytů
+            * přidělování bytů, pořadníky
+            * nevhodná demografická struktura (pouze některé věkové kategorie – mladí lidé+děti, zaměstnanci jednoho „podniku“)
+            * výstavba zejména v socialistických zemích, ale také v západní Evropě (Francie, Švédsko)
+            * vyhovovala socialistické koncepci bytové výstavby a cílům řešit poválečný narůstající nedostatek bytů
+            * nejprve symbol vyššího životního standardu
+            * od 80. let kritika, od 90. let ukončeno, dokonce diskuse o odstranění jako v západních zemích (v ČR nereálné, proto pouze regenerace – v ČR zde bydlí cca 1/3 obyvatel)
+            * v západních zemích ukončeno již v 70. letech, odstranění
+      * paneláky
+            * dům vybudovaný z prefabrikovaných panelů (Prefab v angličtině)
+            * „konstrukční stěnový systém z prefabrikovaných panelů“
+            * první panelové domy se objevily v Nizozemsku po 1. světové válce
+            * vznik na zelených loukách jako „nové, idylické, socialistické bydlení“
+            * radikální změny struktury měst
+            * uniformní, standardizované a šablonizované
+
+===== sociální hledisko =====
+  * na základě charakteristik vázaných na obyvatelstvo trvale nebo přechodně žijící ve městě
+  * zjistitelné z terénních nebo výběrových šetření a dále potom z dat SLDB (Sčítání lidu, domů a bytů)
+  * Nejčastější data-témata
+    * demografický status (např. věková struktura, velikost domácností, počet dětí)
+    * sociálně-ekonomický status (např. profesní struktura, kvalita bytového fondu, struktura příjmů a výdajů, vzdálenost a doba dojíždění)
+    * etnický status (např. národnostní složení, etnickou homogenitu, náboženství, rozvodovost, potratovost, kriminalita)
+  * Murdie (1969): modely se navzájem doplňují, každý zachycuje odlišnou stránku
+  * Dimenze sociální prostorové diferenciace a jejich prostorové uspořádání:
+    * Etnický – mozaikové
+    * Demografický – koncentrické
+    * Sociálně-ekonomický – sektorové
+  * Doplněno fyzickou strukt
+
+===== funkční hledisko =====
+  * na základě dělení města dle funkčního využití
+  * sledováno pro jednotlivé stavby a pozemky
+  * zjistitelné např. z dat z katastru nemovitostí nebo z územních plánů (ÚP a ÚAP)
+
+===== Základní modely zónování měst =====
+  * Burghessův model (model koncentrických zón)
+        * vytvořeno na základě města Chicago
+        * pojetí města v podobě soustředných kruhů – koncentrických zón
+        * využití se odvíjí od dopravní dostupnosti a souvisí se socioekonomickým statutem obyvatelstva, který roste se vzrůstající vzdáleností od centra
+        * dopravní cesty v modelu směřují do centra města
+        * –1) central business district - CBD
+        * –2) zóna velkoobchodu a průmyslová zóna
+        * –3) zóna přechodu (obydlí nejchudších vrstev městského obyvatelstva)
+        * –4) zóna bydlení pracujících (starší zástavba, nižší nároky na bydlení)
+        * –5) obytná zóna (vyšší standard bydlení pro střední třídu)
+        * –6) zóna dojížďky (obydlí vyšší třídy s vysokými nároky na kvalitu bydlení)
+  * Hoytův sektorový model
+        * na základě analýzy více než 140 amerických měst
+        * klade větší důraz na vliv komunikačních os a dopravní dostupnosti na prostorové uspořádání města
+        * město uspořádáno do určitých oblastí – sektorů vykazující různé druhy aktivit, které mají specifické lokalizační požadavky
+        * –1) CBD
+        * –2) průmyslové zóny (v okolí významných dopravních tahů pro zajištění dobré dopravní dostupnosti pro průmyslovou výrobu)
+        * –3) obytné zóny (bydlení pro domácnosti s nižšími příjmy, lemují průmyslové zóny)
+        * –4), 5) obytné zóny (bydlení pro střední a vysokopříjmové domácnosti, vzdálenějších od hluku a znečištění, v blízkosti významnějších dopravních komunikací)
+  * Harris-Ullmanův model mnoha jader
+        * vychází z předpokladu rozvoje několika oddělených, specializovaných a diferencovaných jader na základě rozdílné dopravní dostupnosti jednotlivých aktivit
+        * výskyt více jader, z nichž každé má svojí specifickou funkci (průmysl, obchod, služby, sport, rekreace)
+        * –1) CBD
+        * –2) lehký průmysl a obchody (situovány v okolí hlavních komunikací)
+        * –3) bydlení pro domácnosti s nižšími příjmy (lemují těžký průmysl)
+        * –4), 5) předměstí (obytné oblasti pro střední a vyšší vrstvy obyvatel, kteří za prací dojíždějí)
+        * –6) těžký průmysl na okraji města
+        * –7) menší centra služeb
+        * –8) rezidenční předměstí (suburbia)
+        * –9) komerčně-průmyslová předměstí
+  * Hybridní land-use model
+        * Kombinace předchozích modelů
+        * snaží se zahrnout z každého modelu jeho silné a pozitivní vlastnosti
+        * W. Isard (1956)
+        * některé aktivity ve městě jsou orientovány podél hlavních dopravních os (sektorový model)
+        * průmyslové a komerční aktivity, se nachází v jádrech v koncentrické podobě (koncentrický model, model mnoha jader)
+        * výsledkem je tedy překryv všech tří modelů, který kombinuje jejich základní vlastnosti
+
+
+====== AVL systémy ======
+  * ITS (Inteligent Transportation Systems
+  * IVHS (Inteligent Vehicle Higway Systems)
+    * systémy využívající moderní počítačové, komunikační a senzorové technologie k zlepšení výkonnosti přepravních systémů cestujících a nákladů
+  * součinnost řidiče, vozidla a cesty, čímž se vytváří jednotný integrovaný systém pro bezpečnější a účinnější provoz
+  * **typy ITS**
+        * 1. systémy informací pro cestující (ATIS -Advanced Traveller Information Systems)
+              * poskytují cestujícím informace, které se požadují proto, aby přeprava byla účinná, bezpečná, pohodlná a příjemná
+              * poskytují se před nebo v průběhu přepravy, umožňují cestujícím ve zvýšené míře předpovídat a volit trasu i různé druhy povrchové přepravy
+              * důležitou funkcí ATIS je informací přímo řidičům ve vozidlech, což umožňuje účinněji využít silniční síť
+        * 2. systémy řízení vozidlového parku (AFMS -Advanced Fleet Manamegent Systems)
+              * využívají škálu technologií ke zlepšení bezpečnosti, účinnosti, ale i kontrolu operací v rámci vozidlového parku, taktéž i pro vozidla v případě tísňových situací jako i pro poskytování služeb
+              * Obsahují automatické monitorovací systémy pro
+                * 2.1 automatické určování polohy vozidla (AVL-AutomaticVehicleLocation)
+                    * a) pozemní systémy
+                      * autonomní(nepotřebují další zařízení kromě palubního vybavení)
+                            * a) systémy výpočtové navigace
+                              * sledování vozidla od známé počáteční polohy
+                              * poloha je daná souřadnicemi
+                            * b) systémy výpočtové navigace porovnávající mapu
+                              * pohyb vozidel je přesně definovaný na silniční síť
+                              * pohyb vozidla je porovnáván s matematicky přesně vyjádřenou trasou
+                            * c) inerční systémy
+                              * měření zrychlení vozidla vzhledem k inerčnímu prostoru
+                              * měřeno akcelerometry
+                      * neautonomní (kromě palubního vybavení potřebují další externí zařízení, například radiomaják)
+                            * a) Polohové systémy využívající při komunikaci majáky
+                              * majáky v blízkosti komunikací umožňují určovat polohu vozidla pomocí kódovaných signálů
+                              * systém přijímá a ukládá kód polohy ve chvíli, kdy vozidlo míjí maják
+                              * polohau posledního majáku a ujetá vzdálenost, se automaticky vysílají radiem do centrálního počítače
+                            * b) Hyperbolické polohové systémy
+                              * vletecké a námořní navigaci
+                              * impulzovéa fázové
+                              * LORAN-C a OMEGA
+                    * b) satelitní systémy
+                          * nejvyužívanější systémy měřící vzdálenosti mezi satelity a vozidly
+                          * NAVSTAR/GPS, GLONASS, Galileo
+                          * tři segmenty: kosmický, řídící a uživatelský
+                          * různorodá přesnost
+                  * **automatické sledování vozidel**
+                      * používá se zejména ve firmách s větším vozovým parkem
+                      * Hlavní důvod je zabezpečení vozidel
+                      * Základní princip
+                        * GPS lokátor, zabudovaný ve vozidle, snímá v pravidelných intervalech polohu auta pomocí GPS přijímače
+                        * Poloha je odesílána přes GPRS modem na určitý server, který tato data zpracuje
+                        * Na serveru je možné data stahovat a vizualizovat
+                      * Základní typy
+                        * monitorovací GPS systémy
+                        * zabezpečovací (střežící) GPS systémy
+                        * hybridní GPS systémy (monitorovací i zabezpečovací)
+                      * Monitorovací systémy
+                        * zaměřeny na sledování polohy, rychlosti a úzce specifikovaných parametrů provozu vozidel (např. teplota, typ jízdy soukromá/služební, identifikace přihlášeného řidiče vozidla)
+                      * Zabezpečovací systémy
+                        * jsou schopné připojit k jednotce GPS i bezpečnostní prvky jako autoalarm, čidla pro detekci pohybu, spínače pro signalizaci otevření nákladového prostoru, zapojení imobilizačních prvků (vypnutí startéru, palivového čerpadla apod.)
+                      * pokročilé zabezpečovací GPS jednotky jsou vybaveny i rádiovým vysokofrekvenčním dohledáváním vozidla
+                      * eCALL
+                        * Celoevropský systém
+                        * Od r. 2018 bude povinně montován do nových vozidel
+                        * Využití linky 112
+                          * Manuální odeslání signálu (následně automatická komunikace)
+                          * Automatické odeslání signálu při nehodě (aktivace airbagu) –do 17 s (následně zpětné volání do vozidla)
+                          * Následuje vyslání příslušných záchranných jednotek
+                          * Předání infodo systému JSDI (Jednotný systém dopravních informací)
+                          * Odesílání MSD (Minimum set ofData) -standardizováno
+                          * Souřadnice, VIN vozidla, směr jízdy před nehodou
+                          * https://www.youtube.com/watch?v=A3c4--CFsA0
+                * 2.2 automatické monitorováno vozidel (AVM)
+                  * kombinací ucelených systémů s různými zařízeními, které jsou na vozidle
+                  * Elektronické tachografy
+                    * určený k identifikaci času řidiče, rychlosti jízdy, vzdálenosti a provozu vozidla
+                    * informace je zaznamenaná na speciálním schematu
+                  * Taxametry
+                    * vyvinuty na výpočet kilometrovného v taxících
+                    * jsou schopné monitorovat vzdálenost, čas, rychlost, spotřebu paliva, otáčky motoru a jiné provozní parametry
+                  * Palubní počítače
+                    * shromažďování vnitřních údajů o vozidle, které zaznamenávají do paměti pro následnou analýzu a přehled
+                    * kilometrové a rychlostní údaje, teploty oleje, motoru, vody atd.
+                    * přetočení motoru, nadměrná rychlost, nežádoucí zásahy do vozidla atd
+                    * Nejznámější současně používané elektronické systémy jsou:
+                  * antiblokovací systémy, regulace prokluzování kol, ovládání retardérů, řazení rychlostních stupňů, řízení palivových systémů, regulace pérování a tlumení pérování, řízení
+                * 2.3 identifikaci(AVI -AutomaticVehicleIdentification)
+                * 2.4 klasifikaci(AVC -AutomaticVehicleClassification)
+                  * i 2.3 !!!
+                  * technika, která identifikuje a klasifikuje vozidla procházející specifickými body např. na dálnici
+                  * nevyžaduje součinnost ze strany řidiče nebo pozorovatele
+                  * nízká cena, snadná instalace a především spolehlivost
+                  * např. automatizované čtení poznávacích značek slouží pro jednoznačnou identifikaci vozidel
+                * 2.5 vážení za pohybu (WIM -Weigh-In-Motion)
+                  * a) Systémy s ohýbající se deskou
+                    * plech vysoké odolnosti, který je možno použít pro dynamické vážení při vysoké rychlosti, pokud se umístí do prohlubně
+                  * b) Hluboké váhy
+                    * systémy hluboké prohlubně se dvěmi pravoúhlými vážícími plošinami uloženými na společných betonových základech
+        * 3. systémy řízení dopravy (ATMS -Advanced Traffic Manamegent Systems)
+              * např. kontrolní systémy k optimalizaci dopravního proudu na městských okruzích, na dálnicích, v síti MHD
+              * integrace všech podsystémů dopravní kontroly (např. signalizační, dálniční a tranzitní kontrolní systémy) a poskytnutí dynamické kontroly v reálném čase tak, aby odpovídala měnícím se dopravním podmínkám
+              * monitorování pohybu vozidel, automatické inkasování mýtného a parkovného
+              * **Preference MHD & inteligentní zastávky**
+                    * činnost směřující ke zvýšení rychlosti, plynulosti a tím i atraktivity hromadné osobní dopravy oproti dopravě individuální, zejména automobilové
+                    * Způsoby preference
+                      * zřizování úseků tramvajových drah nebo autobusových pásů
+                      * oddělování pásů od vozovky zvýšením (obrubníkem)
+                      * upřednostnění tramvají legislativní úpravou
+                      * upřednostnění pomocí světelných signalizačních zařízení
+                    * absolutní preferencí
+                    * částečnou preferencí
+                    * OLOMOUC: 
+                        * spuštěna počátkem roku 2006
+                        * financováno z velké části z fondů Evropské unie
+                        * 51 označníků na 21 zastávkách MHD
+                        * 35 křižovatek vybaveno systémem dynamického řízení
+                        * křižovatky dokáží upřednostnit zpožděná vozidla MHD před ostatními účastníky silničního provozu
+                        * ve vozovce jsou navíc položeny tzv. indukční smyčky, které registrují čekající vozidla
+                        * pokud indukční smyčka žádné vozidlo nezaznamená, ve většině případů řídící systém v tomto směru nespustí signál "volno" a upřednostní jiné směry
+                        * inteligentní zastávky
+                          * všechny vozy jsou vybaveny radiomodemem, který při zavření dveří vyšle signál o odbavení zastávky označníku na této zastávce
+                          * po přijetí signálu o odbavení zastávky se na displeji právě odbavené zastávky vymaže daný spoj
+                          * označník následně předá informaci dalším inteligentním zastávkám na trase linky, kde se případně aktualizuje čas odjezdu
+                        * "neinteligentní" zastávky
+                          * radiomodempo odbavení zastávky vydá signál na tzv. centrální bod, který je umístěn na Svatém Kopečku
+                          * centrální bod pak odešle informaci o odbavení zastávky dalším inteligentním zastávkám na trase linky
+              * **Mýtný systém v ČR**
+                    * mikrovlnný systém je založen na detekci průjezdu vozidla spalubní jednotkou (OBU)pod mýtnou bránou
+                    * cca 200 kontrolních mýtných brán
+                    * automatické porovnání a vyhodnocení skutečných parametrů vozidla súdaji vjeho palubní jednotce
+                    * využití také pro sledování dopravního proudu a detekci kolon
+                    * jednotný systém dopravních informací pro ČRa systém elektronického mýta jsou úzce propojeny
+                    * Vybudováno a spravováno fimouKapsch
+        * 4. systémy kontroly vozidel (AVCS -Advanced Vehicle Control Systems)
+              * pomůcky řidiče jako adaptivní kontrolu, varování před překážkou a smykem
+              * výkonné monitorování vozidlo-řidič
+              * přínose pro bezpečné vedení vozidla
+              * např. automatické brždění, adaptivní tempomat, kontrola jízdních pruhů -vibrace do volantu
+              * rozpoznání únavy řidiče, sledování dopravních značek, parkovací asistent
+        * 5. systémy pojízdných cestovních zařízení (AMSS -Advanced Mobile Support Systems)
+              * pomocné systémy jako například pojízdný úřad nebo systémy zábavy a vzdělávání při setrvání ve vozidle
+              * systémy pro speciální účely, které vyžadují starší a zdravotně postižení cestující
+              * **NDIC**
+                    * Národní dopravní informační centrum
+                    * centrální operační pracoviště s nepřetržitým provozem pro správu Jednotného systému dopravních informací pro ČR (JSDI)
+                    * Cílem je sledovat vývoj dopravní situace a aktualizovat a ověřovat data a distribuovat dopravní informace
+                    * Činnost
+                      * sběr, třídění a ověřování dopravních informací týkajících se silniční dopravy
+                      * zpracování a šíření informace z desítek různých zdrojů
+                      * dopravní zpravodajství rádií a televizí, online mapové aplikace, systém RDS-TMC
+                    * zdroje:
+                      * Složky (IZS): Policie ČR, Hasičský záchranný sbor, zdravotnická záchranná služba
+                      * Správci komunikací všech kategorií, střediska technické údržby
+                      * Silniční správní úřady všech úrovní
+                      * Obecní a městské policie
+                      * Celní správa
+                      * Český hydrometeorologický ústav
+                      * Vlastníci, správci a provozovatelé inženýrských sítí
+                      * Přepravci nadměrných a nebezpečných nákladů
+                    * Využity elematické systémy
+                      * Dohledový kamerový systém -více než 230 kamer
+                      * Detekce intenzity dopravy -cca 200 detektorů
+                      * Systém sčítání dopravy, detekce kolon a sledování dopravního proudu
+                      * Detekce jízdy vozidel v protisměru
+                      * Silniční meteorologický systém -cca 275 meteohlásek
+                      * Systém elektronického mýta
+                      * Systém liniového řízení provozu SOKP
+                      * Řídicí systémy tunelů, Dopravních informační centra měst
+            * **JSDI**
+                * projekt MDČR, MVČR, ŘSD ČR a řady dalších organizací
+                * prostředí pro sběr, zpracování, sdílení, distribuci a publikaci dopravních informací a dopravních dat o aktuální dopravní situaci a informací o pozemních komunikacích
+                * Hlavním cílem je informační podpora procesů pro
+                * zajištění průjezdnosti a sjízdnosti sítě pozemních komunikací
+                * zvýšení bezpečnosti a plynulosti provozu prostřednictvím vytvoření spolehlivého, funkčního, efektivního a bezpečného systému v silniční dopravě
+                * Vedlejší cíle
+                      * Zajistit průběžný, nepřetržitý sběr dopravních informací a dopravních dat o aktuální dopravní situaci
+                      * Zabezpečit, vzájemnou koordinaci postupů a procesů při bezprostředním řešení a odstraňování následků omezujících jevů nebo událostí (např. dopravní nehody, opravy a údržba, atd.)
+                      * Řízení dopravy v místě nebo úseku prostřednictvím instalovaných telematických aplikací
+                      * Zajištění podpory procesů při řešení omezujících událostí (např. optimalizace plánů zimní údržby)
+            * **RDS-TMC**
+                  * Radiodata system-TrafficMessageChanel
+                  * zobrazuje aktuální dopravní informace v mapě navigačního přístroje přímo ve vozidle v průběhu cesty
+                  * řidič je tak prakticky okamžitě informován o všech závažných událostech, které se na jeho trase momentálně vyskytují
+                  * předáváno v zakódované podobě (TMC) prostřednictvím neslyšitelného datového kanálu (RDS), který je přenášen v rámci modulace FM vysílání konkrétní rozhlasové stanice (v ČR je to ČRo3)
+                  * informace jsou kódovány v mezinárodním protokolu Alert-C, který je jazykově nezávislý
+                  * provozováno ve většině zemí Evropy
+                  * Informace o vzniku dopravní nehody se prostřednictvím tísňového volání na linky IZS (Policie ČR –158, HZS ČR –150, zdravotnická záchranka –155) nebo prostřednictvím linky řidičů ŘSD ČRdostává bezodkladně naNárodní dopravní informační centrum
+                  * informace je zpracována a ihned zařazena do vysílání služby RDS-TMC společně sostatními vysílanýmidopravními informacemi
+
+            * **alert-c**
+                  * Mezinárodní protokolu pro přenos kódovaných dopravních informací
+                  * poloha vzhledem k silniční síti
+                  * poloha vzhledem k Lokalizační Databázi
+                  * událost podle číselníku Alert-C
+                  * doba trvání události
+                  * obsahuje seznam 2048 předdefinovaných frází, které mohou být přijímačem přeloženy do různých jazyků
+                  * národní lokalizační tabulky spravovány na celostátní úrovni
+                  * integrováno do map v navigačních přístrojích
+                  * V ČR řeší CEDA
+====== geokódování, segmentace, referencování ======
+  * Cílem je určit přímou lokalizaci objektů (souřadnice), které jsou lokalizovány pouze nepřímo (adresou), něco jako nepřímé georeferencování
+  * Nutně potřebuju data z daného území kde je přímá i nepřímá lokalizace
+  * Databázovým záznamům se přiřadí souřadnice, pomocí kterých se záznam umístí do mapy Geotag = přiřadí obrázku informaci o poloze a čase, telefon to má
+  * Georeferencování = proces, při kterém je známa absolutně poloha alespoň jednoho bodu (prej 4) Dopředné / Zpětné (reverzní): ze souřadnic chci neprostorové souřadnice -> lokalitě je přiřazen nejbližší adresní bod, číslo popisné, město, stát, …
+  * Proces geokódování: vstup původních adres -> parsování adres -> tvorba vícenásobné reprezentace adres -> výběr (tvorba) adresního lokátoru -> ohodnocení každé z potenciálních shod -> filtrování
+  * seznamu kandidátů -> nalezení kandidáta s největší shodou -> propojení kandidáta s grafikou Např. proces generování vstupních dat pro síťové analýzy
+  * Pokročilá analýza volného textu -> parsování
+  * Dříve to byla pouze situace, kdy není k dispozici bodová vrstva, ale pouze liniová vrstva ulic s rozsahy domovních čísel v jednotlivých částech ulice a dovolují připojit zadané adresy -> poloha se
+  * pak určuje interpolací mezi krajními adresami
+  * Porovnávání hledaných a referenčních adres: potenciální kandidáti -> je jim přiřazeno skóre o tom, jak jsou si podobní -> pak se to uloží do „souboru všech případů pro porovnání“
+  * Parametry ArcGis: hlásková citlivost, minimální skóre pro určení kandidátů, minimální
+
+  * porovnávací skóre pro výběr správného protějšku
+  * API MAPY.CZ: služba vrací XML se z.š. a z.d. + vrací seznam firem které se na adrese nacházejí (placená reklama), žádná schopnost aproximace (neberou překlepy), bezplatné i pro komerční účely GOOGLE MAPS GEOCODING API: vrací JSON nebo XML se souřadnicemi ve WGS84 + identifikovatelné segmenty ulice, administrativní jednotky, ZIP code, bere adresy dle národní poštovní služby, dá se to implementovat do R, možné použití jenom ve spojení s Google Map a bez zobrazení výsledků v mapě je to zakázáno
+  * Nominatim od OpenStreet Map, Excel Geocoding Tool (je nutný klíč Bing Maps Key, princip makra v excelu)
+==== Lineární referencování ====
+  * kilometráž vypovídá více o poloze než znalost souřadnic (dopravní nehody, staničení vodních toků, inženýrských sítí, …)
+  * pracuje s informace o tom jak je daný liniový prvek dlouhý, v jaké části linie se nacházíme
+  * pro vytvoření takovýchto liniových prvků se používá metoda lineárního referencování, která ukládá geografickou polohu nepřímým způsobem
+  * součástí je dynamická segmentace -přiřazuje danému úseku linie určité vlastnosti
+  * pracuje s liniovými daty -upravuje tak, aby bylo možno pracovat s vytvořenou kilometráží –staničení
+  * edílnou součástí lineárního referencování je dynamická segmentace
+    * do základních liniových dat vnáší atributovou složku (povrch komunikace, nehody, počet jízdních pruhů, atd.).
+  * Hlavním principem je vytvoření nové datové vrstvy –trasy–do které je přidána informace o vzdálenosti (M –measure)
+    * Může být také čas nebo jiné jednotky
+  * Trasa je linie, která je v každém bodě, určená zeměpisnými souřadnicemi X, Y -zároveň obsahuje informaci o vzdálenosti M
+  * Každá linie musí být jednoznačná, 1 linie = 1 trasa
+  * souběžné vedení linií (např. sinice č.35 a 13, souběh tras MHD)
+  * nutné vytvořit síť, ve které na sobě může ležet i několik probíhajících linií -každá je však atributově jednoznačně určena
+  * Geometrielinie -jednolitá ale i složena z více částí
+    * může být modelována smyčkami, větvením nebo 180°otočkami
+  * Do výpočtu trasy ve většině případech vstupují známé hodnoty –staničení
+  * automatické propočítání trasyod zadaného počátku –bez znalosti staničení
+  * vychází se z nulových hodnot M na linii (označení NaN)
+  * vzdálenosti mohou narůstat lineárněnebo umělenebo mohou být hodnoty vynechány
+  * Díky vypočítaným hodnotám lze lokalizovatna trase jakýkoli bod(nehoda na x-tém kilometru) nebo část linie
+  * **počáteční priorita**:
+        * Při vzniku bez jakékoli znalosti staničení je nutné zvolit počátek –počáteční priorita(Levý horní, levý dolní, pravý horní, pravý dolní roh)
+        * Pokud máme naměřené body, staničení, např. pomocí GPS, lze využít tzv. kalibraci trasy
+          * lze využít i na již automaticky vypočtené trasy, dochází ke zpřesnění
+        * body použité pro zpřesnění výpočtu nemusí na linii ležet
+  * **dynamická segmentace**
+        * Přináší rozšířené možnostivyužití lineárního referencování
+        * Rozšiřujetrasu o události, které se k ní vztahují
+        * Události
+          * bodové (dopravní nehody)
+          * liniové (rychlost na silnicích)
+        * Výhoda dynamické segmentace
+        * možnost využití více událostí, které se vztahují k jednomu místu, relace 1:N
+        * Události jsou vždy určeny staničením (kilometráží, časem...)
+        * možnost využívat velké databáze –atributy
+        * Výsledkemdynamického procesu segmentace je dynamická vlastnost třídy
+        * proces výpočtu polohy událostí pomocí systému lineárního referencování
+        * Linie nemusí být rozdělena ale geometrie i atributy jsou je dle potřeby dynamicky segmentovány
+        * může být spojeno více atributů nezávisle na tom, kde segment končí a začíná
+        * nutné znát základní údaje, které jsou uloženy v tabulce spolu s ostatními daty
+        * Potřebujeme znát unikátní identifikátor trasy(číslo silnice, železnice,...) a staničení, kterého se daná událost týká)
+        * Tabulka událostí
+          * obsahuje informace o kvalitě a základních vlastnostech linie (typ dlažby, stav chodníku, šířka,...
+        * Dynamická funkce vrstvy se chová stejně jako všechny ostatní vrstvy
+        * Atributové indexy-indexy zvyšující rychlost načítání a vyhledávání ve velkém počtu záznamů.
+        * využití:
+              * Pasportizace technických objektů z oblasti komunikací (chodníky, povrchy vozovek...)
+              * Reprezentace nehody na komunikační síti
+                * Záchranáři, policie, železnice
+              * Pasportizace objektů na říčních tocích
+              * Modelování distribučních sítí
+        * analýzy:
+              * překryvné události
+                    * dochází k logickému sjednocení nebo průniku dvou tabulek událostí
+                    * vytvoří se nová tabulka se všemi možnostmi propojení
+                    * Jedná se o negeometrické zpracování
+                    * Lze kombinovat jak liniová tak i bodová témata
+                    * Na takto vzniklé vrstvy lze aplikovat poměrně složité dotazy
+                    * takto vytvořené tabulky je možné připojit pomocí dynamické
+              * sloučení události na trasách
+                    * odstraní redundantní informace z tabulky, tím že je sloučí –pokud to je možné
+                    * rozdělení tabulky která obsahuje více informací
+              * transformaci události
+                    * transformace hodnot M události z jedné třídy trasy do druhé
+                    * Třídy tras mohou mít různé jednotky souřadnice M (např. čas, délku)
+                    * Vytvoří se nová tabulka a vypočítají se nové hodnoty
+              * umístění prvků podél tras
+                    * vytvoří tabulku bodových (liniových) událostí z bodových prvků (z průsečíků trasy s hranicemi polygonů)
+                    * Zachovává atributy bodů (polygonů)
+                    * U bodu lze přidat pole se vzdáleností bodu od trasy
+              * jsou vhodné pro zobrazování více prvků –atributů v jednom místě
+              * Pracuje se převážně s tabulkami -atributy, které se následně prováží s trasou
+====== síťové analýzy ======
+  * http://po.licka.cz/teorie_grafu
+  * **Síť** = soubor liniových objektů, přes které proudí zdroje, 2D nebo 3D
+        * Konečný, souvislý, orientovaný, acyklický, hranově nebo uzlově ohodnocený graf
+  * **Charakteristiky linie**: délka, směr, konektivita (spojuje dva body)
+  * **Sítě**: nezorientované (se smyčkami nebo bez), orientované (se smyčkami nebo bez)
+  * Uzel (vrchol), hrana, smyčka, otevřený a uzavřený graf
+
+  * **Komponenty síťových analýz**: soubor zdrojů (materiály, které se mají v síti přesunovat), jedna nebo více lokalit (kde se zdroje nachází), jedna nebo více cílových lokalit, soustava podmínek (definují propojení sítě mezi uzly)
+  * **Multimodální síť**: skládá se z více liniových vrstev (linky MHD a metra)
+  * **Uzlová pravidla**: jestli můžu odbočit, otáčení v daném uzlu, cena průchodu uzlu (odbočení trvá dýl)
+  * **Hranová pravidla**: ohodnocení hrany (třeba ve směru/proti směru linie)
+  * **Impedance** (odpor proti pohybu hranou nebo uzlem)
+  * Mimoúrovňové křížení (neplanární uzel), planární uzel (topologické pravidlo konektivity)
+  * **Topologicky čistá síť**: linie se protínaj pouze ve svých koncových bodech, křížení linií mimo tyto body není dovoleno, určení směru pohybu po linii
+
+==== Modelování zatížení sítě ====
+
+  * Rozbor dopravní situace v případě uzavření některé komunikace, pohyb plynu na základě vlastností (průřez, sklon, kvalita povrchu)
+  * Vyžaduje identifikaci = sledování proudění přes propojení sítě 
+  * Např. všechny odběratele vody ovlivněné přerušením rozvodné sítě
+  * Po směru i proti směru
+
+==== Hledání optimálních tras ====
+  * Od počátečního ke koncovému uživateli
+  * **Optimální trasa** (nejkratší trasa přesunu, pro ISZS, trasa přesunu s minimálním oceněním – Dijkstrův algoritmus) / **Optimální okružní trasa** (problém obchodního cestujícího, čínského listonoše)
+
+==== Strom minimálního napětí (minimální kostra grafu?) ====
+   * Síť která vyhovuje třem kritériím: spojuje všechny uzly minimálním počtem spojů, kořen každého stromu je umístěn v jednom z uzlů v síti, vzdálenost mezi každým uzlem a kořenem je minimální
+   * Kruskalův algoritmus: začnu tou nejmenší a postupně jedu -> pokud vznikne kružnice, tak hranu nechci
+   * Mám odběrná místa na elektřinu a chci je propojit s použitím nejmenšího počtu drátů
+
+==== Rozdělování – alokace zdrojů ====
+  * Definice center v síti které mají kapacity (děti ve škole, kapacita nemocnic), záchranky ČR
+  * Modeluje, jak lidi přecházejí přes síť, aby se k tomu dostali
+  * Výsledek = plochy obslužné každým zařízením / určí polohu spotřebitele a současně k nim přidělí i spotřebitele
+  * **Lokační**: jak optimálně objekty rozmístit (lokalizace – určení polohy objektů) / **Alokační** (přiřazení spotřebitelů k jednotlivým zdrojům – zásobování)
+
+====== geomarketing ======
+  * obchod = prodej
+  * marketing = rozhodnutí
+    * podporující prodej, využívá GIS jako podporu
+  * geomarketing = integrace geografické inteligence do všech marketingových aspektů, včetně prodeje a distribuce.
+  * **segmentace**
+        * Proces rozdělení zákazníků do jednotlivých skupin na základě demografických ukazatelů a geografické polohy
+        * Data
+          * adresy objektů, určené s různou přesností (adresný bod, sídlo typu obec, město nebo jiná část územního celku).
+        * shluková analýza
+          * pro určení skupin, které mají uvnitř skupiny co největší homogennost, přičemž mezi skupinami existuje co největší heterogennost
+  * targeting (cílení)
+        * Navazující krok po segmentaci
+        * výběr nejvhodnějších segmentů při zohlednění strategických záměrů organizace a výsledků procesu hodnocení dalších faktorů trhu, které určují přitažlivost každého segmentu:
+          * působení konkurence v segmentu
+          * potenciál segmentu,
+          * vyjednávací síla segmentu, případně dodavatelů segmentu
+          * existence substitutů daného produktu v segmentu
+          * dostupnost segmentu
+        * Využití multikriteriální analýzy, doplněné o řešení úloh lokačního charakteru
+  * market intelligence (MI)
+        * standardizovaný systém sběru dat a jejich komplexní analýza zaměřená primárně na budoucnost
+        * rozčlenění trhu do 5 C:
+          * Company(společnost)
+          * Competitors(konkurenti)
+          * Clients(klienti)
+          * Customers(zákazníci)
+          * Context(kontext)
+        * výstupem je implementace získaných poznatků do praxe
+        * parametry produktu je pak možné nastavit tak, aby bylo dosaženo optimálního poměru mezi náklady na produkt, cenou produktu pro konečné uživatele a objemem prodeje
+  * **direct mail**
+        * součástí direct marketingu (přímého marketingu)
+        * jedná se o jakýkoliv propagační materiál zaslaný prostřednictvím pošty nebo jiné distribuční sítě přímo osobě, které chce prodejce nabídnout svůj produkt
+        * Doručováno pomocí letáku, dopisu, pohlednice, katalogu, ceníku, atd.
+        * Distribuce
+          * Adresná distribuce -určeno přímo adresátovi a materiál obsahuje adresu adresáta a většinou i oslovení v dopise bývá přímo personifikováno
+          * Neadresná distribuce -určen širokému spektru zákazníků, neoslovuje se napřímo (např. leták)
+    * **geomarketing**
+          * plánování, koordinacea kontrolazákazníkovy orientované marketingové aktivity pomocí GISs použitím metod, které pracují s prostorovými souvislostmi zkoumaných údajů a které je analyzují a znázorňují
+          * má vliv na rozvoj obchodu, vzbuzení poptávky, zasahuje do výrobku, jeho ceny, propagace i distribuce
+          * 4P–marketingovýmix
+            * Výrobek:uspokojuje potřeby zákazníka
+            * Cena:hodnota výrobku pro zákazníka
+            * Propagace:nejviditelnější částmarketingového mixu
+            * Distribuce:přemístění výrobku od výrobce k zákazníkovi
+    * **Teorie centrálních míst**
+          * základní předpoklady:
+            * prostor, ve kterém se nachází osídlení, je  homogenní se stejnou mírou dopravní dostupnosti v každém bodě
+            * populace je v prostoru rozmístěná rovnoměrně
+            * centrální místa poskytují zboží, služby a administrativní funkce jejich zázemí
+            * spotřebitelé minimalizují svoji cestovní vzdálenost, mají stejný příjem a stejné požadavky na služby
+            * poskytovatelé služeb se snaží pokrýt co největší možnou oblast trhu
+    * **Ekonomický práh efektivnosti**
+          * každé město má své zázemí a je tedy střediskem určitéh prostoru (centrálním místem)
+          * centrum by mělo být lokalizováno přibližně v geometrickém
+středu oblasti
+          * malá sídla (centra nižšího řádu) produkují pouze omezený sortiment zboží a mají menší zázemí (spádovou oblast)
+          * pro získání chybějícího zboží musí obyvatelé využívat mnohem vzdálenější centra (centra vyššího řádu)
+          * význam centra se hodnotí podle tzv. centrality, tedy dle rozsahu poskytovaných služeb nebo zboží, podle kterého se určí hierarchie centrálních míst
+          * čím častější je potřeba daného zboží, tím bližší je centrum jeho poskytování a tím nižšího řádu město je
+    * **Sféry vlivu (obslužné zóny)**
+          * kolem každého centra
+          * ovlivněno časovou dostupností a dopravními náklady
+          * souvisí stzv. dosahem služby a s ekonomickým prahem efektivnosti
+          * Prah efektivnosti
+            * počet obsloužených obyvatel, který určuje, zda je dané centrum ziskové nebo naopak ztrátové
+          * Dosah (horní hranice dosahu)
+            * označuje maximální vzdálenost, kterou jsou lidé ochotni cestovat za danou službou a za kterou již nebude výhodné nakupovat
+    * **Izotropní x anizotropní prostředí**
+          * ideální homogenní (izotropního) prostředí prakticky neexistuje
+          * vliv celé řady faktorů na tvar obslužných zón
+          * snaha zachovat výhodný hexagonální tvar
+          * v GIS obvykle označeno jako „Thiessenovy polygony“
+          * •mnoho dalších způsobů vymezování spádových zón
+    * **Tržní princip (K-3 hierarchie)**
+          * centrální místa stejného řádu jsou stejně vzdálena od šesti dalších centrálních míst sousedních zón, mají přibližně stejnou velikost a obsluhují přibližně stejně velké oblasti, které mají tvar hexagonu
+          * centra nižšího řádu leží uprostřed mezi třemi sousedními centry vyššího řádu v bodech, kde se stýkají jejich zázemí
+          * každé centrum vyššího řádu zahrnuje všechny funkce center nižších úrovní
+          * každé centrum vyšší velikosti obsluhuje 3xvětší území než centrum o řád nižší
+          * **Dopravní princip**
+                * při umisťování center nižšího řádu bude upřednostňována poloha na dopravních spojnicích stávajících center, a proto vzniknou centra nižšího řádu vždy uprostřed mezi dvěma sousedními centry (K -4 síť)
+          * **Administrativní princip**
+                * centra nižšího stupně budou vytvářena tak, aby celé jejich zázemí leželo v zázemí centra vyššího řádu (K -7 síť)
+    * **Löschova teorie**
+          * zachoval hexagonální síť, postupoval od sídel s nejnižší hierarchií k sídlům na nejvyšší úrovni
+          * pro různé druhy zboží a služeb model využívá různě velké sítě, sítě jsou přes sebe překládány do uspořádané podoby
+          * každé centrální místo vyšší hierarchienemusí nabízet všechny služby jako místo na nižším stupni
+          * dochází tedy ke specializaci a rozdílu ve struktuře produkce a nabídky
+          * výsledkem je struktura s jedním společným dominantním centrem, z něhož vychází prostorové výseče s různým počtem center nižších řádů
+    * **Generování spádových obvodů v ArcGIS**
+          * Buffer –vzdálenostní zóny
+            * kružnice o daném poloměru
+            * pro volné prostory bez komunikací a vodních toků
+          * Zóny vyrovnané konkurence (Thiessen/Voronoi polygony)
+            * plochy vlivu kolem každého ze stupních bodů
+            * všechna místa vpolygonu mají blíže ke vstupnímu bodu uvnitř polygonu než ke kterémukoliv jinému vstupnímu bodu
+          * Síťové analýzy vsilniční síti
+            * obslužné plochy na základě skutečné dostupnosti vsilniční síti
+    * **Data pro geomarketing**
+          * Geografická data –podkladová data
+          * Geomarketingová –statistická, tematická data
+          * databáze: Relevantní a kvalitní data,Dotazníková šetření,Klientské databáze,ČSÚ–data ze SLDBAdresní body –ÚIR-ADR,Hranice administrativních jednotek –ZSJ, katastry, obce, ORP, …
+          * **Geomarketingová data**
+                * PRŮZKUM TRHU
+                  * Agenturní –pravidelné, průběžné informace o prodeji, nákupu, distribuci.
+                  * Kvantitativní –osobní rozhovory, dotazníky.
+                  * Kvalitativní –skupinové rozhovory, projekční techniky.
+                * KLIENTSKÉ DATABÁZE
+                  * Účetní software
+                  * Pokladnovýsystém –zaznamenání PSČ zákazníka
+                  * Věrnostní systém –automatický, plynulý sběr dat
+                * KOMERČNÍ DATABÁZE
+                  * Databáze firem
+                  * Údaje Statistického úřadu ČR
+                  * Jiné specializované databáze –UIR-ADR
+          * využití geomarketingu
+                * operativní využití pro každodenní uplatnění ve firmě
+                * taktické využití a podpora managamentu při rozhodování, vyhodnocování a plánování střednědobých projektů
+                * strategické využití pro sledování trhu, kontrola strategických oblastí
+                * analýza konkurence, analýza potenciálních zákazníků
+                * predikce potřeb zákazníků
+                * rozmístění reklamních billboardů na základě statistických dat
+                * vyhodnocování prodeje produktů na daném teritoriu
+                * plánování direct marketingové a marketingové akce
+                * efektivní řízení obchodních zástupců
+                * vyhodnocování spádovosti zákazníků
+                * plánování a vyhodnocování plošné distribuce letáků apod
+                * analýzy trhu: Analýzy trhuDemografické analýzy,Socioekonomické analýzy,Analýzy zákazníků,Analýzy konkurence,Plánování rozšíření obchodních aktivit,Analýzy ekonomického potenciálu území,Analýzy obchodní sítě,Analýzy logistiky a rozvozů zboží,Lokalizace nových pobočekAnalýza a lokalizace spádových oblastí,Analýza distribučních zón
+                * analýza trhu: porozuměním trhu a potenciálním zákazníkům vdané oblasti pro správné využití svých produktů, řeší otázky nabídky bank,(finanční produkty, služby,zákaznické služby n,pobočkách či pomocí ATM) a poptávky –zákazníka, využití geo-demografických analýz
+                * analýza zákazníků: hlavním úkolem je lokalizace zákazníků a zjištění jejich charakteristik (rozdělení trhu, klasifikace obytných zón), využití socio-demografických informací, využití lokační/alokační analýzy
+                * analýza konkurence: lokalizace konkurence a vyhodnocení jejich obslužných zóny, vyhodnocení typu zákazníků, zjištění potenciálních slabých místa (ve smyslu slabé obslužnosti vprostoru)
+                * Podpora rozhodování při plánování: testování různých scénářů možného vývoje trhu po zavedení pobočky (tzv. „whatifscenario“), modelování uzavření nebo otevření poboček, sledování interakce mezi land use, možnostech infrastruktury a vzdáleností (např. od železnice, zdrojů vody, hlavní silnice, apod.) a ekonomického růstu
+                * Sledování majetku (asset & facility management): real-time mapování (sledování aktuálního stavu bankomatů, řízení doplňování bankomatů nebo jejich oprava vpřípadě závady), odhadování pohybu peněz, predikce logistiky, sledování posádky, která převáží peníze zpobočky či kbankomatu, plánování tras -síťové analýzy
+                * Analýza obchodních dat: Analýza pomocí jednoduché vizualizace nebo pomocí statistických metod, Analýzy:prodeje, obratu, hustoty obyvatel, kupní síly apod)
+                * Zobrazení potenciálu území/ míry výtěžnosti území: Zjištění potenciálu řešeného území ve vztahu k obchodním datům, "Portfolio analysis"-porovnání dat v regionálním kontextu, odhalování slabých míst, Penetrace x potenciál
+
+
+  * **Mozaika**
+        * Geodemografickáklasifikace domácností
+        * poskytuje komplexní marketingový obraz domácností –stávajících a potenciálních zákazníků
+          * kdo a čím jsou, jak a kde žijí, kolik jich je
+          * pomocí statistických metod rozděluje a popisuje české domácnosti do 11 skupin a 38 typů domácností
+        * rozděleno do úrovně mikroregionů –sčítacích okrsků
+        * požadavky a přání obyvatel uvnitř každého takového segmentu a z toho plynoucí následné nákupní a spotřební chování jsou podobné a rozlišitelné od potřeb a požadavků obyvatel v jiných segmentech
+
+  * firmy:
+        * tnt post, t-plan, t-mapy
+
+====== analýzy, modelování, simulace ======
+
+==== GIT v územním plánování ====
+  * Územní plánování je často založeno na zkušenostech a odhadech a nikoliv na výsledcích prostorových analýzy, modelování či simulací
+    * Identifikace vhodných x nevhodných lokalit pro územní rozvoj
+    * Zacílení rozvoje měst do nejoptimálnějších lokalit
+    * Celulární automata, multikriteriální hodnocení, fuzzy logika, …
+    * Modelování, simulace, prognózy vývoje, scénáře vývoje
+    * využití:
+          * zastavěné plochy
+          * černá zástavba, neřízené rozrůstání města - urban sprawl
+          * brownfields
+          * sledování tepelných ztrát
+          * sledování změn land-use/land cover
+          * časová analýza rozvoje měst
+          * tvorba 3D modelů zástavby
+          * mapování dopravních a inženýrských sítí
+          * vyhodnocení a predikce vývoje a funkčního využití okolní krajiny
+          * monitoring urbanizačních procesů
+          * monitoring a odhad rozložení obyvatelstva
+          * vymezování prostorových struktur měst
+          * průzkum zaniklých sídel
+    * lidar
+    * Pohyb obyvatelstva
+          * Vizualizace Říma v reálném čase
+          * Real Time Rome
+          * data z mobilních telefonů, data z přístrojů GPS v autobusech a taxi
+          * lepší a přesnější porozumění pohybu obyvatelstva v čase
+          * informace o dynamice města, o propojenosti jednotlivých oblastí a pohybu obyvatelstva v různých denních dobách
+          * strategické plánování, trvale udržitelný rozvoj měst
+          * propojenost mezi lidmi, místy a městskou infrastrukturou
+          * Informace o:
+            * jak jsou obydlené jednotlivé čtvrtě během dne
+            * jak odpovídá rozložení vozů taxi a autobusů hustotě obyvatelstva
+            * jak jsou ve městě rozmístěné nejrůznější služby
+            * v jakých lokalitách se nachází zahraniční turisté
+==== vybrané modely a sw ====
+  * LUCIS
+        * Land use Conflict Identification Strategy
+        * ArcGIS – Model Builder
+        * Optimální využití krajiny
+          * zemědělská
+          * Přírodní
+          * urbanizovaná
+        * Identifikace lokalit potenciálního konfliktu
+  * What if?
+        * Nástroj který využívá prostorová data k podpoře plánování urbanistických procesů a ke kolektivnímun rozhodování
+        * Obsahuje nástroje pro hodnocení krajinného potenciálu, pro projektování požadavků na budoucí využití území a na umisťování plánovaných funkcí do nejvhodnějších lokalit
+        * Systém umožňuje vytvořit alternativní rozvojové scénáře a určit možné dopady různých rozhodnutí společnosti
+        * Skládá se ze 3 hlavních komponent – Suitability (vhodnost), Growth (růst) a
+        * Allocation (přidělení)
+  * LADSS
+        * Land Allocation Decision Support System
+        * Zaměřeno na zemědělskou půdu
+        * Rozděleno do několika modulů
+        * výsledek : plochy navržené pro změnu využití nebo pro přesun
+  * Geogracom 5W
+        * Zaměřen na rozvoj dopravních systémů
+        * Založen na datech o aktuální dopravní situaci
+        * Výsledek: jak rozvíjet dopravní sítě, doporučení k jejich změnám
+        * Doprava je jedním z nejdůležitějších faktorů rozvoje území
+  * Urban SIM
+        * Urban Simulation
+        * University of Washington
+        * Softwarově založený simulační model pro analýzu urbánního rozvoje
+        * GNU General Public License
+        * Tvorba možných scénářů vývoje krajiny a srovnání mezi nimi
+        * Softwarově založený simulační model pro analýzu urbánního rozvoje
+        * GNU General Public
+License
+        * vorba možných scénářů vývoje krajiny a srovnání mezi nimi
+  * GeoPlanner for ArcGIS
+        * Webová aplikace od Esri
+        * Umožňuje provádět scénářové modelování pomocí multikriteriální analýzy
+        * Omezené možnosti vstupních dat, analýz a počtu vážených vrstev
+        * Provázanost s ArcGIS Online
+  * MUSE
+        * Method of Urban Safety Analysis and Environmental Design
+        * Metodu analýzy, návrhu a simulace města v prostředí GIS, ve kterém jsou městské fyzikální elementy definovány jako součásti organického systému
+        * Postaveno nad ArcView 3.x a na 3D and Spatial Analystu
+        * Simulace města
+        * Město složeno z částí organického systému převedeného do GIS (cesty, hrany, oblasti, uzly, orientační body)
+  * SUDSS
+        * Spatial Understanding and Decision Support System
+        * Internetově založený software
+        * Nástroj pro zónování využití území, management zdrojů a rozvoj veřejné správy
+        * Založeno na ESRI Map Objects
+        * Možnosti multiuživatelského hodnocení
+        *  Možnosti multikriteriálního hodnocení
+  * DUEM
+        * Cellular Automata modelování
+        * simulování růstu měst a výzkum rozvoje urbánních ploch
+        * definována kritéria, na základě kterých dochází ke změnám využití půdy a určitým životním cyklům pro jednotlivé kategorie využití
+        * 3 prostorové úrovně
+        * horší propojenost s GIS
+  * Urban Network Analyst
+        * City Form Research Group – výzkumná skupina z Massachusetts Institute of Technology (MIT)
+        * toolbox pro ArcGIS sloužící pro analýzu urbánních sítí, nutný Network Analyst
+        * Analýza prostorového rozložení města a vztahů uvnitř sociálních, ekonomických a environmentálních procesů
+          * Analýza geometrie a vzdálenosti ve vstupní síti
+          * Začlenění budov podél sítí do výpočtu
+          * Přiřazování vah budovám (např. podle počtu obyvatel)
+          * analýzy: Dosažitelnost (Reach), Přitažlivost (Gravity), Spojitost (Betweenness), Blízkost (Closeness), Přímost (Straightness)
+
+=== smart city ===
+  * maximální využití moderních technologií, především informačních, pro ovlivňování kvality života v daném městě takovým způsobem, aby docházelo k synergickým efektům mezi různými odvětvími (doprava, logistika, bezpečnost, energetika, správa budov, atd.) s ohledem na energetickou náročnost a kvalitu života občanů v daném městě
+
+  * Moderní technologie – čidla, sensory, sítě, internet, smart grids, inteligentní budovy, cloud computing, big data, internet věcí, atd..
+
+  * **úrovně:** 
+      * organizace a plánování, pro něž informační technologie umožňují získat a zpracovat potřebná data
+      * komunitní život, v němž pomocí elektronických informačních systémů může vedení města s občany bezprostředně komunikovat, a získávat tak od nich potřebné informace i odezvu na své řízení města
+      * infrastruktura, především energetika, doprava, městské služby a budovy a jejich „inteligentní“ řízení pomocí informačních a komunikačních technologií
+      * výsledná kvalita života a atraktivita města, která je konečným cílem zavádění konceptu smart city, je v mnoha ohledech subjektivní, a tudíž obtížně měřitelná
+  * Inteligentní mobilita
+      * řízení a regulace dopravy ve městě (včetně cyklistiky a dopravy v klidu) pomocí dopravní telematiky, administrativních opatření i plánovitého rozvoje městské dopravní infrastruktury
+      * podpora uživatelsky příjemné hromadné dopravy jako plnohodnotné alternativy k dopravě individuální
+      * podpora zavádění ekologicky čistých pohonů v dopravě hromadné i individuální (např. rozvoj elektrické MHD, dobíjecí infrastruktura pro elektromobily nebo systémy car sharingu)
+  * Inteligentní energetika a služby
+      * podpora využívání obnovitelných zdrojů energie nebo kombinované výroby elektřiny a tepla a jejich bezpečná integrace do městské energetické sítě
+      * inteligentní řízení spotřeby energie, včetně energetického hospodářství budov a podpory jejich energeticky úsporných řešení
+      * inteligentní řízení městských služeb směrem k efektivnímu využívání energie a přírodních zdrojů – především energeticky úsporné veřejné osvětlení, efektivní odpadové hospodářství a efektivní hospodaření s vodou
+  * Informační a komunikační technologie
+      * systémy inteligentního řízení veřejného osvětlení a dalších městských služeb
+      * systém inteligentního řízení spotřeby energií a vody
+      * monitorovací a bezpečnostní systémy pro ochranu majetku a občanů ve městě, včetně požární signalizace a monitoringu životního prostředí
+      * monitorovací a diagnostické systémy pro včasnou detekci poruch v městské infrastruktuře
+      * inteligentní platební systémy v městských službách (například veřejná doprava nebo parkování)
+      * informační systémy pro ochranu a monitoring vážně nemocných a zdravotně postižených občanů, aj.
+====== urban planner ======
+  * počáteční vývoj na Univerzitě Palackého v Olomouci
+  * nástroj určený pro vyhodnocení územního potenciálu a k detekci optimálních ploch vhodných pro územní rozvoj
+  * výpočet územního potenciálu ve variantním řešení
+  * nastavení hodnot a vah ve třech úrovních
+    * pilíře (ekologický, sociální a ekonomický), faktory, jevy
+  * identifikace ploch pro územní rozvoj převod do katastrální mapy nebo vlastních alokačních jednotek
+  * Add-In ArcGIS for Desktop 10.x
+  * vstupní data:
+        * Podporované formáty vstupních dat
+          * File Geodatabase - *.gdb
+          * Personal Geodatabase - *.mdb
+          * ESRI Shapefile - *.shp
+        * Podporované datové modely ÚAP:
+          * DMG ÚAP 4.2 (Hydrosoft Veleslavín)
+          * ÚAP 3.3, 3.2, 3.12, 3.0, 2.0 (T-MAPY)
+          * Datový model Olomouckého kraje
+          * Data v libovolném datovém modelu (bez možnosti automatického načítání dat)
+        * Podporované formáty výstupních dat
+          * File Geodatabase
+        * typy využití ploch: bydlení, rekrease, komerční vybavenost, těžký průmysl, lehký průmysl a skladování, zemědělstká výroba
+  * ekologický pilíř:
+        * Ochrana vodního režimu, Ochrana přírody a krajiny, Ochrana nerostného bohatství, Ochrana zemědělské půdy a lesa
+  * Ekonomický pilíř
+        * Hustota zalidnění, Radonové riziko, Zásobování elektrickou energií, Zásobování pitnou vodou, Zásobování plynem, Odvádění odpadních vod, Zásobování teplem, Optické kabely, Vzdálenost od komunikace, Vzdálenost železnice, Riziko záplav, Geologická rizika
+  * sociální pilíř
+        * Dostupnost mateřské školy, Dostupnost základní školy, Dostupnost prodejny potravin, Dostupnost přirozených a historických center, Dostupnost zastávek autobusů a MHD, Dostupnost vlakových stanic a zastávek, Vzdálenost významných vodních tokůZnečištění ovzduší, Vzdálenost producentů hluků a vibrací, Hustota zalidnění, Radonové riziko, Ochrana kulturních a sociálních prvků
+
+
+----
+  * **Váhy faktorů**
+        * **Metoda podpory rozhodování AHP (Analytický hierarchický proces)**
+            * multikriteriální analýza - výčet prvků (faktorů), a vazby mezi nimi a intenzitu
+            * strukturovaná technika pro organizaci a analýzu rozhodování
+            * založena na matematice a psychologii - sestavena Thomasem L. Saatym
+            * pomáhá zjednodušit a zrychlit přirozený proces rozhodování.
+            * metodou rozkladu složité nestrukturované situace na jednodušší komponenty
+            * vytváří hierarchický systém problému
+        * **Saatyho metoda**
+            * nevyžaduje se přímé zadávání hodnot intenzit
+            * požadavek na zadání relativních poměrových údajů
+            * zadává pouze informace o vzájemném vztahu všech dvojic kritérií
+            * potom jsou váhy kritérií vypočteny
+            * na každé úrovni hierarchické struktury se použije tzv. Saatyho metoda
+            * pomocí subjektivních hodnocení párového porovnání - přiřazuje důležitost
+            * syntéza – zaměření se na komponentu s nejvyšší prioritou
+            * ohodnocení - 9 bodová stupnice nebo jen mezistupně (hodnoty 2, 4, 6, 8)
+
+  * datový správce:
+        * t-mapy, hydrosoft
+  * Praktické nasazení
+        * analýza a interpretace územního potenciálu
+        * alokace ploch vhodných pro rozvoj
+        * variantní - scénářové výpočty
+        * rozbor udržitelného rozvoje území v několika možných scénářích rozvoje
+        * detekce a ověřování vhodnosti rozvojových ploch
+        * SWOT analýzy
+  * Zpracování analýz pro
+        * územní studie
+        * územní plány
+        * zásady územního rozvoje
+        * územně analytické podklady
+        * geografické studie
+  * Hlavní výhody
+        * automatické načítání dat dle zvoleného datového modelu ÚAP
+        * tvorba uživatelských profilů a jejich přenositelnost
+        * ukládání uživatelských profilů a parametrů výpočtů do databáze
+        * tvorba vlastních kategorií využití území úprava nastavení vah
+        * uživatelské zařazování faktorů do jednotlivých pilířů udržitelného rozvoje
+
+
+

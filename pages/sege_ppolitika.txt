@@ -1,0 +1,275 @@
+  * de jure
+    * hranice vymezené právními akty
+  * de facto
+    * kulturní regiony, regiony separastických hnutí
+
+**Politický region** je úsilí člověka o politickou organizaci prostoru. Dům a pozemek pro jednotlivce, rodové teritorium, kmenové teritorium ...
+
+====== stát jako základní politický region ======
+
+==== stát ====
+
+    * obyvatelstvo
+    * státní moc
+      * zabezpečuje ať všechno funguje
+      * může použít i donucovací sílu (jako jediná legálně, jakože vězení, ne nikoho zastřelit. Teda jak kde)
+      * organizuje společenské vztahy a zajišťuje obranu
+      * nositelem takové moci je **státní orgán**
+      * úřady, soudy, parlament, armáda
+      * **zákonodárná, výkonodárná a soudní moc**
+        * v demokratickcýh zemím by měly správně být nezávislé na sobě, neovlivňovat se a vzájemně se kontrolovat. Rath...
+        * zákonodárná - parlament, výkonodárná - hlava státu, parlament, soudní
+      * **organizace státní moci**
+        * republika, monarchie, demokracie, totalitní státy
+      * **FSI (failed state index)**
+        * zhroucené státy
+        * Jižní Súdán, Somálsko, SAR, Kongo, Sýrie (prostě Afrika střední tam někde a Írák, Írán, Afhgánistán, Sýrie a tam okolo)
+    * území
+    * hlava státu, státní vlajka, státní hymna, státní znak, státní jabko
+==== státní suverenita, nezávislost ====
+   * nezávislost moci jak uvnitř tak vně státu
+   * **vnější suverenita**
+     * nezávislost státu na jiných státech
+     * musí být uznán
+   * **vnitřní suverenita**
+     * že státní moc funguje nezávisle na jiné moci uvnitř státu
+
+  * **nezávislé státy**
+    * mají státní suverénní moc
+    * vystupují jako objekt mezinárodního práva
+  * závislá území
+    * jsou zastupovány jiným a to nezávislým státem
+  * mezinárodní prostory
+    * území co nepodléhají ničemu
+  * sporné případy
+    * Vatikán, ten nepatří do OSN, ale je nezávislý (taky Maltézský řád třeba)
+    * Západní Sahara, Tchajwan, Palestina, Kosovo
+    * Severní Kypr a Somaliland se snaží otrhnout, ale řeší to jenom politicky
+    * Kosovo už je ale uznané
+    * To samé Jižní Abcházie, Jižní Osetie a Jižní Súdán (nejnovější státy, 2011, 2008 a Abcházie snad 1992?)
+    * 
+=== závislá území ===
+  * kolonie
+    * osídlenecké
+      * třeba Austrálie (1770 myslim)
+      * přistěhovalci, co vytlačili aborigince
+    * okupační
+      * pouze politické ovládnutí
+      * většina území v Africe
+    * smíšené
+      * přijeli tam, množili se mezi sebou
+      * Latinská Amerika
+    * plantážní
+      * do Karibiku dovezli Afričany a otroky a tak a nechali je tam makat
+
+
+=== mezinárodní území ===
+  * Antarktida
+    * od 60 stupňů j.š.
+  * mezinárodní prostor
+  * kosmický prostor
+
+   * mezinárodní vody
+     * lodě spadají pod tu jurisdikci, pod kterou vlajkou plují
+     * jenom piráti a tak, tak tak ty může zastavit kdokoliv
+   * mezinárodní řeky
+     * byly znárodněny
+     * Dunaj, Kongo, Rýn, Odra
+
+
+==== státní území ====
+  * všechna pevnina včetně jezer, řek a kanálů
+  * části moře přiléhající k pobřeží státu
+  * geologický podklad a pobřeží moře
+  * vzdušný prostor i nad mořem i nad pevninou
+  * lodě, třeba Husův dům v Kostnici atd...
+
+<WRAP center round box 60%>
+Woohoou. Když jsem vlastník půdy, tak mi žádná zem vlastně nepatří. Patří mi jenom ta srvchní část a ložiska patří pořád státu. Jasný.
+</WRAP>
+
+  * vzdušný prostor
+    * letadla jsou ve vzdušném, družice už v kosmickém
+    * cca 100 km 
+    * ledadla potřebují povolení pro přelet nad územím
+    * letová hladina bojových letadel (20 m)
+  * geologický podklad
+    * stejně se nejhloub provrtalo do 12 221 km cca, takže to víc nemá cenu řešit
+  * moře
+    * aby nebyli na dostřel pobřežních děl
+    * základní linie
+      * je to linie největšího odlivu, nebo spojím výčnělky pevniny
+      * vnitřní vody = mezi základní linií a pevninou, + jezera, rybníky, řeky
+    * linie podél pobřeží, linie uzavírající zálivy (to je ten polokruh)
+    * za základní linií už si státy můžou něco nárokovat
+  * pobřežní moře / výsostné vody
+    * 12 námořních mil
+    * i geologický podklad i vzdušný prostor
+    * lodě tam můžou proplouvat (ale jenom proplouvat, jinak nic)
+  * přilehlá zóna
+    * zase max 12 mil od pobřežního moře
+    * už není součástí státního území
+    * vzduch a šutry jsou mezinárodní
+    * ale stát si tam může provádět celní nebo migrační kontroly
+  * výlučná ekonomická zóna (EEZ)
+    * max 200 mil od základní linie!
+    * stát tam má výhradné právo ekonomického využití (těžba, rybolov a tak)
+    * může to pronajmout nebo prodat jinému státu
+  * volné moře
+    * za EEZ
+
+
+  * souostrovní státy
+    * mají hranice souostrovních vod (do 100 mil dlouhé)
+    * ale uvnitř je pokojné proplutí
+
+===== vlastnosti státního území =====
+  * geografická poloha (absolutní a relativní - relativní je např izolovanost nebo hospodářská aktivita ostatních států a tak)
+  * tvar státního území
+    * podlouhlé - Chile
+    * kompaktní - Polsko
+    * proruptivní - Indie
+    * dělené - INdonésie
+    * perforované - Chorvatsko? S enklávami. Itálie.
+  * Wagnerův index
+    * skutečná a teoreticky nejnižší plocha hranic
+    * 1 je kruh
+    * Svazijsko má nejmíň, Maledivy nejvíc
+  * koeficient teritoriální kompaktnosti
+    * plocha území / plocha kruhu opsaného územím
+
+===== zisk a ztráta území =====
+==== prvotní nabytí ====
+  * prvotní okupace
+  * akcese
+    * přirozený, Surtsey (1963 Island) je v UNESCO
+  * akrescence
+    * umělé
+    * Dubaj, Nizozemsko vysouší moře
+
+==== druhotné nabytí území ====
+  * cese
+    * národní smlouva, třeba Hlučínsko po WWI, USA koupilo Aljašku, nebo Floridu (od španělů)
+  * abjudikce
+    * mezinárodní soudní dvůr řekne komu to připadne protože oni se furt akorát hádají
+    * Těšínsko pro ČR
+  * vydržení
+    * když se nějaký stát dlouho stará o to území
+    * dlouhodobé vykonávání státní moci
+    * Švédsko tak dostalo něco
+
+  * anexe
+    * když s tím obyvatelé nesouhlasí
+    * ale obyvatelé získávají občanství nového státu ale nejsou pod ochranou válečného práva
+  * okupace
+    * vojensky to obsadím
+    * to území furt ale není moje
+    * ale lidi jsou pod ochranou válečného práva
+
+===== státní hranice =====
+  * terra nullis = země nikoho
+
+==== stanovení hranic ====
+  * alokace
+  * delimitace
+    * zobrazení na mapách velkých měřítek
+  * demarkace
+    * hraniční kameny, sloupy, bóje
+  * administrace
+    * údržba
+
+=== zásady vytyčování hranic ===
+  * na nesplavných řekách po středu toku
+  * na splavných středem kudma pluje ta loď
+  * v pohořích po rozvodnici
+  * jezera stejně vzdálená od všech států ta čára
+  * vodní hranice jsou pohyblivé
+
+=== typologie hranic ===
+  * přírodní hranice
+  * umělé hranice
+    * vlámové avaloni v belgii žeo
+    * geometrické hranice
+    * astronomické hranice (v USA to maj)
+
+
+  * antecedentní hranice
+    * hranice jsou starší než obyvatelstvo
+    * takže obyvatelé se museli přzpůsobit hranicím
+  * subsekventní hranice
+    * hranice mladší
+    * konsekventní
+      * na základně etnického složení
+  * asekventní
+    * hranice navzdory všemu
+    * v Africe třeba
+
+===== volby =====
+==== druhy voleb ====
+  * přímé
+  * nepřímé
+
+  * všeobecné - volí se všeci- jako poslanecká sněmovna
+  * dílčí - volí se část - jako senát
+  * doplňovací - když někdo umře
+
+  * řádné
+  * mimořádné
+
+==== volební právo ====
+  * všeobecné, rovné, tajné (můžou volit všichni, všichni mají stejnou váhu hlasu, všichni volí tajně)
+
+==== volební systém ====
+  * většinový volební systém
+    * starší
+    * rozdělí se území na tolik obvodů, kolik mám míst a z každého volebního obvodu se pak zvolí jeden kandidát
+    * jenom pro volbu jednotlivců
+    * systém relativní většiny : ten, co dostal prostě nejvíc hlasů
+    * systém absolutní většiny: dvě kola, nadpoloviční většina
+    * systém alternativního hlasu: bez druhých kol, zaškrtávám preference (Austrálie)
+  * poměrový volební systém
+    * menší počet volebních obvodů než kolik je volných míst
+    * volí se víc kandidátů
+    * pro volbu kolektivních orgánů
+    * kandidátní listiny přísně vázané
+      * pouze listinu politické strany volím, ale pořadí kandidátů neovlivním
+    * kandidátní listiny vázané
+      * můžu to ovlivnit preferenčními hlasy (to je čr)
+    * volné kandidátní listiny
+      * můžu koho chci odkud chci
+      * obecní volby
+
+==== geografické vlivy na hlasování ====
+  * efekt kandidáta
+  * efekt sousedství
+  * efekt kampaně
+  * hlasování o sporném bodu
+
+
+==== vlivy vymezení volebních obvodů a přepočtu hlasů ====
+   * nojo, přepočítané hlasy
+   * velká strana v praze připadne na poslance třeba jenom 5 % hlasů, ale někde v Liberci (tam se totiž volí jenom 5 poslanců) to bude prostě 20 %
+   * uzavírací klauzule - u nás 5 % 
+
+  * **stanovení hranic volebních obvodů**
+    * mallaportionment
+      * nestejná velikost volebních obvodů -> nestejná váha jednoho hlasu
+      * udělali to Němci 1906, zvýhodnili se o 8 míst v Říšské radě
+    * gerrymandering
+      * chci mít stejně velké volební obvody -> manipuluju s hranicema
+      * salamander a gerry co to vymyslel :D :D -> proto gerrymandering
+      * mám Ačka a Bečka, 6x5, rozdělím to jinak a zvýhodním Béčka
+
+
+
+
+
+
+
+
+
+
+
+
+
+

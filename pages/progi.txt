@@ -1,0 +1,81 @@
+  * Daň- nedobrovolná, povinná, vynutitelná, nenávratná, neekvivalentní, neúčelová; financování veřejného sektoru
+  * Daňový systém- konstantní- sazba daně pro všechny stejná; progresivní- čím vyšší daňový základ, tím vyšší %sazba; regresivní- vyšší daň základ, %sazba klesá
+  * Přímá daň- platí poplatník na svůj účet (z příjmu, dědická, darovací, z převodu nemov, z nemov, silniční; daň nepřímá- platí plátce daně na účet poplatníka (spotřební- tabák, alkohol, pohonné hmoty, DPH, ekologická)
+  * DPH- základní 20%, snížená 14%; pokud po 12 po sobě jdoucích měsících překročí obrat 1 mil, nakupuje zboží z EU nebo od zahraniční osoby
+  * Mzda- hrubá- 6,5% sociální pojištění, 4,5% zdravotní pojištění= čistá mzda; superhrubá mzda- hrubá mzda+ zdravotní pojištění 9%, sociální pojištění 25% (strhává se z ní 15% záloha na daň z příjmů)
+  * Sociální zdravotní pojištění- podpora v nezam, nemocenská, lékařské ošetření a péče
+  * OSVČ- platí daně až zpětně za celý rok, snižuje si daň o vynaložené náklady (paušál 40% autorská činnost, 60% volné živnosti, 80% řemeslníci), do základu 165 600 Kč se žádná daň neplatí, při překročení 15% daň jen z částky nad limit
+  * Příjmy – výdaje = základ daně; Základ daně/2 = XXX Pokud je XXX nižší než 74 220 Kč 1807 Kč měsíčně za sociální pojištění a 1670 Kč měsíčně za zdravotní pojištění ; Pokud je XXX vyšší než 74 220 Kč, použijete procentuální sazbu, která činí 29,2 % u sociálního pojištění a 13,5 % u zdravotního pojištění
+  * Snížení daně- Dary, charita- min 1000 kč, úspora 150 Kč, darování krve snížení daně o 2000 Kč; životní pojištění- snížení daně o 12 tis; vzdělávání- snížení o 10 tis; úrok na bydlení- snížení až o 300tis
+  * Daňové přiznání- Příležitostný přivýdělek- do 6000 Kč není nutné DP, jednorázová práce do 20tis DP nutné, ale nedaní se; DPP- do 5000 Kč zaměstnavatel strhne 15%, víc než 5tis- 15% zálohová daň, podávám DP, víc než 10tis-stejné daně+soc a zdrav pojištění; limit 300hodin, lze podepsat růžový prohlášení; autorský honorář- do 7tis/měs plátce strhne 15%, nad 7tis/měs podávám DP; DPČ- 20 hod/týden, platí daň i soc a zdrav pojištění
+  * Přivýdělek- autorská činnost a dílo; pracovní poměr- písemná pracovní smlouva (druh práce, místo výkonu práce, den nástupu do práce; ukončení: dohodou, výpovědí, zrušením ve zkušební době, okamžitým zrušením, uplynutím doby, byl-li sjednán na dobu určitou); DPP- 300 hod ročně u jednoho zaměstnavatele, vždy písemně uzavřena, bez zkušebky; DPČ- 20 hod/týdně, uzavřená písemně, lze ji jednostranně zrušit do 15 dnů bez udání důvodu; OSVČ bez živnosti- nezávislá povolání- herec, spisovatel;
+  * živnost- podnikání provozované vlastním jménem na vlastní zodpovědnost, ohlašovací- řemeslné (výční list, maturita v oboru), vázané (prokázání odborné způsobilosti), volné; koncesované- na základně správního rozhodnutí- taxi; podmínky -18 let, bezúhonost, bez daňových nedoplatků a soc a zdrav nedoplatků, způsobilost odborná, na živnostenském úřadě, poplatek 1000Kč
+  * osobní obchodní společnost- ručení vlastním majetkem, veřejná obchodní společnost; komanditní společnost
+  * kapitálové společnosti- s.r.o.- základní kapitál min 200000 Kč, min vklad společníka 20 tis i nepeněžitý, 1-50 společníků, Valná     * hromada – nejméně jedenkrát ročně, schvaluje rozdělení zisku, účetní závěrku, stanovy společnosti atd., Statutární orgán – jeden, nebo několik jednatelů, které vybrala Valná hromada z řad společníků či jiných fyzických osob, Dozorčí rada – nepovinná
+  * a.s.- kapitál rozdělen na stejné podíly, základní kapitál min 2 mil, u společnosti s veřejnou nabídkou akcií 20 mil, Valná hromada – shromáždění všech akcionářů, rozhoduje např. o změnách stanov, volí orgány společnosti, schvalují rozdělení zisku, Představenstvo – řídí společnost v době mezi valnými hromadami, operativně rozhoduje a vede účetnictví, Dozorčí rada – dohlíží na působnost představenstva
+  * občanské sdružení-nevládní nezisková organizace, sdílení společných zájmů (sportovní kluby), obecně prospěšná činnost
+  * výběrové řízení zadávací- dodavatele pro zakázku, zveřejnění zadání, odevzdání obálek, otevření, posouzení, zveřejnění výsledků
+  * zakázky do 50 tis- bez DPH, nemusí být výběrko, 100-150 tis- 3 nabídky- průzkum trhu, 50-500 tis- 3 nabídky, rozhoduje zastupitelstvo
+  * řešení zakázky- předávací protokol- pokud dostanu data např; obdržení objednávky; provedení práce+ faktura- evidenční číslo, účastníci (dodavatel, odběratel), předmět plnění dodávky a finance, datumy (vydání, splnění povinností, pslatnosti)
+  * plat- od státu, obce, dotováno státem- školství (osobní ohodnocení 10-30%); mzda- od soukromých zaměstnavatelů (odměny i osobní ohodnocení různé); odměna- za DPČ a DPP; platový tarif- pro platovou třídu (podle složitosti, odpovědnosti a namáhavosti práce) a platový stupeň (podle zkušeností, praxe)- 16 platových tříd
+  * Autorské právo- Co je cílem? Podporovat tvůrčí činnost, chránit práva autorů, chránit investice
+  * Historie- Důležitý byl vznik knihtisku; v českých zemích AP poprvé uplatněno v Helwigově mapě 1561, 1709 první autorský zákon – Zákon královny Anny (Anglie), 1846 poprvé autorský zákon v českých zemích – císařský patent č.992, Nyní zákon č. 121/2000 Sb. (naposledy upraven v roce 2014)
+  * Mezinárodní úmluvy- Bernská úmluva o ochraně literárních a uměleckých děl (1886, 1971)
+  * Mezinárodní úmluva o ochraně umělců (1961), Smlouva WIPO o právu autorském (1996), Směrnice Evropské Unie
+  * Práva duševního vlastnictví- Zvláštní forma práva k nehmotným statkům.
+  * Právo autorské
+  * Práva průmyslového vlastnictví: výsledky tvůrčí technické činnosti (vynálezy), označení (obchodní firma, ochranné známky), související předměty (odrůdy rostlin, know-how)
+  * Tzv. nehmotné statky = osobní (život, zdraví), majetkové (know-how, obchodní jméno)
+  * Výsledek tvůrčí činnosti autora – je hospodářsky využitelný.
+  * Definice AP- Právo přirozené – existuje nezávisle na vůli lidí, má univerzální povahu a platí vůči všem.
+  * Soubor právních norem, které upravují právní vztahy vznikající při tvorbě autorských děl a jejich užívání. Zabývá se vztahy tvůrců a uživatelů tzv. autorských děl. Nechrání myšlenky či ideje, ale konkrétní díla. Autorské dílo = jedinečný výsledek tvůrčí činnosti.
+  * AP má zvláštní postavení v právním systému. Řeší se v Autorském zákoně, případně je možné si doplňkově pomoct Občanským zákoníkem.
+  * AP je založeno na základě teritoriality, tzn. je chráněno pouze na území toho státu, kde vznikla a řídí se národním právním řádem.
+  * Autorská práva – mapy, produkty GIS, databáze, know-how, goodwill, PC program
+  * Průmyslová práva – práva k vynálezům, průmyslovým vzorům, novým metodám
+  * Práva na označení – práva k ochranným známkám, obchodní firmě
+  * Patentové právo, Etické zásady
+  * Co se dá chránit? Data/vrstvy, software, design, znakový klíč, mapa, aplikace, atd.
+  * Předmětem AP je i dílo kartografické i počítačový program.
+  * AP se vztahuje na dílo dokončené, jeho jednotlivé vývojové fáze a části. AP pokrývá i dílo vzniklé tvůrčím zpracováním díla jiného.
+  * Znaky autorského díla: výsledek tvůrčí činnosti člověka, jedinečnost, vyjádřeno v objektivně vnímatelné podobě
+  * Počítačový program – musí být splněno kritérium původnosti.
+  * Databáze je z hlediska ochrany autorských práv v geoinformatice velmi důležitá, neboť právě jako na databázi je nahlíženo na řadu prostorových datových sad.
+  * souborná díla – stejně chráněná jako databáze; AP k soubornému dílu je uspořadatel, pro ochranu DB je podmínkou systematičnost a vzájemná nezávislost prvků, chráněna je struktura DB jako dílo souborné, obsah DB = zvláštní právní ochrana hospodářské povahy podle vzoru EU, mezinárodní řešení ochrany DB je rozdílné (úplné X nulové)
+  * Autorským dílem není – nápad, myšlenka, metoda, princip, námět, denní zpráva, objev, vzorec, graf
+  * Zásady AP – neformálnost, nepřevoditelnost; AP osobnostní a majetkové
+  * Kdo může být chráněn? Autor, spoluautor, výkonný umělec, výrobce záznamu, vysílatel, nakladatel, zveřejnitel, pořizovatel DB
+  * Osobnostní AP – právo zveřejnit dílo, osobovat si dílo, na nedotknutelnost díla, na autorský dohled
+  * Majetkové AP – právo dílo užít, udělit svolení k užití; je předmětem dědictví
+  * Jiná majetková práva – právo na odměnu za prodej originálu / rozmnožení, na odměnu za užití
+  * Zvláštní majetkové AP – zaměstnanecké dílo – autorská díla vytvořená v práci zaměstnavatelem
+  * Ochrana AP – soukromoprávní, správněprávní, trestněprávní
+  * Vznik práv – neformálně, bez registrace, označení © copyright + další licence
+  * Trvání práv – většinou 50 let, jen zveřejnitel 25 let a pořizovatel DB 15 let
+  * Způsoby řešení: prevence – např. vodoznak, záměrná chyba; restrikce – omezení dostupnosti; sankce – v případě zneužití díla
+  * Průmyslová práva: chrání vynálezy, zlepšovací návrhy, průmyslové a užitné vzory, vznikají rozhodnutím Úřadu průmyslového vlastnictví, za vynálezy které jsou nové, průmyslově využitelné, je to soubor zvláštních právních norem, oblast duševního vlastnictví – zahrnují práva k technickým řešením, k předmětům průmyslového výtvarnictví a práva na označení
+  * Patent - nejvyšší úroveň zákonné ochrany vynálezů, zaručuje vlastníkovi patentu výhradní právo k průmyslovému využití vynálezu; aplikace v kartografii nebo GISu
+  * Užitný vzor - unikátní technologické řešení, které přináší dosud nepopsané a nezavedené postupy, které jsou průmyslově využitelné
+  * Průmyslový vzor – vizuálně vnímaná vlastnost produktu; např. znakový klíč pro hmatové mapy
+  * Licence – pokud chci používat cizí dílo, tak je třeba uzavřít licenční smlouvu, zásadní vlastnost pro prostorová data – je získávána další přidaná hodnota (nová informace) jejich vzájemnou kombinací, proto je důležitá kompatibilita licencí, pro různé typy různé licence
+  * Licenční smlouvy – udělení souhlasu k užití díla, obsah smlouvy: způsob užití, rozsah užití, odměna; omezení licence (v ČR většinou 1 rok), výhradní/nevýhradní: výhradní pouze písemně, zvláštní způsob uzavírání smluv: neurčitý okruh adresátů výzvy, nutno sjednat odměnu (i v případě bezúplatnosti), výjimky a omezení práv: volná užití (vymezeno v autor. zákoně), zákonné licence, třístupňový test: aby se jednalo o volné užití a bezúplatnou zákonnou licenci, musí vyhovovat třem podmínkám ze § 29 odst. 1 autorského zákona 
+  * Způsoby užití autorského díla- smluvní licence: úplatné/bezúplatné, výhradní/nevýhradní, písemná/ústní, podlicence, veřejná l., zákonné licence: vznikají ze zákona bez ohledu na vůli autora, volné užití v souladu s autorským zákonem: osobní potřeba (nekomerční) fyzické osoby nebo vnitřní potřeba právnické nebo podnikající fyzické osoby, volné užití se nevztahuje na PC programy, el. DB, architektonická díla, záznam filmu v kině,…, citace – výňatky ze zveřejněných cizích děl je možné využít ve svém díle, úřední a zpravodajská licence: pro účely veřejné bezpečnosti, zpravodajství, přetisk, politické projevy, úryvky veřejných přednášek
+  * © Copyright – výlučná práva k dílu autora, 70 let po smrti autora, autor opravňuje použití
+  * Creative Commons – licenční smlouvy uzavřené podle autorského zákona, které umožňují autorům jednoduchým způsobem určit podmínky užití díla při bezúplatném poskytování licence, kombinace různých licenčních prvků, koncept „některá práva vyhrazena“, v současnosti verze 4.0, CC (Creative Commons), BY (uveďte autora), SA (zachovejte licenci), ND (nezasahujte do díla), NC (nevyužívejte komerčně)
+  * Open Data Commons – pouze anglicky, tři úrovně licence, Public Domain Dedication and License (PDDL) – public domain pro DB, Attribution License (OCD-By) – pro data v DB, Open Database License (ODC-ODbL) – attribution share-alike pro DB, Příklad: OSM je pod licencí ODbL, kartografická díla pod licencí CC-BY-SA
+  * OEM SW – součást PC, DEMO SW – některé fce zablokované, TRIAL – zkušební verze,                     shareware – po určité době poslat poplatek, freeware – zdarma, public domain – k volnému užití, open-source – může se upravovat, donationware – dobrovolné zaplacení, adware – zobrazuje reklamy
+  * zákon č. 106/1999 Sb. – o svobodném přístupu k informacím; státní orgány, územní samosprávné celky a jejich orgány, veřejné instituce a další definované subjekty, jsou povinny poskytovat informace vztahující se k jejich působnosti, a to na základě ústní nebo písemné žádosti fyzických a právnických osob.
+  * zákon č. 123/1999 Sb. – o právu na informace o životním prostředí; Prostorová data a služby založené na prostorových datech mohou být zpřístupněny za úplatu, pokud dále není stanoveno jinak.; úplata nepřesáhne minimální výši potřebnou k zajištění
+  * GEoinfostrategie- schválena v říjnu 2014, leden – červen 2013 = sběr nových podnětů pro návrhovou část, červenec – prosinec 2013 = dosažení shody na jiném obsahu dokumentu a posunu termínu, dokončení do září 2014, leden – září 2014 = vypracování materiálu v novém pojetí, předložení materiálu do vlády bez rozporu, změna obsahu = v souladu s národními strategickými dokumenty, s využitím principu čtyřvrstvé architektury eGovernmentu
+  * Akční plán = implementační dokument obsahující konkrétní opatření k cílům GeoInfoStrategie; větší důraz na výstup činnosti pracovních skupin; Obsah příloh: popis opatření (výstupy práce, 72), harmonogram realizace, soubor indikátorů, popis projektů
+  * Obsah: současný stav, hlavní problémy souč. stavu, vize a cíle, přínosy a rizika, implementace GEOSTR
+  * hlavní problémy současného stavu: nedostatečná koordinace, nedostačující regulační rámec, absence některých prostorových dat vysoké podrobnosti, absence prostor. dat pro použití v agendách veřejné správy, podcenění oblasti lidských zdrojů a vzdělávání v oblasti prostorových dat, nevyužívání ekonomického potenciálu prostorových dat
+  * Strategické cíle: Zajišťování garantovaných služeb veřejné správy, Vybudování národní infrastruktury
+  * Zkvalitňování a další rozvoj datového fondu, Koordinace a rozvoj institucionálního zajišťování
+  * Návrh řešení: Změna regulačního rámce, Koordinace oblasti prostorových informací, Tvorba Národní, sady prostorových objektu (NaSaPO), Národní integrační platforma pro prostorové informace (NIPPI),  Národní geoportál (NGP), Služby nad prostorovými daty ve veřejné správě, Využívání prostorových informací pro třetí strany; Publikování otevřených dat a otevřených služeb,  Lidské zdroje a vzdělávání; Plnění mezinárodních závazku a mezinárodní interoperabilita
+  * Etapy implementace: 1) Analytická – opatření nezbytná pro realizaci podrobných analýz;                               2) Návrhová – příprava realizace změn; 3) Realizační – vývoj komponent NaSaPo, NIPPI, implementace INSPIRE; 4) Provozní – zajištění rutinního běhu procesů
+  * Náklady – uvedeny u každého financování; upřesněny studiemi proveditelnosti
+  * Zdroje financování – ESIF, státní rozpočet, program veřejných zakázek
+  * Rizika implementace: A) Klíčová: politické, nevhodně nastavený plán, nedostatek kvalifikovaných pracovníků, neúčinná koordinace a řízení realizace, průtahy při přípravě;                                                                    B) Závažná: nedodržení harmonogramu, nevhodná koncepce, nedostatečný rozpočet, nesystémové prosazování resortních zájmů
+
+

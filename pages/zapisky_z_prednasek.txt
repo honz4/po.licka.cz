@@ -1,0 +1,49 @@
+  * zkoumaný systém
+        * 1. fyzikální model
+              * to je to město s domečky a protrženou přehradou
+        * 2. matematický model
+  * Komplexní systémy (složité systémy)
+        * systémová teorie ↓
+        * komplexní systémy ↑
+              * závisí na úhlu pohledu
+              * ovládané zpětnou vazbou (změny ovlivňují samy sebe)
+
+  * buzzword
+  * celulární automaty
+        * řádný popis ne pomocí rovnic ale podle pravidel
+        * turingův stroj
+  * butterfly effect
+  * lovec dinosaurů
+
+        * hlavní rysy:
+            * paralelní
+            * lokální
+            * homogenní
+
+
+----
+  * Langtonův mravenec
+        * pohybuje se po mřížce
+  * multiagentní CA systémy na GIS
+  * komplexnost bez složitosti
+  * aplikace: 
+        * územní plánování
+        * klasifikace obrazu
+        * simulace proudění vody, požáru, dopravy na obousměrné dvouproudové silnici, ekologické modely
+  * program Sketch <- modelování znečištění (olejová skrvna)
+
+  * **multiagentní systémy**
+        * sada samostatných agentů (objekty reálného světa)
+        * emergentní chování -> trubci a královna -> každý si dělá svoje, ale dohromady to funguje
+        * gisagents.org
+        * využití: teorie davu, společnost a kultura
+        * decentralizované myšlení
+
+  * **teorie chaosu**
+        * deterministický
+        * není náhodný
+        * matematický chaos = matematická monstra
+        * Cantův holubec
+
+  * SDSS -> Spatial Decision Support System
+  * 

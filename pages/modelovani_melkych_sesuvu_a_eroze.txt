@@ -1,0 +1,13 @@
+  * sesuvy a povodně hlavní přírodní hazardy v čr
+  * cca 10 000 sesuvů v čr
+  * plošná vodní eroze / výmolová vodní eroze / proudová vodní eroze
+
+
+----
+
+  * modelování sesuvů:
+        * SHALLSTAB (shallow stability)
+        * DYLAM
+              * od KGI!!!
+              * dynamic landslide model
+              * 

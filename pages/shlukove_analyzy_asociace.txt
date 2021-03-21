@@ -1,0 +1,11 @@
+====== asociace ======
+  * hledání vztahů (asociací) mezi podmnožinami atributů
+  * A asi souvisí s B, A je asi příčinou B
+  * mohou být:
+        * **klasické** - 2 podmnožiny atributů v relačních datech
+        * **transakční** - v rámci rozsáhlé množiny atributů, zaznamenaných seznamem jejich výskytů
+              * Jiný častý tvar zdrojových dat pro asociace je tzv. nákupní košík. Objektem je jeden (obvykle obchodní) případ, jeho několik atributů má obvykle pevnou strukturu (datum, čas, zákazník, ... = identifikace košíku). Vysoký počet dalších, obvykle binárních atributů (seznam nakupovaného zboží = obsah košíku) je zadáván jako seznam atributů nabývajících nenulové hodnoty. Asociacemi se zde rozumějí nalezené podmnožiny atributů, vyskytujících se společně (v košíku).
+        * **agregované** - mezi podmnožinou atributů a jejich skupinovými charakteristikami
+
+====== shlukování ======
+

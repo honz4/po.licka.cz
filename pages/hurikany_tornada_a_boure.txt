@@ -1,0 +1,100 @@
+===== tropické cyklony =====
+  * tlaková níže
+  * několikadenní
+  * nejvíc v létě a na začátku podzimu (vhodné podmínky pro vznik)
+  * záplavy, silný vítr, tornáda
+  * vznik: tropická porucha -> tropická deprese -> tropická bouře -> tropická cyklona
+  * Coriolisova síla: z malých bouřek nad teplými oceány >> posilovány množstvím vlhkého vzduchu z teplého oceánu >> roztáčen zemskou rotací >> růst masy mraků sunoucí se západním směrem >> Coriolisovou sílou vychylovány k vyšším šířkám
+  * rozměry hurikánu: výška 8-10 km, šířka 450-750 m, rychlost nad mořem až 50 km/hod
+  * 17 m/s (<- tropická tlaková níže, -> tropická bouře) > 33 m/s -> hurikán
+  * chubasco, taino, uragán, cyklóna, orgán, bagyo, willy-willy
+
+  * hurikány kapverdského typu
+        * jako jediné začínají nad pevninou 
+        * (MCC - mesoscale convective complex) -> spojení několika původně samostatných bouří (multicely nebo supercely) do jednoho velkého celku o rozměrech 1000 km (ty se vytvoří nad africkou savanou v období dešťů)
+        * --> pokud se dostanou nad moře, tak se přetvoří v tropické cyklóny (zpravidla u Kapverd)
+        * při cestě na SZ jsou dlohou dobu nad teplým povrchem oceánu (patří vždy k nejsilnějším v sezóně a také k nejdéle trvajícím)
+  * Primárním zdrojem energie je kondenzace vodních par – to je určující znak (u normálních tlakových níží je to styk dvou mas vzduchu s rozdílnou teplotou)
+  * Saffir-Simpsonova stupnice (používá se pouze pro hurikány a pro severní polokouli)
+  * National Hurricane center označuje hurikány kategorií 3-5 jako Major Hurricanes, jinde supertajfuny
+  * Central Pacific Hurricane Center a National Hurricane Center, Canadian Hurricane Centre
+
+
+====== modelování ======
+  * předpovědní modely = pravděpodobnosti výskytu podle sledovaných parametrů
+  * retrospektivní modely = trasování, oblasti postižení, spíše mapování
+  * statistické modely = založeny na statistické pravděpodobnosti výskytu
+  * dynamické modely = komplexní, přesné, náročné na výpočet
+  * modely intenzity = krátkodobé (72 h) předpovědi intenzity
+  * modely: ECMWF (european centre for medium-range wather forecasting), GFS (global forecast system), GFDL (geophysical fluid dynamics laboratory model), UKMET (United kingdom met office model), NOGAPS (the U.S. Navy's Navy Operational Global Prediction Center System)
+
+
+===== HAZUS (hurricane model) =====
+  * Používá existující zavedený model větru , který byl kalibrován za použití rozsáhlých dat z  hurikánů
+  * Zahrnuje teplotu a povrch moře, počítá rychlost větru jako funkci centrálního tlaku a drsnosti povrchu
+  * Rychlost větru je také použita pro výpočet sil, působících na budovy a zařízení a pro výpočet potenciálních škod a ztrát
+  * komponenty:
+        * systém klasifikace budov (založen na strukturách budov)
+        * Nástroje pro výpočet poškození obytných, komerčně využívaných a průmyslových budov a transportních a komunálních linek
+        * Nástroje pro výpočet poškození struktury a interiéru budov
+        * Nástroje pro výpočet množství trosek a potřebných úkrytů
+        * Je schopen stanovit přímé a nepřímé ekonomické ztráty
+  * riziko hurikánu -> efekty způsobující hurikány (déšť, tlak) -> hmotná škoda (budovy, zařízení, trosky, zemědělství) -> analýza ztrát (na obytných, komerčních a průmyslových budovách)
+
+===== metodiky simulace hurikánů =====
+  * storm tracking modelling 
+        * simulace je zahájena náhodným výběrem souboru dat a počáteční pozicí, datem, časem, rychlostí z databáze HURDAT
+        * počítají se změny vrychlosti a směru větru, změna tlaku a teploty
+  * modeling of radius to maximum winds
+        * statistický model popisuje vztah mezi poloměrem maximálního větru a tlakem v centru bouřky a zeměpisnou šířkou
+  * pressure profile parameter
+  * track and central pressure model evaluation
+        * model hodnocení dráhy a centrálního tlaku
+
+===== předpověď vývoje hurikánů =====
+  * 6 center
+  * Tropical Prediction Center (TPC), spadá pod NOAA
+  * The national hurricane center
+  * The technical support branch 
+  * The tropical Analysis and Forecast Branch 
+
+
+====== maloprostorové vzdušné víry ======
+  * húlavy
+        * náhlé zvýšení rychlosti větru, který je nárazovitý a mění směr
+        * nárazy větru 45 m/s
+  * prachové víry
+  * tromby
+        * malé tromby
+              * tvoří se od země vzhůru v silně přehřátém vzduchu nad pevninou
+              * vznik v pouštích 
+              * projevuje se písečnými nebo prachovým víry
+        * velké tromby
+              * ve vyšších vrstvách atmosféry v horkém instabilním vzduchu
+              * vázány na oblak cumulonimbus, z něhož se spouštějí dolů a mohou dosáhnout až k zemskéu povrchu -> nasávání vzduchu směrem nahoru -> podtlak
+              * vznik nad pevninou i mořem, projev jako tornáda
+
+===== supercelární tornáda =====
+  * konvektivní bouře: obecnějším označením pro oblak typu cumulonimbus a jevy, které jej doprovázejí nebo mohou doprovázet (elektrická aktivita, intenzivní srážky, kroupy, silný nárazovitý vítr, tornáda)
+  * supercely: je konvektivní oblačnost tvořená jedinou mohutnou bouřkovou buňkou. Silně rotuje kolem své vertikální osy a lze v ní pozorovat tzv.mezocyklónu
+  * Fujitova stupnice na tornáda
+
+====== modely ======
+  * ALADIN
+  * GFS model
+  * MOS model
+  * NGM model
+  * NAM model
+  * RUC model
+  * ECMWF model
+
+====== bouře ======
+  * podmínky vzniku: výstupné proudění (tepelná konvekce) -> instabilní zvrstvení vzduchové hmoty
+  * vysoká relativní vlhkost vzduchu
+  * bouřky insolační (bouřky z tepla)
+  * bouřky orografické
+  * bouřka frontální
+
+
+
+

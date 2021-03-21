@@ -1,0 +1,76 @@
+<WRAP center round tip 60%>
+definice a popis, možnosti využití, aplikace a implementace v GIS
+</WRAP>
+
+
+  * taky přepočítavají jednotlivé stavy systému jako CA
+  * ale tyto stavy jsou uloženy u nepravidelných objektů, které se navíc pohybují
+  * = skupina volně propojených autonomních systémů, kteří vzájemně spolupracují na dosažení společného cíle
+
+====== schopnosti agenta ======
+  * **autonomnost**
+        * samostatně řeší úlohy komunikace
+        * koordinuje činnost a kooperuje s jinými agenty
+        * dobrovolňuje vstupuje a opouští komunitu
+        * poskytuje a požaduje výsledky
+  * **reaktivita**
+        * je aktivován událostmi
+        * je schopen reakce v souladu s vnímáním reálného času
+  * **intencionalita**
+        * má na paměti dlouhodobé cíle organizace a podle toho se i chová
+        * formuluje vlastní plány a využívá k tomu své vlastní úsudky
+  * **schopnost sociálního chování**
+        * je schopen spolupracovat pro dosažení společného cíle
+        * udržuje informace o jiných agentech a vytváří si o nich úsudky
+        * sdružuje se do koalic pro vzájemný prospěch
+
+====== chování agentů ======
+  * rozhodují se na základě svých znalostí (tzv. racionální agent)
+  * v intenčím (záměr) systému agent sestavuje plán k dosažení vytyčeného cíle nebo využitím **BDI principu**
+        * **Beliefs** (informace, které má agent o světě)
+        * **Desires** (stavy věcí, kterých chce agent ve světě dosáhnout)
+        * **Intentions** (stavy věcí, které se agent zavázal plnit)
+  * je řízeno **sadou pravidel** (je dáno stavem agenta a podněty přijímaných z okolí)
+  * **okolí** - je proměnlivé a je definováno buď přímo sousedstvím agentů nebo nepřímo s určitou vzdáleností v rámci grafu
+  * **pravidla** - definují chování agenta -> jsou dána lokálně a způsobují změny stavů a polohy agentů
+
+====== komunikace agentů ======
+  * **přímá**
+        * agenti mezi sebou
+  * **nepřímá**
+        * reakce mezi agentem a prostředím
+        * agent měí stav okolí jiného agenta, aby tento agent při kontaktu s okolím změnil svůj stav žádaným směrem (tomu se říká možnost adaptace)
+
+===== funcionalita agentů =====
+  * **dotazování** - hledám informaci tam, kde si myslím že je
+  * **hledání informac**e - společné pátrání agentů po informaci, kterou nemají
+  * **přesvědčován**í - snaha agenta o získání jiného agenta pro svůj záměr
+  * **vyjednáván**í - agenti vyjednávají o podmínkách sdílení prostředků
+  * **porada** - nalezení řešení problému, které je v zájmu všech. Agenti poskytují své znalosti a řeší další postup společně
+  * **eristrický dialog** - hádka o poskytnutí služeb tak, aby všichni dosáhli maximálního zisku
+====== příklady MAS ======
+  *[[optimalizace_mravenci_kolonii| mravenčí kolonie]]
+      * společenstva mravenců - společný cíl je nalézt potravu
+      * jednotliví mravenci žijí krátce, mraveniště jako celek přežívá dlouho
+      * s věkem se agresivní a dobyvačné mraveniště mění na klidné a ustálené
+      * 
+  * teorie davu - simulace pohybu chodců, simulace evakuace
+  * společnost a kultura - modely sociálního šíření
+        * **model segregace**: 2 druhy obyvatel, míra tolerance, město ve tvaru mřížky -> obyvatelé jsou spokojení, pokud míra tolerance % sousedů je stejných. Při nespokojenosti se stěhuje do volného pole. -> tvorba ghett
+        * **etnocentrismus**: preference kooperace s příslušníky svého etnika a nekooperace s přísluníky jiných etnik
+              * agenti můžou kooperovat se svým etnikem nebo nemusí, stejně tak s tím cizím
+        * **vznik města**: každý agent provádí denní aktivity - pracuje, spí nebo odpočívá -> a pro tyto akvitity vytváří místa -> pak ta místa sdílí s ostatními
+  * organizační sítě - emergentní sociální jevy
+  * biologie - simulace populační dynamiky, např. společenství hmyzu (včely, termiti), chování zvířecích komunit (hejna, predátor-kořist)
+        * hejno: neleť moc blízko k ostatním, kopíruj blízké sousedy, posuň se dopředu doprostřed ke sledovaným sousedům, udržuj přímý výhled
+        * BOIDS: Bird-oid object
+  * infrastruktura - simulace dopravního provozu a světelné signalizace ve městech
+  * armádní využití - systémy příkazů a kontroly, válečné simulační hry
+  * byznys a řízení společnosti - logistika, spotřební trhy, řízení toku zákazníků
+  * ekonomické vědy - umělé finanční trhy, struktura a dynamika ekonomických vztahů, teorie her
+====== decentralizované myšlení ======
+  * člověk není soubor buněk
+  * vlna není soubor molekul
+  * nejde o předpovídání chování systému, ani o přesné vysvětlení, jak systémy fungují
+  * -> jde o styl uvažování o systémech
+  * na úrovni celku můžeme dostat jiné chování, než to na úrovni jednotlivců (emergentní chování)

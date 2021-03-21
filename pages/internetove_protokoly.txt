@@ -1,0 +1,52 @@
+====== web 2.0 ======
+  * je to buzzworld
+  * uživatelsky generovaný obsah
+  * interaktivita v rámci použité stránky
+  * mezy weby jsou sdílené služby
+  * aplikace se kontextově přizpůsobují
+  * vyhledávání je sofistikované
+  * tagy, sociální vztahy
+  * RSS = syndikace obsahu. uživatel nebude muset hledat, co je na webu nového, ale informace k němu přes zvolené kanály potečou
+  * long tail - samoobsluha pro zákazníky, hodně malých zdrojů
+  * blogy a wiki - uživatel jako tvůrce obsahu
+
+
+====== web 3.0 ======
+  * propojení multimediálního obsahu s obsahem textovým (vkládání hudby, videa, animací) nejlépe nezávisle na zařízení z kterého je přistupováno (notebook, mobil, terminál, TV, mp3 přehrávač, fotoaparát, GPS, lednička)
+  * geografické vyhledávání pomocí významu vět = rozpoznání podmětu, předmětu, jejich vzájemného vztahu se zřetelem na případné určení času a místa
+  * personalizaci (znalost uživatele) - filtrování obsahu podle osobních zájmů konkrétního uživatele
+  * znalost polohy - filtrování obsahu podle aktuální polohy nebo podle místa rozpoznaného v dotazu
+  * sdílené aplikace např. Google Docs
+  * větší interakce na softwarové úrovni (kdokoliv by měl být schopen vytvořit program)
+  * rozostření hranic profesionál/poloprofesionál/uživatel
+  * částečná umělá inteligence na webu, 3D prostředí webový prohlížeč
+
+
+====== geotagging ======
+  * proces přidávání geografických metadat k identifikaci různých zdrojů (fotografie, videa, webové stránky, RSS kanály)
+  * geoprostorová metadata !
+  * webu můžu dát geografický metatag a tím ho geotagovat
+
+====== geoURL ======
+  * Geographically Encoded Objects for Uniform Resource Locator
+  * webová služba - přiřazuje webovým stránkám geografickou lokalizaci fyzické lokalizace obsahu webové stránky
+  * nutná znalost zeměpisné šířky a délky fyzického umístění objektu jež je předmětem webu
+  * podle obsahu, ne podle umístění serveru!!!
+  * založen na standardech ICBM a Dublin Core
+        * **ICBM (InterContinental Ballistic Missile)**
+              * definuje formu zápisu zeměpisných souřadnic v syntaxi úhlových stupňů ve formátu desetinného čísla
+              * <meta name="ICBM" content="XX.XXXXX, YY.YYYY">
+        * Dublin Core
+              * standard pro vytváření metadat digitálních objektů včetně WWW
+              * složený z položek s prefixem „DC“ - možno vytvářet další podtřídy rozšířením předdefinovaných pomocí tečky
+              * <meta name="DC.title" content="Jmeno Webu">
+              * dále = subject, description, type, creator, publisher, contributor, date, format, rights, language
+====== geo tag ======
+  * altertiva za URL
+  * píše se do hlavičky stránky
+  * meta name="geo.position" content="50.167958; -97.133185">
+  * <meta name="geo.placename" content="Rockwood Rural Municipality, Manitoba, Canada">
+  * <meta name="geo.region" content="ca-mb">
+
+
+

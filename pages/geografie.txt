@@ -1,0 +1,51 @@
+  * {{::tahak_vse.pdf| TAHÁK DO GEOGRAFIE FEEL FREE TO USE IT}}
+  * {{::tahak_geografie.pdf|TAHÁK NA VŠE - POMOC NA POTÍTKO}}
+
+
+====== Fyzická geografie ======
+  * 1. [[Vznik a vývoj povrchových tvarů Země]]
+  * 2. [[Endogenní a exogenní geomorfologické procesy a jevy, polygenetický vývoj a typy reliéfu planety]]
+  * 3. [[Meteorologie a klimatologie]]
+  * 4. [[Klima]]
+  * 5. [[Hydrografie a limnologie]]
+  * 6. [[Podpovrchová voda]]
+  * 7. [[Geomorfologie]]
+  * 8. [[Pedogeografie]]
+  * 9. [[Biogeografie]]
+  * 10. [[Krajinná ekologie]]
+
+====== Socioekonomická geografie ======
+  * 11. Geografie obyvatelstva
+        * a) [[Definice, základní pojmy, vývoj obyvatelstva, demografie, reprodukce]]
+        * b) [[Rozmístění obyvatelstva, dynamika obyvatelstva, struktura obyvatelstva]]
+        * c) [[ČSÚ]]
+  * 12. Geografie sídel
+        * a) [[Urbanizační procesy]]
+        * b) [[Geografie města]]
+        * c) [[Prostorové struktury měst]]
+        * d) [[Sídelní systémy]]
+        * e) [[Regionalizace ČR]]
+  * 13. Geografie dopravy
+        * a) [[Členění a popis jednotlivých druhů, vývoj, dopravní sítě, světová doprava]]
+        * b) [[Dopravní dostupnost, dopravní obslužnost, integrované dopravní systémy, logistika]]
+  * 14. [[sege_psluzby|Geografie služeb]]
+        * a) [[Data, definice, základní pojmy]]
+        * b)[[ Obslužná střediska, vymezování sfér vlivu]]
+  * 15. [[sege_cestovni_ruch|Geografie cestovního ruchu a rekreace]]
+        * a) [[Data, definice, základní pojmy, členění, lokalizační předpoklady]]
+        * b) [[Prostorová organizace, mezinárodní cestovní ruch, organizace, trendy]]
+  * 16. [[sege_pprumysl|Geografie průmyslu]]
+        * a) [[Data, definice, základní pojmy, průmyslová výroba]]
+        * b) [[Vývoj průmyslu, lokalizační faktory, průmyslová odvětví]]
+  * 17. [[sege_pzemedelstvi|Geografie zemědělství]]
+        * a) [[Data, definice, základní pojmy, zemědělská výroba]]
+        * b) [[Historický vývoj, faktory ovlivňující lokalizaci, geografické rozložení zemědělské výroby]]
+        * c) [[LPIS, precision farming]]
+  * 18. [[sege_ppolitika|Integrační procesy]]
+        * a) [[Geopolitika, hranice států, historie, aktuální problémy a konflikty, mezinárodní organizace, integrační procesy]]
+        * b) [[NUTS, mikroregiony, místní akční skupiny, regionální politika, regionální rozvoj, EU]]
+        * c) [[Globalizace, mezinárodní organizace]]
+
+
+
+

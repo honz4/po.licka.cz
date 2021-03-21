@@ -1,0 +1,117 @@
+==== Vytvořte TIN z vrstevnic a výškových dat z ArcCR. Vytvořená data ořízněte pro jihomoravský kraj ====
+  - Nástrojem Create TIN vytvořit TIN
+  - Vrstevnice, výšky, poté přidat features to TIN
+  - Na jihomoravský kraj nastavit hardclip
+
+==== Vytvořte rastr území svahů orientovaných na jih se sklonem 10-15 stupňů ve výšce 500-700 m. Jaká je plocha tohoto území? ====
+  - Nástrojem Reclassify reklasifikovat rastr na 500-700 a tomuto nastavit hodnotu 1
+  - Zbytek hodnot nastavi jako NoData (change missing values to NoData)
+  - Zopakovat pro Slope a Aspect
+  - Nástrojem 3D / Raster Calculator / **Times** rastry vynásobit
+
+==== Zjistěte jaké území jihomoravského kraje leží výše než 600 m n.m. ====
+<WRAP center round info 60%>
+Musí se to dělat z rastru, z TINu to nejde!
+</WRAP>
+  - Nástrojem Surface Volume nalézt území výše než 600 m n.m., "Above heigh" = 600 m
+  - Vyhledat v textovém souboru, atribut 2,5 D (pozor na jednotky)
+
+==== Zjistěte jaké území je vidět z pozorovacích stanic ====
+  - Nástrojem Viewshed zjistit viditelnost
+  - Reclassify Viewshed
+  - AT -> Count
+
+==== Zjistěte jaké území je viditelné z dálnice D1 ====
+  - Vybrat a vyexportovat z vrstvy dálnice
+  - Vievshed -> Reclass -> Hodnoty s 1
+
+==== Zjistěte která obec v jihomoravském kraji leží v nejvyšší nadmořské výšce ====
+  - Pomocí nástroje Add Surface Information přidat obcím údaje o nadmořské výšce (potřebuju mít k tomu DMR)
+  - Vybrat nejvyšší hodnotu z atributové tabulky
+
+==== Zjistěte průměrné výšky území v jednotlivých obcích. Jaká je průměrná výška v Brně? ====
+  - Použít nástroj **Zonal Statistics** (lepší je použít Zonal Statistic As Table, to vyhodí tabulku a ne další rastr)
+  - Zone Dataset = obce; Zone Field = NAZEV, Value Raster = to SRTM
+
+
+==== Jak vytvořit DMT (TIN i rastr)? ====
+  - V lište 3D Analysis nástrojem Create/Modify TIN / **Create TIN from Features** vytvořit TIN s využitím vrstevnic a ořezem další vrstvou
+  - Nástrojem Convert / **TIN to raster** vytvořit rastr DMT
+
+==== Jaká je výměra území s nadmořskou výškou nad 1000 m? ====
+  - V lište 3D Analysis nástrojem Surface Analysis /** Area and Volume** (Plocha a Objem) zvolit DMT a výšku referenční plochy a spočítat statistické hodnoty nad resp. pod referenční plochou.
+
+==== Jaká je výměra území s orientací na jih (azimut 160-200)? ====
+  - V lište 3D Analysis nástrojem Surface Analysis / **Aspect** (Orientace) vytvořit rastr orientací svahu
+  - Nástrojem **Reclassify** provést reklasifikaci rastru na 3 třídy a přiřadit jim nové hodnoty (1 - azimut 160-200, 0 - jiný azimut.
+
+==== Jaká je výměra území s orientací na jih (azimut 160-200) a zároveň se sklonem 10-15 stupňů? ====
+  - **Slope**  a následně vytvořit rastr sklonů svahu
+  - Nástrojem **Reclassify** provést reklasifikaci rastru na 3 třídy a přiřadit jim nové hodnoty (1 - 10-15 stupňů, 0 - jiné hodnoty.
+  - Raster Math / **Plus** sečíst nový rastr sklonů a rastru orientace svahů (viz. přechozí úkol). Buňky rastru s hodnotou 2 splňují obě kritéria.
+
+==== Jaká je výměra území, které je viditelné z bodu v S-JTSK [1055000, 560000] a zároveň má nadmořskou výšku 800-1000 m? ====
+  - Vytvořit novou bodovou třídu prvků s jedním prvkem o daných souřadnicích.
+  - Raster Surface / **Viewshed** vytvořit rastr viditelnosti z daného bodu (viditelné buňky - hodnota 1)
+  - **Reclassify** -> provést reklasifikaci rastru DMT na 3 třídy a přiřadit jim nové hodnoty (1 - 800-1000 stupňů, 0 - jiné hodnoty.
+  - Nástrojem Raster Math / **Plus** sečíst rastr viditelnosti a překlasifikovaný rastr DMT. Buňky rastru s hodnotou 2 splňují obě kritéria.
+
+==== Jaká je skutečná délka (po povrchu) všech silnic v území? ====
+  - Functional Surface / **Surface Length** -> vytvořit v třídě prvků silnice nový atribut délky prvku po povrchu (spíš je to Add Surface Information)
+  - V atributové tabulce vypočítat statistiky nového atributu
+
+==== Jakou teplotu má bod o souřadnicích 564 300, 1 057 100? ====
+ při použití rastru vypočteného metodou IDW (parametry: POWER 2, pixel 10 m, zbytek výchozí hodnoty) \\
+  - Vytvořit novou bodovou třídu prvků s jedním prvkem o daných souřadnicích.
+  - Připravit tabulková data teplot. Pozor na orientaci os X Y!
+  - **Add XY Data**
+  - Nástrojem Interpolate Raster / **Inverse Distance Weighted** provést interpolaci hodnot teploty v zájmovém území
+  - Spatial Analyst / Extraction / **Extract Values to Points** vytvořit novou třídu prvků atributem doplněným z rastru.
+
+==== Jaká je průměrná teplota v nadmořské výšce 600 až 700 m? ====
+při použití rastru vypočteného metodou Kriging (parametry: ordinary, spherical, pixel 10 m, zbytek výchozí hodnoty)
+  - **Reclassify** -> vytvořit rastru DMT masku (rastr s novou hodnotou 1 pro výšku 600-700 a s hodnotou NoData jinde)
+  - Interpolate Raster / Kriging provést interpolaci hodnot teploty v zájmovém území
+  - Nástrojem 3D Analyst Tools / Raster Math / Times vynásobit interpolovaný rastr a masku
+  - V okně Layer Properties / záložka Source zjistit statistické hodnoty zamaskovaného rastru
+
+==== Jaká je průměrná teplota v nadmořské výšce 600 až 700 m? ====
+při použití rastru vypočteného metodou Spline (parametry: pixel 10 m, zbytek výchozí hodnoty)
+  - Nástrojem Reclassify vytvořit rastru DMT masku (rastr s novou hodnotou 1 pro výšku 600-700 a s hodnotou NoData jinde) (viz. předchozí úkol)
+  - Nástrojem Interpolate Raster / Spline provést interpolaci hodnot teploty v zájmovém území
+  - Nástrojem 3D Analyst Tools / Raster Math / Times vynásobit interpolovaný rastr a masku
+  - V okně Layer Properties / záložka Source zjistit statistické hodnoty zamaskovaného rastru
+
+==== Jaký průměrný sklon mají svahy, které jsou vzdáleny do 100 metrů od silnic? ====
+  - Nástrojem Analysis Tools / Proximity / Bufer vytvořit masku, obalovou zónu 100 m okolo silnic.
+  - Nástrojem Spatial Analyst / Extraction / Extract by Mask vytvořit zamaskovaný rastr DMT
+  - Nástrojem Spatial Analyst / Surface / Slope vytvořit rastr hodnot sklonu svahů
+  - V okně Layer Properties / záložka Source zjistit statistické hodnoty rastru
+
+==== Nalezněte místa v okolí komunikací, kde hrozí největší možnost sesuvů okolního terénu do nebo od vozovky. ====
+Určete celkovou plochu míst, kde poměr "sklon_v_procentech / vzdálenost_od_komunikace" je větší jak 2
+  - Nástrojem Distance / Straight Line vytvořit rastr vzdáleností od prvků třídy silnice
+  - Nástrojem Surface Analysis / Slope vytvořit rastr sklonu svahů
+  - Nástrojem Raster Calculator vytvořit nový rastr (hodnota 1 - výraz "svah / vzdálenost > 2 ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

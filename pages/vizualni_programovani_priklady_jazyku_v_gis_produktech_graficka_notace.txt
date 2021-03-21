@@ -1,0 +1,19 @@
+====== textové vs vizuální programování ======
+  * textové
+        * příkazy a konstrukce
+        * 
+  * vizuální (grafické)
+        * vizuální programovací jazyky (VPL)
+        * digramy rychle čitelné a dobře pochopitelné uživatelem
+
+====== teorie physics of notation ======
+  * 9 principů pro hodnocení vizuálního programování a pro návrh kognitivně efektivních vizuálních notací
+  * větší důraz na fyzické vlastnosti než na logické významové vlastnosti
+  * jde o to, znázornit postup zpracování tak, aby čtení, chápání, interpretace  a zapamatování informací znázorněných v diagramu bylo co nejrychlejší a bezchybné
+
+====== estetika diagramů ======
+  * symetrické diagramy
+  * minimum křížení
+  * minimum lomených čar
+  * zachování směru – jeden dominující směr
+  * 

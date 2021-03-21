@@ -1,0 +1,5 @@
+====== PROJ4 ======
+  * Proj.4 jedna ze základních knihoven využívaných v mnoha open source GIS projektech jako GRASS GIS, QGIS, PostGIS a dalších. Má své klony v jazyce JavaScript, PHP (https://github.com/jachym/proj4php), Python a dalších.
+  * Kromě možnosti používat tuto knihovnu z různých programů, existují i užitečné nástroje v příkazové řádce.
+  * knihovna pro práci s kartografickými zobrazeními (podporováno více než 150)
+  * 

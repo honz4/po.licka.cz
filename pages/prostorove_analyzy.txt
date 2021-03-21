@@ -1,0 +1,12 @@
+<WRAP center round tip 60%>
+vymezení a klasifikace prostorových analýz, příklady
+</WRAP>
+
+  * prostorové statistické analýzy dat
+  * mapová analýza (mapová algebra)
+  * matoda matematického modelování (multivariační a regresní modely)
+  * interpolační metody
+  * lokalizační a alokační modely
+  * síťové analýzy
+  * analýzy spojitosti a okolí
+

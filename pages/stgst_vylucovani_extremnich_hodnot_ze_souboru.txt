@@ -1,0 +1,30 @@
+  * rozdíl mezi hrubou chybou a náhodnou chybou!
+
+
+Ke zjištění, zda zdánlivě odlehlá hodnota patří do souboru (je to tedy náhodná chyba a nelze ze souboru jenom tak vyloučit) můžeme použít statistické testy:
+  * **Grubbsův test** – pro testování souborů odpovídajících normálnímu rozdělení
+  * **Dixonův test (Q test)** – pro testování souborů s neznámým rozdělením (případně souborů s malým počtem měření)
+
+=====  vylučování extrémních hodnot u souboru s normálním rozdělením =====
+vyloučení extrémních hodnot u dat s Gaussovým normálním rozdělením lze provést orientačně nebo pomocí výpočtu testovacího kritéria s následným porovnáním s tabulkovou kritickou hodnotou (Grubbsův test)
+
+===  orientační vyloučení extrémních hodnot ===
+  * jestliže odchylka libovolné hodnoty variační řady od aritmetického průměru vypočítaného z hodnot souboru s vyloučením extrémně odlišné hodnoty, převyšuje více než 3x směrodatnou odchylku vypočtenou ze souboru bez extrémní hodnoty, považujeme tuto hodnotu za netypickou a můžeme ji vloučit z dalšího zpracování
+  * vypočítáme aritmetický průměr a směrodatnou odchylku bez podezřelé hodnoty. Jestliže odchylka podezřelé hodnoty od průměru překračuje 3s, pak tuto hodnotu vyloučíme
+
+===  Grubbsův test extrémních odchylek ===
+  * používá se pro objektivní vylučování extrémních hodnost na základě vypočteného testovacího kritéria u souborů dat, které odpovídají Gaussovu normálnímu rozdělení pravděpodobností sledované náhodné veličiny
+
+
+=====  vylučování extrémních hodnot u souboru s neznámým rozdělením =====
+=== Dixonův test extrémních odchylek ===
+  * při výpočtu testovacího kritéria se využívá variační rozpětí souboru
+  * výhoda tohoto testu je použití i u souborů s malým počtem hodnot
+  * vypočtené testovací kritérium porovnáme s tabulkovou kritickou hodnotou pro příslušné n výběrového souboru a zvolenou Alfa pro Dixonův test
+      * pokud je hodnota větší než testovací kritérium, hodnotu variační řady vyloučíme
+      * pokud je menší nebo rovna, hodnotu vyloučit nemůžeme, patří do souboru
+
+
+
+
+

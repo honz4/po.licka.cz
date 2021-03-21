@@ -1,0 +1,5 @@
+<WRAP center round tip 60%>
+validace a verifikace, vizualizace výsledků, citlivostní analýza, Monte Carlo
+</WRAP>
+   * validace = jak je model schopen reprodukovat data, na jejichž základě byl vytvořen
+   * verifikace = jak je model schopen predikovat nazávislá data

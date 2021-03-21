@@ -1,0 +1,4 @@
+====== R-strom ======
+  * je strukturou jako [[https://cs.wikipedia.org/wiki/B-strom|B-strom]], ale používá se v GIS pro indexování ve vícerozměrných strukturách třeba
+  * Datová struktura dělí místo na hierarchicky vkládané a potenciálně se překrývající, tzv. MBR //(minimum bounding rectangles – minimální ohraničující obdélníky//)
+  * 

@@ -1,0 +1,22 @@
+===== Třídění dle statistického znaku: =====
+=== Důvody třídění ===
+
+  * zpřehlednění souboru
+  * zjištění empirického rozdělení statistického souboru
+  * snížení numerické náročnosti výpočtu statistických charakteristik
+
+=== Dle počtu třídících znaků ===
+
+  * jednostupňové
+  * dvoustupňové (kontigenční tabulky)
+  * vícestupňové
+
+=== Dle typu třídění: ===
+
+  * třídění prosté (malý počet různých hodnot znaku)
+  * třídění intervalové (velký počet různých hodnot znaku, spojitý numerický znak)
+
+=== Základní zásady při třídění: ===
+
+  * zásada úplnosti (každá jednotka musí někam patřit)
+  * zásada jednoznačnosti (každá jednotka musí mít právě jedno místo při třídění)

@@ -1,0 +1,285 @@
+  * hospodaření založené na možnosti využít existující prostorové nerovnoměrnosti půdních vlastností a úrodnosti ke zvýšení efektivnosti hospodaření
+  * USA 60léta – myšlenky využít rozdíly v půdních vlastnostech
+  * zásadní průlom ve využití PZ přineslo zpřístupnění GPS pro veřejnost
+  * zohlednění skutečnosti „pole jako celek je prostorově proměnlivé prostředí“
+  * =>  lze lokalizovat nevyrovnanost polí - přesně mapovat  -  v návaznosti navádět aplikační techniku tak, aby reagovala na variabilitu polí
+  * využívá podrobné, prostorově orientované, lokálně specifické informace o půdě a plodinách k zpřesnění  / usměrnění vstupů podporujících produkci plodin
+  * Důležitým prvkem PZ je získávání co největšího množství informací o pozemku (složení půdy, mocnost ornice, zásobenost živinami, …)
+  * Správné přiřazení hodnot k pozemku -> data z GPS -> mapy půdních charakteristik
+
+===== technologie =====
+  * GNSS - lokalizace externalit
+  * GIS - zpracování a vyhodnocování dat v prostoru, tvorba výnosových map
+  * sklizňové a analytické senzory
+        * CANBAS SYSTÉM  - počítačem řízený automatizovaný systém k ovládání zemědělské techniky - aplikace poznatků
+        * vzorkování půdy v síti  / interpolace
+        * odběr půdních vzorků za účelem jištění zásoby živin v půdě a inventarizace půd
+
+===== přínosy =====
+  * Individuální přístup k danému místu díky znalosti prostředí → různá (přesnější) množství hnojiv a herbicidů tam, kde je potřeba 
+  * snížení nákladů, ekonomická a ekologická pozitiva
+  * snížení nákladů na výrobu zemědělských produktů
+  * zvýšení efektivnosti vynakládaných vstupů prostřednictvím optimalizovaných a lokalizovaných vstupů
+  * nižší zatížení životního prostředí
+
+
+  * Tradiční hospodaření – min. plocha pro agrotechnický zásah – pole
+  * Precizní hospodaření – sleduje se časová a prostorová variabilita pole
+  * Evidence využití strojů
+  * Kontrola pracovníků
+
+===== variabilita pozemků =====
+  * **tradiční postupy**
+        *  vychází z dlouholetých agronomických výzkumů
+        * v praxi zavedené postupy s jednoznačnou interpretací pro rozhodování
+        * vysoká přesnost stanovení daného znaku (laboratorní analýzy)
+        * pro prostorové mapování příliš nákladné a náročné
+  * **senzorové metody**
+        * moderní postupy využívající fyzikálních vlastností půdy a porostů
+        * vysoké prostorové pokrytí (opakovatelnost měření bez dodatečných nákladů)
+        * nižší přesnost stanovení dané vlastnosti
+
+===== ověřování metod mapování =====
+{{ ::envig2.png |}}
+
+===== souhrn =====
+  * měření  EC  a  letecké  snímky  vykázaly  podobný  potenciál  (působení  faktorů zrnitost-vlhkost-organická hmota)
+  * komplexní  působení  faktorů  ztěžuje  identifikaci  zdrojů  variability,
+  * umožňuje ale získat celkový obraz heterogenity půdních podmínek - toho lze např . využít při optimalizaci vzorkování půdy
+  * senzorové metody umožňují mapování porostů s dostatečným prostorovým pokrytím, které vychází z opakovatelnosti měření bez dodatečných nákladů
+  * v praxi jsou nejrozšířenější postupy využívající spektrálního chování vegetace
+  * kombinované působení mnoha faktorů = obtížná identifikace  pouze jednoho z nich
+  * metody DPZ jsou limitovány povětrnostními podmínkami – použití online systémů (Yara Ntester ,…)
+  * nízká nákladnost a vysoké prostorové pokrytí senzorových metod = ideální vlastnosti pro efektivní mapování variability pozemků
+  * využitelnost těchto metod v praxi je ale limitována absencí agronomicky relevantní interpretace pro tvorbu doporučení
+  * komplexní působení mnoha faktorů znesnadňuje identifikaci příčin variability
+  * z toho důvodu jsou v současnosti senzorové metody kombinovány s tradičními metodami
+
+===== Penetrometrický odpor =====
+  * indikuje utužení půdy na základě mechanického odporu
+  * prováděno ve 150m bodové síti přístrojem Eijkelkamp Penetrologger do hloubky 0,8 m
+
+===== Mapování elektrické vodivosti půdy =====
+  * využívá geofyzikálních vlastností půdy
+  * ověřováno bezkontaktní měření elektromagnetické konduktivity přístrojem Geonics EM38 a GF Instruments CMD-1
+  * kontinuální (on-the-go) měření – tažením za vozidlem nebo chůzí
+  * hloubka dosahu měřícího signálu až 1,5 m
+  * **bezkontaktní senzory**
+        * využívající elektromagnetickou indukci
+        * nepřicházejí do přímého styku s půdou
+        * skládají se z vysílací jednotky generující indukční elektromagnetické pole, které se přenáší do půdy, a z přijímací jednotky, která měří odezvu
+  * kontaktní senzory
+        * měří elektrickou vodivost půdy elektrodami, které jsou v přímém kontaktu s půdou
+        * stejnosměrný či střídavý elektrický proud o nízké frekvenci
+        * vliv zahloubení elektrod na výsledky měření byl zanedbatelný
+  * vztahy mezi elektrickou vodivostí (EC) a dalšími vlastnostmi půd, které vysoce ovlivňují produkční schopnost půd, kapilární vodní kapacitou, hloubkou ornice, iontovou výměnnou kapacitou, obsahem organických látek, obsahem živin, podložím
+  * porovnání map EC s dalšími vrstvami (výnosová mapy, mapy zásobení půdy živinami, půdní průzkumy)
+  * → snížit náklady vstupů (osiva, hnojiva x chemické přípravky), zatížen ŽP
+  * → zvýšit výnosy
+
+===== DPZ - letecké snímkování =====
+  * identifikace variability půdy dle spektrálních vlastností půdy
+  * kvantifikace parametrů porostu dle jeho spektrálního chování
+  * významné části spektra: červená (chlorofyl) a blízce infračervená (biomasa)
+  * základní hodnocení pomocí vegetačního indexu NDVI
+  * Normalizovaný diferenční vegetační index (Normalized Difference Vegetation)
+  * hodnoty v intervalu (-1, +1)
+  * korelují především s obsahem zelené hmoty  v ploše pixelu
+  * odstraněno dělení nulou
+  * umožňují identifikaci ploch s podprůměrným nebo nadprůměrným stavem porostů
+
+===== vegetační indexy =====
+  * skupina poměrně jednoduchých aritmetických operací s dvěma či více pásmy
+  * vegetační indexy - vztah mezi odrazivostí v intervalu červené viditelné části spektra (600 – 700 nm) a v blízké infračervené části spektra (přibližně 700 – 900 nm)
+  * na základě znalosti spektrálního chování zvýrazní vegetační složku v obraze
+  * některé vypovídají i o vlastnostech půdního substrátu
+  * určování kvantitativních ukazatelů, jako je množství zelené biomasy v ploše pixelu
+  * poměrové indexy - dávají do vztahu jednoduchým nebo normalizovaným poměrem odrazivost povrchů v červené viditelné a blízké infračervené části spektra
+  * mohou významně korelovat s některými dalšími parametry vegetační složky krajiny
+  * **Jednoduchý poměrový vegetační index (RVI-Ratio Vegetation Index)**
+        * rozsah hodnot od 0 do 30 ale i  více
+        * standardní hodnoty v intervalu (2,8)
+        * neumožňuje odstranit dělení nulou
+        * zásadní vliv na hodnoty RVI - odrazivost světlých půd, která hodnoty snižuje.
+        * problém většiny poměrových indexů
+  * **Transformovaný vegetační index  (TVI-Tansformed Vegetation Index)**
+        * pro odstranění záporných hodnot je k NDVI přičtena konstanta 0,50 a výsledek je poté odmocněn
+  * **Index listové pokryvnosti (leaf area index, LAI)**
+        * kvantitativním ukazatelem celkové listové plochy
+        * celková plocha horní strany listů na horizontální jednotku plochy
+  * **ortogonální indexy**
+        * lineární kombinací původních pásem multispektrálního obrazu
+        * **index PVI (perpendicular vegetation index)**
+              * lze do značné míry odlišit odrazivost vegetace a půdního substrátu
+        * Tasseled Cap – GVI (Green Vegetation Index)
+              * původně navržen pro pásma skeneru MSS, lze aplikovat i na (tm)
+              * pásma zvýrazňují určitou specifickou informaci korelující s vlastnostmi půdy a vegetace
+              * první pásmo (index Brightness)  - orientováno ve směru maximálního rozptylu hodnot odrazivosti půdy
+              * druhé pásmo (index Greeness) - kolmé k 1P – ukazatel množství zeleně
+              * třetí pásmo (index Wetness) -  koreluje s vlhkostí pudy a vegetace
+
+===== Optická diagnostika výživného stavu rostlin =====
+  * využívá spektrálních charakteristik rostlin a vztahu mezi obsahem chlorofylu a potřebou N hnojení
+  * kontaktní pozemní měření v bodové síti
+  * měření přístroji Yara Ntester a PSI PlantPen PRI200 v bodové síti 150m
+  * zjišťování informace o výživném stavu rostlin na částech listů
+
+===== Mapování výnosu plodin =====
+  * finální výsledek agrotechnických opatření
+  * vstupní informace pro následnou plodinu (hnojení)
+  * stanovení výnosové úrovně na pozemku z historických výnosových dat
+
+===== Způsoby získávání dat =====
+  * odebírání vzorků půdy a rostlin ve zvolené vzorkovací síti (40x40 m)
+  * vyhodnocování výnosu z výnosového senzoru na sklízecí mlátičce
+  * měření výnosů pomocí nárazového čidla
+  * data se ukládají na PCMCIA kartu každé 3 sekundy,
+  * sw Albyd převod o XLS tabulky  → statisticky upraví ->  uloží do db
+  * na základě snímkování porostu (letecké, družicové snímky)
+
+===== Podrobné informace o pozemku =====
+  * Senzory na sklízecích strojích kombinují informace o výnosu, místě a čase.
+  * Tyto informace mohou sloužit jako vstup pro variabilní aplikaci
+
+===== Variabilní aplikace dusíku =====
+  * **Hydro N-Senso**
+        * vyvinutý pro variabilní dávkování dusíkatých hnojiv pro zemědělské plodiny na základě optického měření obsahu chlorofylu a hustoty porostu
+        * optické senzory měří "za pohybu" intenzitu a spektrální složení světla odraženého od porostu  
+        * naměřené údaje jsou korigovány o agronomická data (odrůda, vývojová fáze...)
+        * podle kalibrační křivky stanovena optimální aplikační dávku dusíku pro příslušnou část pozemku
+        * doporučená dávka „on-line" přenesena do řídicího počítače rozmetadla nebo postřikovače
+
+===== PREFARM Nitrosensing =====
+  * 3-10 dnů před plánovanou aplikací hnojiv - navigovaný letecký průlet se snímkováním požadovaných ploch
+  * analýza leteckých multispektrálních snímků - do 48 hodin zpracována a vyhodnocena
+  * při zpracování brán v úvahu průběh počasí (srážky, teplot)
+  * aktuální vývojová fáze plodiny
+  * specifické odrůdové vlastnosti =>  sada aplikačních map pro variabilní aplikaci dusíku - patrná potřeba dusíkatých hnojiv pro dohnojení, minimální a maximální doporučené dávky a také podrobný popis zjištěné variabilit
+  * Nastavení se dají upravit podle potřeb a podle znalostí místních podmínek a většina agronomů této možnosti využívá
+  * Konečné a konzultované aplikační mapy slouží jako podklad pro automatické dávkování hnojiv řízené počítačem rozmetadla nebo postřikovače.
+  * Veškerá aplikační technika je vybavena přijímačem GPS, řídícím počítačem a dávkovacím systémem pro proměnlivé dávkování.
+  * Udaje o variabilitě z připravené mapy a údaje o aktuální poloze stroje z GPS zpracovává palubní počítač a upravuje dávkování hnojiv podle potřeby
+  * některé stroje vybaveny vícekomorovým zásobníkem s nezávislým dávkováním => aplikace několik druhů hnojiv současně a přesto nezávisle - podle rozdílných aplikačních map
+  * u všech strojů  - zpětný záznam o provedeném hnojení a dávkách – využití jako protokolu o spotřebovaných hnojivech
+===== Herbicidní ochrana - variabilní aplikace =====
+  * polní průzkum výskytu pcháče pro variabilní herbicidní postřik
+  * vytvořena čtvercová bodová síť 18 x 18m
+  * počet a oblasti výskytu pcháče zjišťovány na jednotlivých bodech sítě (s GPS)
+  * získaná data vyhodnocena v GIS a zakreslena do mapy
+  * na základě této mapy byl realizován variabilní postřik pcháče
+  * postřikovač byl ovládán manuálně
+  * začátek a konec postřiku byl určen body stanovenými na kolejových řádcích podle výskytu/nevýskytu pcháče
+
+===== Mapování fenofází a „fenoklimatu“ =====
+  * **Fenologie** = nauka zabývající se studiem časového průběhu periodicky se opakujících životních projevů - fenologických fází rostlin a živočichů a studiem vazeb fenologických fází na střídání klimatických a půdních podmínek během ročního období
+  * Fenologické fáze (fenofáze) = dobře rozeznatelný a zpravidla každoročně se opakující projev orgánů vývoje sledovaných rostlin (Ellenberg, 1954 modif. Pfume a Bruelheide, 1994)
+  * **Aspekty fenologického pozorování**
+        * časový aspekt
+        * nástupy fenofází a délka trvání
+        * časová variabilitou fenofází – posun nástupů, extrémy
+        * prostorový aspekt
+        * charakter reliéfů (nadmořská výška, členitost, orientace)
+        * klimatická oblast (teplotní charakter území, množství srážek,  apod.)
+
+===== Metoda fenologické mapování v topografickém komplexu kombinováním krajiny, zmapovaným nalezištěm a modelem iradiace =====
+  * Metoda umožňuje předpovídat místní fáze fenologického vývoje ve studovaném území bez vyrovnání fenologických zákonitosti závisejících na topografických variacích malého měřítka (Tichý, 1999)
+  * výsledek přináší efekt při plánování nástupu zvířat na pastvu v jednotlivých oblastech CHKO, kdy lze na základě pozorování v jedné části území odhadnout daleko přesněji, v porovnání s použitím klasické mapy klimatických oblastí, fenologický rozvoj pastvin pro celé území CHKO
+  * představená modifikace Ellenbergovy metody fenologického mapování připouští  redukci terénní práce na několik lokalit a výrobu mapy pomocí prostorové interpolace
+  * v krajině topograficky složité, se zdá že začlenění PDSI modelu poskytuje rozumnou interpolaci
+  * PDSI model je snadno spočitatelný z DEM
+  * důležité pro spolehlivou interpolaci na zkracujících se vzdálenostech bodů se známými LSPD hodnotami kvůli rostoucí standardním chybám regrese svahů
+  * kvůli zatížení bodů s přímými LSPD pozorováními, budou mít okolní body v jejich těsném sousedství mít sklon k identické hodnotě navzdory možné topografické variabilitě.
+  * → žádné zákonitosti, který nejsou očividné z terénních dat, a vycházejí pouze z interpolace by měly být interpretovány s velkou opatrností a ověřením v terénu, i když i ony mají  ekologický smysl
+  * → skutečné hodnoty LSPD zaznamenané v terénu jsou přesně zakresleny do fenologické mapy, aby se vyznačily lokality se spolehlivými LSPD výpočty
+
+===== Fenologické terénní práce =====
+  * referenční lokality s různým lokálním stupněm fenologického rozvoje (LSPD)
+  * měly by zahrnovat potenciální extrémně teplé a extrémně studené stanoviště
+  * dle fenologického rozvoje seřazeny a ohodnoceny od 1 (nejvíce pokročilá) až po 5 (nejvíce opožděná)
+  * na každé lokalitě zaznamenán fenologický stupeň každého druhu stromu, křoví a bylin s použitím 10 stupňové fenologické stupnice
+  * hodnocení fenologického stupně vegetativních a generativních orgánů odděleně
+  * záznamy shrnuty v tabulku cca 40 druhů shodných (svým výskytem, nikoliv fází)  => referenční klíč k identifikaci LSPD v jiných částech oblasti
+
+===== Model potenciální přímé sluneční iradiace (PDSI) =====
+  * model Irrad © Doc. Tichý (MUNI)
+  * založen na DEM
+  * poměrný denní součet PDSI v ekvinokciální bodu* zahrnující reprezentativní jarní iradiační vztahy
+  * Jedna čtyřiadvacetina zdánlivého slunečního dne (mezi jedním a následujícím polednem, nebo jedním a dalším západem Slunce)
+vypočtený jako orientace a inklinace dělený denní sumou PDSI dosahovaných na  rovinných  površích
+denní suma = součet 120 hodnot následných rovností počítaných v 15 min. intervalech
+
+  * p  - prostupnost ovzduší
+  * zt - stupeň slunečního zenitu v čase t
+  * at - úhel mezi místní normálou na povrch a směrem  přicházejícího přímého záření v čase t
+  * Bt - úhel mezi místní vertikálou a směrem přicházející přímého slunečního záření v čase t.
+  * čas t  byl sestaven z 15 min. intervalů , tj. pro azimut 1200 slunce
+
+===== Kombinování terénních údajů s PDSI modelem =====
+  * jednoduchá interpolace LSPD hodnot se stejně reagujícím povrchem z pozorovaných lokalit by poskytovala nesprávné výpočty v místech se složitým reliéfem, kde suma teplot  silně reaguje na kolísání přímého slunečního záření
+  * použita interpolační metoda  - založená na lokálních vztazích mezi LSPD a PDSI
+  * lineární regrese LSPD na PDSI vypočtena zvlášť pro každou buňku DEM
+  * pro zdůraznění místních aspektů  - vztahů mezi proměnnými pozorovaných vektorů [PDSI;LSPD] uvažovány vzdálenosti k buňce k, pro kterou regrese  byla počítána
+  * vektor pro nejbližší  buňku s LSPD pozorováním byl obsažen v regresi 100x a vektory pro jiné body byli obsaženy od 100x do 0x  - závisejíc na jejich vzdálenost od buňky k.  
+  * LSPD  hodnoty pro každou buňku k  - vypočteny ze známé PDSI v buňce za použití rovnosti regrese pro tuto buňku
+  * počet  opakování vzdálených buněk v regresi ubyl s koeficientem wi
+
+  * dmin - vzdálenost od buňky k, pro kterou je regrese počítána, k nejbližší buňce s LSPD pozorováním
+  * di  - vzdálenost od buňky k k i-té buňce s LSPD pozorování
+
+
+===== analýzy vhodnosti pastvy =====
+  * pastevní plochy musí být odolné úměrnému sešlapu, který závisí vedle pedoklimatických podmínek na druhu zvířat, na intenzitě pastvy, na délce pastevní sezóny apod.
+  * zatížení lokality by mělo být optimální - aby nedocházelo k přebytkům biomasy  na lokalitě, ale ani k spasení veškeré biomasy.
+  * velice specifické - odvíjí se od komplexu přírodních poměrů
+  * nížinná oblast-asi 12 ks / ha-1,2 DJ
+  * podhorská oblast-asi 10 ks na ha -1,0 DJ
+  * horská oblast do 1200 m.n.m  - okolo 8 ks na ha - 0,8 DJ
+  * horská oblast od 1200 do 1600 m.n.m - asi 3 ks na han - 0,3 DJ
+  * 1 kráva masného plemene = 5 bahnic s odchovem
+===== RESOURCE ASSESSMENT FOR PASTORAL SYSTEMS (RAPS) =====
+  * sw analyzující pastevní možnosti na daném území pro potřeby zemědělství a v rámci udržitelného rozvoje
+  * integrování vstupních parametrů (např. krmné plodiny, druh dobytka)
+  * schopnost vyjádřit možnosti výchozích zdrojů
+  * analýza území a pastevních možností
+  * odhad úživnosti území pro živočišnou výrobu - především pro extenzivních hospodářství
+  * vyhodnocení vývoje píce, zvláště jejich dopad na pastevní zdroje a produktivitu živočišstva
+  * sledování pasteveckých zdrojů a odhad jednotlivých pastevních jednotek v rámci oblasti
+  * sledování trendů v produktivitě píce a modelově odhadnuté spotřeby píce v rámci každého bloku a pastviny během série let
+  * stanovení optimálních poměrů živočišných druhů
+  * zjištění ideálních poměrů pícních druhů
+  * zhodnocení změn ve využití území (např. dopad lesnictví na živočišnou produkci)
+  * odhad dopadu dlouhodobého poklesu/zlepšení výnosnosti pastvin v závislosti na únosnosti počtu živočichů
+  * vlastnosti:
+        * množství nástrojů s bohatými možnostmi analýz a vstupních nastavení
+        * řada uživatelských úrovní
+        * všechny analýzy jsou uskutečnitelné s časovou periodou přibližně 7 dní
+        * vstupní a výstupní návaznost s GIS (csv, xls)
+        * do systému mohou vstupovat i faktory jako dovoz krmení z míst mimo zkoumanou oblast, popř. možnost dočasné pastvy mimo zájmovou oblast
+        * výsledky jsou shrnuty jak textově, tak graficky
+        * velké množství vstupních parametrů (nutné všechny znát a taky časově náročné)
+        * možnost úpravy většiny vstupních parametrů
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

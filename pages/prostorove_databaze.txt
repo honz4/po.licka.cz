@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+způsoby uložení geodat v databázích (WKT, WKB, interní formáty)
+</WRAP>

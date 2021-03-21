@@ -1,0 +1,8 @@
+  * česká radarová sít - CZRAD (Brdy, Skalky) - pásmo C, lambda 5 cm
+  * geostacionární družice: meteosat (eumetsat), geoes (NOAA), GMS (japonci), INsat (indie), GOMS (Rusko), Fengyun (čína)
+  * em vlna = lambda (vlnová délka) krát frekvence  --> rychlost světla (takže mezi tím je nepřímá úměra, čím větší vlnová délka, tím menší frekvence)
+  * q = h.v
+  * q = h.c/lambda // energie částice je nepřímo úměrná vlnové délce
+  * přeměna tepelné energie na energii zářivou
+  * absolutně černé těleso
+  * stefanboltzmanův zákon (intenzita vyzařování je přímo úměrná čtvrté mocnině jeho teploty)

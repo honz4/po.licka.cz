@@ -1,0 +1,23 @@
+  * největší přírodní hrozba na počet obětí a rozsah škod
+  * těžce se předpovídá
+  * náhlé uvolnění energie v zemském tělese
+  * „soubor krátkodobých pohybů reprezentující proces při změně napěťového stavu hornin“
+  * typy:
+        * řítivá
+        * vulkanická
+        * tektonická
+  * ohnisko, hypocentrum, epicentrum, hloubka ohniska
+  * dělení podle hloubky ohniska:
+        * mělká (60  km), střední (600- 300), hluboká (nad 300 km)
+  * pojmy:
+        * hypocentrální čas – doba vzniku zemětřesení v ohnisku
+        * epocentrální čas – okamžik kdy seismická vlna dorazí do epicentra
+        * epicentrální vzdálenost – vzdálenost epicentra od místa pozorování
+        * pleistoseistní oblast
+  * stupnice:
+        * MCS, MM, MSK-64
+  * intenzita:
+        * mapy zemětřesné aktivity
+        * izoseist, izoblab, izakust
+  * richterova stupnice
+        * měření magnituda

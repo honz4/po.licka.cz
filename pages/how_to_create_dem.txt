@@ -1,0 +1,46 @@
+====== methods ======
+  * **limited number of points**
+        * on-ground surveys
+              * total station or GPS
+                    * Assuming a correct use of the instruments and the post‐processing computer tools, the MDEs generated with these data will have high accuracy
+        * indirect methods
+              * photogrammetry
+              * digitalization of contour lines or spot heights
+  * **massive points**
+        * on-ground surveys
+              * laser scanners
+              * passive and active aerial and satellite sensors
+              * LIDAR or RADAR altimeter
+        * indirect methods
+              * cross-correlation photogrammetric methods
+                    * comparison of digital images from stereoscopic pairs of digitized aerial photographs
+                    * There is a wide variety in DEM accuracy depending on the flight's height and focal length of the camera, the accuracy in field support, the aerotriangulation method used, the resolution when scanning photos, the operator experience, and the instruments used.
+              * Structure from Motion
+                    * Photogrammetric techniques that allow, starting from conventional photographs not calibrated:
+                        * obtain the position of cameras and the angles of correlations
+                        * obtain maps of disparity (paralax)
+                        * get a cloud of high density points
+                        * generate DSM
+                        * final objective is to determine a 3D model of the terrain
+              * RADAR interferometry
+              * digital cartography
+
+====== algorithms for SfM======
+  * SIFT (Scale Invariant Feature Transform)
+        * for detection of invariant points
+        * It aims to find relevant features in an image by analyzing the invariance in scale, rotation and position
+        * We extract the elements in the spatial and frequency domain that have invariance
+        * For each obtained point a descriptor is generated and is used to match the elements found in each one of the individual images
+        * By mapping points between images, the 3D position of the point is determined
+        * detection of endpoints in the space of scales -> location of the characteristic points -> allocation of dominant orientation, based on the local gradients of the image -> descriptor generation
+  * Descriptor SURF (Speeded-up robust features)
+        * Enhanced computational performance using a Hessian matrix and an integral image descriptor. Is several times faster than SIFT and more robust against different image transformations than SIFT
+  * ASIFT (assine SIFT)
+        * Determines invariant points with SIFT when performing affine transformations
+  * PCA-SIFT
+        * Variation of SIFT against changes of illumination and that reduces the dimensionality of the feature vectors
+  * GLOH (Gradient Location‐Orientation Histogram)
+        * Calculate SIFT for the regions resulting from 3 divisions in the radial direction and 8 in the angular direction
+
+
+

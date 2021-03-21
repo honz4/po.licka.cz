@@ -1,0 +1,12 @@
+  * Ke klasifikaci algoritmů se obvykle používá tzv. **asymtotická složitost**, což je rozdělení algoritmů do tříd složitostí, u kterých platí, že od určité velikosti dat, je algoritmus dané třídy vždy pomalejší než algoritmus třídy předchozí, bez ohledu na to, jestli je některý z počítačů c-násobně výkonnější (c je konstanta).
+  * Pokud máme dva algoritmy o srovnatelné složitosti, první Ο(n) a druhý Ο(2n), tak nám stačí ten druhý pustit na 2x rychlejším stroji a nepoznáme rozdíl. Pokud ovšem nejsou ve stejné třídě složitosti, například jeden Ο(n) a druhý Ο(n<sub>2</sub>), tak nám na srovnání výkonu nepomůže libovolně výkonný počítač, protože dvojnásobný objem dat bude druhému algoritmu trvat 4x tolik času, desetinásobný 100x tolik času.
+
+  * časová - počet kroků TS 
+  * paměťová
+
+  * analýza složitosti nejlepšího / nejhoršího / průměrného případu
+
+
+{{ ::slozitost.png?direct&400 |}}
+
+  * **P** - řešitelný v polynomiálním čase / **NP** - jestliže existuje nedeterministický algoritmus který úlohu řeší v polynomiálním čase

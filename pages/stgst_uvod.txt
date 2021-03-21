@@ -1,0 +1,15 @@
+  * Hromadný jev = jev, který se vyskytuje v masovém měřítku a může se neustále opakovat (alespoň 30 pozorování)
+  * Statistická jednotka = nositel sledovaných vlastností (statistických znaků) vymezených prostorově, časově nebo věcně
+  * Statistický soubor = množina sledovaných statistických jednotek vyhovující prostorovému, časovému a věcnému hledisku
+  * základní statistický soubor (populace) – konečný nebo nekonečný
+  * výběrový statistický soubor (výběr) – vždy nekonečný
+  * Rozsah souboru = počet pozorování ve statistickém souboru (n, N)
+  * Statistický znak = nositel určité vlastnosti každé statistické jednotky souboru
+  * konstantní (identifikační) – vymezují statistický soubor
+  * proměnlivý (variabilní) – předmětem zkoumání
+      * měřený přímo / nepřímo
+      
+   * nominální znak (alternativní / pomnožný)
+   * ordinální znak (kvalitativní znak, zavedené uspořádání)
+   * metrický znak (stupnice bez referenční hodnoty)
+   * kardinální znak (stupnice s referenční hodnotou)

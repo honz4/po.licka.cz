@@ -1,0 +1,15 @@
+====== Books ======
+====== C ======
+  * [[iteb>book/2265|Understanding and Using C Pointers]]
+  * [[iteb>book/1092|21st Century C]] **nejlepší kniha v poslední době!!!***
+  * [[so>388242/the-definitive-c-book-guide-and-list]]
+====== Lisp ======
+  * [[http://clqr.boundp.org/|Common Lisp Quick Reference]] {{books:clqr-a4-booklet-all.2011-10-12.pdf|lokal kopie}}
+====== SVKOS ======
+  * Jiří Rybička: Úvod do teorie formálních jazyků, 1999, 40stran, A5
+  * Petr Jirků, Jiřina Vejvarová: Formální logika, neformální výklad FL, 2005, VŠE, skripta
+  * Katřina Trlifajová, Daniel Vašata: Matematická logika, 2013, skripta ČVUT/FIT
+  * Eva Milková: Teorie grafů a grafové algoritmy, 2013, FIaM UHK, skripta
+  * Jan Mareš: Jazyky, gramatiky a automaty, 2011, ČVUT/FJFI
+====== Různé ======
+  * Ian Stewart: Matematika života

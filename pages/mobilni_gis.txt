@@ -1,0 +1,78 @@
+<WRAP center round tip 60%>
+Local Based Services - principy, doplňující metody zpřesnění služeb a měření (RFID, QR, ...) a real-time technologie sběru dat (požadavky a řešení pro mobilní platformy)
+</WRAP>
+
+  * integrovaný technologický celek pro přístup ke geoprostorovým datům
+  * účel pořizování: sběr dat pro tvorbu tematických map, určování polohy, navigace, LBS, aktualizace dosavadních dat, rozhodování
+  * přístup a využití dat: prohlížení a dotazování, editace a sběr, transfer, přístup ke vzdáleným databázím, tvorba nových projektů a témat
+====== Field Based GIS ======
+
+  * stará se o sběr, aktualizaci a analýzu prostorových a atributových dat
+  * **Hlavní technologie:**
+        * HW: Pocket PC (WincCE), PDA (Palm OS), Tablet PC (Windows Based)
+        * SW: Mobilní GIS/GPS software (ArcPAD, MapXtend, InteliWhere, OnSite)
+        * Programovací nástroje: Java, Visual Basic, .NET Compact Framework
+        * Bezdrátová komunikace: Wi-Fi nebo GSM
+        * GPS: připojení skrz Bluetooth nebo kabelem
+  * **Hlavní možnosti využití:**
+        * monitoring životního prostředí a přírodních zdrojů
+        * sběr dat pro výzkum v oblasti životního prostředí a geografie
+        * správa sítí (plyn, elektřina, voda)
+        * správa katastru
+        * výuka v terénu
+        * koordinace a řízení krizových situací
+
+====== Local Based Services ======
+  * Local Based Services - z mobilních zařízení
+  * zaměřuje se na poskytování GIS využívajících služeb pro navigaci v terénu, silničním provozu, logistice ...
+  * **Hlavní technologie:**
+        * HW: mobilní telefony 3. a 4. generace, smartphone
+        * SW: výrobcem poskytovaný WAP a C-HTML případně HTML kompatibilní
+        * Programovací nástroje: Java, .NET Compact Framework
+        * Bezdrátová komunikace: 3G a 4G mobilní telefony nebo satelit
+        * Webové služby: LBS server
+  * **Hlavní možnosti využití LBS:**
+        * poskytování lokalizovaného telefonního seznamu (služeb a obchodů v blízkosti)
+        * navigace v provozu (poskytování informace o aktuální dopravní situaci a nejvhodnějších cestách)
+        * "lokalizované zpoplatnění" vstupné
+        * informace o adresách, mapové služby
+        * Geo-tracking (doprava zásilek, monitorování vozidel, aktuální informace o zpoždění v hromadné dopravě)
+        * lokalizace nouzových telefonních hovorů
+        * Social Interaction Services (kontrola dětí, upozornění na blízkost známých lidí, koordinace schůzek)
+
+====== hlavní technologie ======
+  * mobilní zařízení plus přídavné komponenty (měřící technika, správa multimédií)
+  * lokalizační zařízení (GPS)
+  * platforma OS: Windows Mobile, Symbian, Blackberry, Palm, IOS, Android
+  * klientské aplikace: 
+        * tlustý klient -> aplikace není závislá na připojení do sítě, může pracovat offline. Má ale obrovské nároky na výkon zařízení
+        * tenký klient -> jádro běží na serveru a funguje jako terminál. Nabízí větší míru kompatibility a nízké nároky na výkon platformy na které běží. Ale nutnost stálého připojení k síti.
+
+====== ostatní ======
+===== mobilní internet =====
+  * je to bezdrátová rádiová síť
+  * podle **způsobu fungování se SW okolím** se dělí na:
+        * off-line mode, který pracuje nezávisle na síti
+        * wired-internet mode, který přistupuje k datům na síti pomocí klasického Internetu
+        * wireless internet mode, který pracuje stejně, akorát bezdrátově, v mGIS je nejpoužívanější
+  * datový protokol pro přístup v rámci rádiové sítě:
+        * 1. generace 
+              * už jsou překonané, WAP (Wireless Application Protocol) 
+        * 2. generace
+              * digitální
+              * lepší kvalita a větší kvantita přenosu dat
+              * GSM (Global System for Mobile Communication)
+                    * sítě 2G
+                    * nízká rychlost připojení
+              * GPRS (General Packet radio Services) 
+                    * přenos dat ve formě paketů
+                    * sítě 2.5 G
+              * USDC, PDC, ERMES
+        * 3. generace
+              * UMTS (Universal Mobile Telecommunication System)
+                    * sít 3G
+                    * další vývojové stadium standardu GPRS
+                    * vyšší přenosová rychlost
+                    * přenos hlasu i dat zároveň
+                    * tento systém umožnil rozvoj LBS
+

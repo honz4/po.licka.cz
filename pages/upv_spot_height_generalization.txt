@@ -1,0 +1,34 @@
+  * automatizovaná tvorba a generalizace kótovaných bodů 
+
+
+  * co je master database?
+  * __hiearchical classification__
+    * **special interest points**
+      * defined by data producer
+      * related with map names (vyhledává do v databázi)
+    * **geomorphologic interesting points**
+      * terrain points -  peaks, mountain passes, depressions
+      * kategorizace: conic, assymetrical, open, closed
+      * they didnt use DEM but TIN, because of some difficulties to this methodology
+        * One is that the centre of a pixel in raster data can not be coincident with the exact position of the spot height and the location of the pixel containing the spot height is unclear
+        *  in raster format, each pixel of the DEM must be analyzed, while when using a DEM in TIN format, the analysis can be specifically restricted to the spot heights. Therefore, the use of a DEM in TIN format reduces substantially the computation time
+      * peaks:
+        * bud podle vyhledávací oblasti, hledám nejvyšší bod
+        * nebo podle  tvaru Base Contour Line (je nemenší vrstevnice, obsahující jeden vrchol)
+      * deprese:
+        * podle minimálního souseda
+    * **remainder points**
+
+
+  * There must be a spot height approximately every 1200 meters on the roads
+  * The input spot heights placed on the intersection of roads are considered as preferred spot heights
+
+
+-----------
+
+  * simplification,amalgamation, exaggeration, collapse, displacement
+  * geodetic points,
+  * points located in crossroads,
+  * points in urban areas, and
+  * points near roads, near generic toponyms and near places of touristic interest (like monuments, ruins, viewpoints, springs, etc.).
+

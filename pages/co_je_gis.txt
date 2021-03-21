@@ -1,0 +1,6 @@
+  * speciální forma informačního systému aplikovaná na geografická data
+  * geografický informační systém (GIS) zpracovává geograficky vztažená data stejně jako neprostorová data a zahrnuje operace, které podporují prostorové analýzy 
+      *  společným cílem v GIS bývá podpora rozhodovacích procesů při správě území, zdrojů, dopravy, odpadů a dalších prostorově rozmístěných entit
+      * spojení mezi prvky systému vytváří geografie - tj. umístění, blízkost, prostorové rozdělení
+<wrap hi>Geografický informační systém (GIS) je informační systém aplikovaný na geografická data. Je to souhrn postupů zahrnující vstup dat, údržbu, analýzy a pořizování výstupů.</wrap>
+

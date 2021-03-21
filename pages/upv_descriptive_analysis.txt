@@ -1,0 +1,4 @@
+====== describing variables ======
+===== average vector =====
+
+

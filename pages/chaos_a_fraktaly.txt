@@ -1,0 +1,49 @@
+====== fraktály ======
+  * http://barborka.vsb.cz/~kon352/fraktaly.htm
+
+
+  * fraktál se skládá z geometrických částí různé velikosti a orientace, ale jednoduchého tvaru
+  * základní vlastností je **soběpodobnost** a **neceločíselná dimenze**
+        * běžně se měří délka, objem, plocha -> u fraktálů je délka nekonečná
+  * mají tzv. **frikční dimenzi** = Hausffordova dimenze!
+        * hladká euklidovská přímka vyplní přesně 1D prostor (to je //topologická dimenze//, kde vlastnosti tělesa nejsou závislé na měřítku a tato dimenze není ani schopna popsat reálný svět)
+        * fraktální čára se rozlije přes ni do 2D (např. obrys pobřečí má frikční dimenzi mezi 1 a 2, horské pohoří má 2 až 3)
+===== fraktály v biologických systémech =====
+  * obrysy mořského pobřeží, atmosféra, geologické zlomy, skalní formace, keře, stromy, mraky
+
+===== typy fraktálů =====
+  * [[lindenmayerovy_systemy|L-systémy]]
+  * IFS (itinerační funkční systémy)
+  * polynomické fraktály
+        * na základě jednoho polynomu
+        * spíše estetický význam
+        * zkoumání vlastnostní dané rovnice 
+        * Juliova množina (J-set)
+  * náhodné fraktály
+        * stochastistické generování fraktálů
+        * modifikace předchozích
+        * Brownův pohyb, fraktální krajina
+
+
+====== matematický chaos ======
+  * na náhodný!
+  * deterministický proces nelinárnách dynamických a otevřených systémů, jenž je vysoce sensitivní na počáteční podmínky
+  * schopnost jednotlivých systémů bez zabudovaných náhodných prvků vykazovat vysoce nepředvídatelné a neuspořádané chování
+  * Kochova vločka, turtle geometry (to jsou ty L-systémy?), 
+
+===== butterfly effect =====
+  * popisuje silnou závislost na počátečních podmínkách
+  * "mávnutí motýlích křídel" a všechno může být jinak
+  * kauzalita (příčina -> následek)
+  * chaotický **atraktor** (chaotický konečný stav systému)
+        * atraktor je množina stavů, do kterých směřuje systém
+        * kyvadlo, proudění, počasí
+        * vykreslení grafu stavových veličin
+        * má zdánlivě chaotické chování
+        * **3 druhy:**
+              * bodový
+              * cyklický
+              * nekonečný = (fraktály)
+  * extrém - bifurkace (Bifurkace je zvláštní případ, kdy se řeka rozdělí do dvou toků, z nichž každý poté teče do jiného povodí)
+
+

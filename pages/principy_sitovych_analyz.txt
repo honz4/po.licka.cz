@@ -1,0 +1,18 @@
+<WRAP center round tip 60%>
+teorie grafů, typy sítí a jejich komponenty, uzlová a hranová pravidla, tvorba sítě, topologie, data
+</WRAP>
+
+  * **Síť** = soubor liniových objektů, přes které proudí zdroje, 2D nebo 3D
+        * Konečný, souvislý, orientovaný, acyklický, hranově nebo uzlově ohodnocený graf
+  * **Charakteristiky linie**: délka, směr, konektivita (spojuje dva body)
+  * **Sítě**: nezorientované (se smyčkami nebo bez), orientované (se smyčkami nebo bez)
+  * Uzel (vrchol), hrana, smyčka, otevřený a uzavřený graf
+
+  * **Komponenty síťových analýz**: soubor zdrojů (materiály, které se mají v síti přesunovat), jedna nebo více lokalit (kde se zdroje nachází), jedna nebo více cílových lokalit, soustava podmínek (definují propojení sítě mezi uzly)
+  * **Multimodální síť**: skládá se z více liniových vrstev (linky MHD a metra)
+  * **Uzlová pravidla**: jestli můžu odbočit, otáčení v daném uzlu, cena průchodu uzlu (odbočení trvá dýl)
+  * **Hranová pravidla**: ohodnocení hrany (třeba ve směru/proti směru linie)
+  * **Impedance** (odpor proti pohybu hranou nebo uzlem)
+  * Mimoúrovňové křížení (neplanární uzel), planární uzel (topologické pravidlo konektivity)
+  * **Topologicky čistá síť**: linie se protínaj pouze ve svých koncových bodech, křížení linií mimo tyto body není dovoleno, určení směru pohybu po linii
+

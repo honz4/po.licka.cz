@@ -1,0 +1,22 @@
+  * dvě veličiny jsou závislé, pokud jejich veličiny určitým způsobem korespondují
+  * **korelační analýza** = zkoumá vztahy proměnných pomocí různých měr závislosi, které nazýváme korelační koeficienty. Pomocí korelačních koeficientů je kvantitativně vyjádřena těsnost (síla) vzájemné závislosti obou sledovaných proměnných
+  *   *  = studuje, jaký vztah existuje mezi proměnnými (lineární, kvadratický, logaritmický,...) a jak se mění závislá proměnná Y v závislosti na změnách ji podmiňující nezávislé proměnné X. Jde tedy o jednostrannou závislost (na rozdíl od korelační analýzy která studuje dvoustranný reciproční vztah obou náhodných proměnných)
+
+
+  * vztahy mezi proměnnými můžeme obecně rozdělit do dvou základních skupin:
+      * **funkční závislost**:
+        * v každé číselné hodnotě jedné proměnné Xi odpovídá přesně jedna hodnota druhé proměnné Yi
+        * X je nezávislá proměnná, Y je závislá proměnná
+      * **statická (korelační) závislost**:
+        * jsou to náhodné jevy, už to není matematika, ale příroda, jejich charakter je totiž proměnlivý a nestálý
+        * taková závislost má relativní charakter
+        * existence (změna) jedné proměnné vyvolává existenci (změnu) jiné proměnné jen s určitou pravděpodobností („znaky spolu korelují“)
+        * jediné číselné hodnotě Xi (nezávislá proměnná) může tedy odpovídat celá řada náhodných hodnot druhé veličiny Yi (závislá proměnná)
+        * graficky = bodový diagram – každý bod odpovídá korelační dvojici (xi, yi)
+        * pokud jsou body seskupeny podél některého směru, tvoří tvz. Korelační pás a svědčí to o přítomnosti určitého vztahu mezi sledovanými proměnnými
+
+
+==== Korelační koeficient ==== 
+  * přímá, nepřímá úměra
+  * pomocí korelačního koeficientu se zjišťují vzájemné vazby a jejich závislosti na třetím faktoru
+  * přímá korelace (pozitivní) jde zdola nahoru, nepřímá jde zhora

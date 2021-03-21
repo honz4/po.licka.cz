@@ -1,0 +1,85 @@
+====== Geometrické korekce ======
+  * odstranění jevů vzniklých kolísáním výškya rychlostí pohybu nosiče, i zakřivení Země
+  * atmosférické refrakce, zdánlivé změny v poloze objektů v důsledku kolísání nadmořské výšky terénu a nelinearity v průběhu snímání senzoru
+  * nemá měřítko !!!
+  * **cíle geometrických korekcí**
+    * odstranit významné vlivy tak, aby obraz získal požadovaný souřadnicový systém zvoleného kartografického zobrazení a aby bylo možné použít ho jako mapy
+    * propojení obrazových dat s prostorovou  vektorovou databází v GIS
+<WRAP center round info 60%>
+kartografická projekce = systém vztahů, kterými je část sféroidu transformována do roviny \\
+každá projekce používá souřadnicový systém k vyjádření polohy objektů
+</WRAP>
+
+
+===== rektifikace =====
+  * transformace polohy pixelu z jednoho souřadnicového systému do druhého
+  * **registrace**
+    * úprava souřadnicové soustavy jednoho obrazového záznamu do souřadnicové soustavy druhého obrazového záznamu
+    * nemusí jít o souřadnicovou soustavu mapového zobrazení, jde mi jenom o porovnání dvou obrazových záznamů
+  * **georeferencování**
+    * je to to samé co registrace, až na to, že je k registrovaným datům dodána informace o absolutní poloze alespoň jednoho obrazového prvku
+    * proces, při kterém jé známá absolutně poloha alespoň jednoho pixelu
+    * tímhle se mění jenom informace o poloze obrazových prvků, nemění se samotné DN hodnoty!
+  * **geokódování**
+    * transformace do určité kartografické projekce
+    * poloha každého pixelu je vyjádřena v systému mapových souřadnic
+  * **ortrektifikace**
+    * odranění nepřesností v relativní změně v poloze objektů
+    * hlavně pro družicová data nad hodně členitým terénem a mapy velkých měřítek
+    * potřebuju k tomu DMR
+    * 
+===== převzorkování =====
+  * transformace DN hodnoty každého pxelu z původní souřadnicové soustavy do nové, až po rektifikaci
+  * hlavním výsledkem rektifikace a převzorkování je to, že dva obrazové záznamy jsou porovnatelné (stejná souřadnicová soustava a stejné prostorové rozlišení)
+
+===== Transformace digitálního obrazu =====
+  * algoritmy: polynomická transformacee, splinová fce, transformace po částech, ortorektifikace
+==== polynomická tranformace ====
+  * vstupní snímek -> volba metody korekce -> výpočet parametrů -> kontrola přesnosti -> transformace a převzorkování -> výstupní snímek
+  - __sběr identických (vlícovacíh) bodů__
+    * dvojice souřadnic (zdrojové a cílové)
+    * rovnoměrné rozmístnění identických bodů
+    * nejlépe hrany budov a tak, je blbost vybírat třeba něco v okolí říčního toku, protože to se mění v čase
+  - __volba stupně transformace__
+    * polynom prvního řádu
+      * podobnostní -2
+        * posunutí, otočení
+      * afinní -3
+        * už i zkosení
+      * kolineární -4
+    * 2.řádu(6), 3. řádu (10), 4.řádu (15), 5. řádu (21)
+ {{ :polyn.png?nolink&500 |}}
+  - __hodnocení přesnosti (testování transformačních rovnic)__
+    * koeficienty rovnic vytvářejí matici -> inverze této matice -> pro každý identický bod můžu vypočítat jeho polohu ve zdrojové soustavě
+    * jak moc velký rozdíl polohy bodu mezi zdrojovou a novou soustavou určuje RSME
+    * RSME - střední kvadratická chyba
+    * přípustná hodnota < poloviční velikost jednoho pixelu
+    * RMSE=(X-X<sup>OR</sup>)<sub>2</sub> + (Y-Y<sup>OR</sup>)<sub>2</sub>
+      * X je nová souřadnice, X<sup>OR</sup> původní souřadnic
+    * počítám to jak pro jednotlivé dvojice, tak jako jednotlivou chybu. Když je u některé dvojice moc velká chyba, tak ten bod vyhodím a dělám to tak dlouho, dokud mi chyba neklesne pod jeden pixel
+  - __převzorkování obrazu__ 
+     * každém pixlu přiřadím hodnotu vypočítanou z původního obrazu
+{{ :resampl.png?nolink&300 |}}
+      * **nejbližší soused**
+       * metoda je geometricky nejméně přesná. Výsledný snímek může obsahovat nespojitosti, protože sousední pixely objektů mohou být ve výsledném obraze posunuty až o polovinu šířky pixelu
+       * zachovává původní hodnoty pixelů
+       * pokud budu pak obraz klasifikovat, musím použít tenhle algoritmus
+{{ ::neighb.png?nolink |}}
+      * **bilinerání interpolace**
+       * hodnota pixelu v novém obraze vypočtena jako vážený průměr 4 nejbližších pixelů z původního obrazu
+       * shlazuje výsledný obraz -> ten pak ztrácí rozlišení
+{{ ::bint.png?nolink |}}
+      * **kubická konvoluce**
+       * vážený průměr 16 nejbližších sousedů
+{{ ::kubkon.png?nolink |}}
+      * **bikubický spline**
+
+
+===== modelový přístup =====
+  * výškově členitá území a snímky z družic s vysokým rozlišením vyžadují modelový přístup
+  * fyzikální model obsahující tři části:
+    * model senzoru, model orbity, model snímaného území
+
+
+
+

@@ -1,0 +1,43 @@
+==== GEOGRAFICKÉ DOVEDNOSTI ====
+== typy úloh ==
+   * podle předmětu geografického zájmu
+   * podle charakteru dat
+   * mikro, makro, piko, nano
+=== dovednosti ===
+  * výzkumná otázka
+  * zjistit, získat, zpracovat informace (primární a sekundární data)
+  * organizace informací
+  * kognitivní vs afektivní
+
+
+
+==== Afektivní ====
+   * vnímání
+   * reagování
+   * oceňování hodnoty
+   * integrování hodnot
+   * že se s tím ztotožním
+   * spolu s výsledkem si vytvářím i životní postoj, své zaměření
+
+
+----
+
+==== bloomova taxonomie cílů úloh====
+
+  * operační (kognitivní) dimenze
+    * zapamatování = vybavení příslušné znalosti z dlouhodobé paměti
+    * porozumění = konstruování významu sdělení prezentovaného ústním, písemným nebo grafickým způsobem
+    * aplikování = používání známých postupů v běžných a nových situacích
+    * analyzování = řešení účelu, analýza, rozlišování důležitosti dat
+    * hodnocení = ověřování a posuzování
+    * tvorba
+  * znalostní (obsahová) dimenze
+    * znalost faktů = jsem schopna odpovědět na otázku "co", důležitá je znalost terminologie
+    * konceptuální znalosti = řeším vztah mezi tím, co už znám
+  * obsahová (znalostní)
+    * generalizace
+    * procedurální znalosti (postupy, metody, kritéria výběru)
+    * metakognitivní znalosti (obecné znalosti o poznávání a uvědomování si vlastních kognitivních procesů)
+      * znalost sebe sama
+      * znalost strategií
+      * znalost kognitivnívh úloh

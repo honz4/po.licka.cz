@@ -1,0 +1,186 @@
+
+
+  * integrovaný technologický celek pro přístup ke geoprostorovým datům
+  * účel pořizování: sběr dat pro tvorbu tematických map, určování polohy, navigace, LBS, aktualizace dosavadních dat, rozhodování
+  * přístup a využití dat: prohlížení a dotazování, editace a sběr, transfer, přístup ke vzdáleným databázím, tvorba nových projektů a témat
+====== Field Based GIS ======
+
+  * stará se o sběr, aktualizaci a analýzu prostorových a atributových dat
+  * **Hlavní technologie:**
+        * HW: Pocket PC (WincCE), PDA (Palm OS), Tablet PC (Windows Based)
+        * SW: Mobilní GIS/GPS software (ArcPAD, MapXtend, InteliWhere, OnSite)
+        * Programovací nástroje: Java, Visual Basic, .NET Compact Framework
+        * Bezdrátová komunikace: Wi-Fi nebo GSM
+        * GPS: připojení skrz Bluetooth nebo kabelem
+  * **Hlavní možnosti využití:**
+        * monitoring životního prostředí a přírodních zdrojů
+        * sběr dat pro výzkum v oblasti životního prostředí a geografie
+        * správa sítí (plyn, elektřina, voda)
+        * správa katastru
+        * výuka v terénu
+        * koordinace a řízení krizových situací
+
+====== Local Based Services ======
+  * Local Based Services - z mobilních zařízení
+  * zaměřuje se na poskytování GIS využívajících služeb pro navigaci v terénu, silničním provozu, logistice ...
+  * **Hlavní technologie:**
+        * HW: mobilní telefony 3. a 4. generace, smartphone
+        * SW: výrobcem poskytovaný WAP a C-HTML případně HTML kompatibilní
+        * Programovací nástroje: Java, .NET Compact Framework
+        * Bezdrátová komunikace: 3G a 4G mobilní telefony nebo satelit
+        * Webové služby: LBS server
+  * **Hlavní možnosti využití LBS:**
+        * poskytování lokalizovaného telefonního seznamu (služeb a obchodů v blízkosti)
+        * navigace v provozu (poskytování informace o aktuální dopravní situaci a nejvhodnějších cestách)
+        * "lokalizované zpoplatnění" vstupné
+        * informace o adresách, mapové služby
+        * Geo-tracking (doprava zásilek, monitorování vozidel, aktuální informace o zpoždění v hromadné dopravě)
+        * lokalizace nouzových telefonních hovorů
+        * Social Interaction Services (kontrola dětí, upozornění na blízkost známých lidí, koordinace schůzek)
+
+====== hlavní technologie ======
+  * mobilní zařízení plus přídavné komponenty (měřící technika, správa multimédií)
+  * lokalizační zařízení (GPS)
+  * platforma OS: Windows Mobile, Symbian, Blackberry, Palm, IOS, Android
+  * klientské aplikace: 
+        * tlustý klient -> aplikace není závislá na připojení do sítě, může pracovat offline. Má ale obrovské nároky na výkon zařízení
+        * tenký klient -> jádro běží na serveru a funguje jako terminál. Nabízí větší míru kompatibility a nízké nároky na výkon platformy na které běží. Ale nutnost stálého připojení k síti.
+
+====== ostatní ======
+===== mobilní internet =====
+  * je to bezdrátová rádiová síť
+  * podle **způsobu fungování se SW okolím** se dělí na:
+        * off-line mode, který pracuje nezávisle na síti
+        * wired-internet mode, který přistupuje k datům na síti pomocí klasického Internetu
+        * wireless internet mode, který pracuje stejně, akorát bezdrátově, v mGIS je nejpoužívanější
+  * datový protokol pro přístup v rámci rádiové sítě:
+        * 1. generace 
+              * už jsou překonané, WAP (Wireless Application Protocol) 
+        * 2. generace
+              * digitální
+              * lepší kvalita a větší kvantita přenosu dat
+              * GSM (Global System for Mobile Communication)
+                    * sítě 2G
+                    * nízká rychlost připojení
+              * GPRS (General Packet radio Services) 
+                    * přenos dat ve formě paketů
+                    * sítě 2.5 G
+              * USDC, PDC, ERMES
+        * 3. generace
+              * UMTS (Universal Mobile Telecommunication System)
+                    * sít 3G
+                    * další vývojové stadium standardu GPRS
+                    * vyšší přenosová rychlost
+                    * přenos hlasu i dat zároveň
+                    * tento systém umožnil rozvoj LBS
+===== příklady aplikací =====
+  * PocketGIS
+        * pro geodetz
+        * umožňuje načítání dat z totálních stanic, laserových dálkoměrů, přijímačů GPS
+        * pro přenos dat do PC utilita PocketGIS Connection
+  * FieldWORKER
+        * naprogramovaná v Javě
+        * umožňuje online připojení GPS, laserů, totálek, čtečku čárového kódu, digitální váhy
+        * vkládání digitální fotografií, příprava databázových formulářů
+  * TerraSync
+        * od Trimble
+        * zobrazí rastrová a vektorová data
+        * podporuje zobrazení a přenos GIS dat z Internet Map Server
+        * podpora digitalizace a navigace
+        * pouze 1 aktivní a 1 podkladová vrstva
+        * bez podpory vlastní symboliky
+  * Mobilní ArcGIS
+        * ArcPad
+              * pokročilé funkce GIS, které podporují ad hoc sběr dat
+              * GPS integrace s cílem usnadnit postprocessing
+              * převážně pro sběr dat a aktualizaci geodat v terénu
+              * dá se revize provádět přímo v terénu
+              * funkce: vizualizace, propojení s přijímačem GPS, editace dat
+        * ArcGIS Mobile
+              * centrální správa, konfiguraci a nasazení aplikací a projektů
+              * synchronizace GIS informace ze serveru a desktopovým klientem
+              * .NET SDK pro vytváření vlastní aplikace (ArcGIS Mobile SDK)
+                    * ArcGIS Mobile Software Development Kit
+              * 1 licence je součástí každé licence ArcGIS Desktop
+              * funkce: prohlížení map, sdílení mobilních projektů, správa úloh, sběr geodat se do centrální databáze promítají 
+              * ihned, aplikace pracuje v online i offline verzi
+        * ArcGIS for Smartphones
+              * využití mobilních OS
+              * prohlížení map, sběr a editace, prohlížení údajů a analýzy GIS
+              * přístup k podnikové GIS prostřednictvím ArcGIS Online nebo ArcGIS Pro Server
+              * Developer Runtime SDK
+              * funkce: práce s mapami dostupnými v ArcGIS Online, místroje pro hledání, identifikaci, měření a dotazování, tvorba a editace prvků, nahrávání příloh
+        * Explorer for ArcGIS
+              * k prohlížení webových map na ArcGIS Online
+        * Navigator for ArcGIS
+              * navigační aplikace
+              * i výpočet trasy s více zastávkami
+        * Collector for ArcGIS
+              * pro sběr prostorových dat v terénu
+              * body, linie i polygony
+              * i přílohy, vyplňování atributů, včetně domén
+              * i s mapou i offline
+              * i odesílání polohy jednotlivých pracovníků (big brother...)
+              * podporuje AppLink (předávání informací skrz ostatní ESRI produkty)
+        * Web Appbuilder for ArcGIS
+              * tvorba mapové aplikace
+              * obsahem je webová mapa publikovaná na ArcGIS Online nebo na Portal for ArcGIS
+              * výběr fčních modulů (widgetů) -> definice funkcí aplikace
+              * HTML/Javascript (takže i pro telefony i pro Desktop)
+        * AppStudio for ArcGIS
+              * tvorba aplikace, která bude schopná nativního provozu na různých platformách
+              * možnost využití šablon
+              * založeno na multiplatformní knihovně Qt a ArcGIS Runtime SDK for Qt
+        * Survey123 for ArcGIS
+              * pro sběr bodových prvků s rozsáhlejší atributovou složkou
+              * například při inspekci technickcýh zařízení
+              * formulář XLSForm a MS Excel
+              * pak odešlu formulář na ArcGIS Online -> vytvoří se služba, kterou mohou uživatelé využívat ke sběru dat
+              * i offline
+        * aplikace pro BI, ESRI Maps for office, operations dashboard for arcgis, 
+
+====== přenos a synchronizace dat mezi mobilními zařízeními ======
+  * synchronizace
+        * proces konzistence a jednotnosti instancí dat ve více systémech
+        * zajišťuje stejné kopie nebo verze dat v různých zařízeních
+        * využívá se k udržení stejné datové základny v jednotkách distribučního počítačového systému
+  * replikace
+        * hlídá databázový systém, jestli tam nedošlo ke změně. Jestli jo, tak spustí přenos dat.
+        * uzel (node) = je to každá databázová jednotka v distribučním počítačovém systému (clusteru) a má jednu ze dvou rolí:
+              * 1. master (rodič) - data se dají zapisovat a i číst
+              * 2. potomek (slave) - data jenom číst
+        * data se přenášejí pouze jednosměrně
+====== datové struktury pro přenos dat ======
+  * přenáší se média (binární soubory, tvořící obrazovou a video dokumentaci), textové informace (což je především atributová složka) a prostorové informace (souřadnice)
+  * záleží na datovém modelu a na uložení 
+
+  * JSON / GeoJSON
+  * YAML Aint Markup Language  -formát čitelný strojem i člověkem
+      * umí ukládat i komentáře
+  * XML formáty
+  * SFA - WKT (textové formáty)
+  * WKB (binární formát)
+
+====== algoritmy využitelné při synchronizaci dat ======
+
+  * lamport timestamps
+        * pro zajištění globálního času v distribuovaných počítačových systémech
+        * každý uzel má vlastní logické hodiny a inkrementálně si čísluje operace
+        * při procesu synchronizace spolu systémy komunikují pomocí zasílání zpráv -> časová značka se porovnává se značkou v uzlu -> porovnání jestli se událost stala před nebo po (dvě události nenastanou ve stejný čas totiž)
+  * vector clock
+        * update těch předchozích
+        * místo jednoho inkrementálního čítače obsahují tolik čísel, kolik je uzlů
+        * každý uzel si pak drží údaje o ostatních uzlech a ty pak tvoří vektor
+  * optimistic concurrency control 
+        * řízení souběžných systémů užívaných v transakčních systémech (relační databáze ...)
+        * po zahájení transakce se nezamykají zdrojová data
+        * transakce probíhá a po změnách jsou data přenesena zase zpět
+  * pessimistic offline locking
+        * rozdíl: po otevření záznamu jedním klientem záznam zamkne a znemožní editaci dalším klientům (editace tedy nesmí být prováděna příliš dlouho)
+  * operational transformation
+        * systém, který umožňoje řešit mnoho kolizí v jeden moment
+        * v nástrojích pro hromadnou editaci dat (Google Docs)
+        * princip: editace dokumentu probíhá v lokálním úložišti -> transakční přenos zpět do centrální databáze
+  * byzantine fault tolerance
+        * snaží se vyřešit problém dvou generálů (při doručování zprávy ve dvou systémech se špatným spojením)
+        * systém předpokládá, že pokud dojde zpráva, ve které není příliš mnoho vad, tak je správná

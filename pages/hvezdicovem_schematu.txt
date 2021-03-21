@@ -1,0 +1,1 @@
+{{ :wiki:star_schema.gif?nolink |}}

@@ -1,0 +1,59 @@
+=====   achillova pata GISU je nejistota =====
+
+----
+
+
+<WRAP group>
+<WRAP half column>
+
+  * [[MODELOVÁNÍ BIOLOGICKÝCH SYSTÉMŮ]]
+  * [[MODELOVÁNÍ A SIMULACE V GEOVĚDÁCH]]
+  * [[doplnujici_Cteni_proan|doplňující čtení]]
+  * [[tahák]]
+
+
+----
+
+  * [[ZÁPISKY Z PŘEDNÁŠEK]]
+  * http://worrydream.com/LadderOfAbstraction/
+
+----
+
+  * [[teorie grafů]]
+  * [[klasifikace modelů]]
+  * [[postup modelování]]
+  * [[modelování počasí a klimatu]]
+
+  * [[komplexní systémy]]
+  * [[celulární automaty]]
+  * [[multiagentní systémy]]
+  * [[Lindenmayerovy systémy]]
+
+
+  * [[time GIS]]
+  * [[VGI a crowdsourcing]]
+  * [[kvalita dat, nejistota]]
+  * [[frikční povrchy]]
+  * [[zpětná vazba]]
+  * [[analýza a podpora rozhodování v GIS]]
+
+
+  * [[chaos a fraktály]]
+
+  * [[prostorové analýzy]]
+</WRAP>
+
+<WRAP half column>
+
+=====   Všechny modely jsou špatné. Většina z nich je alespoň užitečných. =====
+  * parametrické testy
+        * mají předpoklady o rozložení vstupujících dat (např. normální rozložení)
+        * Při stejném N a dodržení předpokladů mají vyšší sílu testu než testy neparametrické
+  * neparametrické testy
+        * Nemají předpoklady o rozložení vstupujících dat, lze je tedy použít i při asymetrickém rozložení, odlehlých hodnotách, či nedetekovatelném rozložení
+
+{{ :regrese.png?direct&600 |}}
+</WRAP>
+</WRAP>
+
+

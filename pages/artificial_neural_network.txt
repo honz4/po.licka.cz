@@ -1,0 +1,72 @@
+
+https://cs.wikipedia.org/wiki/Neuronov%C3%A1_s%C3%AD%C5%A5
+===== POPIS =====
+
+Skládá se z neuronů. Ty jsou propojeny a vzájemně si předávají signály a transofmují je pomocí určitých přenosových funkcí. Neuron má libovolný počet vstupů, ale pouze jeden výstup. \\
+Mají schopnost řešit silně nelineární úlohy, učit se, zevšeobecňovat. Využití pro klasifikaci, regresi a predikci časových řad
+
+Jejich výhoda spočívá v automatickém naučení závislostí pouze z naměřených dat bez nutnosti doplňování dalších informací (jako například charakteru závislosti u regrese). Neuronovou síť natrénujeme na data z minulosti s nadějí, že objeví skryté závislosti a bude schopna jich využít pro předpovídání do budoucnosti. Neuronová síť nepředstavuje explicitně daný model, spíše slouží jako černá skříňka, která je schopna se něco naučit.
+----
+===== druhy predikce =====
+Můžeme chtít předpovídat jednu hodnotu (nebo více hodnot) v budoucnosti - pak se jedná o predikci hodnoty. Nebo lze chtít předpovídat trend veličiny, tj. zda daná veličina bude růst nebo klesat bez ohledu na velikost změn - pak se jedná o predikci trendu. Při predikci trendu jde vlastně o klasifikaci do dvou tříd. Předpovídání blízké hodnoty je obecně snažší než předpovídání trendu. Mimo trendu lze chtít předpovídat i jiné složky vývoje veličiny, např. pohyb klouzavého průměru apod.
+
+==== data pro predikci ====
+ Pro předpovídání můžeme mít časou řadu v ekvidistantních intervalech - pak se lze snažit předpovídat vývoj veličiny pouze v závislosti na čase. V tomto případě záleží na tom, zda je daná řada dostatečně dlouhá, případně dostatečně hustá.
+
+K časové řadě můžeme mít doplňující informace, např. průběh derivace. Pak lze často těchto informací použít pro přesnější predikci. Velmi důležitou informaci mohou přinést tzv. intervenční proměnné, což jsou informace o časové řadě, případně informace o období, do kterého predikujeme. Například při predikci spotřeby energie může velmi pomoci doplňující údaj, zda predikujeme na pondělí nebo na sobotu - což explicitně ze samotné časové řady nevyplývá. Ukazuje se jako výhodné použít takovéto intervenční údaje při vytváření modelu pro předpovídání.
+
+Dále můžeme mít informace o souvisejících veličinách (nejlépe také v časové řadě). Pak lze z vývoje svázaných veličin usuzovat na vývoj jiné veličiny. Vazba může být dána různě, např. pomocí pevného (nebo pomalu se měnícího) součtu, nebo nemusí být vůbec přesně známa, např. vývoj akcií podniků ve stejném oboru. Takovéto údaje jsou často vybírány v naději, že budou s predikovanou veličinou souviset, ale to nemusí být vždy zaručeno. Výběrem vhodných informací a jejich případnou interpretací se zabývá obor zvaný data mining ("dolování dat").
+
+===== učení neuronové sítě =====
+Neuronové sítě mají pro predikci výhodu v tom, že jsou schopny učit se na příkladech a po naučení jsou schopny vystihnout skryté i silně nelineární závislosti a to i za přítomnosti šumu v trénovací množině.
+
+Nevýhoda spočívá v tom, že se mohou naučit závislost platnou pouze v určitém období. Chybu předpovědi zpravidla nelze odhadnout.
+
+==== trénovací množina ====
+Trénovací množinu vytvoříme přímo z časové řady jednoduše tak, že jako vstupy vezmeme určitý počet naměřených hodnot a jako požadovaný výstup hodnotu (případně hodnoty) v určité vzdálenosti od vstupních hodnot. Vstupní část časové řady se nazývá okno, výstupní část je predikovaná hodnota. Posunem tohoto okna po časové řadě vytváříme položky trénovací množiny. Je vhodné ponechat část naměřené řady pro testování, tzn. nepředkládat tuto část časové řady při učení, ale použít jí pro testování naučenosti sítě.
+
+Takto získanou trénovací množinu je ještě třeba upravit dle konkrétní použité sítě, například přepočítat získané hodnoty do určitého intervalu.
+
+Data, která máme k dispozici, se často rozdělují na učící řadu, validační řadu a testovací řadu. Tyto tři řady se mohou vzájemně částečně překrývat (viz obrázek 5) a nemusí být souvislé. Učící řada je posloupnost, kterou předkláme síti, a dle které síť upravujeme. Odchylku v odpovědích na validační řadu používáme jako kritérium pro ukončení učení sítě. Testovací řadu pak použijeme na test naučenosti sítě pro hodnoty v budoucnosti, které síť během učení "neviděla".
+
+Učící řada tedy slouží na hledání modelu, validační řada na ověřování modelu a testovací řada na test použitelnosti modelu. 
+https://cs.wikipedia.org/wiki/U%C4%8Den%C3%AD_s_u%C4%8Ditelem
+----
+===== PARAMETRY =====
+==== number of neurons in the hidden layer ====
+**[1,999]** \\
+**typ**: integer \\
+- additional layer to the input and output layers, not connected externaly \\
+- typical value: 14
+
+==== learning rate ====
+**[0,1]** \\
+**data type**: real \\
+- training parameter that controls the size of weight and bias changes during learning \\
+- typical value: 0.3
+
+==== momentum ====
+**[0,1]** \\
+- **data type**: real \\
+- momentum simply adds a fraction m of the previous weight update to the current one. The momentum parameter is used to prevent the system from converging to a local minimum or saddle point. A hight momentum parametr can also help to increase the speed of convergence of the system. However, setting the momentum parameter too high can create a risk of overshooting the minimun, which can cause the system to become unstable. A momentum coefficient that is too low cannot reliably avoid local minimums and also can slow down the training of the system. \\
+- typical value: 0.05
+
+==== training type ====
+**[0,1]** \\
+- **data type**: integer
+0 = ??train by epoch?? \\
+1 = train by minimum error \\
+- typical value: 0.05
+
+==== epoch ====
+**[1,999]** \\
+- **data type**: integer \\
+- determines when training will stop once the number of iterations \\
+- **typical value**: 5 000 000
+
+==== minimum error ====
+**[0,0.5]** \\
+- **data type**: real
+- it means square error of the epoch
+- square root of the sum of the squared difference between the network targets and actual outputs divided by number of patterns (only for training by minimum error) \\
+- typical value: 0.01

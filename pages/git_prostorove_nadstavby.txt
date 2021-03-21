@@ -1,0 +1,250 @@
+====== způsoby uložení prostorových dat v GDB ======
+===== formáty OGC =====
+  * bez použití prostorových datových typů
+        * atributy ve feature table (sloupce s atributy, geometry column ID - jsko číselná data a to řetězec souřadnic nebo jako binární data)
+  * s použitím prostorových datových typů
+        * feature table obsahuje geometrii prvků jako jeden ze sloupců
+        * tabulky geometry_columns (popisuje všechny feature tables v databázi) a spatial_ref_sys (popisuje všechny SS použité v databázi) obsahují metadata k prostorovým datům v databázi
+        * neuvádí, jak to indexovat (dlaždicový nebo quadtree index)
+
+===== formáty DBMS =====
+  * ORDBMS s podporou ukládání geografických dat, požívají pouze jednu tabulku
+  * formáty vychází ze standardů OGC SF nebo SQL/MM Spatial
+
+====== Oracle Spatial ======
+  * z OGC specifikace (uložení prostorových dat pomocí prostorových datových typů)
+  * objektově-relační datový model
+  * SDO_GEOMETRY:
+        * Point, LineString - buď straight nebo arc, Polygon
+        * atributy:
+              * sdo_gdtype: typ geom popisu prvku dltt - dimenze,lineární odkazování,geomtyp
+              * sdo_srid
+              * sdo_point: x,y,z
+              * sdo_elem_info: způsob interpretace souřadnic
+              * sdo_ordinates: uložení souřadnic bodu, který vytváří geom popis prvku hranice
+              * sdo_dim_array
+        * vrstva: kombinace tabulka plus sloupec
+  * operace:
+        * contains, covers, touch, overlapintersect, overlapdisjoin, equal, dijoint, cover
+        * filter (disjunktní?), within_distance, sdo_nn (NN nejbližších sousedů)
+  * topologické vztahy:
+        * dsys_sdo_relate, sdo_geom.relate
+  * **Oracle locator:**
+        * prostorová nadstavba databáze oracle
+        * sdo_geometry, prostorové indexy a operátory, vybrané geometrické a agregační fce, podporu pro transformace SS,
+        * fce: area, lenght, mbr,ordinate
+        * umožňuje použít quadtree a rtree k indexaci
+        * SS, tolerance
+
+====== SQLite ======
+  * relační databázový systém
+  * hašovací techniky
+  * **SQLite:**
+        * podpora prostorových dat podle OGC SF
+        * OGC WKT a WKB
+        * implementuje SQL prostorové funkce
+        * import a export shp
+        * transformace pomocí projč a epsg
+        * implementuje index založený na r-tree
+  * **VirtualShape**
+        * umožňuje přístup SQLite
+        * standardní SQL dotazy na externí shp bez nutnosti importu nebo konverze
+  * Spatial extender
+        * OGC SF i SQL MM/Spatial
+        * svázán s esri
+        * používá dlaždicový index
+  * Geodetic extender
+        * prostorová nadstavba DB2
+        * data vztažená k elipsoidu
+        * voroni prostorový index
+
+====== IBM Imformix ======
+  * podobný IBM DB2
+  * OGC SF
+  * Spatial DataBlade:
+        * pro práci s daty v rovině
+        * R-tree
+  * Geodetic DataBlade:
+        * pro práci s daty na povrchu elipsoidu
+        * OGC WKT, WKB, GML, SHP
+        * R-tree v kombinaci s Voronoi
+
+====== PostreSQL ======
+  * předností je rozšiřitelnost
+  * PostGIS, Tseach2 (fulltext vyhledávání), Slony-I 
+  * řízení přístupu uživatelů: 
+        * vytvoření DB uživatele, právo čtení, aktulizace dat, zápis dat, skupina uživatelů
+===== POSTGIS =====
+  * prostorový index GiST (R.tree index implementované na základě GiST zápisu seznamu GIS dat)
+  * fce pro analýzu a zpracování geografických dat
+  * umožňuje zachovávat prostorová data v relační databázi
+  * nezávislý na platformě
+  * **pdpůrné knihovny:**
+        * proj4
+        * geos (geometrie)
+              * touches, contains, intersect
+              * buffer, union, difference
+
+==== postgis a OGC SF for SQL ====
+  * point, line, ,polygon, multixxx, geometrycollections
+  * wkb, wkt
+  * **extended wkb a wkt**
+        * ukládání 2.5D
+        * dynamicky segmentované prvky (s M hodnotou)
+              * třeba čas nebo kilometráž
+        * uložení i údajů o SS
+  * umožňuje uložení i 3D/4D souřadnic
+  * rozšíření: sql-mm (interpolované křivky)
+        * circularstring, compoundcurve, curvepolygon, multicurve, multisurface
+
+==== definice geom objektů OGC ====
+  * definice: info o typu objektu, souřadnice lomových bodů objektu
+  * rozhraní: wkt, wkb
+  * kontruktory
+  * geometrie
+        * ST_GeomFromWKB, ST_GeomFromText
+  * wkt, wkb
+        * st_asbinary, st_astext
+
+==== množiny tabulek s metadaty ====
+  * spatial ref sys
+        * srid, auth name (epsg e.g.), auth srid (5514), srtext, proj4text
+  * geometry columns
+        * table catalog, table schema (public), table name
+        * geometry column
+        * coord dimension (2d, 3D, 4D)
+        * srid (cizí klíč tabulky spatial ref)
+        * type
+
+==== prostorový index ====
+  * B-tree
+        * indexování dat podle jedné osy (ne pro geodata)
+  * R-tree
+        * jednotkou je minimální ohraničující obdélník
+  * GiST
+        * generalized seach tree
+
+==== aktualizace geodat ====
+  * update, insert, delete
+
+====== MySQL ======
+
+  * cizí klíče, transakce, poddotazy, uložené procedury, triggery, views
+  * **MyGIS:**
+        * prostorové rozšíření
+        * zčásti specifikace SQL with geometry types -> sloupcový typ geometry, který dokáže převádět na WKB a WKT
+        * R-tree
+        * geometry: body, čáry, polygony
+        * geometry -> point, curve (-> linestring -> linearring, line), surface (-> polygon multipoint), geometrycollection (multicurve, multisurface -> multilinestring, multipolygon)
+
+====== ArcSDE (Spatial Database Engine) ======
+  * klient/server technologie fy Esri pro ukládání a správu prostorových dat v prostředí RDBMS
+  * -> DB2, Informix, Oracle, PostgreSQL, SQL Server, SQL Express
+  * **middleware**: prostředník při komunikaci mezi databázovým serverem a klientem
+        * 3vrstvá architektura
+  * dobré při správě objemných geogrfckých databází (víceuživatelská editace)
+  * vlastnosti: správa dat, uchování dat, uložení rastrů, sdílení dat, verzování, víceuživatelská editace, analýza dat, podpora velkých databází, multiplatformní systém, zálohování a zabezpečení dat, znovuobnovení dat, klient/server architektura, jednotný databázový systém, dva typy připojení klienta:
+        * přímé připojení klienta (direct connect): SDE se připojí přímo a ne přes aplikační server, výhodou je jednodušší instalace
+        * připojení přes aplikačního klienta: je rychlejší
+
+===== binární formát dat =====
+  * SDE geodatabase
+  * prvky:
+        * body, linie, polygony, jednoduché i složení
+        * spojnicemi vrcholů linií a polygonů mohou být i křivky
+        * i Z a M hodnoty
+        * 1 prvková třída smí obsahovat jen 1 prostorový sloupec (jedna sata atributových dat smí mít jen jednu prostorovou reprezentaci)
+  * **ArcSDE binární formát:**
+        * pro ukládání grgf dat do rdbms, které ukládání prostorových dat implicitně nepodporují
+        * k tabulkám jako je business table, feature table přistupuje pouze ArcSDE
+  * Opaque types
+        * vypadají jako binární ale mají složitější strukturu
+
+
+----
+
+  * reprezentace třídy:
+        * bussiness table: obsahuje slupce s atributy a spatial column
+        * feature table: název začíná vždycky na f, fid!, obsahuje vlastní geometrii prvku, s bussiness table je 1:1
+        * spatial index table: název na s, obsahuje prostorový dlaždicový index prvkové třídy
+
+====== struktura ESRI geodatabáze ======
+  * feature dataset -> feature class (-> subtype, feature), topology, relationship class
+  * FC
+  * table
+  * raster dataset
+  * cad dataset
+  * survey dataset
+  * geometric network
+  * relationship class
+  * domain - doménové integritní omezení
+
+
+----
+
+
+  * feature řádek tabulky
+  * subtype: prvky v jedné prvkové třídě
+  * feature dataset: prvkové třídy se stejným SS, definice topologických vztahů
+
+
+
+----
+
+
+  * multiuser gdb:
+        * ArcSDE personal pro SQL server
+        * ArcSDE Workgroup pro SQL server 
+              * 10 nebo méně současně pracujících uživatelů
+        * Enterprise GDB
+
+
+====== dlaždicový index ======
+  * rozdělení na dlaždice
+  * v db je pak zaznamenáno, které prvky do které dlaždice zasahují
+  * velikost dlaždice je důležitý parametr
+  * 3x průměrná velikost obáálky je jako výchozí hodnota
+  * prostorový dotaz (zadaný pomocí souřadnic):
+        * 1. výběr prvků, které zasahují do stejné dlaždice jako dotaz (index table, geometry table, ...)
+        * 2. prvky, které zasahují do obálky dotazu 
+        * 3. obálky zasahující do geometrie dotazu
+        * 4. prvy, jejichž geometrie zasahuje do geometrie dotazu
+
+====== quadtree ======
+  * rekurzivní dělení na kvadranty
+  * každý uzel, který není listem, má č potomky
+  * prohledá uzel -> vyhovující obáce (geometrii) -> dotazu 
+  * point quadtree
+        * v uzlech jsou uloženy souřadnice
+        * pro body
+  * region quadtree
+        * linie, polygon, rastr
+        * pravidelné čtverce
+        * souvislá oblast
+        * vzájemně disjunktní
+
+====== voroného geodetický index ======
+  * voronoi polygony místo dlaždic
+  * kruhová obálka
+
+====== r-tree ======
+  * seskupuje prvky, aproximované svou obálkou, podle jejich polohy do hiearchické stromové struktury
+  * v listech jsou uloženy ukazatele na prvky (geom i atributy) a obálky prvků
+  * uzly obsahují obálky všech obálek
+  * v kořenu je obálka celého indexovaného prostoru
+  * prvky můžou být nrozměrné
+
+====== GiST indexy ======
+  * dovoluje uživateli vybrat index
+  * B-stromy se data seskupují do uzlů podle svých hodnot
+  * R-stromy jsou obálky prvků sdružovaných v uzlech porle své prostorové blízkosti
+  * pro gist můžeme zvolit vlastnost, jak budou data seskupována
+
+====== replikace ======
+  * kopíruje změny na jiné datové úložiště
+  * pouze jednostranný proces
+  * pak se to synchronizuje (kopírují se všechny změny které nastanou
+  * master-slave
+
+
+

@@ -1,0 +1,221 @@
+dpz - cviceni
+geometrické korekce
+
+kody epsg
+http://www.cadforum.cz/cadforum/epsg-kody-nejpouzivanejsich-souradnicovych-systemu-v-cr-tip8519
+
+polynomické transformace
+-transformace polynomem prvního řádu (v rovině)
+--podobnostní (adjust  v arcgis) (změním měřítko, rotování obrazu, 2 páry bodů)
+--afinní (affine) (2 měřítka, zkosení, 3 páry bodů)
+--projektivní (libovolný čtyřúhelník, 4 páry bodů)
+
+-transformace polynomem vyššího řádu
+--2. řádu (6 párů bodů) - zkroucení snímku, roztažení pixelů v místě ohnutí snímku
+--3. řádu - zkroucení snímku několikrát, roztažení a zmáčknutí pixelů v místě ohnutí
+
+graf s modrou čárou (přímka) (1. řád) - residua (černé tečky) rovnoměrně rozprostřené, relativně malá chyba
+graf s červenou čárou (křivka) (2. a vyšší řád) - protne všechny body, chyba residuí klesne, pokud bude málo bodů tak nevystihneme správný průběh křívky, potřeba velkého množství bodů
+
+střední souřadnicová (kvadratická) chyba RMSE (střední chyba souřadnic) = ((X - Xor)na druhou + (Y-Yor)na druhou)pod odmocninou
+-umocníme a odmocníme aby bylo číslo celé kladné
+
+metody převzorkování
+-metoda nejbližšího souseda (posunu hodnoty nejbližšího pixelu z původního obrazu)
+--jediná metoda která nemění dn hodnoty, nejméně přesná, obsahuje nespojistosti, některá data mohou být ztracena (ztratí se kus řeky z mapy)
+-bilineární interpolace (vážený průměr 4 nejbližších pixelů do nového pixelu)
+--problém krajních pixelů, vyjdou tmavé protože počítáme s nulovými pixelu
+-kubická konvoluce (průměr z 16 okolních pixelů, nejvíc zhlazená, nejnáročnější)
+
+radiometrické a atmosférické korekce
+radiometrické
+-dn hodnota neodpovídá skutečnostem (rozlišíme pouze jestli je světlý nebo tmavý)
+-upravujeme dn hodnoty aby odpovídaly skutečnostem
+-konverze dn hodnot na absolutní zářivost DN=GL+B (DN hodnota digital number, G - sklon dané funkce, L - měřená spektrální zářivost, B - posun kanálu (channel ofset))
+
+atmosférické korekce
+-odstraňují vliv atmosféry (odstraňuje kouřmo)
+-metoda nejtmavšího pixelu (vezmeme nejtmavší pixel, jeho hodnota je větší než nula -> vliv atmosféry ->odečteme tuto hodnotu z celého snímku)
+--jednoduchá metoda, ale nemusí být přesná, neodpovídá skutečnosti
+--lze zadat i vlastní hodnotu, položíme před vyfocením snímku na zem desku se známou hodnotou, podle toho jak se změní - >příspěvek atmosféry
+-obrázek-záření, které jde dolů je iradiance, záření které jde nahoru a dopadne na senzor je radiance ve wattech na m2 (Ltot=(ró*E*T)/pí + Lp (Lp - příspěvek atmoféry, to záření které nedopadne vůbec na povrch)
+-sun-elevation cor. a earth-sun distance cor a dostaneme combined irradiance cor. E=Eo*cos0/d2
+4 kroky: 
+- subtract path radiance to estimate outgoing radiance L=Ltot - Lp
+- 
+-
+-
+
+-modelování atmosférických podmínek
+--modely (ATCOR, MOTRAN)
+
+cvičení
+layer stacking - spojí snímky dohromady, pozor na pořadí, pásma musí jít za sebou
+--exlusiv spojí jen překrývající se oblasti, inclusiv všechno tak jak je
+--soubor uložit jako .tiff, .tif nefunguje
+
+stretch data
+-output 0-255 byte - převod na 8 bitový rastr
+
+orez - vytvořit vektor - file - new - vector layer
+-resize data - spatial subset - nahrát vrstvu ROI
+
+dark subtraction (metoda nejtmavšího pixelu)
+-necháme band minimum, rozdíly v cursor value
+
+přepočet dn hodnot na reflektanci 
+-open as- landsat - geotiff with metadata - otevřít soubor
+-file - new - roi - naklikáváme polygony
+-pravým na vzniklé polygony - statistics
+přepočet
+-radiometric calibration - můžeme vypočíst radianci i reflektanci
+-apply FLAASH - změnit akorát reflectance
+
+prolinkování dvou obrazů
+-musíme mít jeden snímek v new view (záložka view)
+-link views - link all - musíme mít zaškrnuté geolink - snímky se budou v obou views chovat stejně
+
+matematika s rastry
+-band math - napíšeme příkaz, přidáme do sezmanu pak přiřadíme pásma
+-pokud nechceme výsledek složený z 0 a 1, musíme před každoou proměnou dát float (float(b1)/float(b2))
+-vegetation index calculator - vybereme si index
+
+maska
+-vytvoříme ROI
+-pak dáme build mask - options - nahrát ROI
+-apply mask - vytvoříme ořez pomocí masky
+
+zobrazovací funkce histogramu (bodová zvýraznění)
+-lineární - žádná změna
+-lineární lomený - roztažení histogramu
+-equalizace - menší hodnoty stáhne, větší hodnoty roztáhne
+-s ohledem na tvar - nejkříkřejší část křivky se nejvíc roztáhne
+-úprava jasu - celý histogram se posune kousek doprava
+
+prostorová zvýraznění (filtrace)
+-filtrační okno (3x3, 5x5,7x7) Kernel
+-nízká a vysoká prostorová frekvence (vysoká - zvýrazňuje hrany, co je na střeše (komín, anténa), hrany domů, hrany potoka, lesa.. nízká je vše ostatní, odmaže objekty na střeše, smaže výrazné objekty, střecha bude jednolitá)
+-nízkofrekvenční (čím větší okno, tím větší shlazení)
+--průměrový, původní hodnota se násobí hodnotami ve filtračním okne a postupně se buňky sčítají (všechny buňky i ta prostřední)
+--mediánový, seřadí se podle pořadí a středu okna se přiřadí hodnota v polovině
+--....
+
+-vysokofrekvenční
+--laplaceovský-u záporný hodnot vybere nejmenší hodnotu, té dáme hodnotu 0 a její hodnotu přičteme všem záporným hodnotám nebo všem záporným hodnotám dáme 0
+--zostřující filtr - použijeme na snímek nízkofrekvenční a ten odečteme od původního.. vzniknou hrany.. to pak přičteme nebo násobíme s původním
+
+filtry v ENVI
+--convolution and morpflogy (convolutions - filtry -- apply to file)
+
+spektrální zvýraznění
+-příznakový prostor - shluk pixelů typických pro určitý povrch (barvu, stejné množství vyzářené energie
+-optimum index faktor - korelace mezi pásmy, jak moc si jsou pásma podobná
+
+PCA-analýza hlavních konpoment
+--spojíme více pásem (7) do méně pásem (3) a ze 100 % informace dostaneme 90 % informace ve 3 pásmech
+PCA v ENVI
+-forward pca rotation new statistics and rotate
+-zvolíme si počet výstupních pásem nebo zaškrtneme "select subset" Yes a pak zvolíme po výpočtu
+
+Kanonická komponentní analýza
+-určíme typy shluků (druh povrchu), proložíme tím potom osy, vzniknou 4 oddíly, vznikne nový systém souřadnic
+
+Tasseled Cap
+-podobný jako PCA, ale osy jsou dopředu vypočítané
+-u wetness je voda bílá, greenes zvýrazňuje lesy, brightness zvýrazňuje lidské plochy, střechy, silnice
+-v envi - pro snímky landsat 5 - tasseled cap
+
+Transformace IHS
+-intenzita 0-1 (bílá, šedá, černá)
+-odstín (hue) 0-360 stupňů
+-saturation - sytost (vlnová délka)
+-systém rgb (kostka), systém IHS (šestiúhelník)
+--nejlepší pro odlišení odstínů narozdíl od RGB, používá se například pro odlišení objektů stejné barvy, např. odlišení červený střech od načervenalé hlíny, pro zvýrazňování snímků
+-odstín + sytost dá barvu, rastrová data můžeme dát místo intenzity
+-data s největším prostorovým informačním obsahem -> jas
+-data s největším dynamickým rozsahem -> odstín
+-málo výrazná data -> sytost
+
+panchro ->směrodatné odchylky P -> modifikace P->výměna P za I
+multi ->transformace do IHS -> hue, saturation - >transformace zpět do původních multi pásem, intenzity ->směrodatná odchylka (I) ->výměna P za I ->změna zpět do původních multi pásem ->změna rozlišení obrazu (pan sharpening)
+
+Fourierovy transformace
+-převádí obraz z viditelného spektra do fourierova spektra
+-vysokofrekvenční je v okraji
+-shluk ve středu je nízkofrekvenční
+-horizontální směr se převádí do svislého směru, posouvá se o 90 stupňů
+
+cvičení 16.11.
+pan-sharpening
+-spojení panchromatického snímku a multispektrálního snímku, rozlišení panchro a barevná pásma multi
+-panchro - více čipů, ze kterého se spojí lepší snímek; multi - 4 čipy, pro každou barvu jeden, menší ohnisková vzdálenost, stejný úhel záběru jako u panchro -> má menší rozlišení
+-pomocí transformace IHS
+
+Fourierovy transformace v ENVI
+-snímek B5
+-převedeme si ho do fourierova spektra - dáme masku na nízkou nebo vysokou frekvenci -> převedeme zpět a zůstane nám jedna nebo druhá frekvence kterou jsme nezakryli
+-filter - fft forward (převede do f. spektra) (stupeň šedi ->množství pixelů)
+--filter definition -filter type -circular pass -vše kromě prostředku, circular cut - zakryjeme střed, band pass - nechá prstenec uprostřed, band cut - vše kromě prstence uprostřed
+---samples(columns v metadatech), lines (rows)
+--filter inverse - vrátí zpět
+-jiná možnost - na fft forward vytvořit ROI ->build mask - options add roi - selection on nebo off ->fft inverse (na forward použít novou masku)
+
+-new file builder - alternativa k resize data (orez podle masky např.)
+
+pan-sharpening v ENVI
+-image sharpening
+-rozstřuje ale mění hodnoty pixelů (měření výnosů úrodu)
+
+cvičení 23.11
+klasifikace neřízená
+-4 typy úloh v dpz - klasifikace, enumerace (hledání určitého objektu ve snímku), delineace (hledání jevu a jeho okrajové části)
+-přiřazování určité informace k jednotlivým pixelům
+-informační třídy - jsou definovány ve formě klasifikačního schématu
+-Corine land cover - klasifikace pokryvu
+-spektrální třídy - obsaženy přímo ve snímku, může ale nemusí být totéž jako informační třídy
+-shlukové analýzy - shluky které mají podobné vlastnosti v rgb
+--hieargické ---sklučovací - začínáme s jedním pixelem a hledáme spektrálně nejbližší a shlukujeme je
+---rozkladové -vstupní soubor se postupně rozděluje na skupiny
+--nehierarchické ---K-means- přiřazuje pixely k shluku k jehož průměrovému vektoru má nejblíž, vytváří nové polohy centroidů, opakování než je rozřazena vetšina pixelů
+---ISODATA - rozšížení k-means - rozděluje heterogenní skluky, shluky s blízkými středy než je hodnoty jsou sloučeny, ruší shluky s málo pixely než je zadání hodnota
+-postup:
+--definujeme si počáteční polohy shluků (středy) a ty se umístí po diagonále příznakového prostoru, lze umisťovat i manuálně
+--proběhne první iterace - algoritmus vychází z centroidu a přidává okolní pixely, rozdělí počáteční soubor do shluků
+--druhá iterace - přizpůsobení shluků, klasifikace nejvzdálenějších pixelů
+--posouvá se poloha centroidů do největších shluků pixelů
+-jednoprůchodové algoritmy - mají jen jednu iteraci, vytvoření histogramu, vrcholy jsou centroidy shluků, údolí jsou hranice shluků
+-úprava výsledků - shlukům vytvořit informační hodnotu (geografický význam) a přiřadit k informačním třídám
+--postklasifikační shlazení výsledků, hodnocení přesnosti klasifikace (chybová matice (porovnání referenčních dat s klasifikací), kappa koeficient (porovnání klasifikace podle určitého pravidla s klasifikací vzniklou náhodným procesem)),nízkofrekvenční filtrace (odtranění osamocených pixelů), sieve filtr (odstranění malých ploch)
+-ideální výsledek - více spektrálních tříd přiřadíme do méně informačních
+-hybridní klasifikace - zaklasifikujeme několik pixelů a operátor rozřadí zbytek, nebo vybere ROI oblast, řekneme že je to les a operátor podle toho rozřazuje
+-objektově orientovaná klasifikace - velké objekty se segmentují do menších a sledujeme jaké podobjekty má sledovaný objekt, jaký objekt mu je nadřazen a jaké má sousední objekty, vstupují do klasifikace geografické vlastnosti
+
+klasifikace v envi
+-k-means - nastavíme počet tříd, iterací a procento do kterého se bude rozdělovat
+-totéž pro isodata + minimální počet pixelů v třídě
+-hodnocení - podle obrazu - porovnání obrazů se stejným počtem tříd - confusion matrix using ground truth image
+--overall acuracy - podobnost klasifikací
+--kappa - pokud by byl 1, obrazy jsou stejné
+--v total manageru - dáme gray scale na total class error - vyhodí všechny pixely které byly jinak zaklasifikovány
+-úprava klasifikace - pojmenování tříd - pravým na třídu
+--vytvoření roi bodů pro jednotlivé klas - potvrzení enter po každém bodu
+--confusion matrix using ground truth roi
+
+3 isa 3 k-means, vyberete jednu s 5 třídama, vytvoříme roi a confus
+
+cvičení 30.11.
+řízená klasifikace
+-stanovují se základní klasifikační témata
+-základem jsou trénovací plochy výběrem reprezentativních pixelů pro každou informační třídu (kompletní a reprezentativní, rovnoměrně rozprostřené na snímku, pro každou třídu minimálně 100 pixelů)
+-výpočet statistických charakteristik pro jednotlivé trénovací plochy
+-volba vhodného klasifikátoru a jeho použití pro zařazení všech pixelů
+envi
+-vytvořit roi trénovací plochy
+-nahrajeme si statistiky do excelu, vytvoříme spojnicový graf se značkami pro sloupce mean.. potom označíme graf, dáme rozložení, chybové úsečky, vlastní.. vybereme skupinu a dole si dáme vlastní data a tam přidáme v obojím sloupec StdDev
+-klasifikátor maximal likelihood clas. - největší pravděpodobnosti (hodnoty 0.2 a 255)
+-spojování tříd přes combine classes (u řízené i neřízené)
+-klasifikátor spectral angle mapper clas.
+
+cv 7.12.2015
+-classification workfloat - průvodce
+-vymezení červených střech - roi červených střech - target detection wizard - arbirtary- vybrat data - atmosférické korekce (nevybíráme) - import roi střech - no - no -metody zpracování : ACE, SAM - vybrat metodu - uložit jako shp - nahrání shp

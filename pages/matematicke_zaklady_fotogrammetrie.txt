@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+centrální projekce, radiální posuvy, prvky vnější a vnitřní orientace, rovnice kolinearity, distorze objektivu
+</WRAP>

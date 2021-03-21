@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+obecný rámec OWS, mapové služby WMS, WMTS, SLD, KML, CMS
+</WRAP>

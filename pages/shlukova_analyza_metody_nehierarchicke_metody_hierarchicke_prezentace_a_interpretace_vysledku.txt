@@ -1,0 +1,47 @@
+======= shluková analýza =======
+  * **z ANN:** tento typ analýzy nepoužívá závislou proměnnou (učení bez učitele), cílem je detekovat netriviální shluky v datech. V tomto případě se využívá speciální typ neuronové sítě - Kohenova mapa (//SOFM - self organizing feature ma//p). Vstupem jsou pouze hodnoty (vstupních) nezávislých proměnných.
+  * Shluková analýza se snaží o identifikaci shluků objektů ve vícerozměrném prostoru a následnou redukce vícedimenzionálního problému kategorizací objektů do zjištěných shluků
+  * každá metoda může počítat s jinou vzdáleností, může mít jiný algoritmus jak spojovat objekty do shluků a taky může jinak interpretovat výsledky
+  * Cílem analýzy může být jednak zjistit vazby mezi objekty (dostatečným výstupem je dendrogram) nebo identifikovat v datech shluky, které budou využity v další analýze jako zjednodušení vícedimenzionálního problému
+  * jak identifikovat shluky? - buď ty hranice identifikuju já, jakožto analytik. Nebo přes matematické metody.
+{{ :typymetod_shlukova.png?direct&700 |}}
+
+----
+
+===== HIEARCHICKÉ SHLUKOVÁNÍ =====
+==== aglomerativní ====
+  - Výběr vhodné metriky vzdálenosti/podobnosti pro výpočet asociační matice (analýza může probíhat na libovolných metrikách vzdálenosti/podobnosti)
+  - Výběr shlukovacího algoritmu, který podstatným způsobem ovlivňuje výsledky analýzy a možnosti její interpretace
+  * vypočítá se asociační matice -> spojí se dva nejpodobnější objekty -> nová asociační matice (ty dva spojené objekty vystupují jako jeden objekt!!!) -> a tak dál a tak dál
+  *{{ ::dendrogram.png?direct&600 |}}
+  * **shlukovací algoritmy**
+        * nejbližší soused
+        * průmerná vzdálenost (vážená i nevážená)
+        * středospojná (spojení dle vzdálenosti centroidů středů shluků)
+        * nejvzdálenější soused
+
+==== divizní ====
+  * Shlukování může být zastaveno po rozdělení všech objektů do shluků, po předem daném počtu kroků nebo po dosažení kritéria minimálního rozdílu mezi shluky
+
+----
+
+===== NEHIEARCHICKÉ SHLUKOVÁNÍ =====
+==== aglomerativní ====
+  * Do této skupiny lze zařadit metody hledající nejkratší spojnici mezi objekty ve vícerozměrném prostoru
+  * Na rozdíl od klasického hierarchického aglomerativníhoshlukování může být na jeden objekt napojeno několik dalších objektů
+  * {{ ::nehiearchicke.png?direct&300 |}}
+
+==== divizní ====
+  * Nejběžnější metodu je tzv. k‐means clustering
+  * Metoda zařazuje objekty do shluků na principu ANOVA, analogií je Wardovametoda shlukování v hierarchickém aglomerativnímshlukování
+  * Počet shluků je předem definován, výběr nejvhodnějšího počtu shluků je prováděn buď expertně nebo pomocí matematických metod výběru optimálního počtu shluků (analýza vnitro a mezishlukovýchvzdáleností)
+  * 
+====== asociace ======
+  * hledání vztahů (asociací) mezi podmnožinami atributů
+  * A asi souvisí s B, A je asi příčinou B
+  * mohou být:
+        * **klasické** - 2 podmnožiny atributů v relačních datech
+        * **transakční** - v rámci rozsáhlé množiny atributů, zaznamenaných seznamem jejich výskytů
+              * Jiný častý tvar zdrojových dat pro asociace je tzv. nákupní košík. Objektem je jeden (obvykle obchodní) případ, jeho několik atributů má obvykle pevnou strukturu (datum, čas, zákazník, ... = identifikace košíku). Vysoký počet dalších, obvykle binárních atributů (seznam nakupovaného zboží = obsah košíku) je zadáván jako seznam atributů nabývajících nenulové hodnoty. Asociacemi se zde rozumějí nalezené podmnožiny atributů, vyskytujících se společně (v košíku).
+        * **agregované** - mezi podmnožinou atributů a jejich skupinovými charakteristikami
+  * antecedent -> sukcendent

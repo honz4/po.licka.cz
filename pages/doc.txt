@@ -1,0 +1,117 @@
+http://data.gbif.org
+
+**Ecological Niches and Geographic Distributions**
+//A. Townsend Peterson, Jorge Soberón, Richard G. Pearson, Robert P. Anderson, ...//
+
+<code>
+fundamental = základní
+optain = opatřit
+</code>
+
+
+====== CONCEPT OF NICHES ======
+
+What combinations of environmental factors allows a species to exist in a given geographic region or in a given biotic community, and what effects does the species have on those environmental factors? \\
+Oproti tomu chlapík jménem Elton (1927) říkal, že ekologická nika je funkční role organismu v komunitě: the existence was taken for granted, but the emphasis was placed on the impacts. \\
+
+Niche is defined as a set, in a multidimensional space, of environmental tates within which a species is able to survive
+
+
+----
+
+----
+===== Major themes in niches concepts =====
+   * "every point of which corresponds to a state of the environment which would permit the species to exist indefinitely"
+   * interpretation: define meaning of exist indefinitely, what kinds of variables constitute the hypervolume?, the nature of feedback loops between a species and the variables composing the hypervolume
+
+===== Types of variables in niche space =====
+  * bionomic variables
+  * linked or nonlinked variables
+  * zásadní rozdíl mezi proměnnými, které se dynamicky mění v přítomnosti druhů a ty, které ne
+  * **nebude to rozdál mezi abiotickými a biotickými faktory. Místo toho se vytvoří multivariate životní prostor založený na proměnných, které nebudou dynamicky ovlivněny druhem, jako klima, povrch, možná rysy stanoviště v konstrastu s proměnnými které se dynamicky měnit budou jako např. spotřebované zdroje, niche construction, niche destruction
+**
+  * dynamically linked
+
+
+===== Scaling niches =====
+   * the place and the role
+   * muldimensional environmental space composed of both niche (meaning "role") and habitat (meanin "place")
+   * this space is called ecotope
+   * linked variables require more complicated representations
+   * alfa beta, gama niche
+     * alfa = region of scale where interactions among species occur
+     * beta = region of species niche corresponding to the habitat where it is found
+     * gama = is the geographic range of the species
+
+===== Summary =====
+   * GIS operations can be used to map in G-space (geographic space) all the regions that correspond to a given subset of E-space (environmental space)
+   * for every point in G-space, one and only one point exists in E-space, whereas for each point in E-space more than one point may exist in G-space  
+   * E-space is changing all the time according to dynamics of global ecology, climate and physical environment in general.
+
+====== NICHES AND GEOGRAPHIC DISTRIBUTIONS ======
+Ranges are usually represented as maps!
+
+**ŽIVOČICHOVÉ A PROSTŘEDÍ**
+
+----
+
+----
+=== obecná ekologie ===
+shrnuje a zobecňuje ekologické souvislosti a zákonitosti, které jsou závazné i pro člověka. Pro obnovu zemského povrchu zdevastovaného průmyslovou činností má význam //krajinná ekologie// (významný odborník **Vlastimil Vaníček**)
+
+=== speciální ekologie ===
+věnuje pozornost jednotlivým skupinám organismů – rostlinná ekologie, živočišná ekologie, ekologie organismů
+  * autoekologie – studuje vztahy na úrovni jednice (např. vliv biotických a abiotických činitelů, přizpůsobení, biorytmy)
+  * demekologie – studuje ekologické vztahy na úrovni populací (např. strukturu populace, populační dynamiku, ...)
+  * synekologie – studuje ekologické vztahy v rámci přirozených společenstev (tok energie, biogeochemické cykly, antropogenní vlivy na přírodu, ...)
+
+====== EKOLOGICKÁ NIKA ======
+přizpůsobení se živočisného druhu určitému prostředí a s ním souvisejícímu specifické životní strategii \\
+  * abiotický činitel
+    * světelné záření, teplota, tlak, vlhkost, chemismus
+
+  *  biotický činitel
+    * vnitrodruhové a mezidruhové vztahy
+
+obecné schéma působení ekologických činitelů je dáno Gaussovou křivkou \\
+{{wiki:valence.jpg}}
+
+minimum a maximum jsou stresové oblasti, ve kterých je jedinec sice schopen přežít, ale strádá. Míra schopnosti organismu snášet nepříznivé podmínky se nazývá tolerance. \\
+Schopnost existence organismu v určitém rozpětí podmínek se nazývá **ekologická valence**. \\
+  * stenovalentní typy
+    * organismy vázané na úzce vymezené podmínky (např. koala a eukalyptus)
+    * tyto typy často slouží jako bioindikároři
+    * stenobiont = vyžaduje určité vyhraněné podmínky
+    * je to i člověk, ten bez wifi nepřežije
+  * euryvalentní typy
+    * organismy dobře snášející kolísání daného faktoru v širokém rozmezí
+    * eurybiont = má velkou adaptabilitu, je schopný žít za nejrůznějších životních podmínek. 
+
+schopnost existence organismu v určitém rozmezí teplot se nazývá**teplotní valence**
+  * eurytermní
+  * stenotermní
+**Úspěšnost organismu v daném prostředí je limitována tím faktorem, jehož hodnota je mu nejméně příznivá.** (např. velký mráz, nízký obsah kyslíku ve vodě). Pokud se hodnoty jediného z faktorů přiblíží smrtícímu pásmu (//letální hodnota//), je organismus oslaben.\\
+
+  * kulturofobní
+    * druhy strádající, např. obojživelníci
+  * kulturofilní
+    * druhy nacházející optimální podmínky
+      * vrabec, hrdlička
+===== vliv abiotických a biotických faktorů na živočichy =====
+==== světelné záření (ab.f.)====
+Umožňuje zrakovou orientaci živočichů. Rytmickým střídáním dne a noci ovlivňuje jejich aktivitu a odpočinek a v mírném pásmu i délkou doby osvětlení (//fotoperioda//) působí změny zbarvení povrchu těla, línání, pelichání, páření, apod. 
+==== způsob výživy (b.f.) ====
+  * biofágové = čerstvá potrava
+  * nekrofágové = chcíplotiny
+  * fytofágové (
+
+
+
+
+
+
+
+
+
+
+

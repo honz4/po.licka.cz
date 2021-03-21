@@ -1,0 +1,157 @@
+== mapa orientační ==
+  * tábořiště lovců mamutů
+  * **28 000 – 24 000 let př.n.l**.
+  * meandry Dyje a Pálavy, příkré svahy
+
+== Babylonská mapa světa ==
+  * **6. stol. př.n.l.**
+
+===== Antická kartografie =====
+  * rekonstrukce podle "tabulek souřadnic"
+  * **Tháles z Milétu**
+        * mapa hvězdného nebe
+        * autor gnómonické projekce
+  * **Aristoteles**
+        * Země je kulatá a je středem světa
+  * **Anaximandros**
+        * autor první středověké mapy tehdy známého světa
+  * **Krates z Milétu**
+        * vytvořil globus
+  * **Ptolemaios**
+        * 85 – 160 n.l.
+        * [[http://oldgeogr.muni.cz/ucebnice/dejiny/obsah.php?show=47|Geografiké Hyfégésis]]
+        * zavedl pojem topografie
+        * vymyslel kopečky
+        * závazný konstrukční postup při tvorbě mapy
+        * používat zeměpisnou síť
+
+===== Středověká kartografie =====
+  * potlačeno učení o kulatosti Země
+  * **Petr Visconte**
+        * 1311
+        * první datovaná mapa
+  * **IDRISI**
+        * 1099 – 1166
+        * Arábie
+        * Mapa světa (*1154)
+
+==== KOMPASOVÉ MAPY ====
+  * //portulány//
+  * vznikly v důsledku rozvoje námořní plavby ve 13. a 14. století
+  * **Carta Portana** (*1275)
+  * základem je směrová růžice
+  * není tam tudíž souřadnicová síť, ale systém kompasových růžic
+  * **Katalánský atlas**
+        * 1375
+        * kompasové mapy s využitím poznatků Marca Pola
+===== Renesance kartografie =====
+  * znovuobjevení Ptolemaiova díla v roce 1405 utečenci z Cařihradu
+  * knihtisk (1448), mědirytina (1530)
+  * **centra renesanční kartografie**
+        * Itálie
+              * 1. pol. 16. st.
+              * kosmografie (nové formy regionálního popisu)
+              * zámořské plavby
+        * Nizozemsko
+              * 2. pol. 16. st. – 17. st.
+              * výroba dalekohledu (1608)
+              * vznikají nová zobrazení
+              * atlasová tvorba
+        * Francie a Anglie
+              * od 17. st.
+              * nové měření obvodu Země (J. Fernelem)
+
+
+
+  * __Pablo Toscanelli__
+        * konec 15. st.
+        * 1474
+          * mapa s rozměry Země, které byly menší než skutečné údaje
+
+  * __Kryštof Kolumbus__
+        * Ammerika
+        * plul podle Toscanelliho mapy
+
+  * __Amerigo Vespucci__
+        * 1501 objevil Jižní Ameriku
+
+
+
+  * **MAPA MUNDI**
+        * mapa známého světa
+        * 1500
+        * autorem je Juan de la Cosa
+        * zakreslení objevů Kolumba, Vespucciho, Cabrala, Vasca de Gamy
+
+  * **mapa Jižní Ameriky**
+        * 1507
+        * autorem je Martin Waldseemuller
+
+
+
+  * __Martin Behaim__
+        * účastník výprav Vasca de Gammy
+        * **Zemské jablko**
+              * 1492
+              * první středověký glóbus
+
+===== Renesance ve střední Evropě =====
+  * [[chorografické mapy]]
+
+===== Reformace kartografie =====
+  * 17./18. st.
+  * nová zobrazení
+  * Newtonův zákon (rotační elipsoid)
+  * větší přesnost a věcnost map
+  * nové prostředky (teodolit, barometr)
+  * nové způsoby měření (triangulace - 1625)
+  * vznik kartografický škol
+        * d'Anville
+              * z francouzské školy
+              * geograf krále
+              * vytvořil mapu Afriky se správnými tvary
+
+===== Novodobá kartografie =====
+  * podrobné mapování státních území
+  * nové způsoby znázorňování na mapách
+        * šrafování (Lehmann)
+        * izobáty (17.st., Bauche)
+        * vrstevnice (20.st., Carl-Bonifas)
+
+===== 19. století =====
+  * vznik a rozvoj tematické kartografie
+  * vznik prvních specializovaných map
+        * mapa poštovních cest (1796, Bradley)
+  * první tematické atlasy
+        * fyzický atlas (1836, Berghaus)
+  * národní atlasy jednotlivých zemí
+        * Finsko (1899)
+  * začátky podrobného geologického mapování
+        * 1835, Anglie
+  * 1891, mezinárodní atlas světa
+  * Atlas universal
+
+===== 20. století =====
+ ==== I. období ====
+   * 1900 – 1930
+   * zintenzivnění tvorby národních atlasů (1935, ČSR)
+   * offsetový tisk (1905)
+         * první použití v kartografii až 1920
+   * pozemní fotogrammetrie (1910)
+   * letecká fotogrammetrie (1930)
+
+==== II. období ====
+   * 1930 – 1980
+   * začátky výuky kartografie na VŠ
+   * tvorba topografických map středních měřítek
+   * tvorba tematických map
+   * začátky DPZ
+
+==== III. období ====
+   * po roce 1980
+
+
+
+
+
+ 

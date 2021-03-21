@@ -1,0 +1,91 @@
+<WRAP center round tip 60%>
+ZABAGED, GEONAMES, DATA200, ArcČR500, SM5, DMÚ, ortofoto, hypsometrická data - garant, měřítko, struktura, aktualizace, dostupnost
+</WRAP>
+
+=== ZABAGED ===
+  * stará se ČÚZK
+  * odpovídá přesností ZM10
+  * 116 typů objektů
+  * **správci:** VÚV TGM, AOPK, ČHMÚ, ŘSD, CDV, SCHKO, ČSÚ
+  * **Geometrická přesnost A–E:** A (geodetické body), B (budovy, komunikace), D (obtížně identifikovatelné hranice bažin), E (v terénu nejsou poznat, třeba rozvodnice)
+  * **Formát:** po mapových listech, DGN, SHP, GML, DXF
+  * **Dostupnost:** zpoplatněny, celá ČR 3,7 mega, 1 mapový list (18 km2) 865 Kč / výškopis 3D vrstevnice 1 list – 244 Kč / celkem 4308 listů!!!! / výškopis grid – 244 Kč / dokupy asi 5 mega
+
+=== GEONAMES ===
+  * patří pod IS veřejné správy, soubor prostorových a popisných informací o standardizovaných geografických jménech a jménech sídelních jednotek
+  * 165 typů pojmenovaných geografických objektů
+  * špagetový model
+  * Čtvrtletní aktualizace, celková aktualizace co tři roky
+  * Formát: po mapových listech, DGN, SHP, GML
+  * Dostupnost: 1 list 60 Kč
+
+=== SM5 ===
+  * státní mapa 1 : 5 000
+  * stará se čúzk
+  * Katastrální, výškopisná a topografická
+  * Tvořena: polohopis (podklad KM), výškopis (ze ZABAGED), popis (GEONAMES)
+  * Celkem 16 000 mapových listů území 2x2,5 km
+  * Formát: DGN, SHP, GML, TIFF, DXF
+
+=== DATA200 ===
+  * topografická databáze
+  * čúzk
+  * minimální polohová přesnost je 100 m
+  * 8 tematických vrstev
+  * Aktualizace 1x ročně
+  * Formáty: DGN, SHP
+
+=== DMÚ25 ===
+  * vektorová data AČR
+  * správce VGHÚŘ Dobruška, v součanosti nedostupné
+  * Přesnost do 0,5 m podrobné polohové body, nekončí na státní hranici, ale jde kousek za
+  * Vrstvy: vodstvo, komunikace, potrubí, telekomunikační a energetické trasy, rostlinný a půdní kryt, sídla, průmyslové objekty, hranice a ohrady, terénní reliéf
+
+=== DMÚ200, DMÚ100 ===
+  * nahradil v roce 2006 DMÚ 200, vznikl digitalizací topografické mapy 1 : 100 000
+
+=== RETM ===
+  * rastrové ekvivalenty topografických map
+  * od Dobrušky
+
+=== StreetNet ===
+  * CEDA (central european data agency)
+  * aktualizace 2x ročně
+
+=== ArcČR500 ===
+  * ARCDATA Praha a ZÚ
+  * 1 : 500 000
+  * S-JTSK a WGS84, už se neaktualizuje
+  * **2 GBD:** ArcCR (bažiny, hranice, lesy, NP a CHKO, sídla, silniční síť, voda, vrstevnice, kóty, železnice) a Administrativní členění (stát až ZSJ, data ze SLBD 2011), DMR
+
+=== FreeGeodata ===
+=== Ortofoto ===
+  * ZÚ
+  * 25 cm na pixel
+  * každý rok třetina území
+  * mapový list SM5 (1 : 5 000)
+  * JPG
+  * Digitální ortofoto od Geodisu, kupuje Google, 1 : 20 000
+
+=== Hypsometrická data ===
+  * digitalizované vrstevnice ZM 1 : 10 000 po 1,2 a 5 metrech -> TIN -> zpetné generování vrstevnic -> DMR (10 x 10 m)
+  * **Laserové skenování:** DMR 4G (grid 5x5 m), DMR 5G (TIN), DMP 1G (TIN)
+  * viz. [[zdrojova_data|ZDROJOVÁ DATA V DIMOR]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+<WRAP center round tip 60%>
+historie, SLDB, data, databáze
+</WRAP>
+
+====== Historie ======
+  * každý panovník chtěl mít přehled kolik čeho má
+  * jako první dochovaný soupis je považován soupis majetku litoměřického kostela (1058), který je součástí zakládací listiny Spytihněva II.
+  * když v 16.století vypukl mor, Rudolf II. zahájil šetření o zdraví populace, které mělo zmapovat vznik a rozvoj zhoubných epidemií a umožnit přijímání včasných protiopatření.
+  * **13. 10. 1753 byl vydán patent Marie Terezie o každoročním sčítání lidu**
+  * první jednotné sčítání na celém území v roce 1754
+  * ti co to dělali se to občas snažili i bojkotovat, bo se báli vyšších daní například, stát měl málo úředníků a tak se to hodilo na vojsko
+  * 1777 byl vydán konskripční patent – přítomné obyvatelstvo, třídění podle věku a sociálního postavení (pouze muži)
+  * posléze založení //populačních knih//: byla v nich zachycena zvlášť každá rodina se všemi členy domácnosti; případné změny (úmrtí, narození atd.) byly do těchto knih zanášeny na základě ohlašovací povinnosti hlavy rodiny.
+  * počátky samostatného shromažďování údajů jsou u nás spojeny se jménem **Josefa Antonína rytíře Rieggera** (1742—1795). Rytíř byl zakladatelem organizované statistické služby a prvním kvalifikovaným statistikem u nás
+  * 1856 – počátek státem organizované statistiky v Českých zemích 
+  * další významnou etapu zahájil zákon přijatý v roce 1869. Na jeho základě bylo na začátku roku 1870 provedeno sčítání lidu, které zachytilo stav ke dni 31. 12. 1869.
+    * zachycení stavu obyvatelstva v desetiletých obdobích
+    * k poslednímu prosinci roku končícího na 0
+
+{{ :wiki:hiatorie_csu.png?nolink |}}
+  * 1897 vytvořen Zemský statistický úřad Království českého
+  * 1919 založení SÚS (Státní úřad statistický) <- v té době už existuje Československo!
+  * z biologických znaků se u obyvatelstva zjišťovaly věk a pohlaví. Zaznamenávaly se případné fyzické vady (např. v roce 1869 slepota a hluchota), později i mentální vady. Ze společenských znaků se zjišťovala státní příslušnost, rodinný stav, náboženské vyznání a obcovací řeč, od roku 1880 také gramotnost sčítané osoby
+
+  * Sčítání lidu podle nového zákona č. 256/1920 Sb. se uskutečnilo **15. února 1921**.
+  * sčítání 1940 vynecháno (WWII), 1950 bylo stále neveřejné a bylo uvolněno až po odtajnění v roce 1962
+
+====== Sledované statistiky ======
+  * ročenky, analýzy
+  * konjunkturální průzkumy (poskytují informace o očekávaných tendencích ve vývoji hlavních oblastí podnikové ekonomiky v nejbližší budoucnosti, zjišťují názory podnikatelů i spotřebitelů)
+  * případové („ad hoc“) studie (obsáhlejší studie vycházející ve zvláštní ediční řadě; jsou zaměřeny nejen na aktuální téma, ale i na témata metodického či teoretického charakteru)
+
+  * životní prostředí, zemědělství, lesnictví
+  * práce, sociální statistiky
+  * demografie, sčítání lidí, bytů a domů
+  * makroekonomika (HDP)
+  * zahraniční obchod
+  * ceny výrobců, spotřebitelské ceny (inflace)
+  * průmysl, stavebnictví, energetika
+  * služby, věda a výzkum, cestovní ruch
+  * volební statistika **(ČSÚ je jediným zpracovatelem všech voleb a referend konaných na území ČR. Volební výsledky jsou dostupné okamžitě po jejich sečtení na www.volby.cz)**
+
+{{ :wiki:statistiky_csu.png?nolink |}}
+====== Metodika ======
+  * v rámci jednotlivých metodik vydává statistické klasifikace
+    * OKEČ, Standardní klasifikace produkce SKP, Klasifikace zaměstnání KZAM, číselníky (číselník ORP)
+  * důležité také registry – registr ekonomických subjektů RES, Registr sčítacích obvodů
+
+====== ČSÚ a volby ======
+  * zrušily se všechny komise a zůstala jen ta okrsková
+  * všechny ostatní sčítačí stupně se zrušily a jejich činnost převzalo Ministerstvo vnitra a ČSÚ
+  * vrcholem tohoto je Státní volební komise;, jejím předsedou je ministr vnitra a jedním z členů někdo ze staťáku
+  * **hlavním úkolem ČSÚ ve volbách je však zajištění technického zpracování výsledků hlasování ve volbách obecních, krajských a parlamentních (tj. do Poslanecké sněmovny a do Senátu) a ve volbách do Evropského parlamentu**
+
+====== SLBD ======
+  * **sčítání lidu, domů a bytů** patří k nejrozsáhlejším statistickým zjišťováním. Přináší velké množství cenných údajů, které nelze jiným způsobem efektivně zjistit. Poslední sčítání proběhlo v březnu 2011 - rozhodným okamžikem byla půlnoc z 25. na 26. března 2011
+
+====== Databáze & registry ======
+  * Veřejná databáze (zejména data SLDB)
+  * Roční národní účty
+  * Databáze demografických údajů za obce ČR
+  * Databáze zahraničního obchodu
+  * Registr ekonomických subjektů, IČO
+  * Registr osob
+  * Registr sč. obvodů a budov
+  * Ubytovací zařízení ČR
+  * Databáze Eurostatu v češtině
+
+
+
+

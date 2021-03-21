@@ -1,0 +1,4 @@
+  * centrální tabulka faktů je spojena s tabulkami dimenzí, které jsou, na rozdíl od hvězdicového schématu, dále normalizované do dalších tabulek, takže celé schéma připomíná tvarem sněhovou vločku.
+  *  využívá v datových skladech a datových tržištích
+
+{{ :wiki:snowflake_schema.jpg |}}

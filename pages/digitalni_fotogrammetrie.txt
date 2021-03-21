@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+digitální obraz, vznik obrazu, obrazové pyramidy, vnitřní orientace, aerotriangulace, transformace obrazu
+</WRAP>

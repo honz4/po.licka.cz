@@ -1,0 +1,3 @@
+====== přidání texťáku ======
+  * layer -> Add delimited text layer
+{{ :wiki:freos_txt.png?nolink |}}

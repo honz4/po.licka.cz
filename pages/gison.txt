@@ -1,0 +1,25 @@
+<WRAP group>
+<WRAP half column>
+
+  * [[GISON ZÁPISKY Z PŘEDNÁŠEK
+]]
+
+----
+
+  * [[Síťová prostředí]]
+  * [[internetove_protokoly|síťová prostředí 2 - web 2.0,3.0, geotag, geoURL]]
+  * [[XML]]
+  * [[GML]]
+  * [[Server]]
+  * [[Server side script]]
+  * [[Geo knihovny]]
+  * [[Internet GIS]]
+  * [[Mapserver]]
+  * [[Webové služby]]
+</WRAP>
+
+<WRAP half column>
+{{ ::php.jpg?nolink&300 |}}
+</WRAP>
+</WRAP>
+

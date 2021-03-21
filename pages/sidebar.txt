@@ -1,0 +1,42 @@
+===ZMĚNA KLIMATU A BIODIVERZITA===
+  * [[Business]]
+  * [[Klima]]
+  * [[Biodiverzita]]
+  * [[Lesy]]
+
+===MGR===
+  * [[GIT]]
+  * [[ENVIG]]
+  * [[GSOC]]
+  * [[PROGI]]
+  * [[GFYZ]]
+  * [[GISON]]
+  * [[DAMIN]]
+  * [[PROAN]]
+  * [[UPV]]
+
+===MGR SZZ===
+  * [[modelování v GIS]]
+  * [[informatika pro GIT]]
+  * [[geoinformační technologie]]
+  * [[aplikovaná geoinformatika]]
+
+===BC===
+  * [[DAPRZ]]
+  * [[DIMOR]]
+  * [[FREOS]]
+  * [[FYGE2]]
+  * [[GEPRO]]
+  * [[POLNA]]
+  * [[propl|PROPL]]
+  * [[sege|SEGE2]]
+  * [[STGST]]
+===BC SZZ===
+  * [[geoinformatika]]
+  * [[kartografie]]
+  * [[geografie]]
+  * [[informatika, matematika, statistika]]
+
+
+
+

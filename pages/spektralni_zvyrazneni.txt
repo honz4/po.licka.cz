@@ -1,0 +1,67 @@
+====== SPEKTRÁLNÍ ZVÝRAZNĚNÍ ======
+  * podstatou je rozšíření příznakového prostoru (vytváření nových pásem s cílem zvýšit odlišení různých objektů) nebo zúžení příznakového prostoru (hledání nových – nejinformativnějších pásem, při čemž nedojde k podstatné ztrátě informace)
+  * příznak = v každém použitém pásmu představuje hodnota odražené nebo vyzářené energie určitou charakteristiku o objektu zachyceném na ploše daného pixelu
+
+===== barevná syntéza =====
+  * vzniká skládáním 3 pásem v odstínech RGB
+  * objektivní metody -> výběr takových pásem,  které jsou mezi sebou co nejméně korelovány (podávají co nejvíce odlišné informace), Optimum index faktor (OIF)
+  * zobrazení v pravých a nepravých barvách
+
+===== analýza hlavních komponent (PCA) =====
+  * rotuje osami vícerozměrného prostoru tvořícího multispektrální snímek, a to ve směru maximálního rozptylu dat
+  * redukuje rozměrnost dat (omezení na méně pásem bez podstatné ztráty informace)
+{{ ::pca.png?nolink&300 |}}
+  * proložím PC1 (hlavní komponenta) největším rozptylem dat -> ta přímka (osa) mi potom definuje pásmo nového transformovaného obrazu -> pak proložím druhou přímku, která bude kolmá na PC1 a bude v místě druhého největšího rozptylu dat (vedlejší komponenta) 
+  * PC2 obsahuje sice míň informací než PC1, ale zato nové informace, které v PC1 nejsou
+  * 99 % informací je kumulováno v prvních dvou až třech hlavních komponentách
+  * PC1 vždy obsahuje informace o hlavních topografických rysech v obraze
+  * tato metoda nevyžaduje žádnou předchozí znalost zpracovávaného území
+
+===== kanonická komponentní analýza =====
+  * rozdíl je v tom, že PCA byla prováděna na náhodném výběru původních dat, tak CCA může být prováděna jenom pro určité části obrazu
+  * je to 2D prostor a analýza je prováděna tam, kde se vytvářejí shluky
+  * nový systém souřadnic definují nová transformovaná pásma -> počítá se to tak, aby rozptyl byl co nejmenší a separobilita mezi shluky zase co největší
+  * hlavně jako vstup do automatické klasifikace
+  * můžu také zvýraznit specifickou tematickou informaci (vegetační složka obrazu) -> ortogonální vegetační indexy, Tasseled cup
+{{ ::cca.png?nolink&300 |}}
+
+===== transformace barevného obrazu =====
+  * ČB, barevně, pseudobarevně
+{{ ::cmyk.png?nolink |}}
+
+==== IHS transformace ====
+  * popsání barevného obrazu pomocí IHS (intensity, hue, saturation)
+  * **intensity (jas)** – míra jasu v obraze, **hue (odstín)** – odstín je mírou bravy a reprezentuje dominantní vlnovou délku ve světle a **saturation (sytost)** – reprezentuje hloubku čistoty barvy vzhledem k odstínu šedi
+  * transformace: promítnu kostku na rovinu kolmou k linii šedi -> vznikne 6úhelník (hrany RGB a CMY)
+{{ ::ihs.png?nolink&300 |}}
+  * můžu zvýrazňovat jednotlivé složky a ostatní složky zůstanou nezměněny (upravím kontast jasu -> ostatní se nezmění)
+  * pomocí IHS je možné spojovat data s různým prostorovým rozlišením
+  * PAN + MULTI = PANCHRO jako složka jasu, multispektrální snímek jako odstín a sytost -> získám prostorový detail z panchra a barevnost z multi
+  * data s největším prostorovým obsahem (textura, ...) -> jsou přiřazena jasu
+  * data s největším dynamickým rozsahem -> jsou přiřazena odstínu
+
+==== transformace Martin-Taylor ====
+  * transformace barevného obrazu do systému zobrazení, který více odpovídá citlivosti lidského vidění
+  * Jas – složka s nejvíce informacemi
+  * Červeno-zelené barvy – nízký informační obsah
+  * Modro-žluté barvy – nejméně informativní
+
+===== dekorelační techniky =====
+  * techniky zvýraznění více pásem – vhodné pro zpracování vysoce korelovaných dat
+  * zahrnují úpravu kontrastu hlavních komponent a jejich následnou transformaci zpět do RGB
+
+===== aritmetické operace s pásmy multispektrálního obrazu =====
+  - Obrazové podíly
+    * Slouží k radiometrickému zvýraznění mezi dvěma různými druhy povrchů i k potlačení negativních efektů různého oslunění a zastínění těchto objektů
+    * V čitateli pásmo, ve kterém je nejvyšší odrazivost a ve jmenovateli nejvyšší pohlcování
+  - Násobení obrazů
+    * Zvýšení kontrastu pro dva povrchy s podobnou odrazivostí
+    * Technika pro maskování vybraných ploch na snímku (0,1)
+  - Součet obrazů
+    * Přičtení výsledků vysokofrekvenčního filtru k původnímu obrazu – ostřící filtr
+  - Podíl obrazů
+    * Stanovení změn mezi dvěma časovými horizonty
+
+
+
+

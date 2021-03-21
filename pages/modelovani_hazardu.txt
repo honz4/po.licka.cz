@@ -1,0 +1,126 @@
+====== hazard ======
+  * přírodní nebo člověkem podmíněný proces, který představuje možné ohrožení
+  * **přírodní hazard**
+        * geomorfologické jevy s velkou intenzitou, které se střetávají s lidskou společností
+        * zcela přírodní hazardy vůbec neexistují -většina hazardů má hybridní povahu
+        * rozsah povodně je sice podmíněn klimatickými podmínkami, na jeho velikost má ale vliv i charakter využívání krajiny, odlesňování apod.
+  * **technologický hazard**
+        * čistě antropogenně generovaný hazard
+        * riziko různých průmyslových nehod (únik toxických látek, požáry rafinerií...)
+  * **environmentální hazard**
+        * zastřešující pojem či co
+        * všechny typy hazardů od přírodních, přes technologické až po sociální (od rizika zemětřesení, přes průmyslové nehody až po kriminalitu)
+        * rychlé i dlouhodobé procesy
+==== přírodní hrozba ====
+  * Fyzikální projev přírodního procesu, který má potenciál ohrozit lidskou společnost
+  * Můžeme ji vyjádřit ve fyzikálních jednotkách
+  * Příklad –Větrná eroze –množství odnesené půdy za čas
+
+==== přírodní riziko ====
+  * Bezprostřední vliv hrozby na zájmy společnosti, které se dá vyjádřit v sociálních nebo ekonomických kategoriích
+  * Příklad –snížení výnosu z hektaru v důsledku větrné eroze
+===== klasifikace environmentálních hazardů =====
+  - atmosférické 
+  - hydrologické
+  - geologické
+  - biologické
+  - technologické
+
+
+----
+  * všeobecné dělení:
+        * doby, která uplyne od zjištění jevu nebo od jeho zaručené předpovědi k dostavení se jeho účinku
+        * doba trvání
+        * rozsah zasaženého území
+        * četnosti opakování
+
+====== riziko ======
+  * pravděpodobnost, že nastane událost, kterou hazard představuje
+  * pravděpodobnost negativních účinků katastrofy
+  * Riziko = f (PA, PB, PCB, C)
+        * f = faktor, který je různý u různých katastrof
+        * PA = pravděpodobnost katastrofy, která se spočítá podle četnosti katastrof předchozích
+        * PB = pravděpodobnost vzniku jisté kvality ničivého procesu při katastrofě (např. výška vlny tsunami, rychlost větru u cyklónu, amplituda zemětřesných vln, apod.)
+        * PCB = vnější podmínky, jako hustota osídlení, charakter staveb, sociální a politické poměry
+        * C = následky katastrofy
+  * lodě -parník a člun -je hazard (vysoké vlny a velká hloubka) na oceánu shodný. riziko, kterému čelí člun (možnost potopení) je ale mnohonásobně vyšší než u parníku
+  * hazard vzniku zemětřesení se může vyskytovat v neobydlených oblastech riziku zemětřesení jsou vystavena pouze území obývaná lidmi
+
+====== katastrofa ======
+  * událost v přírodě, která změní dosavadní způsob vývoje a umožní prosazení jiného způsobu (revoluční změna)
+  * vlastní uskutečnění rizika, při kterém je usmrcena, zraněna nebo negativně ovlivněna velká část obyvatelstva
+  * rychlý pohyb hmot, uvolnění hlubinné zemské energie a její uvolnění na povrch, zvýšení vodní  hladiny, mimořádně silný vítr
+  * dle místa vzniku:
+        * pod zemským povrchem
+        * na zemském povrchu
+        * nad zemským povrchem
+  * následky:
+        * přímé a nepřímé efekty (ihned a po určité době)
+        * přímé a nepřímé ztráty 
+        * přímé zisky
+
+====== ekologické katastrofy ======
+  * Většina přírodních systémů má poměrně vysokou stabilitu a narušení způsobená menšími přírodními katastrofami (povodně, požáry, období sucha) , nenarušují jejich rovnováhu
+  * Někdy stačí nepatrný zásah do přírodního systému a rovnováha se poruší
+  * Z teorie dynamických systémů => systém lze do určité míry z jeho rovnováhy vychýlit bez průchodu kritickým bodem. Při určité velikosti této výchylky systém projde kritickým bodem a zaujme nový stabilní stav
+  * Důsledkem narušení rovnováhy může být nejen bezprostřední reakce přírodního systému, ale reakce se může objevit až za velmi dlouhou dobu
+  * 
+
+
+
+==== Koncept zranitelnosti vůči hazardu (vulnerability to hazard) ====
+  * socio a eko tolerance vůči hazardům
+  * **odolnost** = schopnost společnosti čelit vzniklé katastrofě a následnou schopnost obnovy (např. rychlost obnovy dodávek pitné vody po zemětřesení)
+  * **spolehlivost** = míra, s jakou selhávají riziková opatření v případě katastrofy
+
+  * proměnlivost jevu se může měnit, může růst, nebo se může menit tolerance společnosti
+
+==== velikost a frekvence událostí ====
+  * u extrémních hodnot můžeme určit dvě základní charakteristiky hazardu - **velikost a dobu trvání**
+  * přirozený proces
+  * antropogenně zrychlený
+  * interval opakování: průměrná doba, která uplyne mezi výskytem dvou událostí o stejné velikosti
+
+====== modelování hazardů ======
+  * anti-hazard measures
+  * response and recovery planning
+  * emergency warnings
+  * land use management
+
+===== Matematické modelování a jeho využití vhodnocení přírodních hrozeb =====
+  - koncepční analýza problému (rozhodnutí o vstupu relevantních veličin)
+  - sestavení modelu z vybraných veličin (podoba matematické rovnice)
+  - verifikace modelu (ověření modelu aplikací na vybraném území a porovnání s laboratorními měřeními]
+  - stanovení míry a oboru platnosti (míra přesnosti –procentní úspěšnost předpovědi; obor platnosti –podmínky, kdy je možno model použít)
+
+  * prostorová data: orgány veřejného sektoru / soukromé osoby / vědci
+  * 3 časy: před, během, po
+
+
+====== obecná struktura popisu hazardu ======
+  * typ
+  * příčina
+  * výskyt
+  * monitoring
+  * sanace
+  * opatření
+  * předpověď
+  * typický zástupce
+
+  * ochrana: pasivní (evakuace obyvatelstva nebo využití ochranných krytů), aktivní (stavba protipovodňových hrází, zpevňování svahů proti sesuvům apod.)
+
+
+  * prognóza:
+    * ze historických statistickýh dat která se analyzují
+    * výsledek je pravděpodobnost výskytu určitého hazardu
+    * má relativně dlouhou platnost
+  * předpověď:
+    * udává specifikaci času a prostoru výskytu hazardu stejně jako velikost možné katastrofy
+    * kratky časový hoizont
+    * z aktuálních údajů
+    * tektonické hazardy je těžké předpovědět
+  * varování
+    * nejkratší časová platnost
+    * i s pokyny pro překonání krize
+
+

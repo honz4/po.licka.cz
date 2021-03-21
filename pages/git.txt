@@ -1,0 +1,33 @@
+====== geoinformační technologie ======
+
+
+<WRAP group>
+<WRAP half column>
+  * [[git_zapisky_z_prednasek|ZÁPISKY Z PŘEDNÁŠEK]]
+  * [[git_tahak|ke zkoušce]]
+
+
+----
+
+  * [[git_mobilni-gis|Mobilní GIS]]
+  * [[git_lbs|Location Based Service]]
+  * [[git_prostorove_databaze|Prostorové databáze]]
+  * [[git_prostorove_nadstavby|Prostorové nadstavby]]
+</WRAP>
+
+<WRAP half column>
+  * **mapové knihovny**
+        * OSMDroid: pro GIS Aplikace postavené nad OSM na Adnroidu
+        * Mapsforge: opensource projekt, který umožňuje renderovat OSM přímo z Android zařízení
+        * Nutiteq: základní verze je neplacená, knihovna umožňuje i offline, zobrazení jak rastru tak vektoru a zobrazuje i 3D
+        * Google Maps Android API v2
+  * **běhová prostředí**
+        * kromě těch, co běží na Javě
+        * Kiwi (Python)
+        * Xamarin (Ruby, C#), komerční
+        * React Native
+
+</WRAP>
+</WRAP>
+
+

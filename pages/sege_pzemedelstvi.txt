@@ -1,0 +1,134 @@
+Předmětem studia je zemědělská výroba, a to zejména její rozmístění, na základě jejich forem, zaměření, struktury, intenzity a pod a dále podmínky a zákonitosti tohoto rozmístění. \\
+Zemědělská výroba je vědomé obhospodařování půdy za účelem výroby rostlinných a živočišných produktů pro uspokojení potřeb lidské společnosti
+=== limity ===
+Přírodní podmínky vytvářejí svým komplexním působením určité hranice zemědělství (limity) – např. nadmořská výška, zeměpisná šířka, sucho, mrazivé dny aj.
+   * skutečná hranice zemědělství
+     * chybí tam jeden nepostradatelný faktor pro obdělávání půdy. V cestě jim stojí ledovec nebo tak, žejo.
+   * hranice možná
+     * člověk svojí činností ty limity může do jisté míry posunovat. Posuňme i ledovec!
+   * hranice rentability
+     * bude to smysluplné posunovat ledovec? Bude to ekonomické? Kde jsou ekonomické hranice?
+== lokalizační faktory zemědělství ==
+  * fg: klima, podnebí, nadmořská výška, typ půdy, georeliéf, fenologie
+  * sg: vlastnické poměry, ekonomické poměry, technické a organizační podmínky
+
+==== vznik zemědělců ====
+
+    * v roce 8.000 př.n.l. bylo klima již ustálené a odpovídalo současným klimatickým podmínkám
+    * lidé žili v tlupách lovců a sběračů a jejich život se nikterak nelišil od jejich předků, kteří žili před mnoha tisíci lety
+    * s rostoucí populací lidí však začaly vznikat první vesnice, později města (5-6 tis.let př.n.l.)
+    * vesnické osídlení bylo podpořeno zaváděním zemědělských postupů pro obživu, zemědělství bylo promyšlené využívání přírody, kdy se sázelo a následně sklízelo, probíhalo též domestikování zvířat
+    * na Blízkém východě se začalo pěstovat obilí (pšenice, ječmen), v Číně a jihovýchodní Asii proso a rýže, ve střední Americe kukuřice, na jih od Sahary ovoce a kořenové hlízy (vodní meloun, jamy, čirok)
+    * zvláštního významu dosáhl chov koní v suchých stepních oblastech střední Eurasie, který vedl ke vzniku kočovného pastevectví
+    * tento velmi produktivní způsob života lidí vedl k tomu, že se populace v období let 8.000 - 4.000 př.n.l. z několikanásobila, usedlý způsob života měl dále rozhodující význam na vznik nových organizací jednotlivých společností, lidé zemědělci postupně vytlačili původní lovce a sběrače pouze do neúrodných oblastí a brzy tento způsob obživy zcela převládl v celé tehdejší populaci 
+
+==== Teorie vzniku a šíření zemědělství ====
+   * ohniska domestikace domácích zvířat jsou v místech jejich přirozené velké diferenciace – je tu dostatek genetických předpokladů k přirozené variabilitě, jsou tu i variabilní přírodní podmínky (hlavně klimatické a reliéfové)
+   * nejstarší zemědělství vznikalo na pahorkatinách a při malých tocích, ne v širokých údolích zaplavovaných velkými řekami (člověk se neuměl bránit před povodněmi a využívat jejich zúrodňovací schopnosti)
+   * původní plochy pro pěstování kulturních rostlin byly zalesněné (vykácení nebo vypálení lesa bylo jednodušší než odstranění nadbytku vody)
+   * zemědělství nemohlo vzniknout z lovu a sběru v důsledku nedostatku potravin (lidé žijící v nedostatku nemají zpravidla čas a myšlenky na experimentování)
+   * první zemědělci museli být usazeni (alespoň část roku), vyžadovala si to délka vegetační doby (setba, úprava, ochrana před zvěří, sběr)
+
+==== Vývoj systémů hospodaření na půdě ====
+=== kočovné zemědělství ===
+půda se využívala do vyčerpání, pak ji opustili
+=== průlohový systém ===
+obráběná půda a průloh (dlouhodobě neobráběná půda)
+=== úhorové zemědělství ===
+orná půda a půda ležící úhorem, ta se střídá každé dva roky
+=== trojpolní systém ===
+půda se rozdělila na tři díly, dva se osely (na jaře a na podzim) a třetí se nechala ležet - a další rok se to pak posunulo
+=== střídavý systém ===
+střídají se plodiny - obiloviny, okopaniny, krmoviny. Má to větší výnosy. Obiloviny to obohatí o dusíkaté látky a tak.
+
+==== organizace zemědělství ====
+=== kopaničářská kultura ===
+   * nejstarší systém
+   * už stabilizované zemědělství
+   * JV Asie
+   * uuu křížili vegetativním rozmnožováním
+   * pořád trochu kočovné zemědělství, vyčerpali půdu a pak šli jinam
+   * orbu ještě neznají, dělají jenom minimální úpravy
+   * banány, taro, jamy, cukrová třtina, chlebovníky, citrusové ovoce, tráva derris - pro chytání ryb, má omamné účinky.
+   * prase, husa, kachna, slepice a pes (zdomácněním se nesledovaly ekonomické cíle, ale estetické, kulturní a náboženské)
+=== semenářské zemědělství a stádová domácí zvířata ===
+   * Tyto semenářské kultury se lokalizovaly na okrajích klimatického prostoru starého kopaničářství
+   * Úrodný půlměsíc, spraše v Číně, Etiopie
+   * tur, urial, tarpan, nubijský osel
+
+=== tržní zemědělství ===
+   * žďárové hospodářství
+   * úhorové hospodářství, dvoupolní a trojpolní systém, střídavý systém
+   * vysoce industrializované státy a města nejsou schopny pokrývat spotřebu vlastní výrobou
+   * specializace regionů umožňuje dodávat výrobky za nižší cenu, nové produkty, které nelze produkovat v přírodním prostředí západní a severní Evropy ???
+
+==== Základní formy zemědělství podle stupně vývoje ====
+  - subsistenční zemědělství
+    * samozásobitelské
+    * hlavně před průmyslovou revolucí
+    * pro vlastní potřebu všechno, nechtěli zisk
+    * malé pole za domečkem, nízké výnosy a nízká produktivita práce. Jak by taky ne, když si tam babička okopává pole.
+  - komerční zemědělství
+    * v Evropě od 17. století
+    * šli po pěnězích
+    * mechanizují, mají velké výnosy na jednotku plochy a vysokou produktivitu práce
+
+==== světové formy zemědělství ====
+Nomádické pastevectví,Tradiční rotační samozásobitelské typy zemědělství, Tradiční intenzivní samozásobitelské zemědělství malých závodů, Tradiční smíšené zemědělství malých závodů, Tradiční polotržní zemědělství specializované, Tradiční zemědělství latifundií zaměřené na (živočišnou produkci, rostlinnou produkci), Plantážní zemědělství, Tržní zemědělská malovýroba, Zemědělské velkostatků, Tržní specializované zemědělství, Rančerství, Vysoce zprůmyslněné zemědělství
+
+==== extenzivní chov ====
+=== kočovný ===
+   * nejstarší, pastevci
+   * tundra a sobi se tam chovají
+   * nomádi a rodiny, putujou s zvířaty
+   * aridní oblasti Afriky, JZ a centrální Asie
+=== polokočovný chov ===
+   * stejný jako kočovný, ale vytvářejí zásobu na zimu
+   * Mongolsko
+=== Moderní extenzivní chov ===
+   * prérie, pampy, savany
+   * na konci letní sezony se přesunou dovnitř, kde se dokrmí na farmáj
+   * pastviny se taky přihnojujou
+   * skot, ovce
+=== transhumance ===
+   * přesuny po železnici
+   * mezi horami a nížinami
+   * hlavně ovce (třeba Andy)
+
+==== intenzivní zemědělství ====
+=== chov alpského typu ===
+   * krávy v létě vyženu ven
+   * dojím je
+   * v zimě jsou ustájené krávy v údolí
+=== dominantní stájový chov ===
+   * převyšuje rostlinnou výrobu
+   * hlavním příjmem ze zemědělství je tady živočisná výroba
+   * příměstské zóny měst
+   * kvalitní produkce
+=== intenzivní stájový chov ===
+   * hlavním příjmem ze zemědělství je rostlinná výroba
+   * střední, jižní a východní Evropa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

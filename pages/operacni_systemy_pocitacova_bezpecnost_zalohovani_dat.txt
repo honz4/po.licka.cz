@@ -1,0 +1,4 @@
+<WRAP center round tip 60%>
+Windows. Linux. Přehled významných rysů (souborové systémy, správy uživatelů, kódování dat). Počítačová bezpečnost. Antiviry. Firewall. Antimalware. Zálohování dat.
+</WRAP>
+Operační systém je v informatice základní programové vybavení počítače (tj. software), které je zavedeno do paměti počítače při jeho startu a zůstává v činnosti až do jeho vypnutí. Skládá se z jádra (kernel) a pomocných systémových nástrojů. Hlavním úkolem operačního systému je zajistit uživateli možnost ovládat počítač, vytvořit pro procesy stabilní aplikační rozhraní (API) a přidělovat jim systémové zdroje. Operační systém je velmi komplexní software, jehož vývoj je mnohem složitější a náročnější, než vývoj obyčejných programů.

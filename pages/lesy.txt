@@ -1,0 +1,18 @@
+# Cílek - Věk Nerovnováhy
+
+- pro Česko znamená klimatická resilience péči o půdu a obecně schopnost krajiny zadržet vodu
+- zvyšuje je pravděpodobnost plošné kůrovcové kalamity a z dlouhodobého hlediska ubývání orné půdy (zástavba, degradace)
+- ČR exportuje obilí a dováží maso → nemáme potravinovou soběstačnost. Půda potřebuje více skotu.
+- kořistné způsoby zacházení s pronajatými pozemky (měli bychom sklízet obilí, ne dotace)
+
+### Klimatická citlivost
+
+- každá krajina je jinak citlivá (= celkový klimatický dopad, který nastane při zdvojnásobení koncentrace CO2, prakticky znamená to, že na 1m2 dopadne ročně  o 4 W navíc (1W je zvýšení o 0.25 °C)) - aktuálně průměrně 342 W/m2
+- planeta současně vyzáří zpátky o půl W až 1 W méně (70 % se zachytí na Zemi, 30 % se odrazí zpět)
+
+### Zpětné vazby zvýšení teploty
+
+- **vodní pára** je nejsilnější plyn, přenáší se větrem od moře, kde je vlhkost skoro 100% ( to závisí i na teplotě atmosféry). Oteplení CO2 je zesilováno vodní parou (water vapour effect)
+- **mraky** jsou nejhůře spočitatelnou částí změny klimatu. Teplé počasí → vysoká oblaka → oteplující účinek
+- **uhlíkový cyklus**: teplé počasí → rostou lépe stromy → ale propad uhlíku (mořský fytoplankton snižuje svoji účinnost)
+- **tající led** → klesne odrazivost světlých ploch a zvýší se kumulace tepla tmavšími povrchy, Země přijde o své zrcadlo. Tání se sibiřského permafrostu uvolní CO2 a Methan

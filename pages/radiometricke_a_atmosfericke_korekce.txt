@@ -1,0 +1,38 @@
+====== Radiometrické korekce ======
+  * upravení DN hodnot tak, aby co nejvíce odpovídaly skutečným odrazivým či zářivým vlastnostem objektů
+  * musí být přesná kalibrace -> pravidelné snímání referenčním ploch o známých radiačních vlastnostech(je to v header)
+===== kompenzace  sezónních rozdílů =====
+  * různé části roku -> různá výška Slunce v závislosti na ročním období -> rozdílné DN hodnoty stejných povrchů
+  * polární družice jsou ale synchronní se Sluncem, takže se řeší jenom sezónní rozdíly
+  * tyhle informace jsou zapsené v header, takže klídek
+{{ ::kor1.png?nolink |}}
+===== odstranění náhodných radiometrických chyb =====
+  * vznik nepřesnou kalibrací senzoru nebo jeho výpadkem (šum, chybějící řádek, páskování obrazu)
+  * šum -> odstranění pomocí filtrací prostorových
+  * chybí řádek -> zprůměruju okolní hodnoty
+  * efekt páskování
+    * pravidelné horizontální je z mechanooptických skenerů (má víc detektorů a snímá najednou víc řádků)
+    * vertikální páskování z elektrooptického skeneru je těžší opravit, protože nemají pravidelný charakter a nevíc jsou šikmo! -> jsou na to super Fourierovy transformace
+
+====== Atmosférické korekce ======
+  * efekty atmosféry = naměřené hodnoty neodpovídají skutečným hodnotám
+  * pohlcování a rozptyl (zvyšuje a snižuje hodnoty a tak....)
+  * cílem je získat absolutní hodnoty -> potom můžu kvantifikovat
+===== metoda nejtmavšího prvku =====
+  * voda má skoro 0 v NIR, to víme, tak to prostě odečteme
+  * může to být ale i chlorofyl nebo sedimenty ve vodě, tak to pozor
+===== regresní analýza =====
+  * výpočet kovarianční matice pro každé pásmo multi obrazu
+  * nebo mezi jednotlivými pásmy (obr. dole) nebo mezi daty z různých zdrojů
+{{ ::kor2.png?nolink |}}
+    * korelační pole pixelů IČ snímku (osa y) a snímku z viditelné části spektra (osa x). Proložená rovnice přímky protíná osu x v hodnotě A, která odpovídá příspěvku atmosféry.
+
+===== modelování =====
+  * meteorologická data pořízená v době záznamu
+  * numerické modely
+  * LOWTRAN, MODTRAN
+
+
+
+
+

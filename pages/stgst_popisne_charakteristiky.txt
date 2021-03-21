@@ -1,0 +1,103 @@
+   * jsou číselné charakteristiky, které jediným číslem vyjadřují určitou vlastnost statistického znaku 
+   * obvykle slouží pro popis kvantitativního (kardinálního) statistického znaku, ale některé je možno použít i pro jednodušší statistické znaky (např. modus)
+   * někdy je problém s jejich interpretací i u disktrétního znaku ( průměr je 1,85 dítěte)
+   * odlehlé hodnoty (pozorování)
+     * pozorování, jehož hodnota znaku vybočuje (reálná / nereálná)
+     * bývají vlivnými hodnotami
+   * vlivné hodnoty (pozorování)
+     * ovlivňují výsledek statistické analýzy (výpočet charakteristik, odhadů, parametrů, ...)
+
+====== míry polohy ======
+  * mají být typickou hodnotou statistického znaku z daného statistického souboru
+  * jsou jednozačně definované a relativně jednoduše zjistitelné
+  * slouží k porovnání úrovně různých statistických souborů, nebo vývoje statistického souboru v čase
+  * mají co nejméně podléhat nahodilostem výběru respektive odlehlým hodnotám (pozorováním) – požadavek robustnosti
+=== průměry ===
+  * aritmetický průměr, vážený aritmetický průměr
+  * nerobustní míra ovlivněná odlehlými hodnotami
+  * průměr může představovat rovnoměrnost nebo normu, která vůbec neexistuje a nemá odraz ve skutečnosti
+  * geometrický a geometrický vážený průměr (ve výpočtech časových řad a některých indexů – inflace apod. )
+  * harmonický a harmonický vážený průměr (v časových výpočtech – frekvence, ...)
+=== modus ===
+  * nejčetnější hodnota znaku
+  * modální interval – interval s největší četností
+
+=== medián ===
+  * hodnota znaku, jež dělí soubor na dvě poloviny, na ta pozorování s nižšími hodnotami znaku a ta s vyššími hodnotami znaku
+
+=== kvartily ===
+  * dolní kvartil (0,25)
+      * hodnota znaku, jež dělí soubor na čtvrtinu a tři čtvrtiny. 
+  * horní kvartil (0,75)
+      * dělí soubor na tři čtvrtiny a čtvrtinu
+  * výběrový kvartil
+  * decil
+  * percentil
+
+====== míry variability ======
+  * vypovídají o variabilitě (proměnlivosti) hodnot statistického znaku z daného statistického souboru
+  * slouží k porovnání variability různých statistických souborů, nebo vývoje statistického souboru v čase
+  * mají co nejméně podléhat nahodilostem výběru respektive odlehlým hodnotám – požadavek robustnosti
+  * některé vycházejí v odlišných jednotkách než posuzovaný statistický znak (rozptyly), nebo jsou relativní mírou variability (variační koeficient)
+
+=== variační rozpětí ===
+  * range
+  * je definováno jako rozdíl největší a nejmenší hodnotou řady
+  * je velmi přibližnou charakteristikou variability, protože je příliš ovlivněno velikostí extrémních hodnot
+  * ale dá se použít rozpětí kvantilů, např kvartilové rozpětí
+
+=== rozptyl ===
+  * aritmetický průměr čtverců odchylek jednotlivých hodnot sledované proměnné xi od průměru celého souboru
+  * vychází v jednotkách na druhou
+  * velikost rozptylu se zvyšuje při zvětšující se variabilitě hodnot sledované proměnné
+  * nemůže nikdy nabývat záporných hodnot (bo je na druhou!)
+
+=== směrodatná odchylka ===
+   * kladná druhá odmocnina z rozptylu
+   * má stejné měrné hodnoty jako sledovaná proměnná
+   * udává, jak se v průměru v daném statistickém souboru odchylují hodnoty sledované proměnné od aritmetického průměru souboru
+
+=== variační koeficient ===
+  * „relativní směrodatná odchylka“
+  * používáme ho, máme-li vzájemně srovnat variabilitu dvou nebo více souborů s podstatně odlišnou úrovní hodnot (nemůžeme srovnávat hmotnost krtků a hrochů)
+  * v takovém případě musíme odstranit vliv obecné úrovně daných hodnot. Děláme to tak, že směrodatnou odchylku dělíme střední hodnotou, od které byly počítány odchylky pro součet čtverců, obvykle tedy při praktických výpočtech aritmetickým průměrem výběrového souboru
+  * variační koeficienty jsou relativní míry variability („indexy“), což umožňuje porovnávat variabilitu statistických znaků s odlišnými jednotkami mající sice stejné jednotky, ale odlišnou míru polohy
+   * je relativní mírou variability a tedy není vlivněn absolutními hodnotami sledovaného statistického znaku jako směrodatná odchylka
+   * v případě vyjádření v procentech udává, z kolika procent se podílí směrodatná odchylka na aritmetickém průměru
+
+=== střední chyba průměru ===
+   * relativní míra variability
+   * měří rozptýlenost vypočítaného aritmetického průměru v různých výběrových souborech z jednoho základního souboru
+   * střední (směrodaná) odchylka průměru je teoreticky definovaná jako směrodatná odchylka všech možných výběrových průměrů z jedné populace, vypočítaných pro výběry o rozsahu n členů. Vyjadřuje tedy kolísání výběrových průměrů kolem teoretické (skutečné) střední hodnoty Psí v celém základním souboru
+   * závisí jednak na rozptylu základního souboru a jednak na rozsahu výběrového souboru
+   * výběrová střední chyba průměru může být použita jako míra přesnosti, s jakou výběrový aritmetický průměr x odhaduje skutečnou střední hodnotu Psí. Prakticky se používá pro výpočet intervalů spolehlivosti aritmetického průměru u výběrových souborů
+
+=== koeficient šikmosti (je více malých nebo velkých hodnot?) ===
+  * pokud je > 0:
+      * kladné zešikmení = vyšší koncentrace podprůměrných hodnot v porovnání s koncentrací hodnot nadprůměrných
+  * pokud = 0:
+      * pak mluvíme o symetrickém zešikmení = stejná koncentrace podprůměrných a nadprůměrných hodnot
+  * pokud je < 0:
+      * záporné zešikmení = vyšší koncentrace nadprůměrných hodnot v porovnání s koncentrací hodnot podprůměrných
+
+
+**Pearsonova míra šikmosti** \\
+počítá se jinak
+  * >  0:
+      * koncentrace některých podprůměrných hodnot je vyšší v porovnání s koncentrací hodnot nadprůměrných
+  * = 0:
+      * „průměrné“ hodnoty jsou nejčastější
+  * <  0:
+      * koncentrace některých nadprůměrných hodnot je vyšší v porovnání s koncentrací hodnot podprůměrných
+
+=== míra špičatosti (jsou data kumulována kolem střední hodnoty?) ===
+  * pokud je > 0:
+    * kladná špičatost = koncentrace průměrných hodnot je vyšší, než bývá u normálního rozdělení
+  * pokud = 0:
+    * normální špičatost = koncentrace průměrných hodnot je právě taková, jako u normálního rozdělení
+
+====== box plot ======
+  * vizualizace popisných statistik – vybrané míry polohy a vybraných variabilit
+
+
+

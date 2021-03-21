@@ -1,0 +1,138 @@
+<WRAP center round tip 60%>
+definice a popis, možnosti využití, aplikace, Game of Life
+</WRAP>
+
+
+  * http://lide.uhk.cz/fim/ucitel/fshusam2/lekarnicky/zt3/zt3_dokumenty/CelularniAutomaty.pdf
+
+
+  * holistický přístup
+  * realita je příliš složitá, než aby šla popsat pomocí rovnic
+  * přírodní systémy jsou velmi složité, obsahují chaotickou složku a mají velkou odezvu na malé podněty
+  * celek je více, než jen pouhý souhrn svých částí
+
+  * systémy se modelují "odspodu"
+        * -> lokální interakce
+  * shora modeluje systémový model
+  * zdola modeluje celulární automat
+
+  * používají se pro modelování komplexních systémů
+  * komplexní systém je to, čemu nerozumíme
+
+====== historie ======
+  * John von Neumann
+        * chtěl navrhnout stroj, který by upravoval a kontroloval sám sebe
+        * Neumann navrhl samoreprodukující se automat a přitom došel k závěru, že na své nejnižší úrovni vede komplexita (složitost) ke degeneraci. To znamená, že automat, který tvoří jiné automaty, je tvoří v jednodušší formě než je on sám. Ovšem nad určitou minimální úrovní toto přestává platil a automat dokáže udržovat sám sebe.
+        * vytvořil automat se 29 stavy, 200 000 buňkami
+        * rozdělil prostor na buňky kde je každá buňka charakterizovaná svým počátečním stavem  -> tento počáteční stav se mění po jednotlivých iteracích podle evolučního pravidla
+        * každá buňka představuje konečný automat
+  * Burks a Holland
+        * pokračovali s tím po Neumannovi až umřel
+        * Holland - genetické algoritmy
+
+====== definice ======
+  * časově i prostorově diskrétní modelování fyzikálních systémů, kde veličiny nabývají pouze diskrétních hodnot v průběhu času
+  * = dynamické systémy, diskrétní v prostoru i čase, pracující v pravidelné mřížce a jejich chování je dáno prostorovými interakcemi
+  * CA mají pravidelnou n-dimenzionální mřížku, kde každá buňka má určitý stav (nejčastěji N=2)
+  * **konečný automat**
+        * (S, ε, σ, s, A) 
+        * S je množina stavů, ε je abeceda (množina vstupních symbolů, třeba 0 a 1), σ je přechodová funkce (třeba tabulka , S0, S1, S2 a co se stane když to bude 1 apod), s je počáteční stav a A je množina přijímaných stavů (že to třeba bere jenom S2 a zbytek ne)
+        * přechodová funkce může být i ohodnocený graf
+        * Princip fungování konečných automatů je založen na postupném výpočtu jednotlivých časových stavů systému, kdy každý následující stav je odvozen z předchozího stavu podle daných pravidel chování systému. Pravidla se mohou v průběhu simulace měnit, proto nelze zpětně odvodit původní stav. Díky tomuto však lze simulovat spontánní vznik nových vlastností systému, nových struktur, samoorganizace a adaptace systémů. Pravidla popisují pouze lokální chování systému, ovšem právě z lokálních pravidel poté vyvstane chování systému jako celku (tzv. modelování zespodu)
+        * z konečných automatů vycházení multiagentní systémy a celulární automaty
+              * celulární automaty - pokud je zvolen jevový přístup
+                    * Celulární automat si tedy můžeme představit jako až nekonečně mnoho exemplářů určitého (konečného) automatu, propojených určitým, zpravidla jednotným způsobem
+              * multiagentní systémy - pokud je zvolen objektový přístup
+
+
+====== vlastnosti ======
+  * **paralelismus**
+        * výpočet beží současně pro všechny buňky, na běžných počítačích se to musí simulovat
+  * **lokalita**
+        * nový stav se určuje jenom podle původního stavu toho prvku a na původních stavech buněk v jeho okolí
+  * **homogenita**
+        * pro všechny prvky platí stejná přechodová funkce, stejné podmínky pro všechny
+====== druhy CA ======
+  * **GAME OF LIFE**
+        * buňka, 8 sousedů (moorovo okolí), stav živá/mrtvá
+        * S23/B3
+        * __tři pravidla__
+              * mrtvá buňka + 3 živí sousedi -> buňka oživne
+              * živá buňka + 2-3 živí sousedi -> buňka zůstane živá
+              * všechno ostatní umírá nebo zůstává mrtvé
+        * vznik **emergentních struktur**
+              * = spontánní vznik makroskopických vlastností a struktur složitých systémů
+        * nekonečný růst není možný - tohle bylo vyvráceno, MIT vymysleli nekonečný růst
+        * tvary:
+              * zátiší (třeba blok 2x2) - nemění se
+              * oscilátory
+              * děla
+              * posunovací vzory, ....
+  * **Von Neumannův CA**
+        * to je ten se 29 stavy a 200 000 buňkami, jak chtěl udělat CA co kontroluje a upravuje sám sebe a kde každá buňka reprezentuje konečný automat
+  * **Langtonův mravenec**
+        * C. Langton objevil jednoduchý automat popisující pohyb mravence po nekonečné mřížce, jejiž buňky mohou být dvojího typu (bílé a červené)
+        * přijde na červenou -> 90 stupňů vlevo a přebarví na bílo
+        * přijde na bílou -> 90 stupňů vpravo a přebarví na červeno
+
+====== možnosti ======
+===== tvorba sítě buněk =====
+  * **pravidelná struktura**
+  * **dimenze** - 1D (přímka pole), 2D (pravidelná mřížka), 3D, ...
+  * pozor na **velikost a rozlišení** 
+        * konečná, nekonečná
+  * **stav sítě** - binární, více stavů buňky, více atributů vztažených k jedné buňce
+  * **okolí**
+        * u 1D CA - okolí je definována poloměrem (počet sousedů po stranách buňky)
+        * u 2D CA - Neumann, Moore, Hexagonal
+              * {{::more_okoli.png?nolink&300|}}
+  * **stanovení okolí**
+        * velikostí, směrem, 
+        * Moargolus okolím
+  * **krajní buňky**
+        * buď zrcadlím krajní buňky nebo spojím protilehlé kraje
+
+  * **úpravy CA**
+        * **prostor**
+            * konečný, nekonečný
+            * pravidelný, nepravidelný
+            * homogenní, nehomogenní
+        * **okolí**
+              * pohyblivé, nepohyblivé
+        * **inicializační funkce**
+              * jednotné, proměnlivé
+              * deterministické, stochastické
+        * **časové intervaly**
+              * pravidelné, nepravidelné
+====== wolframovy třídy ======
+{{ ::wolfram_tridy.png?nolink&500|}}
+  * **třída 1**
+        * vývoj struktury dospěje do konečného stavu a dále se nemění
+        * fixní stav
+        * triviální programy nez cyklů či s omezeným počtem opakování
+  * **třída 2**
+        * vývoj vede k jednoduchým strukturám, které se opakují (oscilátory)
+        * jednoduché cyklení
+        * programy, které se triviálně zacyklí
+  * **třída 3**
+        * chaotické chování, struktury se neopakují
+        * chaos
+        * generátor náhodných čísel
+  * **třída 4**
+        * vzory vykazují nejkomplexnější chování
+        * komplexní vzory
+        * programy, co dělaj supr věci
+====== nevýhody CA ======
+  * jsou příliš jednoduché
+  * nedostatek praktických výsledků, bo nejsou příliš rozšířené
+  * nedostatek vhodných metod a nástrojů pro kalibraci
+
+====== využití ======
+  * územní plánování
+  * klasifikace obrazu
+  * růst urbanizace
+  * změny využití území
+  * proudění vody
+  * šíření požáru
+  * doprava na obousměrné dvouproudové silnici
+  * ekologické aplikace

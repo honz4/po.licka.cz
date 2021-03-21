@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+základní pojmy, klasifikace, fluviální, periglaciální, eolické, marinní a biogenní procesy a tvary
+</WRAP>

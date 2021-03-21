@@ -1,0 +1,19 @@
+====== primary topographic attributes ======
+
+==== gradient ====
+==== slope ====
+==== aspect ====
+==== curvature ====
+==== roughness ====
+==== hillshade ====
+==== specific drainage area ====
+
+===== secondary topographic attributes ======
+==== topographic wetness index ====
+==== stream power index ====
+==== compound topographoc index ====
+==== sediment transport capacity index ====
+==== radiation and temperature indices ====
+====== other descriptions ======
+====frequency spectrum =====
+==== fractal dimension ====

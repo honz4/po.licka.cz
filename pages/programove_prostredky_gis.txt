@@ -1,0 +1,28 @@
+<WRAP center round tip 60%>
+dělení dle výkonnosti, platformy, obchodní politiky, příklady
+</WRAP>
+
+  * GIS = organizovaný, počítačově založený systém HW, SW a geografických informací vyvinutý ke vstupu, správě, analytickému zpracování, prezentaci prostorových dat s důrazem na jejich prostorové analýzy a interakci s uživatelem (Web GIS, desktop GIS)
+      * HW, SW, data, lidé, metody
+      * GIS SW: uživatelské rozhraní, nástroje, správa dat, datový model, možnosti vlastního přizpůsobení
+      * **Pravidla GIS SW:** pravidla atributů (definování atributových hodnot, rozsahová pravidla, kódová pravidla), pravidla souvislostí (plynové potrubí), pravidla prostoru (definují vlastnosti po sloučení nebo rozdělení objektu, rozdělení parcely)
+=== Platformy ===
+  * víceuživatelské systémy (státní správa, hodně uživatelů na jeden počítač přes internet, nejvýkonnější procesory, velkokapacitní disky)
+  * pracovní stanice (nejpopulárnější, rychlý OS – UNIX, dostatečný paměťový prostor)
+  * osobní PC (levnější varianta pracovních stanic, pro jednoho uživatele, méně náročný SW)
+=== Politiky ===
+  * implementace GIS: efektivní plánování (SWOT analýza), získání podpory, komunikace s uživateli, vyvarování se špatné ekonomiky, zajištění kvality a ochrany databáze, přizpůsobení GIS s organizací, vyvarování se nerozumných časových rámců a očekávání, financování
+  * investice: obměna HW i SW 
+=== Typy systémů (pyramida) ===
+  * Profesionální -> Desktopový -> příruční -> komponentově založený -> prohlížeč -> internetový
+      * **Profesionální:** plně funkční SW, 8 000–20 000 USD, ArcGIS (ESRI), SmallWorld, GeoMedia Professional (Intergraph), MapInfo
+      * **Desktopový:** 1 000–2 000 USD, ArcView GIS (ESRI), GeoMedia (Intergraph), Idrisi (Clark Labs), Grass, QGIS, Kristyna GIS, Janitor
+      * **Příruční GIS:** pro mobilní zařízení, podpora jednoduchých analytických operací + zobrazování + dotazování, ArcPAD (ESRI), OnSite (Autodesk)
+      * **Komponentově založený GIS:** sada nástrojů sestavující program, pro zákaznický servis a dopravní systémy, Marushka?, MapX
+      * **GIS prohlížeče:** většinou zdarma, zobrazování, dotazovaní, jednoduché mapové úlohy, Kristýna GIS, ArcExplorer, GeoMedia Viewer, MISYS-View
+      * **Internetový GIS:** největší potenciál uživatelů a největší náklady, 5 000–25  000 USD, MapGuide (Autodesk), ArcGIS Server, T-Map Server, MISYS-Web
+
+
+  * Rastrově založený GIS (Spatial Analyst extenze, ERDAS Imagine, IDRISI)
+  * CADově založený GIS (přidá GIS funkce do CADových programů)
+  * GIS aplikační servery

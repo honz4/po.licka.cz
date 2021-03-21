@@ -1,0 +1,19 @@
+  * stáhnout model CLUE - full version
+  * rozběhnout tutoriál
+  * zkusit nastudovat co vlastně všechno potřebujeme za vstupní data
+  * 3 roky zpátky na to někdo udělal bakalářku
+
+
+
+----
+== metadata k sejpu ==
+
+  * ES - stupen ekologicke stability
+  * michal - podle klasifikace michala - stabilní a labilni
+  * miklos - treti eko varianta - zarazeni stupne ekologicke vyznamnosti
+  * klas_es - pole se standardni poznamkou
+  * spocitat hodnoty ekologicke stability podle tech vsech
+
+===== 09.10.2017 =====
+  * fragstat
+  * 

@@ -1,0 +1,122 @@
+  * akcie
+        * cenný papír, který dokládá vlastnictví jako podíl na kapitálu
+        * dividenda (kolik se majiteli akcie zaplatí, podle toho jak se daný rok podniku dařilo)
+  * arbitráž
+    * rozhodování sporu třetí osobou, metoda využívájící cen komodit (to je půda a stroje a tak)
+  * býčí trh
+    * burza při očekávání vzrůstu cenných papírů (opakem je medvědí trh)
+  * celní sazba
+    * zatížení zboží při dovozu nebo vývozu (to zboží, které podléhá clu)
+  * cenová podlaha
+    * vládou stanovená spodní hranice zboží
+  * daňová oáza
+    * místo, kde důchody a aktiva podléhají velmi nízkému zdanění
+    * Bahamy, Bermudy, Kanáry, Lichtnštejnsko, Lucembursko, Irsko, Filipíny, Švýcarsko
+  * deficit
+    * záporný zůstatek
+    * deficit státního rozpočtu = vyšší údaje než příjmy
+  * deflace
+    * pokles spotřebního koše
+    * růst produktivity práce a snížení výrobních nákladů - to je fajn. jinak ale negativní spíš
+  * dumping
+    * cenové podbízení na trhu s cílem vytlačit konkurenci a prosadit se na trhu 
+    * vývoz zboží za cenu nižší než jsou výrobní náklady v zemi vývozu, nebo cena nižší než porovnatelná cena ze stejného výrobku v zemi vývozu po odečtení nepřímých daní
+  * embargo
+    * zákaz vývozu nebo dovozu určitých druhů zboží
+    * hospodářský nátlak na partnerskou zemi
+  * euro
+    * 1999 byla jenom v bankách , od 2002 už je v oběhu
+  * evropská centrální banka
+    * 1998 jako ústřední banka EU
+    * monetární politika eurozóny
+    * stanovuje úrokové sazby, hlavním cílem je stabilita eura
+  * evropské společenství
+    * 1958, složeno z ESUO, EURATOM a EHS (první bylo ESUO 1952)
+  * externatility
+    * to je ten odpad nebo tepelné znečistění řek...
+  * faktoring
+    * odkoupení krátkodobé pohledávky za úplatu
+    * spotřební zboží - potraviny, obuv
+  * forfaiting
+    * banka nebo někdo jiný odkoupí dlouhodobou pohledávku za úplatu
+    * u exportu strojů třeba
+  * franchising
+    * Franchisingem se rozumí dlouhodobá smluvní spolupráce mezi nezávislými podnikateli - poskytovatelem franchisingu (franchisorem) a odběratelem franchisingu (franchisantem) - na základě které franchisor předává franchisantovi znalosti o vedení firmy a propůjčuje mu svou obchodní značku
+    * třeba Mekáč
+  * giniho koeficient
+    * vzorec pro vystižení nerozvnosti v rozdělování důchodů
+    * od 0 do 1, u Lorenzovy křivky
+  * hedging
+    * zajistění proti riziku ztráty
+  * holdingová společnost
+    * společnost, která ovládá jednu nebo více společnosti tím, že je majitelem kontrolního balíku jejich akcií (prostě tolik akcií, aby mohli ovlivnovat řízení těch společností)
+  * HDP
+    * měří celkový ekonomický výkon země
+    * celková hodnota finálních statků vyrobených v ekonomice země za jeden rok  a procházejících trhem zpravidla v peněžních jednotkách
+    * měří se buď sumou důchodů nebo sumou produktů 
+  * HNP
+    * celková hodnota finálních statků vyrobených národními subjekty dané země 
+  * inflace
+    * všeobecný vzestup celkové hladiny bilance
+  * intervence
+    * ovlivňování situace nebo předcházení nežádoucímu vývoji
+    * aktivita státních orgánů hlavně v cenové a devizové oblasti nebo na trhu cenných papírů zaměřena na podporu strany nabídky nebo stranu poptávky s cílem ovlivnit cenu zboží, kurs měny nebo kurz cenných papírů
+  * kartel
+    * dohoda mezi oligopolními podniky blabla, s cílem vyšších zisků 
+    * omezuje konkurenci a poškozuje spotřebitele 
+  * kupní síla peněz
+    * množství výrobků a služeb které je možné zakoupit za určitou sumu peněz
+    * měří se pomocí spotřebního koše
+  * lorenzova křivka
+    * pro měření nerovností
+  * parita kupní síly
+    * poměr vyjadřující rovnost kupních sil porovnávaných měn
+  * rabat
+    * sleva z kupní ceny poskytnutá zákazníkovi
+    * na odběr nových výrobků, nebo sleva na odběr při určitém množství
+  * rating
+    * měření bonity firem
+  * saldo
+    * bilance
+    * rozdíl záporných a kladných hodnot
+  * WB
+    * Mezinárodní banka pro obnovu a rozvoj
+  * swap
+    * operace založená na vzájemném prodeji a koupi papírů stejné hodnoty mezi dvěma účastníky
+    * třeba půjčky MMF
+  * valorizace
+    * kompenzace negativního dopadu inflace na hodnotové ukazatele, zejména různé formy důchodů a dávek 
+
+
+
+  * WHO
+  * Evropská komise
+  * čoi
+  * erú
+  * ekonomická nouze
+  * čnb
+  * hospodářský růst
+  * antimonopolní úřad
+  * mýtné
+  * intervence proti koruně
+  * sankce
+  * AKAT ČR
+  * FONDY - A - akciové, B - dluhopisové, F - fondů, P - peněžního trhu, S - smíšené
+  * monopol
+  * DPH, HDP, dan z příjmu
+  * ekonomické fórum
+  * akcie, burza
+  * audit
+  * parita kupní síly (přepočítává se to u HDP, u země, která je v mezinárodním měřítku slabá (protože se to přepočítává na běžné dolary), ale třeba může velmi dobře utvářet majetek a služby, které obyvatelstvu prostě stačí)
+  * 
+
+předseda Evropského parlamentu - Martin Schulz. EP řeší politickou situaci v jednotlivých státech, teď třeba Maďarsko a Polsko. Spor národního a evropského principu. EU hájí zájmy demokracie v EU, státy zase zastupují národní voliče a jejich zájem. V Lisabonské smlouvě existuje článek 7 umožňující trestat členský stát, který se prohřešil proti pravidlům demokracie – například mu stopnout eurofondy nebo mu zrušit hlasovací právo. Tyhle sankce se ale dosud v EU nevyužily. V Polsku návrh zákona, kde vládá přebírá kontrolu nad veřejnoprávními médii?!!!! Nojo, ale uvalíme sankce na Polsko a co udělají poláci? Vyhraní se ještě více proti Západu...
+
+Obchod tvoří pouze 23 procent americké ekonomiky, zatímco v Německu je to 71 a ve Francii 45 procent.
+
+
+
+
+
+
+

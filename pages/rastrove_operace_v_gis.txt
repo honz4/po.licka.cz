@@ -1,0 +1,10 @@
+<WRAP center round tip 60%>
+mapová algebra - lokální, fokální, zonální, globální funkce
+</WRAP>
+  * Mapová algebra: shodnost parametrů rastrů, VAT (value attribute table): value, count
+  * __Spojitá__ (pohyblivá des. čárka – intervalová a poměrová, nemají VAT, mají NoData, nadmořská výška, hluk, sklon) / __Diskrétní__ (hodnota pH, půdní typy, využití ploch)
+  * **Lokální:** po jednom pixelu (jedna nebo více vrstev), raster calculator
+  * **Fokální:** z definovaného okolí (3x3 sousední pixly, kruh,...), pro výpočet sklonu, křivosti, průměrná nadm. výška v okolí 1 km
+  * **Zonální:** průměrná nadmořská výška v obcích, zonal statistics, i rastr i tabulka
+  * **Globální:** ze všech pixlů, analýzy viditelnosti
+  * Měření po hranách, po hranách a středech, po středech (Euklidovská metrika)

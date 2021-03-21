@@ -1,0 +1,24 @@
+<WRAP center round tip 60%>
+metody, přístroje, historie, současný stav GNSS
+</WRAP>
+====== Historie ======
+  * 3500 př. n. l. jezdili podél pobřeží a rychlost měřili tak, že si sledovali mořské rasy a směr víceméně odhadovali
+  * 13.st. magnetický kompas
+  * olovnice - hloubka a bahno, haha :D
+  * portolánové mapy, astroláb (= měřil úhel Slunce)
+  * chip log = to lano s uzlíkama
+  * námořní almanach = tabulky obsahující informace o parametrech oběžných drah astronomických objektů
+  * potřebovali přesné hodiny -> 1764 vynalezl John Harrison chronometr, který potom James Cook vyzkoušel
+  * 1884 - Greenwich nultým poledníkem
+  * 1940 - LORAN - long range navigation
+    * vysílá pulzní rádiový signál z hlavních a řídících stanic
+    * měření časového rozdílu
+  * 1960 - Transit
+    * první družicový systém vytvořený US Army
+    * navigační signály na dvou frekvencích (150,400 MHz)
+    * poloha na základě měření Dopplerova posunu na obou nosných frekvencích (nejspíš jedna družice)
+    * časově omezeně dostupný ale
+    * obdobný sysém udělal i SS: Cikad-M
+  * 1973 USA dělá novej systém
+    * bude měřit trojrozměrně(protože měří vzdálenost přijímače k minimálně 4 družicím -> měří třírozměrnou polohu přijímače)
+    * systém dostupný kdykoliv, kdekoliv

@@ -1,0 +1,75 @@
+====== pojmy ======
+
+  * **izotropický povrch**
+        * povrch, u kterého se předpokládá, že možnost pohybu je ve všech směrech stejná a stejně nákladná, takže u něj nelze určit preferenční směry
+        * např. silniční síť v oblasti nížin nebo plavba po jezeře
+  * **anizotropický povrch**
+        * povrch, u kterého je možnost pohybu závislá na směru
+        * zohledňuje nejen náklady na překonání buňky s určitou hodnotou frikce dané frikčním povrchem, ale také náklady na překonání buňky v určitém směru
+        *  {{:frikcni_povrch1.png?nolink&500|}}
+  * **metriky**
+        * Euklidovská vzdálenost
+        * Manhattanská vzdálenost
+  * **akumulační (nákladová) vzdálenost**
+        * vyjadřuje vzdálenost každé buňky od zdroje v jednotkách nákladů
+        * nejlevnější trasa ze zdroje do daného místa
+        * vzdálenost se při pohybu přes každou buňku násobí frikční hodnotou
+  * **akumulační (nákladový) povrch**
+        * podobný jako povrch s euklidovskou vzdáleností, akorát tady hodnoty vzdáleností od výchozího bodu nenarůstají ve všech směrech stejně, ale respektují strukturu frikčního povrchu
+        * pro jeho vytvoření je klíčovým krokem definice frikcí, které vyjadřují prostorové rozmístění hodnot náročnosti přechodu přes jednotlivé lokality
+        * hodnota každé buňky reprezentuje součet celkových nákladů pro její dosažení od počátečního bodu
+        * v GIS - **Accumulated Cost Surface**
+              * vstup je kompletní síť všeobecných nákladů (frikční povrch) -> tzn. že každé buňce je přiřazena relativní nebo absolutní
+              *  hodnota nákladů potřebné pro pohyb přes ni
+        * {{:izoakupov.png?nolink&400|}}
+  * **frikční povrch**
+        * rastr
+        * hodnota uložená v každé buňce vyjadřuje úroveň obtížnosti nebo nákladovosti, potřebné pro pohyb přes ni
+        * např. přiřazení frikčních hodnot do obrazu využití krajiny reklasifikací
+        * neobsahují žádné kumulativní hodnoty, ale obsahují hodnoty potřebné pro vytvoření akumulačních povrchů
+        * nutnost normalizovat (nebo standardizovat?) do rozsahu 0–255 třebas
+        * např. plocha odporu krajinného pokryvu
+        * **frikce užitečné k anizotropickému modelování**:
+              * vítr, sklon, spotřeba paliva, peněžní výdaje, riziko nebezpečí, půdní pokryv,...
+        * {{:frikcnipov.png?nolink&300|}}
+  * **faktor terénního reliéfu**
+        * konvertuje rovinnou vzdálenost mezi buňkami na vzdálenost terénní (potřeba mít DMR žejo)
+        * není anizotropický (nezáleží na směru pohybu)
+  * **vertikální (stupňovitý) faktor**
+        * bere v úvahu vliv hodnotového gradientu mezi dvěma sousedními buňkami na jejich nákladovou impedanci
+        * je anizotropický (záleží na směru)
+        * počítá se ze sklonu svahů
+        * sklon, teplotní pole
+  * **horizontální faktor**
+        * to je to když jedu autem a fouká vítr třeba zleva!
+====== postup ArcGIS ======
+  * **path distance** **(nákladový povrch)**
+        * tvoří nákladový povrch (výchozí frikční povrch + vertikální a horizontální parametry posunu + skutečná vzdálenost po zemském povrchu)
+        * je možné zadat jak izotropní frikční povrch, skutečný povrch terénu i horizontální a vertikální faktory
+        * požaduje vstupní frikční povrch
+  * **cost path**
+        * na základě nákladového povrchu generuje nejlevnější trasu
+        * nebo trasu z vybraných lokalit k nejbližší zdrojové buňce definované v akumulačním nákladovém povrchu v rámci nákladové vzdálenosti
+        * musím už mít udělané Cost Distance nebo Cost BackLink nebo Cost Allocation !!) <- tady se totiž vytvoří Cost distance rastr a Cost Backlink rastr
+  * **cost surface**
+        * povrch nákladů
+        * každá buňka ví, jak drahé je její překonání
+        * sem se skládají ty faktory (frikční povrch + faktor terénního reliéfu, vertikální a horizontální faktor)
+  * kromě frikčních hodnot můžu zadat i maximální hodnotu nákladu, do které se budou vzdálenosti oceňovat)
+===== nalezení nejlevnější cesty =====
+  - **frikční povrch** - je třeba rastr reclassify sklonu
+  - **cost distance** (mapa nákladů) od místa A na základě obrazu frikčního povrchu
+          * Cost Backlink raster - rastr obsahující hodnoty od 1 do 8, které definují sousední buňku pro nejlevnější cestu z dané buňky ke zdroji
+          * vytváří se n základě nákladového rastru (to je ten frikční povrch z 1.) a startovacího bodu výpočtu
+  - **cost path** - mapa nákladů + komunikací vytvořím optimální trasu
+  - nebo **cost allocation** - počítá pro každou buňku nejbližší zdrojovou lokalitu na základě nejnižší akumulační vzdálenosti na nákladovém povrchu
+  * např. koeficienty pro vytvoření frikčního povrchu
+{{ ::frikce333.png?nolink&500 |}}
+  * 
+====== využití ======
+  * rozšíření vlků ve Španělsku
+  * nejvhodnější koridor pro stavbu komunikace
+  * analýza prostupnosti terénu
+  * modelování povodňové vlny
+  * modelování vlivu zplodin na životní prostředí
+

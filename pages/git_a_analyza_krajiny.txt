@@ -1,0 +1,4 @@
+- vertikální: od mohoroviče do svrchní troposféry 
+
+  * patch analyst v arcgisu
+  * lecos v qgisu

@@ -1,0 +1,14 @@
+===== FUSION =====
+
+        - **Merge Data**
+<wrap lo>C:\FUSION\MergeData C:\Users\Efox\Desktop\GIG\UPV\CARTMODELS\practica3\paths.txt C:\Users\Efox\Desktop\GIG\UPV\CARTMODELS\practica3\todo2012.lda</wrap>
+        - **Polyclip data**
+<wrap lo>C:\FUSION\PolyClipData C:\Users\Efox\Desktop\GIG\UPV\CARTMODELS\practica3\2012\dunes.shp C:\Users\Efox\Desktop\GIG\UPV\CARTMODELS\practica3\dune2012.las C:\Users\Efox\Desktop\GIG\UPV\CARTMODELS\practica3\todo2012.las</wrap>
+        - **Filter data outlier**
+<wrap lo>C:\FUSION\FilterData outlier 2 5 C:\Users\Efox\Desktop\GIG\UPV\CARTMODELS\practica3\outliers_dune2012.las C:\Users\Efox\Desktop\GIG\UPV\CARTMODELS\practica3\dune2012.las</wrap>
+        - **Canopy model**
+        - **Grounfilter**
+              * repeat 5x(?) times
+===== LAS TOOLS =====
+
+  - 

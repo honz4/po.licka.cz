@@ -1,0 +1,50 @@
+
+===== typy transformací =====
+
+  * 1st order polynomial
+    * může otáčet, zmenšovat, zkosit
+    * stačí to u leteckých snímků, pokud jsou dobře zpracované
+    * rezidua jsou ty zbytky
+    * metoda RMSE
+    * když to nestačí, použijí se transformace vyšších řádů
+  * 2nd order polynomial
+    * může defacto i smršťovat a tak
+
+===== rektifikace =====
+   * = převzorkování
+
+
+===== základy interpretace snímků =====
+=== interpretační znaky ===
+   * znaky, které existují na snímku i ve skutečnosti
+     * tvar
+       * antropogenní tvary mívají pravidelné obrysy
+     * stín
+       * jde podle stínu poznat barva
+       * stín vlastní /stín vržený
+     * velikost
+     * barva
+   * znaky pouze na snímku
+     * tón
+       * nahrazuje skutečnou barvu objektů
+     * textura
+       * plošná proměnlivost tónů
+       * lze ji zjistit, ale nelze ji rozpoznat
+   * znaky vyjadřující vztahy
+       * struktura
+         * definuje prostorové uspořádání jednotlivývh prvků, které ve svém celku tvoří objekty vyššího řádku
+         * čím větší měřítko -> tím se mění struktura na texturu
+       * poloha
+
+=== strategie vizuální interpretace ===
+  * začíná se liniovými prvky
+  * postupujeme od velkých objektů k malým
+
+  - klasifikační systém (vytvořit něco jako legendu)
+  - stanovení tzv. minimální mapovací jednotky
+    - řadové jednotky dokupy
+    - chodník i s cestou
+    - kde není řadová zástavba, ale třeba rodinné domky, vezmu to celé (i se zahradama)
+    - co název uklice, to jeden po ly gon
+
+

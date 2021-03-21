@@ -1,0 +1,19 @@
+  * Sladká voda – 3 % vody na Zemi ( 0,3 % na povrchu)
+  * Tlak se zvyšuje každý metr o 1 kPa (asi voda to je)
+  * Teplota vody se od 200 m nemění
+  * Atmosféra váží 5,157 x 10<sup>8</sup> kg
+  * Federal geographic data committee (FGDC), CEN, ISO
+  * Ropa nezpůsobuje zrcadlový odraz + nevlní vodu (rozpoznatelná na radaru)
+  * TOPGIS – 2014 letecké snímkování ortofoto 12,5 cm na pixel
+  * Hurikán (tajfun, cyklon): t > 27°C do hloubky 50 m, alespoň 5° severně nebo jižně od rovníku, teplota vzduchu musí se stoupající výškou rychle klesat
+  * Slaná voda mrzne při -1,9° C při 35%%
+  * V Kaspickém moři jsou stejné zásoby ropy jako v USA
+  * Zvuk ve vodě asi 1500 m/s, SOFAR (500–1000 m)
+  * Smrky mají nejmenší kořeny
+  * Kolský vrt (Rusko), 12 km
+  * Suchý vzduch pokles o 1° C/ m, vlhký 0,6° C
+  * Vztah mezi entitami: 1:1 (město a PSČ), 1:N (je členem katedry), N:M (firma vyrábí výrobek)
+  * Metrika: euklidovská (kontinuální), manhattanovská (diskrétní, pro manhattan, pro rastry)
+  * GML je standard pro popis geodat umožňující sdílení i integraci dat (bod, linie, pravoúhelník, uzavřená linie, polygon)
+  * Armáda ČR má DMR1: 1000x1000 m je jeden pixel a je to největší nadmořská výška zaměřená v tom území -> kvůli letectvu aby nenabourali kopec
+  * CAD je většinou používán pro vytváření nových objektů, které ještě neexistují, kdežto GIS slouží k analýze a modelování již existujícího světa včetně historie

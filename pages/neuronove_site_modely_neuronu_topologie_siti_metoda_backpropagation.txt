@@ -1,0 +1,34 @@
+====== neuronová síť ======
+[[https://www.youtube.com/watch?v=iYiG5auR39U|VIDEO]]
+
+Jsou dva druhy umělé inteligence - silná a slabá. Tou slabou se zabýváme my, silná umělá inteligence je spíše zatím scifi, protože modeluje mozek jako celek. 
+
+Neurony a síť v hlavě, kde každý elektrický výboj (když si mozek posílá informace nebo tak) je jako číslo. A cílem učení je najít správné nastavení těch čísel. Jak? Třeba minimalizací chyby metodou největšího spádu (buď letím nahoru nebo dolů, je to jedno) - což může ovšem občas selhat kvůli sedlovému bodu (což je lokální minimum)
+
+  * po propojení neuronů mezi sebou vzniká neuronová síť
+  * její předností je schopnost učit se, tedy zapamatovat si kombinace, které vedly k požadovanému výstupu a u nových vstupů se potom obracet na svoji paměť a na základě zkušeností odhadovat nový výsledek
+  * generalizace (zevšeobecňování) = přiměřená dovednost správně zareagovat i na vstupy, které nebyly součástí trénovacích dat, a vyvodit z nich obecné závěry o datech 
+  * Umělá neuronová síť (Arctifical Neural Network – ANN), také známá jako simulovaná neuronová síť (Simulated Neural Network – SNN) či neuronová síť, je skupina umělých neuronů, jenž jsou vzájemně propojeny; čili prakticky jde o snahu napodobit činnosti lidského mozku ve smyslu získání poznatků ze sítě pomocí procesu učení. Skupina neuronových sítí využívá matematický nebo výpočetní model pro zpracování informací na základě spojitého přístupu k výpočtu. Ve většině případů se jedná o adaptivní systém, který mění svou strukturu založenou na vnitřních nebo vnějších informacích které jí proudí. Používá se k modelování vztahu mezi vícerozměrnou vstupní proměnnou //x// a vícerozměrnou výstupní proměnnou //y//.
+  * Základní stavební jednotkou je neuron, který má libovolný počet vstupů x<sup>i</sup> a jeden výstup y . Citlivost vstupů je určena vahami w_i přiřazenými jednotlivým vstupním proměnným. Každý prvek x_i je vynásoben příslušnou vahou w_i a od výsledné hodnoty je odečten práh θ, který aktivuje výstup neuronu. Následně je přechodovou funkcí σ transformován vnitřní potenciál a dochází k vygenerování výstupu. Mezi nejčastěji používané funkce patří např.: sigmoida se střední hodnotou v bodě (0;0), logistická funkce, prahová funkce, hyperbolický tangens, apod. 
+ {{ ::neuron1.png?direct&400 |}}
+  * V případě vícevrstvé neuronové sítě dochází k rozlišení tří typů vrstev: vstupní, výstupní a skryté (jsou skryty vnějšímu pozorovateli). 
+{{ ::neuron2.png?direct&400 |}}
+
+=== učení  ===
+  * **učení s učitelem**
+    * ten už to umí a řekne mi, jestli jsem dobře nebo špatně, případně o kolik. Chyba jako funkce, která říká, jak moc se to naše doposud naučené řešení liší od toho ideálního řešení.
+      * pro jednotlivé tréninkové vstupy je znám požadovaný výstup a na základě rozdílu (chyby) mezi požadovaným a skutečným výstupem algoritmus provádí korekci vah, čímž dochází k adaptaci sítě
+      * **feed-forward-backpropagation**
+          * nejpoužívanější metoda učení s učitelem v případě vícevrstnaté sítě
+          - Feed-forward: výpočet odezvy sítě na základě prediktorů
+          - backpropagation: zjištění predikční chyby a změna hodnot vah k jejímu odstranění
+          * 
+  * **učení bez učitele**
+      * hledáme odlišnosti (třeba černou ovci)
+      * nemá žádné vnější kritérium správnosti a dochází pouze k hledání vzorků se společnými vlastnostmi. 
+
+=== přeučení sítě ===
+  * malý počet neuronů v síti -> slabší schopnost vystihnout a popsat závislosti v trénovacích datech
+  * **přeučení** = příliš velký počet neuronů v síti -> slabší schopnost generalizace (vystihnutí správného výsledku na nových datech)
+  * taky při velkém počtu vstupních parametrů a relativně málo pozorování 
+

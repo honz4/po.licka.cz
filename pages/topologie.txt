@@ -1,0 +1,16 @@
+<WRAP center round tip 60%>
+vztahy mezi objekty, topologická pravidla, implementace, chyby v topologii
+</WRAP>
+  * Topologie = nedokážu zjistit který geometrický prvek sousedí s kterým -> topologie = matematický způsob, jak explicitně vyjádřit prostorové vztahy mezi jednotlivými geometrickými objekty
+  * Nepracuje se souřadnicemi objektů
+  * **Topologické koncepty:** konektivita (dvě linie se napojí v uzlech), definice plochy (uzavřená linie definuje polygon), sousednost (princip okřídlené hrany)
+  * V rastru je implicitně, z=f(x,y)
+  * **Topologické vazby:** shodnost, rozpojení, protínání, dotyk, křížení, obklopení, obsažení, překrývání, vztah
+  * **Topologicky čistá síť:** linie se mohou protínat pouze ve svých koncových bodech, křížení linií mimo tyto body není dovoleno (výjimky), směr pohybu po linii
+  * Vytvoření topologie: data uložena v topologické datové struktuře -> prázná File GDB -> import dat do feature datasetu -> New a Topology -> Cluster tolerance! -> vyberu pravidla -> nová vrstva (area errors, line errors, point errors)
+  * **Pravidla:**
+        * Nesmí přesahovat (P, volební okrsky), Musí obsahovat bod (P:L, parcely a adresní bod), Musí být pokryty třídou prvků (státy a okresy), Nesmí přesahovat (P:P, vodní plochy a parcely), Hranice musí jít po hranicích polygonů (P:P, obytné zóny a parcely), Musí být uvnitř polygonů (B:P, hlavní města a státy), Nesmí obsahovat mezery (P, geologicka mapa), Hranice musí být pokryty liniemi (P:L, hranice parcel), Musí být pokryty polygonem (P:P, kraje uvnitř států), Musí být vzájemně pokryty (P:P, vegetace a typy půd)
+        * Musí být větší než tolerance seskupení (P a L)
+        * Nesmí mít volné konce (L, silnice), Nesmí se překrývat (L, silnice), Nesmí se překrývat ani dotínat (L, vodní toky, Nesmí se překrývat, protínat ani dotýkat (L, hranice parcel jsou vzájemně propojeny jenom svými koncovými body), Nesmí se překrývat (L:L, silnice a řeky), Koncové body musí být pokryty (L:B, přípojka elektrického vedení a transformátor), Nesmí mít pseudouzly, Nesmí překrývat samy sebe, Nesmí protínat samy sebe (L, vrstevnice), Musí mít jedinou část, Musí být pokryty třídou prvků (L:L, autobusy a uliční síť), Musí ležet na hranicích polygonů
+        * Musí být uvnitř polygonů (B:P, hlavní města uvnitř států), Musí ležet na hranicích polygonů (B:P, přípojky inženýrských sítí a hranice parcel), Musí být pokryty koncovými body (B:L, body křižovatky a koncové body středových linií ulic), Body musí ležet na liniích (B:L, stanice ČHMÚ a vodní tok)
+  * **Chyby:** přetahy, nedotahy, nevalidní polygony, štěpina (uzly nahrazeny těžištěm nebo to připojím k vybranému polygonu), duplicitní objekty, krátké objekty, zkřížené objekty, nedotahy k průsečíku, shluky uzlů, pseudouzly, objekty nulové délky

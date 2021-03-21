@@ -1,0 +1,39 @@
+   * základní otázka, zda-li se dva výběry shodují ve svém průměru nebo zda-li sledovaný výběr má určitou konkrétní hodnotu průměru. 
+   * Dále hypotézy týkající se rozdílu rozptylů mezi dvěma populacemi při hodnocení vlivu pokusných zásahů na variabilitu sledované veličiny
+   * mezi parametrické testy se řadí především **Studentův t-test** pro testování rozdílu dvou středních hodnot a **F-test** pro testování rozdílu dvou rozptylů
+
+===testování rozdílu dvou rozpylů F-test ===
+  * testem rozhodujeme, zda pokusný zásah má vliv na proměnlivost zkoumané náhodné veličiny
+  * je důležitý i pro porovnání přesnosti dvou metod měření
+
+
+
+===testování rozdílu dvou středních hodnot Studentův test ===
+  * nejčastěji používaný parametrický test
+  * používá se pro testování rozdílu dvou středních hodnot
+
+
+== porovnání základního a výběrového souboru (jednovýběrový t-test) ==
+  * používáme pro hodnocení experimentů, kdy známe střední hodnotu u základního souboru (tuto je pak možno považovat za konstantu). Pak ověřujeme hypotézu, že sledovaný výběrový soubor pochází z populace, která má stejnou střední hodnotu jako tato známá konstanta.
+
+
+== porovnání dvou výběrových souborů (dvouvýběrový t-test) ==
+  * tato varianta Studentova t-testu se používá pro hodnocení experimentů, kde neznáme střední hodnotu základního souboru, a vycházíme proto pouze z výběrových dat dvou souborů
+  * **párový pokus** = porovnáváme data, která byla vytvořena dvojím měřením té samé věci
+  * **nepárový pokus** = data, která pocházejí ze dvou různých skupin objektů
+  * a pak tu je samé něco, čemu fakt už nerozumím. Statistica rulez.
+
+==testování rozdílu více středních hodnot ==
+  * máme mnoho skupin dat, které byly podrobeny působení různých podmínek, jejichž účinek je předmětem našeho sledování
+  * potřebujeme zjistit, zda existují rozdíly mezi těmito skupinami, respektive potřebujeme porovnat jejich průměry navzájem pro všechny možné páry skupin (případně pouze střední hodnoty pokusných skupin oproti kontrole)
+  * statistické metody, které toto umožňují najdeme pod souhrnným názvem analýza rozptylu = **ANOVA (analysis of variance)**
+  * metoda je založena na vztazích rozptylů porovnávaných souborů (testování shody středních hodnot se vlastně převádí na testování shody dvou rozptylů (F-test))
+  * pro validní použití musí být splněny následující předpoklady :
+    * nezávislost měření (všechna měření musí být nezávisla uvnitř skupin i mezi skupinami)
+    * normalita dat (hodnoty v každí skupině musí alespoň přibližně odpovídat Gaussovu normálnímu rozdělení)
+    * homogenita rozptylů uvnitř skupiny (rozptyly ve všech skupinách musí být alespoň přibližně shodné)
+  * nejjednodušším  případem analýzy rozptylu je jednofaktorová analýza rozptylu, kdy analyzujeme účinek jednoho faktoru na zkoumanou závisle proměnnou
+  * zkoumá se, zda skupiny vytvořené klasifikačním faktorem jsou si podobné,, nebo zda jednotlivé průměry tvoří nějaké identifikovatelné shluky (homogenní podskupiny se stejnými hodnotami)
+  * celkovou variabilitu (rozptyl) zkoumané proměnné lze rozdělit na dvě složky: rozptyl „mezi skupinami“ (tzn. rozptyl výběrových průměrů kolem společného průměru, tj. Váženého průměru ze všech výběrových průměrů) a rozptyl „uvnitř skupin“ (tj. Rozptyl mezi jedinci ve stejné skupině)
+
+

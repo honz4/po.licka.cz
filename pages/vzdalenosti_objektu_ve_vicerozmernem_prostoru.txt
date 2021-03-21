@@ -1,0 +1,16 @@
+  * Vztahy mezi objekty lze vyjádřit pomocí jejich vzdálenosti v prostoru
+  * Výběr metriky vzdálenosti nebo podobnosti silně ovlivňuje výsledky analýzy, protože definuje jakým způsobem vztah mezi objekty interpretujeme
+  * výběr metriky je určen:
+        * typem dat - záleží jestli mám binární, kategoriální,...
+        * předpoklady výpočtu metriky
+        * expertní informaci vztahu objektů
+
+===== euklidovská vzdálenost =====
+===== chord distance =====
+===== geodetická metrika =====
+===== Mahalanobisova vzdálenost =====
+===== Manhattanská vzdálenost =====
+
+
+
+

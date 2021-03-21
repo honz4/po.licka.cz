@@ -1,0 +1,61 @@
+  * jeden z hlavních důvodů používání GIS je podpora v rozhodování
+  * Jak na základě existujících variant řešení dospět k optimalizovanému rozhodnutí v definovaném prostorovém problému?
+  * kde je nejbližší bar???
+  * what-if analýzy
+  * **SDSS (Spatial Decision Support System)**
+        * počítačový informační systém na podporu rozhodování v těžko formulovatelných a strukturovatelných problémech a případech, kdy není možné použít plně automatizovaný systém
+        * částečně strukturované rozhodování
+  * programové prostředky
+          * ArcGIS (spatial analyst a model builder)
+          * EMDS (ecosystem management decision system)
+          * IDRISI
+
+===== komponenty SDSS =====
+  * DBMS
+  * MBMS (model base management system)
+        * funkce modelování
+  * DGMS (dialog generation and management system)
+        * rozhraní mezi uživatelem a systémem
+
+===== pojmy =====
+  * rozhodnutí (decision)
+        * výběr mezi možnými variantami
+  * rozhodovací rámec
+        * soubor variant
+  * kandidátní soubor
+        * objekty, kterých se rozhodování týká
+  * selektovaný soubor
+        * objekty, jimž už byla přisouzena varianta
+  * kritérium
+        * podklad pro rozhodnutí
+        * zábrany - definice vlastností, které objekt musí a nemusí mít
+        * faktory - vlastnosti na základě spojité stupnice
+  * rozhodovací pravidlo
+        * vybírá a kombinuje kritéria
+        * výběrová funkce
+        * výběrová heurestika
+  * cíl
+  * rozhodovací riziko
+        * pravděpodobnost, že přijaté rozhodnutí může bát špatné
+  * databázová nejistota
+        * v určování kritérií rozhodovacího pravidla, většinou chyby z měření, vyjádřena pomocí teorie pravděpodobnosti 
+  * nejistota rozhodovacího pravidla
+        * způsob kombinací a vyhodnocování kritérií, parametry modelu
+        * ostré a neostré soubory
+  * vyhodnocování
+        * proces aplikace rozhodovacího pravidla
+        * multikriteiální (MCE)
+        * multidestinální (komplementární cíle, konfliktní cíle)
+===== proces rozhodování =====
+  * definování problému
+  * získání potřebných znalostí
+  * ohodnocení přístupných variant řešení
+  * výběr optimálního řešení porovnáním hodnocení variant
+===== aplikace =====
+  * identifikace oblastí splňující určité podmínky
+  * zjisťování přírodních faktorů (sklon, expozice)
+  * modely predikce
+  * pravděpodobnosti požárů, klimatických změn
+  * hydrologické modelování
+  * + dynamický prvek - retenční schopnost krajiny, vliv cestovního ruchu na krajinu
+

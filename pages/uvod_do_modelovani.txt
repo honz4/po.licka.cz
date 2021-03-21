@@ -1,0 +1,44 @@
+====== typy přístupů ======
+  * **redukcionismus**
+        * redukce celku na základní stavební bloky + mechanismy, které je spojují
+        * nevytvoří konečný a úplný popis reality
+        * redukce = neznámé jevy -> známé typy jevů
+  * **holismus**
+        * celek je nedělitelný, nepoznatelný
+        * má mystický charakter
+        * je víc, než jen prostý souhrn svých částí
+
+====== systém ======
+  * prvky + vazby mezi prvky + iterace s okolím
+  * **struktura systému**
+        * určuje vnitřní uspořádání
+  * **hranice systému**
+        * co je uvnitř a co je venku
+        * **izolovaný systém** - ani hmota, ani energie
+        * **uzavřený systém** - hmota ne, energie jo
+        * **otevřený systém** - hmota i energie jo
+  * **okolí systému**
+        * vnější subjekty mimo sysstém, které se systémem komunikují
+        * ovlivněno úrovní rozlišení a účelem modelování
+  * **komunikace s okolím**
+        * přes hranici systému
+        * vstupy systému - podněty okolí
+        * výstupy systému - reakce systému
+        * výměna - dat, informací, hmoty, energií
+  * **chování systému**
+        * změny stavu systému (přechod z jednoho stavu systému do druhého)
+        * popis spolupráce jednotlivých částí systému
+        * reakce na vstupní podněty <- zpětné ovlivnění
+  * **stav systému**
+        * stavové veličiny + přechodný stav systému -> výstupní veličiny v čase t
+
+====== analýza x syntéza ======
+  * analýza
+        * strukura -> určuju chování
+        * myšlenkově rozložím tu věc na části  a ty části dále zkoumám
+        * když líp poznám dílčí částí -> líp poznám tu věc jako celek
+  * syntéza
+        * chování -> určuju strukturu
+        * myšlenkově sjednotím části v celek
+        * sleduju souvislosti mezi složkami jevu -> čímž poznám jev jako celek
+        * nejednoznačná úloha

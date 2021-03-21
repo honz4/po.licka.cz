@@ -1,0 +1,306 @@
+====== přírodní lesní oblasti ======
+  * souvislá území s obdobnými růstovými podmínkami pro les (=lesní oblasti LO)
+  * jako trvalé přírodní rámce nezávislé na správních změnách umožňují všestranné využití v LH při dlouhodobém a rámcovém plánování v LHP
+  * primárně pro hospodářsko-úpravnické účely
+  * vymezení PLO  jako územních celků:
+  * podstatnější rozdíly v půdotvorných matečných horninách, které podmiňují půdní vlastnosti typologických jednotek,
+  * rozdíly v konfiguraci terénu vyhraněných geomorfologických celků, které ovlivňují uplatnění typologických jednotek
+  * rozdíly v makroklimatu, které se rozhodující měrou (avšak společně a ostatními činiteli) podílejí na rozšíření lesních společenstev,       kombinaci dřevin v jejich přirozené skladbě i předpokladech pro hospodářské dřeviny.
+  * PLO včetně popisu hranic a mapového zobrazení – příloha 1 vyhl. č. 83/1996 Sb.
+  * 41 lesních oblastí v ČR
+
+====== topologický systém uhul ======
+  * založen na horizontálním a vertikálním členění přírodních podmínek
+  * charakterizuje konkrétní stav přírodních poměrů
+
+  * **Vertikální členění**  - lesní vegetační stupně (LVS)
+    * vylišeny na základě vztahu mezi klimatem a biocenózou
+    * charakterizovány číselně 1 - 9 (a skupinou 0) a slovně podle nejvýznamnějších původních dřevin daného výškového pásma (dbBK = dubová bučina)
+    * většina lesních typů ČR je ve 3. vegetačním stupni (dubobukový)
+  * **Horizontální členění** -ekologické řady a kategorie
+    * vyjadřuje odlišnosti růstových podmínek podle stanovištních rozdílů, především půdních
+    * diferenciace růstových podmínek v horizontálním členění je výraznější než diferenciace podle LVS
+    * 8 základních řad: Z, K, B, J, L, P, G, R
+    * dělí se do 24 kategorií
+    * každá kategorie charakterizována velkým písmenem (začáteční písmeno hlavní charakteristiky)
+    * X – xerotermní
+    * Z – zakrslá
+    * B -bohatá
+    * L – lužní
+    * O – oglejená
+    * R – rašelinná
+    * dále vylišeny lesní typy a soubory lesních typů
+
+====== lesní typ ======
+  * základní jednotka typologického systému
+  * je charakterizován
+  * význačnou kombinací druhů příslušné fytocenózy
+  * půdními vlastnostmi
+  * postavením v terénu (v lesních vegetačních stupních)
+  * potenciální bonitou dřevin
+  * je vyjádřen alfanumerickým kódem
+  * Číslo - písmeno	 -     číslo
+  * lesní vegetační stupeň - edafická kategorie - charakteristický druh fytocenózy
+  * 1K1  - kyselá doubrava kostřavová   
+  * 3S3  - svěží dubová bučina s ostřicí prstnatou
+  * 5H4  - hlinitá jedlová bučina s kapradinami
+  * LT resp. typ geobiocénu  =  geobiocenologická (= ekosystémová) jednotka, která zachycuje spojitost růstových podmínek i výsledný charakter
+  * geobiocenologické jednotky = typizované segmenty přírody a jejich nadstavbové jednotky v krajině
+
+====== Soubor lesních typů (SLT) ======
+  * širší typologická jednotka
+  * spojuje lesní typy na příbuzných stanovištích, charakterizovaných hospodářsky významnými vlastnostmi
+  * v ekologické síti vymezeny edafickými kategoriemi a klimatickými (vegetačními) stupni
+  * v ČR je vylišeno celkem 168 souborů lesních typů
+  * zařazení porostů do lesních typů je uvedeno v lesním hospodářském plánu nebo v lesní hospodářské osnově
+  * je vyjádřen alfanumerickým kódem:	
+  * číslo - písmeno / lesní veg. stupen - edaf. kategorie
+  * 1K - kyselá doubrava
+  * 3S - svěží dubová bučina
+  * 5H - hlinitá jedlová bučina
+
+  * SLT  - příliš detailní pro diferenciaci hospodářských opatření =>
+====== Cílový hospodářský soubor (CIHO) ======
+  * jednotka diferencovaného hospodaření v lese
+  * definuje cílový stav porostních poměrů a funkční zaměření porostu na lokalitách shodných přírodních podmínek.
+  * CIHO se označují:
+    * číselně - dvoumístné číslo  
+    * první číslo je širší klimaticko - vegetační charakteristika
+    * druhé číslo je kód stanovištní jednotky (řady)
+
+  * slovně - výstižné označení klíčové stanovištní charakteristiky, příp. dřeviny
+    * 23 – hospodářství kyselých stanovišť nižších poloh
+    * vznikají agregací LT do cílových HS na základě agregační tabulky
+====== Rámcové směrnice hospodaření ======
+  * smyslem směrnic je poskytnout majiteli lesa, nebo odbornému lesnímu hospodáři, přehled o optimálním hospodaření v porostech zahrnutých do hospodářských souborů v celém věkovém spektru od nejmladších po mýtní porosty
+  * dle vyhl. MZe ČR č. 83/1996 pro jednotlivé hospodářské soubory
+  * soubor doporučení pro hospodaření v porostních skupinách daného hospodářského souboru
+  * vztahuje se k celému hospodářskému souboru
+  * plánovacím obdobím je zde celý produkční věk
+  * rámcové směrnice hospodaření pro vylišené hospodářské soubory -  povinná součástí textové části LHP
+  * číselné označení a název hospodářského souboru
+  * název přírodní lesní oblasti, do které spadají zahrnuté porostní skupiny
+  * výčet zahrnutých souborů lesních typů (případně jejich částí)
+  * charakteristiku porostního typu
+  * základní hospodářská doporučení
+
+  * **Hospodářský tvar lesa**
+    * výsledek způsobu hospodaření - zejména způsobu vzniku porostů
+    * vysoký (vysokokmenný), nízký (pařezina), střední (sdružený)
+
+  * **Obmýtí** =  rámcová produkční doba porostů v daném HS
+    * uvádí se věkovým rozpětím zaokrouhleným na desítky let
+    * v praxi používané obmýtí:  kulminaci hodnotového celkového průměrného přírůstu
+
+  * **Hospodářský způsob**
+    * doporučený způsob se uvádí ve zkratce
+    * H – holosečný, N - násečný , P - podrostní , V- výběrný
+
+  * **Obnovní dob**a = doba, která uplyne od prvního do posledního plánovaného obnovního zásahu v obnovovaném porostu
+    * závislá na stavu, skladbě a způsobu obnovy současného porostu a na cíli druhové skladby, kterého má být dosaženo v době zajištění kultury.
+    * v lesích ochranných - obhospodařovaných výběrným způsobem -  obnovní doba nepřetržitá
+
+  * **Minimální podíl melioračních a zpevňujících dřevin**
+    * udává se minimální procentický podíl těchto dřevin v porostu v době zajištění kultury
+    * cílem je zamezit vzniku monokultur
+    * výčet melioračních a zpevňujících dřevin pro základní porostní typy HS uveden v příloze č. 4 k vyhl. MZe ČR č. 83/1996 Sb
+    * v lesích ochranných jsou považovány za dřeviny meliorační a zpevňující všechny dřeviny přirozené druhové skladby, kromě smrku a borovice
+
+  * **Cílová druhová porostní skladba** = doporučené zastoupení dřevin v mýtním věku, vyjádřené v procentech,které je z hlediska zabezpečení produkčních i mimoprodukčních funkcí lesů optimální.
+    * z hlediska produkčního představuje v rámci hospodářského souboru ekonomicky i biologicky optimalizované zastoupení dřevin v mýtním věku (optimum hodnoty, trvalosti i bezpečnosti produkce).
+    * vedle optimální skladby odpovídající podmínkám HS (někdy v alternativách) uvádí se u všech ostatních porostních typů souboru   * upravená cílová skladba, dosažitelná ve změněných podmínkách těchto typů porostů.
+    * výraznější rozdíly v cílové skladbě v rámci HS jsou při změněném stavu porostů, zejména v imisních oblastech
+
+  * lesy jsou zmapovány podle typologického systému a systematicky revidovány v rámci vyhotovení oblastních plánů rozvoje lesů (vyhl. MZe ČR č. 83/1996 Sb.)
+
+  * změny monitorovány na typologických plochách
+
+
+  * **Vlastní výstupy typologie lesů**
+    * charakteristiky lesních typů
+    * charakteristiky LT jsou zpracovány na úrovni přírodních lesních oblastí
+    * na tomto geobiocenologickém základě jsou diferencovány a respektovány specifické podmínky oblasti	
+    * typologická mapa (1: 10000)
+    * je zpracovaná na podkladě charakteristik LT
+    * zachycuje vývojový proces typologické jednotky, vzniká postupně a její vývoj není definitivní
+    * cílem je zachytit aktuální stav, protože se mapuje otevřená, dynamická lesní geobiocenóza
+dokonalá typologická mapa vzniká cca 60 - 80 let a zachycuje historicko-vývojový proces
+
+====== Prostorová úprava lesa ======
+  * soubor poznatků a opatření, jimiž se zabezpečuje účelné uspořádání lesů a úprava prostorových vztahů v jednotlivých lesních částech a vzájemně mezi nimi.
+  * slouží k získání přehledu a orientaci při hospodaření
+  * vnitřní = struktura a textura porostu (vertikální a horizontální dělení)
+  * vnější  = rozdělení lesa (~ JPRL = jednotky prostorového dělení lesa)
+  * vvymezení hospodářsko – úpravnických jednotek jako rámců pro plánování, zjišťování a vyhodnocování stavu lesa
+
+====== Pozemky určené k plnění funkcí lesa PUPFL ======
+  * **lesní pozemk**y - pozemky s lesními porosty a plochy, na nichž byly lesní porosty odstraněny za účelem obnovy, lesní průseky a nezpevněné lesní cesty, nejsou-li širší než 4 m a pozemky na nichž byly lesní porosty dočasně odstraněny na základě rozhodnutí orgánu státní správy lesů
+  * **jiné pozemky** - zpevněné lesní cesty, drobné vodní plochy, ostatní plochy, pozemky nad horní hranicí dřevinné vegetace (s výjimkou ploch zastavěných a příjezdových komunikací), lesní pastviny a políčka pro zvěř, nejsou-li součástí zemědělského půdního fondu
+  * **lesní hospodářský celek** = lesní pozemky +  jiné pozemky - rámec pro vypracování LHP
+pro účely zpracování LHP a O se PUPFL dělí na porostní půdu a bezlesí
+  * **lesní majetek**  = souhrn všech pozemků = PUPFL (LHC) a ostatní pozemky - neslouží k hospodaření na lesním majetku, k jeho využití ani k plnění funkcí lesa
+
+  * **Velikost pozemků je charakterizována**:
+    * plochou - číselný údaj o velikosti části lesa zjištěný měřením
+    * výměrou - číselný údaj o velikosti části lesa zjištěný na podkladě KN
+    * výměry i plochy pro jednotlivé části lesa se udávají v plochové tabulce
+    * údaj výměry lze nahradit plochou pozemku v případě, kdy rozdíl mezi zjištěným stavem a údajem katastru nemovitosti překračuje mez stanovenou: delta P = 5 * (0,001 P + 0,5 odmocnina P)
+    * P je výměra v m2 (ve smyslu vyhlášky č. 84/1995 Sb.); výměra se uvádí zaokrouhlená na setiny ha
+
+====== 6 vyhl. Č. 84/1996 Sb. O lesním hospodářském plánování ======
+  * 1) Veškerá porostní půda na celku musí být zařazena do jednotek prostorového rozdělení lesa.
+  * (2) Jednotky prostorového rozdělení lesa jsou vytvářeny tak, aby byla
+    * a) usnadněna orientace v lese,
+    * b) umožněna jednoznačná identifikace částí lesa při plánovacích, hospodářských, evidenčních a kontrolních činnostech.
+  * (3) Jednotkami prostorového rozdělení lesa jsou:
+oddělení, dílec, porost, porostní skupina a etáž, přičemž porost je základní  jednotkou tohoto rozdělení, která musí být vždy vylišena.
+
+  * **Oddělení**
+    * optimální velikost cca 80 ha, minimum 20-30 ha, maximální 150 ha
+    * jednotka pouze s orientační funkcí.
+    * hranice se vedou po trvalých liniích terénu
+    * oddělení se značí arabskými číslicemi (1, 2, 3)
+
+  * **Dílec**
+    * vytváří se na základě podobnosti přírodních a hospodářských podmínek
+    * cílem je postupné dosažení jednotného způsobu hospodaření
+    * výměra nepřesahuje 30 ha.
+    * dílce se označují velkými písmeny (A, B, C)
+
+  * **Porost**
+    * vymezují  se jako plošně souvislé části lesa, odlišující se od sebe druhovou, věkovou či prostorovou skladbou, kategorií lesů nebo vyžadující odlišné hospodaření.
+    * vylišují se na základě odlišné druhové, věkové, nebo prostorové skladby, odlišné kategorie lesa nebo pro odlišný způsob hospodaření
+    * výměra porostů neklesá pod 0,20 ha, nejedná-li se o les ve vlastnictví různých subjektů.
+    * porosty se označují malými písmeny (a, b, c).
+
+  * **Porostní skupina**
+    * část porostu vylišená dočasně odděleně v důsledku odlišného věku nebo plošně nevýznamná část lesa nevylišená jako porost.
+    * značí se číslem
+
+  * Etáž
+    * jednotka vertikálního členění porostní skupiny.
+    * vylišuje se tehdy, jestliže v porostní skupině nad sebou rostou soubory stromů o jednoznačně odlišitelném věku a většinou současně i druhovém složení
+    * porostní skupina obsahuje vždy minimálně jednu etáž
+
+  * Prostorové rozdělení lesa
+    * dvoustupnové: oddělení, porost
+    * trojstupnové: oddělení, dílec, porost
+  * jako skupiny nebo etáže se vylišují části lesa o výměře nad 0,04 ha
+  * při vylišování jednotek JPRL se respektují hranice katastrálních území na úrovni hranic porostů nebo porostních skupin.
+  * hranice oddělení a dílců se navrhují po zřetelných liniích v terénu.
+  * tam, kde mohou vzniknout pochybnosti o průběhu těchto hranic, je třeba  zřetelně označit jejich průběh v terénu na lomových bodech  a mezi nimi
+
+
+====== Informační standard lesního hospodářství ======
+  * vznikl jako reakce na změny ve způsobu pořizování, zpracování a využívání dat o lese pro hospodářské a správní účely vyplývající z lesního zákona č.289/1995 Sb.
+  * změny spočívají:
+    * v diverzifikaci zdrojů
+    * způsobů zpracování
+    * tvarů výstupů elaborátů hospodářské úpravy lesů
+
+  * IS LH zajišťuje zachování plné srozumitelnosti a kompatibility těchto děl na úrovni věcné i datové
+  * terminologické sjednocení
+  * definování rozhraní pro datovou komunikaci
+  * podpora výměny dat
+  * specifikace informačních východisek aplikačních informačních systémů
+
+====== Předmět standardu - Katalog objektů ======
+  * třída - objekt - vlastnost
+  * vlastnost: definice, kod, datový typ, jednotka, chyba, číselník
+  * geometrie: bod, linie, plocha, vsechno multi, složený formát
+  * výměnný formát: XML
+
+
+====== Lesnické mapy ======
+  * § 2 zákona č. 289/1995 Sb. o lesích a o změně  a doplnění některých zákonů (lesní zákon)
+  * součástí lesnických map je prostorové rozdělení lesa
+  * závazným výchozím mapovým podkladem pro tvorbu LM je KN nebo SMO 1 : 5 000
+  * lesnické mapy se zpracovávají a zobrazují v geodetickém referenčním systému S-JTSK
+  * při zobrazení vyšších jednotek prostorového rozdělení lesa, kterými jsou oddělení, dílec  se pracuje s geodetickou přesností 0,0004 x M [m], 	kde M je měřítko mapy.
+  * pro tvorbu lesnických map se použijí mapové značky podle přílohy č. 2 této vyhlášky.
+  * ve vojenských újezdech je podkladem pozemková mapa vojenských újezdů
+  * při zobrazení lesních částí mimo situaci, je součástí lesnické mapy celkový situační nákres
+
+  * **základní lesnické mapy**
+    * mapa obrysová (10),  porostní (10) ,typologická (5),těžební nebo těžebně technologická.
+    * vyhotovují se  zpravidla v měřítku 1 : 10 000 nebo větším (podrobnějším)
+
+  * **ostatní účelové lesnické mapy**
+    * organizační, dopravní, mapa dlouhodobých opatření ochrany lesa atd.
+      * na lesnických mapách, které jsou náležitostí plánů, je vždy uvedeno měřítko mapy a přehled mapových značek
+    * povinnou náležitostí plánu je lesnická mapa v M alespoň 1 : 10 000, zahrnující všechny vylišené JPRL, pro které je provedeno zjištění stavu lesa
+====== Oblastní plány rozvoje lesů  OPRL ======
+  * definující zásady hospodaření v lesích dle přírodních lesních oblastí ČR
+  * legislativně  v zákoně č.289/1995 Sb. §23 a Vyhlášce Mze č.  83/1996 Sb.
+  * obsahují souhrnné údaje o stavu lesů, potřebách plnění funkcí lesů jako veřejného zájmu a doporučení o způsobech hospodaření v   ekosystémovém pojetí.
+  * vycházejí z principu trvale udržitelného obhospodařování lesů => vytvářejí předpoklady pro minimalizaci střetu mezi   celospolečenskými zájmy a zájmy jednotlivých vlastníků lesů.
+  * jsou metodickým nástrojem státní lesnické politiky.
+  * slouží jako podpora pro rozhodování orgánů státní správy.
+  * tvoří podklad pro vypracování lesních hospodářských plánů a lesních hospodářských osnov.
+  * data OPRL poskytuje ÚHÚL prostřednictvím Informačního a datového centra
+  * aktuální pravidla pro poskytování dat jsou umístěny na www.uhul.cz
+  * **Obsah OPRL**
+    * TEXTOVÁ ČÁST
+      * rámcové stanovení funkčního potenciálu - produkční, mimoprodukční
+      * přehled veřejných zájmů (kategorizace) a výhled vývoje
+      * přehled překryvu účelovosti lesů
+      * priority funkcí
+      * střely zájmů
+      * __rozbor přírodních podmínek__
+      * rozbor ohrožení imisemi a dalšími škodlivými činitel
+      * základní hospodářská doporučení pro hospodářské soubory
+      * návrh dlouhodobých opatření ochrany lesa včetně schválených územních systémů ekologické stability
+      * návrh využití nepůvodních dřevin
+      * údaje o stavu lesa  - rozbor platných lesních hospodářských plánů - včetně historického vývoje hospodaření
+      * návrh optimalizace dopravního zpřístupnění a limitujících těžebně-dopravních technologií
+    * GRAFICKÉ A TABELÁRNÍ PŘEHLEDY
+      * ZÁKLADNÍ Hospodářská doporučení dle hs
+      * zastoupené cílových hs
+      * celkový podíl jendotlivých skupin vlastníků na výměře
+      * zatoupění věkových stupnů
+      * struktura rámcových směrnic hospodaření
+      * výhled roční výše celkové těžby
+    * DIGITÁLNÍ A ANALOGOVÉ MAPY
+      * PŘEHLEDOVÁ  50
+      * typologická 10
+      * lesní vegetační stupně 25
+      * dlouhodobá opatření lesa 25
+      * deklarované fce 25
+      * fční potenciál 25
+      * dopravní 25
+      * ohrožení jehličnatých porostů 25
+    * výsledné doporučení a závěry
+    * technická zpráva
+    * doklady o rozhodnutí kategorizace lesů
+
+=== ROZBOR PŘÍRODNÍCH PODMÍNEK ===
+  * 1 - Poměry klimatické
+    * atlas podnebí ČSSR (1958) / Česka (2011)
+    * klimatické oblasti ČSR (Quitt,1971)
+  * 2 - Poměry geomorfologické a hydrologické
+    * regionální členění reliéfu ČR
+    * vyšší geomorfologické jednotky ČR
+  * 3 - Poměry geologické a pedologické
+    * geologická mapa ČR 1 : 200 000
+    * zobecnění půdních rozborů typologických ploch
+    * zastoupení půdních typů
+  * 4 - Poměry biogeografické
+    * nové fytografické členění ČR
+    * starší fytografické členění ČR
+  * 5 - Biogeografické členění
+    * přírodní (Culek a kol., 1966)
+    * sociekologické členění (Petříček, Míchal)
+====== mapový portál uhul ======
+==== oblastní plány rozvoje lesů ====
+  * přehledka lesních oblastí, typologická mapa, lesní vege stupně, clové hospodářství, dopravní, dlouhodoobé opatření ochrany lesů, uses, fční potenciál lesů
+
+==== mapy zdraví lesů ze satelitu ====
+  * landsat
+  * A - mapa poškození a mortality lesních porostů
+  * B - mapa defoliace a mortality jehličnatých porostů
+  * C - mapa vývoje poškození a mortality jehličnatých porostů
+  * D - mapa ohrožení jehličnatých porostů
+  * E - mapa trendu zhoršování zdravotního stavu jehličnatých porostů
+==== honitby čr ====
+
+

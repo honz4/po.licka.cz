@@ -1,0 +1,140 @@
+<WRAP center round tip 60%>
+základní pojmy, klasifikace modelů, příklady
+</WRAP>
+
+====== dle kauzality ======
+===== deterministické =====
+  - **BL - white box modely**
+  -**DC -  grey box modely**
+        * reflektuje fyzikální zákony ve zjednodušené formě
+        * obsahuje i empiricky odvozené vztahy
+        * spojení empirického a fyzikálního přístupu
+  - **DB - black box modely**
+        * empiricky odvozený vztah mezi vstupem a výstupem
+        * procesy uvnitř jsou skryty
+===== stochastické =====
+  * primárně neobsahují vazbu mezi příčinou a důsledkem
+  - **pravděpodobnostní modely**
+        * jednotlivé parametry jsou charakterizovány pravděpodobnostním rozdělením
+  -**modely generování časových řad**
+        * extrapolace časových řad pozorovaných parametrů (zachovávají se jejich statistické charakteristiky)
+        * ARMA, ARIMA
+
+====== dle prostorové disketizace ======
+  * **celistvé (lumped) modely**
+        * kde bodové hodnoty veličin reprezentují situaci za celou zpracovávanou oblast -> hodnoty plošné!!
+        * např:  u hydrologických modelů může být pro celou modelovanou oblast použita pouze jedna hodnota množství srážek
+  * **semi-distribuované modely**
+        *  modelované území mají rozdělené na elementární plochy s homogenními prostorovými parametry
+        * např. srážky jednotlivě pro každé povodí
+  * **distribuované modely**
+        * celá modelovaná oblast je jako třeba rastr
+        * 1 hodnota buňky = hodnota v rámci plošky rastru
+        * např. hodnoty srážek v podobě rastru
+====== dle lokalizace ======
+  * patří to adekvátně k rozdělení podle diskretizace prostoru
+  * **modely se soustředěnými parametry**
+        * mají stejné hodnoty sledovaných veličin v celém prostoru
+        * souřadnice nejsou jako nezávislé proměnné (to je jasný, když je nepotřebuju!!!)
+  * **modely s rozloženými parametry**
+        * sledované veličiny mají různé hodnoty podle místa v prostoru
+        * souřadnice alespoň jedna, je použita jako nezávislá proměnná
+
+====== dle míry abstrakce (brus - podobnosti) ======
+  * **fyzicky-hmotné modely**
+        * podobnost fyzikálního modelu a reálného systému
+  * **fyzikálně-matematické modely**
+        * fyzikální analog
+        * na základě fyzikální a matematické podobnosti
+        * původní fyzikální proces nahradím analogicky stejným matematickým popisem
+  * **matematické modely**
+        * abstraktní systém matematických vztahů
+        * matematická podobnost modelu a modelovaného systému
+
+====== dle míry abstrakce (brus) ======
+  * **přirozený model**
+        * zjištění hodnoty určité veličiny lze provést měřením
+        * měřítko přibližně jednotkové
+  * **fyzikální model**
+        * nosná látka může být jiná
+        * některá měřítka modelování nejsou jednotková
+        * aerodynamický tunel
+  * __fyzikální analog__
+        * původní fyzikální proces je nahrazen analogickým
+        * zachování analogie mezi strikturou originálu a modelu
+        * platí zcela nebo zčásti zákony zachování fyzikální podobnosti
+        * např: filtrace vody poréznímvosdovkdaklmfjjjjjjjjjjj
+  * __fyzikální analog síťový__
+        * nezachovává podobnost mezi strukturou systému a modelu
+        * do určité míry je zachována fyzikální podobnost
+  * //matematický analog//
+        * původně fyzikální proces v systému s rozloženými parametry je studován na matematickém simulačním modelu
+        * matematická podobnost v bodech, kde se stýkají vstupy a výstupy elementů matematického modelu
+  * //funkcionální model jednoprvkový//
+        * jednoprvkový model BB
+        * proces modelu je podobný procesu na originálu pouze ve vnějším chování
+        * vnitřní struktura nemá fyzikální ani matematickou podobnost
+  * //funkcionální model dvouprvkový//
+        * dva BB
+        * určující je pouze matematická podobnost ve vnějším vzájemném působení podsystému
+        * např. působení teploty jednoho tělesa na jiný
+  * //funkcionální model víceprvkový//
+        * mnoho BB
+
+====== dle vyjádření prostoru a času ======
+  * **prostorově spojité**
+  * **prostorově nespojité**
+  * **neustálené, časově spojité**
+  * **neustálené, časově nespojité**
+  * **ustálené**
+
+====== dle velikosti modelovaní oblasti ======
+  * **lokální**
+  * **globální**
+  * **regionální**
+
+  * **makro, mikro a mezo měřítek**
+====== dle zpracovávání modelové informace ======
+  * **analogové**
+  * **číslicové**
+  * **hybridní**
+
+====== dle zachování podobnosti modelu ======
+  * **úplné**
+        * úplně podobné v prostoru a čase
+  * **neúplné**
+        *  částečná podobnost
+  * **přibližné**
+        * některé závislosti se v modelu vyjadřují přibližně
+
+====== dle vnějšího působení ======
+  * **neřízené**
+        * model nejde zvenku ovlivnit
+  * **řízené**
+        * model se aktivně mění podle podmínek řízení
+
+====== dle nevím čeho ======
+===== logické modely =====
+  * základy logiky
+  * Booleovská algebra
+  * výsledky jsou diskrétní
+===== black box modely =====
+  * empiricky odvozeny
+  * slouží k předpovědím
+  * chovají se hůře, když jsou reálná vstupní data mimo rámec původních testovaných dat
+===== regresní modely =====
+  * jsou řízeny vlastními daty
+  * výsledky závisí na míře závislosti a nezávislosti proměnných
+  * Y = a + B*X
+===== procesní modely =====
+  * přinášejí více světla do černé skříňky
+===== modely rovnováhy hmoty a energie =====
+  * vstup -  výstup = nárust v zásobárně
+  * bez zásobárny musí být vpravo 0!!!
+
+
+
+
+
+
+

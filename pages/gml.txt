@@ -1,0 +1,81 @@
+<WRAP center round tip 60%>
+vlastnosti, syntaxe, struktura, schéma
+</WRAP>
+
+
+<WRAP center round box 60%>
+geographical markup language
+</WRAP>
+  * značkovací jazyk založen na XML pro popis aplikačních schémat, stejně jako k uchováváí a manipulaci s geografickými informacemi
+  * určen pro modelování, přenos, a skladování geografických dat
+  * definuje topologii, čas, geoprvky, referenční systém, geometrii
+  * stritkně odděluje obsah a vzhled
+  * GML je XML kódování ve shodě se standardem ISO 19118 pro transport a skladování geografických informací vymodelovaných v souladu s konceptuálním modelovacím rámcem používaným v sérii mezinárodních standardů ISO 19100 a zahrnující prostorové i neprostorové vlastnosti geografických prvků
+
+  * ISO 19100
+    * pro interoperabilitu mezi různými geografickými informačními systémy
+  * definuje sémantiku obsahu a logickou strukturu dat -> zavedené jedno stejné aplikační schéma
+  * definuje systémově a platformě nezávislou datovou strukturu
+  * GML schéma je zadáno v XML a to buď:
+    - dodržením pravidel definovaných ve standardu ISO 19109 pro aplikační schémata **UML** a přizpůsobením omezení schémat a pravidel pro GML
+          * zde jsou prvky reprezentovány jako objekty, kde název typu prvku je použit jako **název třídy objektu**
+    - dodržením pravidel pro **GM**L aplikační schémata přímo v XML
+          * zde jsou prvky reprezentovány jako elementy XML, kde název typu prvku je použit **jako název elementu**
+
+====== schéma GLM ======
+  * GML dokumenty - reálné objekty zachycené jako data odpovídající GML aplikačnímu schématu
+  * GLM schéma - definování elementů a prvků použitých v aplikačních schématech
+    * GLM schéma do verze 3.0 - __geometry, xlink, xfeature.xsd__
+    * GLM schéma od verze 3.0 - schémat už je 25 - basic geometry (0d, 1d, 2d), topology, feature model, metadata machanism,...
+
+  * **Xlink**
+      * jsou standardní metodou, jak hypertextově odkazovat na XML -  implementace vazeb mezi objekty formou odkazů
+      * xlink:href - odkazuje na cíl přes URI
+      * xlink:role, xlink:title,...
+  * **Souřadnicové referenční systémy**
+    * kóduje nejen definice SS, ale také jejich transformace a vzájemné konverze
+    * geodetická poloha, dočasná poloha, technická poloha, poloha obrázku
+    * definice projekčních ploch, nultých poledníků, apod..
+  * **Topologie** 
+    * definované jsou 4 třídy: pro základní topologické objekty + každou dimenzi po 3D
+  * **Dočasné informace a dynamické prvky**
+    * Schémata dočasných prvků obsahují komponenty popisující dočasnou geometrii, topologii, souřadnicové systémy a dočasné charakteristiky geografických dat
+    * Čas je měřen ve dvou měřítkách: **intervalové měřítko** nabízí základy pro měření doby, **ordinální měřítko** poskytuje informace pouze o relativní poloze v čase
+  * **Definice a slovníky**
+    * lepší je použít definice distribuované vnějšími orgány (ať už offline nebo online)
+  * **Jednotky, míry, hodnoty**
+    * definuje požadavky na kvantitativní hodnoty, které používají měřítko či jednotky míry
+  * **Směry**
+    * definované objekty mohou získat vlastnosti definující jejich orientaci, směr, kurz, azimut,...
+  * **Pozorování**
+  * **Coverage**
+====== mapování GML dat ======
+  * jak ty geoprvky zobrazit na webu?? No přeci transformací to prezentačního formátu, třebas pomocí CSS nebo XSL
+  * **CSS**
+    * je jednodušší, neumí vybírat prvky (to je blbý, když chci zobrazit jenom malou část z jinak velkého dokumentu)
+  * **XSL**
+    * extensible stylesheet language
+    * prostředek k definování  transformace a vizualizace prostorových i neprostorových atributů prvků XML dokumentů 
+  * **XSLT**
+    * pro konverzi XML do jiného formátu (třeba GML do SVG)
+
+====== zobrazení XML dat ======
+{{ ::svg.png?nolink&200|}}
+  * každý SW to dělá jinak
+  * SVG
+    * otevřený formát, 2D, XML
+    * není standardizovaně podporovaný všemi browsery
+    * malá velikost výsledných obrázků mapy
+    * umožňuje vytvářet odkazy na další vektorové i ratrové soubory a může s němi pracovat přímo
+    * **vizualizace:**
+
+          * extrakce prvků (feature extraction)
+                * extrahování a interpretace prostorových prvků z GML souborů na WFS serveru
+          * styling mapy
+                * sestavení GML prvků do grafické podoby pomocí grafických symbolů, stylů linií, vzorů ploch apod...
+                * transformace GML geometrie dat do SVG třeba
+                * potřebuj XSLT procesor!!!!! (Xalan, Saxon)
+          * požadavek uživatele je poslán zpět do datového skladu GML -> webový server extrahuje nové GML prvky -> sestaví z nich SVG -> tohle SVG pošle klientovi
+
+
+

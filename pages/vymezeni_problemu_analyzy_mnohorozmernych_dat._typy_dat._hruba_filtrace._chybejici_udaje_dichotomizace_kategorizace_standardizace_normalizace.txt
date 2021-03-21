@@ -1,0 +1,44 @@
+====== typy dat ======
+  * syntaktické hledisko: numerická, textová, datumová, časová, logická
+  * sémantické hledisko: 
+        * numerická – binární, kategoriální, ordinální, reálné (převádí se na intervaly) ???? /( nominální, ordinální, itervalová, poměrová?)
+        * nenumerická – časové (pro přepočet na psek nebo kategorizaci), textové (zakódování do čísel)
+        * grafické, zvukové, neatomické
+====== filtrace dat ======
+  * výběr atributů vhodných k analýzám
+  * jako předzpracování dat
+  * ošetření nebo vyloučení chybných nebo chybějících záznamů
+  * sjednocení formátů nebo jednotek
+  * numerické zakódování
+  * **řešení**
+        * jednotně označit chybějící údaje (9999) -> jestli to metoda neumí řešit, tak je lepší ty údaje úplně vyloučit
+        * nebo chybějící data doplnit (optimisticky, pesimisticky, neutrálně, nebo jinak)
+
+====== transformace ======
+  * nutnost převést data na numerická!
+===== dichotomizace =====
+  * Dichotomizace je speciálním případem převodu nominální veličiny na ordinální, v tomto případě konkrétně na binární. 
+  * S takto vytvořenými atributy je dále možné zacházet jako s kterýmikoliv jinými atributy. Uplatnění najdou zejména pro shlukování pomocí algoritmu k-Means a pro vytváření binárních rozhodovacích stromů. 
+  * bud převod na ano/ne, pokud mám třeba reálná čísla -> tak vymezit intervaly! (ale přijdu tím o hodnoty no...)
+  * není potom ale splněna 1. a 3. NF!! -> protože z jednoho atributu s několika hodnotami vytvořím několik atributů s hodnotama ANO/NE (třeba barva očí - pak bude jeden sloupec zelená a ANO/NE, modrá ANO/NE, žlutá ANO/NE a tak...)
+
+===== kategorizace =====
+  * převod reálných čísel na příslušnost k nějakému intervalu
+  - stejné (ekvidistantní) intervaly
+  - intervaly podle rozložení četnosti
+  - ručně rozdělit intervaly
+
+===== standardizace =====
+  * http://portal.matematickabiologie.cz/index.php?pg=analyza-a-hodnoceni-biologickych-dat--vicerozmerne-metody-pro-analyzu-dat--vicerozmerna-rozdeleni-pravdepodobnosti--transformace-dat--standardizace-dat
+  * vážení znaků (často v biologii, kde je některý shluk významnější)
+  * vážení nelze nasadit při shlukové analýze
+  * zajistit nezávislost na jednotce měření!
+  * Ke standardizaci se používají statistiky odvozené z analyzovaného souboru dat (průměr, směrodatná odchylka, rozpětí, maximum atd.). Proměnné se tímto postupem převádějí na stejné měřítko, přestává tedy záležet na skutečném rozměru příslušných proměnných. K nejčastějším úpravám patří standardizace směrodatnou odchylkou a standardizace rozpětím. Mezi další způsoby standardizace dat patří standardizace na celkový součet řádku či sloupce, standardizace na maximum řádku či sloupce a standardizace na jednotkovou délku vektoru řádku, které se používají zejména ve shlukové analýze v ekologických studiích.
+
+===== normalizace =====
+  * nedělá se na jeden sloupec jako u standardizace, ale na jeden řádek!
+  * hodnoty se převedou na jeden souměřitelný parametr třeba v <-1,1>
+
+
+
+

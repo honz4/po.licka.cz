@@ -1,0 +1,453 @@
+====== les ======
+  * = porost, v němž stromy dosahují výšky alespoň 5 m a zápoje korun alespoň 25% (lesnické definice)
+  * = souvislý porost jehličnatých nebo listnatých (ne ovocných) stromů
+  * = společenstvo dřevin s charakteristickým druhovým složením, tvořícím semknutý, vícepatrový stromový porost s vlastním ekoklimatem
+  * plocha lesa na Zemi je 44 mil km2 tj. 33% povrchu pevnin (bez Antarktidy)
+  * 26 mil. km2 lesů a pralesů je přístupných a je zde možno těžit
+
+  * **hranice lesa**
+        * definována nadmořskou výškou či zeměpisnou šířkou, za kterou se už les nevyskytuje, neboť zde již nejsou podmínky
+        * umožňující růst souvislého lesního porostu
+        * průměrná denní teplota +10 °C a více alespoň po 30 dní v roce.
+        * průměrné roční srážky alespoň 250 mm
+        * v subtropických a tropických oblastech s ohledem na vyšší intenzitu výparu a tím silnější hrozbě vodního deficitu minimálně 400 - 500 mm
+        * V  ČR lze uvažovat hranici lesa pouze pokud jde o nadmořskou výšku, a to v pohořích Krkonoše, Jeseníky a Kralický Sněžník.
+        * hranice lesa zde kolísá zhruba mezi 1250 - 1350 m n. m.
+  * **Rozloha lesních pozemků**
+        * I. informací o rozloze na našem území - Josefský katastr (1790) -  1,974 mil. ha lesa
+        * stabilní katastr z roku 1839 uvádí už 2,267 mil. ha
+        * při dalších šetřeních před vznikem ČSR se výměra lesů od tohoto údaje příliš neliší
+        * dlouhodobý nárůst výměr lesní půdy se v posledních letech značně zpomalil a nyní lze zaznamenat jen nevýznamné kolísání rozlohy
+        * současná výměra: 2 637 290 ha ~ 33,4% celkové rozlohy státu
+        * ČR se svojí lesnatostí  -  v mezinárodním srovnání  - středně zalesněné země (průměr za OECD činil v roce 2004 34,4 %)
+        * na evropském kontinentu - mezi zeměmi OECD - 8. nejlesnatější zemí
+  * **Úbytek lesů**
+        * typickým projevem působení člověka na Zemi je trvalý úbytek lesů.
+        * rozvoj zemědělství vedl k nesmírnému ničení lesů.
+        * lidé vypalovali rozsáhlé plochy, aby rozšířili pozemky.
+        * za posledních 10 000 let člověk vykácel 2/3 původní lesní pokrývky Země.
+        * vykácení lesů vyvolalo změny v povrchovém odtoku, které se projevily zejména ve větší intenzitě svahových a říčních pochodů.
+        * rychlý povrchový odtok je příčinou vzniku sesuvů, bahenních proudů a urychlené eroze půdy.
+        * v současné době jsou jím postiženy rozlehlé oblasti evropského severu, Sibiře a tropických deštných lesů (Amazonie)
+        * stromy poskytují jediný zdroj živobytí pro místní obyvatelstvo – dřevo.
+        * každý den jsou odlesňovány stovky km2 deštného pralesa.
+        * při vypalování se zvyšuje obsah CO2 v atmosféře, což má vliv na změnu klimatu
+  * **Hospodaření v lesích**
+        * všechny právní normy zakazovaly jakékoliv:
+          * svévolné odlesňování půdy,
+          * pustošení lesa,
+          * omezovaly těžbu dřeva,
+          * ukládaly zalesňování holin,
+          * ochranu lesa,
+            * sledovaly zlepšení hospodaření v lesích.
+        * významné omezení vlastnických práv majitelů lesů.
+
+  * **Významné lesnické organizace**
+        * Česká jednota lesnická (ČJL),Česká lesnická společnost ( ČLS),Národní lesnický komitét ( NLK),Sdružení lesních školkařů ČR (SLŠ),Sdružení majitelů lesa a podnikatelů v lesním hospodářství ( SMPLH),Sdružení taxačních kanceláří (STK),Sdružení vlastníků obecních a soukromých lesů v ČR (SVOL)
+        * Státní správa v lesích (SSL)
+              * MZe Praha , k 1.4.2004 nová organizační struktura:
+              * Úsek lesního hospodářství (3 odbory)
+              * Státní správy, HÚL a ochrany lesů
+              * Koncepcí a ekonomiky LH
+              * Rybářství, myslivosti a včelařství
+              * Krajské úřady - Odbory ŽP - oddělení lesnictví - spadají pod Min. vnitra, metodicky řídí Mze
+              * obce s rozšířenou působností (ORP)  - metodicky řídí Kr.ú.
+              * Zákon o lesích – 289/95 Sb.
+                    * Zákon č. 289/1995 Sb., o lesích a o změně a doplnění některých zákonů (lesní zákon), ve znění zákona č. 238/1999 Sb., zákona č. 67/2000 Sb., zákona č. 132/2000 Sb., zákona č. 76/2002 Sb., zákona č. 320/2002 Sb., zákona č. 149/2003 Sb., zákona č. 1/2005 Sb. a zákona č. 444/2005 Sb.
+                    * 11 prováděcích vyhlášek - (pro nás) nejvýznamnější vyhl. č. 83/1996 a  84/1996
+====== GIT v lesnictví ======
+  * **Dálkový průzkum Země** (letecké laserové skenování, multispektrální a hyperspektrální snímkování, radarové snímání, UAV, fotogrammetrická mračna),
+  * **Pozemní měření a mapování** (globální navigační satelitní systémy, pozemní laserové skenování),
+  * **Bezkontaktní měření a testování materiálů** (počítačová tomografie, ultrazvuková měření, laserové skenování),
+  * **Monitoring** (vysokofrekvenční identifikace a čipování, ultrazvukové detektory a čidla, laserové měřicí přístroje),
+  * **Geografické informační systémy** (podpora prostorového rozhodování, modelování a vizualizace, geoweb).
+
+=== Real-Time Forest Intelligence ===
+  * trend využívání GIT v lesnictví
+  * Využívání služeb obsahujících lesnická data a znalostní báze pro mobilní zařízení v reálném čase – využívat data přímo na pracovní ploše v lesních porostech (v systémech pro podporu rozhodování)
+  * Intelligent Harvest Control (projekt RTFI/SATMODO)
+
+=== Základní inventarizace porostů ===
+  * zjišťování geometrických, topologických a popisných vlastností
+  * klasifikace lesních ekosystémů
+  * mapování lesa / druhové skladby lesa
+  * **Vývoj porostů v čas**e
+        * přirozená obnova lesních porostů
+        * mapování odlesnění
+        * lesní požáry
+        * sledování a řízení těžby lesní hmoty
+        * hodnocení škod způsobených lesními požáry, škodlivými látkami v ovzduší
+  * **Globální**
+        * v rozsahu 100km2 (celé kontinenty)
+        * základní inventarizace – kde, kolik, jaký, koho (stát)
+        * trendy – ústup, těžby, požáry
+        * G.I. tech. metody
+        * nadnárodní projekty (UNEP/GRID)
+  * **lokální**
+        * v rozsahu 0,1 - 100 km2 (republikové měřítko)
+        * základní inventarizace – kde, kolik, jaký, koho (vlastník)
+        * hodnocení zdravotního stavu, typologie lesa
+        * terénní & G.I. tech. metody
+        * národní projekty (Mze/MŽP ÚHUL)
+
+=== ICP Forests ===
+  * Úkolem ICP Forests je:::
+  * Shromažďovat informace o prostorovém a časovém vývoji stavu lesa v evropském měřítku
+  * Přispět k prohloubení znalostí o příčinách současného poškození lesa se zvláštním důrazem na kritické zatížení a stupeň znečištění ovzduší.
+  * K programu se postupně připojily téměř všechny evropské státy, ČR v r. 1986
+  * 61 monitorovacích ploch v síti 16x16 km
+  * počet ploch se v následujícím roce zvýšil na 106
+  * 1991 byla založena síť 8x8 km s dalšími 334 plochami.
+  * kromě toho byly v rámci regionálních studií založeny plochy v síti 1x1 km v lesních oblastech Šumava, Brdy a Krkonoše.
+  * International Cooperative Programme on Assessment and Monitoring of Air Pollution Effects on Forests
+  * úrovně ICP Forest:
+        * Intenzivní monitoring lesních ekosystémů
+              * Hodnocení stavu korun,Hodnocení stavu lesních půd,Sledování chemismu půdního roztoku,Chemická analýza asimilačních orgánů,Hodnocení růstu,Sledování depozic,Meteorologická měření,Hodnocení přízemní vegetace,Fenologická pozorování (doporučeno),Hodnocení kvality ovzduší,Sběr a hodnocení opadu
+
+
+
+====== Monitorování růstu dřevin ======
+  * destruktivní metody:
+        * časově náročné
+        * materiál poškozen
+  * Nedestruktivní metody
+        * časově nenáročné, materiál nepoškozen, subjektivní, využití PC
+  * Metoda růstové analýzy
+        * zjištění proporcionality
+        * zdravotního stavu
+        * primárního růstu /přímo z rostliny
+        * sekundárního růstu /nepřímo – z letokruhů
+        * Distribuci koruny, biomasy…
+        * Stanovení obsahu fotosyntetických barviv
+        * Sběr jehlic, kůry
+        * Chlorofyly, karotenoidy
+        * Laboratorní sledování koncentrace fotosynteticky aktivních barviv během roku
+  * Hodnocení spektrálních projevů vegetace
+        * leteckých a satelitních snímků, fotografie
+        * vliv vlastnosti listů a celé rostliny
+        * filtrování odrazivosti v různých spektrálních pásmech
+  * Pozemní průzkum země
+        * Přímo v terénu, z fotografie
+        * Odhadován zdravotní stav
+        * stupěň defoliace
+        * míra poškození
+        * Optické vlastnosti jehlic na základě obsahu fotosyntet. aktiv. látek
+        * Reflektance prýtů
+  * Dálkový průzkum země
+        * Letecké a družicové snímky
+        * nákladná metoda
+        * informace obsažená v datech DPZ je kvalitativně odlišná (bohatší) a obvykle aktuálnější než ostatní dostupné typy geografických informací
+        * jejich využití se plně osvědčuje při terénních výzkumech a zejména v kombinaci s ostatními geodaty při modelování (v GIS)
+        * pro zdravou vegetaci je typický výrazný rozdíl v odrazivosti v oblasti červené viditelné a blízké infračervené části spektra → Vegetační Indexy
+        * vyjadřují vztah mezi odrazivostí v jednotlivých pásmech - cílem zvýraznit zkoumanou složku a její vlastnosti
+        * TM4-3-2: sytě zelená - plochy se zdravými porosty  / světle zelená - porosty poškozené  / odstíny světle fialové - povrchy, u kterých již začíná převládat odrazivost holé půdy
+        * Spektrální projev vegetace
+              * liší se podle snímané vlnové délky
+              * před výběrem druhu snímku stanovit prioritní sledované vlastnosti vegetace
+              * utvářen především
+              * vnějším uspořádáním (postavením listů)
+              * vnitřní strukturou (tloušťkou listů, množstvím chlorofylu)
+              * obsahem vody
+              * zdravotním stavem
+              * složením porostu
+              * NDVI (Normalized Difference Vegetation Index) - oddělení zelené vegetace od půdního podloží
+              * RATIO (Simple Ratio) - oddělení zelené vegetace a půdy
+              * MSI (Moisture Stress Index) - vodní obsah v listech rostlin
+              * NDWI (Normalized Difference Water Index) - index odrážející rozdíl v rozložení množství vody
+        * Faktory  ovlivňující odrazové vlastnosti vegetačního krytu
+              * organické a minerální složení půdy
+              * vodní obsah
+              * půdní vlhkost
+              * vnější uspořádání vegetačního krytu
+              * vnitřní struktura jednotlivých částí rostlin
+              * geologické charakteristiky
+              * zdravotní stav
+              * vlastnosti půdního substrátu
+        * **Infračervené černobílé snímky**
+              * menší rozptyl, snímkování i za zhoršeného počasí
+              * silné zdůraznění stínu
+              * vodní plochy - pohlcují záření téměř dokonale  - jsou sytě černé => snadno identifikovat existenci a průběh vodních toků
+              * jehličnatý les absorbuje IČ záření více jak listnatý =>  jeví se tmavší
+              * krajina se zelenými plochami a listnaté lesy působí dojmem, jakoby byly pokryty sněhem x ozářeny měsíčním světlem.
+              * V důsledku dobrého odlišení listnatých a jehličnatých stromů se IČ snímky používají často v lesnictví a také k rozlišení druhů zemědělských plodin.
+              * zaniká síť komunikací, ztrácejí se liniové prvky, hůře patrné zastavěné plochy
+              * rozlišení druhů zemědělských plodin
+              * IČ filmy se používají s červenými filtry k potlačení fialové a modré části spektra.
+        * **Barevné snímky infračervené**
+              * k dokumentaci vegetačních škod
+              * listnáče a louky se na nich zobrazují červeně
+              * jehličnany, holá pole a mrtvá vegetace zeleně či modře
+              *  odumřelé rostliny bez chlorofylu žlutě až hnědě.
+              * vzhled snímku se však liší podle značky filmu i podle použitého papíru => pro konkrétní interpretační účely se sestavují tabulky barev
+              * Na IČ fotografii může být dobře zaznamenáno záření emitované výrazně teplými povrchy (požáry, láva, horké prameny)
+        * **Radarových snímky**
+                * odraz mikrovlnného záření od vegetace je však poměrně komplikovaný, protože k němu nedochází pouze na povrchu listů, ale většinou se jedná o několikanásobný odraz v celé vrstvě vegetačního krytu.
+                * na radarových snímcích způsobuje vegetace ve většině případů tzv. difúzní odraz mikrovlnného záření  
+
+
+
+----
+  * Dokumentace lesních kalamit následkem větrných smrští, námrazy, apod.
+  * Sledování a řízení těžby lesní hmoty
+  * Určování druhu lesních dřevin a volné vegetace
+  * Kácení lesů a deštných tropických pralesů
+  * detekování špatně dostupných oblastí
+  * dlouhodobý časový záznam odlesňovaného území
+  * Detekce holin a zápoje korun lesních porostů
+  * Vysychání lužních lesů u velkých vodních toků
+  * Půdní vlastnosti
+  * pomocí monochromatické letecké infračervené spektrometrie
+  * půdní data se běžně získávají půdními odběry, ale nelze takto zpracovávat rozsáhlé území, ani provádět věrohodné extrapolace
+
+==== Monitorování škod způsobených požáry ====
+
+  * lze využít snímky z viditelné části spektra → patrny oblaka kouře
+  * snímky z IČ části spektra → lokalizace povrchů, které mají vyšší teplotu než je běžné → ohniska požárů
+  * přesná lokalizace ohnisek požárů výrazně pomáhá při jejich likvidaci
+  * snímky se zachyceným tepelným zářením  -  skutečné místo požáru a jeho rozsah  - eliminace clony kouře unášeného větrem
+
+==== Monitorování zdravotního stavu stromů ====
+  * zdravotní stav stromů je charakterizován především stupněm defoliace
+  * = relativní ztráta asimilačního aparátu v koruně stromu (v porovnání se zdravým stromem, rostoucím ve stejných porostních a stanovištních podmínkách.)
+  * způsobena především vlivem nepříznivých změn prostředí lesních ekosystémů, jako důsledku dlouhodobého a nadměrného znečištění ovzduší různými škodlivinami
+  * monokultura napadena škůdci (lýkožrout smrkový…) je oslabena - jeví se vyschlá a světlejší
+  * les poškozený dlouhodobými kyselými dešti, nebo poškozený jinou chemikálií obsaženou ve vodě či půdě. Na rostlinách lze pozorovat i dlouhotrvající sucha.
+  * __Chřadnutí lesů__
+      *  akutní = pokud z okamžitých příčin dojde k disbalanci vztahů mezi rostlinou a stanovištěm
+        * chronické = provází porosty nevhodné skladby
+        * rozdíl mezi A a CH chřadnutím pak pomocí spojení dat z pozemního šetření (pufrační potenciál) a DPZ (aktuální stav lesa)
+====== Hospodářská úprava lesa ======
+  * snaha o zajištění přírodní reprodukce lesního ekosystému
+  * Základními principy:
+        * hospodaření v souladu s přírodními podmínkami (ekologický princip),
+        * hospodářská vyrovnanost a nepřetržitost (ekonomický princip).
+  * v teoretické oblasti se zabývá studiem zákonitostí přírodní reprodukce, její optimalizací a řízením, a to v oblasti biologické, technologické i ekonomické. Obecně je metodickým východiskem komplexní ekosystémové pojetí.
+  * v oblasti praktické  - prostředek dlouhodobého lesnického plánování na různých organizačních úrovních - zajišťuje ekologické a hospodářské aspekty v souladu se zájmy vlastníků lesa
+  * ve vztahu ke státní a regionální politice je nástrojem řízení
+  * ve vztahu k vlastníkovi lesa je službou zajišťující jeho cíl hospodaření (v mezích legislativních a přírodních limitů)
+
+==== Klasifikace lesa podle funkčního zaměření ====
+  * funkční zaměření lesa vyjadřuje jeho poslání (=společenský požadavek) na přednostní plnění specifikovaných funkcí
+  * podle převažujících funkcí se člení na 3 kategorie:
+        * lesy hospodářské
+        * lesy ochranné
+              * lesy na mimořádně nepříznivých stanovištích,
+              * vysokohorské lesy pod hranici stromové vegetace,
+              * lesy v klečovém lesním vegetačním stupni
+        * lesy zvláštního určení
+              * v pásmech hygienické ochrany vodních zdrojů I. stupně,
+              * v ochranných pásmech zdrojů přírodních léčivých a stolních minerálních vod
+              * na území národních parků a národních přírodních rezervací,
+              * v prvních zónách CHKO a lesy v přírodních rezervacích a přírodních památkách
+              * lázeňské
+              * příměstské a další lesy se zvýšenou rekreační funkcí,
+              * sloužící lesnickému výzkumu a lesnické výuce,
+              * se zvýšenou funkci půdoochrannou, vodoochrannou, klimatickou nebo krajinotvornou
+              * potřebné pro zachování biologické různorodosti,
+              * v uznaných oborách a samostatných bažantnicích,
+              * v nichž jiný důležitý veřejný zájem vyžaduje odlišný způsob hospodaření
+              * první 3 subkategorie LZU patří do kategorie „ze zákona“ => není nutné, aby o zařazení rozhodoval orgán SS
+              * ostatní subkategorie LZU, stejně jako subkategorie lesů ochranných, se zařazují bud' na návrh vlastníka lesa nebo z vlastního podnětu orgánu státní správy, který zařazení schvaluje
+              * u obou kategorií vyžadován odlišný způsob hospodaření
+
+==== Hospodářský způsob ====
+  * souhrnně charakterizovaný soubor základních hospodářských opatření realizovaný v časových a prostorových vazbách v rámci produkční doby na vymezené části lesa zahrnuté do stejného hospodářského souboru
+  * **h.z. pasečný**
+        * dle LZ nesmí při mýtní těžbě (= při pasečném HZ) přesáhnout velikost holé seče 1 ha a její šíře na exponovaných hospodářských souborech jednonásobek,
+        * na ostatních souborech dvojnásobek průměrné výšky těženého porostu.
+        * šířka holé seče není omezena při domýcení porostních zbytků a porostů o výměře menší než 1 ha.
+        * Výjimku může povolit orgán SSL: na hospodářském souboru přirozených borových stanovišť na písčitých půdách a na hospodářském souboru přirozených lužních stanovišť, a to do velikosti 2 ha holé seče bez omezení šíře, na dopravně nepřístupných horských svazích delších než 250 m, nejedná-li se o exponované hospodářské soubory, rovněž do velikost holé seče 2 ha.
+  * h.z. výběrný V
+        * výběrná seč nežádoucích nebo mýtně zralých jedinců
+        * forma stromová a skupinová
+        * výběr dle určené dimenze mýtního typu, v podstatě klasická forma s hospodářským zaměřením na těžeb ní vyrovnanost a nepřetržitost stromů s maximálním zhodnocením,
+        * nahodilý výběr zpravidla zdravotního typu v porostech se specifickým funkčním zaměřením (např. les ochranný), kde není zásadní ekonomický přínos z těžby, ale plnění deklarované funkce
+  * h.z. podrostní P
+        * = přirozená obnova nového porostu pod porostem původním, případně uplatňování podsadeb v odůvodněných případech
+        * žádná zákonná omezení, uplatnění se řídí diferencovanými pěstebními zásadami
+  * h.z. násečný N
+        * zvláštní způsob - uplatňuje se obnovní technika okrajových a obrubných sečí
+        * následný porost vzniká v blízkosti porostní stěny jak na holé ploše, tak pod ochranou těženého porostu
+
+====== Klasifikace podle způsobu hospodaření ======
+  * **Hospodářský tvar lesa** = obraz lesa charakterizovaný, před určený způsobem vzniku porostu (generativní, vegetativní, kombinovaný) a modifikovaný formou hospodaření (strategie obnova pěstební péče) v závislosti na cílech hospodaření
+  * **Vysoký (semenný) les**
+        * tvar lesa vzniklý generativně (ze šíje, umělé výsadby, nebo přirozenou obnovou)
+        * převažující tvar lesa (cca 96 % rozlohy lesů)
+        * dlouhá produkční doba a vysoká hodnotová produkce
+        * dle formy uplatňovaného hospodaření, resp. hospodářského způsobu, se vyskytuje jako stejnověký nebo nestejnověký, s možnými přechody až ke krajní poloze - lesu výběrnému
+  * **Les střední (sdružený)**
+        * tvar dvouvrstvého či vícevrstvého etážového lesa
+        * spodní vrstvu tvoří les nízký,
+        * horní vrstvy pak i několik věkových tříd výstavků
+        * Výstavková vrstva   =  při každé seči nízkého lesa se ponechává na 1ha 50 - 100 nejkvalitnějších výmladků, resp. semenných jedinců tak, aby cloněná plocha výstavkovou vrstvou se pohybovala v rozmezí 10 -30%.
+        * z hlediska strategie hospodaření může vzniknout i nepravý střední les (převodem z nepravé kmenoviny a ponecháním jedné vrstvy výstavků), případně obrácený střední les
+  * **Les nízký (výmladkový)**
+        * tvar lesa založený na opakované vegetativní obnově z pařezových i kořenových výmladků
+        * charakterizován krátkou produkční dobou, brzká kulminace objemového přírůstu
+        * na středních bonitách má les nízký cca do 40ti let věku vyšší produkci než les vysoký, pak se přírůst rychle snižuje,
+        * objemová produkce lesa vysokého je vyšší.
+        * na srovnávací horizont mýtního věku lesa vysokého (např. pro DB -160 let) = zhruba 3 cyklům lesa nízkého, je objemová produkce srovnatelná, výrazně vyšší je však produkce vyjádřená hodnotově u vysokého lesa
+
+====== Složení porostů ======
+  * **monokultura** = porost složený pouze z jedné dřeviny je porost nesmíšený (stejnorodý)
+        * porost ve kterém je více dřevin je porost smíšený (nestejnorodý)
+  * zastoupení dřeviny = plošný podíl dřeviny ve smíšeném porostu  
+  * vyjadřuje zkratkou dřeviny a desítkami procent nebo procenty
+  * SM 4, JD 2, BK 4, LP  nebo  SM 41, JD 19, BK 37, LP 3
+  * **Podle zastoupení dřeviny**
+        * dřevina hlavní - zaujímá v porostu největší plošný podíl (min. 40%)
+        * dřevina vedlejší - menší zastoupení než dřevina hlavní, dále se dělí:
+        * dřevina přímíšená - s plošným podílem > 10%
+        * dřevina vtroušená  - s plošným podílem < 10%
+  * **Přirozená skladba dřevin**
+        * vychází z rekonstrukce původního (přirozeného) složení lesních dřevin a jejich zastoupení (v dřívějších přírodních lesích) na daném stanovišti (LT, SLT)
+        * základem pro vytváření přirozených lesů (přírodě blízké lesní hospodářství)
+
+  * **Podle věku jednotlivých stromů**
+        * porosty stejnověké - v mladých porostech se stromy liší věkem do 5 let, ve středně starých do 10 let
+        * porosty různověké - věkový rozdíl jednotlivých stromů je větší jak 5 (mladé porosty) případně 10 (středně staré porosty) let.
+      * Podle věku se porosty dále rozdělují
+            * věková třída
+            * rozdělení porostů po intervalech 20 let
+            * porosty pasečného lesa na základě skutečného věku. I. věková třída = 1-20 let, II. 21 - 40 let atd.
+            * používá se zejména v porostních mapách
+  * **věkový stupeň**
+        * rozdělení porostů po intervalech 10 let
+        * používá se v lesním hospodářském plánu k vyjádření plošného zastoupení věkových stupňů, plošného zastoupení dřevin apod.
+
+
+===== Růstový proces porostů =====
+  * poznání a především pak správné vyhodnocení růstových procesů lesních porostů je jedním ze základních předpokladů úspěšného
+  * hospodářsko -úpravnického plánování
+  * **Taxační charakteristiky**
+        * vývoj porostů   - charakterizován prostřednictvím popisu stavu a charakteru změn, které v porostech nastávají v důsledku jejich růstu v čase
+        * růst porostu =  kvantitativní zvětšování objemu a biomasy živých organismů (stromů)
+              * růstové tabulky - názorně zobrazují růst a vývoj porostů  
+              * popis stavu a případně i charakter změn, ke kterým dochází v průběhu vývoje lesních porostů → taxační veličiny
+              * základní veličiny: počet stromů na jednotku plochy, střední tloušťka, střední výška, kruhová základna, zásoba, přírůst
+        * Počet stromů na jednotku plochy (N)  
+              * udává se zpravidla 1 ha
+              * bývá považován za veličinu, která je značně variabilní
+              * vývoj  veličiny závisí především na přirozené mortalitě a výchovných zásazích
+              * základní faktory, které ovlivňují chování této veličiny: věk porostu – dřevina – stanoviště - způsob založení porostu
+              * u rychle rostoucích a slunných dřevin počet stromů hlavního porostu v období mladosti výrazně klesá a je podstatně menší než u stinných dřevin
+              * na živnějších stanovištích je růst dřevin intenzivnější
+
+====== Produkční schopnost - způsoby hodnocení ======
+  * kvalita stanoviště a druh dřeviny (porostu) – vlastnosti nejvíce ovlivňují produkční schopnost lesních porostů
+  * **Bonita stanoviště**  = vyjádření kvality půdy a klimatických podmínek
+        * základní kámen pro posuzování produkční schopnosti lesních porostů je obecně považována lesnická typologie
+        * na bonitu stanoviště a jeho produkční schopnost je pak usuzováno ve vztahu k lesním typům >  souborů lesních typů > hospodářských souborů (lesnický typologie)
+  * **Bonita porostu (dřeviny)**  =  taxační charakteristika, na jejímž základě se usuzuje na kvalitu stanoviště.
+        * existuje celá řada veličin, které k danému účelu mohou být použity:
+        * zásoba porostu, především zásoba hlavního porostu
+        * celková objemová produkce na jednotku plochy
+        * celkový průměrný přírůst (CPP)
+        * výška porostu
+        * střední tloušťka a výška porostu (společně)
+        * každá z uvedených veličin má samozřejmě jak své klady, tak i zápory
+        * nejspolehlivější ukazatel bonity dřeviny  = celková objemová produkce
+        * nejpoužívanější bonitační veličinou  = výška porostu
+        * k bonitaci bývají používány následující druhy výšek: střední výška, horní výška, není možno říct který typ je lepší - v praxi používána střední výška porostu
+
+==== bonity ====
+  * rozlišujeme výškové a objemové bonity
+  * převládají výškové bonitační systémy, založené na střední nebo horní výšce porostu
+  * Relativní bonity
+        * relativní vyjádření kvality stanoviště (porostu), tzn. že např. nejlepší bonita bývá označena hodnotou 1 a naopak nejhorší bonita poslední číslicí zvolené bonitní stupnice (např. 9).
+        * svým označením nepředstavují výšku absolutní produkce
+        * každá dřevina může mít svou vlastní bonitační škálu
+        * relativní bonity určitých růstových tabulek nemusí vždy nutně vyjadřovat celkové rozpětí produkčních schopností jednotlivých dřevin dané oblasti
+        * nedovolují porovnání různých růstových tabulek
+  * Absolutní bonity
+        * vyjadřuje přes danou bonitační stupnici přímo hodnoty středních výšek porostů v jejich období zralosti,  tj. zpravidla ve 100 letech,  s odstupňováním po 2 - 3 m  
+        * podávají ihned představu o velikosti absolutní produkce; není však možno na jejich základě usuzovat na relativní produkční stupeň (produkce slabá, střední,dobrá)
+        * k vyjádření bonit různých dřevin je použito jednotné, tj. stejné míry (např. střední výška ve 100 letech)
+        * absolutní bonity nezávisí od použitých růstových tabulek
+        * kromě výškových bonit existují objemové absolutní bonity
+        * mezi absolutními a relativními bonitami existuje vztah, který zaručuje převod relativních bonit na absolutní a naopak
+
+====== Aplikace GIT ======
+  * Interpolace bodových dat do rastrových povrchů DMT a DMP (rozlišení DMP je zásadní pro identifikaci stromů)
+  * Vrcholy stromů použitím zjednodušené metody segmentace inverzního povodí
+  * Výpočet výšky stromů (DMP – DMT), modelování plochy korun, výčetní tloušťka na základě regresní funkce a zásoba podle modelu objemových rovnic
+  * Problémem je vzájemné propojení identických stromů vlivem náklonu kmenů a víceetážové porosty, podhodnocování výšek porostů na svazích
+  * Výsledky (s dosahovanou přesností pro):
+  * výšky stromů 5 – 8 m (bez etáží 1,5 m)
+  * výčetní tloušťka 6 cm
+  * objem kmene 0,3 m3
+  * zásoby cca 15 %
+  * DMT 10 – 60 cm
+
+==== Modelování růstových procesů ====
+  * Modelování se využívá k řešení úloh, které obecně vedou k charakterizování růstu a vývoje (prognóze) lesa, příp. ke stanovení optimálních strategií obhospodařování lesů
+  * les  = systém, který můžeme nejen charakterizovat, ale i sledovat jeho vývoj prostřednictvím matematického modelu.
+  * => určité závěry za poměrně krátký časový úsek sledování aniž bychom na výsledky museli čekat například celé vývojové období lesa
+  * využívá se simulačních modelů
+  * simulovat =  napodobit růstový proces jednotlivých stromů i porostů, které se mohou nacházet pod vlivem nejrůznějších faktorů prostředí a pěstebních opatření
+  * Hlavní cíle modelování růstových procesů; prognózy vývoje lesních porostů; Určení optimální strategie hospodaření
+
+  * **První modelovací přístup (růst porostních veličin)** *
+        * slouží k vyjádření primárních porostních veličin, jako např. vývoje počtu stromů na hektar či zásoby porostu apod.
+        * tloušťková struktura bývá zpravidla odvozována z porostních charakteristik
+        * Růstové a taxační tabulky hlavních dřevin ČR
+        * zkonstruovány pro čtyři základní dřeviny ČR (SM, BO, BK, DB)
+        * použito relativních bonit od nejlepší (+ 1) až po nejhorší (- 9) bonitu
+        * doplněno o absolutní výškovou bonitu, která je dána hodnotou střední výšky ve 100 letech porostu s odstupňováním po 2 metrech
+  * **Druhý modelovací přístup (rozdělení četností lesních porostů)**
+        * jako prvotní vstupní veličinu vyžadují informace o počátečním rozdělení tloušťkových četností
+        * s pomocí počátečního rozdělení se simuluje další vývoj tohoto rozdělení
+        * porostní veličiny se získávají po tloušťkových stupních
+        * na výpočet zásoby jsou zpravidla používány jednotné výškové křivky
+        * **SILVISIM**
+              * sw umožňuje variantní predikci vývoje lesních porostů v konkrétních růstových a porostních podmínkách
+              * jádrem je obecný růstový model, který je výsledkem několikaletého výzkumu v rámci projektů podporovaných MZe
+              * východiskem je uživ. definovaný způsob hospodaření a scénář očekávaného vývoje základních ekonom. parametrů
+              * možné využít zejména k modelování v souvislosti s tvorbou LHP a OPRL - k navrhování a ověřování:
+              * hospodářských cílů vlastník
+              * rámcových směrnic hospodaření
+              * výchovných programů
+              * hospodářských opatření
+  * **Třetí modelovací přístup (růst jednotlivých stromů porostu)**
+        * modely, které se zabývají modelováním jednotlivých stromů porostu
+        * na porostní veličiny se usuzuje na základě sumarizace jednotlivých stromových veličin
+        * modely se rozlišují zda k modelování využívají vzdáleností mezi stromy (tzv. nejbližšími sousedy) či nikoliv
+  * **Čtvrtý modelovacím přístupu (vývoj lesa jako populace)**
+        * modely zaměřeny na popis předpokládaného vývoje porostu, který je tvořen z jednotlivých populací a nachází se pod zátěží
+        * různých faktorů prostředí, např. imisí
+        * střední Evropa (modely z Německa, Rakouska a Švýcarska), Česká rep. a Spojené státy americké - oblasti nejrozšířenějšího využití růstových modelů v lesnické praxi.
+        * SILVA 1,2; SIBYLA; BWIN 3.0; model BO; JABOWA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

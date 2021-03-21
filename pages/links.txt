@@ -1,0 +1,8 @@
+======užitečné odkazy======
+některé odkazy nakonfigurovány jako [[interwiki]]
+  * [[cref>cppreference.com]]
+  * [[http://c-faq.com]] [[http://www.eskimo.com/~scs/C-faq.top.html]]
+  * [[http://faq.cprogramming.com]]
+  * [[cs>C_(programovací_jazyk)]]
+  * [[http://www.algoritmy.net/]]
+

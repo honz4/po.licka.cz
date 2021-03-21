@@ -1,0 +1,1 @@
+  * funkce také spojuje, ale dělá méně předpokladů tykající se funkce

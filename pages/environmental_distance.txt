@@ -1,0 +1,10 @@
+Generic algorithm based on environmental dissimilarity metrics.
+
+----
+
+----
+Generic algorithm based on environmental dissimilarity metrics. When used with the Gower metric and maximum distance 1, this algorithm should produce the same result of the algorithm known as DOMAIN. 
+
+----
+
+//Carpenter G, Gillison AN, Winter J (1993) DOMAIN: A flexible modeling procedure for mapping potential distributions of animals and plants. Biodiversity and Conservation 2: 667-680.//

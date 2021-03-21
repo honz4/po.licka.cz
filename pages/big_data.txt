@@ -1,0 +1,26 @@
+**Big Data jsou takové soubory dat, jejichž velikost je mimo schopnosti zachycovat, spravovat a zpracovávat data běžně používanými softwarovými prostředky v rozumném čase.**
+
+====== zdroje dat ======
+  * senzory, kamery, DPZ
+  * mobily, telefony
+  * internet of things
+  * nákupy (real, eshopy)
+  * sociální sítě
+  * meteo stanice, ...
+
+====== charakteristika Bigdat ======
+  * **VOLUME** (objem)
+        * objem narůstá exponenciálně, až petabyty
+  * **VELOCITY** (rychlost)
+        * data musí být zpracovávána okamžitě (třeba senzory na formuli 1)
+  * **VARIETY** (různorodost)
+        * i úlohy pro zpracovávání nestrukturovaných textů, včetně zvuku, videí apod.
+  * **VERACITY** (věrohodnost)
+        * věrohodnost je nejistá (např. sociální sítě - můžu kecat)
+
+====== problémy Bigdat ======
+  * sbírání dat jde snadno
+  * ukládání je horší, kde a jak to budu ukládat?
+  * zpracování ještě horší - potřebuju data ideálně zpracovat v reálném čase, proto je často nutná potřeba filtrace a analýzy dat
+        * technologie Apache Hadoop, paralelní zpracování na více strojích
+  * vyhodnocení v reálném čase, scifi!

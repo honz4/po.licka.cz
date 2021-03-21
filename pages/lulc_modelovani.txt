@@ -1,0 +1,114 @@
+  * modelování = přibližná reprodukce charakteristických vlastností originálu, přičemž tímto originálem může být libovolný předmět, proces nebo jev v reálném světě (Haggett, 2001)
+ 
+  * hodnocení hrozeb pomocí matematického modelování procesů podle principů:
+  * Koncepční analýza problému – rozhodnutí o vstupu relevantních veličin
+  * Sestavení modelu z vybraných veličin – podoba matematické rovnice
+  * Verifikace modelu – ověření modelu aplikací na vybraném území a porovnání s laboratorními 	měřeními
+  * Stanovení míry a oboru platnosti – (míra přesnosti – procentní úspěšnost předpovědi; obor platnosti – podmínky, kdy je možno model použít)
+
+  * Typy modelů
+      * Černá skříňka – není známý mechanismus procesu
+      * Šedá skříňka – částečná znalost mechanismu procesu
+      * Bílá skříňka – popisují mechanismus procesu fyzikálními zákony, přesnější a flexibilnější ale složitější 
+==== Predikční modelování ====
+  * prediktivní modelování  = odvození nových jevů a stavů pro budoucí etapu (Kubošová, 2010)
+používá se iterační modelování, what – if modelování, celulární automata a další techniky
+
+  * **Iterační modelování**
+    * modelování v iteracích (opakováních)
+    * model, který pomocí nějaké funkce převedeme model z jednoho stavu do následujícího
+    * následující stav je potom vstupním stavem pro další iteraci, na jejíž základě se vytvoří výstup, jenž slouží jako vstup do iterace číslo dvě atd.
+    * Např. použijeme-li iterační model pro modelování změny využití krajiny, nastavíme počet iterací na hodnotu 10, přičemž každá   jedna iterace = změna využití krajiny za jeden rok. Potom pro nás mohou být zajímavé jak průběžné výsledky v každém roce, tak i pouze změna, která se stala mezi vstupem a desátou iterací
+
+  * **What-if modelování**
+      * zjišťujeme, jak se změní výstupy modelu, pakliže dojde ke změně buď vstupních dat, nebo modelovacích algoritmů
+      * pokládáme otázku, pakliže se změní toto, jak se změní výstupy a výsledky?
+      * Např. modelování různých protipovodňových opatření při určitém typu povodně, eventuálně vyměníme v modelu algoritmy, kterými se počítá odtok z plochy (místo jednoduchého, použijeme vícenásobný atd.).
+
+==== Abstraktní modely krajiny ====
+  * zdůrazňují především souvislosti mezi složkami krajiny, prvky, procesy a jevy v krajině či segmenty krajiny
+  * elementy modelu jsou představovány geometrickými či jinými obrazci často zcela bez lokalizace v konkrétním prostoru)
+  * mono nebo polysystémový model
+
+==== 1. Manuální integrace analytických vrstev s posteriorní digitalizací integrované vrstvy ====
+  * provádí odborník znalý alespoň rámcově ta témata, která jsou předmětem integrace
+  * analytické vrstvy sjednoceny do shodného měřítka, projekce, lokalizace
+  * existuje představa o možných reálných (věcně a regionálně správných) kombinacích relevantních integrovaných proměnných
+  * je definována rozlišovací schopnost budoucí integrované informační vrstvy (tzv. minimální areál),
+  * je stanoven postup integrace (co je referenční vrstva, které se přizpůsobují ostatní a jak po sobě následují)
+  * bbita -> puda -> vlhkostni pomery -> relief-> zvetralinovy pokryv -> podbeni-> geologie
+
+==== 2. On-screen integrace digitálních analytických vrstev ====
+  * Podmínky (navíc oproti manuálnímu postupu):
+  * analytické vrstvy jsou v digitální podobě ve stejném formátu a projekci (stejné rozlišení není podmínkou),
+  * tématický obsah polygonů je kódován (popsán alfanumerickým kódem),
+  * každý polygon je popsán položkou v GDB
+  * technologie GIS „umí“ průnik vrstev
+
+==== 3. (semi) automatická integrace digitálních analytických vrstev ====
+  * Podmínky (navíc oproti manuálnímu a on-screen postupu):
+  * technologie „umí“ vytvářet jednoznačné kombinace kódů - vektory - popisující integrované polygony získané průnikem analytických vrstev,
+  * každý polygon je popsán vektorem v geodatabázi,
+  * existuje představa (seznam) o „správných“ vektorech integrovaných polygonů v daném regionu (jádra polygonových skupin),
+  * existuje představa o očekávané rozlišovací úrovni integrované vrstvy (rozměr „minimum-areálu“, netvoří jádra polygonů a jejich skupin).
+
+{{::envimodely.png?300|}}
+
+====== Časoprostorové modely pro predikce vývoje krajiny ======
+  * statické (LUT-models) a dynamické (CA) (Brown  a  kol., 2004)
+  * prostorové a neprostorové  (bez  prostorové  distribuce  –  pouze  rychlost  a  rozsah změněného  krajinného  pokryvu)  - model  SALU (Stephenne a Lambin, 2001)
+  * podle  hlavních  metod:
+    * CA modely
+    * Statistické modely
+          * **Conversion of Land Use and Its Effects (CLUE)**
+            * dynamický, více-měřítkový model změn využití krajiny (Wageningen, 1996)
+            * pracuje pouze s textovými soubory !
+            * kombinuje logistickou regresi a informace od sousedních buněk, podobně jako  CA
+            * výsledky predikce použity k tvorbě vhodnostních map, na jejichž základě jsou  alokovány jednotlivé změny krajinného pokryvu
+            * rozloha změn, resp. rozloha každé kategorie krajinného pokryvu v predikovaném čase je dána uživatelem
+            * každá buňka je charakterizována údajem, ukazujícím pro každou kategorii krajinného pokryvu, jak moc by bylo vhodné změnit stávající kategorii (míra vhodnosti)
+            * nové využití je rozmístěna do míst s největší mírou vhodnosti pro daný typ LU
+
+    * Modely pracující s neuronovou sítí
+    * Modely s agentem
+    * Kombinace modelů
+      * markovy modely
+        * kombinace metod  CA a Markovových řetězců  
+        * algoritmus svým pojetím obohacuje prováděnou analýzu o prvek prostorové spojitosti a znalostní bázi pravděpodobné prostorové distribuce krajinných změn
+        * pravděpodobnost, že se stav jedné buňky změní, určena jednak z původního stavu buňky,  ale také okolními buňkami a maticí přechodu, která obsahuje jednotlivé pravděpodobnosti změny jednoho stavu na druhý (Koomen a kol., 2007).
+
+===== anallýza změn =====
+  * sada nástrojů pro hodnocení změn v krajině za pomoci grafických a mapových ukazatelů
+  * založena na trendové analýze umožňující výpočty až do  devátého řádu
+  * obsahuje  nástroje pro vyfiltrování podstatných změn pro analýzy
+
+===== modelování změn =====
+  * dovoluje seskupovat identifikované změny do submodelů a analyzovat jejich potenciál
+  * statické komponenty - proměnné, které jsou v čase neměnné
+  * vyjadřují základní aspekty přiměřenosti změn
+  * dynamické komponenty  - proměnné, které jsou časově závislé
+  * vyjadřují stav vývoje (rozvoje) nebo infrastruktury
+  * přepočítávány na  základě směrů predikce (vzdálenost od stávající infrastruktury)
+
+===== C. Predikce změn =====
+  * modelování ve smyslu předpovídání změn (k určitému datu)
+  * umožňuje zasahovat do predikce procesů (zadání konečného data, způsob predikce)
+  * zahrnutí plánovaných zásahů, rozvoj a zábran, infrastruktury
+  * možno specifikovat počet dynamických změn a jejich intenzitu a systém kontroluje plánované zásahy, omezení a vývoj infrastruktury
+  * hard prediction – Markovovy řetězce - výsledkem je 1 mapa, nejlepší odhad z mnoha pravděpodobných řešení
+  * soft prediction - pravděpodobnostní matice na  základě externího modelu  – kontinuální mapování náchylnosti ke  změně – sada map
+===== Dopady na populace a biodiverzitu (Implications =====
+  * druhově specifické stanovení lokalit (primární a sekundární  stanoviště, primární a sekundární potenciální koridory a nevhodná stanoviště)
+  * detekce změn stanovišť (při porovnání charakteru ochrany)
+  * vývoj lokalit (fragmentace) a charakter těchto  změn v závislosti na měřítku
+  * hodnocení biodiverzity (mapy bohatosti lokálních  druhů, regionální bohatosti, lokální jedinečnosti a podobnosti složení druhů)
+  * modelování rozšíření druhů, jejich výskyt, abundance, dominance a predikovaný akční rádius
+===== Plánovaní zásahů (Planning) =====
+  * uživatel může zasahovat a měnit směr
+  * vývoje (území se  statutem  ochrany, přesměrování rozvoje)
+  *  modifikace infrastruktury pro  vyšší efektivitu (least-cost  engineering routes)
+  *  plánování (bio-)koridorů a jejich parametrů (šířky, vstupy) na  základě předchozích analýz
+  * akumulačních povrchů	
+  * frikčních  analýz
+  * vážených multikriteriálních vstupů
+

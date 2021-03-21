@@ -1,0 +1,16 @@
+==== FUSION ====
+
+  - merge data
+  - polyclip data
+  - filter data
+  - groundfilter data
+  - ground surface create
+  - DMTZ ASCII
+
+==== LAS TOOLS ====
+  * Lasnoise
+  * Blas2Dem
+  * Lasground
+  * blas2dem
+  * in arcmap, we did hilshades and then use rastercalculator
+

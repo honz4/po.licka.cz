@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+NUTS, kraje, okresy, ORP, POU, obce, ZSJ, makro-, mezo-, mikroregion, středisková soustava osídlení
+</WRAP>

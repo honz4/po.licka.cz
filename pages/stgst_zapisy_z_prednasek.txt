@@ -1,0 +1,48 @@
+=== Regresivní analýza ===
+ 
+   * regrese umí data proložit spojitou funkcí a predikovat následující data
+   * slouží k prokládání dat a predikci sledovaného jevu
+
+=== Náhodná veličina ===
+
+   * 1 záznam je náhodný jev
+   * více záznamů je náhodná veličina
+   * = jsou hodnoty uskutečněného náhodného pokusu zopakovaného dostatečně četněkrát
+   * znázorňujeme tiskacími písmeny
+
+<WRAP center round box 60%>
+Data – diskrétní (čítání po jedničkách) x spojitá (čas, výška)
+</WRAP>
+
+
+=== Diskrétní náhodná veličina ===
+
+nabývá konečného nebo nekonečného množství hodnot, kdy každá z těch hodnot má určitou pravdivost, že může nastat, či nikoliv
+
+==== míry polohy: ====
+
+   * určují, kde se daná data soustřeďují (kde je těžiště celého rozdělení pravděpodobností)
+   * průměr
+     * jeho nevýhodou je citlivost na tvar rozdělení pravděpodobností
+   *  modus
+     * používá se tam, kde je velká četnost stejných pozorování. Nemá smysl ho používat tam, kde celkový počet pozorování je v řádech desítek
+     * je to nejčetnější hodnota v datovém souboru
+   *  medián
+     * vezmu hodnoty a uspořádám je podle velikost
+     * vyhledám prostřední hodnotu uspořádání
+     * sudý, lichý!
+
+=== Míry variability ===
+
+   * rozpětí
+   * rozptyl
+
+
+==== REGRESE ====
+
+   * hledání vztahu mezi proměnnými
+   * prokládá ověřená data nějakou předem definovanou funkcí a zjišťuje, jestli zvolená funkce odpovídá charakteru dat
+   * druhou základní aplikací regrese je použití zvolené fce na predikci do budoucna
+   * **lineární regrese** – když b stojí samostatně
+   * ** nelineární** – když b vkročí do funkce
+

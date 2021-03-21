@@ -1,0 +1,39 @@
+<code>
+hyperplane = nadrovina
+
+ </code>
+==== POPIS ====
+  * nepravděpodobnostní přístup
+  * statistický algoritmus především pro klasifikaci a regresi
+  * jsou pozoruhodné pro jejich přirozenou reprezentaci neznámých nelineárních vztahů, stabilitu a robustnost při aplikaci vysokodimenziálních datasetů
+
+SVM are statistical learning algorithms primarily for clasification and regresion and are noteworthy for their natural repre of unknown nonlinear relationships and stability and robustness when applied to high-dimensional data sets. \\
+Particularly, support vector machinech can efficiently solve nonlinear classification problems through the use of "kernel trick", in which a distancee measure (the kernel) is used to implicitly map covariates to a higher dimensional space in whoch problems such as the identification of a separating hyperplane are not more simply represented. 
+
+Support vector machines (SVMs) are a set of related supervised learning methods that belong to a family of generalized linear classifiers. They can also be considered a special case of Tikhonov regularization. A special property of SVMs is that they simultaneously minimize the empirical classification error and maximize the geometric margin; hence they are also known as maximum margin classifiers. Content retrieved from Wikipedia on the 13th of June, 2007: http://en.wikipedia.org/w/index.php?title=Support_vector_machine&oldid=136646498.
+
+----
+
+----
+
+
+**má to psycho parametry!!!**. zjistit co to je!
+
+----
+Support vector machines map input vectors to a higher dimensional space where a maximal separating hyperplane is constructed. Two parallel hyperplanes are constructed on each side of the hyperplane that separates the data. The separating hyperplane is the hyperplane that maximises the distance between the two parallel hyperplanes. An assumption is made that the larger the margin or distance between these parallel hyperplanes the better the generalisation error of the classifier will be. The model produced by support vector classification only depends on a subset of the training data, because the cost function for building the model does not care about training points that lie beyond the margin. Content retrieved from Wikipedia on the 13th of June, 2007: http://en.wikipedia.org/w/index.php?title=Support_vector_machine&oldid=136646498. The openModeller implementation of SVMs makes use of the libsvm library version 2.85: Chih-Chung Chang and Chih-Jen Lin, LIBSVM: a library for support vector machines, 2001. Software available at http://www.csie.ntu.edu.tw/~cjlin/libsvm. \\
+\\
+
+Release history:
+  * version 0.1: initial release
+  * version 0.2: New parameter to specify the number of pseudo-absences to be generated; upgraded to libsvm 2.85; fixed memory leaks
+
+==== biography ====
+
+----
+//Vapnik, V. (1995) The Nature of Statistical Learning Theory. SpringerVerlag. \\
+\\
+Schölkopf, B., Smola, A., Williamson, R. and Bartlett, P.L.(2000). New support vector algorithms. Neural Computation, 12, 1207-1245. \\
+\\
+Schölkopf, B., Platt, J.C., Shawe-Taylor, J., Smola A.J. and Williamson, R.C. (2001). Estimating the support of a high-dimensional distribution. Neural Computation, 13, 1443-1471. \\
+\\
+Cristianini, N. & Shawe-Taylor, J. (2000). An Introduction to Support Vector Machines and other kernel-based learning methods. Cambridge University Press.//

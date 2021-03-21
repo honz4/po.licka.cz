@@ -1,0 +1,182 @@
+<WRAP center round tip 60%>
+základní pojmy, klasifikace, příklady využití, algoritmy (optimalizační úlohy na grafech)
+</WRAP>
+
+====== graf ======
+  * http://voho.eu/wiki/graf/
+  * = grafické vyjádření vztahů mezi objekty
+  * = dvojice disjunktních množin uzlů (vrcholů, vertex-vertices) a hran (edge-edges), přičemž hrana vždy spojuje právě dva uzly (které nemusí být různé)
+  * {{::grafy1.png?nolink&200|}}
+  * **incidence** = místu vstupu nebo výstupu hrany, vztah hrany s uzlem
+  * **definice grafu**
+        * graf je trojice G={H, U, ρ), kde:
+              * H je množina hran H={h<sub>1</sub>, h<sub>2</sub>, ..., h<sub>n</sub>}
+              * U je množina uzlů U={u<sub>1</sub>, u<sub>2</sub>, ..., u<sub>m</sub>}
+              * ρ je indicenční funkce, která je dána předpisem:
+                    * pro neorientovaný graf
+                          * H -> U ⊗ U (množina všech neuspořádaných dvojic prvků z množiny U)
+                    * pro orientovaný graf
+                          * H -> U × U (kartézský součin - množina všech uspořádaných dvojic prvků z množiny U)
+
+{{ ::hrana.png?nolink&300|}}
+  * **kostra grafu**
+        * libovolný podgraf spojující hranami všechny vrcholy původního grafu
+        * sám neobsahuje žádnou kružnici
+  * **izomorfní graf**
+        * něco s bijekcí (najdu si to!!!!)
+        * mají stejný počet vrcholů i hran
+  * **hrany**
+        * orientovaná, neorientovaná, násobné hrany, rovnoběžné hrany (jaký je rozdíl mezi násobnou a rovnoběžnou???, smyčka
+        * ohodnocená, neohodnocená
+              * vzdálenost, průchodnost, kapacita hrany pro přenos (informace, komodity)
+              * funkce, která dosazuje vrcholům hodnoty s jejich nejkratší vzdáleností = metrika (NUTNOST SOUVISLÉHO GRAFU)
+
+====== typy grafů ======
+===== podle smyček a rovnoběžných hran =====
+  * jednoduchý graf (obyčejný graf)
+        * nemá ani smyčky ani násobné hrany
+        * {{::obycejnygraf.png?nolink&200|}}
+  * multigraf
+        * obsahuje násobné hrany (tzn. když jsou dva uzly spojeny více hranami) i smyčky
+        * {{::multigraf.png?nolink&200|}}
+  * pseudograf (prostý graf)
+        * obsahuje smyčky
+        * {{::prostygraf.png?nolink&200|}}
+
+===== podle orientace =====
+  * orientovaný
+        * všechny hrany jsou orientované
+        * vyjadřuje jednostranné (nesymetrické) vztahy mezi uzly
+  * neorientovaný
+        * všechny hrany jsou neorientované
+        * vyjadřuje oboustranné vztahy
+        * např. sourozenci
+        * {{::neorientovana_hrana.png?nolink&200|}}
+  * smíšený
+        * obsahuje orientované i neorientované hrany
+        * v praxi se nepoužívá (spíš se nahradí orientovanými hranami - opačné směry)
+
+===== podle souvislosti =====
+  * souvislé
+        * musí ∃ cesta mezi každou dvojicí vrcholů
+  * nesouvislé
+
+===== podle ∃ kružnice v grafu =====
+  * cyklické
+  * acyklické
+
+===== nakreslím ho do roviny bez křížení hran? =====
+  * rovinné
+  * nerovinné
+
+====== souvislost grafu ======
+  * kružnice je uzavřená cesta
+  * z každého sledu lze vybrat cestu
+  * v souvislém grafu existuje cesta mezi každou dvojicí jeho uzlů
+===== sled =====
+  * taková posloupnost vrcholů, že mezi každými po sobě dvěma jdoucími je hrana
+  * prostě to musí být spojení
+===== tah =====
+  * sled, kde není žádná hrana víc než jedenkrát
+  * sled, kde se neopakují hrany
+
+===== uzavřený tah =====
+  * končí tam kde začal. tak jak my.
+===== cesta =====
+  * je sled, ve kterém se neopakují vrcholy
+  * tedy každý vrchol se v cestě objevuje nejvýše jednou. Existuje-li mezi dvěma vrcholy sled v grafu, existuje mezi nimi i cesta
+===== kružnice =====
+  * každá uzavřená cesta
+
+===== cyklus =====
+  * uzavřená orientovaná cesta
+====== reprezentace grafů ======
+===== diagramem =====
+===== definicí =====
+===== maticí =====
+  * v hlavní diagonále jsou nuly (uvažujeme obyčejný graf bez smyček)
+  * u neorientovaného grafu je symetrická podle hlavní diagonály
+  * vím
+  * **matice sousednosti**
+          * počet hran mezi dvěma sousedními uzly
+          * vím
+          * {{::matice_sousednosti.png?nolink&500|}}
+===== datovými strukturami =====
+===== matematicky =====
+  * **seznam sousedů / seznam vrcholů se seznamem hran**
+        * {{::seznam_sousedu.png?nolink&300|}}
+  * **indidenční matice**
+        * matice sousednosti má UZLY a UZLY v X i Y
+        * tohle to má nahoře HRANY a vlevo UZLY
+        * {{::incidence.png?nolink&300|}}
+  * **matice dosažitelnosti**
+        * je jenom dole pod diagonálou
+        * johooo, pokud do toho čísla existuje sled, tak 1! jinak nula.
+        * takže když nevede nic do 7, tak bude mít celý prázdný řádek
+====== strom ======
+  * souvislý graf
+  * neobsahuje kružnici
+  * mezi každými dvěma vrcholy existuje právě jedna cesta
+  * je to datová struktura
+====== úlohy ======
+===== hledání nejkratší cesty=====
+  * Dijkstrův algoritmus
+        * ne záporná délka
+  * Bellman-Fordův
+        * i záporné hrany
+
+===== hledání minimální kostry=====
+  * Kruskalův algoritmus
+        * je hladový
+
+===== hledání maximální kostry=====
+
+
+
+====== toky v sítích ======
+  * pomocí grafů můžeme řešit problém nalezení maximálního toku v síti
+  * vodovodní potrubí, dopravní síť, datová síť
+
+===== síťová analýzy =====
+  * silniční a uliční síť:
+        * délka
+        * průměrná rychlost
+              * úprava na základě podmínky (na sněhu snížím o 20 %)
+              * speciální ohodnocení - historická hustota dopravy //(to se musím podívat!)//
+              * TMC = Trafic Message Channel - pokud je v daném místě k dispozici, přenáší živá data o aktuální hustotě dopravy
+        * omezení (restrictions)
+              * protože: šířka komunikace (max. povolená čířka vozidla), nosnost mostů, průjezdní výšky podjezdů
+              * definice směru jízdy
+        * bariéry
+              * geografický prvek (bod, linie, plocha), který lze do sítě dynamicky vložit
+              * zákaz (restriction) nebo zdržení (scaled cost)
+              * dočasná uzavírka: uzavření jednoho úseku silnice v síti, stačí jej „přeškrtnout“ krátkou úsečkou liniové bariéry, trasa tomuto úseku vždy vyhne
+              * plošná bariéra charakteru „zdržení“ může být situace, kdy se má algoritmus hledání optimální trasy vyhnout určité oblasti. Např. hustě obydlená oblast je reprezentována polygonem s parametrem „zdržení“ s hodnotu 2 - při výpočtu bude trvat průjezd 2x déle
+        * odbočitelnost
+              * např. jako čas nezbytný na odbočení můžu zahrnout do výpočtu (jakože doleva odbočit bývá těžší a delší)
+              * zákaz odbožení (jednoduchý - nesmím odbožit vlevo, složený - světelná křižovatka)
+
+==== úlohy ====
+  * **hledání trasy z A do B**
+        * přímo nebo přes libovolný počet průjezdních bodů
+        * výsledkem může být grafický element optimální trasy, ale i podrobný itinerář, přes které ulice nebo čísla silnic se do cíle dostaneme, a to dokonce i včetně informací o směrovém značení
+  * **Service Areas**
+        * obslužnost
+        * podle komunikace
+  * **nejbližší středisko obsluhy (Closest Facility)**
+        * která spádová nemocnice (policejní služebna, obchod) je pro obyvatele z jednotlivých ulic nejbližší
+  * **matice vzdáleností (OD Cost Matrix)**
+        * vygeneruje tabulku známou dříve z běžných autoatlasů, která informuje o vzdálenostech mezi jednotlivými městy
+  * **lokační analýza (Location)**
+        * umožní navrhnout optimální umístění střediska (výjezdové místo HZS)
+  * **alokační analýza (Alocation)**
+        * vypočítá obslužnost daného střediska (výjezdového místa HZS)
+  * **problém optimalizace provozu (Vehicle Routing Problem)**
+        * tak to je hustý!
+        * zákazníci, sklady a vozidla -> rozvézt zboží mezi zákazníky v určitém čase -> počítá i s kapacitou vozidla, závozovými okny, časy kdy jsou vozidla k dispozici
+
+
+
+
+
+

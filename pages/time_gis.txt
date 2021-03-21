@@ -1,0 +1,79 @@
+  * veškerá data, která lze z reálného světa získat mají časový a prostorový charakter
+  * stále není nalezen vhodný způsob jak ukládat a vizualizovat časovou složku prostorových dat
+  * ve většině případů je časová či prostorová složka z dat odstraněna
+  * časová složka - velký objem. moc
+  * u životního prostředí je ale tahle složka moc důležitá
+        * do minulosti - data jsou často nedostupná
+  * data aktuální / data neaktuální
+  * čas vzniku / čas zjištění / čas vložení do databáze GISu <- není to to stejné!
+  * **stavová topologie**
+        * zaznamenává posloupnost změn geoprvků
+        * hranice parcel z určité oblasti z doby před 10 lety (musím vědět, které z těch parcel už existovaly předtím, kdo je vlastnil, ceny, apod.)
+        * i geometrie i atributy
+
+  * **granulanita**: rozlišení rastrových dat
+  * **chronón**: časová obdoba pixelu a je to nejkratší časová rozlišovací jednotka
+
+
+=== přístupy k zavedení času ===
+  * **archivační metody**
+        * pravidelná archivace databází gisů
+  * **metody časových řezů**
+        * realizace časové složky přímo do datového modelu a programového vybavení pro GIS (interní realizace)
+
+===== časoprostorové modely =====
+  * vždy čas i prostor dohromady
+  * **prostorově dominantní datové modely**
+        * do prostorového modelu je implicitně zaveden čas pokaždé, když dojde k nějaké změně
+        * výsledkem je snímek z vrstvy pokaždé, když je změna
+              * -> čas je popsán sekvencí snímků
+              * není možné zjistit jaký vliv má aktualizovaná vrstva na související vrstvy ve stejném místě
+  * **časově dominantní modely**
+        * **interval na bázi modelů**
+              * Časovost uvedena prostřednictvím pravidelných nebo nepravidelných intervalů
+              * Model se zabývá identifikaci časových intervalů a definováním hierarchických vztahů mezi těmito intervaly
+              * není konkrétní datum
+              * vztahy jsou vzdálené, rovné, protínají se, začínají a blablabla
+        * **bodově založené modely**
+              * časovost jako explicitní výskyt události
+              * obvykle jako **časové mapy**
+                    * graf, jehož uzly jsou časové body, které odpovídají na začátku a ukončení akce
+                    * hrany představují vztahy mezi událostmi
+        * **smíšené modely**
+              * časovost pomocí intervalově založeného model v kombinaci s bodově založeným modelem
+              * v parametrickém přístupu, je čas brán jako kontrolní argument systému a je vyšetřován na možné dopady na ostatní proměnné. Tento přístup je velmi využíván v simulačním modelování v GIS
+              * na druhou stranu rozměrový přístup je zaváděn jako dynamický pojem v GIS. V tomto případě je časový rozměr realizován jako uživatelsky definovaný typ dat
+
+===== ESTDM =====
+  * časoprostorový model určený pro rastrová data
+  * jeho účelem je kombinace jednotlivých vrstev, které představují jednotlivé časové body do jedné vrstvy se záznamem o všech změnách
+  * 1 záznam = nejmenší geografická jednotka + pozorovaná změna + časová značka
+  * hlavičkový soubor s časovou značkou
+  * ESTDM tedy ukládá změny na jednotlivá témata v předem definovaných místech spíše ve vztahu k předchozímu stavu než k momentu vytváření. Navíc ukazuje možnost a efektivnost podpory jak časových tak prostorových dotazů
+
+===== objektově orientovaný geomorph model =====
+  * začleňuje geomorfologické procesy a teorii tříd do objektově orientované prezentace
+  * představuje dynamiku geomorfologických systémů, pobřežních systémů, říčních systémů a geomorfologické teorie
+
+===== CTS (časoprostorová kampatibilita) =====
+  * svět je brán jako soubor prostorově homogenních a časově jednotných objektůve2D reprezentovaných vrstvami
+
+====== vizualizace času ======
+  * storytelling mapy
+  * statická mapa
+  * série statických map
+  * animace
+
+====== ukládání časoprostorových údajů ======
+  * **snapshot model**
+        * voxel - x, y, z je čas
+  * **temporal map set**
+        * binární atribut pro každou buňku
+              * 0 - beze změny, 1 - změna
+  * **Spatio Temporal-Objet model**
+        * reálný svět jako množina diskrétních jevů složená z tzv. časoprostorových atomů
+
+
+
+
+

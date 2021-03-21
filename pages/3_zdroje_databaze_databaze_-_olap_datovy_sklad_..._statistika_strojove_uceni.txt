@@ -1,0 +1,79 @@
+  * **problémy reálných dat**: špatné údaje (přístroje špatně měřily, člověk se sekl), nevyplněné údaje, data jsou popsána příloš mnoha zbytečnými atributy, data mají formu složitého relačního schématu a né jedné tabulky
+
+======= databáze =======
+  * plochý soubor s daty, prapůvodně před relačními databázemi
+  * nevyhovuje 1. a 2. normální formě – neatomické atributy, opakující se údaje
+==== relační databáze ====
+  * dotazy pomocí SQL, odpovídá všem normálovým formám
+
+===== OLAP =====
+  * OLAP (Online Analytical Processing) je technologie uložení dat v databázi, která umožňuje uspořádat velké objemy dat tak, aby byla data přístupná a srozumitelná uživatelům zabývajícím se analýzou obchodních trendů a výsledků (Business Intelligence). Způsob uložení dat se svým zaměřením liší od běžněji užívaného OLTP (Online Transaction Processing), kde je důraz kladen především na snadné a bezpečné ukládání změn v datech v konkurenčním (víceuživatelském) prostředí.
+  * u OLAP se jednorázově nahrávají data, nad kterými jsou prováděny složité dotazy
+  * existující fyzické vazby! tak jsou data zkoumána
+  * multidimenzionální kostka
+  * **roll-up** (vyšší obecnější úroveň – z města na kontinent) & **drill-down** (obecnější přehled)
+  * data můžou být z různých zdrojů = provádí se konverze dat
+  * what-if analýzy
+  * ukládání výsledků OLAP mimo zdrojová data
+  * dynamická manipulace s řídkými maticemi
+  * zpracování chybějících hodnot
+  * neomezený počet dimenzí a agregačních provní
+  * **OLAP krychle**
+        * je způsob organizace dat, který rozšiřuje dvojrozměrně tabulkové uspořádání tak, že každá datová dimenze je uložena v jedné ose kostky. Tím překonává některá omezení relačních databází.
+        *  Kostka je tvořena hodnotami, které jsou kategorizovány do dimenzí. Struktura je implementována relačními tabulkami ve [[hvězdicovém schématu]] či [[schématu sněhové vločky]]. Jedná se typicky o rodič-potomek (parent-child) strukturu, kde rodičovské prvky reprezentují konsolidaci potomků a zároveň ony samy mohou být agregovány do svých rodičovských prvků
+        * **základní operace s kostkami**: 
+              * krájení kostky: omezení jedné nebo více dimenzí na podmnožinu o jednom prvku
+              * Kostkování: omezení jedné nebo více dimenzí na podmnožinu o dvou a více prvcích
+              * Roll up a drill down: jedná se o navigaci datovou hierarchií směrem nahoru a dolů
+              * Pivotování: otáčení kostky za účelem získání jiné perspektivy na vztahy dat
+              * Agregace: Konsolidace podle vztahů určených vzorci
+{{ :wiki:olap_kostka.png?nolink |}}
+  * **uložení dat v OLAP databázích**
+        * MOLAP (Multidimensional OLAP) = data jsou uložena v multidimenzionální databázi, kde se nachází všechny potřebné agregace
+        * ROLAP (Relation OLAP) = multidimenzionální zobrazení dat, data samotná ale zůstávají uložena v relační databázi
+        * {{ ::molap.png?nolink |}}
+
+  * struktura OLAP databáze
+        * tabulky vytvořené v OLAP databázích nesplňují 3 NF!
+        * __tabulky faktů__ = nejobjemější tabulky v databázi. **Fakta** (measures) jsou číselná vyjádření měrných jednotek obchodování (třeba počet prodaných kusů daného zboží) + tabulky obsahují **cizí klíče tabulek dimenzí**, pomocí kterých jsou k nim dimenze napojené
+        * __tabulky dimenzí__ = obsahují logicky nebo organizačně uspořádané údaje, které popisují různé aspekty obchodování. Třeba geografické, časové nebo produktové dimenze.
+        * [[hvezdicovem_schematu|hvězdicové schéma]] - centrální tabulka faktů + okolní dimenze. Každá dimenze má jednu tabulku dimenzí mezi nimi není relační propojení -> redundance dat! Má ale vysoký dotazovací výkon, ale vytvoření tohoto modelu je docela pomalé, protože má ty dimenze nenormalizované
+        * [[schematu_snehove_vlocky|snowflake schéma]] - jedna dimenze může mít několik propojených tabulek dimenzí (ty už jsou normalizované, aby se snížila redundance dat)
+
+===== datový sklad =====
+  * [[http://langer.zam.slu.cz/teaching/db/datove_sklady.pdf|Bakalářka na datové sklady]]
+  * je zvláštní typ relační databáze, která umožňuje řešit úlohy zaměřené převážně na analytické dotazování nad rozsáhlými soubory dat.
+  * je **subjektovavě orientovaný** (data jsou rozdělována podle typů), je **integrovaný** (data jsou ukládána v rámci celého podniku, ne pouze v odděleních), je **stálý** (je "read-only" - nevznikají ručně ta data!), je **časově rozlišen**
+  * **architektura datového skladu**
+        * **dvouvrstvá architektura** = postupné budování datových tržišť, datová tržiště jsou na sobě nezávislá
+        * {{ :wiki:2datovy_sklad.png?nolink |}}
+        * **třívrstvá architektura** = celé to vybuduju najednou, architektura konsolidovaného datového skladu
+        *  {{ :wiki:3datovy_sklad.png?nolink |}}
+  * **Datové tržiště** (//Data  Mart//) – je podmnožinou datového skladu, která se typicky orientuje na jednu konkrétní část podnikového zaměření. Každé datové tržiště obsahuje data vztahující se k dané části a je tedy primárně určeno pro potřeby odpovídající skupině uživatelů, kteří jsou na okruhu těchto dat závislí.
+
+----
+
+====== statistika ======
+  * kontigenční tabulky = zjištění vtahu mezi dvěma KATEGORIÁLNÍMI veličinami
+{{ ::kont_tabulka.png?nolink |}}
+  * regresní analýza = zjišťování fční závislosti jedné proměnné na jiných numerických proměnných
+  * diskriminační analýza = pro odlišení příkladů (pozorování) patřících do různých tříd
+  * [[shlukova_analyza_metody_nehierarchicke_metody_hierarchicke_prezentace_a_interpretace_vysledku|shluková analýza]] = pro nalezení shluků nazvájem si podobných příkladů 
+  * korelační analýza = hledání závislosti
+  * analýza rozptylu = rozdíl mezi průměry
+  * faktorová analýza = závislost jedné veličiny na faktorech (faktor je lineární kombinace jiných veličin)
+
+
+====== strojové učení ======
+  * Strojové učení je podoblastí umělé inteligence, zabývající se algoritmy a technikami, které umožňují počítačovému systému 'učit se'. Učením v daném kontextu rozumíme takovou změnu vnitřního stavu systému, která zefektivní schopnost přizpůsobení se změnám okolního prostředí.
+  * [[neuronove_site_modely_neuronu_topologie_siti_metoda_backpropagation|učení s učitelem / učení bez učitele
+]]
+
+  * základní druhy úloh: klasifikace, regrese, shlukování
+  * modely: SVM, rozhodovací stromy, k-nejbližší sousedi, k-means, LDA, ANN
+
+
+
+
+
+

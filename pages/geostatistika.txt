@@ -1,0 +1,37 @@
+{{indexmenu_n>1}}
+<WRAP group>
+<WRAP half column>
+to jsou kolumnsa
+</WRAP>
+
+<WRAP half column>
+
+</WRAP>
+</WRAP>
+<WRAP center round box 60%>
+simple centered box
+</WRAP>
+
+<WRAP center round info 60%>
+info box
+</WRAP>
+
+
+<WRAP center round tip 60%>
+tip box
+</WRAP>
+
+
+<WRAP center round important 60%>
+important box
+</WRAP>
+
+<WRAP center round download 60%>
+download box
+</WRAP>
+
+<wrap hi>highlighted</wrap>
+
+
+
+

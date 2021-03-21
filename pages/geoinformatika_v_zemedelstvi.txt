@@ -1,0 +1,6 @@
+====== úlohy GIT ======
+  * evidence vlastníctví
+  * BPEJ = klimatický region, hlavní půdní jednotka, sklonitost, skeletovitost a hloubka
+  * LPIS
+      * Land Parcel information system
+ 

@@ -1,0 +1,18 @@
+
+<WRAP center round tip 60%>
+operace na 1 vrstvě, operace mezi více vrstvami, clip, buffer, join...
+
+</WRAP>
+  * Tabulkový výpis / vytvoření nových dat
+  * Operace na 1 vrstvě (dissolve), na více vrstvách (union)
+  * **Dotazování:** 
+      * indentifikace (select by location -> který bod leží na XY, select by attributes -> kde leží bod A)
+      * výběr (select by location -> výběr okresů kudma teče řeka A, select by attributes -> silnice I. třídy)
+      * klasifikace (kvalitativní, kvantitativní)
+  * **Manipulace s objekty:** 
+      * operace s hranicemi (clip, erase, update -> aktualizuje, split, dissolve, merge -> nová vrstva obsahuje všechno včetně překryvu + bod, linie, polygon, append -> překryv  a stejná hodnota atributu -> propojení, linie, polygon, eliminate -> odstraní a nahradí okolním prostředím podle nejdelší hranice)
+      * analýzy sousedství (buffer, thiessen polygony -> spádová oblast nejbližšího bodu)
+  * **Skládání (overlay):**
+      * union (průnik -> v místě průniku info z obou vrstev, vzájemně rozřezané polygony)
+      * intersect (to samé co identify, ale ořeže to)
+      * identify

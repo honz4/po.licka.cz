@@ -1,0 +1,72 @@
+
+<WRAP group>
+<WRAP half column>
+====== prezentace ======
+
+=== státnice BC geografie ===
+  * 10. [[Krajinná ekologie]]
+
+=== GIT v zemědělství ===
+  * [[evidence vlastnictví a využívání půd]]
+  * [[envig_precizni_zemedelstvi|precizní zemědělství]]
+=== GIT v lesnictví ===
+  * [[hospodářská úprava lesa]]
+  * [[lesnické mapy a data (typologie, OPRL, NIL)]]
+  * [[LHP/O a jejich GIT zpracování]]
+=== GIT a analýza krajiny ===
+  * [[LULC analýza]]
+  * [[LULC modelování]]
+  * [[analýza nálezových dat a biodiverzity]]
+  * [[struktura krajiny]]
+  * [[typologie a potenciál krajiny]]
+=== data a procesy ===
+  * [[GIT a procesy]]
+  * [[GMES projekt]]
+  * [[FLIS CVGZ]]
+</WRAP>
+
+<WRAP half column>
+===== cvičení =====
+  * http://web.natur.cuni.cz/ksgrrsek/lucc/index.php/data/
+  * {{::chapter9_metrics.pdf|}}
+  * [[biodiverzita]]
+  * [[typologie krajiny]]
+  * [[precizní zemědělství]]
+  * vázaný potenciál= to území už je obsazené
+  * volný potenciál = vytipuju to území a to území není ničím blokované
+
+</WRAP>
+</WRAP>
+
+====== vužití družicových dat ======
+  * lesnictví:
+        * Zdravotní stav lesů a poškození lesů (např. vyhodnocení vegetačních indexů):
+        * klasifikace stupňů poškození lesních porostů průmyslovými imisemi (Jizerské hory, Beskydy, Krušné hory, Krkonoše)
+        * Vyhodnocování kůrovcové kalamity
+        * Druhové a typové složení
+        * Vyhodnocování (ne)legální těžby a lesních kalamit (následkem větrných smrští a námrazy)
+        * Vyhodnocování lesních požárů, příp. předpověď rizika vzniku lesních požárů
+        * Vysychání lužních lesů
+        * ÚHÚL, LESY ČR
+  * vodní hospodářství
+        * Čistota vody (znečištění sinicemi, rozšíření fytoplanktonu, rozpustné a pevné částice)
+        * Teplota vody
+        * Rozsah rozlivů při povodních
+        * Vyhodnocování množství sněhové pokrývky
+        * Mapování stavu zalednění útvarů povrchových vod
+        * Identifikace polohy bývalých rybníků
+        * Identifikace odvodňovacích zařízení
+        * MZE, VÚMOP, státní podniky Povodí
+  * zemědělství
+        * Aktualizace LPIS (vybrané lokality)
+        * Kontrola zemědělských dotací na plochu (vybrané lokality)
+        * Kontrola deklarovaných plodin v rámci povinnosti diverzifikace plodin (možné využití dat Sentinel II)
+        * Monitorování invazivních rostlin (bolševník velkolepý)
+        * Mapování vodní eroze
+  * sucho (modis)
+
+
+  * precizni zemedelstvi
+        * je moderní způsob hospodaření, které na základě znalostí o variabilitěpozemků optimalizujeprodukční vstupy (hnojiva, pesticidy, osivo, PHM, …).
+        * Na rozdíl od tradičního přístupu nepovažujepozemek zahomogenníjednotku, ale zohledňuje rozdílypůdních a porostních podmínek
+        * foodie projekt

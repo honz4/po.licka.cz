@@ -1,0 +1,26 @@
+  * 2 atmosférická okna (3-5, 8-12)
+  * v tom prvním se dá měřit jenom v noci bo to je ještě stále ovlivněno odraženýmm krátkovlnným zářením a  tom důsledku se dá měřit jenom v noci (vznikají tzv. termální stíny tam, kam nedopadá přímé sluneční záření). V tom druhém okně už v pohodě i ve dne.
+  * vychází to z Wiennova zákona posunu, že Země má teplotu okolo 300 K, takže maximální intenzita vyzařování je v 9,7 mikrometrech
+  * princip fungování je stejný jako mechanooptický skener (to je ten s rotujícím zrcátkem v úhlu 90-120˚), uvnitř má zabudovaný fotonový detektor, kde je pro větší citlivost ochlazován dusíkem (samozřejmě tekutým) nebo He na -200˚ a kde následně dochází ke kenvertování signálu na elektrický signál
+  * kinetická teplota je projevem interní energie molekul, to je to co se měří teploměrem
+  * radiační teplota je to, co těleso vyzařuje -> vnější projev energie tělesa
+  * emisivita = poměr mezi intenzitou vyzařování reálného a absolutně černého tělesa
+    * 1 má AČT, 0 mají třeba plechové střechy
+    * šedé těleso -> takové které má emisivitu ve všech vlnových délkách konstantní (třeba mrak?)
+    * selektivní zářič -> když není konstantní
+  * záření může být pohlceno/odražno/vedeno (když to sečtu všechno mělo by mi vyjít kolik záření celkem dopadlo. Dá se z toho odvodit taky pohltivost, propustnost a odrazivost (když pak tyhle dvě veličiny sečtu, musí vyjít 1)
+    * prupustnost se může zanedbat, stejně je to většinou nula
+  * pro správnou kalibraci termálních záznamů jsou na skeneru dvě referenční plochy, které reprezentují teplotní extrémy ve snímaném území -> takže teplá a studená referenční plocha -> když skener projede jeden řádek, tak předtím a potom sejme ty dvě referenční plochy aby to vztáhl k absolutním hodnotám
+  * jak se daný objekt chová závisí na jeho vodivosti, tepelné setrvačnosti (jak rychle změní svoji teplotu) a tepelné kapacitě (jak je schopen uchovávat teplo)
+  *  teplotní mapování (vztah mezi DN a radiační hodnotou)
+    * DN = A + B . emisivita . T<sup>4</sup>
+    * tím zjistím kinetickou teplotu pro každý prvek
+  * světlý tón značí teplý povrch
+  * u objektů se stejnou teplotou -> vzdálenější jsou tmavší
+
+  * družice termální
+    * NOAA a termální skener AVHRR
+    * LANDSAT v pásmu TM (je to 7 nebo 6)
+    * obě mají rozlišení 120 metrů
+    * pozor, u meteorologických dat je čím světlejší, tím studenější
+    * senzory: GOES, MODIS, AVHRR, ASTER (ten je super na vulkány, je z nich nejpřesnější)

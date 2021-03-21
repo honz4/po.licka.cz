@@ -1,0 +1,181 @@
+==== aspekty průmyslové výroby ====
+  * hospodářské
+    * průmyslové země, vyspělé země, outsorsing, globalizace, je to zlé
+  * společenské
+    * industrializace = přeměna agrární země na průmyslovou, zprůmyslnění
+    * deindustrializace = pokles zaměstnanosti v průmysl, přesun do služeb
+    * reindustrializace = oživení průmyslu
+  * prostorové
+    * urbanizace, koncentrační areály
+  * environmentální
+    * pozor na životní prostředí :)
+    * trvale udržitelný rozvoj
+    * vyspělé státy už mají zákony k povolení průmyslové činnosti
+  * technické a technologické
+    * věda a inovace
+  * politicko-geografické
+    * ekonomická vyspělost
+    * G7, G20
+
+==== hospodářské cykly ====
+   * pravidelně se opakuje ekonomický fůst a pokles
+   * máme expanzi - velký hospodářský růst a rozvoj -> dosáhneme vrcholu -> dojde k nasycení trhu, snížení poptávky, snížení výroby, firmy krachují -> recese, deprese -> krize
+   * taková očista ekonomiky
+
+=== Kitchinův cyklus ===
+   * krátkodobý cyklus
+   * způsoben výkyvy v zásobách
+   * 18–40 měsíců
+   * představují krátkodobé kolísání reálného produktu
+=== Juglarův cyklus ===
+   * 8–10 let
+   * spojovány s investicemi do fixního kapitálu, střídá se v nich období zvýšeného opotřebení a zvýšeného investování, může jít také o střídání generací komodit, zemědělské výkyvy apod.
+
+=== Kondratěvův cyklus ===
+   * 20–50 let
+   * války, vědecké objevy
+   * 24. říjen 1929 - černý pátek, krachla burza, krachlo všechno
+   * Roosevelt a de facto i Hitler pak přišli s New Deal
+
+==== základní typy ekonomik ====
+  - RTE 
+    *  rozvinuté tržní ekonomiky
+    * triáda světové ekonomiky - USA, EU, JAP
+    * průmyslově nejvyspělejší státy světa - 80 % HDP
+    * 25 zemí, 2/3 světového obchodu
+    * podle sektorů - I - 3 %, II - 33 %, III - 64 %
+    * 
+  - rozvojové země
+    * vzniká rozvojový třetí svět
+    * po WWII
+  - tranzitní ekonomiky
+    * bývalé socialistické státy
+
+==== klasifikace průmyslu ====
+=== těžký ===
+průmysl paliv, energetický, hutnictví železa, chemický a strojírenský průmysl, dřevozpracující průmysl
+=== lehký ===
+průmysl papíru a celulózy, oděvní průmysl, obuvnický průmysl, průmysl skla, keramiky a porcelánu, textilní průmysl, kožedělný průmysl, průmysl potravin a pochutin
+
+
+==== LOKALIZACE PRŮMYSLU ====
+=== Weberův model ===
+   * mám dva zdroje surovin a jeden trh
+   * nejlepší umístění nového podniku
+   * nejdražší je doprava, pak pracovní síla
+   * aglomerační výhoda (trh spotřeby)
+   * lokalizační trojúhelník (to je to s těma surovinama a trhem)
+
+=== Loschův model ===
+  * Weber + teorie centrálních míst
+  * mám firmu, čím dál od firmy bude spotřebitel, tím porostou náklady na dopravu, tím bude produkt dražší a tím víc bude klesat poptávka
+  * bod maximální vzdálenosti (kde je nulová poptávka)
+  * podle množství a vzdálenosti udělám Loschův poptávkový kužel (kolečko kolem firmy)- kdy rotací okolo místa lokalizace firmy určíme okruh spotřebitelů (zákazníků), které je výrobce schopen obsloužit.
+  * Jelikož se na trhu nachází více producentů se stejně odvozenými tržními okruhy, bude prostorové uspořádání ekonomiky dáno vzájemnou interakcí těchto firem.
+
+=== Hotteligův model ===
+  * ti prodavači na pláži
+  * finálně to vyjde tak, že musí být otočení zády k sobě
+
+=== polygonální model (hamilton) ===
+  * ve 20. století už to začíná být složité a komplikované a komplexní a ach.... prostě tak
+  * trh spotřeby a pracovní síly začínají hrát větší roli než kdysi
+  * a zdrojů surovin začíná být taky mnohem víc, navíc doprava už se taky tak moc neřeší, už není tak drahá
+
+=== polarizační teorie (Peroux) ===
+  * lokalizační předpoklady - ale přenesené na regiony
+  * teorie pólů rozvoje
+  * Principem teorie polarizovaného rozvoje je předpoklad, že hospodářský růst se neprojevuje všude najednou, ale v bodech (pólech) růstu. Dle polarizační teorie je pólem rozvoje hnací ekonomická jednotka (hnací firma) nebo soubor vytvořený z takových jednotek. Na rozdíl od hnacího podniku či odvětví se potom ostatní podniky či odvětví nazývají hnanými. Podle tohoto pojetí je pak hospodářský rozvoj výslednicí působení hnacích jednotek na jednotky hnané.
+  * **polarizace technologická**, **důchodová** (mají dostatečné příjmy -> rozšiřují se služby, **psychologická** (ty důchody v tém oblasti se jenom očekávají, ještě tam nejsou), **geografická** (koncentrace aktivity v určitém geografickém území)
+  * **centrální místa** (malá a střední města, která se orientují zejména na rozvoj odvětví terciální sféry), **póly rozvoje** (velké městské aglomerace s diverzifikovanou strukturou ekonomiky a s přítomností propulzních odvětví, což způsobuje autonomnost jejich růstu), **póly růstu** ( průmyslová města s diverzifikovanou strukturou ekonomiky, jejich růst je však generovaný exogenními vlivy), **póly integrace** (zóny růstu, zaujímají dva nebo více městských systémů a vyvolávají evoluci prostorové struktury země)
+  *  hnací oblast, kterou představuje region, v němž dochází k soustředění více pólů rozvoje, a hnaná oblast, kterou představuje region, v němž se soustřeďuje více vedlejších, bočních pólů, resp. kde se rozvíjejí ekonomické aktivity závislé svými výstupy na poptávce podniků hnací oblasti, nebo odkud přicházejí do hnacích podniků a odvětví pracovní síly
+  * Vliv regionů jádrových na periferní je odlišný v krátkém a dlouhém období. Z __hlediska krátkodobého__ je negativní. Jádrový region díky koncentraci firem odčerpává perifernímu zdroje (kapacity) a to jak lidské (pracovní síla), tak finanční, kdy investice v jádru využívají úspory regionů periferních. Periferní region proto v blízkosti centra nemá možnost přílišného rozvoje a dále zaostává.
+   * __Z dlouhodobého hlediska__ se však jádro rozšiřuje až k periferii, poptávka po surovinách a pracovní síle z periferních regionů roste (podmínkou je dobré dopravní spojení). Při překročení absorpční schopnosti regionu jádrového dochází k umísťování nových ekonomických kapacit do periferních regionů. Periferie se tak může stát součástí jádra, nebo zajišťuje pro firmy koncentrované zde obslužné činnosti, čímž z rozvoje jádra přímo profituje.
+
+==== současné lokalizační teorie ====
+   *  faktory: dělí se na tvrdé (měřitelné) a měkké (neměřitelné)
+     * tvrdé: nabídka a kvalifikace pracovní síly, ceny pozemků a nemovitostí, komunikační spojení, daně, nabídka ploch pro kanceláře a výrobu
+     * měkké: preference k určité lokalitě, tradice, patriotismus, nacionalismusss
+   * **úspory z rozsahu**: snižování výrobních nákladů zboží zvyšováním objemu výroby daného výrobku a následného zvětšení podílu výrobku na trhu. Např. velká továrna na výrobu cukrovinek dokáže vyrábět sušenky levněji než malý výrobce cukrovinek či třeba cukrář podnikatel v Horních Kotěhůlkách.
+   * proto se Volvo ze Švédska vozí sem a BMW zas tam??? :O
+   * Díky mezinárodnímu obchodu se každý producent může soustředit na úzkou skupinu typů produktů v dostatečném objemu a realizovat úspory z rozsahu
+   * klíčové faktory pro regiony realizující úspory z rozsahu: musí být součástí otevřené ekonomiky, mít malé administrativní překážky a mít dopravní dostupnost. Jo. Logické.
+   * obecně - co obecně? co?
+     * jo, důležitá ekonomická stabilita. Pozor na korupci, problém územního plánování? byrokracie?
+     * podnikatelské zóny, investiční pobídky
+
+
+===== průmyslové útvary =====
+  * průmyslový závod
+    * nejnižší jednotka
+    * bodový charakter
+  * průmyslová zóna
+    * funkčně specializovaná zóna ve které převažuje průmyslová aktivita
+    * **intravilánová** - zasahují i do vnitřního města - Ostrava. Tendence k přestavbě - Karolina
+    * **extravilánová** - nové průmyslové stavby budovány mimo město, nedělá to stát, ale staví to tak investoři - Nošovice?
+  * průmyslové centrum
+    * Sídlo, které vytváří v rámci své průmyslové charakteristiky dostatečný počet pracovních míst, aby mohla vázat svá zázemí (má tzv. spádový potenciál)
+    * Sídlo, které má ve své struktuře průmyslový závod střední velikosti nebo několik menších průmyslových závodů – např. město 50 000 obyv. a 20 % EAO v průmyslu
+  * průmyslový uzel
+    * několik průmyslových center, které jsou spojeny technologickými vazbami, společně dopravno-geografickou polohou
+    * olomouc-šternberk-uničov-hlubočky
+  * průmyslový region (rajon)
+    * stojí na vrcholu uspořádání, často se plete s uzlem
+    * koncentrace průmyslu a dopravy na rozsáhlém území
+    * odvětvová diverzita
+  * průmyslové komplexy
+    * komplexy zformované na bázi těžby a prvotní úpravy surovin
+      * komeuhelné a metalurgické komplexy, hnědé uhlí, energie
+    * s převahou náročných odvětví
+      * strojírenství
+    * v přístavech
+      * komplexy vytvořené na bázi jejich surovin
+    * ostatní komplexy
+      * potraviny, spotřeba
+
+==== industriální clustery ====
+Východiskem k tomuto závěru jsou výsledky řady amerických a evropských výzkumů dokazujících,
+že průmysl (včetně nových oborů) je často geograficky koncentrován a že existuje kritické množství až
+nápadné konkurenční úspěšnosti určitých oborů typických pro konkrétní zemi, region nebo metropoli.
+Klastr totiž umožňuje, na rozdíl od firmy nebo průmyslového odvětví, tento fakt analyzovat, nahléd-
+nout do podstaty - do mikroekonomiky soutěže a významu geografického umístění pro konkurenční
+výhodu. Jestliže klastr někde existuje, znamená to, že velká část konkurenční výhody nespočívá přímo
+v dané firmě nebo v daném odvětví, ale v místě, kde se podnikatelské jednotky nacházejí. Zcela
+okatým příměrem může být mizivá šance na vybudování světově konkurenceschopných firem v oboru
+vinařství v Norsku nebo námořnictví v Ostravě. 
+----------------------------
+   * geograficky  koncentrované  a  vzájemně  propojené  firmy  a  instituce jsou hnacím  motorem  národního,regionálního a místního rozvoje.
+   * Klastr  je  geograficky  blízké  seskupení  vzájemně  provázaných  firem,  specializovaných  dodavatelů,  poskytovatelů  služeb  a souvisejících  institucí  v  konkrétním  oboru  i  firem  v  příbuzných oborech, které spolu soutěží, ale také spolupracují, mají společné znaky a také se doplňují
+  * Názorným příkladem může být masný klastr zahrnující všechny subjekty na danémteritoriu od chovu skotu, přes jatka, zpracující průmysl, stroje, obalové technologie včetně konzervárenství, výzkumu, hygieny, veterinářství až po obchod a třeba i krmivo pro domácí mazlíčky. Často však dochází k segmentaci tak širokého záběru na menší celky, které se díky své produktivitě a inovacím stanou výrazně konkurenceschopné a stávají se vůdčími hráči na světovém trhu.  
+  * Klastry se mohou rozšiřovat __vertikálně__ směrem dolů až k distribuci a zákazníkům, nebo __horizontálně__ do stran k výrobcům doplňkových výrobků či společnostem, jejichž předmětem je vzdělávání a kvalifikace, technologie nebo společné vstupy.
+  * Příkladem vzniku klastru v důsledku vývoje nových technologií v oboru elektroniky je "Silicon Valley" v Kalifornii 
+
+  * regionální cluster: seskupení propojených odvětví v rámci určitého regionu (státu), které jsou konkurenceschopné na světových trzích. V ČR například automobilový cluster, metalurgický cluster (Ostravsko)
+  * průmyslový okres: místní koncentrace malých a středních firem, které se specializují na jednotlivé etapy výrobního procesu (často závislé na velkých firmách)
+  * sítě: Specifická forma vztahů mezi ekonomickými partnery, která není založena na trzích nebo na hierarchiích, ale na vzájemné závislosti, a tedy na kooperaci
+  * inovační prostředí: synergie ekonomických a institucionálních faktorů vytváří inovační prostředí, které se vyznačuje vysokou rychlostí šíření znalostí s učení (např. Silicon Valley)
+
+**typologie podle etapy vývoje**
+  * fungující cluster - byly indetifikovány a produjují více než je součet jednotlivých částí
+  * latentní cluster - neprodukuje tak moc, jak by mohl, něco skrytého tam bude
+  * potenciální cluster - mají určité podmínky pro existenci, ale postrádají některé vstupy a kritickou míru potřebných faktorů
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+https://docs.google.com/document/d/1hRmQYGdvmYXwKQ3AywjuVfMByu3ydj_nYT_9LNaByGY/edit?usp=sharing
+
+====== open modeller ======
+
+  * [[Artificial neural network]]
+  * [[Aqua maps]]
+  * [[Bioclim]]
+  * [[*Consensus]]
+  * [[Climate Space Model]]
+  * [[GARP Desktop]]
+  * [[GARP (single run) - DesktopGARP implementation]]
+  * [[GARP with best subsets - DesktopGARP implementation]]
+  * [[ENFA (Ecological-Niche Factor Analysis)]]
+  * [[Environmental Distance]]
+  * [[Envelope Score]]
+  * [[GARP (single run) - new openModeller implementation]]
+  * [[GARP with Best Subsets - new openModeller implementation]]
+  * [[Maximum Entropy]]
+  * [[Niche Mosaic]]
+  * [[*Random Forests]]
+  * [[SVM (Support Vector Machines)]]
+  * [[*Virtual Niche Generator]]
+
+
+
+====== biomod ======
+
+   * [[generalised linear models]]
+   * [[generalised additionaly models]]
+   * [[multivariate adaptive regression splines]]
+   * [[classifiacion tree analysis]]
+   * mixture discriminant analysis
+   * [[artificial neural network]]
+   * generalised boosted networks
+   * random forests
+   * SRE
+
+
+
+
+
+
+
+

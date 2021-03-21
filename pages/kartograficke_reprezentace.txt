@@ -1,0 +1,29 @@
+====== DLM (digital landscape model) ======
+  * počítačem generované schéma vybraného segmentu krajinné sféry Země zachycující ve zjednodušené, avšak integrované podobě jeho základní strukturní a v optimálním případě také dynamické rysy
+    * minimálně 3D až 4D
+    * prostorové souřadnice
+  * v kartografii k vyjádření krajiny jako souboru prostorových objektů a jevů v krajině, které jsou předmětem kartografické vizualizace
+  * často odpovídá obsahu topografických map velkých měřítek
+  * DLM je základem pro tvorbu DCM
+====== DCM (digical cartographic model) ======
+  * je obrazem uspořádání prvků obsahu mapy
+  * je modelem již zgeneralizovaného území, resp. reality 
+  * **tvorba DCM z DLM je nevratná a nelze považovat DCM ani za model krajiny/území/reality ani za model rovnocenný vůči DLM **
+  * v geovizualizační procesu lze považovat:
+    * DLM jako prostorovou databázi
+    * DCM za znakový klíč
+
+====== DLM vs DCM ======
+  * čím menší měřítko, tím vyšší stupěň generalizace a tím také větší rozdíly mezi DCM a DLM
+  * **kartografická generalizace umožňuje vyjádřit zmenšený obraz reality přehledně a srozumitelně prostřednictvím DCM**
+    * nelze používat stejné argumenty k opačnému postupu – z DCM vytvářet DLM
+    * např. kombinování mapových informací z rozdílných měřítek: data ZABAGED (1:10 000) s digitálními geologickými mapami (1:25 000), mapou geomorfologických jednotek (1:200 000) a s mapou klimatických oblastí (1:500 000)
+   * **řešení**: přímé propojení DLM a DCM
+     * podstatou je přímé, bezprostřední propojení DLM reprezentující krajinu/území/realitu s digitálními kartografickými modely reprezentující jednotlivé mapy odvozené z DLM
+     * každá mapa má svůj vlastní DCM
+     * důležité je, aby DLM a DCM byly spolu vzájemně propojeny (nejlépe interaktivně) a aby tyto vazby (pokud je to technologicky možné) byly realizovány automaticky
+{{ ::dcm2.png?nolink |}}
+{{ ::dlm2.png?nolink |}}
+**
+Pro reprezentaci krajiny se musí vycházet z jediného DLM, 
+ať už pro potřeby tvorby map nebo pro modelování krajiny.** 

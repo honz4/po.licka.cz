@@ -1,0 +1,35 @@
+====== přednášky ======
+  * [[sege_cestovni_ruch|cestovní ruch]]
+  * [[sege_prumysl|průmysl]]
+  * [[sege_zemedelstvi|zemědělství]]
+
+
+====== cvičení ======
+
+  * [[sege_cviceni|cvičení]]
+   * [[sege_semestralka|semestrální úkol]]
+
+====== zkouška ======
+  * [[sege_pojmy|ekonom pojmy]]
+  * [[sege_politika|geopolitika]]
+  * [[sege_pprumysl|průmysl prezentace]]
+  * [[sege_pzemedelstvi|zemědělství prezentace]]
+  * [[sege_pcestruch|cestovní ruch prezentace]]
+  * [[sege_psluzby|služby prezentace]]
+  * [[sege_ppolitika|politika prezentace]]
+
+====== kolik co stojí ======
+   * 1 trojská unce = 31 gramů
+   * barel 159 litrů
+   * míle 1,85 km
+   * zlato - 1200, stříbro - 16, benzín - 26, nafta - 27
+   * WTI ropa - 27,10, brent 30,80 a texaská něco ješt je 48
+   * elektřina 22 USD, uhlí je 8,50 kč za kilo
+
+
+----
+
+  * monarchie - dansko, svedsko, norsko, vsechno pod commonwealthem, španelsko, nizozemsko
+  * velkovevodstvi je lucembursko
+  * knizectvi je monako, andorra, lichtnstejnsko
+  * 

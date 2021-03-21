@@ -1,0 +1,47 @@
+====== evoluční algoritmy ======
+  * výhoda: pro to prohledávání používají celou populaci řešení
+  * takže místo jednoho super namakaného horolezce použiju skautský oddíl (kvůli interakci, komunikaci,...)
+  * 10 skautů je jako 1000 izolovaných horolezců
+
+====== genetické algoritmy ======
+  * patří pod [[heurestické algoritmy]]
+
+Princip práce genetického algoritmu je postupná tvorba generací různých řešení daného problému. Při řešení se uchovává tzv. **populace**, jejíž každý jedinec představuje jedno řešení daného problému. Jak populace probíhá evolucí, řešení se zlepšují. Tradičně je řešení reprezentováno binárními čísly, řetězci nul a jedniček, nicméně používají se i jiné reprezentace (strom, pole, matice, …). Typicky je na začátku simulace (v první generaci) populace složena z naprosto náhodných členů. V přechodu do nové generace je pro každého jedince spočtena tzv. **fitness funkce**, která vyjadřuje kvalitu řešení reprezentovaného tímto jedincem. Podle této kvality jsou stochasticky vybráni jedinci, kteří jsou modifikováni (pomocí mutací a křížení), čímž vznikne nová populace. Tento postup se iterativně opakuje, čímž se kvalita řešení v populaci postupně vylepšuje. Algoritmus se obvykle zastaví při dosažení postačující kvality řešení, případně po předem dané době.
+
+
+=== chromozóm ===
+  * je řetezec informací, který v sobě nese vlastnosti a chování každého jedince
+  * nejčastěji je reprezentován řetězcem nul a jedniček, kterým je zakódovaná pozice jedince v prostoru možných řešení (aby se pak mohlo dobře křížit a tak, tak je dobrý mít sudé číslo)
+  * můžou být i reálná čísla, matice, vektory
+  * množina chromozómů tvoří populaci
+
+=== gen ===
+  * nejmenší část chromozómu, která je dále při aplikaci algoritmů nedělitelná
+
+=== populace ===
+  * skupina jedinců popsaných svými chromozómy v rámci jedné populace
+
+=== fitness hodnota ===
+{{:geny.png?direct&300 |}}
+  * číselné vyjádření kvality každého jedince
+  * charakterizuje vhodnost chromozómu
+  * obvykle je to reálné číslo <0,1> (ale nemusí)
+  * čím je tam víc jedniček, tím vyšší fitness hodnota (ale nemusí se to vždycky brát podle tohoto pravidla)
+
+
+==== operátory ====
+
+        * **křížení** (jednobodové, dvoubodové)
+        * **mutace** (náhodně invertuju jeden gen v řetězci)
+        * **reprodukce** (pouze zkopíruju všechny geny)
+==== jak to funguje ====
+  - inicializace - vygeneruju to náhodně ty řetězce, prostě 0 a 1 -> pak to aji ohodnotím podle fitness fce
+  - selekce - vážená ruleta, což je jako obyčejná ruleta, ale počítá se tam i s pravděpodobností (sečtu všechny fitness hodnoty a každý řetězec tou hodnotou vydělím. V této generaci se tedy s největší pravděpodobností nevyskytují nejslabší jedinci.
+  - křížení - výměna informací mezi dvěma jedinci. Může být jednobodové nebo dvoubodové. Ty dva řetězce, mezi kterými bude probíhat výměna jsou vybrány náhodně. 
+{{::krizeniga.png?direct&200|křížení genetický algoritmus}}
+  - mutace - pokud mám podmínku, že třeba velmi kvalitní řetězec obsahuje na 4. pozici jedničku, ale takový řetězec nemám, tak ani křížením ani selekcí nedosáhnu toho, aby na 4. pozici ta jednička byla. Proto zmutuju řetězec na 4. pozici a mám to!
+  - reprodukce - abych mohla zase skočit na bod č.2, je potřeba vybrat ty nejsilnější jedince - tudíž ty řetězce, které mají nejvyšší fitness hodnotu. A slabí jedinci se nahradí kopiemi těch silných a jede se znova dokola.
+
+{{::geneticke_algoritmy2.png?nolink&500 |}}
+
+

@@ -1,0 +1,28 @@
+<WRAP group>
+<WRAP half column>
+====== prezentace ======
+
+  * [[Modelování hazardu]]
+  * [[GIT v krizovém managementu]]
+  * [[hurikány, tornáda a bouře]]
+  * [[sucho]]
+  * [[povodně a hydrologické modely]]
+  * [[eroze|vodní eroze]]
+  * [[eroze_gfyz|větrná eroze]]
+  * [[senzory]]
+  * [[zemetreseni_gfyz|zemětřesení]]
+</WRAP>
+
+<WRAP half column>
+====== ostatní blabla ======
+
+  * [[INTERSUCHO]]
+  * [[modelování povodní]] 
+  * [[barta_krize|krizový management]]
+  * {{::povodne_podlaha_kralova.pdf|modelování povodní v zajišťovací činnosti}}
+  * [[modelování mělkých sesuvů a eroze]]
+  * http://www.geoinformatics.upol.cz/dprace/magisterske/pechouskova06/Pechouskova/DPPechouskova.pdf
+</WRAP>
+</WRAP>
+
+

@@ -1,0 +1,32 @@
+====== Geoestadística y análisis multivariante ======
+
+
+===== Teoría =====
+  - [[upv_descriptive_analysis|Descriptive analysis]]
+  - [[upv_pca|Principal Component Analysis]]
+  - [[upv_discriminant_analysis|Discriminant Analysis]]
+  - [[upv_regression|Regression]]
+===== Prácticas =====
+  * session 1
+  * session 2
+  * {{::session4.pdf|}}
+  * {{::regression.pdf|}}
+  * [[upv_geostat_session5|session 5]]
+
+  * [[upv_geostat_exam2|practic exam 2]]
+
+
+----
+
+  * [[PCA and LDA applied to urban classification]]
+  * [[upv_discriminant_analysis|Kriging (ArcMap)]]
+  * 
+----
+
+  * {{::practicalcase1.pdf|}}
+  * {{::practicalcase2.pdf|}}
+  * {{::report1.pdf|}}
+  * {{::report2.pdf|}}
+  * {{::report3.pdf|}}
+  * {{::report4.pdf|}}
+

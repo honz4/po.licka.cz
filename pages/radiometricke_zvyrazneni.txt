@@ -1,0 +1,39 @@
+  * bodové operace zvýrazňují hodnotu každého pixelu nezávisle na okolních pixelech
+  * bodové a prostorové zvýraznění můžu provést na jednom pásmu (na jednotlivých komponentách multispektrální syntézy můžu provést až více spektrální zvýraznění obrazu!)
+  * pracují s histogramem obrazu a zobrazovací fcí (zobrazovací funkce přiřazuje každé DN hodnotě v obraze novou hodnotu ve zvýrazněném obraze)
+  * jenom pro vizuální interpretaci, neměla by vstupovat do klasifikace
+{{ ::hist.png?nolink&500 |}}
+
+==== prahování ====
+
+    * vznikne mi bitový obraz (0 a 1)
+    * oddělení např vodních ploch a souše
+{{ ::prah.png?nolink |}}
+
+==== hustotní řezy ====
+
+    * potlačí rozdíly uvnitř definovaných intervalů (řezů) a zvýrazní rozdíly mezi jednotlivými intervaly
+    * prahování definuje jenom dvě třídy, hustotní řezy jich definují několik
+    * je to vlastně klasifikace jednoho pásma
+{{ ::rez.png?nolink |}}
+==== zvýrazňování kontrastu ====
+
+    * systémy mají široký dynamický rozsah (0-255), protože prochází jak nad málo, tak nad hodně vysoce osvětlenými oblastmi (led, pouště) -> takže ze středních zeměpisných šířek budou záznamy zabírat jenom malou část z celého rozsahu
+    * podstatou zvýrazňování kontrastu je roztažení (stretching) všech nebo pouze vybraných hodnot původního záznamu na celý rozsah zobrazovacího zařízení
+   *  __žádné zvýraznění__
+        * bez transformace (obraz má malý kontrast a špatné zobrazení detailů)
+{{ ::zv1.png?nolink |}}
+      * __lineární__
+        * původní obraz je rozdělen do celého rozsahu lineárně 
+{{ ::zv2.png?nolink |}}
+      * __vyrovnání části histogramu__
+        * hodnoty jsou rozděleny na základě frekvence jejich výskytu
+{{ ::zv3.png?nolink |}}
+      * __zvýraznění části histogramu__
+        * pouze určitá část hodnot ze snímku je přiřazena celému rozsahu, hodnoty mimo interval jsou potlačeny
+{{ ::zv4.png?nolink |}}
+
+==== saturace ====
+  * potlačení extrémních hodnot
+  * 2,5–5 % na každém konci histogramu
+{{ ::sat.png?nolink |}}

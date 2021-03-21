@@ -1,0 +1,144 @@
+  * vzniká mechanickou činností větru, který rozrušuje půdní povrch, odnáší uvolněné půdní částice a ukládá je na jiných místech (při poklesu energie vzdušného proudu)
+  * typický jev v semi/aridních zemích (též v sušších oblastech humidních zemí na půdě s nepříznivými fyzikálními vlastnostmi)
+větrná eroze v Evropě - výskyt ve východní a jižní Evropy (podmínky provznik), ale i v mírném podnebí severozápadní Evropy (primárně ovlivňuje lehké půdy)
+  * eolizace = působení mechanické síly větru na zemský povrch
+  * podmínky vzniku:
+        * suché půdy s průměrným ročním srážkovým úhrnem 250 až 300 mm
+        * převládající stálé větry
+  * roziřující podmínky:
+        * uvolněné, suché a přiměřeně jemné půdy - náchylnost k erozi
+        * hladký půdní povrch bez ochranného vegetačního porostu (kryt je částečně nebo zcela zničen)
+        * dostatečně silný vítr u povrchu země pro zahájení pohybu půdy
+        * dostatečně dlouhá pole, zejména ve směru převládajících větrů
+
+  * riziko větrné eroze v ČR
+        * četné větry, srážky <500 mm, lesnatost <20 %, lehké písčité a hlinitopisčité půdy, jemnozrné jílovité půdy
+
+====== faktory ovlivňující vznik a průbeh větrné eroze ======
+==== klimatické ====
+  * vítr
+  * ovzdušné srážky (množství a rovnoměrné rozdělení = snížení eroze (zajištění vláhy a tím soudržnosti půdních zrn)
+  * teplota ovzduší (spolu se srážkami určuje klimatický ráz oblasti -> vliv na vlhkost vzduchu, výpar z půdy a transpiraci z vegetace a tím na vlhkost půdy a kvalitu a vývoj plodin
+  * evapotranspirace
+==== půdní ====
+  * půdní struktura (vyjadřuje odolnost půdy proti rozpadu vlivem orby, větru, abrazní činnosti saltujících částic, apod. (mechanické síly); snižuje erodibilitu půdního povrchu touto odolností)
+  * velikost a tvar částic (erodovatelné půdní částice, neerodovatelné půdní částice - ČR 2 mm)
+  * vlhkost půdy
+        * půdní vlhkost má vliv na erodibilitu půdy (působením kohezních sil absorbovaného vodního filmu na povrchu částic a podporou tvorby půdních agregátů a škraloupu na povrchu půdy)
+        * voda zvyšuje vlivem svého povrchového napětí vzáj. soudržnost částic; ve vodě jsou rozpuštěny anorg. a org. látky  stmelování částic půdy do shluků (agregátů) a hrud nebo tvorba povrchové krusty - škraloup (kůra).
+  * drsnost půdního povrchu
+        * závisí na půdním agregátu, vegetačním krytu a mikroreliéfu půdy
+==== územní ====
+  * délka pozemku ve směru převládajících větrů
+        * odnos půdy: nulový na počátku pozemku, roste exponenciálně s jeho délkou (čím delší erodovaná plocha, tím větší množství částic se uvolní); po určité vzdálenosti - závislé na drsnosti povrchu - je odnos konstantní (rovná se transportní síle větru)
+  * sklonitost pozemků 
+        * erodibilita sklonitých pozemků je obecně vyšší než u pozemků vodorovných (rychlost větru se nad terénními vlnami zvyšuje a tím i odnosná síla větru) – omezeno délkou svahu, např. pro sklon 3% je to 100 m -> delší pozemek než limit = sklonitost pozemku nemá vliv na zvýšení erozní činnosti větru
+==== porostní ====
+  * plošný vegetační kryt
+        * nejúčinnější ochrana půdy před větrnou erozí = udržovaný vegetační kryt (max. efekt = hustě vysévané plodiny X menší účinnost = řádkové plodiny); vhodná ochrana také strniště (posklizňové zbytky plodin bez zaorání)
+        * chrání před přímým nárazem větrného proudu, absorbuje značnou část jeho síly -> sníží jeho rychlost
+  * vegetační bariéry
+        * překážky ze stromů, keřů nebo pásů plodin, které snižují rychlost větru na povrchu půdy a zachycují nesené půdní částice
+        * husté nepropustné / propustnější bariéry které mají větší účinek na snížení větru ve větší vzdálenosti od překážky a pásy plodin, které mají nejnižší účinnost
+        * ale: malý počet adabtabilních druhů stromů a keřů, dlouhá doba vzrůstu, rozdrobení pozemků /bariéry lze i kolem cest a toků/ a poměrně vysoké náklady na zřízení bariéry
+
+
+====== odhad hrozby větrné eroze ======
+  * E = ( T + R + S + O + B ) * P * V * U
+  * T = faktor polohy
+  * R = faktor relativní výšky a hloubky
+  * S = faktor sklonu
+  * O = faktor orientace reliéfu vůči převládajícím erozním větrům
+  * B = faktor bariérního efektu překážek
+  * P = faktor erodovatelnosti půdy
+  * V = faktor nadměrné vlhkosti
+  * U = faktor využití země (orná půda, ostatní je nula)
+  * záporná suma prvních 5 faktorů -> ne eroze ale AKUMULACE
+
+====== určení ohrožení pozemků větrnou erozí ======
+  * na základě posouzení erodovatelnosti
+  * stanoven měřením v aerodynamickém tunelu (Pasák, 1967)
+  * EV = 22,02 - 0,72Vv - 1,69Wv + 2,64Rv
+        * EV = erodovatelnost půdy větrem (g/m2)
+        * Vv - obsah neerodovatelných půdních agregátů > 0,8 mm (%)
+        * Rv - očekávaná rychlost větru při povrchu půdy (m/s)
+        * Wv - poměrná vlhkost půdy v hmotnostních procentech
+
+====== potenciální intenzita větrné eroze ======
+  * ztrátou půdy z jednotky plochy (t.ha‐1) za určitou dobu (rok)
+  * na intenzitě se podílejí klimatické faktory, půdní poměry, územní poměry a vegetační poměry
+
+==== WEQ (Wind Erosion Equation) ====
+  * E = I . K . C . ha . L . V
+  * E = potenciální ztráta půdy větrnou erozí (t . ha-1. rok -1)
+  * I = faktor erodibility půdy - pot. ztráta půdy z hladkého, rovného a nechráněného pozemku v t . ha-1. rok -1
+  * K = faktor drsnosti půdního povrchu
+  * C = klimatický faktor odvozen na základě hodnot rychlosti větru a vlhkosti území
+  * L = faktor délky pozemku ve směru převládajícího větru
+  * V = faktor vegetačního krytu půdy
+  * 
+
+
+
+
+
+----
+  * saturace
+        * póry v půdě jsou zaplněny vodou, minimum nebo žádný vzduch ---> rostliny nemohou přijímat vodu (trvání saturace max 2 – 5 dnů)
+        * zmáčknu půdu -> vyteče voda
+  * polní kapacita
+        * po skončení drenáže
+        * vetší póry vzduch, menší voda
+  * bod vadnutí
+        * půda není suchá, ale nedostupná pro rostliny
+        * adheze vody v minerálních zrnech
+
+
+====== vlhkost půdy ======
+  * objemová vlhkost
+  * čidla decagon
+  * čidla VIRRIB
+  * instalace - porušení půdy a vzduchové kapsy
+  * odporová měření
+  * permitivita (voda x půda)
+  * teplota, salinita
+  * **měří se**:
+        * tenzometr
+        * odporové metody (elektrický odpor pórovitého prostředí se mění s vlhkostí) - sádrové bločky
+        * gravimetricky
+                * vzorek se zváží v momentálním stavu a ve stavu po vysušení a počítá se rozdíl
+        * kapacitní
+        * DPZ
+
+
+====== protierozní opatření ======
+  * organizační
+        * pásové střídání plodin
+        * šířka pozemků do 50m
+        * výběr plodin
+        * setí kolmo k větru
+  * agrotechnická
+        * bezorebné setí
+        * mulčování
+        * jarní orba
+        * podmítky
+        * závlahy
+        * strukturované látky
+        * podsevy
+  * technická
+        * zábrany
+        * větrolamy
+
+====== European Soil Portal (ESP) ======
+  * pro Eu a švajc
+  * Založený na aktuálním družicovém snímkování (poslední data z roku 2008)
+  * obsahuje 4 modely:
+        * PESERA (model zpracovávající erozi půdy vodou – pro celé území EU)
+              * regionální diagnostický nástroj, který by měl nahradit USLE (se kterým částečně spolupracuje)
+              * Při velmi dobrých vstupních datech má vynikající výsledky
+              * Výstupem jak data, tak i mapový server
+              * vstupní data: typ půdy, landuse, DEM, klimatické faktory
+        * MESALES (zahrnuje i další faktory: sklon, klima, reliéf, landuse, …)
+        * SMIP (jen pro Itálii, spíše testovací projekt)
+        * ClimChAlp (erozní model pro Alpy)
+

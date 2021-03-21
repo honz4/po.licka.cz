@@ -1,0 +1,257 @@
+  * výrazný přechodný vzestup hladiny toku, způsobený náhlým zvýšením průtoku nebo dočasným zmenšením průtočnosti koryta
+  * srážková povodeň, sněhová povodeň, smíšená povodeň
+
+
+  * dělení povodní:
+        * regionální: řeky na středních a dolních tocích, dají se většinou předpokládat, voda teče pomaleji, škody –zaplavení budov, namočení věcí, bahno
+                * morava '97, čechy 2002
+        * bleskové: během několika desítek minut, horní toky, úzká koryta, menší řeky, strmý spád, velká rychlost povodně, velké škody na majetku a ztráty na životech
+  * ochrana před povodněmi
+        * nepřimování toků, hráze
+        * technické: přehrady a nádrže, meandry, poldry, lužní lesy
+  * předpověď:
+        * využití statistických metod, založených na naměřených údajích
+        * využití modelů a mapování již proběhlých povodní
+        * monitorování vzniku a vývoje srážkové činnosti
+  * příčiny vzniku:
+        * srážky, nasycení půd, kapacita koryta, retenční kapacita krajiny
+  * velikost a doba povodně:
+        * tvar povodí
+        * velikost povodí
+        * itenzita a doba trvání deště
+        * propustnost půdy
+        * rozsah a druh vegetace
+        * přirozené a umělé nádrže
+
+  * SPA (stupeň povodňové aktivity)
+        * Jednotlivé stupně povodňové aktivity jsou vyhlašovány vždy příslušnými pověřenýmiúřady, respektive orgány státní správy (veřejné správy), a to v případě, že je dosaženo předem stanovených limitů vodních stavů či předem určených mezních průtoků vodyv tzv. hlásných místech danéhovodního toku(nebo v případě, kdy dojde ke změně dalších relevantních parametrů vodního toku daných platným povodňovým plánem v příslušném konkrétním místě)
+        * jsou 3(stav bdělosti, stav pohotovosti, stav ohrožení
+
+====== hydrodynamické modely ======
+  * **ustálené (stacionární)**
+        * všechny charakteristiky proudu v čase konstantní a závisí pouze na poloze částice
+        * **rovnoměrné** - kromě průtoku jsou konstantní i parametry koryta (tvar, drsnost, rychlost atd.)
+        * **nerovnoměrné proudění** – průtok konstantní, ale všechny ostatní charakteristiky koryta jsou po jeho délce proměnné
+  * neustálené (nestacionární proudění)
+        * Za neustáleného proudění jsou základní veličiny funkcí času a polohy
+        * při pomalu se měnícím neustáleném proudění dochází v korytě k šíření povodňové vlny
+  * Saint Venantova rovnice
+        * používá rovnici kontinuity a pohybové rovnici
+        * implementována v hydrodynamických modelech (HEC-RAS, MIKE 11)
+        * pohybová rovnice:
+  * struktura: povrchový odtok, odtok v korytě, odtok ze sněhu, intercepce, srážky, evapotranspirace, proudění v nenasycené zóně, proudění v nasycené zóně
+  * odtok: celkové množství vody, které proteče profilem za daný čas (m3, mm)
+  * surface runoff:
+        * voda, která po ploše odtéká po povrchu
+        * vznik povrchového odtoku: překročení infiltrační nebo retenční kapacity a nebo opětovná exfiltrací vody v nižších částech svahu
+        * metody: metoda kinematické vlny, rovnice kontinuity a zákona zachování energie a hybnosti, výpočet podle Manning-Strickera
+  * direct runoff:
+        * povrchový odtok + rychlá část odtoku v nenasycen zóně půdního profilu
+        * metody: metoda jednotkového hydrogramu, metoda kinematické vlny
+
+  * vliv F-G charakteristik na odtok:
+        * předběžné faktory: nasycenost povodí, stav sněhové pokrývky
+        * příčinné faktory: synoptická situace, srážka
+        * ovlivňující faktory: geologie, reliéf, landuse, půdní vlastnosti, antropogenní vlivy
+  * specifický odtok: množství vody, které v průměru odteče z jednotky plochy za jednu sekundu
+
+
+==== aqualog ====
+  * povodí Labe
+  * hydrologický modelovací systém AQUALOG integruje srážko-odtokový model **SACRAMENTO (SAC-SMA)** včetně jeho sněhové komponenty **SNOW17**, dále model proudění vody korytem **TDR**, a model simulující průtok nádrží **MAN**
+  * Speciální databáze AqauBase, která je napojena na operativní datovou základnu ČHMÚ a zpracovává potřebná data z různých zdrojů. AquaBase připravuje vstupní datový soubor pro chod modelu AquaLog.
+  * Hydrologický předpovědní systém (model) se skládá zněkolika komponent (modelů), znichž každá popisuje některé děje vytvářející a ovlivňující celkový odtok zpříslušného povodí
+
+==== SNOW17 ====
+  * při modelování sněhové pokrývky se jako vstupy používají charakteristiky sněhu (zejména tzv. vodní hodnota sněhu) a dalších meteorologických prvků (teploty a srážek) a to včetně předpovědí
+  * ten umožňuje počítat přírůstek sněhové pokrývky v povodí i její následné tání
+  * SNOW17 patří mezi takzvané degree-daysněhové modely (tání je dáno akumulací teploty a koeficientem intenzity tání v závislosti na ní)
+
+==== model simulující chování nádrží (MAN)====
+  * vodní nádrže a jezy umožňují manipulovat svodou vtocích a tak ovlivňují přirozený režim toku, včetně průchodu povodňových vln
+  * při průchodu vody nádrží platí jiné zákony než při proudění vody říčním korytem, musí se využít model simulující chování nádrží
+  * Model pro operativní simulaci provozu nádrží MAN na tocích je hydrostatický model operující s přítokem, odtokem, výškou hladiny v nádrži a křivkou objemových charakteristik příslušné nádrže
+  * Sofistikovanější verze modelu je použita pro simulaci Vltavské kaskády. V tomto případě jsou zohledněny jednotlivé odtokové objekty (elektrárny, dolní výpusti i přepady) a jejich nastavení
+  * ČHMÚ v operativním provozu tento model nevyužívá a vkládá do předpovědního systému naměřeného a předpokládaného odtoku z nádrží podle údajů státních podniků Povodí
+
+==== model proudění vody korytem ====
+  * v předpovědních modelech mohou být použity hydraulické x hydrologické modely transformace vody korytem
+  * hydraulické modely používají podrobné informace o terénu v okolí toku
+  * hydrologické modely jsou jednodušší, ale stabilnější a mají menší nároky na vstupy
+  * AquaLog používá komponentu TDR, založenou na rovnici Muskingam
+
+==== srážkovo odtokový model ====
+  * chceme-li předpovídat na delší časové období a v horních částech povodí, musíme použít srážko-odtokový model
+  * ten používá jako vstupy údaje o naměřených srážkách
+  * jako vstup je možné použít také předpověď srážek a ještě více tak prodloužit předstih předpovědi
+  * v povodí Labe je používán systém Aqualog v němž je implementován srážko-odtokový model Sacramento (SAC-SMA
+
+==== HEC-HMS ====
+  * cíl -simulace procesu odtoku srážek z povodí
+  * jedná se především o celistvý (lumped) model se soustředěnými parametry. Současný intenzivní vývoj směřuje k vývoji komponent s distribuovanými parametry
+  * freeware
+  * Na počátku devadesátých let se oddělila samostatná vývojová větev, model WMS, který směřuje více k modelům distribuovaným a také modelům, ve kterých se výrazně uplatňuje spolupráce s GIS. Model HEC-HMS je široce používaný srážko-odtokový model, který je možné využít k řešení celé řady hydrologických úkolů
+  * klíčové prvky:
+        * **použití** – simulace odtoku srážek -> výška hladiny, předpověď proudění, vliv antropogenní činnosti, návrhy přepadů nádrží, redukci povodňových škod, regulaci toků
+        * vstupy:
+              * model povodí (povodí, dílčí povodí, úsek toku, soutok, zdroj, odběr, nádrž, odbočka)
+              * meteorologický model (bodové nebo rastrové srážky, záznamy o průtocích, výšce vodní hladiny, teplotě, slunečním záření, ...)
+              * řízení (začátek a konec simulace, časový interval)
+  * hlavní komponenty:
+        * Srážky
+        * Sněhový model
+        * Evapotranspirace
+        * Objem odtoku (Runoff-Volume Model)
+        * Přímý odtok (Direct-Runoff Model)
+        * Podzemní odtok(Baseflow Model)
+        * Korytový odtok (Routing Model)
+
+==== MIKE-SHE ====
+  * koncepční, distribuovaný, případně semi-distribuovaný model
+  * možné řešit širokou škálu hydrologických úkolů, např. analýzu, plánování a řízení v oblasti vodních zdrojů, posuzování vzájemných interakcí mezi povrchovou a podzemní vodou nebo řešení technických zásahů v povodí
+  * komerční produkt
+  * hlavní komponenty:
+        * skládá z více komponent, které počítají objem a distribuci vody v jednotlivých fázích odtokového procesu
+        * model akumulace a tání sněhu (energetická bilance i degree-day)
+        * Povrchový odtok
+        * Podpovrchový odtok v nenasycené zóně
+        * Model proudění podzemní vody
+  * nároky na vstupní data:
+        * Srážko-odtokový model MIKE-SHE vyžaduje data, která jsou pro tento typ modelu běžná. Pracuje s ASCII formáty, případně využívá data z vlastní databáze půd a prostřednictvím GIS nadstaveb zpracovává i prostorová data
+        * Důležité jsou vlastní data změřená přímo v povodí – odebrání půdních vzorků (komponenta proudění v nenasycené zóně), zaměření příčných profilů koryta, výpočet nebo odhad drsnostních součinitelů nebo data získaná analýzou satelitních a leteckých snímků (např. aktuální i historická data vegetačního pokryvu).
+
+
+==== Sacramento-Soil Moisture Accounting (SAC-SMA) ====
+  * srážko-odtokový model, který je součástí knihovny modelovacích technik systému NWSRFS (National Weather Service River Forecast System)
+  * autoři -národní meteorologickou služba (NWS)
+  * parametrizace charakteristik půdní vlhkosti
+  * hlavní komponenty:
+        * Povodí je rozděleno na několik zón, které jsou propojeny do systému nádrží.
+          * -Evapotranspirace
+          * -Vázaná (kapilárně vázaná) voda (TensionWatter)
+          * -Volná voda (Free Watter)
+          * -Povrchový odtok (SurfaceFlow)
+          * -Horizontální odtok (LateralDrainige)
+          * -Vertikální odtok –perkolace (VerticalDrainige)
+        * Základem půdního modelu je horní a spodní zóna. Obě mohou obsahovat vázanou i volnou vodu. Jakmile se v horní zóně naplní nádrž vázané vody, začne se plnit nádrž obsahující volnou vodu a současně perkolujedo spodní zóny. Po překročení kapacity horní nádrže začne povrchový odtok. Voda proudící do spodní nádrže plní nejprve její „vázanou“ část a poté i „volnou“ část. Odtok z těchto dvou zón se nazývá základní (bazální) odtok. Celkový odtok je tvořen součtem odtoku ze všech dílčích zón.
+  * nároky na vstupní data:
+        * Vzhledem k tomu, že se jedná o model půdní vlhkosti, jsou velmi důležitá data vyjadřující hydrologické charakteristiky půdy (pórovitost, polní kapacita, nasycená hydraulická vodivost apod.)
+  * srážko-odtokový model Sacramento umožňuje jak automatickou, tak manuální kalibraci parametrů. Těch je k dispozici celkem 26 a dají se rozdělit do několika skupin, které se vážou k určité zóně (spodní a horní zóna vázané nebo volné vody, přímý odtok, evapotranspirace
+  * celý systém je navázán na další komponenty (sněhový model SNOW17, korytový model TDR, řízení nádrží MAN) a celou řadu programových prostředků od napojení na systémy automatického sběru dat, přes jejich databázové zpracování (v Aqualogu k tomu slouží databáze Aquabase) až po varovné systémy protipovodňové ochrany
+
+==== hydrog ====
+  * model určený k simulaci povodňových situací, vydávání operativních předpovědi průtoků
+  * srážko-odtokový model HYDROG byl vyvinut pro potřeby spojité simulace odtoku z povodí s nádržemi
+  * v ČHMÚ je využíván pro předpovědi v Ostravě (povodí Odry, Bečvy a horní Moravy) a v Brně (povodí Dyje)
+  * vstupními daty jsou údaje o průtocích, srážkách (v zimě i údaje o teplotě a výšce sněhové pokrývky)
+  * hlavní komponenty:
+        * Na schematizaci povodí aplikuje HYDROG teorii grafů kde hrany představují koryta toku, uzly odběrná místa, místa řízení nebo uzly říční sítě
+        * Plochy grafu pak tvoří povodí nebo jejich části. Charakteristiky, které se k plochám vztahují, jsou považovány za konstantní.
+        * Podzemní odtok je zjednodušen tak, že v určitém časovém okamžiku je počítán jako poměr k celkovému podzemnímu odtoku v závěrovém profilu (vážen podle ploch dílčích povodí).
+  * nároky na vstupní data:
+        * potřeba obdobné datové vstupy jako v jiných modelech
+        * model vyvíjen pro operativní předpověď a díky tomu klade důraz především na správný vstup a interpretaci srážek
+        * radarové odhady nebo lze zakomponovat výstupy meteorologického předpovědního modelu ALADIN
+        * data lze spravovat v Aquabase (součástí hydrologického předpovědního systému Aqualog)
+        * stavové charakteristiky povodí (sklon a drsnost povrchu, půdní charakteristiky atd.)
+        * Celkový podzemní odtok je simulován jako jedna nádrž a jeho časový průběh je dále řešen pomocí regresního modelu.
+  * Model HYDROG nevyžaduje kontinuální provoz, je ho tedy možné spustit jen v případě výskytu povodně. Počáteční podmínkou je velikost podzemního odtoku.
+
+==== HEC –RAS Hydrologic Engineering Centers -River Analysis System ====
+  * nekomerční software vyvíjený U.S. Army
+  * modelování průtoku vody říčním korytem
+  * úpravy schématu říční sítě
+  * úpravy příčných profilů
+  * modelování překážek v korytě (mosty, propustky, jezů, ...) a toku pod nimi
+  * interpolace příčných profilů
+  * výpočet transportu sedimentů
+  * pro práci se doporučují znalosti hydrodynamiky
+  * 1-D matematický model proudění o volné hladině: ustálené a neustálené proudění
+
+==== Geometrický model ====
+  * základem -schematizace říční sítě
+  * celá říční síť –> rozdělení na části
+  * umožňuje řešit nerovnoměrné proudění ve větvené síti (síť může obsahovat jak rozdvojení tak i spojení větví)
+  * výpočty vprofilech kolmo na směr toku
+  * překážky (mosty, jezy) –podmínkou je existence příčného profilu bezprostředně nad i pod objektem
+  * Kromě vytvoření geometrického modelu říční sítě včetně objektů je pro simulace nerovnoměrného proudění nutno zadat okrajové podmínky
+  * Na prvním příčném profilu po směru toku je touto podmínkou vstupní průtok, na posledním příčném profilu pak výška hladiny odpovídající vlastnímu průtoku
+  * Možnosti nastavení vstupních podmínek jsou podrobně zmíněny vuživatelském manuálu HEC-RAS
+  * **Výpočet nerovnoměrného proudění**:
+        * Pro výpočet je možné ukládat soubory obsahující kombinaci některého zvytvořených souborů sgeometrickými daty se souborem, který obsahuje data okrajových podmínek. Vkaždém plánu jsou tak uchovány potřebné údaje ke spuštění výpočtu nerovnoměrného proudění.
+        * Je možné nastavit předpokládaný charakter proudění, tj. říční, bystřinné nebo smíšené
+  * vstupní data:
+        * možnost přípravy v ArcGIS (extenze HEC-GeoRAS)
+        * příprava geometrických dat –velmi důležitá a náročná
+        * možnost importu geometrických dat
+        * možnost přípravy geodat vArcView 3.x pomocí nadstavby HecGeo-Rasa následné vytvoření importního souboru.
+        * po provedení hydraulických výpočtů je možné geometrická data exportovat zpět do GIS
+
+==== HAZUS ====
+  * analýza říční a pobřežní povodně
+  * odhad potenciální škody na všech typech budov, zařízeních, dopravních tepnách, dopravních prostředcích a zemědělském území
+  * Model používá ArcGIS pro zobrazení dat srizikem povodní a výsledky výpočtů škod a ztrát na budovách a infrastruktuře
+  * úrovně modelu:
+        * 1. využívá existující národní katalogy a datové sady hazardů
+        * 2. využívá uživatelsky podporovaná lokálními daty pro přesnější analýzy
+        * 3. dovoluje uživatelům doplnit jejich vlastní techniku speciálních podmínek a zlepšit národní katalogy datových sad
+  * Povodňový model poskytuje uživatelům možnost:
+        * Formulovat a ohodnotit metodu a vývoj obecných zmírňovacích strategických programů ke snížení povodňových ztrát
+        * Odhadnout potřebné zdroje v reliéfu pro katastrofu
+        * Zlepšit záchrannou reakci plánovanou skrze scénáře analýz
+        * Plánovat obnovující program vprůběhu povodní
+        * Plánovat odstranění trosek a pomoc následně po povodni
+        * Odhadnout vystěhované domácnosti a požadavky na přístřeší
+        * Provést vícenásobné úrovně analýz snárodní úrovní datové sady stejně jako uživatelskými a expertními daty
+
+==== algoritmy ====
+
+  - Model Algorithms for Rebalancing the Economy
+  - The Time Dimension
+  - Flow Regulation
+  - Velocities
+  - Riverine Flood Hazard (plocha povodí je rozdělena na pixly, pokud je výška pixelu menší než výška hladiny, je přiřazen do zátopové zóny)
+  - Algorithms for estimating how the economy responds to these inputs (Algoritmy pro odhad, jak ekonomika reaguje na tyto vstupy)
+
+==== SWAT (Soil and Water Assessment Tool) ====
+  * hydrologický koncepční model vyvinutý USDA ARS (United States Department of Agricultural, Agriculture Research Service)
+  * predikce dopadů zemědělského managementu na bilanci sedimentů, polutantů nebo živin ve vodním prostředí
+  * SWAT má charakter hydrologického transportního modelu, který modeluje časové změny sledovaných veličin
+  * hlavní komponenty:
+        * Model rozděluje povodí na dílčí povodí, které jsou dále děleny na homogenní celky se stejným chováním –HRU (Hydrological Response Units)
+        * Tyto jednotky jsou v daném měřítku homogenní z hlediska land use a půdních vlastností.
+        * Infiltrace může být vypočtena distribuovanou metodou SCS CN (stejně jako to umožňuje HEC-HMS) nebo metodou Green-Ampt.
+        * Pro transport sedimentů využívá modifikovanou rovnici USLE (MUSLE, Modified Universal Soil Loss Equation). Pomocí dalších metod mohou být do modelu začleněny výpočty vlivu nádrží, zavlažování a transportu živin a znečišťujících látek.
+
+==== Model Green-Ampta ====
+  * Model Green-Ampta je zjednodušeným fyzikálním popisem infiltrace. Půdní profil je rozdělen na dvě zóny, nasycenou (s úplnounasyceností) a nenasycenou (s nasyceností odpovídající počátečnímu stavupůdy). Přechod mezi zónami, čelo zvlhčení, je rovnoběžný s povrchem a s pokračující infiltrací postupuje do větší hloubky. Neuvažuje se vlivhladiny podzemní vodyči nepropustného podloží anitlakvodního sloupce na povrchu.
+  * Výpočet potenciální infiltrace vychází zDarcyho zákona. Parametry modelu jsounasycená hydraulická vodivost,vlhkostní tlaková výška(sací tlak) na čele zvlhčení,efektivní pórovitosta počáteční nasycenost půdy.
+
+  * vstupní data:
+        * Klimatologická data představují časové řady srážek, teploty vzduchu, solární radiace, relativní vlhkosti vzduchu a rychlosti větru v časovém kroku, který odpovídá účelu aplikace a velikosti povodí.
+        * K odvození parametrů je využívána databáze půd s informacemi o půdním typu, zrnitosti, hloubce půdy a hydrologické skupině půdy.
+
+==== HBV ====
+  * hydrologický model HBV je vyvíjen od počátku 70. let ve švédském meteorologickém a hydrologickém institutu
+  * je součástí modelovacího systému IHMS (Integrated Hydrological Modelling System)
+  * koncepční model využívaný jak pro krátkodobé tak kontinuální simulace odtoku z povodí není sice v Česku moc rozšířený
+
+==== další modely ====
+  * WaSiM-ETH (Water Flow and Balance Simulation Model)
+  * WMS (Watershed Modelling System)
+  * TOPMODEL
+  * KINFIL
+  * DesQ-MaxQ
+  * NASIM (Niederschlag-Abfluss Simulation Model)
+  * SWIM (Soil and Water Integrated Model)
+  * 
+
+
+
+
+
+
+
+
+
+

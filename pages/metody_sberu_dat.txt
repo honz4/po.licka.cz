@@ -1,0 +1,5 @@
+==== dotazníkové šetření ====
+  * výzkumná otázka
+  * cílová skupina
+  * metoda
+  * nástroj

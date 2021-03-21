@@ -1,0 +1,164 @@
+<WRAP center round box 60%>
+interaktivita na straně serveru
+</WRAP>
+
+  * cíl: dynamické generování webového obsahu / rozhraní
+====== typické znaky webových aplikací ======
+  * **tenký klient**
+        * aplikace potřebuje pouze prohlížeč, není nutno instalovat další software a hardwarové nároky jsou poměrně nízké
+        * velmi nízké provozní náklady
+  * **bezestavovost**
+        * při této činnosti se neuchovává spojení s klientem -  nelze přímo rozlišit, který klient zaslal který požadavek
+  * **cookies**
+        * malé textové soubory uložené na straně klienta
+        * informace je posílána na server spolu s každým požadavkem  - možno identifikovat jednotlivé klienty
+        * vzniká virtuální spojení mezi klientem a webovým serverem
+  * **session proměnné**
+        * speciální proměnná, jejíž obsah je uchováván i při přechodu uživatele mezi jednotlivými stránkami
+        * uchovávají se v paměti serveru a s klientem jsou svázány přes unikátní identifikátor uložený v cookies prohlížeče
+  * **prostředky skriptování**
+        * externí aplikace napojená na web server
+        * aplikační server, který řeší i webový přístup
+        * embedd skriptování
+
+====== CGI (common gateway interface) ======
+  * protokol na propojení externích aplikací s webovým serverem
+  * -> vyšší funkcionalita a interaktivita pro webové stránky
+  * programem CGI může být jakýkoliv program spustitelný v OS
+  * aplikace zpracuje nějaký skript ve webové stránce  -> webovému serveru vrátí statickou stránku -> pak ji pošlou klientovi jako výsledek požadafku
+
+===== rysy CGI =====
+  * jsou závislé na platformě (OS)
+  * vysoká systémová režie na zpracování jednoho požadavku
+        * zadám požadavek -> do paměti (mojí) je zaveden celý program -> ten je spuštěn jako samostatný proces s vlastním paměťpvým prostorem -> pak je program odstraněn z paměti
+        * každý požadavek takhle nutí server vytvořit nový proces, což zatěžuje jednak procesor a jednak zabírá paměť
+        * čím víc požadavků od klientů současně -> tím horší výkon serveru
+  * bezpečností riziko
+
+===== princip =====
+  - prohlížeč shromáždí data z vyplněného formuláře (Ulice=Petrvaldska_129&Mesto=Ostrava)
+  - pak pošle požadavek na URL adresu (ta je uvedena v ACTION)
+  - HTTP server obdrží pomocí TCP/IP protokolu HTTP zprávu, kterou zpracuje a zjistí, jaká je metoda použita pro ten daný program (POST)
+  - začíná proces výměny informací
+  - webserver nastavuje proměnné prostředí (jméno serveru, metoda požadavku, typy obsahu, cesta ke skriptu apod.)
+  - HTTP server spustí programy s parametry zadanými pomocí URL
+  - CGI program načte proměnné z prostředí a zjistí, jaké metodě odpovídají (POST)
+  - CGI program přes standardní vstup (stdin) obdrží obsah těla HTTP zprávy (řetězce name-value) a rekonstruuje z něj formulářová data
+  - CGI program zavolá aplikační (mapový) server a přeloží požadavek do formátu nebo množiny proměnných, kterým mapový server může porozumět (jeden požadavek = jeden proces. Více současných požadavků = více současných procesů)
+  - aplikační server zpracuje požadavek - tzn. převede adresu na prostorovou informaci a vytvoří mapu, v jejímž středu se nachází požadovaná adresa. Pak pošle výstup zpět CGI skriptu
+  - CGI přidá k výstupu HTML kód a výsledek pošle HTTP serveru
+  - HTTP server obržuje výsledky a ukončuje CGI program
+  - pak se u mě, jakožto u klienta, zobrazí html stránka s obrázkem mapy
+
+===== CGI+ serverová rozšíření =====
+  * programy, které fungují v kontextu webového serveru a zpracovávají události serveru (HTTP požadavky)
+  * na rozdíl od CGI zůstávají v paměti serveru a jsou připraveny k dalším službám, dokud se server nerozhodne, že už je nepotřebuje
+  * v C++, složitá na programování
+  * Microsoft ISAPI
+
+===== komponentové technologie =====
+  * knihovna ADO
+        * používá se pro přístup k databázi v prostředí ASP
+        * zaobaluje poměrně složitý přístup k datovým zdrojům do jednoduchého rozhraní
+====== skriptovací jazyky v kódu stránky ======
+  * zpravidla interpretované
+  * neumožnují super programování (dědičnost)
+  * nevyžadují striktě typování proměnných
+  * program zpravidla promíchám s HTML kódem
+===== PHP =====
+  * skriptovací programovací jazyk, určený především pro programování dynamických internetových stránek
+  * skripty prováděny na straně serveru - k uživateli přenášen až výsledek jejich činnosti
+  * obsahuje: rozsáhlé knihovny fcí pro zpracování textu, grafiky a práci se soubory, přístup k většině databázových serverů (MySQL, ODBC, Oracle, PostfreSQL, MMSQL), podporu celé řady protokolů (HTTP, SMTP, FTP, IMAP, POP3)
+  * je dynamicky typový , má heterogenní pole, instalaci PHP na webovém serveru můžu provést buď pomocí přímého modulu (SAPI) pro webový server (APACHE, Netscape,...) nebo přes CGI procesor (php.exe), který zpracovává soubory s php skripty
+  * uživatel může obdržet z jednoho HTML dokumentu s PHP skripty pokaždé jiný výsledek, aniž by se dozvěděl, jak je generován
+
+===== ASP.NET (microsoft) =====
+  * součást .NET Frameworku pro tvorbu webových aplikací a služeb
+  * založen na CLR (Common Language Runtime) - sdílen všemi aplikacemi postavenými na .NET Frameworku
+  * aplikace jsou rychlejší (u skriptovacích stránek jsou stránky při ∀ přístupu znovu a znovu parsovány)
+  * ASP.NET WebForms - ulehčuje přechod od programování klasických aplikací pro Windows do prostředí webu:
+        * Controls, Button, Labels
+        * prvkům lze přiřazovat vlastnosti či zachytávat události
+        * View State, Session State
+  * je to lepší verze než ASP, novější!!!
+        * díky kompilovanému kódu běží aplikace rychleji a více chyb je zachyceno už při vývoji
+        * uživatelsky definované ovládací prvky lze použít jako šablony => významná redukce duplicity kódu
+        * můžu si vybrat hodně programovacích jazyků
+        * 
+==== ASP ====
+  * ACTIVE SERVER PAGES
+  * technologie nezávislá na programovacím jazyce
+  * od Microsoftu
+  * kód je vykonáván na straně serveru
+  * programovací jazyky: VBScript, Jsript
+  * pomocí ASP lze kombinovat HTML stránky, skripty, COM komponenty -> interaktivní webové stránky nebo výkonné webové aplikace
+==== DOT NET ====
+  * soubor technologií v softwarových produktech, které tvoří celou platformu, dostupná pro web, desktop, mobile
+  * základní komponentou je Microsoft .NET Framework - prostředí potřebné pro běh aplikací a nabízející jak spouštěcí rozhraní, tak potřebné knihovny
+  * je jedno jaký programovací jazyk použiju (C#, VB.NET)
+  * protože vždycky si to překládá do mezijazyka
+  * **CIL (Common Intermediate Language)**
+        * standardizovaná specifikace jádra .NET
+        * nezávislý na HW platformě
+        * specifikace definuje prostředí, které umožňuje používání více vysokoúrovňových programovacích jazyků na různých platformách, aniž by bylo nutné přepisovat jejich překladače s ohledem na zvláštnosti konkrétní architektury
+  * **CTS (Common Type System)**
+        * sada datových typů a operací, které se používají v mnoha programovacích jazycích
+  * metadata
+        * informace o struktuře programu je popsána jazykově nezávislým způsobem, takže může být zpřístupněna z různých jazyků a prostřednictvím různých nástrojů
+  * **CLS (Common Language Specification)**
+        * sada základních pravidel, která by měl splňovat každý jazyk vyhovující specifikaci CIL
+  * VES (Virtual Execution System)
+        * používá metadata k tomu, aby zajistil spolupráci samostatně vytvořených kusů kódu za běhu programu
+
+===== JSP (Sun) =====
+{{:jsp.png?nolink&500 |}}
+==== JAVA ====
+  * platformě nezávislý programovací jazyk
+  * objektově orientovaný
+  * je to i platforma
+        * obsahuje velmi mnoho již hotových knihoven tříd - pro vytváření grafických rozhraní, přes třídy pro přístup k databázím, až po šifrování a kompresi dat
+        * + knihovny a funkce ve formě API
+  * VM (Virtual Machine)
+        * abstraktně definované prostředí spolu s příslušným emulátorem -> pro různé OS pouze jedno rozhraní -> jednotlivá volání za běhu převáděna do skutečné platformy
+  * **co z toho můžu udělat:**
+        * **applety (spouští se jako část stránky)**
+        * **desktop aplikace**
+        * **CGI aplikace** (spustitelný program, který zpracuje předané parametry a výsledek zapíše jako na standardizovaný výstup)
+        * **Java Servlety a JavaServer Pages (JSP)** (umožňují na straně serveru dynamické generování dokumentů jako HTML, XML)
+
+  * platformy
+        * Standard Edition - pro stolní PC
+        * Enterprise Edition - pro aplikační servery
+        * Micro Edition - pro mobily, mp3 apod
+
+==== Servlet a JSP ====
+  * //Java Servlet Pages//
+  * Servlet = program napsaný v Javě a běžící na straně serveru
+  * JSP = technologie od SUNu pro tvorbu dynamických webových stránek na platformě Javy. Je to vyšší level abstrakce servletu.
+  * 1. dokument je při prvním zavolání přeložen do jazyka Java -> vzniká servlet (.java)
+
+=== elementy JSP ===
+  * **skriptovací elementy a proměnné (kód)**
+      * deklarace, výraz, skriplet :D
+  * **direktivy**
+      * instrukce, jejímž prostřednictvím se snažíme kontejneru sdělit, jak má sestavit určité pasáže programového kódu, které se stanou součástí nového servletu
+      * formát direktivy: <%@ direktiva atribut1=“hotnota1” ... atributN=“hodnotaN” %>
+      * //Include, Taglib, Page//
+  * **intrukce (akce)**
+      * založeny na XML
+  * **elementy XML**
+
+=== implicitní objekty ===
+  * Určité užitečné objekty, názvy proměnných a metod jsou na stránce JSP tvořeny automaticky - jsou součástí procesu překladu stránky na zdrojový kód (servlet)
+  * nelze je použít v deklaracích
+  * .request, response, out, session, application, config
+
+== servlety ==
+  * Servlety implementují princip požadavek-odpověď
+  * Java Servlet API  - množina tříd definující standardní rozhraní pro obsluhu požadavků a odpovědí mezi klientem a serverem
+
+  * **TOMCAT**
+        * jeden z nejpoužívanějších Servlet/JSP kontejnerů pod Javou
+
+
+

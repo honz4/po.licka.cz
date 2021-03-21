@@ -1,0 +1,81 @@
+  * http://gdal.org/ogr_formats.html
+  * GDAL (Geospatial Data Abstraction Library) je knihovna určená pro čtení a zápis rastrových a vektorových GIS formátů. Knihovna je vyvíjena pod hlavičkou Open Source Geospatial Foundation a vydávána pod licencí X/MIT. Knihovna používá jednoduchý abstraktní datový model pro všechny podporované datové formáty. Kromě toho nabízí také řadu užitečných nástrojů pro příkazovou řádku určených pro konverzi a zpracování dat. 
+//V dřívějšich verzích byla tato knihovna rozdělena na dvě části. GDAL pracující s rastrovými daty a OGR pro vektorová data. Ve verzi 2.0 byly tyto dvě větve sloučeny. Stále však můžete narazit na označení části pro práci s vektory jako OGR.//
+  * GDAL byla původně vyvíjena Frankem Warmerdamem a to do verze 1.3.2, posléze byla tato role oficiálně převedena na GDAL/OGR Project Management Committee, která je součástí Open Source Geospatial Foundation. 
+  * Související knihovna OGR (která je součástí knihovny GDAL) poskytuje podobnou funkcionalitu pro "simple features" vektorová data.
+  * Software využívající GDAL/OGR:
+    * Delta3D, GRASS GIS, OSSIM, GvSIG,  QGIS, MapServer, Google Earth,ArcGIS 9.2 používá pro některé rastrové formáty GDAL, TopoQuest
+  
+
+
+  * datový model GDAL pro rastrová data
+===== rastrové formáty =====
+* seznam rastrových formátů - http://www.gdal.org/formats_list.html
+    * výběr:
+      * Arc/Info ASCII and Binary Grid
+      * Microsoft Windows Device Independent Bitmap (.bmp)
+      * OGC Geopackage (.gpkg)
+      * Graphics Interchange Format (.gif)
+      * GRASS Rasters
+      * TIFF / BigTIFF / GeoTIFF (.tif)
+      * Erdas Imagine (.img)
+      * Intergraph Raster
+      * JPEG JFIF (.jpg)
+      * Portable Network Graphics (.png)
+      * ArcSDE Raster
+      * OGC Web Map Server
+      * OGC Web Coverage Server
+{{ :gdal.png?nolink&500 |}}
+
+=== základní entity ===
+  * ovladač
+  * dataset
+    * C++ třída GDALDataset
+    * seskupuje rastrové kanály a jejich společné atributy
+      * definice referenčního souřadnicového systému (https://en.wikipedia.org/wiki/Well-known_text)
+    * metadata (pár název/hodnota)
+  * rastrový kanál
+    * C++ třída GDALRasterBand
+    * informace vztažené k danému rastrovému kanálu či vrstvě (např. 24bit obrázek může být reprezentován jako dataset se třemi kanály)
+    * základní atributy:
+      * velikost v pixelech (nemusí být totožné s velikostí datasetu)
+      * datový typ (byte, float (16,32,64), int, ...)
+      * velikost bloku (např. dlaždice nebo rastrová řádka)
+    * volitelné atributy:
+      * metadata, název kategorie (pro tematická data), volba masky, nodata, interpretace barevné tabulky
+
+=== nástroje pro práci s rastrovými daty ===
+  * gdalinfo - vypíše metadata
+  * gdal_translate - vytvoří kopii souboru s danými parametry výstupu
+  * gdalwarp - transformace dat do cíleného souřadnicového systému
+  * gdaltindex - vytvoří tileindex pro MapServer
+  * gdal_rasterize - rasterizuje vektorová data
+  * gdal_grid - vytvoří rastr z bodových dat
+  * //man gdalinfo//
+
+===== vektorová data =====
+
+  * seznam vektorových formátů - http://www.gdal.org/ogr_formats.html
+    * výběr:
+      * Knihovna GDAL,ESRI File Geodatabase, ESRI Shapefile, GML, OGC Geopackage, GPX, GRASS GIS, KML, Mapinfo File, Microstation DGN, Oracle Spatial, PostGIS, U.S. Census TIGER/Line, VFK, VFR
+{{ ::gdal2.png?nolink&500 |}}
+=== základní entity ===
+  * ovladač
+  * dataset
+    * C++ třída OGLLayer
+    * informase o SS jsou dostupné v rámci třídy OGRSpatialReference
+    * informace o související třídě prvků a atributech (názvy, datové typy) v třídě OGRFeatureDefn
+    * geometrická a atributová složka geoprvků je reprezentována třídou OGRFeature
+      * geometrie -> OGRGeometry
+      * atributy -> OGRField
+  * vektorová vrstva
+=== nástroje pro práci s rastrovými daty ===
+  * ogrinfo
+  * ogr2ogr - kopie souboru s danými parametry výstupu
+
+===== rozhraní knihovny GDAL =====
+  * podporuje:
+    * C/C++, Perl, Python, R, Ruby, Java, C# ,...
+
+
+

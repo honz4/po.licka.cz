@@ -1,0 +1,42 @@
+====== Geoinformatika ve fyzické geografii ======
+  - [[přírodní hazardy]]
+  - [[aplikace GIS v hydrologii]]
+  - [[vodní eroze]]
+  - [[větrná eroze]]
+  - [[zemětřesení a tsunami]]
+  - [[sucha a požáry]]
+====== Geoinformatika v socioekonomické geografii ======
+  - Geomarketing a analýza business aktivit
+  - GIT v tvorbě a zpracování ÚPD a ÚAP
+  - Modely a modelování v SE geografii
+  - Optimalizace dopravní dostupnosti a dopravní obslužnosti pomocí GIT
+  - AVL systémy a události v reálném čase
+  - Dynamická segmentace a lineární referencování
+  - Síťové analýzy
+
+====== GIT v environmentálních aplikacích ======
+  - Digitální model krajiny
+  - Národní registry a zdroje dat
+  - Nadnárodní datové a informační zdroje
+  - Analýza nálezových dat
+  - Analýzy struktury krajiny
+  - Analýza využití krajiny a ekologické stability
+  - Geoinformatika pro podporu lesního hospodářství
+  - Lesnická geodata
+  - Precizní zemědělství a variabilní aplikace látek
+  - Evidence půdy s využitím GIT
+
+====== Matematika pro geocomputation ======
+  - Vícerozměrná statistická analýza dat
+  - Fuzzy množiny a fuzzy logika
+  - Teorie rozhodování
+  - Chaos
+  - Fraktály a dimenze
+  - Regresní modely
+
+====== Pokročilé metody v DPZ ======
+  - [[Sběr a zpracování radarových dat]]
+  - [[Hyperspektrální systémy a zpracování dat]]
+  - [[Trendy v DPZ]]
+
+

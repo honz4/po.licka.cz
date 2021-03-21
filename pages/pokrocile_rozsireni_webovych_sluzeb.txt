@@ -1,0 +1,4 @@
+<WRAP center round tip 60%>
+kaskádování, orchestrace, choreografie, katalogová služby CSW,
+BPEL
+</WRAP>

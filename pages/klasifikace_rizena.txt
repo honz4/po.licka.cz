@@ -1,0 +1,6 @@
+====== ŘÍZENÁ KLASIFIKACE ======
+    * klasifikace = proces, při kterém je jednotlivým obrazovým prvkům přiřazován určitý informační význam
+    * cílem je nahradit hodnoty radiometrických charakteristik původního obrazu, které vyjadřují spektrální vlastnosti objektů, hodnotami vyjadřujícími tzv. informační třídy
+    * typ a obsah nové informace (např. tématické mapy) závisí na zaměření celého projektu. Hledané informační třídy jsou definovány na počátku procesu klasifikace ve formě tzv. klasifikačního schématu
+    * klasifikace je založena na použití určitých rozhodovacích pravidel, tzv. klasifikátorů, podle nichž lze všechny prvky obrazu zařadit do určité třídy
+    * 

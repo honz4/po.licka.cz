@@ -1,0 +1,40 @@
+<WRAP center round tip 60%>
+standardy, metadata, INSPIRE
+</WRAP>
+=== standardy ===
+
+
+  * Standard je od firmy, norma je od mezinárodní organizace
+  * České **ČSN** (československá státní norma), evropské **CEN** („comité europeén de normalization), světové **ISO** (international standard organization)
+  * **OGC** (open geospatial consorcium)
+        * Mezinárodní standardizační komise založená na vzájemné shodě, více než 400 organizací
+        * OGS Specification <- je to popsané v Abstract Specification, má úzké vazby na ISO/TC 211, popisuje základní datový model pro geografické elementy
+        * OGC standardy: WMS, WFS, GML, KML
+
+
+=== metadata ===
+  * jak jsou data stará, kdo je pořídil, jak jsou přesná, podmínky šíření, ...
+  * Normy pro metadata: aspekty metadat -> struktura, sémantika, syntaxe
+  * **dublin core**
+        * standard k vytváření metadat dokumentů na internetu (usnadnění vyhledávání elektronických zdrojů), položky textového charakteru, pro geo ne
+        * Název, autor, předmět, popis, vydavatel, datum, typ, formát, zdroj, jazyk, pokrytí, práva, ... <- HTML, XML, RDF
+  * **ISO/TC 211**
+        * cílová oblast GIS a Geomatika, vytvoření řady norem 19100 za účelem popisu a správy geografických informací 
+        * **ISO 19115** (schéma potřebné pro popis geografických informací a služeb)
+        * **ISO 19139** (definuje kódování XML geografických metadat)
+
+=== INSPIRE ===
+  * (Infrastructure for Spatial Information in Europe): Evropská komise, Národní geoportál INSPIRE
+  * **Principy:** data sbírám a vytvářím jednou a pak je efektivně spravuju, bezešvě kombinuju data z různých zdrojů a sdílím je mezi uživateli i aplikacemi, vytvářím je na jedné úrovni státní správy a sdílím je dál, jsou dostupná za podmínek neomezující jejich rozsáhlé využití, snadněji vyhledávám a vyhodnocuju vhodnost jejich využití pro daný účel
+  * Procesy a jevy se neřídí hranicemi států, návaznost dat, vícejazyčnost, 
+  * Pro eGovernment, možnost systematického hodnocení, úspory státního rozpočtu
+  * Účel: inormační podpora životní prostředí, sdílení dat mezi administracemi, podpora ekonomického růstu, zavedení řízení pořizování dat státem
+  * Použity jsou již známé standardy a metadata (ISO 19115, Dublin Core,...)
+  * Zodpovídá: ČAGI, MŽP, MVČR, ČÚZK
+
+=== Metainformační systém ===
+  * je schopný zpracovat neomezené množství metadat, verifikovat metadata, interpretovat metadata, distribuovat je
+  * MIDAS (od všb, ukončen 2009), Metis5 (T-mapy), Micka, MIS (národní památkový ústav), DigitalCoast
+
+
+

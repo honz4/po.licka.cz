@@ -1,0 +1,37 @@
+  * homogenní
+  * sestupná dferenciace
+  * vzestupná diferenciace
+  * atribut krajiny - charakteristiky
+    * struktura krajiny, krajinný ráz, klima, reliéf, vodní prvek, landuse, ochrana přírody, ekoloická stabilita
+
+  * m-denní (hodnota, kteárá musí být minimálně dosažena po dobu pěti let třeba každý den) a n-denní (hodnota, která je maximální, 5-letá voda třeba) průtok
+
+  * individuální krajiny
+
+
+
+  * FUNKČNÍ TYPY KRAJINY
+    * sekáno na úovni jednotlivých K.ú.
+
+  * typy diferenciace
+    * popisuje data zemědělského půdního fondu - BPEJ
+    * soubor lesních typů
+    * jednotka potenciální přirozené vegetace
+    * skupina  typů geobiocénů (chci data - bud půjdu na kraj žádat
+
+  * 4 biogeografické oblasti: hercynská oblast, panonsá oblast, karpatská oblast, polonská oblast
+  * čr je ekotonem evropy
+
+  * 9 vegetačních stupňů v čr
+  * bioregion -> biochora (sloučení podle významných znamů)
+
+
+  * analýza krajinného potenciálu
+  * hodnocení krajinného potenciálu
+
+  * vázaný potenciál= to území už je obsazené
+  * volný potenciál = vytipuju to území a to území není ničím blokované
+
+  * krajinná syntéza
+        * krajinná diagnóza
+        * 

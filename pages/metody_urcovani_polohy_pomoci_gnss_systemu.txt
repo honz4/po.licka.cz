@@ -1,0 +1,51 @@
+<WRAP center round tip 60%>
+kódové měření, fázové měření, statická metoda, polokinematická, RTK
+</WRAP>
+====== Určování polohy ======
+===== kódové měření =====
+===== fázové měření =====
+  * vysoká přenost
+  * musí být vyřešené ambiguity (nejednoznačnosti)
+  * zpracovává se celá ta nosná vlna
+  * celočíselná nejednoznačnost (potřebujeme zjistit celočíselný násobek těch nosných vln)
+  * jakmile počítač určí počáteční hodnoty CN, je schopen pak už satelity průběžně sledovat
+  * nesmí ale dojít k přerušení signálu
+  * až mm přesnost
+  * FLOAT solution
+  * autonomní poloha v řádu 4 m
+  * float: že má něco spočítáno, ale ještě nám neukázal tu největší přesnost
+
+===== metody =====
+==== statické ====
+  * dlouhodobé měření
+  * postprocesní korekce
+  * referenční přijímač
+
+==== polokinematická ====
+  * "stop and go"
+  * měří se sekundy
+  * terénní přijímač
+  * 1 referenční přijímač
+
+==== kinematická ====
+  * 1 terénní přijímač
+
+====== RTK ======
+  * "real time kinematic"
+  * {{ ::rtk.png?nolink |}}
+  * jedním přijímačem v terénu jsou zpracovány RTCM
+  * řešení musí protékat "on the fly"
+  * i referenční stanice i mobilní přijímač počítajía přijímají ty samé signály
+  * pro každou s vypočítá ref. stanice svoji polohu
+  * ty korekce by nebylyplatné, kdyby každá měla jiný počet družic
+  * korekce jsou platné 4-5 vteřin
+  * PPM - s rostoucí vzdáleností mezi stanicí a přijímačem se přesnost snižuje
+
+
+
+
+
+
+
+
+

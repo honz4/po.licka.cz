@@ -1,0 +1,124 @@
+==== historie ====
+   * ČR byla kdysi TOP!! (9.-17. st.) - tehdejší R-U, Uhersko spíše spadalo na Slovensko, kde bylo víc zemědělců, my byli průmyslaři. 
+   * po roce 1918 (rozpad Rakouska Uherska), na území ČSR spadl hlavně lehký průmysl (textilní, obuvnictví, vyráběli jsme cukr, porcelánú) a na strojírenství připadlo jenom 5 %. Navíc po WWII to bylo ještě horší, protože během ní se rozvíjely jenom "služby válce" a ostatní průmysl fakt upadal. (Zbraně hlavně žejo a tak....) \\
+   * 1945 - SSSR znárodňuje klíčový průmysl, banky, dopravu, prostě všechno, ale  máme program RVHP (obdoba Marshallova plánu pro západní země), a tak průmysl stoupí o 150 % oproti předtím, jsme zase dobří, ale zemědělství se nedaří zvetit, půda je vyčerpaná. A to moc. \\
+   * 1968 - Pražské jaro, zprůmyslnění Slovenska \\
+   * 1989 - Sametová revoluce, rozpadá se RVHP, už nemáme nekonečné odběratele na východě, kteří od nás brali všechno a byla jim jedno kvalita, teď se musíme prát se Západem, velká konkurence. Dochází k privatizaci průmyslu.
+
+==== klasifikace ====
+
+do roku 1993 bylo dělení jenom na lehký/těžký průmysl. To sebou neslo mnoho těžkostí, protože to tak dělit prostě nešlo. Tak od 2004 do 2007 byl OKEČ, **od roku 2008 platí CZ-NACE** (klasifikace ekonomických činností), která dělí průmysl na: těžbu nerostných surovin, zpracovatelský průmysl a výrobu a rozvod elektřiny, plynu, tepla a klimatizovaného vzduchu
+
+==== data ====
+  * VŠPS – výběrová šetření pracovních sil
+  * CzechInvest, CzechTrade
+  * HBI.cz, RES (registr ekonomických subjektů)
+  * obchodní a živnostenský restřík taky ujde
+  * regionální informační servis
+  * ministerstvo průmyslu a obchodu
+  * statistika OECD, statistika OSN
+  * WTO, WB, MMF
+
+
+==== těžba energetických surovin ====
+  * hlavně dovážíme, exportujeme černé uhlí a nerostné suroviny
+  * 1992 - státní útlumový program pro černé a hnědé uhlí. Proto je v Mostě tak vysoká nezaměstnanost! Ha!
+  * **hnědé uhlí**
+    * většinou jsou všechno povrchové doly, jediný hlubinný je Koh-I-Noor v Mariánských Radčičích
+    * firmy: Czech Coal, Sokolovská Uhelná, Severočeské doly Chomutov
+  * **hnědé uhlí, kaolin, ropa**
+    * moravské naftové doly (ropa), diamo (uran), OKD (černé uhlí, jojo, máme to v Ostravě!), LB Minerals (kaolin)
+    * ropovody: od SSSR ještě tehdy máme Družbu, teď z Německa Ingolstatd. Mluví se o :Tanap, Antilopa, Jamal
+==== elektrárny ====
+   * tepelné
+     * Chvaletice, Dětmarovice, Prunéřov I a II, Mělník II a III, Hodonín, Opatovice
+   * vodní
+     * Orlík, Kamýk, Slapy, Lipno, Dalešice, Dlouhé Stráně, Stěchovice I a II
+     * u nás až po roce 1945 :)
+==== průmyslové zóny ====
+   * všechno co mě napadne
+   * Olomouc, Uničov, Šumperk, Mošnov, Nošovice, Karviná, F-M, Ostrava, Paskov, Český-Těšín, třinec, Karviná
+
+
+
+==== palivoenergetický komplex ====
+   * studuje průmysl paliv a energetiky
+   * ve vyspělých zemích ustupuje těžba energetickcýh surovin do pozadí (vyplatí se ji dovážet)
+   * v ČR na mostecké pánvi
+   * méně vyspělé země těží pro ty dospělé
+   * celosvětově roste spotřeba energie
+   * měj celkový přehled o průmyslu. Vole!
+
+==== energetické zdroje ====
+   * v čr hlavně uhlí, uran (rudy?), vodní síly
+   * primární (uhlí, ropa, zemní plyn) -> sekundární (el. energie, koks)
+   * TMP (tuna měrného paliva  pro černé uhlí), TOE (tuna ropného ekvivalentu - 42 GJ)
+
+===== palivoenergetická bilance =====
+   * způsob, jak stát (entita) kryje spotřebu nějaké energie
+   *__ tepelné, jaderné, obnovitelné zdroje (60:30:10 <- tak to je v čr)__
+   * historicky (dřevo, uhlí, ropa, zemní plyn, od 1950 je jádro)
+
+
+===== ropný průmysl =====
+   * první ropný vrt (20 m) v Pennsylvánii
+   * John. D. Rockeffeler - velmi nekalými praktikami ovládal 90 % rafinérských kapacit. Jeho otec měl falešnou licenci a léčil rakovinu. Měl firmu Standard Oil Company a stal se prvním americkým miliardářem. Pak byla firma rozdělena na 34 částí (Chevron, Socony, Amoco, ExxonMobile)
+
+
+  -  ropný šok
+      * 1973
+      * Jonkipurská válka a následné embargo v roce 1973
+      * z 2,8 na 12 dolarů za barel
+  -  ropný šok
+      * 1979-1981
+      * Irácko-Íránská válka
+      * válka v Perském zálivu
+      * hurikán Katrina -> 70 dolarů
+      * před ekonomickou krizí (2008)
+        * 147 dolarů za barel
+  - další šoky
+      * konflikt v Perském zálivu, invaze do Íráku, hurikán Katrina
+      * před ekonomickou krizí (2008) historické maximum - 148 dolarů za barel
+**Proč klesají ceny?** : útok na WTC, asijská finanční krize (1997), finanční krize 2008-2015
+   * **1 barel = 159 litrů**
+
+Druhy ropy se dělí podle toho, jestli je lehká nebo těžká a kolik obsahuje síry. Podle skupiny OPEC (Arab light, bonny light, minas a další druhy). \\
+Návrat libyjské ropy na trh! \\
+
+**Jaké druhy patří do OPECU?**: řeknu státy, druhy ropy... haha - Arab Light, Bonny Light, Minas, Fateh, Isthmus, 
+
+==== moreover ====
+   * ČEZ (energetika)
+   * Arcellor Mittal Steel, Třinecké Železárny, VP Frýdek-Místek (hutnictví)
+   * do Volgswagen group (je to holdingová společnost!) patří Škoda Auto a.s.
+   * Škoda Holding, ČKD Praha Holding (strojírenství)
+   * AVIA, TATRA, IRISBUS (tam teď patří IVECO taky) - automobilový průmysl
+   * Phillip Morris koupil nějakej ten podnik na tabák v Kutné Hoře, byla to největší uskutečněná transakce v Evropě ever? To asi ne, ale tak nějak to bylo. 
+   * CE WOOD je největší uskupení podniků zabývajících se těžbou, zpracováním a prodejem dřeva
+
+==== firmy od vitka ====
+   * průmysl paliv a energetiky
+     * Chevron, ExxonMobil, Royal Dutch Shell, Slovnaft, Agip, BP (British petroleum), Luoil, Statoil 
+     * Czech Coal, Moravské naftové doly, DIAMO, Sokolovské uhelné, Severočeské uhelné Chomutov, LB Minerals, OKD
+   * energetika
+     * RWE, ČEZ, Enel, Endosa, National Power
+   * hutnictví
+     * Baoshan, Alcan, Pechiney, Alcoa, Hydro-Norsk
+     * Arcelor Mittal Steel, Třinecké železárny, VP Frýdek-Místek
+   * elektronika
+     * Motorola, Samsung, Siemens, Acer, Lenovo
+   * farmaceutický průmysl
+     * Loreal, Zentiva, Dermacol, Vichy, Walmark, La Roche, Farmak
+
+===== orientace !!! =====
+  * OEM produkce
+    * zkratka anglického Original Equipment Manufacturer,  je obchodní termín, který označuje výrobce zařízení, jehož výrobek je prodáván a propagován jinou obchodní značkou
+  * CPI
+    * index spotřebitelských cen 
+    * consumer price index
+  * kjótský protokol
+    * snížení emisí
+    * z roku 1997, platnost jí končila 2012
+    * stejně to bylo na nic, rusko to tehdá podepsalo výměnou za vstup do WTO
+    * dnes na to navazuje Pařížská dohoda, ale to bude na jedno brdo
+

@@ -1,0 +1,77 @@
+<WRAP center round tip 60%>
+popis, výhody a nevýhody (TIN, grid, lattice, plátový model, vrstevnice)
+</WRAP>
+
+====== 15. DATOVÉ MODELY PRO DMR ====== 
+
+
+{{ ::dmr1.png?nolink&300 |}}
+
+===== polyedrický model reliéfu (TIN) =====
+TIN (triangulated irregular network) se řadí k vektorově topologickým strukturám. Vychází z nepravidelné sítě, tvořené nepřekrývajícími se přilehlými trojúhelníky, kdy každý z vrcholů se souřadnicemi x, y, z je nositelem výškové hodnoty. Trojúhelníky jsou voleny tak, aby uvnitř kružnice opsané trojúhelníku neležel žádný jiný bod. Jedná se o tzv. Delaunay kritérium. Hustotu vstupních bodů tak lze volit podle členitosti reliéfu. V členitějším území se používá hustší síť, v méně členitém terénu není zvýšená hustota nutná. To umožňuje síť maximálně přizpůsobit reliéfu. Nevýhodou modelu TIN může být, že při jeho tvorbě z vrstevnic mohou vzniknout tzv. umělé terasy, které pak znemožňují automatickou tvorbu linií odtoku nebo rozvodnic. 
+{{ ::tin1.jpg?nolink&300 |}}
+{{ ::tin2.jpg?nolink&300 |}}
+  * nepravidelná trojúhelníková síť
+  * vytváří [[polyedr]]
+  * body na povrchu je potřeba umístit tak, aby co nejvíce vystihovaly polyedr -> na rovině nebudou tak husté
+  * nutné zahrnout body ležící na všech důležitých singularitách
+  * v případě nepravidelného rozmístění bodů (a navíc i s různou singularitou) je TIN efektivnější než grid
+  * topologický vektorový datový model: body, linie, plochy (lze pro ně spočítat skoln, orientaci)
+  * **konstrukce**:
+     -  určení vrcholů troj. sítě (vrcholů troj.)
+         *  optimalizační kritéria
+            * [[Delaunay kritérium]]
+            * co největší rovnostrannost
+            * minimální obvod
+     -  tvorba polyedrického modelu
+   * schopnost lokálního přizpůsobení prostorového rozlišení, které přímo závisí na hustotě a rozmístění původních dat, členitosti terénu, atd.
+   * je schopen reprezentovat téměř jakýkoliv povrch
+   * pracuje přímo se vstupními daty
+   * má menší nároky na paměť
+   * při generování DMR využívá všech typů geoprvků
+   * špatně reprezentuje plochý terén
+   * Mohou zahrnout vstupní měření (body), na rozdíl od pravidelného rastru, které jsou interpolovány ze vstupních dat a proto jsou náchylnější k chybám.
+   * Pokud bod neleží ve vrcholu, tak je jeho výška získána lineární interpolací (ze dvou bodů, pokud leží na hraně, ze tří, pokud leží uvnitř trojúhelníku) = lineární model, který může být ve 3-d vizualizován jako jednoduše spojená množina trojúhelníků.
+
+  * **triangulace**
+      * pro jakýkoliv bod uvnitř plochy lze odvodit nadmořskou výšku lineární interpolací
+      * povrch vytvořený triangulací je spojitý, avšak jeho další derivace nejsou
+      * pokud se bude jeden z bodů v plochém reliéfu výrazně lišit, výrazně ovlivní průběh svého okolí
+
+
+===== grid ======
+Grid patří mezi pravidelné rastrové struktury, kdy je povrch rozdělen do matice buněk, které mají pro jednoduchost výpočtů nejčastěji tvar čtverce. Každá buňka je nositelem nadmořské výšky vztahující se ke středu čtverce (grid) nebo uzlu mřížky (lattice). Předpoklad, že proměnlivost buněk je matematicky kontinuální, umožňuje snadno provádět statistické analýzy. 
+   * čtvercová matice bodů
+   * 1 bod = čtvercová ploška s konstatní nadmořskou výškou
+   * reliéf je reprezentován hranoly s horizontální horní plochou
+   * problém při vykreslování řek a údolí
+   * zvýšením rozlišení se může zvýšit přesnost, ale nestává problém redundance dat
+   * hustota a rozmístění vnitřních bodů:
+      * **pravidelný grid** = definování parametrů sítě gridu a pro každý bod gridu se pomocí interpolace odvodí nadm. výška
+      * **nepravidelný grid** = použití Voronoi polygonů
+   * neumí se přizpůsobit různé hustotě dat
+   * __výhody__:
+      * snadné výpočty (morfometrických) analýz nad tímto typem DMR
+      * dobrá integrita s rastrovými daty v GIS
+   * __nevýhody__:
+      * velký objem nebo redundance dat
+      * špatně reprezentuje členitý terén
+      * pracuje pouze s bodovými geoprvky
+      * nespojitost na hranách plošek
+
+
+===== plátový model (lattice) =====
+   * základem je bod, který reprezentuje výšku pouze v daném bodě
+   * reliéf je ve vybraném počtu bodů nahrazen pláty (čtyřuhelníkové pláty, trojuhelníkové pláty, obecné pláty)
+   * v rámci plátu je reliéf reprezentován nelineární plochou, jejíž průběh není jednoznačný (rovinný)
+      * **Beziérův čtvercový plát**
+         * čtyři rohové body, celkem 16 řídících bodů
+         * ostrý nebo hladký povrch
+   * vhodný pro vizualizaci
+
+===== vrstevnice =====
+Metoda vrstevnic s doplněním významných výškových bodů patří k tradičnímu znázornění nadmořské výšky. Nevýhodou tohoto vyjádření je nespojitost. Vrstevnice totiž znázorňují podle svého základního intervalu jen určité nadmořské výšky. V GIS se používají vrstevnice zejména jako podklad pro tvorbu složitějších DMR. Rozvoj výpočetní techniky s sebou přináší další způsoby znázornění reliéfu, jimiž jsou především základní datové modely grid a TIN. (VOŽENÍLEK a kol. 2001).
+   * jejich přesnost závisí na přesnosti jejich získání (fotogrammetricky, odvozením z bodových dat,...)
+   * 
+   * 
+

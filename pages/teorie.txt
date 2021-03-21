@@ -1,0 +1,51 @@
+http://gis.vsb.cz/pad/obsah.htm \\
+
+
+do rešerše!
+
+
+  - presence only
+    * výhradně spoléhají na záznamy přítomných druhů bez potřeby jiných vzorků ze studované oblasti
+    * chce jenom jedničky
+    * Bioclim, habitat, domain, svm
+  - presence/absence
+    * oblasti, kde byly druhy zjištěny spolu s oblastmi, kde bylo zjištěno, že tam druhy nejsou, z toho důvodu požaduje presence i absence
+    * může být ale také implementován tak, aby využil i background a pseudoabsence data
+    * GLM, GAM, MARS, CTA, GLM, ANN, GARP
+  - presence background
+    * vyhodnocují, jak se z prostředí, ve kterém je znám výskyt druhu (jakou má souvislost) a celou studovanou oblastí
+    * MAXENT, ENFA
+  - presence/pseudoabsence 
+    * metoda mající za cíl srovnat známé oblasti výskytu s množinou oblastí, které jsou pod sjednocením???
+    * prostě jako absence, ale jsou vzorovány pouze z míst, kte není znám výskyt druhu
+    * GARP
+In presence-only modelling, such withheld data are unlikely to provide a general test of model accuracy in predicting species’ distributions, because the occurrence records often have biases in both geographic and environmental space (Bojo´rquez et al. 1995, Hijmans et al. 2000, Soberon et al. 2000, Kadmon et al. 2004) and such biases will persist in common resampling designs. More importantly, withheld data are presence-only, which limits the options for, and power of, statistical evaluations of predictive performance. One step towards improving evaluation of model performance in predicting distributions of species is to use independent, well structured presence-absence datasets for validation. Such datasets have rarely been used to evaluate predictions from presenceonly models (but see Ferrier and Watson (1997) for an earlier example of this type of evaluation). Further possibilities include modelling artificial data and assessing whether responses are correctly predicted (Austin et al. 1995), or modelling with both presence-only and presence-absence data and comparing the fitted functions.
+
+**For example, inclusion
+of unnecessary parameters may result in areas being
+classified as climatically unsuitable when in fact the
+species could occur there (omission errors).**
+
+
+models often represent the most feasible method of
+examining potential distributions of species for a
+number of reasons. First, the cost of field surveys
+to assess species distributions can be prohibitive,
+especially if a large number of species is involved:
+bioclimatic models can be used to extrapolate habitatspecific
+information from one region to another to
+assess the likelihood of the presence of a species
+or multiple species. Second, when little is known
+about the ecology and biology of a species, such
+models provide the only method of estimating current
+and future potential distributions (Baker et al.,
+2000). Finally, a large number of datasets, such as those
+derived from museum and herbaria records, consist of
+presence-only data (Austin, 1994). While these data
+cannot be easily examined using conventional spatial
+statistics, they are ideally suited for some types of bioclimatic
+models (Burgman and Lindenmayer, 1998;
+Kadmon et al., 2003). Consequently, bioclimatic
+models are an important and widely used tool for
+assessing the potential responses of species to climate
+change (Guisan and Zimmermann, 2000).

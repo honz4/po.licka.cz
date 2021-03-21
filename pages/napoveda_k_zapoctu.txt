@@ -1,0 +1,165 @@
+DPZ Zbyna \\
+https://docs.google.com/document/d/1Mk-ByhiUa92Aiz4C3FS29jsaPdZskVIGHoDgSzMIfms/edit?usp=sharing
+
+\\
+DPZ Lucka \\
+https://docs.google.com/document/d/1mPweoop4MSINXaNv4l5_tihhOOzVl7ExV_tR38otYQs/edit?usp=sharing
+
+ \\
+rizena klasifikace excel\\
+https://drive.google.com/file/d/0BwxMF3drsf-8RjRSYkRVQVFUMEtPNzlFRnpuTFowVzFJem5N/view?usp=sharing
+
+\\
+rizena klasifikace text \\
+https://drive.google.com/file/d/0BwxMF3drsf-8SENJdGdjRnE0LVhCS0t3TVRwNnd4MEg4cUlz/view?usp=sharing
+
+
+====== rozdělení pásem ======
+{{ :wiki:bands.jpg |}}
+{{ :wiki:bands2.jpg?direct |}}
+
+----
+
+----
+
+----
+
+====== georeferencování ======
+  * //customize -> georeferencing -> fit to display//
+  * **georeferencing -> transformation** (čím vyšší řád, tím je potřeba víc bodů)
+    * liší se od sebe, jak budou deformovat obraz
+  * nejlepší je udělat bod na kraji a uprostřed
+  * první se začíná tou fotkou, potom kliknu na ortofoto
+  * //rectify// -> udělá nový georeferencovaný tiff
+  * //View link table// -> ukáže mi chyby, ja moc je velká odchylka jednotlivých bodů
+  * //image link viewer// -> vyhodí obrázek v novém okně, ale to nepotřebuješ
+
+
+====== načtení dat ======
+==== open ====
+  * u //open// stačí otevřít texťák
+  * pak stačí přes //data manager// načíst infa, red, green
+  * ale dá se to udělat jenom u snímku s metadaty
+
+==== layer stacking ====
+  * normálně načtu všechny vrstvy
+  * layer stack je dobré udělat pro všechny a pak si aorát vyberu barvy
+  * pravým -> change RGB Bands, nebo taky přes data manager
+    * máme landsat 7, vybrali jsme 3,2,1
+    * u landsat 8 vyberu 4,3,2 pro opravdové barvy (5,4,3 pro infra)
+    * **inclusive** -> spojí snímky tak jak jsou nad sebou
+    * **exclusive** -> spojí jenom průnik těch snímků
+
+====== ořez ======
+  * File -> new-> vector layer -> OK -> nakreslit -> save as (ukládá se jako .shp)
+  * //resize data// -> a vyberu tu vrstvu kterou budu ořezávat -> spatial subset -> subset using -> ROI/EVF
+===== na 8bit =====
+  * Strech data -> Strech range (0 - 100%) -> velikost (ořezání) snímku
+  * Output Data Range 0 - 255 (8bit), data type Byte 
+  * unsigned int je 16bit, unsigned long je 16bit? (no nevíme jak to je)
+  - signed char: -127 to 127 (note, not -128 to 127; this accommodates 1's-complement and sign-and-magnitude platforms)
+  - unsigned char: 0 to 255 (4BIT)
+  - "plain" char: same range as signed char or unsigned char, implementation-defined
+  - signed short: -32767 to 32767 (8BIT)
+  - unsigned short: 0 to 65535 (16BIT)
+  - signed int: -32767 to 32767
+  - unsigned int: 0 to 65535
+  - signed long: -2147483647 to 2147483647
+  - unsigned long: 0 to 4294967295
+  - signed long long: -9223372036854775807 to 9223372036854775807
+  - unsigned long long: 0 to 18446744073709551615
+
+====== upravení atmosféry metodou nejtmavšího prvku ======
+  * //Dark Subtraction// -> vyberu ten snímek -> na nic nešahám a nechám to tak
+  * najde netmavší prvek kterému dá nulu a určí rozdíl který odečte od všech
+
+====== reflektance a radiance ======
+  * radiance je vyzařování, refletance je odrazivost
+  * dá se tam multispektrální snímek 
+  * je to statistika, prostě to, co jsme dělali u té řízené klasifikace
+  * //region of interest// (takový polygon na horní liště roi) -> vykreslíme polygon pro požadované oblasti -> //new ROI// (pro další atributy) - skrz pravé tlačítko a statistics se zobrazí statistika vybraných oblastí (lze uložit)
+  * **radiometric calibration** - vybrat snímek (multispectral) - lze vybrat mezi radiancí a reflektancí (Reflectance, BSQ, Float, … OK)
+  * ukáže to, jaké je tam rozmězí odrazivosti a vyzařování
+  * reflektance se musí dělat na celé území nebo jestli chci nějaké vybrané území, tak to musím až v té funci udělat ROI
+
+====== band math ======
+  * //band math// - napíšeme příkaz, přidáme do sezmanu pak přiřadíme pásma
+  * pokud nechceme výsledek složený z 0 a 1, musíme před každoou proměnou dát float (float(b1)/float(b2))
+  * **vegetation index calculator** - vybereme si index (my jsme dělali ten první) 
+    * NDVI - světle mi to vyhodí úroveň stavu vegetace, čím světlejší tím jsou víc ve vegetu
+
+====== FILTRY ======
+  * //Convolutions and Morpohlogy// -> convolutions výběr filtrů
+  *  //sieve filtr// -> ten si musím nadefinovat, a to najdu na internetu nebo v prezentacích
+  *  vysokofrekvenční filtry propouštějí vysokofrekvenční informaci
+  * jakože zvýrazní komín a větrák na střeše, nízkofrekvenční mi udělá jednolitou střechu, ale ta střecha už nebude mít tak výrazné hrany
+  * **nízkofrekvenční filtry** (průměrový, mediánový, sieve filtry, majoritní filtry)
+  * **vysokofrekvenční filtry** (diferenční, zostřující)
+  * vyhodí to procenta informace (tak, aby se to dalo zobrazit jao RGB)
+  * kanonická komponentní analýza
+  * podíváme se na snímek a určíme typy shluku
+
+====== PCA ======
+= analýza hlavních komponent
+  * Toolbox PCA -> **forward PCA rotation news statistics** -> vybrat vrstvu -> výsledný soubor -> Select Subset from Eigunvales pokud YES tak to spočítá pro všechny pásma
+  * ze sedmi pásem mi to vybere třeba jenom tři (podle nějaé nejdůležitější informace)
+  * spojíme více pásem (7) do méně pásem (3) a ze 100 % informace dostaneme 90 % informace ve 3 pásmech
+
+====== tasseled cap ======
+  * podobný jako PCA, ale osy jsou dopředu vypočítané
+  * u wetness je voda bílá, greenes zvýrazňuje lesy, brightness zvýrazňuje lidské plochy, střechy, silnice
+  * v envi - pro snímky landsat 5 - tasseled cap
+  * zvolit landsat 5TM (jsou to druhy snímačů na té družici)
+  * převádí to RGB na HSV 
+
+====== Fourierovy transformace ======
+  * máme na stupni snímek, který si převedeme do Fourierova spektra (je to jeden z typů vlnkových transformací, převádíme to do frekvenčního systému), převod do podoby sinových a kosinových fcí /filter/FFT 
+  * //build mask// → fft.tiff → pak ořezat, ale nedávat příponu tiff!, a vybrat ještě v options **Selected areas OFF**
+  * horizontální linie se ve fourierove spektru zobrazují o 90 stupnů, takže verttikální jsou horizonální a naopak
+  * prostě dostanu nějaký snímek s proužama 
+  * //FFT Forward// -> YES
+  * na to FFT forward vytvoříme ROIko s těma čárama (NESMÍME ZARÝT KOLEČKO!!!!!)
+  * {{ :roi_fft.jpg?200 |}}
+  * z ROI udělám //Build Mask// -> a vybrat v options **Selected areas Off**
+  * Apply Mask -> vyberu snímek fft forward -> select mask band -> a vyberu tu masku kterou jsme vytvořili z těch ROIek (co jsou na obrázku) <- **TO NEFUNGUJE TO NEDĚLEJTE** !!!!
+  * FFT Inverse -> vyberu ten poslední file co jsem udělala z apply mask 
+
+====== pan sharpening ======
+  * Nahrát vrstvu z landsatu pomocí metadat -> vytvořit zájmové ROI-> New file bouilder -> vybrat první pásmo (multispektral) a celé znovu pro druhé pásmo (panchromatik)
+  * toolbox - **image sharpening** -> první zadáváme multispekral, druhé zadáme panchromatický
+
+====== NEŘÍZENÁ KLASIFIKACE ======
+==== K-Means Classification ====
+  *  vybrat snímek OK -> Počet tříd např. 5,Treshold práh př. 5.00 pokud se nezmění 5% pixlů ukončí se iterace, maximum iterací např. 20
+ 
+==== Iso Data Classification ====
+  *  -vybrat snímek OK -> max min tříd. (např. 1 - 7) Počet iterací (např.20), velikost třídy (minimum pixlů ve třídě např 50)
+
+==== Confusion Matrix Ground Truth image  ====
+  * př.  ISO data z 5 tříd a pak K means z 5 tříd -> další nastavení nechat (třídy jsou zařazeny správně) -> nechat nastavení, zvolit výstup OK -> výsledkem Confusion Matrix
+
+==== Confusion Matrix pomocí ROI ====
+  * naklikat ROI - každý bod potvrdit entrem -> Confusion Matrix Ground Truth ROI -> v případě potíží naklikat kombinace ROI + Class OK -> vyběhne matice
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

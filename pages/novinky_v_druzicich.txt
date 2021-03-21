@@ -1,0 +1,19 @@
+  * 2013 - Pléiades a SPOT 6 (oboje od Airbusu)
+    * Pleiada má 50 cm rozlišení v panchro !! Je to první evropská družice která má rozlišení lepší než 1 metr=
+  * 20136 - Digital globe (sloučený s Geoeye) vypouští World View 3 <- 31 cm panchro
+
+
+----
+
+====== družicová data ======
+  * LANDSAT
+    * *1972
+    * Landsat 6 bouchnul
+    * Landsat 7 vypuštěn 1999 se senzorem ETM+ (panchro 15 m a tepelné pásmo zlepšení ze 120 m na 60 m)
+      * 2003 ale ruplo zrcátko
+  * SPOT
+    * ta je Airbusu
+    * *1986
+    * spot 6 a 7 vypuštěny naposled (2014?)
+    * 4 a 5 nesímají v modrém pásmu ale mají dvě infra
+    * 6 a 7 operují ja stejné oběžné dráze jako Pléiades 1A a 1B

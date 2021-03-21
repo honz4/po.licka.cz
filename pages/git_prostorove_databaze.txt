@@ -1,0 +1,230 @@
+  * prostorová databáze: postrelační databázový systém schopný spravovat prostorová data
+        * kombinuje konvenční a prostorová data 
+        * množiny enttit z určitého prostoru, u kterých je zřejmá identifikace, umístění a vztah k okolí (prostor = 2 plus entit)
+  * uložení dat v počítači:
+        * souborový způsob uložení dat (shp, GML)
+        * databázový způsob uložení dat
+  * reprezentace vektorových dat:
+        * špagetový model
+        * topologický model (-> hiearchický model)
+        * relační databázový model
+        * objektově-relační databázový model
+              * můžu použít SQL
+
+
+====== databázové objekty ======
+  * **pohledy (views)**
+        * SQL příkazy, pojmenované a uložené v databázovém systému
+        * můžu select i na ně
+  * **indexy (klíče)**
+        * jsou pro každou tabulku
+        * fce: vést si v tabulkách rychlé lookup tables na sloupce, nad nimiž byly definovány (-> vyloučení duplicit v záznamech, zajištění fulltextového vyhledávání)
+    * **triggery (spouštěče)**
+          * mechanismus, který se vyvolá když změním nebo smažu rodičovskou tabulku
+    * **uživatelem definované procedury a funkce**
+          * pojmenovaný kus kódu -> uložím ho -> pak nad tabulkou provede určitou sekvenci příkazů (procedur) a vrátí nějaký výsledek (uživatelská funkce)
+          * mohou mít parametry, obyvkle vstupní (IN), výstupní (OUT), vstupně-výstupní
+    * **události (events)**
+          * procerudy spouštěné v určitý čas (já si řeknu kdy) nebo opakovaně v určitý čas
+          * pro údržbu, promazávání dočasného něčeho apod.
+    * **formuláře**
+          * pro vizuálně přívětivé prostředí pro přidávání hodnot
+          * uživatelem nadefinované rozložení vstupních polí z dané tabulky, popisky
+    * **sestavy (reporty)**
+          * podobně jako u formulářů
+          * definuju layout s políčky dané tabulky, kam se doplňují aktuální hodnoty
+          * používají se pro výstup dat (tisk, prezentace, pouhé zobrazení)
+          * i filtry
+    * **uživatelská oprávnění**
+          * úrovně přístupu a oprávnění pro uživatele
+    * **procesy**
+    * **proměnné nastavení**
+    * **vizuální ER schéma**
+          * vizuální reprezentace vtahů (relací) na sobě závislých polí (cizích klíčů) mezi tabulkami
+
+
+====== SQL (Structured Query language) ======
+  * skládá se z:
+        * DDL (data definition language)
+              * definice relací, tabulek, atributů, vazeb, integritních omezení, indexů
+        * DML (data manipulation language)
+              * změna obsahu tabulek, vlastní dotazování na jejich obsah
+        * DCL (data control language)
+              * administrace databáze
+              * kontrola transakcí
+              * přidělování práv uživatelům, správa uživatelů
+
+====== SQL/MM (Multimedia) ======
+  * standardizovaný soubor ADT, procedur a funkcí vytvořených dle SQL3 pro práci s multimediálním obsahem databáze
+  * část standardu se zabývá prostorovými daty
+  * definue:
+        * ukládání, výběr, dotazování a aktualizaci jednoduchých prostorových objektů
+        * reprezentaci prostorových objektů pomocí prostorových datových typů (spatial types)
+        * funkce pro práci s prostorovými daty
+  * St_Geometry -> St_Surface (CurvePolygon, Polygon), St_Curve (CircularString, LineString, CompoundCurve), St_Point, St_geomcollection (-> multisurface (multipolygon), -> multicurve (multilinestring), -> multipoint)
+  * ST_geometry columns a spatial reference systems - obsahují popisky prostorových sloupců a souřadnicocých systémů použitých v databázi
+  * st_units of measure: popisuje délkové a úhlové jednotky použité v databázi
+  * st_sizings:. obsahuje hodnoty různých meta-proměnných
+  * formáty: OGC well-known text representation for geometry, OGC well-known binary representation for geometry, GML
+
+====== oddělení dotazovacích a zobrazovacích instrukcí ======
+  * 3 typy instrukcí:
+        * vlastní uživatelský dotaz (user query)
+        * další dotazy (display queries):. jiné barvy a další serepetičky
+        * vlastní popis jak zobrazit data (display description)
+  * prezentační jazyk: ukaž budovy z výsledku jako červená kolečka
+
+====== predikát PICK ======
+  * výběr ukázáním
+  * umožňuje formulovat dotazy s referencí na prostorové objekty viditelné na obrazovce
+  * může kvalifikovat každý prostorový atribut ve WHERE klauzuli
+  * například na jmeno mesta na ktere jsem klikla
+
+====== GPL (Graphical presentation language) ======
+  * Spatial SQL obsahuje oddělený prezentační zobrazovací jazyk pro GPL pro manipulaci s grafickou prezentací výsledků dotazu
+  * tvoří nadmnožinu dotazovací části spatial sql
+  * **instrukce:**
+        * set: nastavení konkrétních parametrů zobrazení
+        * cancel: zrušení nastavení
+        * show: ukáže aktuální hodnotu daného parametru
+  * **modifikátory**
+        * permanent: příslušné set/cancel se uloží pro příští práci se systémem
+        * immediately: podle změny se překreslí aktuální výsledek dotazu (normálně se parametry použijí až pro jiný dotaz)
+  * **parametry nastavitelné pomocí GPL**
+        * display mode: udává, jak se zobrazují výsledky sekvence dotazů
+              * grafické módy: new, overlay, remove, intersect, highlight
+              * neprostorové selecty budou zobrazeny jako labels
+        * graphical representation:. nastavení vizuálních proměnných - barva, vzorek, ...
+              * buď jenom pro prostorovou relaci nebo pro její instance splňující nějaké její podmínky
+              * zobrazení legendy, je to easy
+        * měřítko (scale): SET Scale n;
+        * výřez (window): SET Window, lze nastavit jako XY dvou protilehlých rohů nebo jako nejmenší obdélník ohraničující výsledky dotazu
+        * kontext (spatial kontext): SET context - definice kontextu, který je při zpracování dotazu přidán k jeho výsledkům
+        * zjištění obsahu kresby (examination of content): výsledká kresba může být kombinací mnoha dotazl (pomocí overlay, intersect, remove)
+
+====== geometrický objektový model dle OGC ======
+{{::3_ogc.png?600|}}
+  * třída geometry je ADT - každý geometrický objekt je asociován se souřadnicovým systémem, ve kterém je definován
+  * point (0D), curve (1D), surface (2D)
+  * GeometryCollection: několik klidně různých objektů, ale musí mít stejný SS
+  * Curve: sekvence bodů
+        * OGC 1.1. definuje podtřídu LineString odpovídající lineární interpolaci
+        * Line: linestring se dvěma body
+        * linearring: linestring odpovídající jednoduché (neprotíná se) a je uzavřená křivka
+  * surface: libovolný 2D geometrický objekt
+    * povrch je jednoduchý, lze li ho definovat jednou vnější hranicí a 0 až n vnitřními hranicemi (které se ale nesmí protínat, jsou tam od toho, aby definovaly díry)
+  * multigeometrické typy:více geom typů stejné dimenze
+        * multipoint, multilinestring, multipolygon
+  * každá třída má definované svoje metody
+  * pro geometry: dimension, geometrytype, srid
+  * empty: definuje prázdnou geometrii
+===== funkce třídy geometry =====
+  * dimension
+  * envelope: lomená čára typu BoundingBox
+        * MBR (minimal bounding rectangle)
+              * operace: MBRcontains, eithin, equal, intersect, overlaps, touches, joint
+        * určuje nejmenší obdélník, do kterého lze daný geometrický útvar vepsat
+  * geometrytype: point, linestring, polygon, ...
+  * srid
+
+===== funkce objektu linestring =====
+  * glenght
+  * isclosed (1 nebo 0, shodnost koncového bodu a výchozího bodu)
+  * numpoints 
+  * strrtpoint, endpoint, point(g,N)
+
+===== funkce objektu polygon =====
+  * area
+  * exteriorring (vnější kružnice polygonu jako typ linestring)
+  * interiorring (vnitřní blabla)
+  * numinterrings (počet vnitřních kružnic - děr)
+
+===== funkce objektu geometryCollection =====
+  * geometry(g,N)
+  * numgeometries(g)
+
+===== přehled =====
+  * point: x(), y(),m()
+  * curve: lenght, startpoint, endpoint, isclosed, isring
+  * linestring: numpoints, pointn
+  * multicurve: isclosed, lenght
+  * surface: area: centroid, pointonsurface
+  * polygon: exterioring, numinrioring, interioringn
+  * TIN: numpatches, patchn, boundingpolygon, isclosed
+
+
+
+
+====== uložení dat v geodatabázi ======
+  * OGC simple features
+        * specifikuje uložení geografických dat v digitální podobě
+        * založen na 2D geometrii s možností interpolace mezi lomovými body
+        * prvek je považován za jednoduchý, pokud nedochází k překřížení prvku se sebou samým
+        * definuje třeba envelope
+  * WKT
+        * textový značkovací jazyk pro popis vektorové geometrie geografických objektů prostorových referenčních systémů
+        * objekty jsou reprezentovány pomocí ascii
+        * body, linie, polygony, tin, polyhedrony
+
+====== prostorová doména ======
+  * přidá se tam doméne "spatial"
+  * pro zajištění vysoké úrovně abstrakce prostorových dat
+  * atribut z domény "spatial" je spatial attribute, je i spatial relation
+  * spatial_0 až 3 (pro dimenze)
+  * v PC zachytím číslo jenom s omezenou přesností, tak proto 2 přístupy:
+        * simplexy: 
+              * skládání složitějších entit z jednodušších
+              * simplelx = nejmenší nevyplněný objekt dané dimenze, 0-simplex je bod, 2-simplex je trojuhelník, 3-simplex je čtyřstěn atd...
+        * úplné deskriptory:
+              * komplexní popis modelované oblasti
+              * množina bodů, úseček a případně vyyšších celků s následujícími vlastnostmi:
+                    * každý (i koncový) bod je bodem sítě
+                    * žádný vnitřní bod není zaznamenán v síti
+                    * žádní dvě úsečky nemají průsečík a ani se nepřekrývají
+
+====== prostorové predikáty ======
+  * relace mezi dvě prostorovými objekty
+  * výsledek je 1 nebo 0
+  * můžu na objekty dvou libovolných dimenzí
+  * disjoint, meet, overlap, inside/contains, equal
+  * predikáty: left/right, north/south, over/under
+
+====== prostorové operace ======
+  * unární: jedna prostorová položka prostorové relace
+  * topologické operátory:
+        * dimension
+        * boundary
+        * interior - všechny části objektu, které nejsou v jeho hranici, boundingNodes a boundingEdges (určí ohraničující body a úsečky ploch), pro 1D a 2D je boundary, boundingNodes, boundingedges, interior, interiorNodes, interiorEdges, interiorAreas
+  * aritmetické operátory:
+        * lenght, area, volume
+  * složené operátory:
+        * perimetr (obvod) pro mnohoúhelník
+        * extreme coordinates 
+        * complement (doplněk)
+        * convex hull (konvexní obal)
+  * binární prostorové operátory (počítají hodnotu ze dvou položek)
+        * distance
+        * direction (úhel udávající azimut)
+
+====== geometrické funkce ======
+  * převod geom formátů: astext, asbinary, geomgromtext, geomfromwkb
+        * i point-linestrin-polygon as text apod
+
+====== prostorové analytické funkce ======
+  * všechny funkce přidávají dvě geometrie
+  * výsledek je boolean
+  * contains (pokud leží BB úplně)
+  * within (jako contains ale opačně)
+  * crosses (BB se nekříží)
+  * equals (stejné geometrie)
+  * intersects (BB se dotýkají nebo překrývají)
+  * overlaps (BB se překrývají)
+  * touches (BB se dotýkají)
+  * disjoint (BB se ani nedotýkají ani nepřekrývají)
+
+
+
+
+
+
+

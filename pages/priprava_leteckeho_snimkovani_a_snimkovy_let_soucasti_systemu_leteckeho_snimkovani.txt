@@ -1,0 +1,9 @@
+====== Zhotovení leteckých snímků ======
+  - zhotovení technického plánu snímkování
+    * **analytická část**
+      * zvolení optimálního měřítka, volba překryvu (60 a 30, podélně a příčně), na co to budu fotit, stanovení expozice, stavení optimální výšky letu, kolik snímků v řadách, kolik řad, kolik všech snímků celkem
+    * **kartografická část**
+      * topografická mapa s vyznačením: hranic, os řad, os letu s oblouky letadla, bodů důležitých pro navigaci
+  - provedení leteckého snímkování
+  - zpracování leteckých snímků
+

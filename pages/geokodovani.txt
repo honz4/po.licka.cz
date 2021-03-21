@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+principy, pravidla, implementace v GIS, data
+</WRAP>

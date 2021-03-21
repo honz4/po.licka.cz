@@ -1,0 +1,23 @@
+<WRAP center round tip 60%>
+struktura, geometrická primitiva, výhody, nevýhody, využití, možnosti komprese
+</WRAP>
+  * Data: analogová (zobrazená fyzickou veličinou), alfanumerická, číselná (matice), digitální (na záznamových médiích)
+  * Geografická data: grafická X negrafická (text, celá čísla, reálná čísla)
+      * **Grafická:** topologická (spojení, dotyk, vnoření, orientace)
+      * **geometrická** -> rastrová a vektorová (bod, linie, polygon, síť, povrch, objem)
+
+=== Vektor === 
+  * implicitní, pro další zpracování a analyzování, body a pro linie a polygony reprezentativní body, přesnější
+  * Uspořádání dle kartézských souřadnic, logické strukturování, pokročilé metody sběru vektorových dat, úsprné uložení dat, náročné na analýzy
+  * Identifikátor -> prostorová a tematická informace
+  * **Výhody:** menší náročnost na paměť, dobrá reprezentace jevové struktury dat, kompaktnost, grafika, přesné zkreslení, znázornění blízké mapám, vysoká geometrická přesnost, jednoduché vyhledávání, úpravy, generalizace
+  * **Nevýhody:** složitější polohové dotazy, obtížnější tvorba překryvů vektorových vrstev, komplikovanost datové struktury, drahé, výpočtová náročnost, složitost výpočtů
+
+=== Rastr ===
+  * explicitní, překrytí entity pravidelnou mřížkou, přímá vazba meti tematickou a prostorovou složkou
+  * Na základě souřadnic  je nalezen pixel (picture element) -> vyvolán tematický obsah (binární rastr, šedotónový, barevný – 8bitový rastr je jeden bajt pro záznam hodnoty jedné buňky a 256 celočíselných různých hodnot, dmr, rastr daného jevu) (binární pro skenované katastrální mapy, 8bit pro panchro, 24bit pro multispektral
+  * Pravidelný rastr / nepravidelný rastr
+  * __Čtvercová mřížka:__ kompatibilní, nekonečně rekurzivně rozložitelná na menší buňky stejného tvaru / __trojúhelníková mřížka:__ nemá jednotnou orientaci, TIN / __hexagonální mřížka:__ středy a stejná vzdálenost
+  * **Výhody:** rychlé nalezení odpovědi na polohové dotazy, snadné překrývání, přímá korespondence s rastrovým formátem, jednoduché datové struktury, kombinace s DPZ, snadné analytické operace, HW a SW nenáročnost
+  * **Nevýhody:** velký objem dat, omezená přesnost (rozlišení), ne pro síťové analýzy
+  * **Komprese:** RLE (přepis matice do řádku – číslo a kolikrát tam je): po řádcích, zpětně po řádcích, Mortonovo pořadí, Peannovo pořadí / RLC (řádek f 2,2 4,6) / Quadtree (hiearchický model, každý uzel má 4 větve

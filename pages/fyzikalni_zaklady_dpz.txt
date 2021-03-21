@@ -1,0 +1,106 @@
+<WRAP center round tip 60%>
+EM záření, základní fyzikální zákony v DPZ, interakce s atmosférou a povrchem, spektrální chování objektů
+</WRAP>
+
+====== Základní fyzikální zákony v DPZ =====
+  * jakýkoliv elektrický náboj pohybující se s nenulovým zrychlením vyzařuje EM vlnění 
+    * když jakýmkoliv jiným objektem (třebas anténa) prochází střídavý elektrický proud, tak vyzařuje EM záření o frekvenci proudu
+  * základem je elektromagnetická vlna skládající se elektrické a magnetické vlny
+     * tyhle dvě vlny jsou na sebe vzájemně kolmé a rovnoběžné v šíření
+ {{ ::emvna.png?nolink |}}
+   * **vlnová teorie**
+     * c = f×λ
+   * **částicová teorie**
+     * Q = h×f
+  * foton = část EM záření
+  * **planckova konstanta**
+    * konstanta vyzařovaného zákona černého tělesa
+    * h = 6,626 x 10<sup>-34</sup> J.s
+  * **absolutně černé těleso**
+    * ideální těleso pohlcující veškeré záření všech vlnových délek dopadajících na jeho povrch 
+    * ideální zářič = ze všech možných těles o stejné teplotě vydává největší možné množství zářité energie
+    * slunce (5000 K), reliktní záření(2,7 K)
+  * **Stefan-Boltzmanův zákon**
+    * intenzita vyzařování tělesa je přímo úměrná čtvrté mocnině jeho teploty
+    * //M = σ×T <sup>4</sup>//
+    * delta =5,670367×10<sup>-8</sup> W.m<sup>-2</sup>.K<sup>-4></sup>
+    * T je absolutní teplota tělesa
+  * energie klesá s vlnovou délkou, proto musí být dlouhovlné záření snímáno na mnohem větší ploše než to krátkovlnné např. (dlouhé vlny jsou hůře zjistitelné)
+  * **Wiennův zákon posuvu**
+    * lambda<sub>max</sub> = c/T
+    * vlnová délka, jíž přísluší maximální intenzita vyzařování je nepřímo úměrná teplotě tělesa
+    * čím vyšší bude teplota tělesa, tím víc bude vyzařovat energie o kratší vlnové délce
+    * Slunko, žárovka, roztavené železo (protoje červené), ostatní objekty už vyzazují v infra
+    * Země třeba má 300K, takže 9,7 nm (Slunce 0,5 nm)
+<WRAP center round info 60%>
+absolutní nula= -273,13 ˚C
+</WRAP>
+  * **Kirkhoffův zákon**
+    * reálné objekty vždy vyzařují menší množství energie než AČT o stejné teplotě
+    * emisivita = poměr mezi intenzitou vyzařování AČT a reálného tělesao dané teplotě
+
+====== Interakce s atmosférou ======
+  * ovlivnění EM záření atmosférou se mění podle délky dráhy, kterou toto záření prochází atmosférou; s velikostí emitovaného signálu; s atmosférickými podmínkami a také s vlnovou délkou
+  * rozpty obecně způsobuje vyšší hodnoty naměřeného záření, především v kratších vlnových délkách
+  * pohlcování zase naměřené hodnoty v delších vlnových délkách snižuje
+ ===== rozptyl =====
+  * závisí na rozměru rozptylujících částic
+  * **Rayleighův molekulární rozptyl**
+    * částice mají menší rozměr než vlnová délka
+    * hlavně krátkovlnné
+    * modré světlo se rozptylujevíc než červené
+    * kvůli tomu je modrá obloha -> pak je západ a východ Slunce a paprsky musí procházet daleko větší drahou -> rozptyl je tak dokonalý, že vidíme pouze méně rozptýlené záření delších vlnových délek (oranžovou a červenou)
+  * **aerosolový rozptyl**
+    * když jsou částice větěí než vlnová délka
+    * např. vodní pára, prachové částice
+  * **neselektivní rozptyl**
+    * velké částice = vodní kapičky
+    * nezávisí na vlnové délce
+    * způsobují stejně intenzivní rozpyl všech vlnových délekve viditelné části spektra = proto jsou mraky bílé
+===== pohlcování =====
+  * dochází k úplné ztrátě  energie na dané vlnové délce
+  * hlavně O3, CO2, vodní pára
+  * nedá se tak vůbec měřit
+  * části EM záření, které nejsou pohlcovány rozptylem a dá se na nich měřit jsou atmosférická okna
+
+====== Interakce s povrchem ======
+  * EM záření může být: odraženo, pohlceno, vedeno
+  * kolik záření se odrazí závisí na vlastnostech objektu
+  * v jednom intervalu vlnových délek můžou objekty odrážet jiné množství záření než v jiném intervalu -> teorie spektrálního chování
+  * spektrální odrazivost
+    * procentuální podíl odraženého záření vzhledem k dopadajícímu záření
+    * spektrální chování -> typické vlastnosti v určité oblasti spektra
+
+====== Spektrální chování objektů ======
+  * závislost na druhu látky či objektu, na fyzikálním stavu, na stavu jeho okolí
+  * listnáče a jehličnanyodliším v infra (jehličnany mají nižší)
+  * poškožení kytek emisemi -> jsou ve stresu -> menší aktivita chlorofylu -> začínají odrážet i R a G -> výrazný pokles odrazivosti v infra
+  * modré spektrum proniká nejhloubcve vodě,takže když budu chtít zjistit obsah minerálů ve vodě, použiju tohle
+{{ ::odr1.png?nolink |}}
+===== vegetace =====
+  * oblast pigmentační absorpce (0,4-0,7), oblast buněčné struktury (0,7-1,3; nárust kolem 0,7 kvůli morfologickému utváření listu, takže super pro odlišení kytek,LAI), oblast vodní absorpce (1,3-3; vodní stres)
+{{ ::odr4.png?nolink |}}
+  * mikrovlny s nižší frekvencí -> druh vegetace, objem biomasy
+  * nedostatek Fe nebo Mg -> míň chlorofylu -> žloutnutí listů
+{{ ::odr2.png?nolink |}}
+===== voda =====
+  * homogenní, různá skupenství -> růzá odrazivost
+  * max propustnost 0,48 -> proniká až do 20 metrů
+  * sníh a led mají ve viditelném a v NIR vysokou odrazivost (v MIR má sníh nižší)
+  * radar pracujícív X pásmu umí rozlišit stáří a druh sněhu a jeho mocnost
+  * nejvíc ve viditelné, pak se chová skoro jako AČT
+{{ ::voda.png?nolink |}}
+===== půda =====
+  * heterogenní
+  * nárust odrazivosti s narůstající velikostí půdních částic (spraš -> jíl -> písek)
+  * vyšší vlhkost -> snížená odrazivost
+ {{ ::puda.png?nolink |}}
+===== minerály =====
+  * celkem homogenní
+  * lepší jsou hyperspektrální data kvůli lepší lokalizaci absorpčních pásů
+  * vhodné MIR a termální záření nato
+
+ 
+
+
+

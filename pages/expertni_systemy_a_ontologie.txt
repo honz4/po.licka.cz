@@ -1,0 +1,5 @@
+<WRAP center round tip 60%>
+znalostní inženýrství a GIT, dělení a základní komponenty expertních
+systémů, proces sběru znalostí (informace, data, znalosti), využití a typy ontologií, jazyky pro zápis
+ontologií
+</WRAP>

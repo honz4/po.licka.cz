@@ -1,0 +1,179 @@
+====== GEOMORFOLOGIE ======
+gé = země, morphé = forma, logos= věda
+  * studuje tvar, vznik a vývoj a stáří zemského povrchu
+  * studium georeliéfu
+  * tvary vznikají působením geomorfologických procesů
+    * endogenní
+    * exogenní
+      * gravitace
+      * fluviální činnost (činnost vodních toků)
+      * marinní a limnické 
+      * glaciální, eolické, kryogenní (u kryo nemusí být jenom led, stačí mráz)
+      * biogenní, antropogenní (doly, lomy)
+
+=== členění ===
+  * strukturní - tektonika a litologie podloží
+  * klimatická
+  * klimatogenetická
+  * dynamická
+  * antropogenní
+  * aplikovaná - sesuvy na lidi apod.
+
+=== historie ===
+  * 1. období
+      * 18. století
+      * katastrofismus :D 
+      * blablabla
+  * taky blablabla uniformalismus
+  * Karel Absolon, Jaromír demek
+
+====== SEISMOLOGIE ======
+studium vnitřní stavby Země
+  * 2 typy vln
+    * P-vlny = povrchové podélné vlny
+    * S-vlny = příčné vlny
+
+=== zemská kůra ===
+  * kontinentální (pevniny + šelf)
+  * oceánská (dno oceánů, pánve, příkopy)
+  * přechodná (nejvzácnější, třívrstvá)
+<code> Conradova plocha = hranice mezi svrchní a spodní vrstvou kůry </code>
+
+  * chemické složení zemské kůry
+  * stavba pevného zemského tělesa
+
+== zemský plášť ==
+  * svrchní sféra
+      * astenosféra
+
+== geotektonické hypotézy ==
+  * fixistická
+      * tvary reliéfu vznikají přímo na místě
+  * mobilistická
+
+
+
+
+
+
+
+
+
+====== SESUVY ======
+Stabilita svahu = mouka na desce, tak po čase taky spadne. Logicky, zvětralé horniny budou držet hůř (spraš, pískovec) \\
+Vzoreček F = s/t 
+
+Proč? Buď jsou způsobeny přirozenými otřesy (zemětřesení, skalní řícení, **spadnutí meteoritu**) nebo technickými otřesy (těžba, doly, doprava). Případně i činností mrazu a zvětráváním.
+
+=== ploužení (creep) ===
+ploužením nevznikají smykové plochy. \\
+Dva typy ploužení - pobrchové a hlubinné. Většinou se vyskytují na svazích s malým sklonem \\
+Opilý les patří sem!
+
+<code>
+soliflukce = pomalé stékání činné vrstvy po zmrzlém podloží </code>
+
+=== sesouvání ===
+Dochází k porušení pevnosti hornin. Dochází k relativně rychlým pohybům. \\
+sesouvání (proces) x sesuv (výsledný tvar)
+
+Vědět jenom, že se to dělí podle smykové plochy (jenom to základní dělení)
+
+=== stékání ===
+<code> viskozita = to jak drží ta tekutina pohromadě </code>
+  * materiál je ve viskózním tvaru (láva má velkou viskozitu)
+  * km/den až 10 km/den
+  * výchozí tvar = proud
+  * čím hlouběji, tím pomaleji
+  * příčina = přívalové deště, hráz, prostě voda
+  * suťové laviny, proudy, bahenní proudy (mivie?)
+
+=== řícení ===
+   * působení gravitace
+   * hornina se uvolní a ztratí kontakt s horninou
+   * až 100 km/hod
+
+====== svahové procesy ======
+jestli v sobě mají vodu nebo ne \\
+ron plošný splach --> deluviální sedimenty (zvětraliny) --> delofluviální
+
+  * s vodou
+      * sufóza
+          * sufózní studna
+          * geneze, deforestace
+          * špatně se to předpovídá
+      * soliflukce (půdotok)
+          * tady se netvoří díra, ale už se to pohybuje celé
+jak jim zamezit? \\
+   * gambion = drátěná klec s kameny
+   * drenáž
+   * husí krk (ta trubka, ne husa)
+   * pilotáž
+   * sanace sesuvu
+
+
+== důsledky svahových procesů ==
+etchllén, peneplén
+
+====== EOLICKÉ PROCESY A TVARY ======
+největší účinky v aridních oblastech (suchých oblastech, kde vítr je primární činitel (nebo Slunce???) \\
+Působení větru: eroze, blablabla
+
+Větrná eroze -> delface, abraze, hrance (valouny s facetovými plochami)
+
+Pouštní lak - větrný transport
+
+Větrný transport - turbulence - černé bouře. Transport větších částí (saltace)
+
+====== VĚTRNÝ TRANSPORT ======
+   * proč to vypadá jako pidižvík z člověče nezlob se? = protože pod hlavičkou už byl terén, takže to fouká postupně, fouká to tak do pěti mětrů
+   * větrná eroze = koraze
+      * nejúčinnější při zemském povrchu
+  * větrný transport
+      * deflace, koraze
+      * deflační mís, hammada
+      * staví se větrolamy (stromy okolo cesty např.)
+      * eolický sediment = duna
+  * písečné usazeniny
+      * vátý písek
+      * duny (připoutané duny)
+      * písečné přesypy (stěhovavé duny)
+      * drobné tvary (čeřiny)
+      * na rovném území -> písečné přesypy (přesyp, nahoru 15 stupňů pak najednou  45!)
+      * ty velké stěhovavé jsou barchany
+      * spraš - hlavně křemičitý prach a vápenec, spraže se usazují, matečná hornina černozemí
+
+
+====== EOLICKÉ HROZBY ======
+   * disturbance
+       * polom, tornádo, spadne strom na mravence
+       * desertifikace, výbuch sopky, i požáár
+       * kůrovci, bobr
+   * fyzická degradace půdy
+       * mráz
+   * větrné polomy
+       * smrky mají nejmenší kořeny, jsou nejméně odolné
+       * monokultury = když tam je více druhů, nějak se to ale zvládne
+     * je to spojené s těžbou
+     * ty prostory po těžbě se nazývají holiny
+
+
+====== MARINNÍ PROCESY A TVARY ======
+   * procesy v pobřežní zóně
+   * korálové útesy (atol)
+   * abrazní srub
+   * estuárium (do špičky, je tam velký záliv, protože to je jako trychtýř)
+
+====== ANTROPOGENNÍ GEOMORFOLOGIE ======
+   * ovlivnění endogenních a exogenních povrchů
+   * saditi plodinu po vrstevnicích
+   * pínky = když se to někde propadne - deprese - neplánované
+   * polder = pod úrovní vodní hladiny, nesmí tam být voda
+   * poldr = jako Odra, může tam být voda. Ta se vždycky taky zaplaví.
+   * rýžoviště = těží se tam drahé kovy
+       * těžba drahých kovů = znečištění chemickou rtutí!!!
+   * sanace = když chci něco zachránit
+   * sejp, hlušina
+
+
+ 

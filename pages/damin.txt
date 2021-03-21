@@ -1,0 +1,48 @@
+<WRAP group>
+<WRAP half column>
+=== proces dobývání znalostí ===
+  - **příprava** = mám složitou strukturu dat, udělám z ní jednu relevantní tabulku
+  - **analýza** = to je statistika
+  - **interpretace** = hodnocení nalezených vztahů v pohledu konového uživatele
+</WRAP>
+
+<WRAP half column>
+
+=== základní typy úloh ===
+  - **klasifikace nebo predikce**
+  - **deskripce**
+  - **hledání nuggetů**
+</WRAP>
+</WRAP>
+
+----
+  * klasifikace = přiřazení dokumentu do jedné nebo víc předem daných skupin (tříd) podle trénovacích příkladů
+  * shlukování = seskupování dokumentů podle jejich podobnosti bez předchozí znalosti těchto skupin
+
+----
+<WRAP group>
+<WRAP half column>
+=== prezentace ===
+
+  * [[3 zdroje databáze (databáze - OLAP, datový sklad, ..., statistika, strojové učení)]]
+  * [[vymezeni_problemu_analyzy_mnohorozmernych_dat._typy_dat._hruba_filtrace._chybejici_udaje_dichotomizace_kategorizace_standardizace_normalizace|filtrace, dichotomizace, kategorizace, standartizace, normalizace, chybějící údaje]]
+  * [[vyuziti_metod_linearni_algebry_pca_svd_nmf|PCA]]
+  * [[shlukova_analyza_metody_nehierarchicke_metody_hierarchicke_prezentace_a_interpretace_vysledku|Shlukové analýzy, Asociace]]
+  * [[slozitost_algoritmu|Složitost]]
+  * [[evolucni_vypocetni_techniky_geneticke_algoritmy_diferencialni_evoluce|Genetické algoritmy]]
+  * [[optimalizace_mravenci_kolonii|Mravenčí kolonie]]
+  * [[neuronove_site_modely_neuronu_topologie_siti_metoda_backpropagation|Neuronové sítě]]
+  * [[vybrane_stochasticke_algoritmy_simulovane_zihani_horolezecky_algoritmus|Stochastické algoritmy]]
+  * [[stromove_datove_struktury_r-strom_b-strom_ub-strom|Stromy]]
+  * [[vizualni_programovani_priklady_jazyku_v_gis_produktech_graficka_notace|Vizuální programování]]
+  * [[Big Data]]
+
+</WRAP>
+
+<WRAP half column>
+=== bokem ===
+  * [[vzdálenosti objektů ve vícerozměrném prostoru]]
+</WRAP>
+</WRAP>
+
+{{ ::rozdeleni_optimetod.png?nolink&500 |}}

@@ -1,0 +1,50 @@
+====== monitoring ======
+  * = sledování procesu nebo jevu pomocí vhodného snímače (kontinuální / diskontinuální)
+  * **pomocí**:
+        * Senzor (snímač, čidlo)
+              * zařízení, které měří určitou fyzikální veličinu a převádí ji na signál, který lze dálkově přenášet a využívat v dalších systémech
+              * parametry: cilivost, práh citlivosti, dynamický rozsah, reprodukovatelnost, chyby senzoru
+              * dělení senzorů dle: měřené veličiny, fyzikálního principu, styku s prostředím, stupně integrace
+        * datalogger:
+              * zařízení určené pro ukládání dat, samostatný přístroj, který umí číst různé typy elektrických signálů
+  * **jak?**
+        * telemetrická stanice
+        * bezdrátová senzorová síť
+
+
+====== zařízení ======
+  * HOBO HR
+        * teplota a vlhkost vzduchu
+  * HOBO, Amet srážkoměr
+        * srážkoměr a datalogger
+  * srážkoměr SR03
+  * ultrazvukový snímač výšky hladiny US1200
+  * teplota půdy Pt100 XM
+  * globální radiace EMS 11
+  * anemometr W1
+        * měří okamžitou rychlost větru
+  * vlhkost půdy DECAGON
+  * vlhkost půdy VIRRIB
+  * virriblogger (datalogger)
+  * EM50
+        * datalogger se senzory decagon
+  * varovná srážkoměrná stanice TS 200
+
+
+====== Standardizace OGC (Sensor Web Enablement (SWE)) ======
+  * ve světě je provozováno obrovské množství přístrojů vybavených senzory, které mají přístup do internetu
+  * standardizace je klíčovou podmínkou pro přenos senzorových dat i metadat, pro porovnání, kombinování informací z různých senzorů
+  * v rámci OGC je rozvíjena skupina standardů SWE, které mají za úkol sjednotit popis senzorů, měřených dat, přenos dat a jejich ukládání
+  * SWE Common Data Model – datové modely pro výměnu dat mezi uzly zapojenými do SWE rámce
+  * SWE Service Model ­ datové typy užívané napříč SWE službami
+
+====== využití ======
+  * parkování v Santanderu
+  * Cambridge
+  * Salamanca
+  * OpenSense Zurich (znečiištění)
+  * Smart Vineyards
+  * Smart Cities
+  * Smart Homes
+
+

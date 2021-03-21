@@ -1,0 +1,12 @@
+  * počasí
+        * aktuální stav atmosféry
+        * modelování je zaměřeno lokálně na krátkodobou předpověď
+        * cílem je co největší přenost
+  * klima
+        * dlouhodobé vzorce počasí
+        * cílem určit trendy
+        * politicky  a společensky významné
+
+  * ALADIN
+  * Global Forecas System
+  * IPCC (mezinárodní panel pro změnu klimatu)

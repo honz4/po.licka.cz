@@ -1,0 +1,86 @@
+====== Geoinformatika ======
+   * 1. [[Vektorové operace v GIS]]
+   * 2. [[Rastrové operace v GIS]]
+   * 3. [[Topologie]]
+   * 4. [[Datové modely a struktury]]
+   * 5. [[Rastr vs. vektor]]
+   * 6. [[Typy digitálních dat]]
+   * 7. [[Programové prostředky GIS]]
+   * 8. [[Esri Geodatabáze]]
+
+   * [[Co je GIS]]
+====== Geografické informační systémy ======
+   * 9. [[Datové formáty]]
+   * 10. [[Metadata]]
+   * 11. Datové sady
+      * a) [[Základní datové sady v ČR]]
+      * b) [[Tematické datové sady v ČR]]
+      * c) [[Mezinárodní datové sady]]
+   * 12. Síťové analýzy
+      * a) [[Principy síťových analýz]]
+      * b) [[Základní typy analýz]]
+   * 13. [[Geokódování]]
+
+====== Digitální modely reliéfu ======
+  * 14. [[Zdrojová data]]
+  * 15. [[Datové modely pro DMR]]
+  * 16. [[Interpolace a triangulace DMR]]
+  * 17. [[Hodnocení kvality a přesnosti DM]]
+  * 18. [[Analýzy nad DMR]]
+
+
+====== Polohové a navigační systémy ======
+  * 19. [[Historie a současnost navigace a navigačních systémů]]
+  * 20. [[Signály vysílané družicemi]]
+  * 21. [[Metody určování polohy pomocí GNSS systémů]]
+  * 22. [[Omezení systému GPS]]
+
+====== Dálkový průzkum Země ======
+  * 23. [[Fyzikální základy DPZ]]
+  * 24. Letecké snímkování a zpracování dat
+        * a. [[Příprava leteckého snímkování a snímkový let, součásti systému leteckého snímkování]]
+        * b. [[Interpretace leteckých snímků, interpretační znaky, práce se snímky, klasifikační systémy]]
+  * 25. Družicový DPZ
+        * a) [[Základní dělení, specifika, aktivní a pasivní systémy, družicové systémy, rozlišení]]
+        * b) [[Dálkový průzkum v mikrovlnné části EM spektra]]
+        * c) [[Dálkový průzkum v tepelné části EM spektra]]
+  * 26. Základní zpracování obrazových dat
+        * a) [[Radiometrické a atmosférické korekce]]
+        * b) [[Geometrické korekce]]
+  * 27. Zvýrazňování obrazových záznamů
+        * a) [[Radiometrické zvýraznění]]
+        * b) [[Prostorové zvýraznění]]
+        * c) [[Spektrální zvýraznění]]
+  * 28. Klasifikace obrazových záznamů
+        * a) [[Klasifikace řízená]]
+        * b) [[Klasifikace neřízená]]
+        * c) [[Další přístupy ke klasifikaci obrazových záznamů]]
+  * 29. [[Vegetační indexy]]
+  * 30. [[Letecké laserové skenování]]
+
+
+====== Freeware and Open Source GIS ======
+  * 31. [[Knihovny GDAL/OGR]]
+  * 32. [[Knihovny PROJ4, GEOTOOLS]]
+  * 33. [[Dělení a klíčové příklady vybraných free a open source GIS]]
+
+
+====== Informační systémy o území ======
+  * 34. [[Základní registry, digitální mapa veřejné správy]]
+  * 35. [[Obsahová náplň ISÚ]]
+  * 36. Katastr nemovitostí ČR a ISKN
+        * a) [[Historický vývoj]]
+        * b) [[SPI, SGI, LV, dálkový přístup, geometrický plán]]
+  * 37. [[Katastrální mapy v ČR]]
+
+====== Prostorové plánování ======
+  * 38. Nástroje územního plánování
+        * a) [[Územně plánovací dokumentace]]
+        * b) [[Územně plánovací podklady]]
+  * 39. [[Rozbor udržitelného rozvoje území]]
+  * 40. Geoinformatika v územním plánování
+        * a) [[GIT v územním plánování]]
+        * b) [[Analýzy, modelování a simulace v územním plánování]]
+
+
+

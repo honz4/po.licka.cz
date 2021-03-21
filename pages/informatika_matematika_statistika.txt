@@ -1,0 +1,64 @@
+====== Matematika ======
+  * 1. [[Limita posloupnosti, limita funkce]]
+  * 2. [[Derivace a spojitost funkce]]
+  * 3. [[Určitý a neurčitý integrál]]
+  * 4. [[Průběh funkce]]
+  * 5. [[Vektory, matice a determinanty]]
+
+====== Základy informatiky ======
+  * 6. [[Operační systémy, počítačová bezpečnost, zálohování dat]]
+  * 7. [[Počítačové sítě založené na protokolech rodiny TCP/IP]]
+
+====== Statistika a geostatistika ======
+  * 8. [[Náhodná veličina a náhodný vektor]]
+  * 9. [[testovani_hypotez|Testování statistických hypotéz]]
+  * 10. [[Regresní modely]]
+  * 11. [[ANOVA]]
+  * 12. [[Kriging]]
+
+====== Programování ======
+  * 13. [[Algoritmus]]
+  * 14. [[Složitost algoritmu]]
+  * 15. [[Jazyk Python,  základní řídící struktury jazyka]]
+  * 16. [[Datové kolekce v Pythonu]]
+  * 17. [[Teorie objektově orientovaného programování]]
+  * 18. [[Objektově orientované programování v jazyce Python]]
+  * 19. [[Pole, vyhledávání v poli]]
+  * 20. [[Rekurze, backtracking]]
+  * 21. [[Třídění]]
+  * 22. [[Datové struktury]]
+  * 23. [[Program a skript]]
+  * 24. [[Geoprocessor na bázi Esri]]
+  * 25. [[Skriptování v jazyce Python pro ArcGIS]]
+
+====== Databázové systémy ======
+  * 26. [[Teorie databázových systémů]]
+  * 27. [[Teorie relačních databází]]
+  * 28. [[Stupně relací v relačních databázových systémech]]
+  * 29. [[Integrita dat]]
+  * 30. [[Databázové modely]]
+  * 31. [[Normalizace databází]]
+  * 32. [[Jazyk SQL]]
+
+====== Dynamický web ======
+  * 33. Principy publikování WWW
+        * a) [[Stavební kameny WWW]]
+        * b) [[Webové formuláře]]
+  * 34. [[Značkovací makrojazyky]]
+  * 35. [[(X)HTML]]
+  * 36. [[CSS]]
+  * 37. [[Jazyk PHP a práce s daty]]
+  * 38. [[Optimalizace websitu]]
+
+====== Základy softwarového inženýrství ======
+  * 39. Softwarový proces
+        * a) [[Specifikace požadavků a analýza softwarového systému, návrh softwarového systému]]
+        * b) [[Cykly, fáze a iterace procesu RUP, UML]]
+        * c) [[Návrhové vzory a jejich použití]]
+        * d) [[Extrémní programování, testování]]
+
+
+
+
+
+

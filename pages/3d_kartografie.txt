@@ -1,0 +1,58 @@
+   * Svět je třídimenzionální a pro lidské oko je vnímání 3D informací přirozenější, výhodnější a efektivnější než 2D
+===== Google Earth =====
+  * Aplikace Google Earth vám umožní přeletět na libovolné místo na Zemi, zobrazit satelitní snímky, mapy, terén, 3D budovy, vzdálené galaxie ve vesmíru i oceánské příkopy na mořském dně. Jejím prostřednictvím můžete zkoumat podrobný zeměpisný obsah, ukládat navštívená místa a sdílet je s ostatními. 
+  * Původně se tento program jmenoval Earth Viewer a byl vytvořen firmou Keyhole Inc. Tato společnost byla odkoupena Googlem v roce 2004 a v červnu roku 2005 byla uvolněna první verze Google Earth. 
+
+ ==== Podkladová data Google Earth ====
+  * Rozlišení ortofotosnímků se pohybuje od 15m/pixel do 15cm/pixel
+  * Google Earth také používá digitální výškový model (DEM) vytvořený NASA. 
+  * Model byl vytvářen v rámci projektu SRTM (Shuttle Radar Topography Mission). 
+  * SRTM 1 - Prostorové rozlišení 1” (přibližně 30 m na rovníku) pro území USA
+  * SRTM 3 - Prostorové rozlišení 3” (přibližně 90 m na rovníku) pro zbytek světa (bez pólů)
+  * V mnoha oblastech byl tento terén dále zpřesňován. 
+  * Zobrazování 3D modelů budov a celých měst. Propojení s aplikací Google SketchUp
+==== formát dat ====
+  * Defaultní formát souborů pro Google Earth je *.kml (od roku 2009 standard OGC)
+  * kmz je akorát zazipované kml
+
+==== ostatní ====
+  * zobrazí výškový profil
+  * historické snímky (v čr moc ne, ale varšava a VB mají snímky i z předválečného období)
+
+
+===== SketchUp =====
+  * „Google SketchUp je software, který můžete použít pro tvorbu, úpravu a sdílení 3D modelů. Naučíte se ji používat snáze než jiné programy pro 3D modelování - a právě proto ji využívá tolik lidí.“
+  * V dubnu 2012 prodává Google Sketchup společnosti Trimble
+  * publikace modelů Google Warehouse
+    * od 2013 to ale ukončili, a už modely nešlo zobrazovat jako objekty v google earth, protože budu tvořit nové modely pomocí leteckého snímkování (šikmé snímky pod 45° úhlem)
+  * alternativou je Blender nebo 3D Studio Max
+
+
+
+
+
+
+----
+
+ * převedení KML do ArcGIS? 
+    * buď online, nebo přes ArcScripts nebo pomocí programů třetích stran (Garmin, GlobalMapper)
+  * Data interoperability extensions
+  * z ArcGIS do Google Earth
+    * je toho víc, než opačným směrem
+    * export jako vektor, rastr, jako dlaždice (tiles)
+      * na dlaždice je třeba MapTiler
+      * podobný princip jako Zoomify
+      * nahrau georeferencovaný obrázek a zvolím maximální úroveň zoomu
+      * vytvoří se dlaždice a kml soubor který na ně odkazuje
+    * arcgis export, export to KML, ET Geowizard
+
+==== Sketchup a ArcGIS ====
+  * převod ze sketchupu do arcscene
+  - ESRI Multipatch
+    * verze 10 už to nepodporuje, instalovalo se to přes plugin
+    * problém s převodem textur
+  - 3D symboly
+    * ve verzi 9.3 nutnost PRO verze Sketchupu
+    * od verze 10 je možno nahrávat přímo SKP nebo DAE
+
+<wrap hi>LoD = level of Detail</wrap>

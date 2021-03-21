@@ -1,0 +1,112 @@
+  * plíživý extrémní jev
+  * meteorologické sucho, agronomické a hydrologické sucho, socioekonomické sucho
+  * příčiny: vysoké teploty, málo srážek, rychlý odtok, vegetace, povětrnostní situce
+
+
+  * OBS Doksany
+        * je to meteo stanice
+        * měří půdní vlhkost (od 1970)
+        * od 1991 automatizace pomocí snímačů VIRRIB
+        * od 1998 VIRRIB na dalších 34 stanic
+        * VIRRIB je elektromagnetický snímač pracující na principu TDT (time domain transmitionary) . Napájí se pouze v době měření.
+
+====== klimatické indexy sucha ======
+  * určení začítku a konce = doba trvání sucha
+  * určení intenzity sucha
+  * proměnné
+        * srážky, teplota, evapotranspirace, půdní vláha, odtok,zásoby sněhu a vody v řekách a nádržích, vítr, využitelná vodní kapacita, vodní bilance, sluneční svit, ...
+  * další charakteristiky:
+        * PRN (precipitation needed for retur to normal conditions)
+        * N-leté indexy (průměrná doba opakování určité intenzity sucha)
+        * křivky překročení
+        * IHS (index hydrometeorologického sucha)
+              * vychází z vodní bilance
+              * vstup: denní teploty a srážky
+              * začátek, konec a délka trvání sucha je vymezena denním indexem IHS pod -30
+        * PDSI (palmer drough severity index)
+              * palmerův index závažnosti sucha
+              * doplnění (spotřeba) vláhy ve spodním horizontu nastává až tehdy, je-li nasycen (vyčerpán) horizont svrchní
+              * {{ ::pdsi.png?direct |}}
+        * Palmerův Z-index
+        * SPI (standartized precipitation index)
+              * Koncept standardizovaných srážkových úhrnů – podíl diferencí úhrnu srážek za dané období od průměru a směrodatné odchylky srážkových úhrnů
+        * EDI (effective drough index)
+              * Standardizovaný (eliminace vlivu ročního chodu srážek), umožňuje srovnání různých míst (nezávisle na klimatických charakteristikách)
+        * KBDI (keetch-byram drought index)
+              * pro odvození potenciálu lesních požárů
+        * CMI (crop moisture index)
+              * vstup strážky a teplota
+        * SWSI (surface water supply index)
+              * Vstup: srážky, teplota, evapotranspirace, půdní vlhkost, odtok, zásoby sněhu
+        * RDI (reclamation dought index)
+              * Vstup: srážky, teplota, zásoby sněhu, voda v řekách (průtok), voda v rezervoárech
+        * Langův dešťový faktor
+        * Index meteorologicky možného sucha
+
+
+
+----
+
+  * zrnitostní křivka
+        * udává hmotnostní zastoupení jednotlivých funkcí
+        * bod (x,y) vyjadřuje hmotnostní podíl vzorku půdy se zrny menší než x
+
+====== metody stanovení ======
+  * frakce do 0,01 = sítování
+  * frakce pod 0,01 mm = např. hustoměrná metoda  (-> v určitých intervalech se měří hustota suspenze; na základě Stokesova zákona, kde rychlost sedimentace částic je přímo úměrná čtverci velikosti zrna)
+
+  * potenciál půdní vody
+        * pohyb je způsoben: gravitací, vlhkostí, osmózou
+        * celkový potenciál = gravitační + vlhkostní (kapilární)
+        * nulový vlhkostní potenciál = hladina podzemní vody
+        * nad hladinu podzemní vody - záporný vlhkostní potenciál (bylo vynaloženo úsilí k vyzdvižení vody)
+  * kapilární model
+        * předpokládá idealizovanou strukturu pórů půdy jako sady kapilár různých průměrů
+        * póry tvoří dokonale propojené sítě
+        * při zvlhčování se póry plní od nejmenších po největší
+        * každé vlhkosti náleží určity kapilární tlak (určité zakřivené menisků)
+  * retenční čára
+        * vztah mezi tlakovou výškou (výškovým potenciálem) a objemovou rychlostí
+        * závisí na zrnitostním a minearologickém složení, obsahu humusu
+
+====== měření půdní vlhkosti ======
+  - přímá (gravimetrická) metoda -> měří se přímo objem vody ve vzorku
+  - měření potenciálu -> odporová a tenzometrická metoda
+  - elektromagnetické metody -> kapacitní metody, reflektometrické metody
+  - radiometrické metody -> neutronová, gamaskopická
+  - DPZ metody
+
+====== elementární hydrologické procesy v půdě ======
+  * infiltrace
+        * vertikální pohyb vody půdním profilem
+        * stacionární a nestacionární
+        * Hortonova metoda
+        * Green-Ampt metoda
+              * initial loss, moisture deficit, sucion (čelo zvlhčení), conductivity, podíl nepropustných ploch
+  * redistribuce
+  * drenáž k hladině podzemní vody
+  * výpar z holé půdy
+  * transpirace (výpar a odběr vody rostlinami)
+
+----
+
+  * Soil MOisture Accounting (SMA)
+         * povodí je rozděleno na několik zón: intercepce, povrchová detence, půdní retence, retence podzemního odtoku na první a druhé vrstvě
+         * parametry se získávají měřením nebo kalibrací
+  * proudění vody v pórovitém prostředí
+        * systém je v rovnovážném stavu, pokud jsou si celkové potenciály v každém bodě rovny. Gradient potenciálu je roven 0.
+        * pohyb vody je způsoben rozdílem potenciálů -> systém je v nerovnovážném stavu
+        * pokud není systém na okrajích ovlivňován, tak přejde do rovnovážného stavu
+        * neexistuje uzavřený systém
+        * neustálené proudění
+  * základní odtok
+        * metoda exponenciálního poklesu
+        * možné vybrat bud průtok nebo specifický odtok
+  * proudění vody v nenasyceném prostředí
+        * richardsova rovnice
+              * rovnice kontinuity
+              * darcy-buckinghamův zákon
+  * hrozba zamokření
+        * subsidence = poklesávání území vlivem vytlačování vody ze zvodněných horizontů
+        * většinou za to může člověk
+        * 

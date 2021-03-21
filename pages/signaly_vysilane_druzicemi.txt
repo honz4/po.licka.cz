@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+GPS signál, C/A kód, P - kód, Y - kód, navigační zpráva, CDMA, FDMA)
+</WRAP>

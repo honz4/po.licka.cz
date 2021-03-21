@@ -1,0 +1,91 @@
+Slovo katastr je odvozeno z latiny a znamená krátce asi totéž co soupis (caput = hlava, capitastrum = soupis podle hlav, později též podle jakékoliv jednotky). Obecně pak býval tímto slovem označován přehledný soustavný popis zvláštních vlastností, osob, věcí nebo práv, zejména pak soupis pozemků nebo i výtěžků z obchodů a živností pořizovaný k účelům daňovým. Snaha o jednotnou daňovou politiku je patrná již v r. 1022, kdy český kníže Oldřich († 1034) z rodu Přemyslovců zavedl vybírání daně z lánu.
+===== zemské desky a urbáře =====
+  * počátek 14. století a **šlechta** si začíná zajisťovat právo na majetek (tak, že si ho zapíšou **do zemských desek**)
+  * pozemky šlechty nebyly až do roku 1706 podrobeny žádné dani!!!
+  * původně byly zemské desky pro zápis soudních sporů
+  * pozemky připsané **poddaným** se zapisovaly do **urbářů** (-> //urbární// nebo //rustikální// pozemky)
+
+===== rustikální katastr =====
+  * 1650 se sněm rozhodl, že budou spravedlivěji vyměřovány daně
+  * vzniká tedy první berní katastr (//první berní rula//) -> 1680 cca se reeviduje a vzniká druhý berní katastr (//druhá berní rula//) - ten platí ještě dalších 60 let (do roku 1740)
+  * na Moravě máme obdobu, a to //lánové rejstříky//
+  * rozlišovala se jen půda zemědělská a neobdělávaná, jakost půdy měla jen tři třídy (dobrá, prostřední a špatná)
+  * jako dodatek k tomuto katastru bylo roku 1706 rozhodnuto zdanit i půdu šlechty a založit tzv. //katastr dominikální//, který byl dokončen 1747
+  * rozvržení daní se v dominikálním katastru řídilo počtem rustikálních usedlostí jednoho panství. Takto hrubě stanovená a nestejnoměrně rozdělená daň vedla v roce 1749 k tzv. vyrovnání (exaequace) daně již podle výměry půdy a založení tzv. **Exeaquatorium dominicale**, který byl dokončen v roce 1756. Takto upřesněný dominikální katastr již rozlišoval veškeré zahrady, role, úhory, vinice, chmelnice, pastviny a lesy
+  * přichází Marie Terezie -> 1749 vstupuje v platnost //první tereziánský katastr rustikální// (třetí berní rula)
+  * rustikální + dominikánský katastr = **tereziánský katastr**
+
+===== josefský katastr =====
+  * císař Josef II. vydal patent (1785) o reformě pozemkové daně a na vyměření půdy
+  * jde o první katastr založený na výsledcích skutečného, i když velmi hrubého, měření, a nikoliv pouze na základě daňových přiznání
+  * základní jednotkou pro odhad výnosu není usedlost, ale výměra pozemku
+
+  * Nejprve byly **určeny hranice těchto katastrálních obcí** (včetně protokolu o průběhu hranic)
+  * Pro každou katastrální obec byly vyhotoveny seznamy, kde vedle popsání polohy a názvu pozemkové tratě byla uvedena topografická čísla pozemků, jména majitelů a výměry pozemků. ->  Měření bylo dobře zorganizováno (výsledky se zapisovaly do připravených tiskopisů), probíhalo velmi rychle a bylo dokončeno během 4 let, takže už 1. listopadu 1789 vstoupil operát josefského katastru v platnost. **Primitivní a ukvapené měření bez geometrických základů nemohlo však zajistit spolehlivé výsledky**, což se ukázalo při snaze roku 1792 sestavit z náčrtů souvislou mapu celé říše, neboť z jednotlivých polních tratí nebylo často možno sestavit ani mapu obce. 
+  * Protože tento katastr jako první již **nerozlišoval půdu poddaných a šlechty**, byl na nátlak šlechty po smrti Josefa II. v roce 1792 **částečně zrušen** a daně šlechty se opět vybíraly podle předchozího tereziánského katastru. Tato úprava se nazývá pak **__katastrem tereziánsko-josefským__**, 
+
+===== stabilní katastr =====
+  * 1817 František I. vydává císařský patent -> pro každou obec se zhotoví samostatná mapa -> vyznačená tvarem, polohou a velikostí v příslušném měřítku dle velikosti (1 : 2880 <- aby dolnorakouské jitro bylo čtvereční cenťák na mapě)
+  * a měřičské a mapovací práce mají provést odborníci co to umí
+  * katastr měl tvořit stálý a dokonalý seznam všech pozemků podrobených dani, s udáním jejich velikosti, polohy a čistého výnosu. Pro svou důkladnost a představu, že bude navždy sloužit svému účelu, byl nazván stabilním katastrem
+  * Stanovoval, že **stavba je součástí pozemku** (tj. zásadu římského práva superficies solo cedit) a že k převodu vlastnictví nemovitých věcí je třeba zápis do pozemkových knih, nazývaný vklad (intabulace).
+  * rozděleno na pozemky podrobené dani a pozemky osvobozené od daně
+  * **Plodná půda** byla členěna podle následujících kultur: zahrady, vinice, role, louky, pastviny, lesy. K **parifikátům** (pozemky využívané k jiným účelům než zemědělským a lesnickým, zdaněny podle porovnání se sousedními pozemky – parifikací) patřily např. zastavěné plochy domů a budov včetně dvorů, stavební místa, plochy lomů, soukromé cesty, kanály, dráhy atd. K pozemkům **osvobozeným od daně** patřila neplodná půda, ale také rybníky bez užitku, koryta řek a potoků, veřejné kanály, náměstí, návsi, veřejné cesty, státní dráhy, kostely, kaple, hřbitovy, budovy sloužící státu, veřejné vzdělávací ústavy atd.
+  * **Gustenberg a st. Štěpán**
+    *  Geometrickým základem byla trigonometrická síť a bezprojekční souřadnicová soustava Cassini-Soldnerova
+    * bylo využito předchozích triangulací I., II. a III. řádu. Triangulace I. řádu byla částečně opravena a nově vypočteny souřadnice sítě II. a III. řádu.
+    * zkreslení úhlů a délek a ploch -> museli využít dvě souřadnicové soustavy -> pro Čechy Gustenberg, pro Moravu a Slezsko soustava se středem věže kostela sv. Štěpána ve Vídni
+    * potřebné zhuštění sítě body IV. řádu se provádělo grafickou triangulací stolovou metodou v měřítku 1:14 400
+  * kromě katastrálních map se vyhotovovaly **indikační nástiny (skizzy)**, později nazývané příruční mapy. Byly to kopie katastrálních map podlepené a rozříznuté na čtvrtky. Sloužily k vyšetřování v terénu, zapisovala se do nich jména vlastníků, domovní čísla, pojmenování tratí, rozlišení kultur atd. Byly výrazně kolorovány, obvody majetku byly obtaženy silnější čarou. Komisí v terénu ověřená a schválená skica pak byla podkladem ke kancelářskému dokončení mapy a sestavení parcelních protokolů. Používala se však i pro vceňování pozemků a další práce v poli.
+  * Katastrální mapa byla doplněna parcelními čísly. Pozemkové parcely byly označovány v původních mapách červenými parcelními čísly, stavební černými.
+  * 1870 je prováděna **reambulace katastru**, protože nečekali že budou tak rychlé a velké změny ve využívání půdy. Ale celé dílo tímto značně utrpělo – reambulace nebyla provedena kvalifikovanými pracovníky a povolené odchylky byly vyšší než dříve
+  * 1874 zákon o založení nových pozemkových knihách (byly povinně veřejné)
+
+===== pozemkový katastr =====
+  * Dne 16. 12. 1927 byl přijat zákon č. 177/1927 Sb. z. a. n., o pozemkovém katastru a jeho vedení (**Katastrální zákon**).
+  * nepostradatelá součást všech právních jednání o nemovitostech
+  * Zastaralé a nevyhovující zobrazení pozemků a budov v zastavěných částech měst se začalo nahrazovat moderním, podrobným a přesným zobrazením, zpravidla v měřítku 1 : 1000 nebo 1 : 2000.
+  * Nově vyhotovované katastrální mapy byly zobrazovány v lokálním národním souřadnicovém systému Jednotné trigonometrické sítě katastrální (**S-JTSK**), charakterizovaným Besselovým elipsoidem a Křovákovým konformním kuželovým zobrazením v obecné poloze.
+  * Pro každou parcelu byl v pozemkovém katastru uveden držitel, výměra, vzdělávání (kultura), jakostní třída (ve škále 9 stupňů) a katastrální výtěžek.
+  * Pozemkový katastr byl velmi přesný a spolehlivý především do r. 1938. Později již nebyla jeho údržba dostatečná a zejména po r. 1945 (poválečné konfiskace a přídělové řízení) se začal hrubě rozcházet se skutečností a po roce 1956 se přestal udržovat vůbec. Katastrální zákon č. 177/1927 Sb. byl zcela zrušen až v roce 1971 zákonem č. 46/1971 Sb., o geodézii a kartografii.
+  * **po druhé světové**
+    * prolomení intabulačního principu (vlastnické právo přecházelo na přídělce dnem převzetí držby)
+    * zasažena 1/3 území státu takovými změnami
+    * přídělové řízení bylo (zejména na jižní Moravě) kombinováno s již započatým řízením scelovacím
+    * bylo připuštěno používání provizorních a málo přesných měřických podkladů -> vznikl dodnes nenapravený neutěšený stav
+    * vytyčené hranice v terénu většinou označeny jen kolíky
+    * nové hranice byly do pláu zakreslovány co nejjednoduším způsobem
+    * 1951 zavržení římského práva že stavba je součástní pozemku. Po 1951 není!
+    * V nově panujících politických poměrech zcela upadl zájem na evidování soukromých práv k nemovitostem. Socialistické hospodářství bylo založeno na plánování zemědělské výroby a k naplnění těchto ambicí bylo potřeba především znát,** kdo půdu obhospodařuje a nikoliv kdo ji vlastní**.
+      * na základě tohoto je založena **Jednotná evidence půdy (JEP)** v roce 1956. Pozemkový katastr nebyl ani pořádně dodělaný když se na něho vykašlali a přestali ho udržovat. 
+      * až do roku 1964 se nikdo nestaral a nikde se nevedla ani evidence o soukromém vlastnictví pozemků
+===== evidence nemovitostí =====
+  * Dne 1. 4. 1964 nabyly účinnosti:  nový občanský zákoník (zákon č. 40/1964 Sb.), zákon o evidenci nemovitostí EN (zákon č. 22/1964 Sb.) a notářský řád (zákon č. 95/1963 Sb.)
+  * stále to nebylo ono: soukromá práva k nemovitostem, neobnovení intabulačního principu
+  * Součástí EN mělo být i evidování právních vztahů k nemovitostem, a protože se od r. 1951 žádná taková úplná a systematická evidence právních vztahů nevedla, bylo nutné její nové založení. Komplexní zakládání evidence nemovitostí (KZEN), při kterém se zjišťovaly a zapisovaly aktuální právní vztahy k nemovitostem trvalo skoro čtvrt století (1964 - 1988).
+  *  Evidence nemovitostí obsahovala **operát měřický** (mapu pozemkovou, pracovní a evidenční), **operát písemný** (výkaz změn, soupis parcel, evidenční listy, listy vlastnictví, seznam a rejstřík uživatelů a vlastníků a seznam domů), **sbírku listin a sumarizační výkazy**. 
+  * Měřický operát EN (**pozemkové mapy**) vycházel z předchozích ostrovních map bývalého pozemkového katastru, které byly skresleny do souvislého zobrazení. Nové pozemkové mapy byly postupně vyhotovovány na základě výsledků technicko-hospodářského mapování - THM (1961 - 1981), později na základě výsledků tvorby základní mapy velkého měřítka - ZMVM (1981 - 1992).
+    * podařilo se při nich došetřit poslední známy stav
+
+===== katastr nemovitostí =====
+  * rok 1989 - nedokonale vedený KN, co s tím?
+    * -> zákon č. 344/1992 Sb., o katastru nemovitostí České republiky (katastrální zákon) a zákon č. 359/1992 Sb. o zeměměřických a katastrálních orgánech
+  * vzniká KN ČR (pozemková kniha a bývalý pozemkový katastr dohromady - jakože jejich funkce)
+    * státní správu vykonávají katastrální úřady
+  * částečné obnovení intabulačního principu (pro smluvní nabývání věcných práv k nemovitostem, kdy k jejich nabytí dochází (po zákonem vymezené právní aprobaci prováděné katastrálním úřadem ve správním řízení) vkladem do KN)
+  * **Katastrální operát tvoří**
+    - soubor geodetických informací - SGI
+      * zahrnující katastrální mapu a ve stanovených katastrálních územích i její číselné vyjádření
+    - soubor popisných informací - SPI
+      * zahrnující údaje o katastrálním území, o parcelách, o stavbách, o vlastnících a jiných oprávněných a o právních vztazích
+    - souhrnné přehledy o půdním fondu
+    - dokumentace výsledků šetření a měření
+    - sbírka listin
+  * KN při svém začátku zcela převzal operát předchozí EN
+  * Její zásadní obsahovou neúplnnost (o soukromé pozemky dříve užívané socialistickými organizacemi) bylo třeba překlenout založením **zjednodušené evidence pozemků**. 
+    * Zjednodušená evidence pozemků obsahuje alespoň parcelní číslo podle dřívější pozemkové evidence, původní nebo zbytkovou výměru (po majetkoprávně provedených změnách) a údaj o vlastníku.
+    * Pozemky zjednodušené evidence **nejsou zobrazeny v platných katastrálních mapách** a využívá se proto stále jejich zobrazení v mapách bývalého pozemkového katastru nebo navazujících operátech přídělového a scelovacího řízení. 
+    * Zákládání zjednodušené evidence bylo prováděno souběžně s digitalizací SPI v letech 1994-1998. v letech 1997-1998 byl KN jednorázově doplněn o údaje o vztahu bonitovaných půdně ekologických jednotek (BPEJ) k parcelám. 
+    * V roce 1998 byla zahájena digitalizace SGI.
+
+

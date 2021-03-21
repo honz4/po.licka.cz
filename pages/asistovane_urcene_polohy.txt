@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+dělení, metody, principy
+</WRAP>

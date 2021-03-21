@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+Národní Geoportál, statistická, geologická, pedologická, environmentální, hydrologická, meteorologická, klimatická, dopravní a ekonomická data - garant, měřítko, struktura, aktualizace, dostupnost
+</WRAP>

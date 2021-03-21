@@ -1,0 +1,22 @@
+  * VLNA 
+        * z vyškova
+        * umí stanovit výšku čela záplavové vlny v závislosti na vzdálenosti od  vodního díla, které bylo narušeno a na charakteru terénu (příčném a podélném profilu údolí),  kterým  vlna  postupuje.  Model  poskytuje  výsledky  nespojitě,  po zadaných  úsecích  vodního  toku, ve formě číselných hodnot. 
+  * MIKE-FLOOD
+        * stojí moc peněz
+        * efektivní spojení mezi řekou, povodňovou oblastí nebo mořem a vnitrozemskými vodními cestami, zátokami a lagunami
+  * HEC-RAS
+        * americká armáda
+        * je možno provádět  kalkulace  jednorozměrných  ustálených  a  nestabilních  toků.  Program  umožňuje  do výpočtu  zahrnout také pohyb splavenin
+        * analýzy odtkou vodních srážek, říční hydraulika, simulace nádržových systémů, analýza povodnových škod
+  * BOSS DAMBRK
+        * pro dynamické transformace povodňové vlny, bezpečnostní analýzu hráze  a pro analýzu přepadu vody nádrže
+  * FRAT (flood risk assesment tool)
+        * pro všechny pojišťovny v čr
+
+
+
+----
+
+  * EQECAT (eartquace catastrophe)
+  * risk management solutions
+  * air worldwide

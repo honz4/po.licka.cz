@@ -1,0 +1,8 @@
+====== teoretická ======
+  *  [[daprz_georeferencovani|georeferencování]]
+====== praktická ======
+  * [[daprz_cviceni|cvičení]]
+  * [[nápověda k zápočtu]]
+
+
+

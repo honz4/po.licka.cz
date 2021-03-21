@@ -1,0 +1,4 @@
+  * analýza potenciálu cestovního ruchu Olomouce
+  * do úrovně ZSJ (sledován počet obyvatel + dopravní infrastruktura v km a zohlednit zastávky MHD + landuse + POI + zařízenost + bankomaty + statistická data)
+  * komentář + libovolný počet vizualizací + finální potenciál
+  * nevrhnout umístění nového HUZ (zd§vodnit umístění, charakter, kapacitu zaměření, vybavení)

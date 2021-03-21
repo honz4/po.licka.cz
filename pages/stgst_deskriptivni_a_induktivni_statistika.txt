@@ -1,0 +1,15 @@
+====== desktriptivní statistika ======
+  * popis  statistických souborů
+  * možnost vzájemného srovnání:
+        * míry polohy, variability, šikmosti, špičatosti
+        * rozdělení
+        * indexy
+
+====== induktivní statistika ======
+  * vyslovování závěrů o statistickém souboru na základě výběru:
+  * odhady parametrů
+  * ověřování (testování) hypotéz
+  * modelování závislostí
+  * vysvětlování souvislostí
+
+

@@ -1,0 +1,7 @@
+  * Lindenmayerovy systémy neboli L-systémy jsou další metodou dynamického modelování evoluce, která řeší geometrickou interpretaci modelovaného děje
+  * Evoluce L-systému je definována jako posloupnost generací, v níž každá generace vznikne z bezprostředně předcházející generace aplikací všech produkčních pravidel
+  * **Fibonnaciho L-systém** 
+        * modeluje růst populace
+        * dvě písma: A a B, počáteční je A
+        * A -> B, B -> AB
+        * příklady želví grafiky nebo Kochova vločka <- [[fraktály]]

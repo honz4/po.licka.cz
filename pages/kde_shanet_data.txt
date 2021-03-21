@@ -1,0 +1,18 @@
+====== Česko ======
+  * https://www.czso.cz/
+
+{| class="wikitable"
+|+ Caption: example table
+|-
+! header1
+! header2
+! header3
+|-
+| row1cell1
+| row1cell2
+| row1cell3
+|-
+| row2cell1
+| row2cell2
+| row2cell3
+|}

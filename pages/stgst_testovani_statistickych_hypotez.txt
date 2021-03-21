@@ -1,0 +1,33 @@
+  * dvojice vzájemně se vylučujících hypotéz
+  * H0 – **nulová hypotéza**
+      * hypotéza, která má být zamítnuta, matematické vyjádření hypotézy obsahuje „=“, „nic se nestalo“, zamítnutí má vážnější důsledky
+      * tvrzení, které obvykle vyjadřuje žádný neboli nulový rozdíl mezi testovanými soubory dat (nelze tedy říct, že jakýkoliv nalezený rozdíl mezi soubory lze přičíst přirozené variabilitě dat)
+  * H1 – **alternativní hypotéza**
+      * hypotéza, která má být prokázána, zamítnutí nemá tak vážné důsledky
+      * popírá platnost nulové hypotézy
+      * „existence závislosti“ mezi proměnnými
+  * za platnosti H0 se pomocí matematické statistiky odvodí tzv. Testovací kritérium – to je náhodnou veličinou se známým rozdělením
+  * body oddělující obor nezamítnutí a kritický obor se nazývají kritické hodnoty a jsou jimi kvantily příslušných rozdělení
+
+===== zvolení hladiny významnosti (chyby Alfa) =====
+  * musíme určit hladinu významnosti testu (chyba Alfa), což je pravděpodobnost, že se zamítne nulová hypotéza, ačkoliv ona platí
+  * testovací hypotézu vždy přijímáme nebo zamítáme na základě výsledků náhodného výběru, můžeme chybovat
+      * chyba 1.druhu Alfa – zamítneme nulovou hypotézu, když platí
+      * chyba 2.druhu Beta – nesprávně přijmeme nulovou hypotézu, když neplatí
+
+===== výpočet testovacího kritéria =====
+  * rozhodnutí o platnosti/neplatnosti nulové hypotézy provádíme na základš výpočtu testovacího kritéria. Jako testovací kritérium můžou sloučit například veličiny:
+      * t  (studentův t-test pro testování rozdílu dvou středních hodnot)
+      * F (F-test pro testování rozdílu dvou rozptylů)
+      * X2 (X2-test pro testování rozdílu četnosti souborů)
+
+
+obor hodnot testovacího kritéria rozdělujeme při testování hypotéz na dvě části:
+  - kritický obor
+      * takový obor, který svědčí ve prospěch alternativní hypotézy. Vypočteme-li tedy z těchto dat hodnotu testovacího kritéria, která padne do tohoto oboru, přijmeme alternaticní hypotézu a zamítneme tu nulovou
+  - obor přijetí
+      * padne-li vypočtená hodnota testovacího kritéria do tohoto oboru, pak testovanou nulovou hypotézu nezamítneme
+vymezení kritického oboru a oboru přijetí se provádí pomocí kritických hodnot testovacího kritéria
+
+
+

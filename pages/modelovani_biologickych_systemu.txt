@@ -1,0 +1,43 @@
+====== pojmy ======
+  * **Modelování**:  je soubor aktivit vedoucích k vývoji matematického modelu, který současně reprezentuje strukturu a chování reálného systému
+  * **Simulace**: je soubor aktivit sloužících k ověření správnosti modelu a získání nových poznatků o činnosti reálných systémů
+
+{{::modelovani.png?nolink&300|}}
+
+{{ ::abstrakce.png?nolink&300|}}
+  * **reálný objekt** je zkoumaná část reálného světa
+        * přirozený, umělý, existující, plánovaný
+  * **model** je zjednodušený a abstraktní popis reálného objektu (soubor vztahů či instrukcí pro generování dat popisující chování reálného objektu
+  *** propojení modelu a reálného objektu pomocí:**
+        * //abstrakce (generalizace)// = uvažuju nejdůležitější složky systému a ignoruju méně důležité rysy, důležitost prvků je posuzována podle relativního vlivu prvků systému na jeho dynamiku
+        * //interpretace// = výklad vztahu mezi modelem (jeho prvky, vlastnostmi, chováním) a reálným systémem. Pokud nelze parametry modelu interpretovat, tak nemůžu na reálném systému měřit jejich vlastnosti
+
+==== cíle a důsledky modelování ====
+  * stanovení vazeb mezi jednotlivými součástmi systému (Strukturami)
+  * výpočet parametrů systému
+  * integrace informací o systému
+  * predikce chování systému
+  * identifikace rozdílů chování systému za různých experimentálních podmínek
+  * výuka a vzdělávání
+
+====== techniky modelování ======
+===== apriorní x apostpriorní =====
+  * **apriorní (teoretické) modely** 
+        * tu znalost o funkci modelovaného systému už mám
+  * **aposteriorní (empirické)**
+        * tyto modely vycházení z nových experimentálních pozorování
+
+====== základní stributy systému ======
+  * **Struktura** -  je dána množinou všech vazeb (vztahů, relací) mezi prvky a různými podsystémy daného systému
+  * **Chování** -  je projevem dynamiky systému. (Dynamika je schopnost vyvolat změnu v systému, zejména jeho stavu. Dynamika je vlastností prvků systému, vazby jsou jejími iniciátory (vstupy), resp. nositeli důsledků (výstupy))
+  * **Stav systému** - souhrn přesně definovaných podmínek nebo vlastností daného systému, které lze v daném časovém okamžiku rozpoznat. Stavu systému lze v libovolném časovém okamžiku t (z nějakého zvoleného časového intervalu) přiřadit vektor hodnot x(t) ∈ Χ, který nazýváme stavovým vektorem, složky xi vektoru x nazýváme stavovými veličinami (proměnnými) a prostor Χ všech možných hodnot stavových veličin nazýváme stavovým prostorem. Podle vývoje hodnot stavu systému lze systémy dělit na //statické// (nevykazují pohyb) a //dynamické//.
+  * **Stabilita** -  je schopnost systému udržovat si při změně vstupů a stavů svých prvků nezměněnou vnější formu (chování) i navzdory procesům probíhajícím uvnitř systému. Stabilitu chápeme jako vlastnost zaručující, že po určité malé změně počátečních podmínek nastane v systému při nezměněných vstupech pohyb jen málo odlišný od původního. Pojem stability se neomezuje pouze na návrat do výchozího stavu po poruše, která způsobí vychýlení. Často je návrat do původního stavu nemožný, protože se změnily podmínky. v nichž systém existuje - pak si systém může najít stav odchylný od výchozího stavu, který je rovněž stabilní - tzv. ultrastabilní systém
+  * **Okolí systému** -  je tvořeno množinou prvků, které nejsou součástí daného systému, ale jsou s ním významně svázány. Systém a jeho okolí jsou jednak objektivní skutečností, ale jsou dány i subjektvině, v závislosti na osobě zkoumající systém a na účelu zkoumání.
+  * **Otevřený systém** -  je takový, u něhož dochází k energetické a informační výměně s jeho okolím.
+  * **Uzavřený systém** -  je naopak vůči svému okolí zcela izolován, nemá se svým okolím žádné vazby. Prakticky uzavřené biologické objekty neexistují, případně pouze dočasně, může však být často užitečné pro teoretický rozbor vytvořit model, který je od svého okolí částečně nebo zcela oddělen. Proto je při definování systému třeba rozhodnout jak zkoumaný problém vyčlenit z v podstatě neomezených vzájemných souvislostí.
+  * **Podmínka separability systému** - systém je separabilní, jestliže jeho výstupy zpětně vlivem prostředí neovlivňují podstatně vstupy
+        * //termoregulační systém živého organismu// - systém můžeme považovat za separabilní, pokud or-ganismus svou tepelnou energií významně neovlivňuje teplotu prostředí, ve kterém se nachází
+
+
+
+

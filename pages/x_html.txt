@@ -1,0 +1,5 @@
+  * značkovací jazyk (na zobrazování textu použití značek)
+  * HTML (hypertextový značkovací jazyk)
+    * představuje značkovací jazyk, který se nejčastěji používá na vytváření webových stránek
+    * podporuje i funkce hypertextu (umožňuje propojování dokumentů prostřednictvím odkazů)
+    * 

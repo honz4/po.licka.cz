@@ -1,0 +1,194 @@
+<WRAP center round tip 60%>
+vlastnosti, syntaxe, typy uzlů, struktura @ DTD x XSD, transformace, XPath
+</WRAP>
+
+
+<WRAP center round box 60%>
+extensible markup language
+</WRAP>
+
+  * je to obecný značkovací jazyk
+  * pro výměnu dat mezi dokumenty a pro pulikování dokumentů
+  * nezabývá se sám o sobě vzhledem dokumentu nebo jeho částí
+  * snadná transformace do jiného typu (formátu) dokumentu či do jiné struktury XML
+  * nemá žádné předdefinované značky (tagy, jednotlivé elementy)
+
+====== 10x o XHTML ======
+  * **slouží ke strukturalizaci dat**
+    * pozor, není to programovací jazyk
+    * soubor pravidel, která mi uspořádají data ve strukturách
+    * nezávislé na platformě
+  * **má vysoký informační obsah**
+    * tagy vyznačují význam jednotlivých částí textu
+    * jenom data ohraničuje (těmi tagy), ale nečte je -> o to se stará až aplikace, která ta data čte
+  * **je text, co není určen ke čtení**
+    * ale pokud ho číst chci, tak můžu!
+    * když zapomenu ukončit tag, tak si to ta aplikace nemůže domyslet, ale musí okamžitě nahlásit chybu
+  * **nešetří místem**
+    * XML je textový formát
+    * je vždy větší, než ta samá data v binárním formátu
+  * **je to celá skupina technologií**
+    * __XML 1.0__ je specifikace, která říká, co jsou tagy a atributy – na jejím základě "XML rodina" -  vytváří několik modulů, které nabízejí různé služby, které plní časté a důležité potřeby
+    * __Xlink__ popisuje standardní cestu, jak přidat do XML souboru hypertextové odkazy
+    * __XPointer__ je něco jako URL, akorát místo odkazů na dokumenty na webu odkazuje dovnitř XML dokumentů
+    * __XPath__ umožňuje adresovat jednotlivé části dokumentu
+    * __XSL__ je vylepšený jazyk pro zapisování stylů - založen na XSLT, transformačním jazyce používaném pro přidávání, odebírání i úpravu tagů a atributů
+    * __DOM__ je standardizace funkcí pro manipulaci s XML soubory v programovacích jazycích
+  * **je staronové**
+  * **podobá se HTML**
+    * používá taky tagy a atributy
+  * **je modulární**
+    * dovoluje definovat nový formát kombinací jiných formátů
+    * obsahuje mechanismus jmenných prostorů (namespaces) - např. XSL a RDF
+  * **je základem RDF a sémantického webu**
+    * systém popisu zdrojů od W3C (RDF) je XML formát podporující popis zdrojů a uplatnění metadat (hudební "playlisty", file katalogy, knihovny)
+    * RDF spojuje aplikace a agenty do jednoho sémantického webu
+  * **je nelicencované, platformě nezávislé a široce podporované**
+    * specifikace od W3C je přístupná totiž pro všechny
+    * můžu fičet na čem chci (linux, winy,...)
+
+====== typy uzlů ======
+Uzel = to jsou ta vlastní data, uzavřena v metadatech
+  * **XML deklarace**
+    * <?xml version="1.0" encoding="UTF-8"?>
+  * **element, atribut, text**
+    * V terminologii XML se jednotlivým označeným částem dokumentu říká elementy. Elementy do sebe mohou být navzájem vnořené a tím dle potřeby zachycovat strukturu informací uložených v dokumentu
+  * **CDATA**
+    * Pokud potřebujeme do textu vložit větší kus textu, kde se hojně používají znaky se speciálním významem jako `<', `>' a `&', je nepohodlné je zapisovat pomocí znakových entit. Sekce CDATA oceníme zejména v případech, kdy je součástí XML dokumentu kód nějakého programu nebo HTML či XML kód
+
+  * Každý XML dokument musí být celý obsažen v jednom elementu (musí být JEDEN kořenový element - takže to všechno prostě "obalím")
+{{ ::syntaxe-zaklady.png?nolink |}}
+
+====== ověřování dokumentu ======
+  * tagy si definuju sama
+  * a to pomocí DTD nebo XML schématu (XSD)
+  * prostej text -> well-formed -> validní dokument
+  * parser = syntaktický analyzátor = program, který vykonává syntaktickou analýzu
+        * proces analýzy posloupnosti formálních prvků s cílem určit jejich gramatickou strukturu vůči předem dané (byť ne nutně explicitně vyjádřené) formální gramatice
+        * transformace vstupního textu do datové struktury, většinou stromu 
+        * **token** = elementárních nositel významu v rámci daného formálního jazyka
+
+====== styly ======
+  * CSS
+  * XLS
+
+====== model XML dokumentu ======
+  * parent-child-sibling (rodič, potomek, sourozenec)
+  * ancestor -> descendant (předchůdce, následovník)
+  * uzly uspořádané ve stromové struktuře
+  * to je DOM, druhá verze je Simple API for XML (SAX), která umožňuje proudové zpracování a oproti DOMu bývá několikrát rychlejší
+====== definice struktury ======
+===== DTD (document type definition) =====
+{{ ::dtd.png?nolink|}}
+  * neobsahuje možnost kontrolovat typy dat (čísla, měnové údaje, údaje o datu a čase)
+  * jednoduchý, stručný, může být přímo součástí dokumentu XML
+  * má nižší vyjadřovací schopnost a nepoužívá syntaxi XML
+  * četnost: + je jednou a více, * je nula a více, ? je nula nebo 1
+{{ ::2dtd.png?nolink&300 |}}
+
+===== XSD (XML schema definitio) =====
+{{ ::xsd.png?nolink&300|}}
+  * W3C standard
+  * včetně sady XSL stylů
+  * složité a obsáhlé
+  * super vyjadřovací schopnosti, zavádí datové typy, jmenné prostory apod.
+  * datové typy: string, decimal, boolean, integer, date, time
+        * komplexní dytové typy si deklaruju sama - můžou obsahovat další elementy nebo atributy
+
+====== XSLT transformace ======
+  * XML dokument + XSLT styl -> XSLT procesor -> XML, HTML, text,..
+
+====== aplikace XML ======
+  * XHTML - nástupce po HTML...  no...
+  * RDF (resource description framework) - specifikace umožňující popsat metadata (anotace html třebas)
+  * RSS - rodina XML formátů umožňující čít novinky webových stránek
+  * SMIL (sznchroniyed multimedia integration language] / popis multimédií pomocí XML
+  * MathML (mathematical markup language) - popis matematických vzorců apod. na webu
+  * SVG (scalable vector graphic) - jazyk pro popis dvourozměrné vektorové grafiky
+  * DocBook - sada definic dokumentů a stylů pro publikační činnosti
+  * SOAP - protokol pro komunikaci mezi webovými službami
+  * OpenDocument - souborový formát určený pro ukládání a výměnu dokumentů vytvořených kancelářskými aplikacemi
+
+====== RSS a GeoRSS ======
+===== RSS =====
+  * metadatové formáty určené pro čtení novinek na webových stránkách a obecněji přebírání dat mezi weby = syndikace obsahu
+  * technologie RSS umožňuje uživatelům přihlásit se k odběru novinek z webu, který nabízí RSS zdroj (RSS feed, = RSS kanál = RSS channel)
+  * RSS formát poskytuje obsah celého článku, příp. jeho část, odkaz na původní článek a také jiná metadata
+  * **povinné elementy**: <rss version="1.0"> - kořenový element, <channel> - to je samotný kanál, který obsahuje vnořené elementy jako title, link, description a dále nepovinné jako language, pubDate, copyright, webMaster apod.
+  * **AtomSyndication**: standard založený na XML, podporuje přenost textu a multimédií, protože byl potřeba jednotný formát pro informační kanály 
+        * Podcast: nešíří jenom text, ale i multimédia. pomocí tohoto kanálu si můžu do kompu stahovat mp3 písničky
+
+===== GeoRSS =====
+   * standard pro kódování geografické polohy websitu/zdroje v rámci webových kanálů
+   * umožňuje doručování informací o změnách provedených v digitální mapě
+   * spočívá v přidání prvku, který určuje přesnou polohu, do těla každé části RSS kanálu
+   * pole //where//
+   * **geometrie prvků**
+         * bod
+         * linie
+         * polygon (4 páry souřadnic) - poslední pár totožný s prvním
+         * box (čtverec - 2 páry souřadnic) - levý dolní a pravý horní roh
+         * **zápis geometrie:** 
+                  - Simple GeoRSS
+                      * podporuje jen WGS84
+                      * malá škála prvků
+                      * 
+                  - GeoRSS GML
+                      * point, lineString, envelope, polygon
+        * souřadnicový referenční systém (SRS)
+            * záladní je WGS84
+        * vzájemné vztahy (relationship)
+            * vztah obsahu webu ke konrétním prvkům na Zemi
+        * nadmořská výška - jenom v SIMPLE GeoRSS!!
+            * <elev> - výška od elipsoidu, <floor> počet pater budovy třeba
+
+====== XPath (XML Path language) ======
+  * umožňuje z XML dokumentu vybírat jednotlivé elementy a pracovat s jejich hodnotami a atributy
+  * obsahuje knihovnu funkcí a slouží jako navigační nástroj
+  * adresujé části XML dokumentů
+  * základ:  path expression -  cesta k XML uzlu (Location Path)
+  * jednotlivé kroky výrazu se spojí lomítkem, před atributem je @, vyhodnocení zleva doprava, povinný je pouze test uzlu
+  * definováno celkem 13 os -  např. child (dítě, implicitní), descendant (potomek), parent (rodič), ancestor (předek), attribute (atribut) 
+
+====== XML RPC (remote procedura call) ======
+  * Cíl: umožnit aplikacím, bez ohledu na to jak rozdílné jednotlivé programy a jejich účely jsou, navzájem spolu standardizovaným způsobem komunikovat po síti
+  * pracují jako požadavky protokolu HTTP realizované metodou POST
+  * serializace - transformace dat do podoby přenositelné sítí
+  * datové typy: pole, skalár, struktura
+
+====== sémantický web ======
+  * web, kde jsou informace strukturovány a uloženy podle standardizovaných pravidel, což usnadňuje jejich vyhledání a zpracování
+  * uživatelé Internetu pracují s WWW jako s relační databází a dotazovat se na její obsah prostřednictvím jazyků podobných SQL
+  * 
+===== RDF (resource description framework)=====
+  * obecný rámec pro popis, výměnu a znovupoužití metadat
+  * formát RDF vyžaduje, aby byl pro každý element specifikován jmenný prostor
+  * zajišťuje přístup ke klíčovým elementům RDF, tvořící strukturu dokumentu @ RDF
+      * v kořenovém elementu, v Description, v atributu about
+    * datový model RDF: 
+        * specifikace trojice: zdroj, vlastnost, hodnota vlastnosti
+        * obloha má modrou barvu
+
+===== klasifikační schémata =====
+  * RDF/XML - je to pouze metajazyk pro popis dalších jazyků
+  * == soubor vlastností s definovanou sémantikou a omezeními kladenými na možné hodnoty těchto vlastností
+  * začlenění klasifikačních schémat do struktury RDF/XML = jmenné prostory XML
+
+===== řízené slovníky =====
+  * == tezaurus, terminologická ontologie
+  * soubor předmětových hesel s definovanou strukturou nadřazených a podřazených termínů a určením synonym či jiných pojmových relací
+  * pro určení hodnoty určité vlastnosti mohou klasifikační schémata vyžadovat použití hesla z konkrétního slovníku <=> přispívá k interoperabilitě metadat
+  * využito v metainformačních systémech
+
+===== GeoSPARQL =====
+  * geografický dotazovací jazyk pro RDF data
+  * geonames, data.gov, online mapové služby
+
+
+
+===== OWL (ontology web language) =====
+  * konceptualizace dat dostupných na Internetu, jejíž klíčovým nástrojem jsou formalizované reprezentace znalostí určené k jejich sdílení a znovupoužití (ontologie)
+
+
+
+

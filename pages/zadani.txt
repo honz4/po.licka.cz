@@ -1,0 +1,24 @@
+===== Název tématu =====
+Srovnání výpočetních algoritmů pro prostorovou distribuci druhů
+
+===== Zásady pro vypracování =====
+Cílem práce je vzájemné srovnání klíčových algoritmů pro prostorovou distribuci druhů (SDM). Studentka v teoretické části popíše jednotlivé algoritmy dostupné v sw Open Modeller a BioMod. V popisu se zaměří na vstupní požadavky, oblasti nasazení, podmínky nasazení a zejména princip výpočtu predikované distribuce. Algoritmy vzájemně porovná. \\
+ V praktické části provede simulace pro vybrané druhy a vytvoří datový náhled distribuce a statistický report. Predikovanými druhy budou vybraní ecosystem services providers. Data jsou dostupná skrze Florabase.cz Proměnnými hodnotami budou faktory popisující klimatickou změnu dostupné skrze WorldClim.\\
+Hlavním výsledkem bude rozhodovací strom pro výběr adekvátního algoritmu, v závislosti na cíli a kvalitě vstupních dat.\\
+\\
+Student vyplní údaje o všech datových sadách, které vytvořil nebo získal v rámci práce, do Metainformačního systému katedry geoinformatiky a současně vytvoří zálohu údajů ve formě validovaného XML souboru. Celá práce (text, přílohy, výstupy, zdrojová a vytvořená data, XML soubor) se odevzdá v digitální podobě na CD (DVD) a text práce s vybranými přílohami bude odevzdán ve dvou svázaných výtiscích na sekretariát katedry. O diplomové práci student vytvoří webovou stránku v souladu s pravidly dostupnými na stránkách katedry. Práce bude zpracována podle zásad dle Voženílek (2002) a závazné šablony pro diplomové práce na KGI.
+
+===== seznam odborné literatury =====
+Open Modeller http://openmodeller.sourceforge.net/\\
+Biomod http://www.will.chez-alice.fr/index.html\\
+ Grinnell, J. (1917) **Field tests of theories concerning distributional control.** American Naturalist, 51: 115-128. \\
+Muñoz, M.E.S., Giovanni, R., Siqueira, M.F., Sutton, T., Brewer, P., Pereira, R.S., Canhos, D.A.L. & Canhos, V.P. (2009) **"openModeller: a generic approach to species' potential distribution modelling"**. GeoInformatica. DOI: 10.1007/s10707-009-0090-7 \\
+Peterson, A.T., Soberón, J., Pearson, R.G., Anderson, R.P., Martinez-Meyer, E., Nakamura, M. & Araújo, M.B. (2011) //Ecological niches and geographic distributions.// Princeton University Press. ISBN 978-0-691-13688-2.\\
+Soberón, J. & Peterson, A.T. (2005) //Interpretation of models of fundamental ecological niches and species’ distributional areas//. Biodiversity Informatics, 2: 1-10.\\
+ 
+VOŽENÍLEK, V. (2002): //Diplomové práce z geoinformatiky.// Vydavatelství Univerzity Palackého, Olomouc, UP, 31 s.\\
+
+Portál botanických dat ČR - http://florabase.cz/\\
+WorldClim - Global Climate Data. Free climate data for ecological modeling and GIS. http://www.worldclim.org/ \\
+
+

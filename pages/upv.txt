@@ -1,0 +1,63 @@
+====== Geoestadística y análisis multivariante ======
+<WRAP group>
+<WRAP half column>
+===== Teoría =====
+  * [[upv_descriptive_analysis|Descriptive analysis]]
+  * [[upv_pca|Principal Component Analysis]]
+  *  [[upv_discriminant_analysis|Discriminant Analysis]]
+  *  [[upv_regression|Regression]]
+</WRAP>
+
+<WRAP half column>
+==== Prácticas ====
+  * {{::session4.pdf|}}
+  * {{::regression.pdf|}}
+  * [[upv_geostat_session5|session 5]]
+  * [[upv_geostat_exam2|practic exam 2]]
+  * {{::practicalcase1.pdf|}}
+  * {{::practicalcase2.pdf|}}
+  * {{::report1.pdf|}}
+  * {{::report2.pdf|}}
+  * {{::report3.pdf|}}
+  * {{::report4.pdf|}}
+
+</WRAP>
+</WRAP>
+
+====== GIS Application Development ======
+  * https://github.com/Elimut
+  * {{::pa1_vlckova.pdf|PA 1}}
+  * {{::pa2_vlckova.pdf|PA 2}}
+  * {{::final_project_devapp.pdf|FINAL Project}}
+====== Desarrollo web y geoportales ======
+  * {{::desarrolloweb2017_en.pdf|}}
+
+====== Modelos cartograficos ambivalemtes ======
+
+<WRAP group>
+<WRAP half column>
+===== Teoría =====
+  * [[Introduction, definitions and data structure DEM]]
+  * [[How to create DEM]]
+  * [[DEM quality control]]
+  * [[Model derived from DEM]]
+  * [[Morphometric characterization of territorial units]]
+  * [[Hillshide extraction]]
+  * [[upv_spot_height_generalization|Spot heights generalization]]
+</WRAP>
+
+<WRAP half column>
+===== Prácticas =====
+  * [[Comparing different DEMs and its quality estimation]]
+  * [[Morphological changes characterization on a coastal dune area using lidar data]]
+  * [[upv_lastools|LAS TOOLS]]
+
+==== my files ====
+  * {{::my_exam_part1.pdf|}}
+  * {{::cartmodels_exam3.pdf|}}
+</WRAP>
+</WRAP>
+
+
+
+

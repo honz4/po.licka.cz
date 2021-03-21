@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+funkce, znaky, definice, klasifikace, vymezování měst, poloha a funkce měst, vznik měst, růst měst, prahová teorie
+</WRAP>

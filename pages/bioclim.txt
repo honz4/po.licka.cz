@@ -1,0 +1,103 @@
+
+===== POPIS =====
+BIOCLIM is a correlative modeling tool that interpolatesup to 35 climatic parameters (Table 1) for any location for which the latitude, longitude, and elevation are known (for a full description of BIOCLIM, see Nix, 1986; Houlder et al., 2001). While primarily used in the Southern Hemisphere, BIOCLIM can use climate surfaces generated from meteorological data for any country. For Australia, climate surfaces have been generated from long-term monthly averages of climate variables at over 900 temperature stations and 11,000 precipitation stations throughout the continent (Busby, 1991). BIOCLIM can be used for three tasks (a) describing the environment in which the species has been recorded, (b) identifying other locations where the species may currently reside, and © identifying wherethe species may occur under alternate climate scenarios. The program interpolates a species bioclimatic envelope, which is a summary of the climate at locations from where the species has been recorded. BIOCLIM is a range-based model that describes a species climatic envelope as a rectilinear volume (Fig. 1), that is, it suggests that a species can tolerate locations where values of all climatic parameters fit within the extreme values determined by the set of known locations (Carpenter et al., 1993). The current potential distribution of a species is identified by interpolating the climate within each grid cell of a Digital Elevation Model (DEM) and comparing it to the climatic profile of the species. Locations with values of all climatic parameters within the range of the species profile are classified by BIOCLIM as climatically suitable. However, multiple levels of classification can be achieved by removing the extreme values of each parameter, and identifying locations with climatic values that lie within different percentile limits. For example, locations where the values of all parameters lie within the 5–95th percentiles of the species envelope may be classified as ‘core’ regions .
+
+----
+
+- **sumarizuje až 35 klimatických parametrů skrz celý rozsah známých druhů, a hodnotí klimatickou
+vhodnost stanoviště v rámci současných a budoucích klimatických scénářů.
+** \\
+- někdo tam zkoumal, jaký má vliv použití parametrů na celkový výsledek modelu – zkusili použít všech 35 proměnných, potom nějakých 10 hlavních, 10 hlavních z pohledu toho zkoumaného druhu a 10 náhodných proměnných \\
+-> mezi některými parametry docházelo k redundanci -> distribuce vzniklá použitím všech 35 parametrů byla v průměru poloviny velikosti distribuce, která použila parametrů jenom 6 \\
+
+- These models summarise a number of climatic variables within the known range of a species, thus generating a ‘bioclimatic envelope’. The models can then be used to (a) identify the species current potential distribution, that is, all areas with climatic values within the species bioclimatic envelope and (b) assess whether these areas will remain climatically suitable under future climate scenarios.
+
+Uses mean and standard deviation for each environmental variable separately to calculate bioclimatic envelopes. Level of fitness between the environmental values on a point and the respective envelopes classifies points as **Suitable, Marginal, or Unsuitable** for presence. \\
+
+
+**Doesnť use categorical or absence data!**
+
+
+Implements the Bioclimatic Envelope Algorithm. For each given environmental variable the algorithm finds the mean and standard deviation (assuming normal distribution) associated to the occurrence points. **Each variable has its own envelope represented by the interval [m - c*s, m + c*s], where 'm' is the mean; 'c' is the cutoff input parameter; and 's' is the standard deviation**. Besides the envelope, each environmental variable has additional upper and lower limits taken from the maximum and minimum values related to the set of occurrence points.
+In this model, any point can be classified as: 
+  * __Suitable__: if all associated environmental values fall within the calculated envelopes;
+  * __Marginal__: if one or more associated environmental value falls outside the calculated envelope, but still within the upper and lower limits.
+  * __Unsuitable__: if one or more associated enviromental value falls outside the upper and lower limits.
+Bioclim's categorical output is mapped to probabilities of 1.0, 0.5 and 0.0 respectively. \\
+
+===== jak funguje =====
+
+rozdělí to na:   
+   * vhodné podmínky – všechny environmentální hodnoty spadají do intervalu (průměr, odchylka, ukončující parametr)
+   * okrajové – alespoň jedna hodnota spadá do suitable envelope, ale stále spadá do min a max range
+   * nevhodné – alespoň jedna vypadává i z okrajové envelope
+
+
+The BIOCLIM algorithm computes the similarity of a location by comparing the values of environmental variables at any location to a percentile distribution of the values at known locations of occurrence ('training sites'). The closer to the 50th percentile (the median), the more suitable the location is. The tails of the distribution are not distinguished, that is, 10 percentile is treated as equivalent to 90 percentile.
+
+Percentile scores are between 0 and 1, but predicted values larger than 0.5 are subtracted from 1. Then, the minimum percentile score across all the environmental variables is computed (i.e. this is like Liebig's law of the minimum, except that high values can also be limiting factors). The final value is subtracted from 1 and multiplied with 2 so that the results are between 0 and 1. The reason for this transformation is that the results become more like that of other distribution modeling methods and are thus easier to interpret. The value 1 will rarely be observed as it would require a location that has the median value of the training data for all the variables considered. The value 0 is very common as it is assigned to all cells with a value of an environmental variable that is outside the percentile distribution (the range of the training data) for at least one of the variables.
+
+In the predict function, you can choose to ignore one of the tails of the distribution (e.g, to make low rainfall a limiting factor, but not high rainfall).
+
+----
+
+===== ABSTRACT =====
+Bioclimatic models are widely used tools for assessing potential responses of species to climate change. One commonly used
+model is BIOCLIM, which summarises up to 35 climatic parameters throughout a species’ known range, and assesses the climatic
+suitability of habitat under current and future climate scenarios. A criticism of BIOCLIM is that the use of all 35 parameters
+may lead to over-fitting of the model, which in turn may result in misrepresentations of species’ potential ranges and to the
+loss of biological reality. In this study, we investigated how different methods of combining climatic parameters in BIOCLIM
+influenced predictions of the current distributions of 25 Australian butterflies species. Distributions were modeled using three
+previously used methods of selecting climatic parameters: (i) the full set of 35 parameters, (ii) a customised selection of the
+most relevant parameters for individual species based on analysing histograms produced by BIOCLIM, which show the values
+for each parameter at all of the focal species known locations, and (iii) a subset of 8 parameters that may generally influence the
+distributions of butterflies. We also modeled distributions based on random selections of parameters. Further, we assessed the
+extent to which parameter choice influenced predictions of the magnitude and direction of range changes under two climate change
+scenarios for 2020. We found that the size of predicted distributions was negatively correlated with the number of parameters
+incorporated in the model, with progressive addition of parameters resulting in progressively narrower potential distributions.
+There was also redundancy amongst some parameters; distributions produced using all 35 parameters were on average half the
+size of distributions produced using only 6 parameters. The selection of parameters via histogram analysis was influenced, to
+an extent, by the number of location records for the focal species. Further, species inhabiting different biogeographical zones
+may have different sets of climatic parameters limiting their distributions; hence, the appropriateness of applying the same
+subset of parameters to all species may be reduced under these situations. Under future climates, most species were predicted
+to suffer range reductions regardless of the scenario used and the method of parameter selection. Although the size of predicted
+distributions varied considerably depending on the method of selecting parameters, there were no significant differences in the
+proportional change in range size between the three methods: under the worst-case scenario, species’ distributions decrease by
+an average of 12.6, 11.4, and 15.7%, using all parameters, the ‘customised set’, and the ‘general set’ of parameters, respectively.
+
+----
+
+
+===== PARAMETRY =====
+==== Standard deviation cutoff ====
+**[1,999]** \\
+**typ**: real \\
+- Standard deviation cutoff for all bioclimatic envelopes. Examples of (fraction of inclusion, parameter value) are: (50.0%, 0.674); (68.3%, 1.000); (90.0%, 1.645); (95.0%, 1.960); (99.7%, 3.000) \\
+- typical value: 0,674
+===== biogeography =====
+//Nix, H.A. (1986) A biogeographic analysis of Australian elapid snakes. In: Atlas of Elapid Snakes of Australia. (Ed.) R. Longmore, pp. 4-15. Australian Flora and Fauna Series Number 7. Australian Government Publishing Service: Canberra.//
+
+
+===== příklad R =====
+
+----
+<code>
+logo <- stack(system.file("external/rlogo.grd", package="raster"))
+#presence data
+pts <- matrix(c(48.243420, 48.243420, 47.985820, 52.880230, 49.531423, 46.182616, 54.168232, 
+  69.624263, 83.792291, 85.337894, 74.261072, 83.792291, 95.126713, 84.565092, 66.275456, 41.803408,
+  25.832176, 3.936132, 18.876962, 17.331359,7.048974, 13.648543, 26.093446, 28.544714, 39.104026, 
+  44.572240, 51.171810, 56.262906, 46.269272, 38.161230, 30.618865, 21.945145, 34.390047, 59.656971,
+  69.839163, 73.233228, 63.239594, 45.892154, 43.252326, 28.356155) , ncol=2)
+bc <- bioclim(logo, pts)
+ 
+#or
+v <- extract(logo, pts)
+bc <- bioclim(v)
+p1 <- predict(logo, bc)
+p2 <- predict(logo, bc, tails=c('both', 'low', 'high'))
+ 
+#or
+#sp <- SpatialPoints(pts)
+#bc <- bioclim(logo, pts)
+</code>

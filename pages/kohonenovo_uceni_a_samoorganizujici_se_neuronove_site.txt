@@ -1,0 +1,8 @@
+==== kohenova mapa ====
+  * je zvláštním případem neuronové sítě
+  * má jenom vstupní a výstupní vrstvy
+  * počet neuronů vstupní vrstvy je roven počtu proměnných
+  * výstupní vrstva sítě je dvourozměrná (X,Y)
+  * každý neuron vstupní vrstvy je spojen v neurony výstupní vrstvy a naopak (prostě všechno se vším)
+  * učení bez učitele
+  * 

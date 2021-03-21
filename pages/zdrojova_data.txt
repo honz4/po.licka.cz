@@ -1,0 +1,175 @@
+<WRAP center round tip 60%>
+
+způsoby jejich vzniku a aplikace digitální modelů reliéfu, povrchu, terénu - sběr dat,
+vzorkování, využití DMR
+</WRAP>
+
+== faktory ovlivňující kvalitu dat DMR ==
+   * datové zdroje
+         * přesnost výškové složky dat
+   * rozmístění dat (vzorkování)
+         * věrnost reliéfu
+   * metoda sběru
+
+===== primární zdroje dat =====
+   * **zemský povrch**
+         * ale pozor, v horách to asi přímým měřením nepůjde, takže lepší fotogrammetrie
+         * pozemní měření -> geodetická měření, GPS (RTK), data přímo použitelná pro generování DMR
+   *** letecké snímkování**
+         * tvorba vysoce kvalitních DMR velkých měřítek
+         * použití pro tvorbu a aktualizaci topografických map
+   * **družiové snímky**
+         * skeny na družicích
+         * SPOT – pro tvorbu DMR malých měřítek, ale rozsáhlých oblastí
+         * IKONOS – pixel 1 m
+         * radary - zdroj po tvorbu DMR středního a malého měřítka
+
+
+===== sekundární zdroje dat =====
+  * existující topografické mapy (digitální data - ZABAGED, DMU,analogová data)
+  * obecně je očekávána přesnost jakéhokoli interpolovaného bodu okolo 1/2 nebo 1/3 intervalu původních vrstevnic
+
+====== metody sběru dat ======
+===== fotogrammetrie =====
+  * Využívá dvou vhodně pořízených fotografií, pomocí nichž je schopna zpětně rekonstruovat tvar a rozměr trojrozměrných objektů
+  * dvojice leteckých nebo družicových snímků se stereoskopickým překryvem 60-80 %
+  * **vlícování** = určení prvků vnitřní a vnější orientace snímku
+  * přesnost závisí na měřítku, prostorovém rozlišení snímku, přesnosti souřadnic vlícovacích bodů
+  * umozňuje plošný sběr dat i zaměřování specifických geoprvků
+  * z leteckých snímků je DMR kvalitní
+  * u družicových v metrech
+  * data relativně levná
+===== geodetická měření =====
+  * jedna z nejpřesnějších, ale i nejpracnějších metod
+  * data jsou přímo použitelná pro generování velice kvalitních DMR
+  * je důležité, aby byly (v závislosti na měřítku) zaměřeny body vystihující charakteristické prvky reliéfu (zejména singularity)
+
+===== radarová interferometrie =====
+  * principem je zaznamenávání radarového echa stejného místa z různých poloh, z nichž lze získat rozdíl (interferenci) fází radarového signálu, který je nositelem informace o výšce
+  * měření výšek je založeno na rozdílech ve fázi dvou radarových signálů získaných
+    - z odlišné pozice jednoho nosiče (tj. ze dvou sousedních drah)
+    - dvěma radarovými systémy zároveň (dříve např. ERS1 - ERS2)
+    - pomocí jednoho nosiče, který má jeden radar a dvě přijímací antény umístěné ve známé vzdálenosti od sebe (př. SRTM)
+{{ ::int2.png?nolink |}}
+  * zpracováním hodnot korespondujících obrazových prvků z obou radarových snímků se vytváří tzv. interferogram → z něj lze zjistit relativní výškové rozdíly bodů na snímcích
+  * využitím vlícovacích bodů lze relativní hodnoty převést na absolutní
+  * **diferenční interferometrie**
+    * založena na rozdílu dvou interferogramů
+    * přesnost na cm
+  * aplikace: detekce sesuvů, výška vodní hladiny, DMT
+
+===== radarová altimetrie =====
+  * využívá toho, že radarová měření jsou ve své podstatě také měření vzdálenosti
+  * radarové echo je zaznamenáváno jako
+    - časový interval mezi vysláním a přijetím signálu
+    - signál modifikovaný povrchem
+  * mikrovlnné záření se šíří konstantní rychlostí, je tedy možné z rozdílu času zjistit vzdálenost (tj. výšku nosiče nad odrážejícím se povrchem) a pomocí parametrů orbity ji přepočítat na absolutní výšku povrchu
+
+===== laserové snímání =====
+  * viz DPZ
+
+{{ ::porovnani.png?nolink&500 |}}
+
+===== Digitalizace existujících topografických dat =====
+  * **ZABAGED**
+    * čúzk
+    * vrstevnice ve variabilním intervalu 2, 4, 6, 8 a 10 m nebo 5 a 10 m
+    * vrstevnice v kopcovitém (hornatém) terénu poměrně přesné a kvalitní, v rovinatém terénu horší, v sídlech špatné
+  * **DMR 1**
+    * rastr 1x1 km pixel
+    * výšky jsou dány nejvyšším bodem reliéfu v daném čtverci (vztaženy k jz. rohu pixelu)
+    * přesnost 15-30 m (v závislosti na členitosti reliéfu)
+  * **DMR 2**
+    * pravidelná síť bodů o kroku 100100 m (skutečná výška v bodu)
+    * z podkladů TM 25 (ČR, SR + cca 50 km pruh okolo hranic)
+    * přesnost 3 až 15 metrů (v závislosti na členitosti reliéfu)
+  * **DMR 3**
+    * fotogrametrický výškový model
+    * ze stereomodelů
+    * TIN
+    * přesnost 1 – 7 m
+  * **DTED**
+    * Digited Terrain Elevation Data
+    * standard pro digitální modely pro armády NATO
+    * AČR jej tvoří z DMR 2, DVD a DMÚ
+      *  pravidelná síť bodů o kroku
+      *  3‘‘ x 3‘‘, od 50° pak 3‘‘ x 6‘‘
+  * **Laserové snímkování 2009-2012**
+    * DMR4G, DMR5G a DMP1G
+    * zajišťuje Zeměměřický úřad v Pardubicích + Vojenský geografický a hydrometeorologický úřad v Dobrušce
+    * JTSK – ukládací jednotky dle státní mapy 1:5000 (2 x 2,5 km)
+    * WGS84/UTM – 10 x 10 km
+    *  vstupní data pro tvorbu výškopisných modelů:
+      *  data leteckého laserového skenování
+      *  ortofoto ČR
+      *  současné výškopisné databáze
+      *  geodeticky zaměřená data z komparačních základen (horizontální bodové mikropole 100 x 100 m, body v síti 10 x 10 m)
+      * **DMR 4G**
+      * grid
+        * Digitální model reliéfu České republiky 4. generace (DMR 4G) představuje zobrazení přirozeného nebo lidskou činností upraveného zemského povrchu v digitálním tvaru ve formě výšek diskrétních bodů v pravidelné síti (5 x 5 m) bodů o souřadnicích X,Y,H, kde H reprezentuje nadmořskou výšku ve výškovém referenčním systému Balt po vyrovnání (Bpv) s úplnou střední chybou výšky 0,3 m v odkrytém terénu a 1 m v zalesněném terénu. Model vznikl z dat pořízených metodou leteckého laserového skenování výškopisu území České republiky v letech 2009 až 2013. DMR 4G je určen k analýzám terénních poměrů regionálního charakteru a rozsahu, např. při projektování rozsáhlých dopravních a vodohospodářských záměrů, modelování přírodních jevů, apod.
+      * **DMR 5G**
+        * TIN
+        * dokončen max. do 3 let po ukončení skenování (tj. do konce 2015) -> furt není hotovo
+      * **DMP1G**
+        * Digitální model povrchu České republiky 1. generace (DMP 1G) představuje zobrazení území včetně staveb a rostlinného pokryvu ve formě nepravidelné sítě výškových bodů (TIN) s úplnou střední chybou výšky 0,4 m pro přesně vymezené objekty (budovy) a 0,7 m pro objekty přesně neohraničené (lesy a další prvky rostlinného pokryvu). Model vznikl z dat pořízených metodou leteckého laserového skenování výškopisu území České republiky v letech 2009 až 2013. DMP 1G je určen k analýzám výškových poměrů terénu (DMR 5G) a geografických objektů na něm se vyskytujících (stavby a rostlinný pokryv) regionálního a částečně i lokálního charakteru, např. při analýzách viditelnosti, modelování šíření radiových vln, modelování šíření škodlivých látek a nečistot v ovzduší, generování virtuálních pohledů na terén v leteckých simulátorech a trenažérech, apod.
+
+{{ ::dmr4g.png?nolink |}}
+      * **INSPIRE datová sada pro téma Nadmořská výška (EL)**
+        * Data INSPIRE tématu Nadmořská výška jsou harmonizována dle prováděcích pravidel INSPIRE. Tato datová sada nadmořské výšky České republiky má proto jednotnou podobu s ostatními daty vytvářenými pro toto INSPIRE téma v rámci celé Evropy. Zdrojovou datovou sadou je digitální model reliéfu České republiky 4. generace (DMR 4G). Pro splnění požadavků datové specifikace byla data transformována do souřadnicových referenčních systémů ETRS89-TM33N a ETRS89-TM34N a výškového systému EVRS. Data jsou poskytována ve formě rastru (tiff) s prostorovým rozlišením 5 m, spolu s doprovodnou informací ve formátu GML. Výdejní jednotky jsou definované sítí ETRS89-GRS80. Pro území celé republiky jsou data dostupná v souřadnicovém systému ETRS89-TM33N, pro východní pás území (od 17° východní délky) jsou poskytována na vyžádání v systému ETRS89-TM34N.
+      * **SRTM DEM, ASTER GDEM, T-mapy, ArcData Praha, GEODIS Brno**
+====== vzorkování ======
+  * cílem vzorkování (angl. sampling) tedy je **popsat spojitý jev**, jakým je povrch terénu, **pomocí konečného počtu vzorků** (bodů) a určit jejich optimální rozmístění
+{{ ::vzork.png?nolink&400 |}}
+  * pozor - data můžu podvzorkovat i převzorkovat (undersampling, oversampling)
+
+==== selektivní vzorkování ====
+  * vyberu VIP body -> další body vyberu aby bylo dosaženo požadované hustoty
+  * k věrnému vystižení povrchu terénu využívá mnohem méně bodů než jiné metody
+  * prakticky nelze využít automatizace
+
+==== vzorkování s jednou fixovanou dimenzí ====
+  * fixovaná je dimenze ve směru osy Z –> vzorkování se vztahuje na výběr bodů podél vrstevnic
+  * fixovaná je dimenze ve směru osy X –> vzorkování pak probíhá v rovině vymezené osami YZ a výsledkem je profil v této rovině
+
+==== vzorkování se dvěma fixními dimenzemi ====
+=== pravidelné vzorkování ===
+  * nastavením **fixního intervalu ve směru X i Y** je zajištěno, že data budou vytvářet pravidelnou síť
+  * kvůli potřebě zaznamenat všechny nespojitosti svahů a změny v topografii dochází k nadměrnému získávání dat (redundanci dat)
+=== progresivní vzorkování ===
+  * modifikace předchozí metody řešící redundanci dat
+  * velikost intervalu se postupně mění –> nejprve je zaměřena hrubá síť bodů –> ta je analyzována (zpravidla je vypočítána 2. derivace nadmořské výšky) a jsou určeny nové body pro získávání hodnot (vzorků) (může se i několikrát opakovat)
+  * **nevýhody**: 
+    * velká redundance dat v místech, kde dochází k náhlým změnám v průběhu terénu
+    * některé významné prvky mohou být při prvotním hrubém vzorkování nezasaženy a v dalších krocích již s nimi není počítáno
+    * může být zdlouhavé, čímž metoda ztrácí na účinnosti
+
+==== kombinované vzorkování ====
+=== kombinace pravidelného a selektivního vzorkování ===
+  * účinné + efektivní
+  * pravidelná síť bodů + VIP body
+=== kombinace progresivního a selektivního vzorkování ===
+  * z praxe je ověřeno, že společným použitím těchto dvou strategií jsou z velké části eliminovány jejich nevýhody
+
+==== nepravidelné vzorkování ====
+=== náhodné vzorkování ===
+  * může tvořit nežádoucí shluky
+=== shlukové vzorkování ===
+  * časté v případě geologických mapování
+=== proudové vzorkování ===
+  * sleduje skutečné liniové prvky v terénu (zlomy, řeky); často v kombinaci s pravidelným vzorkováním
+
+
+
+
+
+
+
+
+
+
+{{ ::vzork2.png?nolink&500 |}}
+
+
+
+
+

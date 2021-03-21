@@ -1,0 +1,205 @@
+  * služba, která využívá přístupu mobilního zařízení přes mobilní síť ke zjištění geografické polohy
+      * -> identifikuje místa, kde se nachází mobilní zařízení
+      * další informace (kde se nachází přátelé v okruhu, nejbližší kebab apod.)
+  * určení polohy: GPS, mobilní signál, wifi
+  * využití: navigace, marketing, doprava, monitoring, hry (pikaču)
+        * Rozšířená [[virtuální realita]]: určí směr pohledy zařízení (má GPS a gyroskop), intenzitu světla nebo slunečního záření (má světlocitné senzory), množství hluku v okolí (mikrofon)
+        * využití v medicíně, námořní a letecká doprava třeba, průmysl, vojenské účely, Wikitude, TravelGuide, Star Chart
+
+====== princip ======
+  * geoparsing
+        * proces získání pozice z textu (extrakce geografických údajů)
+        * problém u slov, které mají více významů
+  * geotagging
+        * přidávání geografických metadat k datům
+        * z.š. a z.d., nadm. výška, azimut
+        * u obrázků EXIF a XMP
+  * geocoding
+        * proces nalezení souřadnic odpovídajících pro daná geografická data typu adresa nebo poštovní kód (Google Maps API)
+  * geopositioning
+        * udává polohu objektu
+        * potřebný HW ja základ: akcelerometr, gyroskop, elektrický kompas s polohovými systémy <- základ pro LBS
+
+
+====== určování polohy ======
+
+==== použití klasického GNSS ====
+  * poskytuje nejpřesnější určení polohy
+  * navstar, glonass, galileo, compass, beidou
+  * blbé v budovách nebo za špatného počasí
+
+==== aproximace pomocí dostupných wifi sítí ====
+  * pomocí databáze pozic WiFi sítě se určí pozice (pozná podle názvu, kde je telefon zrovna připojen)
+
+==== aproximací z mobilní sítě (GSM) ====
+  * počítá vzdálenost (zpoždění) od nejbližší základnové stanice a pokud je to možné, zpřesňuje vše pomocí triangulace
+  * minimální náročnost na baterii
+  * nepotřebuje viditelnost oblohy
+=== datově založený typ ===
+  * lokace vypočítaná pomocí jednoho vysílače
+  * levné a rychlé
+  * spolehlivost je dána rozmíštěním vysílačů
+  * výsledek má omezenou přesnost
+  * technologie: Cell-ID, TimeAdvance, MAHO/NMR
+
+=== síťově založený typ ===
+  * lokace vypočítaná na základě triangulace tří vysílačů
+  * rychlá a přesná, ale drahá metoda
+  * ToA, AoA, TdoA, E-OTD
+
+=== typ založený na handsetu ===
+  * lokace vypočítaná na základě handsetu (GPS nebo přepínání paketů)
+  * velmi přesná a cenově dostupnější metoda
+
+====== Cell-ID ======
+  * identifikační číslo přiřazené mobilním operátorem buňce v síti, které slouží pro určení přístupového bodu pro mobilní zařízení
+  * pozice základnových stanic (BTS - Base Tranceiver Station) vytvářejí buňkovou strukturu
+  * uvnitř každé buňky je umístěn stanice BTS, která komunikuje s mobilními účastníky, kteří se nacházejí v dané buňce
+  * velikost buněk závisí na rozmíštění a hustotě BTS (100m ve městě, 300m na venkově)
+  * velikost buňky se mění podle předpokládané hustoty provozu a předpokládaného počtu účastníků
+  * mobilní zařízení se připojí do sítě podle buňky, ve které se nachází
+  * v praxi přijímá signál od více stanic -> průnik buněk -> zvýšení přesnosti (300m)
+  * každá buňka má svoji danou frekvenci a žádná ze sousedících nemůže mít stejnou frekvenci
+
+====== BTS ======
+  * Base Transceiver Station (základní převodní stanice)
+  * zajišťuje spojení s mobilními stanicemi přes radiové rozhraní
+  * vysílač a přijímač radiových signálů
+  * je základním stavebním kamenem každé buňky
+
+
+
+{{::1.png?direct&500|}}
+
+====== Timing Advance (TA) ======
+  * měří se čas šíření signálu mezi zařízením a sítí
+  * minimálně tři stanice
+  * jednoduchá triangulace
+  * přesnost závisí na hustotě GSM sítě
+
+{{::ta_git.png?direct&500|}}
+
+
+====== Enhanced Cell Global Identity (E-CGI) ======
+  * vylepšení metod Cell ID a Timing Advance o měření úrovní signálů
+  * podle naměřených úrovní signálů v místě mobilního zařízení a znalosti vysílacích výkonů BTS jsou predikovány oblasti s nejpravděpodobnějším výskytem uživatele
+  * poloha je jako těžiště
+
+====== MAHO ======
+  * Mobile Assistant Hand off
+  * metody využívající RF šíření a intenzitu signálu k vypočítání deterministických pozic v okolí pixelu
+  * variabilní velikost buňky
+  * NMR (Network Measurment Report) generován programem v mobilním přijímači z dat, která přijímač obdrží od nejbližší BTS a sousedních stanic k této stanici
+  * souží ke generování RSSI (Recieved Signal Strength Indicator) pro každou stanici
+  * každý RSSI je spárován k Cell ID pro vytvoření NMR, který je odeslán do sítě
+  * pak může síť na základě NMR určit pozici mobilního uživatele 
+====== Time of Arrival (TOA) ======
+  * znám vzdálenost telefonu od tří základnových stanic
+  * čas mezi vysláním a přijetím signálu
+  * nutnosts synchronizace s BTS, protože to ona vysílá signál
+  * BTS měří čas od připojení signálu z mobilního zařízení
+
+====== Angle of Arrival (AOA) ======
+  * 3 stanoviště pro určení pozice na základě úhlů příchozích signálů
+  * nutnost použití směrových antén a znalosti vyzařovacích charakteristik
+  * měří buť BTS nebo mobil
+  * výsledky jsou přímky, které stanicí a mobilem procházejí -> poloha jako průnik
+  * mezi vysílačem a přijímačem musí být přímá viditelnost
+
+====== Time difference of Arrival (TDOA) ======
+  * 3 stanoviště a základ rozdílů časů příchozího signálu
+
+====== Enhanced Observed Time Difference (E-OTD) ======
+  * časové rozdíly příchodů signálů od 3 a více BTS
+  * nutná synchronizace v BTS síti
+  * síť má **LMU** (Location Measurement Unit), které měří rozdíly času mezi základnovými stanicemi (--real time difference). Ten čas bude nulový, pokud budou BTS vysílat synchronně
+  * pak se určí oblast, kde mají dva přijímače mezi sebou stejnou vzdálenost --> GTD (geometric type difference), pro které platí vzdah GTD1212 = (d2-d1)/c 
+  * pro časové rozdíly zjištěné v mobilním zařízení OTD (observed time difference) a GTD platí převodní vztah GTD = OTD-RTD
+
+====== A-GPS ======
+  * hybridní přístup k využití GPS a BTS
+  * GPS je v handsetu
+  * GPS pomocí mobilní stanice/sítě získává počáteční informace -> urychlení prvotní zjištění pozice
+  * studený start -> pomocí GPRS stáhne aktuální almanach a efemeridy
+  * ze sítě může být počáteční informace dodána do mobilní stanice z lokalizačního centra (Serving Mobile Location Center - SMLC) nebo formou broadcast zprávy (tato data nemusí přijímat z družic a rovnou se fixuje na kokrétní družice, díky tomu je i snížena spotřeba energie GPS, využití i v místech nedostupných pro GPS signál)
+
+====== Near Location-based Service (NLBS) ======
+  * určije přibližný okruh, kde se nachází uživatel (500 m)
+  * technologie: bluetooth, WLAN, Infraporty RFID, QR kódy
+  * v době, kdy ještě nebyly rozšířené GPS moduly
+  * přesné určení polohy v budovách
+  * použít citlivější GPS přijímače (high sensivity GPS)
+
+====== blueinfo ======
+  * na využití bluetooth a komunikace s mobilními telefony
+  * do 30s je telefon automaticky osloven zprávou na displeji -> potvrdím obsah -> stahuju
+  * zdarma rozesílá multimediální obsah (v české třebové to funguje)
+  * můžu dostat audio nahrávky (pozvánky ke shlédnutí expozic apod...) nebo mobilního průvodce
+
+====== identifikace míst v uzavřených prostorách ======
+  * pomocí čipů a kódů je možné sledovat pozici
+  * čárový kód (optický přenos)
+  * RTLS / RFID (přenos pomocí rádiových vln)
+        * bezdotyková automatická identifikace, která získává data o objektech pomocí EM vln na krátkou vzdálenost
+        * použití k záznamu, přenosu a ukládání dat v reálném čase
+        * informace se ukládají do malých čipů (tagů)
+        * umisťuje se na plastovou podložku spojenou se spirálovou anténou, pomocí které tag komunikuje se snímačem)
+        * každý pasivní tag je jednoznačné seriové číslo (EPC kód - electronic product code)
+        * údaje se do nosiče přenášejí rádiofrekvenčními vlnami (není nutná přímá viditelnost)
+        * více nosičů najednou v jeden čas, to všechno posbírá
+        * RFID nosiče můžou: být sníány velmi vysokou rychlostí, být uzavřeny v odolném umělém obalu, uchovávat velké množství dat, některé podporují i operace čtení a zápisu
+        * základní komponenty:
+              * transpondér (RFID tag)
+              * čtecí zařízení (tvořen vysílacím/přijímacím obvodem s dekodérem, anténou
+                    * vysílá vysokofrekvenční signál (aby zajistila detekování RFID značek) a taky kvůli pasivním čipům, které nemají dost energie nebo co
+                    * a přijímá informace z RFID značek
+              * RFID Chip
+                    * skládá se z nosiče informací (TAGu) obsahující uschovaná data
+                    * antény pro komunikace s tagem
+                    * kontroléru zajišťujícího komunikaci mezi anténou a PC
+                    * ve formě etikety (smart label)
+                    * ke čtení a zápisu do RFID tagu
+                    * EPC - ONS (object name service)
+                          * služba přiřazuje každému EPC adresu s popisem zboží ve formátu XML, resp jeho derivátu PML (physical markup language)
+                    * EPC: 96bitové číslo, které je jako ID
+                          * přiděluje se centrálně výrobcům v jednotlivých řadách
+                    * **dělení čipů:**:
+                          * podle možnosti zápisu: read-only, WORM (jednou zapsatelné), Read/Write (mnohokrát přepsatelné)
+                          * podle napájení: aktivní tagy (miniaturní baterie), pasivní tagy (nemají vlastní baterii a napájejjí se přími z pole RFID čtečky), semiaktivní (mají baterii, která slouží pouze ke zvýšení dosahu čtení)
+            * **RFID systémy podle frekvence:**
+                  * nízkofrekvenční RFID systémy
+                        * 30 kHz až 500 kHz, mají krátkou latenci a nízké provozní náklady
+                        * v bezkontatkních systémech pro kontrolu docházky, identifikační sytémy, pro sledování zvířat apod...
+                  * vysokofrekvenční RFID systémy:
+                        * 850 až 950 MHz a od 2,4-2,5 GHz
+                        * větší dopad a větší flexibilita
+            * **RFID systémy podle typu identifikačního prvku:**
+                  * pasivní: nástupce čárového kódu, hlavně pro identifikaci objektů, vysílá buď jedno číslo (EPC) určené při jejich výrobě (nebo mu lze načíst dodatečnou paměť, kde lze zapisovat další informace), tag neobsahuje vlastní zdroj energie, takže vysílač musí periodicky vysílat pulsy do okolí, pokud se v blízkosti objeví pasivní RFID čip, využije přijímaný signál k nabití svého kondenzátoru a odešle odpověď
+                  * aktivní (RTLD): má další funkce, jako například lokalizaci, měření teploty. vužívá aktivní RFID tagy, které obsahují vlastní zdroj napájení a tím pádem může být jeho činnost nezávislá na čtecím zařízení. Může obsahovat i snímače pro měření fyzikálních veličin a často je schopen optické a akustické komunikace s uživateli
+            * **RFID systémy podle oblasti aplikace:**
+                  * EAS (electroni artivle serveillance): ochrana obchodníků před krádežemi, čtecí zařízení je stacionární, při zakoupení zboží je značka RFID znehodnocena nebo deaktivována
+                  * PDC (portable data capture): pro monitoring zboží a osob, specifickým znakem je nasazení mobilních čteček RFID
+                  * Síťové systémy: jako PDC, ale tyhle využívají stacionární snímače a údaje ze značek posílají do centrálního systému
+                  * Systémy pro určení pozice: RFID pro zjištění přesné pozice předmětu, případně na identifikace vozidel při průjezdu kontrolními stanovišti
+          * aplikace RFID: transport a logistika, sledování pohybu palet se zbožím, knihovny, obaly, zdravotnictví, sledování kvality potravin, biometrické pasy, identifikace zvířat
+                 
+  * QR (quick response) kód
+        * potřebuju QR čtečku
+        * určení polohy načtením QR kódu
+
+
+====== Real time location system (RTLS) ======
+
+  * systém pro sledování polohy předmětů, majetku, zboží, osob
+  * vysílají samy své údajé do okolí
+  * vzdálenost až 100 metrl
+  * kombinace wifi a RFID technologie
+  * RTLS se skládá z: aktivních tagů, retefenčních zařízení pro lokalizaci tagů (accesspoint), datové sítě a SW na Internetu, aplikačního SW pro koncového uživatele
+  * aktivní RFID tag umístěná na sledovaném objektu si vměňuje informace s přístupovými body (accesspointy) -> na základě odezvy a síly signálu z nejméně tří přístupových bodů je pak systém schopen stanovit polohu konkrétního RFID tagu v prostoru
+
+
+----
+
+
+  * čárový kód: musí být na viditelném místě, dá se lehce poškodit
+  * RFID: je odolnější, čtecí zařízení může najednou načíst velké množství tagů ve větší vzdálenostii (průjezd paletového vozíku), umí přepsat informace poskytované tagu aniž by bylo nutné manipulovat se samotným tagem, bezkontaktní povaha technologia, která navyžaduje pro identifikaci objektu jeho přímou viditelnost ani přesné polohování, plus je rychlost čtení

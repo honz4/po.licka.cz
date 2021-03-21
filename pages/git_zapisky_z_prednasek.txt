@@ -1,0 +1,27 @@
+  * Databáze: SQLite, Oracle, MSAccess, MySQL, PostgreSQL, Microsoft SQL Server, Oracle, DB2
+  * Prostorová databáze: kombinuje konvenční a vlastní prostorová data (nemusí to být jenom samostatně uložená geometrie, ale je to kombinace)
+  * jak ukládat data v počítači: 
+      * souborový způsob uložení dat: nevýhoda je, že pokud manipuluju s objektem, tak s ním manipuluju napřímo (nejsem schopná víceuživatelské editace, když se spletu tak rozbiju data, nejsem schopná uhlídat, aby datové sady dodržovaly stejné parametry)
+            * 1) celá datová vrstva je uchována v jednom souboru -> výhoda konzistence
+            * 2) vrstva je uložena v několika souborech
+      * databázové řešení
+  * typy databázových systémů (špagetový a tak - je to ze státnic), kardinalita relačních vazeb (1:1, 1:N apod.)
+  * SQL:
+        * 3 podporuje definování tady těhle abstraktních datových typů plus můžu i definovat abstraktní datový typ (tj že současně do něj můžu přidat požadavky a atributy ale i ty metody, které s ním můžou manipulovat a informace o dědičnosti), není to objekt, můžu ho používat jako datový typ
+
+----
+
+  * jednoduché geometrické funkce
+  * funkce třídy geometry: dimension, envelope, geometrytype, srid
+  * bounding box: odpovídá standartu od OGC, je to obecně ten základní rámec/ MBR je název konkrétní implementace tady toho pravidla
+  * pro čáru: glenhgtj, isclosed, numpoints, startpoint, endpoint, point(g,N)
+  * pozor na rozdíl mezi polygonem a uzavřenou linií!
+  * geometry collection: geometry(g,N), numgeometries(g)
+  * prostorové analytické funkce: contains, within, crosses, equal, intersects, ...
+  * operace s MBR: mbrcontains, within, equal, intersects, overlaps, touches, disjoint
+
+
+----
+
+  * topologie / topologický datový model (from, to, left, right) / topologické operace
+  * 

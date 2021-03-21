@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+půdní vláha, podzemí voda, prameny, režim podzemních vod
+</WRAP>

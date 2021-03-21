@@ -1,0 +1,181 @@
+  * MBR:
+        * minimal bounding rectangle
+        * je to funkce třídy geometry v geometrickém objektovém modelu podle OGC
+        * je to nejmenší obdélník, do kterého lze daný objekt vepsat
+        * min, max(x,y)
+        * použit u R-tree
+        * prvek může ale mít více lomových bodů
+  * zápis binárních dat bez použití prostorových datových typů
+        * atributy se ukládají do feature table:
+              * slupce s atributy
+              * GID
+              * cizí klíč z geometry table kde je uložena geometrie prvků (jestli se to nevejde na jeden řádek, rozdělí se to)
+              * dlaždice - GID je jednoznačné ID
+              * envelope v WKT nebo číselné formě, souřadnice prvku jako WKB
+  * interferenční metoda u expertních systémů
+        * úplný expertní systém
+        * umožňuje komunikaci jak se systémem, tak s uživateli
+        * napodobuje uživatelovu schopnost uvažovat tím, že provádí symbolické výpočty
+        * vnější pohled (funkce, které uživatel vnímá při samotné práci) / vnitřní pohled (funkce spojené s konstrukcí systému) / implementační pohled (sleduje funkci inferenčního systému z pohledu programovacího prostředí)
+  * SpatialLite
+        * OGC SF, OGC WKT a WKB
+        * tranformace pomocí proj4 a epsg
+        * prostorová extenze k SQLite
+        * R-tree prostorové indexy
+        * každá databáze je uložena v samostatném souboru .dbm (database manager)
+  * EWKT v PostGIS
+        * ukládají 2.5D (Z souřadnici)
+        * nebo dynamicky segmentované prvky (s M hodnotama)
+              * třeba čas nebo kilometráž
+        * je to rozříření WKT a WKB
+        * uložení i údajů o SS
+  * AD-P princip
+        * analogově digitální převodník
+        * převod analogového signálu na digitální
+        * předem nastavená funkce
+  * ArcSDE databáze
+        * Informix, Oracle, PostgreSQL, SQL Server, SQL Express, DB2
+  * GIST index
+        * dovoluje mi vybrat si index
+        * B-stromy (seskupují data do uzlů podle svých hodnot), R-stromy (obálky uzlů do uzlů podle prostorové blízkosti)
+        * pro gist můžeme zvolit vlastnost, jak budou data seskupována
+  * delta tables v SDE
+        * při víceuživatelské editaci
+        * geodatabáze vytvoří novou tabulku, které jsou jako "delta tables", které zaznamenávají změny
+        * pro každou tabulku nebo feature class, která bylo upravena jsou vytvořeny dvě delta tabulky - Adds a Delets - co se přidalo a co se smazalo
+  * pravirtualizace
+        * simulování API , které vyžaduje určité modifikace hostovaného OS
+        * Von neumann: procesor, pamět a periferie
+        * plná virtualizace: virtualizujeme všechny součásti počítače, OS si má přístup i k HW
+        * provádí jen částečnou abstrakci na úrovni virtuálního počítače, tj. nabízí virtuální prostředí, které je podobné tomu fyzickému, na kterém virtuální počítač provozujeme
+        * virtualizace není úplná (OS může poznat že běží na virtuálu)
+        * hostitelský i hostované systémy musí být ale upraveny
+  * dimension u topologických objektů
+        * prostorový operátor
+        * určuje dimenzi objektu (0,1, 2, 3, 4D)
+        * dál boundary a interior
+  * geoparsing
+        * proces extrakce údajů z textu
+        * problém u slov, které mají více významů
+        * většina v angličtině
+  * pasivní RFID
+        * k přenosu dat pomocí rádiových vln
+        * vysílá buď jedno EPC (defaultní) nebo so dá dodatečně mu něco dodat
+        * nemá energii, tak vysílá periodicky pulzy do okolí -> v okolí je pasivní RFID čip -> využije energii k nabití svého kodenzátoru a odešle odpověď
+  * AOA
+        * 3 stanoviště pro určení pozice na základě úhlů příchozích signálů
+        * směrové antény a vyzařovací charakteristiky
+        * měří buď BTS nebo mobil
+        * přímky -> průnik -> poloha
+        * přímá viditelnost
+  * SDSS
+        * AHP 1.0, IDRISI, Ecosystem Management Decision Support, Assessment NetWeather
+        * http://uhulag.mendelu.cz/files/pagesdata/cz/vgdp/vgdp_gis3.pdf
+  * SDO_geometry v Oracle
+        * point, linestring (bud straight nebo arc), polygon
+        * prostorový datový typ
+        * geometry table - je tam aspon jeden sloupec SDO_geometry
+        * atributy: sdo_gdtype (dltt - dimenze, lin. odkazování, geomtyp), srid, point (x,y,z), elem_info, ordinates, dima_array
+  * geometry column v PostGIS
+        * table catalog, table schema, table name
+        * geom column, coord dimension (2,3,4), srid (cizí klíč tabulky spatial ref), type
+  * SDSS
+        * podpora prostorového rozhodování pomocí GIS
+        * strukturalizovaná rozhodování (algoritmizovaná a mohou být řešena pomocí PC), nestrukturalizovaná (pouze řešena člověkem, bez použití použití pc)
+        * cílem je na základě eistujících variant dospět k optimálnímu rozhodnutí
+        * efektivita systému (propojení pc a úsudku zpracovatele) <- většinou se používá mix těch typů rozhodování
+  * prostorové operátory:
+        * boundary, interior, dimension
+  * SWE podle OGC
+        * sensor web enablement
+        * SWE OGC
+        * specifikuje kódování metadat a rozhraní interoperability kvůli intergaci senzorových webů do IS
+        * EAI spacialozavá na senzorové weby
+        * aby šly vytvořit distribuované aplikace s webově propojenými senzory (hlásný systém povodní, větrných mlýnů, moniory EKD apod.)
+  * r-tree
+        * seskupuje prvky podle obálky podle jejich polohy
+        * hearchická stromová struktura
+        * uzly obsahují obálky všech obálek, kořen má obálku všeho
+        * prvkyy můžou být nrozměrné
+  * prostorové indexy
+        * urychlují dotazy, nemusím procházet celou tabulku 
+        * MBR, dlaždice, r-tree, hasovací tabulka,quadtree, voronoi geodetic, gist
+  * PICK
+        * je to výběr ukázáním
+        * formuluje dotazy s referencí na prostorové objekty viditelné na obrazovce
+        * ve WHERE poloha = PICK
+        * jméno města na které jsem klikla
+        * to nejbližší
+  * nevýhody snapshot modelu
+        * vysoký nárok na výkon zařízení, jelikož při změně originálních dat je nutné provést dvě operace. Nejprve originální data zkopírovat do prostoru pro snapshoty a pak teprve provést jejich změnu. Z tohoto důvodu mají zařízení, používající tuto technologii snapshotů, poměrně nízké limity na maximální množství vytvořených snapshotů.
+  * implementace geom modelu podle OGC
+        * použití numerických typů v SQL92 pro uložení (geometrických) objektů - použití binárních typů v SQL92 pro uložení (geometrických) objektů - použitím SQL92 s geometrickými typy (rozšíření SQL) pro uložení (geometrických) objektů - ke geometrickým typům lze přistupovat textově i binárně - nejperspektivnější (vzhledem k SQL 1999) - sloupec geometrických hodnot je implementován triviálně pomocí hodnot geometrického typu (použitím ADT ??? Dimension(), GeometryType(), SRID(), AsText(), AsBinary(), IsEmpty()
+  * OWA
+        * ordered weighted average
+        * Pořadově vážený průměr, vážení faktorů je stejné jako u metody WLC, zábrany zůstávají ve tvaru booleovských masek, faktory tvoří spojité mapy vhodnosti, pořadové váhy – kontrola nad zaměnitelností faktorů a úrovní rizika, po přiřazení faktorových vah se výsledky seřadí pro každé místo od nízké úrovně vhodnosti po vysokou; Faktor s nejnižší úrovní vhodnosti dostane první pořadovou váhu, Vážení faktorů je tak založeno na jejich pořadové hodnotě od minima k maximu, všechny typy faktorů nejsou volně zaměnitelné (náklady / ekologie), lze je vážit odděleně a výsledné mapy pak zkombinovat, operace AND neumožňuje záměny faktorů a WLC je z hlediska rizika
+  * RAID 1 plus 0
+        * Redundant Array of Inexpensive/Independent Disks, metoda zabezpečení dat proti selhání pevného disku. Jedná se o dvouúrovňové pole. Data uložíme prokládaně (stripováním) na dva disky (A, B), poté totéž uděláme s dalšími dvěma disky (C, D). Získáme tak dva logické disky AB, CD, které mají zrcadlený obsah. Zabezpečení je realizováno specifickým ukládáním dat na více nezávislých disků, kdy jsou uložená data zachována i při selhání některého z nich. Úroveň zabezpečení se liší podle zvoleného typu RAID, které je označováno čísly (nejčastěji RAID 0, RAID 1, RAID 5 či nověji RAID 6).
+  * SQL/MM
+        * sdandardizovaný soubor ADT procedur a fcí pro práci s multimediálním obsahem databáze
+        * část toho se zabývá i prostorovými daty
+        * definuje: ukládání, výběr, dotazování a aktualizaci
+        * reprezentace pomocí spatial types
+        * st_geometry -> surface, curve, point, geomcollection
+        * geom columns a spat ref sys, units of measure, sizings
+        * WKT, WKB, GML
+  * definice geometrie
+        * Curve - sekvence bodů, podtypy specifikují metody interpolace mezi body OGC ve verzi 1.1 definuje pouze podtřídu LineString odpovídající lineární interpolaci 
+        * Line - LineString s právě 2 body, 
+        * LinearRing - LineString odpovídající jednoduché (neprotínající se) a uzavřené křivce
+  * zastsupci mobilního GIS
+        * arcpad, arcgis mobile, arcgis for smartphones, collector for arcgis, explorer for arcgis, fieldworker, terrasync
+  * isclosed
+        * Returns TRUE if the LINESTRING's start and end points are coincident. For Polyhedral surface is closed (volumetric).
+  * distance
+        * SELECT ST_Distance(a.geom, b.geom),FROM points_table a, points_table b,WHERE a.id='x' AND b.id='y';
+  * bussiness table:
+        * u ArcSDE
+        * reprezentuje třídu, obsahuje sloupce s atributy a spatial column, je k němu 1:1 feature table
+  * 5LOWWPAN
+        * PAN je zkratka z anglického Personal Area Network, což je volně přeloženo osobní síť. PAN je počítačová síť tvořená komunikujícími zařízeními jako mobilní telefon, PDA nebo laptop, které jsou v blízkosti jedné osoby. 6LoWPAN je zkratka IPv6 - Low power Wireless Personal Area Networks. 6LoWPAN je název uzavřené pracovní skupiny v internetovém prostoru IETF. Koncept 6LoWPAN pochází z myšlenky, že Internet Protocol by mohl a měl být aplikován i na těch nejmenších přístrojů , a že low- power zařízení s omezenými možnostmi zpracování by měly mít možnost podílet se na the Internet of Things.
+  * rozšířená realita
+        * Augmented reality (AR) overlays virtual objects on the real-world environment.
+        * users see and interact with the real world while digital content is added to it. If this sounds unclear think of Pokemon Go
+        * There’s a different way to experience augmented reality, though – with special AR headsets, such as Google Glass, where digital content is displayed on a tiny screen in front of a user’s eye.
+        * headup display, helmet mounted display, smartphones
+  * E-CGI
+        * vylepšení Cell ID a TA - měří se úrovně signálů
+        * pro určení polohy mobilu
+        * výpočet podle modelu síření signálu (mezi BST a mobilem)
+        * poloha jako těžiště
+  * databázové objekty:
+        * pohledy (views)
+        * indexy
+        * triggery (vyvolá se když smažu rodičovskou tabulku)
+        * formuláře
+        * události (events)
+        * procesy
+  * indikační čas: záznam času, systémový: kdy byl čas zapsán
+  * AHP
+        * -- kvantitativní metoda pro seřazování rozhodovacích variant - využívá numerických hodnot, přiřazených každé variantě na základě toho, jak daná varianta odpovídá kritériím řešitele
+        * Dvoufázový proces - vytvoření hierarchie problému – dekompozice / Cíl a návazné vlastnosti problému (plány, události,)
+        * Graf: rozhodnutí - varianty - párové porovnávání mezi jednotlivými složkami v každé úrovni hierarchie - Váhy: na každém uzlu grafu – relativní preference faktorů 
+        * AHP 1.0 (decision support tool for Arcgis) - Patri do SDSS, - rozšíření pro ArcGIS - Poskytuje metody analytického vícekriteriálního hierarchického procesu AHP - vhodná pro řešení vícekriteriálního rozhodovacího problému. - vstupní data jsou vyžadována - v podobě reklasifikovaných gridů - stupně významnosti se zadávají - ručně s automatizovaným, výpočtem váhy faktoru
+  * mobile project center
+        * projekty pro mobilní aplikace
+        * je to desktop, kde si to všechno nachystám
+        * v AG mobile
+        * uložím na server nebo arcgis online
+  * komplementární cíle
+        * podpora prostoroveho rozhodování
+        * vzájemně se nevylučují, objekt může náležet do dvou souborů – nekonfliktní (pozmenek na stavbu RD může být zažitější, bude levnější, ale o to může být dražší stabva), konfliktní – vzájemně se vylučující (závodní okruh v NP)
+  * třída surface
+        * 2D geom objekt
+        * podle ogc
+        * má jednu vnější hranici a 0 až n vnitřích děr (nesmí se protínat)
+  * parametry pomocí GPL
+        * display mode: new, overlay, remove, intersect, highlight
+        * grephical representation: (pattern, colour), zobrazí legendu
+        * scale, window, spatial context, examination of content
+
+

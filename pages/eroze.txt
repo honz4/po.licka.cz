@@ -1,0 +1,121 @@
+  * příčiny: vítr, voda, led, sníh, zvětraliny, chemické působení
+  * druhy eroze: gravitační, vodní, větrná, sněhová, ledovcová, antropogenní, biologická
+  * zrychlená eroze: sjednocování a intenzivní využívání zemědělských ploch
+        * velkoplošné odlesňování
+        * porušení přírodní rovnováhy
+  * důsledky eroze: ztráta úrodné vrstvy, osiva, zanášení vodních toků, příkopů, cest, kvalitativní změny, sekudnární - eutrofizace
+
+====== modelování vodní eroze ======
+  * cíl: identifikace ohrožených lokalit, predikce četnosti/intenzity eroze, predikce následků eroze
+  * výstupy: přípustná délka svahu, ztráta půdy, koncentrace sedimentu a látek v odtoku, objem odtoku, kulminační průtok
+  * empirické modely: na základě empirických zkušeností (dlouhodobá měření –statistický soubor dat)
+        * výhody: 
+              * malý objem vstupních dat, obvykle snadno získatelných
+              * jednoduché a přehledné vztahy
+              * velká rozšířenost a snadná použitelnost, nenáročnost na výpočetní techniku
+        * nevýhody:
+              * dlouhodobé průměrné odhady
+              * neřeší jednotlivé přívalové srážky
+              * obvykle neumožňuje zahrnutí nehomogenit do výpočtu
+              * podmínky v USA, my máme odlišné podmínky
+        * USLE, RUSLE
+              * kritika, protože předpovídaji erozi všude, dokonce i tam, kde to není možné. neumí předpovídat ukládání sedimentů a neumí výpočet pro komplexní topografii (ani při integraci v GIS)
+  * fyzikálně založené modely: na základě fyzikálního popisu jevu (obvykle rovnice kontinuity + pohybové rovnice, ...)
+====== empirické modely ======
+
+===== USLE =====
+  * Universal Soil Loss Equation - Universální rovnice ztráty půdy
+  * Průměrné roční ztráty půdy způsobené odtokem z pozemků o určitém sklonu při určitém systému zemědělského využití
+  * Nelze ji použít pro období kratší
+  * regresní analýzou odvozena závislost na 6 faktorech
+  * 
+
+===== RUSLE =====
+  * Revised Universal Soil Loss Equation - Revidovaná Universální Rovnice Ztráty Půdy
+  * {{ ::rusle.png?direct |}}
+  * R
+      * faktor erozní účinnosti deště
+      * R = E * I30 / 100
+      * R faktor v ČR má ČHMÚ -> regionalizace -> mapa izoerodent pro čr
+  * K
+        * faktor erodovatelnosti půdy
+        * Vliv kvality půdy na její odolnost vůči dopadajícím dešťovým kapkám a proudící vodě
+        * Vliv velikosti infiltrace na množství povrchového odtoku
+        * K faktor v USLE: 
+              * určen experimentálně (odnos půdy z jednotky plochy na jednotku dešťového faktoru ze standartního pozemku)
+              * erodovatelnost půdy odvozena z: zrnitost, obsah humusu, struktura, propustnost
+  * LS
+        * topografický faktor
+        * nepřerušená délka svahu, sklon svahu, exponent zahrnující vliv velikosti sklonu
+  * C
+        * faktor ochranného vlivu vegetace
+        * poměr zjištěného smyvu půdy na pozemku s pěstovanými plodinami(vegetací) ke smyvu na pozemku s kypřeným černým úhorem
+        * Výrazné změny ochranného vlivu vegetace v průběhu vegetačního období
+        * změny plodin
+  * P
+        * faktor účinnosti protierozních opatření
+        * poměr zjištěného smyvu na pozemku s použitým protierozním opatření ke smyvu na standartním pozemku, který je obděláván ve směru spádnice
+        * způsoby obdělávání
+        * protierozní opatření:
+              * organizační: optimální tvar a velikost pozemku (pozemek s ornou půdou by neměl ve směru sklonu větší délku než délku přípustnou určenou z hodnoty přípustného smyvu půdy) , vhodné rozmístění plodin, záchytné pásy, apod.
+              * agrotechnické a vegetační: protierozní tvorba, způsob sadby
+              * technické: terénní úpravy (terasy, hrádky, nádrže)
+
+====== fyzikálně založené modely ======
+  * fyzikální základ (vznik a tvorba odtoku, vznik a průběh eroze)
+  * teoreticky správnější reprezentace erozního procesu
+  * přímé zahrnutí procesu eroze způsobené soustředěným odtokem a procesu ukládání transportovaných částic
+  * řešení jednotlivých srážko-odtokových situací
+  * přesnější schematizace geometrie území (nehomogenita)
+  * nevýhody: obtížněji dostupná vstupní data, nutná kalibrace modelu, často vysoké nároky na výpočetní techniku
+
+===== SMODERP =====
+  * SimulačníModelPovrchovéhoODtokuaERozníhoProcesu
+  * Epizodní
+  * čvut
+  * tvořen hydrologickým a erozním modulem
+  * pro jednotlivý svah nebo malé povodí
+  * proces odtoku, eroze, transportu
+  * výstupy: přípustná délka svahu, objem povrchového odtoku,kulminační průtok, ztráta půdy
+  * vstupy: geometrie svahu, součinitel hydraulické vodivosti, poměrná plocha listová, potenciální intercepce, půdní typ , sorptivita (počáteční vlhost), povrchová drsnost a retence
+
+===== WEPP =====
+  * Water Erosion Prediction Project
+  * Plně fyzikálně založený model
+  * Odděluje erozi deštěm x odtokem
+  * Jednotlivý pozemek
+  * Velký počet parametrů
+  * Založen na principu stochastického generátoru počasí
+  * deterministický
+  * field-scale nebo malé povodí
+  * 
+
+===== SIMWE =====
+  * simulation of water erosion
+  * podobný WEP
+
+===== USPED =====
+  * unit stream power based erosion deposition
+  * simulace transportního objemu limitujícího procesu povrchové eroze
+  * síť eroze a sedimentace je počítána jako změna v toku sedimentace
+
+===== SWAT =====
+  * soil and water assesment tool
+  * výpočet odtoku a ukládání hlavně z povodí kde převládá zemědělství
+
+===== eurose (european soil erosion model) =====
+  * pro pole a malá povodí
+  * 
+
+
+===== EROSION 2D/3D =====
+  * Ztráta půdy plošným i soustředěným odtokem
+  * Geometrický základ = pravidelná čtvercová síť
+  * ztráta půdy na svahu
+  * 
+
+
+
+
+
+

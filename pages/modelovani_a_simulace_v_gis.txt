@@ -1,0 +1,97 @@
+<WRAP center round tip 60%>
+postup modelování, fáze modelování, analýza a syntéza
+</WRAP>
+
+
+====== systém ======
+  * prvky + vazby mezi prvky + iterace s okolím
+  * **struktura systému**
+        * určuje vnitřní uspořádání
+  * **hranice systému**
+        * co je uvnitř a co je venku
+        * **izolovaný systém** - ani hmota, ani energie
+        * **uzavřený systém** - hmota ne, energie jo
+        * **otevřený systém** - hmota i energie jo
+  * **okolí systému**
+        * vnější subjekty mimo sysstém, které se systémem komunikují
+        * ovlivněno úrovní rozlišení a účelem modelování
+  * **komunikace s okolím**
+        * přes hranici systému
+        * vstupy systému - podněty okolí
+        * výstupy systému - reakce systému
+        * výměna - dat, informací, hmoty, energií
+  * **chování systému**
+        * změny stavu systému (přechod z jednoho stavu systému do druhého)
+        * popis spolupráce jednotlivých částí systému
+        * reakce na vstupní podněty <- zpětné ovlivnění
+  * **stav systému**
+        * stavové veličiny + přechodný stav systému -> výstupní veličiny v čase t
+
+====== analýza x syntéza ======
+  * analýza
+        * strukura -> určuju chování
+        * myšlenkově rozložím tu věc na části  a ty části dále zkoumám
+        * když líp poznám dílčí částí -> líp poznám tu věc jako celek
+  * syntéza
+        * chování -> určuju strukturu
+        * myšlenkově sjednotím části v celek
+        * sleduju souvislosti mezi složkami jevu -> čímž poznám jev jako celek
+        * nejednoznačná úloha
+
+  * **analyticky řešitelné modely**
+        * dostanu úplné řešení
+        * ale jsem omezena složitostí rovnic
+  * **simulační**
+        * můžu si vymyslet rovnice jaké chci, ale dostanu pouze numerické řešení a pro dané počáteční podmínky
+
+====== postup modelování ======
+{{ ::postup_modelovani.png?nolink |}}
+
+===== použití ∃ modelu =====
+  * výběr vhodného modelu -> sběr dat -> kontrola dat (a hodnocení) -> předzpracování dat -> tvorba vstupů -> kalibrace modelu -> vlastní modelování -> výstup modelu -> verifikace modelování -> využití výstupu modelu
+
+==== výběr ∃ modelu ====
+  * požadavky na model
+        * účel modelování
+        * typ situace a řešeného problému
+        * měřítko modelu
+        * -> seznam modelů (expertní systém)
+  * dostupnost dat pro dané území
+  * kolik ten model stojí
+  * doporučení zkušené osoby
+  * nálady na pořízení a obsluhu
+  * ovladatelnost uživatelského rozhraní
+  * vazba na další aplikace (openSource)
+  * řízeno předpisem?
+
+====== vlastnosti modelů ======
+  * **věrnost**
+        * jak dobře vystihuje mechanismy
+  * **přesnost**
+        * jak dobře predikuje vývoj v čase
+  * **obecnost**
+        * kolika systémů se týká
+====== sběr a uložení dat ======
+  * z existujících databází
+  * vlastním měřením
+  * výpočtem
+
+====== předzpracování dat ======
+  * lokalizace a transformace dat
+  * generalizace prostorových dat
+  * dekompozice a agregace dat
+        * převod na měřítko větších či menších jednotek
+  * tvorba sítě referenčních bodů
+  * filtrace dat
+  * převod do požadovaného systému
+
+  * validace = jak je model schopen reprodukovat data, na jejichž základě byl vytvořen
+  * varifikace = jak je model schopen predikovat nazávislá data
+  * bilanční rovnice
+        * vstup + zdroj = výstup + akumulace
+
+====== simulace ======
+  * návrh modelu
+  * provedení simulace
+  * analýza získaných dat
+

@@ -1,0 +1,17 @@
+<code>
+import arcpy
+arcpy.env.overwriteOutput = True
+arcpy.env.workspace = r'C:\Users\laboratorios\ELVLC\DATA\castilla-leon'
+
+#output folder
+output = 'C:\Users\laboratorios\ELVLC\DATA\results'
+
+#reference to the input layers
+towns = 'NUCLEOS.shp'
+roads = 'CARRETERA.shp'
+
+
+arcpy.Buffer_analysis(towns,output+'\\buf_towns.shp',1000)
+arcpy.Clip_analysis(roads,output+'\\buf_towns.shp',output+'\\clip_roads.shp')
+
+</code>

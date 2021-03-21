@@ -1,0 +1,70 @@
+<WRAP center round box 60%>
+internetová aplikace, která zpřístupňuje geografická data a umožňuje práci s nimi bez nutnosti instalace speciálního softwaru
+</WRAP>
+
+  * zpracovává požadavky klienta a generuje výsledek
+  * vykonává prostorové dotazy, řídí prostorové analýzy
+  * dotaz, filtrace, extrakce dat, geokódování, tvorba výstupů
+  * výstup buď filtrovaná objektová data nebo obrázek (gif, jpg)
+  * **princip:**
+        * klient pošle dotaz na extent území, požadavky
+        * konfigurační soubor
+        * mapserver tvoří obrázek mapy, se všemi vrstvami, s legendou, referenční mapou,...
+        * klientovi se vrátí obrázek mapy, nebo HTML stránka, nebo výsledek dotazu do databáze
+  * servery spolu mohou komunikovat pomocí WMS, WFS a dalších a poskytovat si tak navzájem mapy
+
+==== dostupná řešení ====
+  * Bentley Geo Web Publisher, ESRi ArcIMS, MISYS-Web, T-Map Server
+  * Minnesota Map Server (není plně funkční GIS - umožňuje publikaci geodat a sdílení geodat pomocí standardů WMS či WFS), Grasslinks
+
+====== součásti mapserveru ======
+  * MapServer je CGI program a je spouštěný (webovým serverem) po každém obdržení požadavku
+
+{{:mapfile.png?nolink |mapfile!!!}}
+
+
+  - webový server
+        * webový server, který podporuje spouštění CGI aplikací. Nejčastěji se  Apache HTTP Server nebo IIS
+  - program MapServer
+        * obvykle CGI program (mapserv.exe) - instalován v adresáři cgi-bin HTTP serveru
+  - inicializační soubor
+        * vyvolá 1. zobrazení aplikace
+        * využívá HTML formulář se skrytými parametry pro poslání počátečního dotazu HTTP serveru, který ho následně předá MapServeru
+        * není povinný
+        * místo HTML formuláře lze k inicializaci použít i obyčejnou URL adresu, která obsahuje všechny potřebné parametry, formulář je ovšem přehlednější
+        * stejně jako protokol HTTP je i MPS bezestavový a právě předávání parametrů přes formuláře je jednou z cest, jak informace udržovat
+  - mapsoubor
+        * základní konfigurační soubor MPS (*.MAP) - popis struktury výsledné mapy
+        * nastavení všech prvků výstupu: vlastní mapy, legendy, přehledky i grafického měřítka
+        * uvozen globálními nastaveními, jako  je umístění datových souborů a souborů popisujících použité symboly a fonty, celkové rozměry  mapy, použité jednotky...
+        * definice jednotlivých vrstev - která data se mají v aplikaci použít, jak se mají vykreslovat, určuje, jakým způsobem zacházet s dotazy.
+        * hierarchická struktura - skládá se z objektů, které začínají klíčovým slovem a končí slovem END
+  - šablona
+        * rozhraní mezi uživatelem a MapServerem
+        * HTML soubor - definuje způsob sestavení výstupů z MPS na obrazovce uživatele
+        * poskytuje omezenou množinu operací, které může s aplikací provádět - prohlížení mapy, zvětšování / zmenšování, zapínání a vypínání datových vrstev po dotazy na prvky v mapě
+        * proměnné [klíčové_slovo] (MapServer tags) - před odesláním souboru uživateli nahrazeny informacemi (skutečnými hodnotami) o aktuálním stavu aplikace a o zobrazovaných datech
+  - geodata
+        * vektorovová data – výchozím f: Esri shapefile
+        * jinak TIFF a GeoTIFF (s world file)
+        * pokud má polygon ve svém atributu druh hodnotu pevnina, má ho vykreslit černým obrysem se zelenou výplní a do legendy má ke vzorku zobrazit popis Zemské kontinenty, což je jméno této třídy
+
+====== geoserver x mapserver ======
+  * MapServer je obecně lepší pro práci s WMS, zatímco GeoServer lepší s WFS
+  * GeoServer podporuje WFS-T
+  * MapServer pracuje s CGI, GeoSever s J2EE => výhoda pro GeoServer - některé firmy nechtějí s CGI pracovat
+  * MapServer je starší projekt (1996), zatímco GeoServer je o něco novější (2003)
+  * GeoServer má webové nástroje pro správu, které zjednodušují nastavení
+  * MapServer je velmi silný kartografický systém*, v situaci poskytování údajů při dynamickém odvozování s vysokou kvalitou
+
+====== SOAP ======
+  * komunikační protokol v XML
+  * .NET, JAVA
+====== REST ======
+  * katalog služeb
+  * každá služba a operace = URL
+  * jednoduchý přístup k metadatům služby
+  * pro katalog služeb se vytváří cache => zlepšení výkonu
+
+
+

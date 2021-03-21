@@ -1,0 +1,10 @@
+===== augemented VR =====
+  * Head-Up Display
+        * promítá 
+  * Helmet Mounted Display
+        * přímo na hledí přilby
+  * Smarthphones
+        * fotoaparád, GPS, akcelerometry, digitální kompas, digitální kamera, RFID (určení pozice a úhlu pohledu uživatele)
+  * Spatial Displays
+        * promítání grafické informace na fyzický objekt bez speciálních pomůce
+        * zobrazení je stejné pro několik uživatelů

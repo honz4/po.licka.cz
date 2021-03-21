@@ -1,0 +1,108 @@
+  * **informace** = data, kterým je přisuzován určitý význam nebo účel
+  * **informační systém** = HW a SW, záznamová média, data a personál, který subjekt používá ke správě informací
+  * vlastnosti informací: potřebnost (důležitost), pravdivost, úplnost, včasnost
+  * nutnost přesné lokalizace !
+  * mezinárodní tísňová linka 122
+  * **krizový management (krizové řízení)** = je souhrn řídících činností včetně příslušných orgánů zaměřených na analýzu a vyhodnocení bezpečnostních rizik, plánování, organizování, realizaci a kontrolu činností prováděných vsouvislosti sřešením krizové situace
+        * je to souhrn vědeckých poznatků, odborných postupů a aplikačních nástrojů preventivních, rozhodovacích a technologických opatření, umožňujících řídícím pracovníkům řešit krizové situace. Zahrnuje přípravu a zajištění krizových a havarijních plánů ochrany záchrany života a zdraví obyvatelstva, ochrany životního prostředí, duchovních hodnot a ekonomiky, jako základních hodnot státu
+        * je univerzálním termínem pro pojmenování procesů spojených  se zvládáním krizových situací přírodního (živelního), 
+antropogenního, sociálně společenského, ekonomického,  či podnikohospodářského  charakteru
+        * 
+
+  * **krize** = složitá krizová situace, vníž je významným způsobem narušena rovnováha mezi základními charakteristikami systému na jedné straně a postojem okolního prostředí na straně druhé
+  * **krizová situace** = nepředvídatelný nebo obtížně předvídatelný průběh skutečností
+        * narušení rovnovážných přírodních, technických, ekologických, ekonomických a blabla stavů
+        * dochází kohrožení životů, zdraví nebo majetku občanů, životního prostředí, ekonomiky a hmotných statků státu a jeho obyvatelstva
+        * degradace obyvatelstva
+  * krizový management = potřebuje informace o katastrofách, které mohou vzniknout vdaném území, o citlivosti území na mimořádné situace, aby mohl připravit plán pro případ vzniku krizové situace
+        * důležitou součástí je včasné varování, které může zachránit lidské životy.
+  * poskytovatelé informací: ČHMÚ, SIVS, ŘSD, HZS ČR, PČR, IZS, Obecní úřady
+  * nástroje informační podpory krizového řízení: řídící, simulační, analytické, monitorovací, výpočetní a modelovací, vizuální a komunikační, evidenční, plánovací
+
+
+----
+  * řízení rizik (krizové plánování)
+        * sběr informací a následná analýza
+  * systém KP v čr:
+        * obranné plánování
+        * civilní nouzové plánování (plánování zdrojů pro podporu ozbrojených sil a úkolů ochrany obyvatelstva)
+        * havarijní plánování -řešením krizových situací vzniklých vdůsledku přírodních katastrof a antropogenních havárií (zde je možnost využít modely a geografické informace / MVČR a IZS)
+  * Základem managementu (krizového řízení) je získávání, zpracování a předávání informací
+  * nástroje:
+        * informační systémy (HW a SW) umožňující získávání a zpracování informací (zejména v oblasti přípravy a řešení krizových situací).
+        * komunikační prostředky umožňující přenos informací mezi jednotlivými IS (linkové, bezdrátové, satelitní apod.)
+  * fungující systém:
+        * data
+        * uživatelské prostředí
+        * aktualizace
+        * SW nenáročný
+        * kompatibilní
+  * HW + SW -> inf. technologie -> IS -> informační podpora
+  * výhody používání sofistikovaných IS:
+        * přehlednost dokumentace a dílčích databází
+        * snadná a rychlá údržba a aktualizace
+        * typizace dokumentů
+        * podpora vlastních procesů
+        * prokazatelná archivace dat
+        * rychlý a snadný přístup k informacím
+        * významný prvek komunikace a informování
+        * jednoduchost a intuitivnost ovládání
+        * snížení nákladů na řešení a dopadů ztrát
+        * centralizace informací
+  * nevýhody:
+        * finanční a personální náklady
+        * musíte personál proškolit
+        * musíte umět v datech „číst“
+        * „Pathdependency“
+        * přijdete o data a jste bez zálohy
+        * příliš si na IS zvyknete
+  * úrovně:
+        * lokální -> regionální -> pro konrétní instituce -> celostátní -> nadnárodní
+  * management rizik:
+        * událost -> provizorní obnova -> rekonstrukce -> prevence -> příprava
+
+  * {{ ::bscr.png?direct |}}
+
+  * {{ ::bscr_kraje.png?direct |}}
+
+====== IZS ======
+
+  * Integrovaný záchranný systém (IZS) je pojem, pod kterým se rozumí koordinovaný postup jeho složek při přípravě na mimořádné události a při provádění záchranných a likvidačních prací.
+  * není to instituce
+  * vznikl zpotřeby činnosti záchranářů, zejména při složitých haváriích, nehodách a živelných pohromách, kdy je třeba organizovat společnou činnost při zabezpečení záchrany osob, zvířat, majetku a životního prostředí
+  * Koordinovaný postup složek IZS při přípravě na mimořádné události a při provádění záchranných a likvidačních prací:
+        * mimořádná událost
+        * záchranné práce
+        * likvidační práce
+        * ochrana obyvatelstva
+        * zařízení CO
+        * věcná a osobní pomoc
+  * složky:
+        * policie, hasiči, jednotky požární ochrany, ZSS
+        * vyčleněné jednotky ozbrojených sil
+        * městská policie
+        * orgány ochrany veřejného zdraví
+        * havarijní, pohotovostní a jiné služby
+        * zařízení civilní ochrany a další organizace poskytující při záchranných a likvidačních pracích plánovanou pomoc na vyžádání, a další
+
+====== GIS a krizový management ======
+  * sdílení, správa dat, efektivní rozhodování na základě přesného modelování z kvalitních dat
+  * propojení GIS v rámci všech zainteresovaných institucí (státní správa, hasiči, složky civilní obrany, zdravotnictví, správy sítí, dopravci, …)
+  * nejlépe propracovaný a standardizovaný geoinformační systém má Hasičský záchranný sbor, který má zároveň i vedoucí pozici ve snaze o zavedení jednotných postupů a spolupráce mezi složkami IZS
+  * možnosti:
+        * retrospektiva–hledání místa vzniku z dat současného výskytu
+        * soudobý stav–hledání místa nejefektivnějšího zásahu–evakuace obyvatel–vizualizace postiženého území
+        * predikce–modelování možných budoucích ohrožených míst a společenstev
+  * data:
+        * streetnet, POI, čhmú, definiční body budov apod., železnice a stanice a zastávky od čd, silnice od řsd, pokrytí signálem krizových mobilních telefonůa telefonní budky od Telefónica O2, voda a dibavod, dislokace stanic pčr a zzs, evakuační data jaderných elektráren, ropovod od RWE, 
+
+====== centrum tísňového volání ======
+  * operátoři jednotlivých záchranných složek nejen přijímají tísňová volání, koordinují, monitorují a kontrolují záchranné týmy v akci, ale také si navzájem události předávají.
+  * v Ostravě!!!
+  * zřizovatel je město
+
+
+----
+  * global hazard atlas
+  * DROZD = Projekt Dobrovolné registrace občanů České republiky při cestách do zahraničí (DROZD) umožňuje účinně organizovat pomoc českým občanům, kteří poskytnou na dobrovolném základě informace o svém plánovaném pobytu v zahraničí.
+

@@ -1,0 +1,30 @@
+====== GIS online ======
+  - [[Webové služby v geoinformatice]]
+  - [[Datové a procesní služby]]
+  - [[sitova_prostredi|Architektura a protokoly webových služeb]]
+  - [[Pokročilé rozšíření webových služeb]]
+  - [[XML]]
+  - [[GML]]
+  - [[Publikování dat na webu]]
+  - [[GIT a n-vrstvá architektura]]
+  - [[sitova_prostredi|Komunikační a síťové protokoly]]
+  - [[GRID a cloud výpočty]]
+  - [[Interoperabilita a standardy]]
+  - [[Základní a komunitní profily metadat a východiska pro INSPIRE]]
+
+
+----
+
+  - [[Státní geoinformační politika v ČR]]
+  - [[Legislativní aspekty politiky prostorových dat]]
+
+----
+
+  - [[Mobilní GIS]]
+  - [[Asistované určené polohy]]
+  - [[Prostorové databáze]]
+  - [[Geometrický model OGC a SQL/MM]]
+  - [[Prostorový dotazovací jazyk a prostorové rozšíření databázových systémů]]
+  - [[Senzorové systémy]]
+
+

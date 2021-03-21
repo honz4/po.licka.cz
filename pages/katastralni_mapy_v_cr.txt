@@ -1,0 +1,63 @@
+<WRAP center round tip 60%>
+DKM, KMD, KM-D, PK mapy, účelová KM
+</WRAP>
+Katastrální mapa je státní mapové dílo velkého měřítka , jeho obsahem je polohopis a popis. Polohopis katastrální mapy obsahuje zobrazení hranic katastrálních území, hranic územních správních jednotek, státních hranic, hranic pozemků, obvodů budov a vodních děl evidovaných v katastru, další prvky polohopisu (mosty, tunely), hranice chráněných území a ochranných pásem a body polohového bodového pole.
+
+{{ ::cuzk_digit.png?nolink |}}
+
+
+====== DKM - digitální katastrální mapa ======
+  * katastrální mapa v souřadnicovém systému S-JTSK vyhotovená při obnově katastrálního operátu novým mapováním, na podkladě výsledků pozemkových úprav, přepracováním souboru geodetických informací nebo převedením jejího číselného vyjádření do digitální formy
+  * v měřítku 1 : 1 000
+  * Podmínkou, aby mapa mohla být přepracována na DKM, je mapování provedené měřením a se záznamem měřených veličin (délek, úhlů...), které lze přepočítat do systému S-JTSK. Takováto měření využívající ortogonální metodu se prováděla již od začátku 20.století ještě v rámci mapování pro Pozemkový katastr. Po vydání Instrukce A (1927) pak pokračovala od 20.let až po začátek 50.let. Poté byly hledány metody, které měly mapování zrychlit a zlevnit, ale ukázaly se jako nedostatečně přesné. V rámci Technicko-hospodářského mapování (THM) se v 60. a 70. letech hojně využívala fotogrammetrie. V 70.let, kdy začala vznikat Základní mapa velkého měřítka (ZMVZ), tak došlo k návratu k pozemnímu měření a začala se používat polární metoda. Na ZMVM pak technologicky navazuje i současné katastrální mapování, ale již s využitím družicových metod (GNSS). Všechna výše jmenovaná mapování jsou od roku 1994 přepracovávána po jednotlivých katastrálních územích na DKM.
+  * tvorbu a údržbu DKM provádí ČÚZK průběžně
+  * mapa ve tvaru vektorové grafiky
+  * mapa je v souladu se souborem popisných informací (SPI)
+  * DKM spolu s KM-D pokrývají cca 33.8% území ČR
+{{ ::dkm2.png?nolink&700 |}}
+====== KMD - katastrální mapa digitalizovaná ======
+  * katastrální mapa **v souřadnicovém systému S-JTSK** vyhotovená přepracováním analogové mapy v souřadnicovém systému Gusterberském nebo Svatoštěpánském do digitální formy nebo digitální forma katastrální mapy vyhotovená podle dřívějších předpisů
+  * mapa ve tvaru vektorové grafiky a v měřítku 1 : 1 000
+  * Při její tvorbě byly využity i rastry z archivovaných map Stabilního katastru (SK) a Pozemkového katastru (PK), které jsou přesnější než aktuální katastrální mapy. Rastrový obraz map byl nejprve transformován ze systému S-SK do S-JTSK a došlo k vyrovnání katastrálních hranic, aby se zajistila bezešvost mapy. Následně byly přepočteny do S-JTSK všechny dostupné podklady (geometrické plány, záznamy podrobného měření změn) a na takto vzniklou kostru identických bodů byl dotransformován rastrový obraz původních map. Teprve poté došlo k vektorizaci situace, kterou nešlo získat výpočty. Mapy KMD jsou obecně kvalitnější než mapy KM-D, ale nedosahují přesnosti map DKM. Přepracování map na KMD začalo v roce 2007 a má být dokončeno v roce 2017.
+{{ ::kmd.png?nolink |}}
+
+====== KM-D - katastrální mapa digitalizovaná ======
+  * vznikla digitalizací map katastru nemovitostí v měřítku 1:2880 **do systému S-SK**. Její tvorba probíhala v 90.letech 20.století, ale pak byla zastavena kvůli tomu, že neřešila deformace a nepřesnosti převzaté z analogové mapy a kvůli problémům s údržbou a zákresem nové situace. Mapy KM-D byly tvořeny jednoduchou vektorizací rastrových obrazů map a jejich přesnost je nízká. Tyto mapy jsou ostrovní a tudíž na jejich styku dochází k překrytu či vzniku mezer. V současnosti dochází k jejich převodu na mapy KMD.
+
+
+====== katastrální mapa analogová ======
+  * je vedena na plastové fólii s přesností a v zobrazovací soustavě stanovenými v době jejího vzniku.
+  * Pokud podkladem analogové mapy byla ještě mapa stabilního či pozemkového katastru, má měřítko 1:2880, pokud v katastrálním území došlo k novějšímu mapování, má měřítko 1:1000 nebo 1:2000.
+  * Počítá se, že po roce 2017 se již analogové mapy nebudou používat a plně je nahradí DKM nebo KMD.
+
+====== mapy pozemkového katastru (PK-mapy) ======
+  * vznik 1932 (používaly se do 1956)
+  * obsah dán zákonem – mapoval se polohopis, využitelný pro účely pozemkového katastru
+  * originály na kladívkovém papíru nalepeném na tenké hliníkové desce (folii) aby se zamezilo srážce papíru
+  * vybudování Jednotné trigonometrické sítě
+  * postupně nahrazování stabilního katastru novým, moderním pozemkovým katastrem
+  * Současný stav:  digitální podoba, rastr, převedeno do systémů stabilního katastru (S-SK a souvislého zobrazení v S-JTSK)
+
+
+====== účelová KM ======
+  * něco jako **dočasná digitalizace KN**
+  * aktuální vektorové dílo, je součástí katastrálních map
+  * aktualizuje se 2x ročně
+  * skládá se z DKM, KMd, KM-D, rastrových map transformovaných do S-JTSK
+  * Pokrývá celé území kraje, na kterém je KM vedena
+  * V plastové folii tam kde ještě není vedena DKM
+  * Na rozdíl od KM má zjednodušený datový model – zahrnuje pouze katastrální hranice, hranice parcel, vnitřní kresbu, místní názvosloví, a definiční body parcel
+  * Vytváří krajský úřad a data přebírá čúzk
+  * Využíváno jako orientační mapa parcel
+  * Možnost využití při tvorbě UAP nebo DMVS
+  * Výhoda, že je bezešvá a má vyřešené styky jednotlivých kat. území
+  * zajišťuje digitální podobu katastrální mapy v místech, kde katastrální úřad vede katastrální mapu v analogové (papírové) podobě
+  * Do RÚIAN je ÚKM přebírána jako orientační mapa parcel - vektorová (OMP-V). V RÚIAN je parcela v OMP-V zobrazena blankytnou barvou.
+
+  * přesnost - je méně předná než DKM, střední chyba je 2,17 metru při převodu do S-JTSK , takže KM-D je stejně nepřesná jako ÚKM
+  * aktuálnost - DKM a KM-D se aktualizují průběžně, ÚKM nárazově (1–2 x do roka)
+  * u DKM a KM-D je 100% shoda mapy a databáze, u ÚKM to nemusí být
+{{ ::ukm2.png?nolink |}} 
+{{ ::omp.png?nolink&400 |}}
+
+

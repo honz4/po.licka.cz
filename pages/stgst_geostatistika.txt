@@ -1,0 +1,161 @@
+  * studium jevů, které se mění v prostoru (a čase)
+  * statistické nástroje sloužící k pochopení a modelování prostorové variability jevů
+
+  - regionalizovaná proměnná
+     * proměnná, která je distribuována v prostoru
+     * typy půd, výskyt minerálů, nadmořská výška, teplota, tlak
+  - 2. hodnota proměnné je funkcí polohy
+     * systematická složka – funkce polohy (X, Y, Z)
+     * náhodná složka – náhodné vlivy, šum,...
+
+===== základní koncepty =====
+<wrap hi>prostorová (auto)korelace = blízké jevy jsou si podobnější než jevy vzdálenější</wrap>
+
+==== EDA ====
+  * první krok při analýze dat
+  * grafické a numerické metody
+  * deskriptivní statistika
+  * homogenita, typ rozdělení, testování hypotéz, jednoduché statistické modely, korelace
+
+==== ESDA ====
+  * grafické i numerické metody
+  * analýza prostorových vzorů
+      * trend v datech, anizotropie
+  * hypotézy založené na poloze dat
+  * prostorové modely
+
+==== interpolace ====
+  * měřené prostorových jevů probíhá většinou diskrétně
+  * = tvorba kontinuálních povrchů
+  * výpočet hodnoty v neznámých místech
+  * spline, trend, regresní funkce
+
+==== variografie ====
+  * strukturální funkce
+  * vizualizace, modelování a průzkum prostorové autokorelace
+  * zkoumá variabilitu jevu ve vztahu ke vzdálenosti
+
+==== krigging ====
+  * = výpočet pravděpodobné hodnoty proměnné buď v bodě, kde nebylo provedeno měření, nebo v relativně malé ploše
+  * označuje interpolační metody, které využívají geostacionární metody odhadu
+  * pro krigování se používá tzv. lokální odhad, což je výpočet pravděpodobné hodnoty proměnné buď v bodě, kde nebylo provedeno měření = bodový odhad, anebo v relativně malé ploše = blokový odhad
+  * je základní geostatistickou metodou určování lokálního odhadu
+  * nedůležitější je základní krigování = podle cíle odhadu se vyčleňují bodové a blokové odhady
+  * pro bodový odhad při základním krigování se využívá soustava rovnic v maticovém tvaru
+  * univerzální krigování = prostorová proměnná je považována za součet dvou komponent – trendu (driftu), který určuje průměrnou hodnotu v tom místě, a reziduí. Po výpočtu trendu lze získat hodnot rezidua odečtením hodnoty trendu v daném místě od skutečné hodnoty
+
+=== Spatial pattern ===
+
+  * identifikace převažujících procesů
+  * morishitův index
+  * fry plot
+  * ripleyho K-funkce a její variace
+=== Shlukování ===
+
+  * mapy hustoty jevu (heat maps, density maps)
+  * LISA – local indicators of spatial association
+      * lokální obdoba globálních indexů prostorové autokorelace
+=== Geostatistické simulace ===
+
+  * výsledky interpolačních metod jsou vyhlazené, protože modelují systematickou složku
+  * realita není hladká -> vnesení náhodné složky (šumu) do výsledků
+  * Simulace Monte Carlo, Gaussovské simulace
+  * Interpolace = predikce
+  * simulace = výpočet jedné z mnoha možných realit
+=== Další metody ===
+
+  * modelování časových řad
+  * Space – time analysis
+    *  space-time clustering
+      * space-time cube
+  * metody geocomputation
+    *  fraktály
+      * vícerozměrné statistické metody
+      * geograficky vážená regrese
+
+===== EDA a popisná statistika =====
+  * Explorary data analysis
+      * průzkumová analýza dat
+      * základní popis dat s pomocí numerických a grafických metod a jednoduchých modelů
+
+   * účel průzkumové analýzy
+     * detekce chyb a odlehlých měření
+       * zpřesnění vzorkování, eliminace odchylek pro přesnější popis
+
+     * kontrola předpokladů pro následné statistické zpracování
+       * jaké máme typy dat? Jaké je jejich rozdělení? První hypotézy
+     * zkoumání vzorků v datech
+       * existují nějaké vztahy mezi proměnnými v datech?
+       * Mají mnou zkoumaná data nějakou vnitřní strukturu?
+       * Lze popsat data jednoduchým modelem?
+
+== typy EDA ==
+  * **jednorozměrná**
+    * zkoumáme pouze jednu vlastnost proměnné
+    * frekvenční tabulky, histogramy, distribuční funkce
+  * **dvourozměrná**
+    * zkoumáme dvě vlastnosti proměnné a jejich vztah
+    * korelace, lineální regrese, scatterplot
+  * ** vícerozměrná**
+    * zkoumáme více než dvě vlastnosti proměnné znaků a jejich vztahy
+    * metody: MDS, PCA, FA,...
+
+===== variografie =====
+   * modelování prostrorového vztahu (autokorelace) mezi naměřenými body
+     * vzdálenost a směr
+
+==== kovariogram ====
+  * m(x) je střední hodnota veličiny u v blízkosti místa x
+  *** korelogram** = normovaná kovariační funkce
+
+==== variogram ====
+  * nejpoužívanější strukturální funkce
+  * experimentální variogram – vychází z měření
+  * teoretický variogram – teoretický model
+  * vyjadřuje, jak se měn proměnná mezi místem u a místem (u+h), mezi nimiž je vzdálenost h
+      * vypočítají se všechny dvojice bodů a jim odpovídající variogram cloud
+      * body jsou kategorizovány do tříd podle vzdálenosti (důležitá je velikost kroku)
+      * pro každou třídu je zjištěn průměr
+      * vizualizace závislosti semivariance na vzdálenosti
+      * = výsledkem analýzy je identifikovaný typ variogramu a jeho parametry
+  * **osa x** = kategorie vzdálenosti mezi body
+  * **osa y** = semivariance – variabilita 2.řádu; jak se mění v krocích hodnoty x
+  * **nugget** – zbytkový rozptyl = rozptyl v oblasi menší velikosti než je základní krok nebo nepřesnost základních hodnot
+  * **sill (práh)** = hodnota semivariance (osa y), kde semivariogram mění svůj průběh
+  * **range (dosah)** = vzdálenost, pro kterou jsou body vzájemně ovlivňovány; vzdálenost, kde variogram dosáhne prahu
+
+=== izotropie /anizotropie ===
+  * některé přírodní jevy mohou mít výrazně anizotropní charakter
+  * přirozená povaha nebo vliv predispozic okolí
+      * například uložení geologických vrstev a výskyt rud, zlomy a průběh pohoří, hluk podél silnic, apod....
+  * anizotropii je tedy potřeba zohlednit i v případě tvorby experimentálního variogramu
+  * není-li definováno, je použit tzv. Omnidirectional variogram
+    *  izotropní jevy, tvoří kružnice kolem bodů
+  * směrové variogramy zohledňují převládající trend
+    *  definice směru a jeho tolerance
+  * čím více párů, tím spolehlivější je odhad semivariance pro danou velikost kroku
+
+=== teoretické modely variogramu ===
+== modely s přechodem ==
+
+  * malé vzdálenosti -> vysoká shoda mezi zjištěnými hodnotami (nízká variabilita), snižuje se se vzdáleností
+  * za dosahem se úroveň neshody stabilizuje kolem hodnoty statistického rozptylu, není prostorová vazba a variabilita je plně určována statistickým rozptylem
+== model bez přechodu ==
+
+  * extrémní případ přechodového modelu
+== model oscilační ==
+
+  * důsledek pravidelného střídání pásů s vyššími a nižšími hodnotami
+  * nehomogenním charakterem zkoumaného pole, nestabilita modelů (pro krigging se nepoužívá)
+== modely složené ==
+
+  * složené z výše zmíněných modelů
+  * každý zdroj variability má svůj model
+
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+<WRAP center round box 60%>
+interakce stroj x stroj
+</WRAP>
+  * princip: aplikace (programová komponenta) identifikovaná pomocí jedinečné adresy, která poskytuje kolekci metod, ke kterým je možno přistupovat po síti s využitím standardizovaných protokolů
+  * metody vrací na konkrétní požadavek (request) konkrétní odpověď (response)
+  * služba nemusí nic vracet ani mít vstupní parametry
+  * synchronní / asynchronní
+
+====== využití  ======
+  * **RPC (Remote procedure calls)** – vzdálené volání procedur -  pomocí WS  je volána funkce s parametry definovanými v požadavku klienta, výsledek volání je oznámen v reakci na požadavek
+  * **SOA (Service-oriented architecture)** – servisně orientovaná architektura, kde základním prvkem komunikace není procedura, ale zpráva. Komunikace pomocí zasílání zpráv umožňuje volnější vazbu mezi systémy a je možné skrýt nepodstatné implementační detaily
+  *** REST (Representational State Transfer)** – funkcionalita je rozdělena do jednotlivých   prostředků (resources) s unikátními URL, všechny prostředky sdílí uniformní
+
+====== architektura ======
+  * **komunikační vrstva**
+        * přenos zpráv mezi službami a klienty / protokol SOAP
+  * vrstva popisu služby
+        * popis sestává ze seznamu metod, parametrů a návratových hodnot, přípojných nodů (fyzických adres v počítačové síti) pro volání služby.
+        * odpověď na otázky, co daná služba dělá (jaké metody poskytuje, co je potřeba poslat na vstup, abychom obdrželi odpověď), jak je služba přístupná (detaily o datových typech a protokolech nezbytných pro přístup k metodám)
+        * kde se konkrétní služba nachází (detaily o adrese specifické pro daný protokol)
+        * jazyk WSDL
+  * vrstva registrů
+        * když uživatel potřebuje využít nějakou specifickou službu, prohledá daný registr - získá popis a může začít používat
+        * protokol UDD
+  * bezpečnostní vrstva
+  * vrstva spolehlivosti zpráv
+        * zajišťuje ověřování spolehlivosti přenosu zprávy a věrohodnosti, zda daná zpráva přišla ze správného zdroje a nezměněná
+  * vrstva pro kontext, koordinaci a přenos
+        * koordinace činnosti WS v případě dlouhých transakcí
+  * bussiness process language layer
+        * popisuje spouštěcí logiku webových služeb definováním jejich kontrolního toku (podmíněné, sekvenční, paralelní) a předepisuje pravidla pro zpracování jejich dat
+  * vrstva pro choreografii
+        * chování služeb při komunikaci mezi sebou
+
+====== protokoly ======
+  * přenos - HTTP, FTP, SMTP
+  * XML komunikace - 
+  * XML RPC
+  * SOAP - nástupce RPC
+  * REST - (Representational State Transfer)  - založen na znalosti zdrojů a entit, kde každá má vlastní URI
+  * popis služby
+  * vyhledání služby
+
+====== SOA ======
+  * řešení, které klade důraz na používání standardů
+  * standardizace se opírá o používané webové služby popisující funkce aplikací
+  * Služby jsou  bezstavové a jejich rozhraní je popsané pomocí standardizovaného rozhraní WSDL a komunikují pomocí standardního komunikačního protokolu SOAP
+  * REST (Representational State Transfer)  - založen na znalosti zdrojů a entit, kde každá má vlastní URI
+
+====== SOA A GIS ======
+  * dynamicky generovaní klienti
+  * Distribuované programové mapové komponenty
+====== SOAP ======
+  * protokol pro posílání zpráv XML
+  * slouží k volání webových služeb a k předávání dat
+  * základ webových služeb - ostatní standardy vznikly později  a jen rozšiřují jeho možnosti a snadnost použití
+  * umožňuje zaslání XML zprávy mezi 2 aplikacemi
+  * pracuje  na principu peer-to-peer
+  * zpráva je jednosměrný přenos informace od odesílatele k příjemci
+  * díky kombinování několika zpráv  -  lze implementovat běžné komunikační scénáře
+  * pracuje na principu vzdáleného volání procedur (RPC)  = model požadavek/odpověď
+  * poskytovatel klientovi nabízí množinu funkcí nad daty	
+  * klient pomocí XML tyto funkce vzdáleně volá
+  * body a header obalene v envelope
+
+====== Web Services Description Language WSDL ======
+  * XML dokument, který popisuje konkrétní WS  - parametry při volání, návratový typ, ...
+  * operace a zprávy jsou popisovány na abstraktní úrovni  - až poté jsou svázány s konkrétním síťovým protokolem a datovým formátem -> snadné vytvoření popisu rozhraní, které nabízí jednu službu několika způsoby
+  * v praxi se nejčastěji popisují služby, které si posílají zprávy pomocí formátu SOAP a protokolu HTTP
+  * **elementy:**
+        * types - obsahuje definici datových struktur používaných ve zprávách, použiju nejčastěji XML schémata, 
+        * message - definuje formát předávaných zpráv pomocí dříve definovaných datových typů, při použití SOAPu pro RPC odpovídá jedna část zprávy jednomu parametru vzdálené metody
+        * operation - abstraktní definice operací, které jsou službou podporovány, definice vstupů a výstupů, 
+        * portType - sdružuje dohromady několik operací
+        * binding - slouží pro navázání určitého typu portu (portType) na konkrétní protokol a formát přenosu zpráv
+        * port - jeden koncový bod služby definovaný jako kombinace síťové adresy a dříve definované vazby (binding)
+        * service - sdružuje několik koncových bodů (portů) do jedné služby
+
+====== Universal Description, Discovery and Integration UDDI ======
+  * mechanismy pro registrování, kategorizování a vyhledávání webových služeb
+  * adresářová služba popisující společnosti a webové služby, které poskytují
+  * pracuje jako WS => komunikace s ní probíhá pomocí SOAP
+  * **obsahuje 4 druhy entit**
+        * bussiness entity
+        * bussiness service
+        * binding tepmplate
+        * service typ
+  * **práce s UDDI:**
+        * vývojář prohledá registr a najde si služby, které potřebuje
+        * získá pro ně popis WSDL a může je začít rovnou používat
+        * UDDI nemusí obsahovat jen popisy webových služeb ve WSDL, lze do něj ukládat popisy služeb v libovolném formátu
+        * Z důvodu interoperability se však společně s UDDI používá právě SOAP a WSDL
+  *** WSIL**
+        * funguje naopak než UDDI
+        * poskytovatel nehledá klienty, ale klient hledá poskytovatele a jeho služby
+  * **katalog OGC Cat**
+        * OGC standard, definuje rozhraní pro vytváření aplikačních profilů pro prohledávání, procházení a dotazování metainformačních databází o datech, službách a dalších případných zdrojích
+
+====== Representational State Transfer REST ======
+  * softwarová architektura navržená pro „hypermediové“ systémy v distribuované prostředí
+  * v úzkém slova smyslu definuje sbírku principů síťové architektury, která popisuje, jak jsou zdroje definovány a adresovány
+  * na rozdíl od známějších XML-RPC či SOAP, orientován **datově**, nikoli procedurálně
+
+===== komunikační protokol =====
+  * **client/server** - slouží k oddělení odpovědností
+  * **bezestavovost (stateless)**- každý požadavek musí obsahovat všechny informace nutné k jeho vykonání
+  * **cache** - každý požadavek může být explicitně označený jako cacheovatelný či necacheovatelný, to umožňuje transparentně zvýšit výkonnost přidáním cache mezi klient a server
+  * **Code-On-Demand** - funkcionalita klienta může být rozšířena kódem, který zašle server (například JavaScript)
+  * **vrstevnatost** - umožňuje skládání vrstev poskytujících služby za účelem zvýšení variabilnosti (cache, transformace, rozložení zátěže atd.)
+
+=== Výhody REST konceptu ===
+
+  * jednoduché a změnám odolné rozhraní - snadná rozšiřitelnost
+  * malé nároky na klienta z hlediska porozumění sémantice operací
+  * transparentnost - resource lze na "cestě" velice snadno cacheovat, transformovat atd.
+
+
+=== nevýhody REST konceptu proti RPC===
+  * dsvvv\vds blablabláááááááááááááááááááááááááááá
+
+
+====== rest formát výměny dat ======
+  * ATOM/RSS - sada protokolů pro publikaci a aktualizaci informačních zdrojů
+  * JSON (JavaScript Object Notation) - speciální záznam popisu dat odvozený z JavaScriptu s nízkou provozní režií, snadno a rychle interpretovatelný v jakémkoliv prohlížeči
+
+{{ ::restxsoap.png?nolink |}}
+
+====== Business Process Execution Language BPEL ======
+  * model a prostředky pro popis chování procesu, založeného na spolupráci mezi daným procesem a jeho partnery
+  * spolupráce mezi všemi partnery je zprostředkovávaná rozhraními WS a struktura spojení na této úrovni je zapouzdřená do tzv.  partnerLink
+  * všechny externí zdroje a partneři jsou zde reprezentovány jako WSDL služby
+
+
+----
+
+----
+
+----
+<WRAP center round box 60%>
+webové služby v oblasti GIS
+</WRAP>
+
+
+
+
+
+

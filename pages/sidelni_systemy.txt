@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+teorie centrálních míst - Christaller, Löschův model, pravidlo velikostního pořadí, vymezování sfér vlivu města
+</WRAP>

@@ -1,0 +1,5 @@
+Heuristika (z řečtiny heuriskó, εύρίσκω – nalézt, objevit) znamená zkusmé řešení problémů, pro něž neznáme algoritmus nebo přesnější metodu. Heuristické řešení je často jen přibližné, založené na poučeném odhadu, intuici, zkušenosti nebo prostě na zdravém rozumu. První odhad se může postupně zlepšovat, i když heuristika nikdy nezaručuje nejlepší řešení. Zato je univerzálně použitelná, jednoduchá a rychlá.
+
+Prostě metoda pokus - omyl. 
+
+V informatice je heuristika postup, který nedává vždycky přesné řešení daného problému, nezaručuje nalezení tohoto řešení v krátkém čase nebo není použitelný na všechny možné vstupy. Ve většině případů dává obyčejně dostatečně přesné řešení rychle, ale obecně takové tvrzení nelze dokázat. Použití heuristického algoritmu je často ospravedlněno neexistencí algoritmu lepšího. Použitelnost algoritmů závisí na velikosti dat a heuristický algoritmus použijeme, pokud data potřebné velikosti nelze zpracovat přesným algoritmem (anebo to není ekonomické).

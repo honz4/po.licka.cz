@@ -1,0 +1,14 @@
+  * = proces, při kterém je část výstupu systému současně vstupem pro další činnost tohoto systému
+  * negativní zpětná vazba
+        * změna v jedné složce zpětnovazebního cyklu vede v konečném důsledku ke zhošení této změny
+        * regulační charekter
+        * udržuje systém v rovnováze
+        * příklady: míček v misce, termostat, velikost populace, pracovní místa - zájem, vědomosti - zapomínání, množství CO2 ve vzduchu
+  * pozitivní zpětná vazba
+        * změna v jedné složce zpětnovazebního cyklu vede v konečném důsledku ke zvětšení této změny
+        * vyvádí systém pryč z rovnováhy
+        * má deregulační charakter
+        * může vést ke vzniku nových struktur
+        * míček na kopci, epidemie, jaderná exploze, vztahy mezi lidmi, dominance na trhu, eroze, plocha ledovců (albedo planety), počet lidí-atraktivita místa, úspěšný klub ve fotbale - hodně sponzorů, 
+  * rovnováha - pohledy na ni
+{{ ::rovnovaha.png?nolink&300 |}}

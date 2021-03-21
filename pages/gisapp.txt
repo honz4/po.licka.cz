@@ -1,0 +1,8 @@
+====== GIS Application Development ======
+
+  * https://github.com/Elimut
+===== personal assignment =====
+  * {{::pa1_vlckova.pdf|PA 1}}
+  * {{::pa2_vlckova.pdf|PA 2}}
+  * {{::final_project_devapp.pdf|FINAL Project}}
+  

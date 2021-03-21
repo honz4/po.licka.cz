@@ -1,0 +1,27 @@
+====== QGIS ======
+http://training.gismentors.eu/qgis-zacatecnik/skoleni-qgis-zacatecnik.pdf
+
+  * browser panel!
+  * layer panel
+
+raster calculator = http://training.gismentors.eu/qgis-zacatecnik/rastrova_data/rastr_kalkulator.html
+
+===== přidání texťáku =====
+  * layer -> Add delimited text layer
+{{ :wiki:freos_txt.png?nolink |}}
+
+===== clip =====
+  * stačí nainstalovat plugin **Clip Multiple Layers**
+  * ořeže to dohromady i rastry i vektory a uloží do složky stejně jako je uložený projekt
+  * jinak Saga ma //Clip raster with polygon//, QGIS obyčejný //Clip//, funguje i na rastr
+  * i masku !!!! "//Clip raster by mask layer//"
+
+===== select =====
+  * výběr a uložení v jednom //Extract by attributes//
+{{ ::extract.png?nolink |}}
+
+===== mosaic raster =====
+
+  * Spojení dvou „jedničkových“ provedeme nástrojem 
+  * Data Management Tools > Raster > Raster Dataset > Mosaic To New Raster. 
+  * Ten se hodí také na spojování sousedících rastrů.

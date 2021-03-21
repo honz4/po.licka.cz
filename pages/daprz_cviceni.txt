@@ -1,0 +1,78 @@
+==== Klasifikace obrazu ====
+  * řízená
+  * neřízená
+
+
+==== předzpracování obrazu ====
+
+==== zvýraznění obrazu ====
+
+souřadnicový systém obrazu
+- soubor systém souřadnic
+systém souřadnic mapového zobrazení
+
+**způsoby zobrazení dat** \\
+- čb – barevná syntéza – pseudobarevný obraz. Vizualizace v barevném systému RGB tzv. aditivním skládáním
+
+**Spektrální rozlišení** \\
+- panchromatický snímek - multispektrální sníme - hyperspektrální snímek
+
+==== FILTRY ====
+   - bodové zvýraznění nějaká křivka
+   - hustotní řezy
+   - zvýraznění konstrastu
+   - vyrovnání histogramu - equalizace
+   - custom stretch
+
+== prostorové zvýraznění ==
+**filtrace**
+   - založena na zóně okolo pixelu
+   - filtrační okno
+   - ale vždycky to musí být čtverec a liché číslo (protože uprostřed musí být středový pixel)
+
+**základní druhy filtrů**
+   *  vysokofrekvenční filtry propouštějí vysokofrekvenční informaci
+   * jakože zvýrazní komín a větrák na střeše, nízkofrekvenční mi udělá jednolitou střechu, ale ta střecha už nebude mít tak výrazné hrany
+   * vědět druhy nízkofrekvenčních filtrů (průměrový, mediánový, sieve filtry, majoritní filtry)
+   * vysokofrekvenční filtry (diferenční, zostřující)
+
+   * vyhodí to procenta informace (tak, aby se to dalo zobrazit jao RGB)
+
+   * kanonická komponentní analýza
+   * podíváme se na sníme a určíme typy shluku
+   * **tasseled cap**
+   * transformace barevného obrazu
+   * **layer stack**
+
+=== Co je PanSharpening? ===
+
+   *zostřední hrany pomocí panchromaticého snímku
+   *mám panchromatický (15 metrů rozlišení např.) a multispektrální snímek (30 metrů rozlišení např)
+   *použije se rozlišení toho panchromatického a spektrální barvy toho multispektrálního
+   *panrchro - více čipů, ze kterého se spojí lepší sníme
+   *oproti tomu multi má 4 čipy, menší ohnisková vzdálenost, stejný úhel záběru jako u panchro -. má menší rozlišení
+
+=== Transformace IHS ===
+
+   *velmi často pro ozvýrazňování snímků
+   *datum, které mají největší lineární obsah jsou v systému IHS přiřazeny intenzitě (jas)
+   *datum s největším dynamickým rozsahem = odstín
+   *mála výrazná data = sytost
+
+=== Fourierovy transformace ===
+   *máme na stupni snímek, který si převedeme do Fourierova spektra (je to jeden z typů vlnkových transformací, převádíme to do frekvenčního systému), převod do podoby sinových a kosinových fcí
+/filter/FFT
+
+   * build mask -> fft.tiff -> pak ořezat, ale nedávat příponu tiff!, a vybrat ještě v options Selected areas OFF
+   * horizontální linie se ve fourierove spektru zobrazují o 90 stupnů, takže verttikální jsou horizonální a naopak
+   * 
+=== targening ===
+   * hodně se používá ve vojenství. armáda potřebuje v nepřátelském území najít všechna letadla. použijí hypesktrální nebo multi snímy. bud pouziju spektralni krivku odrazivosti letadla, nebo si to letadlo zdigitalizuju trénovací plochu jako a pak to prozenu tim algoritmem a on mi najde na snimku vsechna letadla v tom uzemi. hledame strechy ale jsme omezeni protoze mame jenom rgb snimek.
+
+
+
+
+
+
+
+

@@ -1,0 +1,218 @@
+====== N-vrstvé aplikace ======
+  * první aplikace s jednoduchou monolitickou architekturou
+  * spojení počítačů do sítě a není potřeba aby každý počítač uměl všechno
+  * dochází ke specializaci jednotlivých PC -> rychlejší přenosové cesty -> sdílení specifik počítačů
+  * architektury **klient/server**
+
+===== klient/server =====
+  * poskytuju služby (SW, data, aplikace,..)
+  * Server - nabízí služby, ale sám čeká až o nějakou klient požádá
+  * Klient - aktivne služby využívá, je to koncový uživatel aplikací
+  * **file-server / pracovní stanice**
+        * předchůdce klasického K/S
+        * můžu uložit data na file serveru (místo na lokálním disku, což je zjevně fajn)
+        * ALE! zpracovávat data musím na jiném místě, než jsou uložena -> proto je musím přenést a to jsou velké soubory dat -> takže se to zhroutí, přinejhorším
+        * monolitická architerkuta - databázová, aplikační i prezentační vrstva jsou v jednom monobloku
+  * **dvouvrstvá architektura K/S**
+        * snaha spojit výhody obou variant monolitických systémů
+        * rozděluje aplikaci na dva bloky a data už konečně zpracováv tam, kde jsou uložena, takže se nemusí nic přesouvat
+        * databázová a prezentační logika je důsledně oddělena 
+        * 1. část je přemístěna na server kde zpracovává data / 2. část zůtává klientovi se kterým komunikuje
+        * aplikační je jak v databázovém serveru (skrz uložené procedury), tak v klientské části aplikace
+          * takže aplikační je jak u klienta, tak na serveru!
+        * **verze s tenkým klientem**
+              * aplikační logika je v databázovém serveru
+              * zvýšení nároků na výkon serveru
+              * ale zajištění integrity dat na vyšší úrovni
+        * **verze s tlustým klientem**
+              * menší nároky na databázový server a větší využití výkonnostního potenciálu klientského počítače
+              * ale zajištění integrity dat na nižší úrovni a nutnost neustále zamykat záznamy v databázi jednotlivými klienty
+        * **společné nevýhody:**
+              * pro každou aplikaci serveru nutný specifický klient
+              * synchronní zpracování
+              * omezená přenositelnost
+              * různý jazyk prezentační a aplikační logiky
+  * **třívrstvá architektura K/S**
+        * důsledně oddělené všechny tři logiky (databázová, aplikační, prezentační)
+        * **prezentační:**
+              * uživatelské rozhraní (C, C++, Oracle Card, Visual Basic,...)
+        * **aplikační:**
+              * identifikuje uživatele pro zajištění bezpečnosti
+              * zajišťují konzistentní, pro uživatele transparentní mechanismus pro pojmenovávání souborů a adresářů přes mnoho různých HW protokolů a protokolů OS
+              * komunikační propojení s externími zdroji dat a transformují data do formátů požadovaných jinými servery a klienty
+              * speciální funkce manipulující s daty, jako je synchronizace aktualizovaných dat přes nesourodé databáze
+              * kontrola verzí a správa aktualizacízatížení systému efektivně rozděleno mezi databázový server, několik aplikačních serverů a velké množství klientů
+              * databázový x aplikační == komunikace přes páteřní síť
+              * aplikační x klient == lokální síť
+              * dynamicky vyvažuje zátěž
+        * **plusy a mínusy:**
+              * + zachování současných HW a SW investic
+              * + rozdílné uživatelské pohledy na data, nepřetržitý vývoj aplikací, dynamické zálohování, možnost výběru libovolného DBMS, možnost volby libovolného grafického rozhraní, online přístup k libovolnému zdroji dat
+              * - komplikovanější návrh a implementace systému (je třeba dobře separovat jednotlivé vrstvy)
+  * **vícevrstvé architektury K/S**
+
+====== model network computing ======
+  * nárust nákladů na systémovou správu ve firmách -> řešením je nahrazení tlustého klienta tím tenkým
+  * **tlustý klient**
+        * aplikace už jsou dopředu nainstalované, pouze předpokládám že budou v budoucnu budoucně využity
+        * -> těch aplikací je zbytečně moc a většinou se i zřídka kdy použijou
+        * zabírá mi to místo na disku, paměti a žere to čas procesoru
+        * počítač tloustne!!!
+  * **tenký klient**
+        * vše potřebné si stáhnu ze serveru -> minimální požadavky na vybavenost PC
+        * až práce skončí, všecho se smaže
+        * síť zajišťuje výběr serveru
+        * provozní náklady jsou značně pomenšeny
+
+====== distribuovaný výpočet ======
+  * výpočet rozdělený na více menších, méně náročných úloh, za účelem rychlejšího vyřízení požadavku předaného programu
+  * paralelizace výpočtu algoritmu - vzájemně nezávislé části výpočtu běží současně
+  * buď přesměruju SW vlákna na jiné členy clusteru v rámci OS
+  * nebo nainstaluju mnoho klientů v rámci toho programu na každý počítač co tvoří cluster
+
+====== GRID computing ======
+  * GRID - přirozená  evoluce výpočetních a komunikačních možností, nabízí velice revoluční způsob interakce v moderní informační infrastruktuře
+  * = infrastruktura umožňující sdílet kapacity a funkce, integrovat služby a prostředky v rámci organizací a mezi nimi, umožňující aktivní spolupráci v distribuovaném multiorganizačním prostředí
+  * GRID nakládá s:
+        * výpočetní kapacitou (uzly, procesory)
+        * úložnými prostředky (paměť, archiv, úložné sítě)
+        * daty (charakterizovaná umístěním a dostupností)
+        * sítí (charakterizované šířkou pásma a zpožděním)
+        * softwary
+        * službami
+===== výpočetní GRID =====
+  * HW a SW infrastruktura, která poskytuje levný, spolehlivý, a standardizovaný přístup ke špičkovým výpočetním službám
+  * heterogenní = různé HW i SW
+  * používá standardní, ověřené protokoly
+  * poskytuje netriviální kvalitu služeb (více než jednotlivé části tak každá zvlášť)
+
+===== výpočetní cluster =====
+  * propojení více PC, kteří společně pracují na jedné úloze
+  * homogenní prostředí = všechny počítače v clusteru mají stejné SW vybavení
+  * 1 stroj funguje jako rozdělovač práce pro ostatní
+
+===== kategorie GRIDů =====
+  * funkční GRID = LHC urychlovač částic v CERNu (detektory vyprodukují každou sekundu 1,5 GB dat)
+  * výpočetní GRID = poskytuje výpočetní servis
+        * poskytuje zabezpečené služby pro spuštění appek na distribuovaných výpočetních zdrojích
+        * virtuální superpočítač
+  * datový GRID
+        * zpracovává rozsáhlé datové sady pomocí služeb výpočetního GRIDu
+        * sdílí velké množství dat, poskytuje zabezpečný přístup k nim a umožňuje jejich následnou správu
+        * iluze jednotného hromadného datového úložiště
+  * informační GRID
+        * rozšíření o poskytování kategorizace dat, ontologii, sdílení znalostí a tvorby wokflow
+        * vzdálená kontrola a správa vybavení, senzorů, zařízení
+
+====== virtualizace ======
+  * primárním cílem virtualizace je skrýt technické detaily systému pod virtualizační vrstvu, prostřednictvím které je pak k dispozici pouze jeho "výkon"
+  * == běh jednoho nebo více virtuálních strojů na jednom počítači
+
+===== emulace =====
+  * překlad strojových instrukcí hostovaného systému na strojové instrukce hostitelského stroje
+  * == napodobení činnosti jednoho zařízení pomocí zařízení jiného
+  * Ve světě informačních technologií se o emulaci starají tzv. emulátory. To jsou přístroje, které dovedou spustit nějaký program na platformě, pro kterou nebyl původně určen. Příkladně se jedná o jiný operační systém, jinou architekturu či konzoli.
+
+===== plná (HW) virtualizace =====
+  * procesor se neemuluje, platformy musí být shodné
+  * VirtualBox
+
+===== paravirtualizace =====
+  * podobná konceptu hardwarové virtualizace - pouze se snahou optimalizovat zátěž virtualizační vrstvy
+  * základ - speciálně upravené jádro hostujícího OS s hypervisorem - poskytuje hostovaným systémům přístup k hardware
+
+===== virtualizace na úrovni OS =====
+
+====== cloud computing ======
+  * výkonný výpočetní systém, k němuž se můžete připojit, požádat o nějakou službu a on ji vykoná
+  * poskytování služeb či programů uložených skrze Internet s tím, že uživatelé k nim mohou přistupovat pomocí webového prohlížeče a používat prakticky odkudkoliv
+  * neplatím za vlastní SW, ale za to, že ho používám
+
+===== model nasazení =====
+
+  * **veřejný CC** 
+        * klasický případ CC
+        * cloud je poskytnut a nabídnut široké veřejnosti
+  * **soukromý CC**
+        * cloud je provozován pouze organizací pro ni samotnou, nebo třetí stranou (pro organizaci)
+  * **hybridní CC**
+        * kombinace veřejných a soukromých cloudů
+        * propojeny pomocí standardizačních technologií a navenek vystupují jako jeden cloud
+  * **komunitní cloud computing**
+        * tu komunitu spojuje společný zájem
+
+===== distribuční model =====
+  * **IAAS (infrastruktura jako služba)**
+        * poskytovatel služeb se zavazuje poskytnout infrastrukturu -> jedná se o virtualizaci
+        * o veškeré problémy s hardwarem stará poskytovatel. Na druhou stranu je někdy velice těžké toto akceptovat vzhledem k tomu, že hardware se bere jako něco, co vlastníme, na co můžeme sáhnout a jsme za to zodpovědní. IAAS je vhodné pro ty, kteří vlastní software (či jejich licence) a nechtějí se starat o hardware
+  * PAAS (platforma jako služba)
+        * poskytuje kompletní prostředky pro podporu celého životního cyklu tvorby a poskytování webových aplikací a služeb plně k dispozici na Internetu, bez možnosti stažení softwaru (prostředky pro vývoj aplikace jako IDE nebo API, ale také např. pro údržbu)
+  * **SAAS (software jako služba)**
+        * aplikace je licencována jako služba pronajímaná uživateli
+        * kupuju si přístup k aplikaci, ne aplikaci samotnou
+        * google apps
+  * **DAAS (desktop jako služba)**
+
+====== zálohování dat ======
+  * nestrukturovaná záloha
+    * ručně kopíruju na externí médium
+  * plná záloha
+    * vždy kopíruje do nové zálohy všechna data z daného umístění
+  * inkrementální záloha
+    * uložím jenom to, co se od posledně změnilo
+  * diferenciální záloha
+
+====== server ======
+  * počítač (HW), který poskytuje nějakou službu
+  * unix=daemon, ms windows=služba
+  * realizace pomocí aplikačního síťového protokolu
+        * HTTP (web)
+        * LPD (tisk)
+        * SMB (sdílení disků a tiskáren)
+
+===== druhy serverů =====
+  * webový
+        * přijíma požadavky ve tvaru http
+        * statický / dynamický obsah
+  * souborový
+  * databázový
+        * obsluhuje geografické prostorové a neprostorové data a poskytuje přístup a řízení dat skrze SQL
+  * tiskový
+  * faxový
+  * proxy
+  * aplikační
+        * spojuje webový server se serverovou stranou aplikace (např. SSA - mapový server)
+  * herní
+
+===== apache http server =====
+  * softwarový webový server s otevřeným kódem pro Linux, BSD, MS Windows a další platformy
+
+==== htaccess ====
+{{::htaccess.png?nolink&700|}}
+
+  * dá se i zablokovat přístup z IP adresy (deny from 123.156.189.123)
+  * nebo blok adres (123.156)
+  * nebo znepřístupnit všem - deny from all
+
+====== RPCP (remote procedure call) ======
+  * jednoduchý mechanismus pro tvorbu aplikací typu klient/server
+  * poskytuje své služby formou procedur!!!
+  * klient pošle serveru požadavek RPC spolu s jeho parametry -> server provede příslušnou proceduru -> klientovi pošle zpátky návratovou hodnotu
+
+====== COM ======
+  * standard / programovací technika
+  * nezávislá na programovacím jazyku a OS
+  * určuje základní vlastnosti objektů a pravidla pro práci s nimi
+  * objekty v COM (komponenty) mezi sebou komunikují pomocí předem přísně stanovených protokolů
+  * **modularita**
+        * aby se 1 objekt nemusel zabývat tím, co dělají ostatní
+  * **univerzálnost**
+        * COM je totiž v podstatě standard pro zkompilované binární soubory
+  * **správa paměti**
+        * životní cyklus komponent se řídí referencemi (== počet pointerů které na objekt ukazují)
+        * klesne-li počet referencí na nulu - objekt se automaticky postará o vymazání sama sebe z paměti
+  * **modifikace COM**
+        * COM+, OLE, AtiveX,...
+===== DCOM =====
+  * Distributed COM
+

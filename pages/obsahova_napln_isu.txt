@@ -1,0 +1,141 @@
+<WRAP center round tip 60%>
+pasporty, účelové, technické a katastrální mapy
+</WRAP>
+====== ISÚ ======
+
+  * <wrap hi>organizovaný počítačový systém HW a SW a geografických informací vyvinutý ke vstupu, správě a prezentaci prostorových dat, jejichž použití je součástí řízení určité územní jednotky (MIS, LIS, RIS- municipal, land, regional)</wrap>
+  * pádem železné opony (1990) a zrušením embarga se sem dostávají produkty firem Esri, Intergraph,...
+  * polovina 90. let- počátek vývoje českého SW pro ISÚ , vznik samostatných systémů podporujících jen svoje formáty dat
+
+===== struktura ISÚ =====
+  * ekonomická část
+    * databáze, registry, evidenční nástroje
+    * zajišťuje ekonomický chod obce a spadá sem majetková a finanční agenda
+    * movité a nemovité majetky vlastněné danou obcí
+  * evidenční část
+    * databáze, registry
+    * ROB, registr pozemků, registr bytů, budov, nebytových prostorů a památek
+  * grafická část
+    * GIS
+    * je to jako digitální mapa veřejné správy -> ortofotomapa, technická mapa, katastrální mapa, popř. územní plán obce
+
+===== klasifikace =====
+  * **podle prostředí**
+    * lokální (Desktopové) ISÚ
+    * intranetové ISÚ
+    * webové ISÚ (kdysi ty webové byly jenom na prohlížení, dnes už mají mnohdy i plno analytických funkcí a začínají se podobat Desktopovým ISÚ)
+  * **podle rozsahu území**
+    * místní
+    * oblastní
+    * regionální
+    * globální
+  * **podle síly vyhledávacích nástrojů**
+    * analytické
+    * prohlížecí
+    * vyhledávací
+    * editační
+  * **podle softwarové platformy**
+    * platformní
+      * pracují nad jiným a silnějším GIS
+      * něco od ESRI (extenze AMEBA nad ESRI)
+    * samostatné
+      * fungují nezávisle na jiných softwarech
+      * př. GISEL, MISYS
+      * mají vlastní formáty dat a projektů
+
+===== software =====
+  * prohlížečky
+    * Kristýna GIS, ArcExplorer, ArcViewer, GeoMedia Viewer
+  * mapové servery
+    * T-Map server, MISYS Web, ArcGIS Server
+  * databáze
+    * ArcSDE, Oracle, PostgresSQ
+  * kartografické
+    * KOKEŠ, OCAD, LORIK, WinKart
+
+====== pasporty ======
+  * přesné, detailní a aktuální zpracování vybraného tematického obsahu
+  * je to průvodní dokument o datech s podrobným popisem metadat
+  * Účelem je sledování životního cyklu majetku, správa a optimalizace jeho využití. Daná evidence je pak podkladem pro zodpovědné rozhodování při s hospodaření s majetkem a optimalizace nákladů na jeho provoz, údržbu a rozvoj.
+  * Geograficky zaměřené pasporty využívají standardizované formáty dat a umožňují interoperabilitu s dalšími systémy, poskytují uživatelům možnost opakovaného použití informací, koordinaci a sdílení informací efektivním a účinným způsobem.
+===== pasport zeleně =====
+  * je to komplexní podklad pro vyčíslení nákladů na údržbu veřejné zeleně v rámci měst a obcí
+  * jedná se o sběr spíše kvantitativních hodnot -> jaká je výměra jednotlivých ploch a jejich počty 
+    * o kvalitu se moc nezajímám
+  * **hlavní zachycované prvky**
+    * plochy trávníků včetně jejich sklonu, plochy a výšky živých plotů
+    * plochy dětských hřišť, prostě všeho co mě napadne co patří pod veřejnou zeleň. I záhon petržele.
+    * lavičky, lampy veřejného osvětlení, odpadkové koše
+  * aktualizace každé 2–3 roky
+{{ :pasport-zelene.jpg?nolink&700 |}}
+
+==== inventarizace dřevin ====
+  * je to kvalitativní zhodnocení dřevin
+  * jak je ta kytka stará, vysoká, průměr kmene a koruny, estetická a kompoziční fce dané dřeviny, zdravotní stav, perspektiva dřeviny
+==== dendrologické posudky ====
+  * odborné posouzení aktuálního stavu stromů zahrnující kromě zjištění veškerých dendrometrických charakteristik také vyhodnocení zdravotního stavu a provozní bezpečnosti dřeviny včetně návrhu pěstebního opatření
+  * k jeho zpracování je používána stejná metodiku jako pro inventarizaci dřevin, výstupem je však podrobnější materiál obsahující detailní hodnocení dřevin včetně fotodokumentace jednotlivých poškození
+  * dendrologické posudky jsou vzhedem k vyšší podrobnosti požadovány obvykle pro menší počet dřevin, např. významné aleje, památné stromy, dřeviny na významných veřejných prostranstvích apod. 
+
+===== pasport komunikací =====
+  * opět hlavně kvantitativní evidence ploch komunikací za účelem:
+    * přehledu majetku města pro efektivní hospodaření
+    * komplexní účelové řešení problematiky silniční správy nad místními komunikacemi ve smyslu zákona o pozemních komunikacích a prováděcích předpisů (zák. č. 13/1997 Sb. a vyhl. č. 104/1997 Sb.)
+    * evidence instalovaného dopravního značení
+  * eviduje plochy komunikací (vozovky, chodníky, obrubníky, parkoviště) a prvky, které tvoří součást a vybavenost komunikací (vpusti, dopravní značení, přechody, apod.)
+  * obsahuje informace o geometrii součásti (délka, šířka, plocha) a stavu součásti (typ, stav povrchu, apod.)
+  * důležitý při přidělování grantů, dotací a příspěvků z různých fondů
+  * má textovou a grafickou část
+==== pasport dopravního značení ====
+  * obsahuje jednotlivé sloupky, na kterých jsou upevněny dopravní značky a seznam dopravních značek na příslušném sloupku
+  * může být zpracován jako součást pasportu komunikací, nebo i samostatně
+  * může být doplněn i o projekt umístění nových dopravních značek podle současných potřeb dopravy a bezpečnosti na pozemních komunikacích v obci 
+  * slouží jako právní podklad při případném řešení dopravních nehod
+{{ ::passport_komunikaci.png?nolink&700 |}}
+
+====== účelová mapa ======
+  * účelová mapa je vždy mapa velkého měřítka, která obsahuje kromě prvků platné katastrální mapy také zákres dalších prvků a objektů nacházejících se na zemském povrchu, pod i nad povrchem země vyhotovených pro daný účel
+  * používá se pro zobrazení projektů a plánů, obsahuje zákres inženýrských sítí (vedení kanalizačního řadu, vodovodního řadu, telefon, elektřina, plyn). 
+  * může obsahovat např. přípojky inženýrských sítí k novým budovám a pozemkům
+  * vzniká přímým měřením v terénu a zakreslením, případně přepracováním nebo odvozením ze stávajících map. V terénu se zaměřují všechny podrobné body a další objekty měření, která mají účelový charakter. Pro potřebu účelové mapy se zaměřuje jak polohopis, tak i výškopis
+  * mapy základní báze geografických dat, samostatný výškopis, orientační plány, cenové mapy, mapy BPEJ, mapy životního prostředí, zátopových území, lesnické mapy, geologické mapy, vojenské topografické mapy či autoatlasy
+  * tématická mapa v měřítku 1:5 000 až 1:50 000
+  * typické vlastnosti: preference kartografického vyjádření prvku, který je dominantní –> co nejvýrazněji a nejpodrobněji, ostatní prvky jsou zpravidla  doplňkové
+    * např. ÚKM (účelová KM)
+      * vektorová
+      * aktualizace 2x ročně
+      * bezešvá (styky na hranicích katastr. území)
+      * skládá se z: DKM, KM-D, KMD, mají informativní charakter
+
+====== technická mapa ======
+  * zobrazuje skutečný stav situace v terénu včetně výškových údajů a objektů technického vybavení
+  * tematická mapa velkého měřítka, obvykle 1:500, obsahující polohopis, výškopis a popis hranic pozemků a všech přirozených a umělých objektů daného území
+  * **hlavní prvky:** 
+    * chodníky a ploty, stromy a zeleň, dopravní značení, veřejné osvětlení, vodovodní síť, kanalizace, plynová síť, elektrická síť, teplovod, kabelovod, ostatní sítě, polohopis
+  * základní mapové dílo pro správu sídel, jejich nemovitého majetku a technické infrastruktury, slouží ke správním účelům území obce
+  * k jednotlivým prostorovým objektům kategorií sítí jsou připojena uživatelská data v rozsahu požadovaných informací pro obecní úřad
+
+====== katastrální mapa ======
+  * Katastrální mapa je závazné státní mapové dílo velkého měřítka obsahující body bodového pole, polohopis a popis, který zobrazuje všechny nemovitosti a katastrální území tvořící předmět katastru nemovitostí. 
+  * **Katastrální mapy na území ČR:**
+    * __digitální katastrální mapa (DKM)__ – s geodetickým a polohovým určením v systému Jednotné trigonometrické sítě katastrální (S–JTSK)
+    * __katastrální mapa grafická__ s přesností a v zobrazovací soustavě stanovenými v době jejího vzniku
+    * __katastrální mapa digitalizovaná (KMD)__ – v SJTSK
+    * __katastrální mapa digitalizovaná (KM-D)__ – v původním souřadnicovém systému
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

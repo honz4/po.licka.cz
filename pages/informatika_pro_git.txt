@@ -1,0 +1,21 @@
+====== Data mining ======
+{{ ::rozdeleni_algoritmu.png?nolink&500 |}}
+  - [[Vymezení problémů analýzy mnohorozměrných dat. Typy dat. Hrubá filtrace. Chybějící údaje, dichotomizace, kategorizace, standardizace, normalizace.]]
+  - [[Shluková analýza, metody nehierarchické, metody hierarchické, prezentace a interpretace výsledků.]]
+  - [[Využití metod lineární algebry (PCA, SVD, NMF).]]
+  - [[Evoluční výpočetní techniky (genetické algoritmy, diferenciální evoluce)]]
+  - [[Vybrané stochastické algoritmy (simulované žíhání, horolezecký algoritmus)]]
+  - [[Optimalizace mravenčí kolonií]]
+  - [[Neuronové sítě (modely neuronů, topologie sítí, metoda backpropagation)]]
+  - [[Kohonenovo učení a samoorganizující se neuronové sítě]]
+  - [[Vizuální programování (příklady jazyků v GIS produktech, grafická notace)]]
+  - [[Stromové datové struktury (R-strom, B-strom, UB-strom)]]
+
+====== Počítačové modelování a simulace ======
+  - [[Metoda Monte Carlo]]
+  - [[Modelování a simulace v GIS (postup modelování, fáze modelování, analýza a syntéza)]]
+
+
+----
+  * chybějící hodnoty: parwise, listwise, imputace (doplnění průměru z hodnot nebo regresí)
+  * 

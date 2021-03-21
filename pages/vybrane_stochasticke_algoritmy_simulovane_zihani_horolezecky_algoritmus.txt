@@ -1,0 +1,51 @@
+====== pojmy ======
+  * **optimalizační úloha**
+        * optimalizace je proces změřený na nalezení určitého vyhovujícího řešení nějaké úlohy
+        * např. hledání parametrů aproximující funkce, nalezení správných konstant na regulaci výrobního procesu, nalezení optimálního rozložení výrobních strojů v hale tak, aby zabíraly co nejméně místa
+        * účel: **nalézt extrém** v určitém stavovém prostoru
+  * **pozn. heurestické metody**
+        * u těhle metod a algoritmů je potřeba nejprve funkci převést do tvaru, který je bhodný pro spravování heurestickými metodami = vzorkování (__protože tyto metody vyžadují diskrétní reprezentaci vzorové funkce !!!!__) PROČ???
+  * **fitness funkce**
+        * každému řešení jednoznačně přiřadím ohodnocení v podobě nezáporného reálného čísla -> čím vyšší číslo, tím lépe vyhovuje úloze
+        * __optimalizační úloha se potom definuje jako snaha o maximalizaci funkce vhodnosti__
+  * **stochastické algoritmy**
+        * jsou to iterativně výpočetní metody, které v průběhu činnosti používají náhodné operace
+        * v průběhu řešení připouštějí dočasné zhoršení řešení za předpokladu budoucího zlepšení
+        * každý krok stochastického algoritmu je zatížený určitou neurčitostí a může vést jak ke zhoršení, tak ke zlepšení modelu
+        * tato vlastnost umožňuje metodám překonat lokální extrémy
+        * prvky nebo vztahy mezi nimi mají  charakter náhodných jevů nebo náhodných veličin příp. náhodných procesů. Stochastický model uvažuje jednu nebo více náhodných složek a přibližuje se reálným dějům, ve kterých je nahodilá složka většinou přítomná. Ani stochastický model však neodpovídá reálné situaci zcela přesně, ale s určitou pravděpodobností. Příkladem může být  regresní model, který popisuje statistickou závislost mezi veličinami. Z modelu lze usoudit, jakých hodnot bude „v průměru“ (nikoliv v jednotlivých případech) nabývat vysvětlovaná závislá proměnná při určité kombinaci hodnot vysvětlujících nezávislých proměnných.
+Stochastické modelování souvisí s vytvářením a řešením stochastických modelů. Má uplatnění spolu s možnostmi provádět simulace. Pomocí sestaveného stochastického modelu lze simulovat průběhy dějů při různých parametrech modelu a pozorovat očekávané chování systému. Z analýzy chování modelu v simulační úloze lze odvodit informace pro rozhodování.
+
+
+
+
+====== slepý algoritmus ======
+  * je základní stochastický algoritmus
+  * dochází k opakovanému generování náhodných řešení z oblasti a zapamatuje si ho, pokud je řešení lepší než to řešení v předchozím kroku
+====== horolezecký algoritmus ======
+  * **výstup na Everest v mlze a s amnézií**
+  * je to technika výpočtu na hledání extrémní funkce (rozuměj - hledám globální extrémy)
+  * heurestický
+  * **princip**
+      - vyber náhodné místo (začátek)
+      - pokud hledám minimum, tak vyber sousední místa a vypočítej, které z daných míst je optimálnější (tudíž - má nejnižší hodnotu)
+      - pokud je funkční hodnota v nejlepším sousedícím místě nižší- označ toto místo za "nový začátek" a pokračuj od kroku 2
+      - pokračuj, dokud žádná aktuální funkční hodnota není nižší, než v aktuálním místě
+      * takovouto postupnou iterací by měl algoritmus dojít k nalezení globálního minima
+
+
+  * znázornění postupu na funkci iks na druhou - začátek je v bodě 1,5 a iterační krok je nastaven na 0,5
+{{::horolezecky_algoritmus.png?nolink&500|}}
+  * **problém** - co když mám funkci, která je "vlnka"? algoritmus začne na nevhodném místě (a teď hádám, ale to asi bude záviset i na velikosti toho iteračního kroku, jestli bude schopen z toho lokálního minima "vyskočit" ?) - a pokud začne algoritmus vyhledávat na nesprávném místě, uvízne v lokálním minimu. Stejně tak, pokud bude fce konstatní, tak za extrémní funkci označí počáteční místo.
+====== zakázané hledání ======
+====== simulované žíhání ======
+  * algoritmus je založen na analogii mezi žíháním tuhých těles a optimalizačním problémem
+  * při vysoké teplotě jsou částice tělesa náhodně uspořádané v prostoru, takže těleso je roztopené. Potom se teplota postupně snižuje -> všechny částice mají možnost dostat se to rovnovážné polohy -> energie tělesa se snižuje
+  * při prohledávání stavového prostoru se může lehko stát, že algoritmus uvízně v lokálním minimu - tomu se dá zabránit tím, že vykonáme změny i k horšímu: velikost změny závisí na teplotě -> čím vyšší teplota, tím větší změna k horšímu
+
+{{::simulovane_zihani2.png?nolink&300 |}}
+{{:simulovane_zihani.png?nolink&200|}} 
+====== metoda monte-carlo ======
+
+
+

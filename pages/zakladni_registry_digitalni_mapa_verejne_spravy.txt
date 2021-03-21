@@ -1,0 +1,147 @@
+ ====== Základní registry ======
+  * jeden ze základních pilířů moderního eGovernmentu, tj. procesu elektronizace veřejné správy
+  * cílem fungování základních registrů je zefektivnění a využití možností současných technologií pro online přístupy téměř kdykoli a odkudkoli  
+  * musí splňovat a zajistit efektivní, bezpečnou a transparentní výměnu přesných a aktuálních tzv. referenčních údajů
+  * realizace je financována ze strukturálních fondů Evropské unie
+  * nově od roku 2012 zákon o základních registrech
+  * proč? - efektivní, vícenásobné využívání už jednou pořízených dat, zrychlení správních procesů, úspora prostředků stát. rozpočtu, zjednodušení
+  * orgány veřejné správy nevyžadují od občanů údaje, které jsou v registrech, ISVS ze základních registrů sdílejí/přebírají údaje, je to integrovaný systém, který spolupracuje mezi VS
+  * **referenční údaj**
+    * záznam vedený v základním registru, který je v daný okamžik aktuální, platný, jednotný a závazný pro použití v agendách ve státní správě
+    * referenční údaj je považován za správný, pokud není prokázán opak
+
+{{ :wiki:szz_registry.png?nolink&500 |}}
+
+
+=== Co jsou základní registry? ===
+  * **Registr osob**
+      * ROS
+      * stará se ČSÚ
+      * obsahuje údaje o právních osobách, podnikajících fyzických osobách, organizačních složkách státu, organizačních složkách zahraničních právnických osob
+      * údaje automatizovaně přebírá
+  * **Registr obyvatel**
+      * ROB
+      * stará se MVČR
+      * obsahuje údaje o fyzických osobách (občani ČR, cizinci s povolením, občané jiných států vedených v základních registrech)
+      * automatizovaně přebírány také údaje o změně adresy
+      * Referenční údaj v RO- příjmení, jméno, adresa pobytu, datum narození a úmrtí, datum nabytí právní moci, odkaz do územní identifikace na místo narození a úmrtí, státní občanství, čísla elektronicky čitelných dokladů, datová schránka (ANO/NE), údaj je aktuální a je správný
+  * **Registr územní identifikace, adres a nemovitostí**
+      * RÚIAN
+      * stará se ČÚZK
+      * obsahek RÚIAN jsou popisné a lokalizační údaje o územních prvcích, územně evidenčních jednotkách, účelových prvcích, adresách a jejich vzájemných vazbách
+      * na rozdíl od ROB a ROS v něm nejsou vedeny informace o právnických osobách, ani žádné údaje o fyzických osobách (údaje o vlastnictví jsou v KN!)
+    * **Registr práv a povinností** 
+        * RPP
+        * stará se MVČR
+        * informace o právech a povinnostech veřejnosti (na základě právních předpisů, podzákonných norem, rozhodnutí samosprávních orgánů, rozhodnutí orgánů veřejné moci,..)
+=== součástí soustavy základních registrů jsou i následující systémy: ===
+
+  * **Informační systém základních registrů**
+      * rychlejší a spolehlivější poskytování služeb
+      * ověření a čištění dat
+      * vazby mezi jednotlivými základními registry a mezi registry a agendovými informačními systémy
+      * zajišťuje: aktuálnost dat, bezpečné sdílení mezi úřady, výměnu dat s EU
+  * **ORG-převodník**
+      * specifický informační systém základních registrů, který zajišťuje ochranu uložených osobních údajů
+      * přiděluje ZIFO (zdrojové ID fyz osob), AIFO (agendové ID fyz osob)
+      * komunikuje jen s ISZR, nahrazování rodného čísla jako ID za bezvýznamný identifikátor
+
+===== RÚIAN =====
+  * **obsahem RÚIAN jsou popisné a lokalizační údaje o:**
+    * územních prvcích,
+      * identifikační – kódy, názvy, parcelní nebo popisné číslo
+      * lokalizační – definiční body, hranice
+    * územně evidenčních jednotkách,
+      * identifikační – název ulice
+      * likalizační – pro část obce definiční bod, pro ulice definiční čára
+    * účelových územních prvcích,
+    * adresách,
+    * referenčních vazbách
+
+  * má dva editační informační záznamy, a to: **ISKN a ISÚI**
+{{ :wiki:szz_ruian1.png?nolink&500 |}}
+=== zdrojová data ===
+  * **primární**
+    * územní identifikační registr adres ÚIR-ADR
+      * celostátní
+      * všechny stavby, které mají domovní číslo
+      * fungoval do 2012, data zdarma
+      * číselníky
+    * MPVS
+    * informační systém katastru nemovitostí ISKN
+    * ČÚZK
+    * registr sčítacích obvodů RSO
+    * ČSÚ
+  * **sekundární**
+    * informační systém evidence obyvatel – subsystém adresy ISEO-ADR
+    * MV
+    * databáze dodacích míst České pošty DDM
+    * ČP
+    * registr komunálních symbolů REKOS
+    * PS
+    * Základní báze geografických dat ZABAGED
+    * ČÚZK
+=== ISÚI ===
+  * IS územní identifikace
+  * spolu s ISKN jsou editačními systémy RÚIAN
+  * editory jsou: 
+    * obce (zapisují údaje o ulici a veřejném prostranství, stavebním objektu které nevyžaduje stavební povolení a změny údajů o adrese)
+    * stavební úřady (zapisují údaje o adresním místě a stavebním objektu, který vyžaduje stavební povolení nebo ohlášení stavebnímu úřadu)
+    * ČSÚ,
+    * ČÚZK (zapisuje u adresních míst PSČ)
+  * provoz spuštěn 2011
+
+==== získání dat z rúian ====
+  * **publikační služby na vnějším rozhraní ISZR**
+    * katalog eGON služeb
+  * **veřejný dálkový přístup (VDP)**
+    * data poskytovaná přes toto nejsou referenční
+    * výměnný formát rúian (VFR)
+      * měsíční kopie (stavová data - měsíčně pro jednotlivé obce)
+      * změnové věty (denní perioda - k dispozici v denní periodě pro celou ČR)
+      * **základní** datová sada bez lokalizačních údajů
+      * **kompletní** datová sada s lokalizačními údaji
+    * není nutná registrace
+
+  * od konce roku 2012 lze nově stáhnout csv se seznamem adresních míst
+    * soubory generovány po obcích, k dispozici pouze stavová data
+
+==== označování domů ====
+  * číslování domů uzákoněno Marií Terezií (1770)
+  * začínalo se obvykle tím nejdůležitějším
+    * 1 – kostel
+    * 2 – fara
+    * 3 – radnice
+    * 4 – mlýn, ...
+  * **číslo popisné**
+    * trvalého charakteru
+  * **číslo evidenční**
+    * přiděleno: stavbám pro rodinnou rekreaci, stavbám dočasným, budovám, které nevyžadují stavební povolení ani ohlášení stavebnímu úřadu (s výjimkou těch, které se nečíslují vůbec)
+    * na začátku je 0, nebo před číslem zkratka ev. nebo třeba na žlutém podkladu,...
+{{ ::szz_ev.png?nolink |}}
+  * významným budovám se dávají snadno zapamatovatelná čísla (školy končí na nulu)
+  * pro každé KÚ je každé č.p. jedinečné
+  * kostely, kaple a neobývané věže se již od dob Marie Terezie nečíslují
+  * číslo popisné nebo evidenční se podle zákona o obcích č. 128/2000 Sb. nesmí užívat opakovaně, tj. nesmí být přiděleno nové budově, která stojí na místě zaniklé dřívější budovy
+  * Evidenční číslo je, podobně jako popisné číslo, jedinečné v rámci části obce, ale evidenční čísla tvoří samostatnou číselnou řadu, tj. ve stejné části obce mohou být dvě budovy se stejným číslem, z nichž jedno je popisné a jedno evidenční.
+
+  * **čísla orientační**
+    *  Je jedinečné v rámci jedné ulice, v obci se však může opakovat
+      * Orientuje dům směrem k ulici, ulicím či náměstí, -> má-li vchody do více směrů (ulic), má dům i více orientačních čísel.
+    * doplňkové číslo, které se používá v některých obcích s pojmenovanými ulicemi, zejména ve větších městech, a které udává adresu budovy a je alternativou k domovnímu číslu (tedy číslu popisnému nebo evidenčnímu)
+    * Dvojité číslování domů je československým specifikem, v mnoha dalších zemích mají domy pouze jedno číslování
+    * Orientační číslo nemusíme najít v každé obci, a někdy ho nahrazuje např. písmeno.
+{{ ::szz_orientacni.png?nolink |}}
+
+====== Digitální mapa veřejné správy ======
+  * Cílem projektu je usnadnění výkonu veřejné správy a zpřístupnění prostorových dat pro úřady i veřejnost v souladu se strategií Smart Administration, prosazující efektivní a uživatelsky přátelskou veřejnou správu, a rozvojem eGovernmentu v ČR. 
+  * Digitální mapa veřejné správy (DMVS) vznikla na základě Memoranda o spolupráci mezi MV ČR, MŽP ČR, MMR ČR, MZe ČR, ČUZK, SMO ČR a AK ČR z 28.11.2008, a dále § 36 zákona č. 111/2009 Sb., o základních registrech.
+  * Jedním z prioritních cílů je zajištění potřebné datové základny v elektronické podobě pro subjekty veřejné správy a občany, a to prostřednictvím síťových služeb i jednorázových dávkových přenosů dat.
+  * je budována jako základní lokalizační mapa pro všechny agendy a informační systémy veřejné správy („referenční“ mapa pro potřeby eGovernment)
+  * je zmíněna v zákoně č. 111/2009 Sb., o základních registrech, § 36
+
+  * **části DMVS**
+    * digitální __ortofotomapa__
+    * existující digitální a digitalizované __katastrální mapy__, digitální účelové katastrální mapy, které byly a budou vytvořeny v rámci činnosti samosprávy
+    * digitální __technické mapy__, vytvořené v rámci činnosti samosprávy nebo správců sítí
+

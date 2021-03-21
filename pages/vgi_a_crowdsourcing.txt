@@ -1,0 +1,91 @@
+====== Crowdsourcing ======
+  * "Outsourcing" + "Crowd"
+  * poprvé v roce 2006
+  * komunita uživatelů dobrovolně přispívá prostředky, daty, informacemi, vědomostmi
+
+===== problémy =====
+  * roste popularita prostorových dat
+        * -> zvyšuje se dostupnost prostorových dat
+        * kor dneska když je všechno online a na netu
+              * snadno použitelné nástroje pro sběr prostorových dat, jejich analýzu a prezentaci
+===== neogeografie =====
+  * nová geografie
+  * Google Earth, Google Maps
+  * možnost vytváření vlastních výstupů formou mapových mashupů
+
+===== příklady =====
+  * Kickstarter
+  * OpenStreetMap
+        * 2004
+        * dobrovolné mapování
+  * StackOverflow (odnož GIS.stackoverflpw)
+  * GeoNet
+  * Wikipedia
+  * Github
+  * Ushahidi
+        * pro sledování nepokojů v Keni po prezidentských volbách
+        * * 2007
+        * pak zásadní zlom Haiti (2010)
+  * ZmapujTo
+        * pohotový nástroj pro hlášení závad a malých nedostatků ve městě
+        * nefungující veřejné osvětlení, rozbité lavičky,...
+
+====== VGI ======
+  * Volunteered Geographical Information
+  * = **rozsáhlé zapojení velkého počtu soukromých osob, často s malou nebo žádnou kvalifikací v oboru, k tvorbě geografických informací**
+  * jako součást **User Generated Geographical Content**
+        * UGGC je jeden z hlavních prostředků, které NG používají, aby vyjádřili svůj záměr
+===== User Generated Content =====
+     * obsah, který je produkován uživateli webových stránek a digitálními médii
+     * rovnost příležitostí zveřejnit data
+     * "je to o mně" trend - YouTube, Facebook, prostorová témata vztažená k osobě
+     * sítě poskytují kolektivní inteligenci, souhrnné poznatky z decentralizovaných zdrojů, nízké náklady na spolupráci
+
+  * **aktivní UGC** - uživatel se připojí k aplikaci a zadá příslušná prostorová data pro aktualizaci nebo rozšíření prostorové databáze
+  * **pasivní UG**C - zařízení sleduje a anonymně zapisuje cesty
+==== potenciální přínosy UGC ====
+  * Linusův zákon
+        * je-li dost očí, jsou všechny chyby malé
+        * přispěvatelé vykazují
+        * vlastní výběr, přínos, soustředění
+  * Početnost
+        * více přispěvovatelů prostorových dat než profesionálních tvůrců mapy
+  * Prostorové rozdělení
+        * rozložení UGC tvůrců je všudypřítomné a mnohem větší než počet profesionálních tvůrců map
+
+==== kritiky UGC ====
+  * některé situace je třeba chápat v reálném čase
+  * použitelnost produktů může být nízká
+  * mohou vyžadovat rozsáhlou kontrolu chyb (???)
+  * uživalteské priority (Subjektivismus) mohou vést k nespolehlivosti
+  * předsudky v odpovědích
+{{:ugc.png?nolink&500|}}
+====== prostorová databáze ======
+===== optimalizace =====
+  * zpočátku - údaje shromáždit podle specifikací
+        * chybná data znova získat nebo do aktualizační fronty
+  * potom
+        * každý rok jsou zakomponovány významné prostorové změny
+        * oblasti s vysokou změnou lze identifikovat přednostně a následně aktualizovat
+        * ostatní změny jsou nalezeny systematicky pracujícím týmem v průběhu celého pokrytí
+  * ⇒  zohledňuje maximální časovou hodnotu peněz při současném zvýšení integrity databáze
+
+===== harmonizace =====
+  * aktivní harmonizace databáze
+  * kdo řídí Crouwdsourcingová data z editačního hlediska?
+  * Kdo stanovuje standardy pro CRWSC data? 
+  * Kdo kontroluje jejich kvalitu?
+        * není dostatek údajů k ověření dat
+        * není dostatek pokrytí, které rozdělí potřeby (rozdělení users)
+        * nedostatek standardů a kontroly kvality
+
+===== kategorie prostorových databází =====
+  * **kontrolované údaje**
+        * NavTeq, TeleAtlas
+  * **hybridní údaje**
+        * Google, Yahoo, TomTom
+  * **crowdsourcingové (nekontrolované)**
+        * Flickr, OSM
+
+
+

@@ -1,0 +1,168 @@
+<WRAP center round box 60%>
+zpřístupnění geodat a služeb (funkcí) vybraných GIT prostřednictvím internetu
+</WRAP>
+  * kombinuje 2 super věci!!! GIS a Internet! 
+  * může využívat i jiné než webové klienty (není to Web GIS!)
+  * **Geoprostorový web (Geowe**b) = kolekce webových služeb, geoprostorových dat a metadat, které pomáhají při používání geoprostorových dat v rozsahu jejich aplikace do praxe v rámci konkrétní oblasti
+  * **Datový server** -  pouze stahovaní dat, bez dodatečných analýz či operací
+  * **Mapový server**  - tvorba mapových náhledů, vytvořených z originálních dat (staticky / dynamicky)
+  * **GIS serve**r - GIS Online, Internet GIS, přidané analytické funkce, geoprostorové operace prováděny serverem podle parametrů zadaných klientem, klientovi se vrátí pouze jejich výsledek
+  * **Webové služby** - spojovací prvek heterogenních systémů, které umožňují automatizovanou výměnu dat ve standardizované podobě
+
+====== typy architektury GIS ======
+  * tradiční GIS systémy
+  * klient/server GIS systémy
+  * distribuované GIS služby
+
+====== programové řešení internetových GIS ======
+  * klient
+  * webový server
+        * odpovídá na požadavky webových prohlížečů přes http
+        * možné odpovědi: HTML dokument, Java aplet, předám požadavek CGI programu
+  * aplikační server
+        * navazuje, udržuje a ukončuje spojení mezi webovým a mapovým serverem
+  * mapový server
+        * extrahuje geodata, sestavuje odpovědi na dotazy, generuje a předává výsledné mapy směrem k uživateli, provádí prostorové analýzy dat
+  * datový server
+        * poskytuje prostorová a neprostorová data uložená v relační nebo nerelační databázové struktuře
+        * přístup přes SQL
+
+====== distribuce geodat ======
+  * způsob šíření dat, kdy jsou uživatelům Internetu zpřístupněna geodata ke stažení v jejich surové nebo upravené podobě
+
+====== publikace geodat ======
+  * mapové aplikace umožňují uživateli interaktivně procházet mapou, zvětšovat / zmenšovat měřítko zobrazení, zapínat a skrývat různé datové vrstvy, dotazovat se na prvky v mapě vyhledávat...
+  * **obsah:**
+        * okno pro mapu
+        * lišta s ovládacími nástroji
+        * přehledová mapa
+        * seznam a ovládání datovýh vrstev
+        * legenda
+        * měřítko
+        * okno pro textové výstupy
+===== výhody  =====
+  * nízké náklady na vybavení klientské pracovní stanice programovým vybavením
+  * klient je běžný prohlížeč
+  * jednoduchá správa aplikací
+  * data i aplikace jsou umístěny a spravovány centrálně
+  * snadné zvýšení počtu uživatelů
+  * pokud to výkonová kapacita mapového serveru dovolí, je možné zvyšovat počet uživatelů např. "pouhým" sdělením přístupové adresy
+  * možnost publikace na mobilních koncových zařízeních
+===== nevýhody =====
+  * relativně obtížnější propojení s jinými aplikacemi (vyřeší to standardy)
+  * zvýšené nároky na výkon serveru (hlavně při prái s rastrovými daty)
+  * nedostatečná rychlost spojení
+
+====== sdílení geodat ======
+  * služba, která umožňuje uživatelům Internetu dostat se k prostorovým datům umístěných na serverech, které sdílení podporují
+  * je to pomalé, bo data jsou uložena daleko, ale můžu s něma pracovat u sebe na počítači jako s plnohodnotnými daty
+  * geodata sdílena pomocí standardizovaných rozhraní a formátů
+  * publikace a sdílení geodat jako prvky pomocí GML, WFS a SVG
+  * __výhoda:__ ve svých webových mapových aplikacích lze společně s vlastními daty a poskytovanými funkcemi použít jako podkladovou vrstvu také sdílené datové vrstvy ze vzdálených serverů a klient vůbec nemusí poznat, na kterém serveru jsou data fyzicky uložena
+
+{{ ::gistech.png?nolink |}}
+
+====== možnosti publikování map ======
+  * **static map publishing**
+        * přes <img>
+  * **klikací mapy v (X)HTML**
+        * obdélník, kluh a polygon
+        * obraz je dělen virtuálně
+  * **klientsky orientovaná aplikace**
+        * interaktivita je pouze na straně klienta
+        * klient potřebuje skriptovací jazyk s interaktivitou
+        * v internetu publikovány aplikace, které obsahují již předem připravené obrázky a rozhraní, které s nimi manipuluje
+        * z geodat v desktop aplikaci třeba připravit hotové mapy - do internetu se umísťují jako prosté obrázky (do dlaždic!)
+        * interaktivita spočívá v jejich zoomování → reálně dochází k načítaní již předem připraveného obrázku
+        * JavaScript + AJAX (ZOomify)
+        * plusy: interaktivní, rychlé, není třeba serverové podpory
+        * mínusy: aplikace je objemná, potřeba dopředu vytvořit všechna měřítka, obsah nelze aktualizovat
+  * **serverově orientovaná aplikace**
+        * web mapping
+        * static web mapping
+              * XHTML -> předávání parametrů do CGI aplikací
+              * formuláře, prvky: input (type, name, value), select, text area
+        * interactive web mapping
+              * doplnění klientů o interaktivní prvky pomocí DHTML, Java applets, ActiveX či plug-inů
+              * plusy: data se generují až na požádání, vysoká interaktivita, data jsou pod kontrolou, snadná aktualizace dat
+              * mínusy: serverové řešení propojení webového a mapového serveru, stále jen formuláře
+
+====== tilemill ======
+  * jednoduchý nástroj pro snadnou tvorbu  map pro web  z vlastních dat
+  * postaven  na  open-source  knihovně  Mapnik - použita mj. i  pro OpenStreetMap a  MapQuest
+  * CartoCSS
+
+====== maptiler ======
+  * grafická aplikace pro on-line publikování map
+  * vytvořená mapa může být zobrazena  pomocí standardních  map  na  webu  jako  Google  Maps,  Yahoo Maps,  MS VirtualEarth nebo OpenStreetMap a lze je také vizualizovat ve 3D pomocí Google Earth
+  * produkuje velké bezešvé mapy z několika vstupních souborů (verze MapTiler Pro)
+  * přímo optimalizuje vyrobené dlaždice pro minimální velikost souboru
+====== TileCache ======
+  * vytvoření obrázku - zátěž serveru pouze na začátku
+  * umí se chovat jako WMS server i klient
+          * statická měřítka
+          * pevný seznam vrstev
+
+====== API light mapový server ======
+  * sbírka procedur, funkcí či tříd nějaké knihovny, které může programátor využívat. API určuje, jakým způsobem se funkce knihovny mají volat ze zdrojového kódu programu
+  * plusy: proměnlivá potřeba programování, velmi dobrá dokumentace, není potřeba serverových prostředků, možno kombinovat více API
+  * mínusy: není kontrola nad funckionalitou a dostupností, nutno ctít licenční podmínky, pro větší fcionalitu je nutno zřídit server
+
+
+====== RIA (rich internet application) ======
+  * webové aplikace přinášející nástroje a zvyklosti desktop ovládání do webových aplikací a poskytující vyšší uživatelský komfort
+  * z hlediska třívrstvé architektury sedí na vrcholku prezentační vrstvy
+  * **přímá interakce**
+        * využívají bohatší spektrum ovládacích prvků - umožňují vyšší efektivitu a lepší komfort pro uživatele
+        * lze přímo editovat prvky stránky nebo je měnit pomocí drag&drop nástrojů
+        * podporovány operace typu postupného procházení mapy
+  * **obnovování části stránky**
+        * obsahují doplňkové technologie - real-time streamování, vysoce výkonné virtuální stroje běžící na straně klienta, a lokální cacheovací mechanismy =>  dokáží snížit dobu čekání a zvýšit rychlost odpovědi
+  * **soulad vzhledu a prostředí**
+        * umožňuje efektivněji ovládat uživatelské rozhraní u různých prohlížečů a operačních systémů
+  * **vliv na výkon**
+        * v závislosti na aplikaci a síťovém připojení mohou být RIA aplikace výkonnější než klasické
+        * pokud se aplikace dokáže vyhnout neustálému posílání požadavků na server tím, že je bude zpracovávat na straně klienta, bude znatelně rychlejší
+
+
+  * **Flex (Adobe/Apache)**
+        * využívá flash
+        * nutno prohlížeč s podporou flashe
+  * **OpenLaszlo**
+        * XML a JavaScript -> pomocí openlaszlo kompilace do flashe
+  * **Silverlight (Microsoft)**
+        * XML, JavaScript
+        * ignoruje některé standardy a je přímo navázán na .NET
+  * **Java FX (Sun)
+**
+
+====== cloud GIS ======
+  * pomocí Cloud GIS může každý snadno přistupovat ke GIS aplikacím – kdykoliv a kdekoliv - a ukládat, analyzovat, vizualizovat, sdílet a spravovat vlastní mapy, prostorová data a informace
+  * přesun role GIS z kategorie speciálního SW do role nezbytného, všudepřítomného IT backroundu v oblasti dostupnosti mapových odkladů a základních prostorových funkcí (spatial search, localization, navigation, zoom in/out, measurement, calculate geometry properties)
+  * uživatel nehledá, neinstaluje a neučí se nějaký speciální nástroj,  ale přistupuje k všeobecně (skrze internet a běžný browser) dostupnému nástroji
+  * ten nabízí na jednom místě integrované, průběžně aktualizované, datové zdroje (mapy, satelitní snímky, informace ze senzorů - hustota provozu, záznamy  z meteorologických stanic)
+  * GUI je jednoduché stavící na ovládacích prvcích a zvyklostech z běžného browseru a nabízející uživatelský intuitivní prostředí, které je okamžitě naplněno daty, bez potřeby řešit technické aspekty (souřadnicový systém, formát dat)
+  * je dostupné kdykoliv a kdekoliv
+  * k datům nabízí odpovídající nástroje pro snadnou práci s nimi
+  * datové zdroje ze strany producentů/poskytovatelů mají odfiltrované informace, které běžný uživatel nepotřebuje
+
+
+===== architektura =====
+  * GIS server
+  * komunikační vrstva
+  * logická vrstva
+  * zdrojová vrstva
+  * nástrojová vrstva
+  * konfigurační vrstva
+
+===== příklady =====
+  * Map2Net
+  * ArcGIS Online
+  * MapBox
+  * MangoMap
+  * CartoDB
+
+
+
+
+

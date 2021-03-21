@@ -1,0 +1,22 @@
+  * pomocí statistických testů je vždy důležité vybrat vhodnou a odpovídající metou testování pro příslušný typ statistických dat
+  * tři základní typy statistických znaků: **nominální** (kategoriální data), **ordinální** (pořadová data) a **kardinální** (metrická data)
+     * nominální a ordinální znaky jsou data diskrétní (nespojitá)
+     * kardinální znaky mohou být představovány daty spojitými i diskrétními
+
+=== testování nominálních (kategoriálních) dat ===
+
+     * používá se hodnocení rozdílu četností těchto znaků v souborech, a to četnosti empirické a teoretické
+     * dále testujeme tvrzení, že četnosti jedné veličiny určitým způsobem podmiňují četnosti druhé veličiny, tzn. že jsou na sobě sledované veličiny závislé
+     * analýzu těchto dat provádíme pomocí **chí-kvadrát testů** (X2 – test)
+
+
+=== testování ordinálních (pořadových) dat ===
+
+     * při porovnání dvou souborů vytváříme směsný výběr – variační řadu uspořádaných hodnot z obou souborů, v němž přidělíme jednotlivým hodnotám pořadová čísla. Následně vypočítáme součty pořadových čísel zvlášť pro hodnoty pocházející z jednoho i druhého souboru. Pokud se porovnávané sooubory příliš neliší, oba součty pořadí dávají přibližně stejnou hodnotu
+     * testování dat je reprezentováno neparametrickými testy, které jsou používány pro testování hypotéz u ordinálních znaků, u kardinálních znaků diskrétní povahy a u kardinálních spojitých znaků v souborech, které neodpovídají normálnímu rozdělení pravděpodobností
+     * hypotézy testované neparametrickými testy se týkají pouze obecných vlastností rozdělení, například shody dvou křivek rozdělení, přičemž nepředpokládají normalitu dat
+
+=== testování spojitých dat s normálním rozdělením ===
+  * v případě porovnávání dvou souborů spojitých náhodných veličin, které odpovídají normálnímu rozdělení pravděpodobností, používáme parametrické testy, které testují hypotézy týkající se parametrů normálního rozdělení, tzn. střední hodnoty a rozptylu
+  * Studentův t-test testuje hypotézu o shodě dvou středních hodnot. Na základě výběrových průměrů a rozptylů počítáme testovací kritérium
+při porovnání s tabulkovou kritickou hodnotou pak rozhodneme o statistické významnosti rozdílu obou srovnávaných středních hodnot

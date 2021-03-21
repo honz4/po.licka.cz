@@ -1,0 +1,32 @@
+<code>
+biased = zaujatý, neobjektivní </code>
+http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00725.x/epdf \\
+http://plantecology.syr.edu/fridley/bio793/maxent.html \\
+
+
+**http://www.cs.cmu.edu/afs/cs/user/aberger/www/html/tutorial/node6.html#SECTION00023000000000000000** \\ 
+\\
+
+  * Generuje pravděpodobnostní distribuci s maximální entropií. 
+  * Výstup je pravděpodobnost s hodnotou od 0 do 1. Uvádí, že správná distribuce je taková, která maximalizuje entropii (či nejistotu). 
+  * Je aktuálním zlatým standardem pro presence-background modelling.
+  * Korelativní.
+  * Nutno vybrat vhodný regulační parametr.
+
+The principle of maximum entropy is a method for analyzing available qualitative information in order to determine a unique epistemic probability distribution. It states that the least biased distribution that encodes certain given information is that which maximizes the information entropy (content retrieved from Wikipedia on the 19th of May, 2008: http://en.wikipedia.org/wiki/Maximum_entropy).
+
+----
+
+----
+ E.T. Jaynes introduced the maximum entropy principle in 1957 saying that 'Information theory provides a constructive criterion for setting up probability distributions on the basis of partial knowledge, and leads to a type of statistical inference which is called the maximum entropy estimate. It is the least biased estimate possible on the given information; i.e., it is maximally noncommittal with regard to missing information'.
+
+----
+//Jaynes, E.T. (1957) Information Theory and Statistical Mechanics. In Physical Review, Vol. 106, #4 (pp 620-630). \\
+\\
+Berger, A. L., Pietra, S. A. D. and Pietra, V. J. D. (1996). A maximum entropy approach to natural language processing. Computational Linguistics, 22, 39-71.\\
+\\
+Darroch, J.N. and Ratcliff, D. (1972) Generalized iterative scaling for log-linear models. The Annals of Mathematical Statistics, Vol. 43: pp 1470-1480.\\
+\\
+Malouf, R. (2003) A comparison of algorithms for maximum entropy parameter estimation. Proceedings of the Sixth Conference on Natural Language Learning.\\
+\\
+ Phillips, S.J., Dudá­k, M. and Schapire, R.E. (2004) A maximum entropy approach to species distribution modeling. Proceedings of the Twenty-First International Conference on Machine Learning, pp 655-662.//

@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+regionalizace a typizace
+</WRAP>

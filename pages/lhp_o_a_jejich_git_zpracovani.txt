@@ -1,0 +1,199 @@
+====== Národní inventarizace lesů (NIL) ======
+  * = zjišťování stavu lesa, prováděné na celém území ČR
+  * snaha podat přesné souhrnné údaje o stavu lesů a
+  * při opakovaných šetřeních zejména o vývoji lesů v ČR z pohledu ŽP i z hlediska hospodářského využití
+  * nezávislá na jiných způsobech šetření lesa - včetně LHP/O a její výsledky nejsou ovlivněny vlastníkem ani státní správou lesů
+  * inventarizací byl pověřen ÚHÚL
+  * první cyklus inventarizace probíhal v letech 2001 – 2004
+  * data přímo v terénu ukládána do databáze NIL - 19 základních datových tabulek
+  * databáze má charakter geografického informačního systému.
+  * základním výstupem  je zpráva, která obsahuje výsledky matematicko-statistického zpracování v tabulkách, grafech a mapách na základě rozboru  sledovaných indikátorů
+  * cíl:
+        * poskytnout požadované informace o lesích pro potřeby státní správy
+        * umožnit hodnocení hospodaření v lesích a dosahování cílů lesního hospodářství
+        * poskytnout údaje k dlouhodobé kontrole důsledků státní lesnické politiky a dotační politiky státu na stav lesů
+        * => ověření  trendu: vývoje porostních zásob,přírůstů dřevní hmoty,nárůstu či poklesu těžeb v návaznosti na jejich reálnou únosnou výši
+        * struktura vlastnických vztahů,rozsah a druh škod v lesích,rozsah obnovy lesa,struktura lesních porostů,charakteristika lesních ekosystémů
+        * lesnická typologie. charakteristika krajiny,stav lesní cestní sítě
+==== NIL - Inventarizační údaje ====
+  * příloha k nařízení vlády č. 193/2000 Sb.
+  * převážná část údajů v NIL  získána venkovním šetřením - speciálně pro účely inventarizace
+  * data ukládána do terénního počítače přímo v lese
+  * část údajů je získávána z ortofotomap (výměra lesa) a z jiných zdrojů (zejm. mapy – okres, kraj, přírodní lesní oblast, ve kterých plocha leží, nadmořská výška; KN  – druh vlastnictví
+  * 1. Šetření na inventarizační ploše (14),2. Popis stromu (23),3. Měření stromu (4),4. Šetření v rámci podplochy (32),5. Obnova na podploše (13),6. Ležící odumřelé dřevo (2),7. Pařezy (3),8. Inventarizace lesních cest (10),9. Inventarizace potoků (4),10. Inventarizace odvodňovacích zařízení (2),11.Význačné body v terénu (1),12.Inventarizace okrajů lesa (4)
+
+==== inventiraziční síŤ ====
+  * pravoúhlá síť složená z inventarizačních čtverců o rozměrech 2 x 2 km.
+  * v každém inventarizačním čtverci jsou 2 inventarizační plochy (IP) kruhového tvaru o výměře 500 m2 (poloměr 12,62 m)
+  * v jednom čtverci je umístěna 1. i 2. inventarizační plocha kruhového tvaru
+  * středy IP  jsou od sebe vzdálené 300 m a jejich spojnice tvoří transekt
+  * na transektu jsou šetřeny liniové objekty s významem pro LH
+  * IP může být rozdělena na podplochy (max 4), které se od sebe významně liší kategorií pozemku, porostem, terénem nebo stanovištěm.
+  * v každé podploše, která je popsána jako les, jsou uprostřed umístěny dva soustředné inventarizační kruhy
+  * 1. inventarizační kruh  - poloměr 2 m a zjišťuje se na něm obnova od výšky 10 cm do výčetní tloušťky 6,9 cm s kůrou
+  * 2. inventarizační kruh  - poloměr 3 m a šetří se na něm dřeviny s výčetní tloušťkou od 7,0 do 11,9 cm s kůrou.
+  * území šetřená v rámci NIL se rozdělují na kategorii les a bezlesí.
+  * kategorie les se dále rozděluje na lesní porosty a bezlesí.
+    * **Dvojplocha** -  dvojice ploch v jednom inventarizačním čtverci, které jsou obě kategorie les
+    * **Jednoplocha** - dvojice ploch v jednom inventarizačním čtverci, z nichž pouze jedna je kategorie les
+====== Lesní hospodářský plán LHP ======
+  * = stanovený rozvrh hospodářské úpravy lesů pro nejvyšší hospodářsko-úpravnickou jednotku - lesní hospodářský celek
+  * = nástroj vlastníka v péči o les
+  * vyhotovují se s platností na decénia (desetiletí)
+  * důraz na upřednostňování mimoprodukčních funkcí lesa a trvale udržitelné hospodaření
+  * určuje cíle a úkoly hospodaření v lesích, zejména z hlediska pěstování a ochrany lesů, těžeb dříví a ostatních funkcí lesa
+
+  * u každého LHP (resp. LHO) je uveden:název LHC,platnost plánu,zaujaté správní území naší republiky,na jaké pobočce a pod jakým archivním číslem je materiál uložen
+
+  * A.** textová část**
+        * všeobecné údaje - zejména identifikaci vlastníka lesa, základní údaje o zpracovateli plánů, platnost a návaznost na předchozí plány, administrativně správní příslušnost celku a orientační mapku
+        * zhodnocení přírodních poměrů - zejména příslušnost k PLO, přehled SLT a jejich zastoupení  - k tomu se využívají údaje z OPRL
+        * zhodnocení stavu lesa a dosavadního hospodaření
+        * údaje vycházející z OPRL - zejména přehled vyhlášených kategorií lesů a omezení z toho plynoucích
+        * definování hospodářských cílů vlastníka lesů
+        * stanovení hospodářského záměru na období platnosti plánu
+        * rámcové směrnice hospodaření pro zastoupené HS vycházející:z hospodářského záměru vlastníka,základních hospodářských doporučení dle HS,z rámcového vymezení HS,z OPRL
+        * závěrečné tabulky souhrnných údajů plánu ve předepsané struktuře
+        * technickou zprávu s údaji o metodickém postupu zpracování plánu, pokud postup nevyplývá přímo z lesního zákona nebo z této vyhlášky
+        * přílohy - kopie protokolů, rozhodnutí (např. o kategorizaci lesů) a zápisů z jednání vztahujících se k vyhotovení plánů
+
+  * B. **hospodářská kniha**
+        * údaje o stavu lesa,návrh hospodářských opatření,plochovou tabulku
+        * plochová tabulka:výčtu parcelních čísel všech pozemků určených k plnění funkcí lesa (PUPFL) pojatých do plánu,s uvedením výměr parcel,z výčtu porostní půdy dle porostů a vyšších jednotek, bezlesí a jiných pozemků s jejich označením
+
+        * Údaje o stavu lesa: ,zjišťují se a uvádějí pro nejnižší jednotku JPRL (porost, porostní skupina, etáž), přičemž:,každý porost má alespoň jednu porostní skupinu,každá porostní skupina má alespoň jednu etáž,jsou-li údaje pro více jednotek JPRL shodné - uvádí se pouze pro nejvyšší společnou jednotku
+
+        * pro porosty: přírodní lesní oblast,kategorie lesa,pásmo ohrožení lesa imisemi,pro porostní skupinu,plocha nebo výměra,lesní typ
+        * pro etáž: plocha etáže,hospodářský soubor,věk,Zakmenění
+        * Pro dřeviny: jejich taxační veličiny,zastoupení
+
+  * C. **lesnické mapy**
+    * povinnou náležitostí plánu je lesnická mapa v měřítku alespoň 1:10 000 zahrnující vylišené jednotky prostorového rozdělení lesa(JPRL), pro které je provedeno zjištění stavu lesa.
+
+====== Lesní hospodářská osnova LHO ======
+  * = nástroj vlastníka v péči o les - zjednodušený elaborát hospodářské úpravy lesů
+  * vyhotovují se s platností na decénia (desetiletí)
+  * důraz na upřednostňování mimoprodukčních funkcí lesa a trvale udržitelné hospodaření
+  *  pro všechny lesy o výměře menší než 50 ha
+  * a) všeobecná část: vymezení území včetně znázornění a označení navazujících plánů a osnov,údaj o zpracovateli osnovy a údaj o časové platnosti osnovy,výčet veřejných zájmů v oblasti zpracování osnovy ve vazbě na hospodaření,rámcové směrnice hospodaření pro hospodářské soubory na daném území,tabulky souhrnných údajů za osnovu
+  * b) podrobné údaje pro porosty, porostní skupiny či etáže a dřeviny
+  * c) plochová tabulka
+  * d) lesnická mapa
+  * e) vlastnické separáty
+
+====== Tvorba digitálních map ======
+  * A. Podkladová vrstva
+    * závazným podkladem současných lesnických map je mapa katastrální nebo Státní mapa odvozená M 1:5000
+    * Upřednostňuje se mapa katastrální (aktualizovaná, ale dosud ne plně digitální) a ne v souvislém zobrazení, pokud není k dispozici, využije se SMO textu
+  * B. Geodetický referenční systém
+    * pro ČR  závazný systém S-JTSK  - IS LH plně respektuje
+    * udává polohu bodu v souřadném systému, jehož počátek je přibližně v Estonsku, cca 1300 km SSV od Brna
+  * C. programové vybavení
+    * systém TopoL (www.topol.cz)
+    * základní systém pro HUL - v něm data pořizována  a editována
+    * existují specializované SW pouze pro digitalizaci - po editaci data do TopoLu exportují
+    * Intergraph GeoMedia  : db systém, se kterým se pracuje v databázovém centru ÚHÚL,datový sklad všech LHP a LHO v České republice
+    * UMN Minnesota 	- mapový server UHUL
+    * LČR - SW „Les“ - numerika a grafika LHP
+    * SSL - SW Heletax - firma Topol Pro
+    * SW Mapop - pro prohlížení OPRL
+    * SW Maper - pro tisk map OPRL
+    * ÚHÚL – PDS Kopla - kontrola a prohlížení dat LHPO
+    * Datový sklad SSL - prohlížení,analýzy a tisk dat
+    * SSL - SW  „PUKNI“ -  Foresta SG
+    * ÚHÚL – SW „ProKan“ do r.2004 - PDS
+    * MISYS - od r.2005 - Gepro
+    * pro oceňování SW „Znalec“ - VÚLHM
+    * SW „Ocenění“ - Foresta SG
+  * d. způsob tvorby
+    * » taxátor v terénu do papírové pracovní mapy zanese všechny změny, které se za 10 let platnosti plánu udály: nové holiny, zalesnění pasek, ...
+    * využívá především kompas, laserový dálkoměr, jednoduché systémy GPS
+    * po návratu z terénu se tato mapa buď snímá pomocí tabletu nebo se scanuje
+    * pracovní mapa, která nyní existuje ve rastrovém formátu se transformuje na závazný mapový podklad: KN mapa x SMO
+    * Po transformaci se jednotlivé linie vektorizují
+    * mapa se plochuje - plochám se přiřazují databázové atributy (věk, označení rozdělení lesa, typologie atd.)
+    * vytvářejí se mapové vrstvy čistě kartografického charakteru,
+    * kontroluje se soulad s hospodářskou knihou pomocí speciálních  SW
+    * popisy, vrstva skupin parcel, lesnického detailu, typolo vrstva, kategorie lesa, čerchované cestytěžební mapa, terénní skupiny
+
+====== tvorba hospodářské knihy ======
+  * A. Typ databáze: k tvorbě digitální HK se používají nadstavbové systémy nad database engines
+  * B. Software
+    * sw balík TAX od firmy TopoL PRO, s.r.o. Brandýs /n.L.
+    * obsahuje speciální moduly pro tisk hosp. knihy
+    * možno tisknout bez nebo s kolonkami pro hospodářskou evidenci
+    * v podstatě dnes jediný používaný software
+    * TopoTAX od firmy Foresta SG a.s.
+
+====== Způsob zpracování a kontrola souladu s ISLH ======
+  *  taxátor při popisu porostů zjišťuje změny, které se v lese udály za posledních 10 let
+  *  např. změna věku por. skupin, změny druhové skladby, nové tax. veličiny – výšky, tloušťky, zásoby atd., návrh zalesnění, prořezávek, probírek...
+  *  údaje jsou pak v kanceláři editovány do počítače do příslušného SW
+  *  po editaci probíhá tzv. sehrání dat různých taxátorů do jednoho balíku
+  *  provede se načtení ploch z digitální mapy
+  *  souběžně  proběhne kontrola souladu mapa – kniha
+  *  proběhne systém kontrol založených na logickém principu
+  *  proběhne kontrola souladu s ISLH
+  *   data jsou připravena na tisk
+  * Výhody digitálního zpracování: data se v plném rozsahu pořídí jen jednou,rozsáhlá možnost kontrol a ladění
+databázové výhody,(vyhledávání podle zadání, třídění, rychlé analýzy),kontrolní nástroj SS LH,možnost digitální evidence a aktualizace
+  * Nevýhody digitálního zpracování: prvotní pořízení velice pracné,technologie (HW a SW) drahé,větší možnost krádeže a zneužití dat
+
+====== Alternativní technologie zpracování LHP(LHO) ======
+  * Metody s maximálním důrazem na využití počítačové analýzy obrazu
+  * snížení nákladů nutných na pořízení a vypracování plánu
+  * minimalizace terénní práce kvalifikovaného taxačního personálu na majetku
+  * snaha po maximálním využití obrazových dat pomocí počítačové analýzy obrazu
+  * snaha po maximálním využití dat starého plánu
+  * využití lokálních růstových modelů zkonstruovaných především nad daty starších plánů
+
+  * **Základní postup tvorby plánu**
+  * A. Vstupní data
+    * vymezený majetek - Státní mapa odvozená x  katastrální mapa
+    * starý plán nejlépe v digitální formě
+    * nezbytné údaje z OPRL
+    * ortofoto v M 1 : 10 000
+    * popis a interpretace jednotlivých druhů dřevin na tzv. kalibračních plochách
+    * růstové modely jednotlivých druhů dřevin z dat starého plánu
+    * výpočet objemů středního kmene
+    * výpočet střední porostní výšky a střední porostní tloušťky
+  * B. Rozdělení lesa &
+  * C. digitalizace „jiných ploch“ a „ploch mimo PUPFL“
+    * převzetí rozdělení ze starého plánu do úrovně porostu,vizuální digitalizace porostních skupin a jejich zaplochování,vizuální digitalizace holin a jejich zaplochování
+  * D. Tvorba popisné části LHP
+    * Aktualizace údajů o věku jednotlivých porostních skupin podle údajů starého plánu a skutečnosti
+    * Automatické vyhodnocení zastoupení dřevin v jednotlivých porostních skupinách
+    * vyjádření třídy zbytkové plochy a její vztah k zápoji porostu
+    * Automatizované vyhodnocení hustoty (zápoje) porostů
+    * Automatizovaný výpočet počtu stromů v porostních skupinách starších 81 let
+    * Výpočet zásoby porostů jednotlivých porostních skupin starších 81 let
+    * Editace hospodářské knihy
+    * výpočet závazných ustanovení plánu
+  * E. tvorba map (obrysová, hospodářská, porostní)
+
+====== Objektová analýza obrazu ======
+  * založeno na multi-úrovňových vztazích mezi objekty (krajina/les/porost/strom)
+  * segmentace do hierarchických úrovní (spektrální a texturální znaky)
+  * definice tříd
+  * klasifikace objektů dle charakteristických vlastností
+  * hodnocení klasifikace – index shody (KIA)
+
+  * data lze klasifikovat s vysokou mírou automatizace
+  * klasifikace lesních druhů při porovnání téměř shodná přesnost (0,80 resp. 0,81 KIA)
+  * postup typizovaných algoritmů přenositelný ve formě znalostní báze
+  * definice tříd pomocí proměnných – nutnost operátorského nastavení – dojde k omezení vlivu vnějších podmínek při snímkování
+  * schopnost vylišení mladých věkových struktur závisí na množství texturální informace
+  * při klasifikaci porostních struktur dochází ovšem k rozdílům až 10%
+  * snímky s menším rozlišením postačují pro výpočet procentuálního zastoupení dřevin
+  * detailnější jsou vhodnější, protože zobrazují detailní struktury na úrovni porostu ale i korun jednotlivých stromů
+
+====== lidar ======
+  * u jednotlivých stromů je určována: výška, průměr koruny, objem dřeva, bazální plocha ...
+  * dříve se veličiny určovaly metodami jako interpretace leteckých snímků a průzkum přímo v terénu → omezení v podobě časové náročnosti a dostupnosti v terénu
+  * dnes velké množství metod na členění samostatných stromů z laserového skenování
+některé z nich spočívají ve filtrování míst s maximálním výskytem bodů, pomocí speciálních algoritmů je pak „dokreslena“ i koruna stromu
+  * všechny podobné metody a algoritmy pracují s modelem klenby stromů (canopy height model – CHM)
+  * rastr vytvořený z bodů z laserového skenování korun stromů
+  * model může obsahovat chyby a nejisté hodnoty kvůli velkému počtu zdrojů dat (např. chyba ve výškách, vzniklá během interpolace)
+  * false negative, TP, FP
+

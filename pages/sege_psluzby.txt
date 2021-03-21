@@ -1,0 +1,130 @@
+  * teorie centrálních míst Christaller (1933)
+  * kolem 1950 začíná rozvoj dopravy a spojů, rozvoj informačních a finančních služeb, služeb pro podnikání
+    * demografické (prodlužování délky života, urbanizace a rozvoj měst)
+    * společenské (pracujou i žení, domácnost má víc peněz, roste zájem o služby jako je hlídání dětí!)
+    * ekonomické (globalizace)
+    * politicko-správní (privatizace)
+  * primární (zemědelství), sekundární (průmysl), terciální (služby)
+    * ve vyspělých zemích se to posunulo
+    * terciální společnost - tam má dominantní postavení terciální faktor (třebas Francie)
+  * **nové dělení**
+    * terciér 
+      * vysoký podíl méně kvalifikovaných pracovníků
+      * nejzákladnější služby založené na směnné ekonomice
+      * hospody a tak
+    * kvartér
+      * vysoce kvalifikovaní pracovníci
+      * řesí investice a finančnictví
+      * napomáhají hospodářskému rozvoji státu
+    * kvintérní sektor
+      * vyžaduje vysoký stupeň inteligence a přemýšlení
+      * to bude určitě KGI
+      * nebo vysoký management
+Služby jsou všechno, co nepatří do zemědělství nebo průmyslu. Výstupy služeb jsou nehmotné výrobky, které nemohou být převáženy nebo skladovány nebo pozřeny a tak. Můžu ji prodat a koupit, ale nechytím ji. Nikdy
+
+  * __charakteristiky služeb__
+    * technologie, pracovní síla, organizace práce (v průmyslu se kontroluje mnohem víc než ve službách jestli všichni mají to co mají), charakter produktu, spotřeba produktu (produkce a spotřeba je často ve stejném místě), role spotřebitele, organizace na trhu
+    * **externalizace služeb**
+      * vyvazování služeb z průmyslu a využití outsorcingu
+
+
+
+  - **služby veřejnosti**
+    * uspokojují potřeby veřejnosti
+    * armáda, bezpečnost, státní správa
+  - **služby obyvatelstvu**
+    - služby věcné
+      * věci, které se udržují, čistí, přemisťují (čistírny, opravárny, nákladní doprava)
+    - služby osobní
+      * služby, co mi slouží bezprostředně (zdravotnictví, školství, kultura, osobní doprava)
+
+
+
+===== klasifikace služeb =====
+   * **spotřební** (spotřebitelské)
+     * orientovány na koncového zákazníka
+   * **tržní**
+     * výrobní služby, dopravní služby, komunikační služby
+   * **výrobní** 
+     * intermediální výstupy
+   * **veřejné**
+     * pomáhá je financovat veřejný sektor
+     * obrana, zájmové spolky, politické strany
+
+===== číselníky =====
+  * ISIC = international standard classification (má to OSN)
+  * EU-NACE = od EU
+    * předtím to končilo u Q, teď už u U (přidali tam kulturní činnosti a činnost orgánů a tak??)
+    * A - zemědělství
+    * B-E - průmysl
+    * F-U (asi) - služby
+
+====== prostorové interakce ======
+   * zabývají se toky mezi různými místy (lidi tečou, peníze tečou, zboží a informace taky teče)
+   *** komplementarita**
+      * jeden region produkuje (nebo by produkovat mohl -- tak proč neprodukuje?) výrobek, který v druhém regionu není
+      * tak že vzájemně doplňují
+      * průmyslová zóna je komplementární k obytné zóně
+
+
+   * **intervenující příležitost**
+     * existence alternativ
+     * alternativní příležitost pro místo určení, které mají podobnou komplementaritu ale lepší transferabilitu
+     * intenzita pohybu je přímo úměrná počtu příležitostí v koncových bodech
+       * čím vím příležitostí tam bude, tím větší intenzita pohybu!!
+     * a taky míň intervenujících příležitostí v daném úseku
+     * počet osob, které se pohybují v určitém úseku bude přímo úměrný k procentuálnímu nárustu příležitostí v této vzdálenosti
+
+
+   * **převoditelnost**
+     * interakce se vyskytují pouze jsou li efektivní z hlediska nákladů
+     * cenné kovy mají vyšší převoditelnost, je to efektivní i na dlouhé vzdálenosti!!!
+
+
+
+====== modelování prostorových interakcí ======
+Základní podoba modelu vychází z Newtonovských zákonů. (F = G(m1xm2)/r na druhou). Jak na sebe působí dvě a více mas (počet obyvatel, velikost nákupní plochy, průměrné výdělky obchodních center). Tyto dvě masy se mezi sebou na základě atributu snaží vyčlenit sféry zájmu podle toho, jak má daný bod sílu. Také v tom hraje roli to, jak moc jsou od sebe centra vzdálená.
+  * region = masa
+  * meziregionální vztahy jako interakce mezi masami
+  * interakce jsou ovlivňovány vzdáleností mezi masami
+  * definice masy
+    * populace, nezaměstnanost, plocha, počet lůžek, velikost HDP, prostě cokoliiiv
+  * definice vzdálenost
+    * vzdušná čára, euklidovská vzdálenost, silniční dostupnost, časová vzdálenost, nákladová vzdálenost, politická, psychologická
+
+----
+
+**I<sub>ij</sub> = kM<sub>i</sub>M<sub>j</sub>d<sub>ij</sub><sup>-β</sup>** \\
+I<sub>ij</sub> ... interakce mezi dvěma lokacemi i a j \\
+k a <sup>-β</sup> ... konstanty \\
+M<sub>i</sub>M<sub>j</sub> ... masy měřící sílu i \\
+d<sub>ij</sub> ... vzdálenost mezi i a j \\
+β obvykle 0–3, ovlivňuje tvar křivky v poklesu významnosti vzdálenosti (distance decay curve)
+   * distance decay function
+     * vliv vzdálenosti na velikost interakce
+     * nikdy neprotne y
+     * to je ten logaritmus a exponenciální funkce a lineární funkce
+
+===== základní gravitační model =====
+**F<sub>ij</sub> = kP<sub>ij</sub>d<sub>ij</sub><sup>-β</sup>**
+   * změřím populaci (P64, P20, P4, P1)
+   * pak vzdálenost (asi určím podle minimální co pro mě bude 1) a tak
+   * pak to vypočítám buď jako P64 krát P20 děleno vzdálenost nnebo děleno vzdálenost na druhou. To je vše...
+===== Reillyho model =====
+   * najdu indeferentní bod
+     * jakože v tom místě mi je jedno jestli pojedu nakupovat tam nebo tam
+     * spočítám indeferentní vzdálenost
+       * odmocnina z podílu mezi populací
+       * pak k tomu přičtu jedničku
+       * pak do nechám poděl vzdáleností mezi tím
+===== Huffův model =====
+   * Tento model je možné aplikovat i na více lokalit a nepracuje pouze s trasou mezi danými městy. Výsledkem výpočtu je pravděpodobnost, s jakou bude spotřebitel cestovat do města A, B, C,…atd. pokud je lokalizován na určitém daném místě (libovolně v prostoru).
+   * P je zase významnost lokality (třeba počet obyvatel)
+   * vzdálenost mezi lokalitami je d
+   * Pcij - pravděpodobnost, s jakou bude spotřebitel z lokality i nakupovat statky z lokality j
+   * P Brna děleno vzdálenost spotřebitele od Brna 
+   * to celé děleno zase tím ale plus to samé pro Jihlavu (prostě suma)
+   * Brno má 380 000 a Jihlava 50 000 a jsou 120 km od sebe 
+
+
+

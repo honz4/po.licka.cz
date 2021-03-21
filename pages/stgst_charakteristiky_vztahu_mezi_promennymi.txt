@@ -1,0 +1,19 @@
+  * zjištění, popis a kvantifikace vztahu mezi dvěma (a více) proměnnými
+  * **kovariance**
+      * absolutní hodnota
+  * **korelace**
+      * relativní hodnota
+      * pearsonova, spearmanova
+  * **lineární regrese**
+      * y = ax + b
+
+=== Boxplot ===
+
+krabicový graf
+=== Q-Q plot ===
+
+srovnání reálných hodnot s teoretickým odhadem hodnot vybraného rozdělení \\
+nejčastěji porovnání s normálním rozdělením
+=== Sccaterplot ===
+
+X-Y bodový graf

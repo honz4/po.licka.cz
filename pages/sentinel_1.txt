@@ -1,0 +1,10 @@
+  * C-SAR (5404 MHz)
+  * časové rozlišení je 12 dní (nad rovníkem). Když jsou dvě družice tak je to 6 dní.
+  * vyšší zeměpisné šířky mají 1-3 dny
+  * režimy snímání
+        * IWSM - VV a VH polarizace nad pevninou
+        * WM  - VV  polarizace nad mořem
+        * 
+{{:sentinel1a.png?nolink|}}
+
+  * http://collgs.czechspaceportal.cz/sentinel-1-datove-specifikace/

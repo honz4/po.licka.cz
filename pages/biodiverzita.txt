@@ -1,0 +1,43 @@
+  * 4 druhy  biodiverzity: genová (zabíjíme a šlechtíme / geny a alela), druhová (in-site, ex-site), ekosystémová, kulturní
+
+
+
+----
+
+  * vegetace:
+        * aktuální vegetace (natura2000), procesy invenarizace
+        * rekonstrukční mapy
+        * mapy potenciální přirozené vegetace
+        * mapy rekontruované přirozené vegetace
+
+  * data: National Biodiversity Network
+  * indexy biologické rozmanitosti: biodiversity analyst
+
+
+----
+
+  * globio dneska ve verzi 3
+  * model pro posouzení původnosti společenstva v závislosti na lidské činnosti (předpoklad maximální biodiverzity -> působení lidské činnost -> nějaký druh umře)
+  * je to konceptuální model (není jako sw řešení), dneska už asi funguje nezávisle
+  * drivery: landuse, infrastructure, fragmentace ukládaní atmosférického dusíku, vliv změn klimatu
+  * nevýhoda: stavěn jako globální model (100x100)
+  * výstup k porovnávaní: hodnota indexu MSA (průměrné množství druhů, které tvoří ted nasycený biotop)
+  * data: landuse (CLC, na lokální teoreticky ZABAGED - tam ale nejsou tematické informace-, takže využít mapování NATURY a nějakých dalších zdrojů //// dneska 3 různé mapové zdroje: na začátku je vrstva mapování biotopů - NATURA2000, pak KVES (produkt od AOPK a jsou tam biotopy, corine, zabaged a data z vuv)= kombinovaná vrstva ekosystémové služby, nevýhoda je, že nemá upravené expertní koeficienty / kombinovaná vrstva = KV = mapování biotopů + CORINE, přínos, že má upravené i ty expertní hodnoty = hodnoty, které odráží platnost pro čr / ty hodnoty jsou odvozené z BLM mapování, ale v tuto chvíli to BVM není po celé čr, ale co je, tak se promítá do KV. a to bude použité, KV se přestane používat a bude jenom BVM/ měřítko 1 : 10 000)
+        * silnice (world road map //// silnice (zabaged)
+        * fragmentace území (patches of natural areas - ze satelitu, případně výpočet z landuse a silnic)
+        * klimatické informace (centrální správa o kolik se mění teplota v určitých kvartálech / čhmu pro čr)
+        * mapa ekosystémů (WWF, BIomes, Eco-regiion v 1 : 500 000 / natura 2000
+        * chráněné oblasti (vrstva chráněných oblastí podle jedné klasifikace / jinak AOPK)
+        * dusík (globální = základní model z balíku IMAGE, ale pixel je 100x100 km, což je pro nás blbý, takž pro čr existuje expertní neveřejné měření s přesností 1x1 km mimo zastavěné území)
+        * vliv infrastrutkury = landuse a silnice a hustota obyvatel (eurostat / data ze sčítání obyvatel)
+  * pro každý driver spočítám hodnotu MSA a pak ta výsledná hodnota funguje že se dá těch 5 vrstev dohromady (vektorový součin pro zachování stejné hodnoty těch driverů)
+  * využtí:
+        * roadzone effect = ovlivněí biodiverzity v důsledku automobilové dopravy
+        * co má vliv: **silnice fragmentující území**
+              * způsob využití fragmentované pásu: výrazně se mění hydrologické efekty (vlhkost, výskyt těžkých kovů, odlítává mu sůl, zvyšuje se vnitřní proudění, odvod sedimentů, ta sůl poškozuje porost a živočichy a měn í všude hydrycké režimy protože váže vlhkst). další je hluk a světlo
+
+
+
+----
+  * 2013 mezinárodní panel pro biodiverzitu
+  * 

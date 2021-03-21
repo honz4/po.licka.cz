@@ -1,0 +1,3 @@
+<WRAP center round tip 60%>
+ZVMAP1, Digital chart of the World, OSM, CORINE, Urban Atlas, SRTM, družicová data - LANDSAT, ...- garant, měřítko, struktura, aktualizace, dostupnost
+</WRAP>

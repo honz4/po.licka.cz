@@ -1,0 +1,17 @@
+<WRAP center round tip 60%>
+konceptuální, logický, fyzický datový model; špagetový, hierarchický, síťový, topologický
+</WRAP>
+  * Vrstvový přístup
+      * Jednotlivé složky popisu geoprvků jsou ukládány samostatně a navzájem jsou propojeny pomocí ID geoprvky
+  * Objektový přístup
+      * Každý objekt obsahuje geometrii, topologii, atributy a chování = metody <- možný hiearchický přístup, náročný na HW
+      * Jednotlivé složky popisu geoprvku jsou soustředěny do jednoho kompaktního balíčku reprezentujícího geoprvek jako celek
+      * Atributy a metody je možné dědit (linie -> komunikace -> silnice, železnice
+      * Jednotlivé objekty se umí starat samy o sebe (dálnice ví, že silnice na ni může být napojena jen pomocí nájezdu)
+  * Modely: 
+        * Vektorové: bod (nenapojený, mezilehlý, koncový, dim=0), linie (sekvence sousedících úseček napojující se v mezilehlých bodech, dim=1 / linie je v řetězci 1x, uzly jsou 2x, uzavřený řetězec), plocha (dim=2), povrch (hodnoty i ve vnitřních bodech, dim=2,5), objem (dim=3)
+            * Špagetový model: řetězec XY souřadnic, bez vztahů mezi objekty, společný polygon a linie uložená 2x, je nespojený
+            * Základní topologický model: hrany a uzly, linie – počáteční a koncový uzel, pravý a levý polygon, sekvenční prohledávání linií pro polygon
+        * Hiearchický datový model: ukládá v logické podobě (čára – levý a pravý polygon -> čára – seznam souřadných čar
+  * Rastrové modely: čtvercová buňka (kompatibilní s kartézským souřadnicovým systémem, se strukturami datových jazyků v GIS, monitory, scannery, plottery), trojuhelníková mřížka (jednotlivé buňky nemají stejnou orientaci, větší složitost algoritmů), hexagonální mozaika (středy všech buněk stejně vzdálené)
+        * Pravidelné / nepravidelné

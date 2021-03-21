@@ -1,0 +1,197 @@
+{{ ::gison_neoc.png?nolink |}}
+  * administrátor, přihlášený nebo anonymní uživatel, správce dat  
+  * mapový server <- ujasnit si, co tady potřebuju
+  * geoserver -> ksicht webové aplikace (je to prostě geotools)
+
+
+----
+
+  * //kolik je standardizovaných služeb OGC?//
+        * NULA !!!!
+  * webové služby - RPC
+  * port type / binding / port / service
+  * GetCapabalities, GetMap, GetFeatureInfo
+  * Komunikační protokol - REST/RPC
+    * formát výměny dat - ATOM/RSS, JSON, XML
+  * srovnání REST/SOAP
+    * orchestrace WS
+    * struktura procesu v BPEL
+
+   *  prezenční logika / aplikační logika / databázová logika
+   *  jedním z klientů může být i WWW server
+   *  vícevrstvá architekura je základ
+
+   *  vznik univerzálního klienta
+
+
+**Model Network Computing**
+   *  založeno na bázi tzv. tenkých klientů
+   *  distribuovaný výpočet
+
+**GRID**
+   *  seskupení několik zařízení, které umožňuje si sdílet kapacitu a funkce, integrovat služby
+
+**
+GIS tools for hadoop**
+   *  open source od ESRI
+   *  esri geometry API for Java, Spatial Framework for Hadoop, Geoprocessing Tools for Hadoop
+
+Emulace   
+   *  je na úrovni instrukcí až, plná virtualizace    
+   *  šahá si přímo na HW, paravirtualizace
+   * jako plný ale potřebuju mít modifikovaný OS na obou stranách, virtualizace na úrovni OS
+   * naklonování na úrovni OS
+
+**Cloud computing  **  
+   *  jako nehody v autě a ledadle
+
+**Architektura PC vyhrazuje PC roli grafického terminálu AMAZON Elastic a Akamai Technologies   ** 
+   *  největší cloudeři
+
+
+**zásady IT infrastruktury**
+    *  vždycky věnujte nejvíc času serveru, server je základ, nesmí klásT vysoké nároky na HW a SW a ani na odborné znalosti klienta, blbuvzdorné, síť by měla přenášet minimální objemy dat s vysokou informační hodnotou, celé řízení architektury by měl být postaven tak, aby byl spravován a konfigurován specialistou odkukoliv, výstup nesmí být závislý na typu ani verzi prohlížeče
+   *  rozdíl filter a select!
+
+
+**Zálohování a obnova dat**
+   *  rozdíl kopie a obnovy
+   *  pravidlo 2 + 1 (dvě kopie - jedna by měla být dostupná po síti, druhá je na úplně odříznutém mechanismu / synchronizace na dropboxu nejsou zálohy)
+
+**RAID**
+   *  diskový řadič
+   *  použití více disků než by bylo běžně potřeba
+   *  Raid 0+1
+   *  data které přicházejí se rozdělují na balíček na bázi raidu 1, když vypadne jeden disk tak ztrácíme redundantnost ale neztrácíme data
+
+===== 
+server =====
+
+   *  počítač(HW) nebo proces, který poskytuje nějakou službu
+   * **Webový server** 
+       * zabezpečuje HTTP protokol
+       *  statický NEBO dynamický obsah
+  * **Aplikační server**
+      *  spojuje webový server a serverovou stranu aplikace (SSA
+      *  např. mapový server)
+      *  apache HTTP Server
+
+
+----
+
+  * **staticky linkovaný modul**
+        * pevně bud zapnut nebo vypnut, že už je přímo zkompilování v jádru apache. jakmile nastartuje, tak nastartuje všechny moduly, takže prakticky nečeká. 
+        * **Nevýhoda:** pokud chci změnit verzi modulu, musím překompilovat celé jádro, nestačí vyměnit jenom jeden file
+  * **dynamicky linkované moduly**  
+        *  dám do adresáře "moduls", a pak pomocí load modul, add modul
+        * nastavím cestu, definuju v jaké situaci mám modul použít (jakože když uvidí XML soubor, tak aby věděl, že má spustit kompilátor? XMl souboru - nebo čtečku)
+
+  * **základní direktivy**
+        *  Direktivy chování pro soubory   
+        *  můžu to psát přímo do toho konfiguračního souboru nebo můžu říct že ten htaccess podporuje (už nezasahujeme do toho configu) a venku si založíme úplně nový texťák .htaccess
+       * direktiva Indexes (pokud je ten modul povolen, tak říkám serveru že když požádám o adresář ve kterém nenajde žádný z těch souborů DirectoryIndex, ale vypíše mi všechny ty soubory ve stromové struktuře co se tam nachází)
+       * AllowOverride All    
+             * podporuju a povoluju změny výchozího nastavení pomocí .htaccess
+       * Allow a Deny
+             * povoluju / zakazuju a následuje za to výčet něčeho (kdo může P nemůže vstoupit do toho adresáře)
+
+   *  .htaccess je obycejny ASCII soubor
+
+
+=== RPC ===
+   * vzdálené volání prodecur (Remote Procedure Call)
+   *  klient volá tak, že pošle serveru požadavek RPC spolu s jeho parametry -> server provede příslušnou proceduru a pošle zpět klientovi případnou návratovou hodnotu
+   *  platformová nezávislost
+   * formát externího vyjádření dat (XDR), dneska XML RPC vrací se k životu (jme mnohem lépe schopní specifikovat parametry)
+=== COM (Component Objective Model) ===
+
+   *  standardy pro programovací techniku
+   *  můžu ji aplikovat na jakémkoliv prostředí byť byla vyvinuta pro Windowsy
+   *  říká: jsou dané komponenty v daném programovacím jazyce
+   *  komunikují pomocí tří základních pravidel: **Modularita** (objekt by se neměl zabývat tím, co a jak dělají ostatní objekty, ale pouze je přijímat /daný objekt se může v průběhu časů měnit a to rozhraní je v podstatě stabilní -> můžu stavět modulární systém), **Univerzálnost** (nezávislost na programovacím jazyku, při deklaraci těch metod se požívá univerzální jazyk - IDL), **Správa paměti** (pokud je pointer na objekt, pak ho drží v paměti. jakmile ho nikdo nepotřebuje, tak COM objekt se sám ukončí - kolikrát bude v paměti načten a vykonáván závisí na počtu pointer
+
+====== přednáška někdy jindy ======
+  * OGC standardy
+  * Web Services Common Specifications (OWS)
+      * klient i server musí umět zpracovávat stejnou verzi
+  * bounding box (BB)
+      * definice rámu pro zobrazení mapy
+
+====== souřadnicové systémy ======
+
+Map CRS
+  * ortogonální systém použitý v generovaném obsahu
+  * (0,0) - levý horní roh
+
+Layer CRS
+  * jsou v něm vedená data
+  * data bez CRS lze zobrazit, ale nelze kaskádovat
+
+Vertikální CRS
+  * na serveru deklarovaná maximálně 1
+
+====== služby ======
+  * mapové, datové, procesní
+
+===== WMS =====
+  * služba, která definuje službu k tomu, jakým způsobem poskytovat mapy
+  * pouze vizualizace dat (ne přístup ke konkrétním datovým strukturám)
+  * WMS je identifikovatelná pomocí svého vlastního URL
+  * **getCapabalities**
+        * operace, na základě které získáváme metadata služby
+        * XML
+  * **getMap**
+        * konkrétní parametry na konkrétní výstup
+        * server zpracuje obraz a odešle ho
+  * **getFeature**
+        * info o objektech na mapě
+  * pro vyhledávání je třeba volat další služby (WFS)
+  * podporuje kaskádování
+
+===== WMTS (web map tile service) =====
+  * poskytování digitálních rastrových map ve formě předpřipravených dlaždic
+  - dlaždice - obdélníková obrázková reprezentace geografických dat
+  - matice dlaždice - to, z čeho je ta dlaždice vyjmuta
+  - sada dlaždicových matic - kolekce matic pro všechna měřítka
+  * pro jaké měřítko, BB, šířka výška dlaždice v px, výška šířka matice (odkama se ten BB počítá)
+  * **GetCapabalities, GetTile, GetFeature**
+
+===== SLD (style layers description) =====
+  * rozšíření nad WMS službou (-> zadávat symboly, popisky, ...)
+  * umí to, že když filtr něco aplikuje výběr (nědělá to SLD), tak na to aplikuju tu symboliku
+  * DescribeL, GetLegendGraphics,... ?
+===== SE&TSE =====
+  * protože SLD kartografům nestačilo
+  * uživatelsky nadefinovat jak ta data budou vypadat ze vzdálených zdrojů
+  * mapová vrstva (třeba ZABAGED) -> vrstvy vrstvy (silnice) -> třídy (to jsou bod, linie a polygon – my máme silnice, tykže linie) -> symboly (styl A, styl B, styl C ,...)
+
+===== WMC (web map content) =====
+===== WCS (web coverage service) =====
+  * coverage - grid nebo ?? obrazy, pže na jedné pozici je více informací, které se mění
+  * GetCapabalities, GetCoverage, DecribeCoverage
+
+===== WFS (web feature info) =====
+  * umožňuje pracovat přímo s geodaty (ne s jejich vizualizací)
+  * pro přesnost geodat používá formát OGC - GML
+
+<WRAP center round info 60%>
+GML je textový soubor
+</WRAP>
+
+===== KML (keyhole markup language ?) =====
+  * jazyk založený na XML
+
+===== CSW (catalogue service ...) =====
+  * standard pro kategorizaci služeb
+  * definuje rozhraní pro vytváření aplikačních profilů
+  * operace Harvest - sbírá informace z ostatních CSW serverů (MICKA tohle zvládá) -> výdycky opečovává administrátor
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+====== PCA (primary component analysis)======
+  * analýza hlavních komponent
+  * http://www.crr.vutbr.cz/system/files/prezentace_05_1106_04a.pdf
+  * viz DPZ
+  * pozitivní korelace - jde v diagonále a skoro k 1, negativní je naopak a třeba -9, žádná korelace má záznamy rozptýlené všude
+  * cílem PCA je zjednodušit popis lineárné závislých (tj. korelovaných znaků), a to rozkladem matice dat do **matice strukturní** (využité hlavní komponenty) a **matice šumov**é (nevyužité hlavní komponenty)
+  * Využitím PCA je snížení dimenze úlohy čili redukce počtu znaků bez velké ztráty informace, užitím pouze prvních několika hlavních komponent.
+  * Hlavní komponenty jsou nekorelované.
+  * **latentní proměnná** / hlavní proměnná
+  * **určení počtu komponent:**
+        * musí být větší než 1
+        * tolik komponent, které vysvětlují např, 90 % původní variability
+        * použiju [[Scree graf]] 
+
+  * ostatní grafické hilfy
+        * https://meloun.upce.cz/docs/publication/262.pdf
+        * **Graf komponentních vah, zátěží**
+              * zobrazuje komponentní váhy, zátěže, pro obvykle první dvě hlavní komponenty
+              * každý bod v grafu odpovídá jednomu znaku
+              * v grafu se porovnávají především vzdálenosti mezi shluky
+              * krátká vzdálenost mezi znaky -> silná korelace mezi nimi
+              * když je to kolmé, mají nulovou korelaci, když je úhel malý nebo velký tak pozitivní nebo negativní korelace
+              * čím delší linie -> tím větší vliv na výslednou komponentu!
+              * nalezneme i shluk podobných proměnných a hlavními komponentami
+              * {{ :wiki:pca9999.png?nolink |}}
+        * **Rozptylový diagram (scatterplot)**
+              * zobrazuje komponentní skóre pro první dvě hlavní komponenty všech objektů
+              * najdu shluk vzájemně podobných objektů a také objekty odlehlé a silně odlišné od ostatních objektů
+              * identifikace odlehlých objektů, identifikace trendů, identifikace tříd, shluky objektů
+              * objekty daleko od počátku jsou extrémy, blízko k centru jsou nejtypičtější objekty
+              * umístěné zřetelně v jednom shluku jsou si podobné a nepodobné objektům v ostatních shlucích
+              * {{ ::principal-correspondence-analysis-ind-small.png?nolink |}}
+        * **Dvojný graf (Biplot)**
+              * Kombinuje dva grafy: graf komponentních zátěží a vykreslení objektů  společně
+              * Úhel mezi průvodiči  je nepřímo úměrný velikosti korelace mezi proměnnými
+              * {{ ::biplot.png?nolink |}}
+
+====== SVD (singular value decomposition) ======
+  * 
+====== NMF (Non-negative matrix factorization) ======
+  * 
+
+

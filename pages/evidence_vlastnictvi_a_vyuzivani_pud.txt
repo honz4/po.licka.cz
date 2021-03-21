@@ -1,0 +1,198 @@
+  * rozloha 7,9 tisíc hektarů - z toho 54 % je zemědělská půda -> z toho 72 % orná půda
+  * úlohy GIT v praxi zemědělského podniku:
+        * vlastnictví a užívání zemědělské půdy
+        * komunikace se státní správou (žádosti o dotace)
+        * podrobné informace o pozemku
+        * výnosové mapy
+        * půdní vlastnosti
+        * monitoring biomasy
+        * precizní zemědělství (aplikační mapy)
+        * informace z terénu
+        * informační systémy o půdě
+
+==== vlastnictví a užívání zemědělské půdy ====
+  * identifikace nesouladů mezi skutečným využitím půdy a evidencí KN
+  * nalezení aktuálního a právně správného stavu
+    * aktuálně správný stav = ortofoto čuzk
+    * vlastnictví půdy = katastrální mapy
+    * užívání půdy = LPIS
+
+
+====== LPIS ======
+  * Local Parcel Information System
+  * referenční registr pro ověřování údajů v žádostech o dotace podávaných na Státní zemědělský intervenční fond (SZIF)
+  * GIS pro evidenci využití zemědělské půdy
+  * pro farmáře jak tu půdu využivají
+  * na základě LPISu můžou dostat farmáři dotace (ty žádosti se kontrolují podle LPISu taky)
+  * účelem je poskytovat kvlitní data o využívaní zemědělské půdy v čr, ale jako nic moc
+  * 1999 - čr vstoupila do EU a musela udělat nový systém evidence půd
+  * základní evidenční jednotka - farmářský blok (souvislá plocha zemědělské plochy s jednou kulturou užívanou jedním farmářem)
+    * údaje: charakteritiky zjištěné z 3D modelu terénu, zařazení do méně příznivých oblastí, vlastnosti nezbytné pro zjištění vhodnosti bloku pro jednotlivá agroenvironmenální opatření <- systém ty údaje vypočítá hned po aktualizaci (manuálně a offline je to na prd)
+    * aktualizace dat probíhá nezávisle na procesu administrace žádostí o dotaci platební agenturou
+
+===== přínosy LPIS =====
+  * státní správa
+    * data jsou uložena na jednom centrálním serveru
+    * aktualizují se přes webovou aplikaci přes VPN
+    * má to nízké provozní náklady
+    * nemusí se řešit chyby které by vznikly kdyby to fungovalo offline (kopírování dat, špatný přenos dat apod.)
+    * zabezpečit ta data na jednom serveru je mnohem jednodušší 
+    * MZe tím může plně ručit za data v systému (plně vyhovuje požadavkům zákona o zemědělství a EU)
+  * farmář
+    * je to pro ně kvalitní a srozumitelné
+    * kdekoliv na pracovišti MZe může farmář požádat o informativní výpis a mapové sestavy v měřítku 1:10 000 (nebo mu dají heslo k webové aplikaci). Jdou posílat i shapefily. 
+  * co poskytuje sám LPIS?:
+    * výpisy a mapy (základní stavy evidovaných údajů, zapojení do agroenvironmentálních programů)
+    * informace o omezení hospodaření z titulu nitrátové směrnice na blocích
+    * informace o provedeném agrochemickém zkoušení půd
+
+===== portál farmáře =====
+  * pod MZe
+  * pro registrovaného uživatele IS SZIF -> informace o dotacích, podávání žádostí o dotace, napojení na IS základních registrů
+  * aplikace: registr půdy LPIS, registr zvířat IZR, evidence přípravků a hnojiv EPH, registr chmelnic, vinic, intenzivních sadů, honiteb, škůdců, ...
+  * iLPIS je pro farmáře, pLPIS je pro veřejnost
+  * podkladová data jsou od ČÚZK
+  * možnost vyhledávání podle obcí, katastrálních území, parcel
+  * export je shapefile co mi pošlou na email
+  * vrstvy:
+        * půdní blok (kultura, ekologie)
+        * nitrátová směrnice (hnojiva, vodní útvar 25m a 50m, zamokření, meliorace)
+        * eroze a protierozní opatření
+        * podkladová data / ortofoto
+  * cizí: eLoket (belgie), VUPOP (Slovensko), TelePac (Francie)
+
+====== informační systémy o půdě ======
+  * agrokrom GIS
+        * zemědělský ústav Kroměříž
+  * DokuPlant GIS
+        * PROGIS Software GmBH, Rakousko
+  * CROP Teelmanagement
+        * PPO Lelystad, Nizozemsko
+  * AG Info
+        * Jičín
+  * Agronom
+  * Evidenske půdy
+  * Mapy
+        * automatická evidence parcel KN na půdních blocích
+
+====== GC úpravy ======
+  * Geocentrum Olomouc
+  * počítačové řešení evidencí v zemědělství s vyváženým poměrem mezi přehledností programu, jednoduchostí ovládání a vysokou funkčností
+  * **evidence půdy**
+        * správa půdních bloků a k evidenci činností na nich prováděných
+        * činnosti se evidují do karty pozemku (setí, sázení, sklizeň, hnojení, agrotechnické zásahy použití prostředků na ochranu rostlin)
+        * evidenční karta pozemku
+        * podrobná karta honu
+        * celková aplikace N na půdní bloky dle dotačních titulů
+        * evidence o použití hnojiv
+  * **evidence zvířat**
+        * registr zvířat (členění podle hospodářství, druhů, kategorií, stád a stájí)
+        * lze to hromadně naplnit pomocí importu
+        * lze načítat změnová hlášení do centrální evidence ČMSCH
+        * k evidenci pastvy a pastevních výkalů (pastevní deník)
+        * evidence léčení (přiřadím vakcínu celému stádu, stáji, nebo jenom vybrané zvěři)
+        * jednotlivým stádům lze přiřadit různé managementy a sledovat intenzity pastvy 
+        * -> pastevní deník, přehled pastvin, intenzita pastvy, záznam o léčení a veterinární péči
+  * **provozní evidence**
+        * jednoduchý sklad, kde lze evidovat nákupy, prodeje, produkci či spotřebu libovolných produktů (krmivo apod...)
+        * z údajů ze skladu vzniká tisková sestava eidence o spotřebě krmiv
+        * druhou částí je evidence o čištění a desinfekci strojů, skladů a stájí
+        * evidence o krmivech, deník prodeje
+
+====== PREFARM MapServer ======
+  * webový komplexní informační systém
+  * k racionálnějšímu řízení rostlinné produkce (nejúčinnějším zásahem v PZ je aplikace průmyslových hnojiv)
+  * má to základní GIS nástroje
+  * nejnovější verze je on-line tvorba doporučení s využitím PyWPS
+  * základem jak efektivně využít data o půdních vlastnostech je kvalitní a přesné provedení agrotechnických zásahů
+  * kromě GIS je k dispozici kompletní info o pozemncích
+  * **kompletní karty honů**
+        * osevní postupy
+        * přehledy organického hnojení
+        * mapy variability zásoby živin a variability pH
+        * srovnání vývoje násobenosti při opakovaných odběrech půdních vzorků
+        * sklizňové mapy ze sklízevích mlátiček
+        * satelitní a letecké snímky
+        * návrhy na variabilní hnojení
+        * cenové návrhy pro hnojení
+        * evidence o provedené aplikaci - spotřeby živin
+        * katastrální mapy
+
+
+  * **webový archiv dat komplexního průzkumu půd (WA KPP)**
+        * nahlížení na skenovaná data KPP, mapování z r. 1951 (Křovákovo zobrazení)
+        * pomocí technologie Zoomify, M 1:5000 nebo 1:10 000
+        * k plné funkčnosti nutné dokončit digitalizace dat KPP
+  * **ekatalog BPEJ**
+        * najdu tam charakteristiky kódů BPEJ
+
+
+====== BPEJ ======
+  * od VUMOP
+  * 1:5000 až 1:10 000
+  * jen pro ZPF
+  * {{ ::obrazek1.png |}}
+
+
+----
+
+  * statistická ročenka
+        * prezentace dat ze statistické ročenky VUMOP ve formě grafu a tabulek
+  * monitoring eroze
+        * podrobnosti všech erozí v minulých letech- tabulka i tematická vrstva
+  * tematický mapový projekt a Mapový server
+        * webová aplikace pro zobrazovaní prostorových dat formou tematických vrstev
+        * Charakteristiky BPEJ, Vodní a větrná eroze půd ČR, Opatření k ochraně půd
+        * WMS  - data BPEJ, vodní a větrné eroze
+  * poskytování dat
+        * BPEJ, KPP, vodní a větrní eroze, hydrologické charakteristiky, limity využití
+        * rastrová i vektorová data 1 : 5 000¨0
+  * Metadata
+        * popisné informace k vrstvám mapových projektu – v souladu s INSPIRE
+        * správa a distribuce zajištěna katalogem MICKA
+
+
+----
+====== european soil data portal ======
+  * součást Evropského půdního datového centra
+  * poskytuje ESDB v.2 (Euroepan Soil Database)
+  * poskytuje data o evropské a euroasijské půdě (knihovna EU25 a Eroasie)
+  * **data**
+        * Vektor (klasifikace půd, využití půdy, systém hospodaření s vodou, chemické a mechanické vlastnosti 
+        * http://eusoils.jrc.ec.europa.eu/ESDB_Archive/ ESDBv3/legend/LegendData.cfm)
+        * Rastr: měřítko 1x1 km
+        * Rastr: měřítko 10x10 km
+        * SRS: ETRS89 Lambertovo azimutální stejnoploché zobrazení
+        * lze stáhnout ve formátu kmz
+====== USDA (United States Department of Agriculture) ======
+  * **FAS (Foreign Agricultural Service)** – poskytování informací o sklizních v různých zemích
+  * **PECA**D - „přesné“ globální odhady zemědělské produkce
+        * každých 10 dní - pomocí GIS (Esri)
+        * satelitní zdroje + modely, asistenti po světě
+  * **Crop Explorer**
+        * webová aplikace, odhad úrody v reálném čase
+        * „real-time“ satelitní snímky a data o počasí
+        * generuje řadu tématických map regionů
+        * půda - procentuální vlhkost půd, oslunění, množství suchých a mokrých dnů za rok
+        * počasí - množství sněhu, max a min teploty, odklon od normálu
+        * plodiny - produkce podle zemí u sledovaných plodin, import, export, vegetační index
+        * rastrová data za vybrané regiony (EU, Karibik) nebo státy (ČR, USA)
+        * mapy, tabulky, grafy a satelitní snímky
+        * družice Terra a Aqua v rozlišení 250m, 1km, 2km; senzor MODIS)
+        * toolbox pro import snímků MODIS do ArcGIS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

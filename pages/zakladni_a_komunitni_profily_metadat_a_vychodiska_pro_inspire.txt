@@ -1,0 +1,4 @@
+<WRAP center round tip 60%>
+Dublin Core, Z39.50 - obsah, vzájemný
+vztah, přemapované položky
+</WRAP>

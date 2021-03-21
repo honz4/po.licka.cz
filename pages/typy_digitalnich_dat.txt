@@ -1,0 +1,25 @@
+<WRAP center round tip 60%>
+primární a sekundární data, nominální, ordinální, intervalová, poměrová
+</WRAP>
+==== Primární ====
+  * přímé měření, sbírány pro GIS, hustota a frekvence určuje přesnost vyjádření dat
+  * Náhodný výběr, systematický výběr (každý km), strategický výběr (geologické vrty)
+  * **Rastr data**: družicová data, letecké snímky, LIDAR
+  * **Vektor data**: geodetická měření, totální stanice, teodolity, GPS mapování, digitální fotogrammetrie
+==== Sekundární ====
+  * původně k jiným účelům – mapy, tabulky, databáze
+  * Je třeba znát i informace o sběru a kódování naměřených hodnot
+  * **Analogová:** texty, tabulky, seznamy, rejstříky, mapy, grafy / Digitální: databáze, DPZ, digitální mapy
+  * **Rastr data:** skenování analogových podkladů
+  * **Vektor data:** digitalizace map, stereofotogrammetrie
+  * Sémantika digitálních dat: entita je idividuální element popisující reálný objekt, atribut popisuje negeometrickou vlastnost entity (barva = zelená)
+== Nominální data ==
+  * nejdou porovnávat, vzájemně disjunktní, z konečné množiny možností, pouze rovnost, např. krevní skupiny
+=== Ordinální data ===
+  * jako nominální z konečné množiny a taky kvalitativní, ale jdou porovnat, nemůžu posoudit vzdálenost,  např. vzdělání
+=== Intervalová data ===
+  * obykle spojitá, hodnotím i vzdálenost mezi kategoriemi, operace rovnosti, uspořádání a odečítání, nula znamená konkrétní hodnotu, např. teplota vzduchu v °C
+=== Poměrová data ===
+  * obvykle spojitá, operace rovnosti, uspořádání, odečítání a dělení, jen kladné hodnoty, 0 znamená neexistenci jevu (mají jasně definovanou absolutní nulu), jen kladné hodnoty, např. objem, délka
+
+{{ ::typdat.jpg |}}

@@ -1,0 +1,3 @@
+  * vztah mezi mean of the response variable a lineární kombinací vysvětlující proměnné
+  * definuje shodu mezi výskytem druhu a individuální environmentální proměnnou a error distribution může být vybrán mezi mnohými typy distribucí (alternativní, negativní)
+  * ma plynulou křivku

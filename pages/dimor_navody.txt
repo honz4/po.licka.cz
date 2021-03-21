@@ -1,0 +1,93 @@
+===== nahrání dat =====
+  - pomocí nástroje ASCII 3D TO FEATURE CLASS 
+      * nahrávání 1G, 4G dat- nutno zadat decimal point!!
+      * lidarová data se asi musí měnit přímo v poznámkovém bloku
+  - když udělám digitální model pomocí IDW a odečtu 5G od 1G -> dostanu rozdíl povrchu is domečkama a stromečkama a terénu bez domečků
+
+===== LIDAR =====
+  - Nahrání dat pomocí poznámkového bloku (ctrl+H → nahradit mezeru čárkou)
+  - pojmenování nahoře Easting,Norting,Elevation,Intensity
+  - dělat vždycky pro dva stejné soubory Ground a NonGround
+  - musí to být uložené ve formátu txt
+  - nahrávám přes Add XY  data a X- Easting, Y- Norting, Z- Elevation
+  - koordinační systém podle toho, na co mám data (Austrálie- GDA 1994 MGA Zone 55.prj)
+  - z ground je DEM a z nonground je DSM
+  - IDW→ Z value je elevation z ground i nonground
+  - RASTER CALCULATOR→ odečtu nonground-groun
+  - převést pomocí INT
+
+
+===== krigging =====
+  - zapnout extenzi GEOSTATICAL ANALYST
+  - subset features- % výběr bodů, které dám bokem (20% dám bokem a ze zbylých udělám například kriging a ten pak porovnám s těma 20%)- **náhodný výběr**
+  - geostatical wizadr- krok 5- body se musí pohybovat kolem přímky
+
+===== vzorkování =====
+  - DMR→FISHNET- převzorkování (pro ČR 5000, 5000, 0, 0)
+  - EXTRACT VALUES TO POINTS→ IDW (změnit Z values), dám tam body, které mi vzniknou z extract
+  - to IDW, které mi vyjde→ properities→ symbology→ clasiffy→ quantiles
+  - pokud to chci interpolovat, tak to musím ořezat podle hranic ČR, protože za hranicema mám maléhodnoty a vycházelo by mi to blbě
+  - když odečtu původní DMR a IDW→ dostanu chybu (je to takovy barevny zmateny, musim dat na qantily)
+
+  - CREATE RANDOM POINTS → long- kolik tam bude bodů; linear unit- vzdálenost mezi body (pro ČR500???)→ EXTRACT VALUES TO POINTS → IDW
+
+===== viditelnost =====
+  - offsetA - je výška odkud to pozoruju - výška očí
+  - viewshed - zjistí co vidím a co nevidím
+  - construct sight lines : spoji mi ty body co vsechny uvidim nebo tak
+  - line of sight
+===== create TIN =====
+  * softline, hardline - u liniovych prevazne, u hranic polygonu
+  * soft jsou nastavene pro ty, co nezpusobuji lokalni zmenu
+  * softclip, hardclip - mista co jsou mimo polygon nepujdou videt. extract by mask
+  * sorterase, harderase - mista, ktera se tim v podstate zneviditelni
+  * softreplace - vodni plocha apod., kde je stejny teren = rovinna plocha
+
+
+===== topo to raster =====
+  - Input feature data
+     * Vstupní podkladová data, z nichž bude výsledný rastrový model vytvářen.
+  - Output surface raster
+     * Pojmenování a místo uložení výsledného modelu
+  - Output cell size
+     * Velikost buňky výstupního rastru. Implicitně je nastavena hodnota podílu kratší ze stran a 250.
+  - Output extent
+     * Rozsah výstupního rastru. Do interpolace budou zahrnuty hodnoty po zadané limity. Buňky mimo tyto limity budou považovány za „No Data“. Proto pro lepší výsledek interpolace je výhodnější použít výstupní rastr menší než je rozsah vstupních dat. A to aspoň o 10 bodů na každé straně. Výchozí nastavení odpovídá vstupním datům.
+  - Margin in cells
+     * Vzdálenost v buňkách při interpolaci  mimo stanovený výstupní rozsah a hranice. Hodnota musí být větší nebo rovna nule. Nastavení okraje umožňuje použití vstupních dat i nad rámec limitů.
+  - Smallest z value to be used in interpolation
+     * Minimální z hodnota, která bude při interpolaci použita. Výchozí hodnota je  o 20 procent nižší než nejmenší ze vstupních hodnot. Hodnota by neměla být menší než 0.
+  - Largest z value to be used in interpolation
+     * Maximální z hodnota, která se používá při interpolaci. Výchozí hodnota je 20 procent nad největší ze vstupních veličin.
+  - Drainage enforcement
+     * Slouží k odstranění propadů a proláklin tak, aby byl model hydrologicky správný.
+       * ENFORCE – algoritmus se bude snažit odstranit všechny propady. Jedná se o výchozí nastavení.
+       * NO_ENFORCE – propady budou zachovány
+       * ENFORCE_WITH_SINK – je možno označit některé známé propadliny, které systém zachová. Neoznačené propadliny budou považovány za chyby a systém se je pokusí odstranit.
+  - Primary type of input data
+     * Použitými vstupními daty mohou být linie čili vrstevnice (CONTOUR) nebo body (SPOT). Výběr ovlivňuje volbu optimální metody pro generování vodních toků a hřebenů. Implicitně jsou nastaveny linie – CONTOUR.
+  - Maximum number of iteration
+     * Udává, kolikrát se proces interpolace pro každou buňku výsledného rastru provede. Defaultně je nastavena hodnota 40, která je obvykle dostačující. Nižší počet iterací např. nemusí postihnout všechny propadliny, naopak vyšší počet opakování jednotlivé propadliny ještě zvýrazní.
+  - Roughness penalty
+     * Integrovaná druhá mocnina druhé derivace jako měřítko míry drsnosti. Drsnost musí být nula nebo vyšší. Při datovém typu CONTOUR je výchozí hodnota 0. Při datovém typu SPOT je to 0,5. Větší hodnoty se nedoporučují.
+  -  Discretisation error factor
+     * Faktor diskrétní chyby se používá k úpravě míry shlazení při konverzi vstupních dat do rastru. Hodnota musí být větší než 0. Normální rozsah je 0,5 – 2, ale výchozí hodnotou je 1. Nižší hodnoty způsobují menší vyhlazení, vyšší vedou k výraznějšímu shlazení.
+  - Vertical standard error
+     * Množství náhodných chyb v z hodnotách výstupních dat. Hodnota musí být 0 nebo vyšší. Výchozí hodnotou je 0.
+  - Tolerance 1
+     * Tato tolerance odráží přesnost a hustotu výškových bodů ve vztahu k povrchovému odtoku. V případě bodového podkladu se nastavuje hodnota standardní chyby výšek. Při liniovém podkladu se nastavuje polovina průměrného intervalu vrstevnic. Hodnota musí být 0 nebo vyšší. Pro datový typ CONTOUR je výchozí hodnota 2,5, pro SPOT je to 0.
+  - Tolerance 2
+     * Tato tolerance zabraňuje odtoku skrz nereálně vysokou bariéru. Hodnota musí být větší než 0. Výchozí je 100 pro CONTOUR a 200 pro SPOT.
+  - Kromě výše vypsaných položek je možno zároveň s rastrovým modelem vytvořit i další výstupní soubory (menu Optional outputs), které budou obsahovat informace o vstupních datech, nastavených parametrech nebo budou výsledný model porovnávat se známým terénem.
+     * Output stream polyline features
+     * Umožňuje porovnat správnost odtokových vlastností a morfologii interpolovaného povrchu se známým vodním tokem či terénem.
+     * Output remaining sink point features
+     * Prolákliny, propadliny, které nebyly specifikovány mezi vstupními daty. Úprava hodnot Tolerance 1 a Tolerance 2 pak může snížit počet zbývajících propadů. Zbývající propady pak často poukazují na chyby, které nemůže algoritmus vyřešit.
+     * Output diagnostic file
+     * Možnost vytvořit výstupní soubor s výpisem všech vstupů, použitých parametrů včetně počtu propadů a to podrobně pro každou iteraci.
+     * Output parameter file
+     * Výstupní parametrický soubor s výpisem všech vstupů a použitých parametrů, které mohou být použity pro další interpolaci.
+
+
+
+

@@ -1,0 +1,94 @@
+<WRAP center round tip 60%>
+formáty - vektorové, rastrové a ostatní, konverze
+</WRAP>
+===== Datové formáty =====
+
+=== Vektorové ===
+  * DGN („design“, od Bentley – Microstation, interoperabilita s jinými GIS a CAD programy
+  * DWG („drawing“, AutoCAD) / DXF („Autodesk drawing exchange format“, AutoCAD, výměnný formát hlavně mezi CAD systémy)
+  * GML („geographic markup language“, OGC, jako XML ale pro prostorová data)
+        * standard pro popis geodat umožňující sdílení a integritu dat, nepopisuje vzhled, ale strukturu popisovaného území, součástí geografické prvky a jejich vlastnosti, souřadnicové systémy, geometrické a topologické principy, obsahuje: bod, linie, pravoúhelník, uzavřená linie a polygon
+        * Geometry.xsd, xlink.xsd, feature.xsd
+  * GPX („GPS exchange format“, založen na XML)
+  * KML a KMZ („Keyhole markup language“, Google Earth, OGC schválen jako standard)
+  * SVG („scalable vector graphics“, vektorová grafika na webu)
+  * VFK („výměnný formát katastru“) / GeoJSON
+  * ESRI shapefile: 
+      * hlavní soubor .shp (každý záznam je popsán seznamem lomových bodů v určených souřadnicích)
+      * indexový soubor .shx (propojuje prvek v hlavním souboru se záznamem v atributové tabulce)
+      * databázový tabulka dbase .dbf (obsahuje atributy jednotlivých prvků, kdy každý zýznam v tabulce odpovídá jednomu prvku)
+      * .prj (souřadnicový systém a projekce), .qix, .sbn, .sbx (prostorové indexy prvků), .shp.xml (metadata v XML podle zvoleného standardu), .cpg (specifikované kódování stránky)
+    * Špagetový vektorový datový model (nemá žádnou topologii), neumožňuje implicitně uchovávat popis vzájemných prostorových vazeb mezi geoprvky, zobrazuje body, linie, polygony
+    * Coverage: uložení a správa obrazu vektorových geoprvků, ARC/INFO Coverage je přizpůsoben pro uložení vzájemných prostorových vztahů mezi geoprvky -> topologie
+        * hiearchický datový model
+        * Má navíc route, region, skupiny vrstev s třídami bodových, liniových a polygonových geoprvků
+
+  * GIS (1 vrstva -> 1 téma, 1 vrstva -> 1 typ dat, aributy v atributé tabulce) x CAD (1 hladina-> více témat i více typů dat včetně popisků)
+
+
+=== Rastrové ===
+  * BIL
+  * BIP
+  * BSQ
+  * CIT („intergraph scanned image“, GeoMedia)
+  * IMG („imagine image file“, ERDAS)
+  * JPEG („Joint Photograpic Experts Group“)
+  * PNG („portable netork graphics“, s PGW který obsahuje georeferenční data)
+  * RAS a RAK (Topolu)
+  * RST („IDRISI raster format“)
+
+  * **Hlavička rastru:**
+      *  hlavička: definice tvaru, velikosti, orientace matice rastru
+      * datová část  (zápis hodnot jednotlivých buněk)
+      * uložení hlavičky: úplně celá (GeoTIFF), částečně (tam se musí použít world file, TIFF, JPEG, PNG, BMP, GIF), zcela mimo (BIL, BIP, BSQ)
+
+  * Arc/INFO ASCII Grid: počet řádků, počet sloupců, XY souřadnice, velikost buňky, nodata
+  * World File: skládá se z prvního a posledního písmena (JPG tak J a G) a pak W jako Worl File -> JGW / afinní transformace (x‘ = Ax + By + C)
+
+
+=== Ostatní ===
+  * APM („arcpad document“)
+  * CRI (Kristýna GIS)
+  * CSV
+  * GDB
+  * LYR („ESRI ArcMap Layer“, bez samotných dat)
+  * MDB („Microsoft Database“)
+  * MXD („ArcMap Project Document“)
+  * PRJ („projections definition file“)
+  * TIN („trianguled irregular network“)
+  * XML
+
+===== konverze geodat =====
+=== Konverze datových formátů ===
+  * Data Interoperability tools (ArcMap), CAD->SHP, SHP->CAD
+  * GDAL, OGR, FME (Feature Manipulation Engine, Podporuje skoro všechny CAD a GIS formáty, během převodu můžu přidat i atributy, pracovat pouze s geometrií, podpora pro převod souřadnicových systémů, integrace s GIS app)
+
+=== Konverze souřadnicových systémů  ===
+  * nepřímé vyjádření pomocí geokódu nebo přímé vyjádření pomocí systému souřadnic
+  * S-JTSK (EPSG 5514, pro ČR obě souřadnice záporné, X k východu a Y k severu)
+  * ETRS (evropský terestický referenční systém)
+  * WGS84 (světový geodetický systém, EPSG 4326)
+  * Souřadnicový systém S-42/83
+  * Bpv
+  * Tíhový systém S-Gr95
+
+=== Konverze typů geometrie ===
+  * bod->linie (vrstevnice)
+  * bod->polygon (Thiessen polygony)
+  * linie->bod (průsečík linií
+  * linie->linie (zjednodušení)
+  * linie->polygon (buffer)
+  * plocha->bod
+  * plocha->linie (středové osy)
+  * plocha->plocha (opětovné vybírání ploch)
+
+=== Konverze datových reprezentací ===
+  * rasterizace (metoda dominantního typu, nejdůležitějšího typu, centroidová metoda)
+  * vektorizace (vektory jsou drahé, nebo neexistují)
+
+
+  * ArcGIS Conversion Tools, WinTopo, AutoCAD Raster Design, Adobe Illustrator
+
+
+
+

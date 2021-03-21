@@ -1,0 +1,22 @@
+====== teoretická ======
+
+  * [[stgst_uvod|úvod]]
+  * [[stgst_deskriptivni_a_induktivni_statistika|deskriptivní a induktivní statistika]]
+  * [[stgst_trideni_dle_statistickeho_znaku|třídění dle statistického znaku]]
+  * [[stgst_popisne_charakteristiky|popisné charakteristiky]]
+  * [[stgst_vylucovani_extremnich_hodnot_ze_souboru|vylučování extrémních hodnot ze souboru]]
+  * [[stgst_testovani_statistickych_hypotez|testování statistických hypotéz]]
+  * [[stgst_klasifikace_testu_podle_typu_statistickych_dat|klasifikace testů podle typů statistických dat]]
+  * [[stgst_testovani_normality|testování normality]]
+  * [[stgst_parametricke_testy|parametrické testy]]
+  * [[stgst_hodnoceni_zavislosti_dvou_kvantitativnich_znaku|hodnocení závislosti dvou kvantitativních znaků]]
+  * [[stgst_charakteristiky_vztahu_mezi_promennymi|charakteristiky vztahů mezi proměnnými]]
+
+
+  * [[stgst_zapisy_z_prednasek|ZÁPISY Z PŘEDNÁŠEK]]
+
+
+  * [[stgst_geostatistika|GEOSTATISTIKA]]
+
+====== praktická ======
+RStudio

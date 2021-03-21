@@ -1,0 +1,277 @@
+<WRAP center round tip 60%>
+služba x aplikace, logické vrstvy WS; SOAP, WSDL, UDDI,
+REST
+</WRAP>
+<WRAP center round tip 60%>
+HTTP(S), TCP/IP, UDP, ARP ... role, struktura, nasazení
+</WRAP>
+
+
+
+====== internet ======
+  * spojuje jednotlivé menší sady pomocí sítě protokolů
+  * přenášení a poskytování mnoho služeb (mail, chat, www, hry, katalogy, vyhledávání,...)
+  * TCP/IP je hlavní komunikační protokol
+  * intranet
+        * počítačová síť, která používá stejné technologie jako internet
+        * "soukromá" (je dostupná totiž pouze z vnitřní sítě)
+        * není u ní nutno mít přístup k internetu
+        * intranet školy, firmy,...
+        * třeba UPOL má VPN (vzdálený přístup - virtuální privátní síŤ)
+  * extranet
+        * ke komunikaci mezi zákazníky a partnery
+        * extranet umožňuje přístup dalším schváleným osobám, jako jsou například zákazníci, dodavatelé a podobně.
+
+====== síťová architektura ======
+{{:architetura.png?nolink |}}
+  * Mezitím co se referenční model ISO/OSI prosazoval do praxe, předstihla ho rodina protokolů TCP/IP. ISO/OSI model byl totiž původně navržen jako systém, který bude poskytovat spojované a spolehlivé služby. Snažil se tedy zajistit spolehlivost přenosu až do komunikační podsítě (včetně) a která v důsledku toho musela být poměrně složitá, zatímco k ní připojované hostitelské počítače měly mít relativně jednoduchou úlohu. Později se však ukázalo, že tímto řešením se zaměstnávají všechny vrstvy modelu.
+  * Na druhou stranu TCP/IP vycházela z předpokladu, že zajištění spolehlivosti je problémem koncových účastníků komunikace, a mělo by tedy být řešeno až na úrovni transportní vrstvy. Nebylo tak třeba řešit spolehlivost, resp. potvrzování a zpětné čekání na odpovědi, a ušetřený čas se mohl využít pro vlastní přenos. Díky tomuto není však protokol TCP/IP tolik spolehlivý jako jeho "rival" ISO/OSI, nicméně poskytuje jednoduchou a rychlou komunikační síť, ke které se připojují hostitelské počítače.
+
+
+
+
+
+
+====== ISO/OSI ======
+  * komunikace mezi vrstvami jednoho systému, řídí se pravidly, která se obvykle nazývají **rozhraní** (interface)
+  * komunikace mezi stejnými vrstvami různých systémů, řídí se **protokoly**
+  * ISO/OSI zajišťuje spolehlivost na všech vrstvách (na síťové i transportní), TCP/IP až na transportní vrstvě (a to jen volitelně v rámci transportního protokolu TCP)
+  * //Aplikace potkala prezentaci, zrealizovaly transport sítí, spojily se fyzicky.//
+===== fyzická vrstva =====
+
+      * zabývá se přenosem jednotlivých bitů od příjemce k odesílateli
+      * předává datové pakety („balíčky dat“) z linkové vrstvy
+      * Protože se na úrovni fyzické vrstvy pracuje se signálem, musí být její realizace hardwarová. Na úrovni fyzické vrstvy fungují nejstarší modemy, huby, opakovače (repeater), síťové adaptéry a Hostitelské adaptéry (Host Bus Adapters používané v síťových úložištích NAS). Novější modemy, stejně jako většina síťových karet, ale realizují i úkoly linkové vrstvy.
+      * specifické fyzické vrstvy (příklady): RS-232 (sériová linka, od roku 2010 se nepoužívá a je nahrazena USB), IEEE 802.3 (standard společnosti Institute of Electrical and Electronics Engineers (IEEE), který určuje specifikace fyzické a linkové vrstvy Ethernetu)
+===== linková vrstva =====
+
+      * přenáší celé bloky dat, tzv. rámce (frames) 
+      * zajišťuje přenos pouze v dosahu přímého spojení 
+      * může fungovat spolehlivě či nespolehlivě, spojovaně či nespojovaně 
+      * vytváří z informací od vyšší vrstvy rámce (frames), které opatřuje fyzickou adresou (MAC adresou) a předává fyzické vrstvě pro jejich odeslání. U přijatých rámců kontroluje adresu a kontrolní součet. Rámce, které nejsou určeny aktuálnímu uzlu a chybné rámce zahazuje, případně zajišťuje jejich opakovaný přenos
+      * žádosti a data ze síťové vrstvy jsou „zabaleny“ do datových paketů, jež linková vrstva předává fyzické vrstvě k odeslání
+      * nejpoužívanější síťové architektury a protokoly: Ethernet, Token Ring, FDDI,...
+===== síťová vrstva =====
+
+      * Nejznámější protokol pracující na 3. vrstvě je Internetový Protokol (IP). Jednotkou informace je paket
+      * **IP adresa** = jednoznačná identifikace konkrétního zařízení (typicky počítače) v prostředí Internetu
+      * IPv4 = 158.194.229.229
+      * IPv6 = hexadecimální, 8 skupin po čtyřech
+      * unicast (jedno síťové rozhraní), mulitcast (skupina síťových rozhraní, data se pošlou všem), anycast 
+      * **funkce síťové vrstvy:** 
+            * **spojový model / nespojová komunikace** - Například, IP je nespojitá služba, protože datagram může cestovat od odesílatele k příjemci, aniž by příjemce potvrdil doručení. O potvrzení přijetí datagramu se starají jiné, vyšší vrstvy modelu
+            * adresování - Každý host sítě musí mít jedinečnou adresu, která určuje, kdo to je. Tato adresa je obvykle přiřazena z hierarchického systému. Na internetu jsou adresy známy jako adresy internetového protokolu (IP) adresy.
+            * přeposílání zpráv - Vzhledem k tomu, že sítě jsou rozděleny na podsítě a jsou připojeny k dalším sítím pro komunikace na velké oblasti, sítě používají speciální zařízení, které nazýváme brány nebo routery, aby předaly pakety mezi sítěmi. To je také v zájmu mobilních aplikací, kde se uživatel může pohybovat z jednoho místa do druhého a musí být vše nastaveno tak, aby ho jeho zprávy následovaly. Verze 4 (IPv4) internetového protokolu nebyla navržena s touto funkcí, i když existují rozšíření mobility. IPv6 má navrženo lepší řešení tohoto problému. V rámci vrstev modelu OSI síťová vrstva reaguje na žádosti o služby z transportní vrstvy a vydává servisní požadavky na vrstvu datového spojení.
+      * **protokoly:**
+            * **IP (Internet Protocol)** : IPv4 je datově orientovaný protokol, který je používán v sítích s přepojováním paketů (např. Ethernet). Jde o protokol přepravující data bez záruky, tj. negarantuje ani doručení ani zachování pořadí ani vyloučení duplicit. Zajištění těchto záruk je ponecháno na vyšší vrstvě, kterou představuje protokol TCP. Stejně tak je na vyšší vrstvě ponechána kontrola integrity dat, protože IPv4 datagram nese pouze informaci o kontrolním součtu hlavičky datagramu se služebními údaji.
+                  * Internet Protocol je zodpovědný za směrování [[https://cs.wikipedia.org/wiki/IP_datagram|datagramů]] (paketů) ze zdrojového počítače do cílového hostitele přes jednu nebo více IP sítí. Paket se skládá z řídících dat (metadat) a z uživatelských dat (užitečné zatížení, anglicky payload). Řídící data poskytují síti potřebná data k doručení paketu, například adresu zdroje a cíle, kódy pro detekci chyb – kontrolní součty a informace o pořadí. 
+                  * Data se v IP síti posílají po blocích nazývaných datagramy. Jednotlivé datagramy putují sítí zcela nezávisle, na začátku komunikace není potřeba navazovat spojení či jinak „připravovat cestu“ datům, přestože spolu třeba příslušné stroje nikdy předtím nekomunikovaly.
+            * **ARP (Adress resolution Protocol)**:  znám cílovou IP adresu, potřebuju zjistit MAC (RARP je opačně, že zjišťuje IP adresu k MAC adrese) 
+                  * ARP je používán v situaci, kdy je třeba odeslat IP datagram na adresu ležící ve stejné podsíti jako odesílatel. Data se tedy mají poslat přímo adresátovi, u něhož však odesílatel zná pouze IP adresu. Pro odeslání prostřednictvím např. Ethernetu ale potřebuje znát cílovou ethernetovou adresu. Proto vysílající odešle ARP dotaz (ARP request) obsahující hledanou IP adresu a údaje o sobě (vlastní IP adresu a MAC adresu). Tento dotaz se posílá linkovým broadcastem – na MAC adresu identifikující všechny účastníky dané lokální sítě (v případě Ethernetu na ff:ff:ff:ff:ff:ff). ARP dotaz nepřekročí hranice dané podsítě, ale všechna k ní připojená zařízení dotaz obdrží a jako optimalizační krok si zapíší údaje o jeho odesilateli (IP adresu a odpovídající MAC adresu) do své ARP cache. Vlastník hledané IP adresy pak odešle tazateli ARP odpověď (ARP reply) obsahující vlastní IP adresu a MAC adresu. Tu si tazatel zapíše do ARP cache a může odeslat datagram.
+            * **ICMP (Internet control message protocol)** : užívá se pro odesílání chybových zpráv, např. že požadovaná služba není dostupná nebo že potřebný počítač nebo router není dosažitelný (často generován při chybě v IP datagramu)
+                  * ping posílá ICMP zprávu přímo a očekává ICMP Request 
+                  * obvykle se nepoužívá síťovími aplikacemi přímo
+                  * ICMP zprávy se konstruují nad IP vrstvou; obvykle z IP datagramu, který ICMP reakci vyvolal. IP vrstva patřičnou ICMP zprávu zapouzdří novou IP hlavičkou (aby se ICMP zpráva dostala zpět k původnímu odesílateli) a obvyklým způsobem vzniklý datagram odešle.
+                  * Například každý stroj (jako třeba mezilehlé routery), který přeposílá IP datagram, musí v IP hlavičce dekrementovat políčko TTL („time to live“, „zbývající doba života“) o jedničku. Jestliže TTL klesne na 0 (a datagram není určen stroji provádějícímu dekrementaci), router přijatý paket zahodí a původnímu odesilateli datagramu pošle ICMP zprávu „Time to live exceeded in transit“ („během přenosu vypršela doba života“).
+===== transportní vrstva =====
+
+        * odpovídá za přenos zpráv mezi účastníky komunikace (řízení toku dat a jejich integrita)
+        * je možné předem specifikovat rychlost přenosu a míru chybovosti (velmi spolehlivá, nespolehlivá s navázáním spojení, nespolehlivá - bez navázání spojení)
+        * **protokoly**:
+              * **TCP (Transmission Control Protocol)**: Použitím TCP mohou aplikace na počítačích propojených do sítě vytvořit mezi sebou spojení, přes které mohou obousměrně přenášet data. Protokol garantuje **spolehlivé** doručování a doručování ve správném pořadí. TCP také **umožňuje rozlišovat a rozdělovat data pro více aplikací** (například webový server a emailový server) běžících na stejném počítači.
+                    * TCP protokol ověřuje, zda přenesená data nebyla poškozena šumem tím, že před odesláním spočte kontrolní součet, uloží jej do odesílaného paketu a příjemce kontrolní součet vypočte znovu a ověří, že se shodují.
+                    * spojovaný a spolehlivý
+                    * velmi složitý a komplexní protokol
+                    * funguje stylem best effort
+                    * zajišťuje řízení toku a předchází zahlcení
+                    * přenáší data jako proud bytů (stream. mám dojem že tomu se říká segmenty)
+                    * K rozlišení komunikujících aplikací používá TCP protokol čísla **portů**. Každá strana TCP spojení má přidruženo 16bitové bezznaménkové číslo portu (existuje 65535 portů) přidělené aplikaci. Porty jsou rozčleněny do třech skupin: **dobře známé (1023 !!!), registrované a dynamické/privátní.** (použito i UDP!!!)
+                          * FTP (port 21 a 20), SMTP (port 25), DNS (port 53) a HTTP (port 80)
+              * **UDP (User Datagram Protocol):**  
+                    * nespojovaný a nespolehlivý
+                    * nezajišťuje řízení toku ani nepředchází zahlcení
+                    * přenáší data po blocích (datagramech)
+              * **SCTP (Stream Control Transmission Protocol):**
+                    * spolehlivý a spojovaný (ale jinak než TCP!)
+              * **DCCP (Datagram Congesion Control Protocol):**
+                    * nespolehlivý (jako UDP), ale spojovaný.
+          * porty:
+                * ISO/OSI má SAP (Sevice Adress POints), TCP/IP má porty
+===== relační vrstva =====
+
+        * Koordinuje komunikace a udržuje relaci tak dlouho, dokud je potřebná. Dále zajišťuje zabezpečovací, přihlašovací a správní funkce. Je softwarová.
+        * často bývá součástí jiných konfigurací (např. na úrovni prezentační vrstvy)
+        * **protokoly:**
+              * **NetBIOS**
+                    * je softwarové rozhraní (API) poskytující služby, které mají vztah s 5. (relační) vrstvou ISO/OSI modelu. Programové rozhraní je určeno ke zpřístupnění dat uložených na vzdálených počítačích. Cílem bylo zpřístupnění síťových zdrojů a služeb pomocí názvů.
+                    * Každé zařízení má svůj název, jehož délka je omezena na 15 znaků. Pokud klient požaduje navázání spojení, vyšle oběžníkem dotaz na všechny ostatní počítače, ve kterém žádá o překlad názvu NetBIOS na adresu MAC. Uzel požadovaného názvu odpoví svou adresou MAC. Klient si tuto adresu uloží do cache pro pozdější využití a pak naváže spojení s požadovanou službou.
+===== prezentační vrstva =====
+
+        * Specifikuje způsob, jakým jsou data formátována, prezentována, transformována a kódována. Řeší například háčky a čárky, CRC, kompresi a dekompresi, šifrování dat. Je softwarová.
+        * odpovídá za prezentování informací způsobem, který vyhovuje aplikacím nebo uživatelům (konverze dat zakódovaných v různých znakových sadách, datová komprese a dekomprese, zakončení řádků v textových souborech,…
+        * **protokoly:** (bývají často společně fungující jak na prezentační, tak na aplikační vrstvě - např. HTTP)
+              * TLS (Trasport Layer Security)
+                    *  TLS jsou kryptografické protokoly, poskytující možnost zabezpečené komunikace na Internetu 
+===== aplikační vrstva =====
+
+        * Účelem vrstvy je poskytnout aplikacím přístup ke komunikačnímu systému a umožnit tak jejich spolupráci.
+        * **protokoly:**
+              * **DHCP (Dynamic Host Configuration Protocol)**
+                    * DHCP server přiděluje počítačům pomocí DHCP protokolu zejména IP adresu, masku sítě, implicitní bránu a adresu DNS serveru. Platnost přidělených údajů je omezená, proto je na počítači spuštěn DHCP klient, který jejich platnost prodlužuje.
+                    * DHCP protokol umožňuje prostřednictvím DHCP serveru nastavovat stanicím v počítačové síti sadu parametrů nutných pro komunikaci pomocí IP protokolu (tj. využívat rodinu protokolů TCP/IP).
+              * **FTP (File Transfer Protocol)**
+                    * protokol pro přenos souborů mezi počítači
+                    * používán nezávisle na použitém operačním systému (je platformně nezávislý)
+                    * využívá porty TCP/21 a TCP/20. Port 21 slouží k řízení a jsou jím také přenášeny příkazy FTP. Port 20 slouží k vlastnímu přenosu dat, který je 8bitový.  
+              * **HTTP (Hypertext Transfer Protocol)**
+                    * je internetový protokol určený pro výměnu hypertextových dokumentů ve formátu HTML
+                    * HTTP používá jako některé další aplikace tzv. jednotný lokátor prostředků (URL, Uniform Resource Locator), který specifikuje jednoznačné umístění nějakého zdroje v Internetu.
+                          * URL!!!!- URL definuje doménovou adresu serveru, umístění zdroje na serveru a protokol, kterým je možné ke zdroji přistupovat.
+                          * protokol:/server.doména_druhého_řádu.generická_doména:port/umístění_na_serveru?formulářová_data#kotva
+                          * jednotný lokátor zdrojů => řetězec znaků s definovanou strukturou, který slouží k přesné specifikaci umístění zdrojů informací (ve smyslu dokument x služba) na Internetu
+                          * http://cs.wikipedia.org:80/w/wiki.phtml?title=URL&action=edit
+                          * dokument: /w/wiki.phtml – je uveden včetně cesty (adresáře) v rámci serveru
+                          * parametry: I. parametr se jménem „title“ a hodnotou „URL“, II. se jménem „action“ a hodnotou „edit“
+                          * http://efox:mojetajneheslo@www.licka.cz/
+              * **IMAP (Internet Message Acces Protocol)**
+                    * pro vzdálený přístup k e-mailové schránce prostřednictvím e-mailového klienta. IMAP nabízí oproti jednodušší alternativě POP3 pokročilé možnosti vzdálené správy (práce se složkami a přesouvání zpráv mezi nimi, prohledávání na straně serveru a podobně) a práci v tzv. on-line i off-line režimu. 
+              * **POP (Post Office Protocol)**
+                    * používá se pro stahování emailových zpráv ze vzdáleného serveru na klienta. Jedná se o aplikační protokol pracující přes TCP/IP připojení. 
+              * **SSH (Secure Shell)**
+                    * je zabezpečený komunikační protokol v počítačových sítích, které používají TCP/IP. SSH byl navržen jako náhrada za telnet a další nezabezpečené vzdálené shelly (rlogin, rsh apod.), které posílají heslo v nezabezpečené formě a umožňují tak jeho odposlechnutí při přenosu pomocí počítačové sítě
+              * **SMTP (Simple Mail Transfer Protocol)**
+                    *  protokol určený pro přenos zpráv elektronické pošty (e-mailů) mezi přepravci elektronické pošty (MTA). Protokol zajišťuje doručení pošty pomocí přímého spojení mezi odesílatelem a adresátem; zpráva je doručena do tzv. poštovní schránky adresáta, ke které potom může uživatel kdykoli přistupovat (vybírat zprávy) pomocí protokolů POP3 nebo IMAP.
+              * **Telnet**
+                    * je označení protokolu používaného v počítačových sítích, který pomocí stejnojmenné aplikace umožňuje uživateli připojení ke vzdálenému počítači.
+  * http://site.the.cz/index.php?id=3
+{{ ::protokoly.png?nolink&800 |}}
+
+====== bezpečnost počítačové sítě ======
+  * omezení přístupu k síťovým zdrojům na úrovni uživatelských práv
+  * omezení přístupu na úrovni aplikační nebo síťové vrstvy
+  * ochrana uživatelských práv
+  * ochrana přenosu dat po síti
+  * elektronický podpis
+
+==== autentizace ====
+  * ověřím identitu uživatele a zabezpečím její platnost
+  * jako na koferenci, kde se prokážu občankou a pak celý den chodím s visačkou
+  * autentizace windows, fomulářová autentizace
+
+==== autorizace ====
+  * stanovení práv a omezení autentizovanému uživateli - založené na rolích
+
+
+==== úrovně bezpečnosti ====
+  * uživatelská práva
+  * uživatelské jméno a heslo
+  * uživatelská práva
+        * host (čte jenom veřejná data), uživatel (spouští aplikace, má přístup k vybraným datům a službám), administrátor (neomezeý přístup k systému, datům a službám, definuje uživatelská práva a nové uživatele, instaluje aplikace, konfiguruje systém)
+  * síťová nebo aplikační vrstva
+        * nastavení aktivních prvků sítě (router)
+        * firewall - počítač se speciálním software, který odděluje privátní síť od veřejné sítě (intranet od extranetu) a propouští pouze administrátorem povolené požadavky (povolené protokoly, povolené adresy)
+        * TCP/IP filter - může být i součástí OS nebo součástí konkrétní aplikace
+
+==== ochrana uživatelských dat ====
+  * **šifrování**
+        * tradiční šifrování - tajný převodní algoritmus, nespolehlivé (Caesarova šifra)
+        * šifrování tajným klíčem - jediný klíč, který zná pouze odesilatel a příjemce
+        * šifrování s veřejným klíčem - "Asymetrické šifry" -  mají klíče dva – soukromý a veřejný. Zatímco veřejný klíč jeho držitel oznámí celému světu, ten soukromý si pečlivě uschová. (RSA algoritmus)
+  * **ochrana přenosu dat po síti**
+        * problém přenosu hesel a citlivých dat po síti
+        * běžné protokoly jsou nespolehlivé (telnet, ftp, http)
+        * **SSH** (viz výše)
+        * **SSL** (secure socket layer - transportní protokol mezi TCP/IP a HTTP - WHAT????)
+        * **SHTTP** (Secure HTTP)
+====== typy sítí ======
+==== dle připojení ====
+  * drátová
+  * bezdrátová
+==== dle rozsahu ====
+  * **LAN**
+        * lokální sítě
+        * vždy v soukromé správě
+        * malé území (budovy nebo několik blízkých budov)
+  * **MAN**
+        * propojují lokální sítě v městské zástavbě
+        * pro přenos dat, hlasu, obrazu
+        * soukromé i veřejné
+        * normalizovaná MAN existuje jenom jedna
+        * 
+  * **WAN**
+        * spojují MAN a LAN sítě na libovolné vzdálenosti
+        * obvykle veřejné
+  * **PAN**
+        * osobní
+        * Bluetooth třeba
+
+==== vzájemný vztah stanic ====
+  * **peer-to-peer**
+  * **klieent-server**
+
+====== topologie sítě ======
+  * **Sběrnicová topologie (bus, ethernet)** – kabel prochází okolo všech počítačů, nerozvětvuje se
+  * Hvězdicová - všechny počítače jsou připojeny k aktivnímu prvku (ArcNET)
+  * Aktivní prvek (hub) - posílá signál do všech větví
+  * Switch (přepínač) - je chytřejší, posílá prvek jenom tam, kam patří
+
+  * kruh - propojení obou konců sběrnice
+  * strom - kombinace sběrnice a hvězdy
+  * samostatný počítač (virtuální síť)
+
+===== sběrnicová topologie =====
+  * jediný kabel, propojuje všechny počítače v síti
+  * data jsou posílána všem počítačům v síti, ale pouze jeden tu informaci přijímá (jakože adresát)
+  * vyslaná zpráva se šíří po sběrnici oběma směry
+  * snadná realizace, nevyžaduje tolik kabeláže, omezená délka kabelu, problém s kabelem -> nefunkční celá síť, čím víc připojených stanic, tím menší výkonnost sítě
+
+===== hvězdicová topologie =====
+  * každý počítač je pomocí kabelu připojen k centrálnímu prvku (hub nebo switch)
+  * pokud selže 1 kabel, ostatní bude v pohodě fungovat dál
+  * na 1 kabelu 1 počítač -> nedochází ke kolizím mezi pakety a také může současně přenášet data více počítačů
+  * když mám velkou síť -> spotřebuju hodně kabelu
+  * v případě selhání centrálního prvku přestane fungovat celá síť
+
+===== kruhová topologie =====
+  * jeden uzel je připojen k dalším uzlům tak, že vytvoří kruh
+  * data v PC1 do PC4 musí projít přes 2 a 3 (nebo můžou jít i opačným směrem)
+  * přenost dat je relativně jednoduchý protože pakety se posílají jedním směrem
+  * nevznikají kolize
+  * závady se ale hledají velmi těžko
+
+===== stromová topologie =====
+  * spojení aktivních síťových prvků, které jsou v centrech jednotlivých hvězd
+  * propojení se používá především v rozsáhlích sítích ve velkých firmách
+  * jedna hězdice - jedno patro, oddělení, apod + hvězdice znovu spojím
+  * pokud selže 1 síťový prvek, ostataní můžou v pohodě pokračovat
+  * zvyšuje bezpečnost
+  * snižuje množství kabeláže
+
+====== síťové prvky ======
+  * modem
+    * zařízení pro převod mezi analogovým a digitálním signálem a naopak
+  * switch
+    * analýza procházejících paketů a podle informací v nich obsažených (adres, identifikátorů apod.) rozhodují, kam paket předat dál
+    * je to chytřejší hub!
+  * repeater
+    * přijímá zkreslený, zašuměný nebo jinak poškozený signál a opravený, zesílený a správně časovaný ho vysílá dále
+  * bridge
+    * ve své paměti RAM sám sestaví tabulku MAC (fyzických) adres a portů, za kterými se dané adresy nacházejí
+    * leží-li příjemce ve stejném segmentu jako odesílatel, most rámce do jiných částí sítě neodešle
+    * v opačném případě je odešle do příslušného segmentu v nezměněném stavu
+  * hub
+    * umožňuje větvení počítačové sítě
+    * základ hvězdicových topologií
+    * jako repeater
+    * veškerá data, která přijdou na jeden z portů (zásuvek) zkopíruje na všechny ostatní porty, bez ohledu na to kterému portu (počítači a IP adrese) data náleží
+    * všechny počítače v síti „vidí“ všechna síťová data
+    * nástupcem síťových rozbočovačů jsou switche,  které síťový provoz inteligentně směrují
+  * router
+    * spojuje dvě sítě a posílá mezi nimi data
+  * firewall
+
+
+
+
+
+

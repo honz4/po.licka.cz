@@ -1,0 +1,93 @@
+<WRAP center round tip 60%>
+SPI, SGI, dálkový přístup, geometrický plán
+</WRAP>
+====== ISKN ======
+  * Katastr nemovitostí je jedním z datově nejrozsáhlejších informačních systémů státní správy. V roce 1998 byla dokončena digitalizace jeho souboru popisných informací, nyní se pracuje na digitalizaci souboru geodetických informací.
+  * Informační systém katastru nemovitostí (ISKN) je integrovaný informační systém pro podporu výkonu státní správy katastru nemovitostí a pro zajištění uživatelských služeb katastru nemovitostí. 
+  * ISKN obsahuje prostředky pro **vedení souborů popisných informací**, **pro vedení souborů geodetických informací**, **pro podporu správních a administrativních činností při vedení katastru nemovitostí a pro správu dokumentačních fondů**. 
+  * Některé úpravy ISKN jsou rovněž součástí projektu „Vybudování Registru územní identifikace, adres a nemovitostí a modernizace Informačního systému katastru nemovitostí ČÚZK„ číslo CZ.1.06/1.1.00/03.05893, který je spolufinancován z prostředků Evropské unie, Evropského fondu pro regionální rozvoj. Tyto úpravy zajišťují jednak součinnost ISKN s ISÚI pro editaci RÚIAN (oba jsou jeho editačními agendovými systémy), přičemž ISÚI obsahuje pouze ta data územní identifikace, která neobsahuje ISKN, a dále zajišťují vazbu ISKN na systém základních registrů, zde jde zejména o zavedení AIFO pro elektronickou výměnu dat namísto RČ a ověřování vlastníků a jiných oprávněných oproti ROB namísto dřívějšího IS EO. Smluvně jsou tyto úpravy odděleny, ale jsou technicky navzájem koordinovány s úpravami ISKN podle smluv o rozvoji ISKN.
+  * 
+====== Katastr nemovitostí ======
+
+Katastr nemovitostí České republiky je veřejným souborem údajů o nemovitostech v České republice, zahrnující jejich popis, soupis, geometrické a polohové určení a zápis práv k těmto nemovitostem. Vznikl ke dni 1. 1. 1993 na základě zákona č. 344/92 Sb., o katastru nemovitostí České republiky (katastrální zákon) a zákona č. 265/1992 Sb., o zápisech vlastnických a jiných věcných práv k nemovitostem. Od 1. 1. 2014 jsou tyto zákony nahrazeny zákonem č. 256/2013 Sb., o katastru nemovitostí (katastrální zákon). Problematika zápisu věcných práv do katastru nemovitostí a zásady, kterými se katastr řídí, jsou součástí nového občanského zákoníku.
+
+  * zákon č.256/2013 Sb., o katastru nemovitostí České republiky (**katastrální zákon**)
+  * zákon č.175/2003 Sb., **o zeměměřických a katastrálních orgánech**
+  * 357/2013 Sb. Vyhláška o katastru nemovitostí (katastrální vyhláška)
+  * 358/2013 Sb. Vyhláška o poskytování údajů z katastru nemovitostí
+  * 359/2013 Sb. Vyhláška o stanovení vzoru formuláře pro podání návrhu na zahájení řízení o povolení vkladu
+
+-----------
+  * jeho základní jednotkou je katastrální území
+  * jeho operát tvoří:
+    * **soubor geodetických informací (SGI)**
+      * zahrnuje katastrální mapu (včetně číselného vyjádření ve stanovených KÚ)
+    * **soubor popisných informací (SPI)**
+      * zahrnuje údaje o KÚ, o parcelách, stavbách, o bytech a nebytových prostorech, o vlastnících,...
+    * souhrnný přehled půdního fondu
+    * dokumentace výsledků šetření a měření pro vedení a obnovu SGI
+    * sbírka listin
+
+==== zásady vedení KN ====
+  - zásada intanbulance
+    * Uplatňuje se v případě zápisu vkladu práva do katastru nemovitostí. Teprve vkladem nastávají věcněprávní účinky smlouvy (nemá nic společného s platností či účinností smlouvy). 
+  - zásada dispoziční
+    * Projevuje se u žádosti o vklad. Řízení o povolení vkladu se u příslušného katastrálního úřadu zahajuje ve chvíli, kdy návrh na vklad katastrálnímu úřadu dojde. Místně příslušným je katastrální úřad, v jehož obvodu leží dotčená nemovitost. K návrhu musejí být připojeny přílohy, které zákon vyžaduje (smlouva v určitém počtu vyhotovení, geometrický plán atd.). 
+  - zásada priority
+    * Pořadí zápisů v katastru nemovitostí se řídí dobou, ve které došel katastrálnímu úřadu návrh na vklad nebo listina jako podklad k provedení záznamu nebo poznámky. 
+  - zásada legality
+    * Úkolem katastrálních úřadů je kromě evidence údajů o nemovitostech také zkoumat, zda jsou prováděné změny v právních vztazích k nemovitostem v souladu s obecně závaznými právními předpisy. Zkoumá se především oprávnění účastníků nakládat s předmětem smlouvy, předepsaná forma právního úkonu, určitost smluvního projevu. Katastrální úřad po přezkoumání věci vklad povolí nebo návrh zamítne.
+  - zásada speciality
+    * zajišťuje jednoznačnost, určitost a nespornost zápisu
+  - zásada dobré víry
+    * Ten, kdo vychází ze zápisu v katastru nemovitostí učiněného po 1.1.1993 (účinnost nového zákona č. 265/1992 Sb., o zápisech vlastnických a jiných věcných práv k nemovitostem), je v dobré víře, že stav katastru odpovídá skutečnému stavu věci, ledaže musel vědět, že stav zápisů v katastru nemovitostí neodpovídá skutečnosti. 
+  - zásada veřejnosti
+    * Každý má právo nahlédnout do katastru nemovitostí, který je veřejný, a učinit si o právních vztazích opisy či výpisy. Každý má také právo nahlížet do evidence doručených návrhů na vklad do katastru nemovitostí. V současné době lze nahlédnout do některých údajů z katastru nemovitostí zdarma na následující adrese: www.cuzk.cz
+  - zásada oficiality
+    * všechny změny se zapisují na základě úřední povinnosti
+
+====== dálkový přístup ======
+  * Dálkový přístup (dále jen DP), poskytovaný Českým úřadem zeměměřickým a katastrálním, umožňuje získávat údaje z katastru nemovitostí
+  * Výstupy z KN pořízené tímto způsobem (např. VÝPIS z KATASTRU NEMOVITOSTÍ a další) jsou formálně i věcně naprosto shodné s dokumenty vydanými katastrálním úřadem.
+  * umožňuje registrovaným uživatelům on-line přístup k údajům katastru nemovitostí (KN)
+  * Aplikace DP je založena na třívrstvé architektuře (databázová, aplikační a prezentační vrstva).
+  * DP poskytuje podmnožinu funkcí aplikace PU, u některých typů reportů jsou zavedeny omezující podmínky jako ochrana proti příliš rozsáhlým výstupům. Výsledné sestavy se generují do formátu PDF nebo HTML, výstupy ve formátu PDF je možné označovat elektronickou značkou založenou na kvalifikovaném systémovém certifikátu (v současně době se tak označuje Výpis z katastru nemovitostí a Kopie katastrální mapy). V grafické části DP je možné zobrazovat vektorové (DKM a vektorová složka orientační mapy parcel) i rastrové podklady (ortofoto, rastrové základní mapy v měřítku 1:50000 a 1:10000, mapy KN a mapy PK). Zobrazení je možno doplnit vrstvami definičních bodů budov a parcel.
+===== výstupy z katastru nemovitostí poskytované prostřednictvím dálkového přístupu =====
+  * **list vlastnictví (LV) / taky výpis z KN**
+    * Obsahuje:  jméno vlastníka a spoluvlastníků, RČ občanů nebo identifikační číslo organizací, parcelní, popisné a evidenční čísla nemovitostí, které uvedený vlastník vlastní
+    * Dokládá existenci shodného právního vztahu typu vlastnictví pro jednoho nebo více oprávněných subjektů k jedné nebo více nemovitostem. v částech označených A až F obsahuje:
+      * **část A**: označení právního vztahu a údaje o vlastníku nebo spoluvlastnících a jejich podílech nebo jiných oprávněných subjektech s uvedeným právním vztahem k nemovitostem uvedených v části B.
+      * **část B**: údaje o nemovitostech, tj. parcelách, parcelách evidovaných zjednodušeným způsobem, budovách, bytových jednotkách a nebytových prostorech. Stojí-li na pozemku cizí budova, je uvedeno i číslo LV, na kterém je budova zapsána jako vlastnictví. Obdobně je-li předmětem vlastnictví budova, nikoliv však pozemek, na kterém stojí, je uveden odkaz na číslo LV, na němž je zapsáno vlastnictví pozemku. Část B1 je určena pro zápisy jiných věcných práv, která mají subjekty uvedené v části A k cizím nemovitostem.
+      * **část C**: omezení vlastnických práv (břemena, zástavy apod.) k nemovitostem zapsaným v části B.
+      * **část D**: výčet nabývacích titulů, tj. listin vztahujících se k vlastnictví nemovitostí v části B.
+      * **část E** : zápisy technické povahy.
+      * **část F**: týká se pouze zemědělských pozemků a obsahuje jejich zařazení do bonitních půdně ekologických jednotek (BPEJ). V případě, že některá z nemovitostí zapsaných v části B tohoto LV je dotčena aktuální změnou právních vztahů, je zde označena písmenem P („plomba“) a na konci výpisu je poznámka s číslem řízení, na jehož základě byla plomba vyznačena. Sestava Výpis z katastru nemovitostí vytvořená ve formátu PDF je opatřena elektronickou značkou poskytovatele (ČÚZK) a lze ji tedy považovat, ve smyslu zákona, za elektronickou veřejnou listinu
+
+      * [[http://www.cuzk.cz/Katastr-nemovitosti/Poskytovani-udaju-z-KN/Dalkovy-pristup/Vystupy-z-KN-poskytovane-prostrednictvim-DP/Vypis_z_katastru_nemovitosti.aspx|UKÁZKA VÝPISU Z KN]]
+
+  * **Informace o parcelách**
+  * **Informace o stavbách**
+  * **Informace o bytech a nebytových prostorech (jednotkách)**
+
+  * **Výstupy poskytované zjednodušeným přístupem**
+    * Funkce tzv. „zjednodušeného přístupu“ umožňují získat rychle základní informace o zadaném listu vlastnictví (údaje o vlastnících a zapsaných nemovitostech) nebo zadané nemovitosti (list vlastnictví na němž jsou zapsány, případě druh a využití pozemku a údaje o souvisejících objektech). Informace jsou generovány bezprostředně a bezplatně přímo na obrazovku.
+    * [[http://www.cuzk.cz/Katastr-nemovitosti/Poskytovani-udaju-z-KN/Dalkovy-pristup/Vystupy-z-KN-poskytovane-prostrednictvim-DP/prehled_vlastnictvi.aspx|přehled vlastnictví]], evidence práv pro osobu, průběh řízení, zobrazení přehledové a katastrální mapy, kopie katastrální mapy v pdf, ...
+
+====== geometrický plán ======
+  * technický nástroj a neoddělitelná součást všech právních listin, podle nichž má být proveden zápis do katastru nemovitostí (Např. při rozdělení stávajícího pozemku, při dokončení budovy, …)
+  * musí být vždy vyhotoven na základě výsledků zeměměřických činností
+  * může sloužit jako mapový podklad pro vytyčování hranic pozemků
+
+  * proč se vyhotovují GP?
+    * změna hranice KÚ
+    * rozdělení nebo změna hranice pozemku
+    * vyznačení nebo změna obvodu budovy, která je hlavní stavbou na pozemku, a vodního díla
+    * doplnění souboru geodetických informací o pozemek evidovaný dosud zjednodušeným způsobem
+    * průběh hranice určené soudem
+
+  * náležitosti GP
+    * popisové pole, grafické znázornění, výkaz výměr dosavadního a nového stavu údajů katastru nemovitostí, seznam souřadnic, výkaz údajů o bonitovaných půdně ekologických jednotkách (BPEJ), vytyčovací náčrt?
+
+{{ ::gp1.png?nolink |}}
+{{ ::gp2.png?nolink |}}
+{{ ::gp3.png?nolink |}}

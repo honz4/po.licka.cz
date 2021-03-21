@@ -1,0 +1,25 @@
+====== určení souřadnic ======
+  * kartometricky
+    * odečíst z mapy pomocí obrazů poledníků a rovnoběžek
+  * geodeticky
+    * výsledek z měření v terénu na základě geodetické sítě nebo GPS
+  * astronomicky
+  * družicově
+
+====== určování polohy ======
+  * proces a technologie používáné ke stanovování polohy bodů v prostoru určené měřením
+===== přímé měření =====
+  * přímé odměření (vzdálenosti podél silnice)
+  * velice  obtížné
+  * např. GPS (ty ale využívají taky některou z metod přímého měření)
+===== nepřímé měření=====
+  * vyhodnocování měření jiných veličin, než jsou přímo souřadnice
+  * **úhloměrné  měření**
+    * změření azimutu k alespoň dvěma známýým bodům -> proložím to přímkami -> hledaný bod je v průsečíku přímek
+    * teodolit
+  * **dálkoměrná měření**
+    * při určování polohy pomocí rádiových signálů 
+    * vysílač o známé poloze vysílá rádiový signál-> zjistím vzdálenost od něho -> určení vzdáenosti k alespoň dvěma přijímačům -> hledaná poloha je jako průsečík obou kružnic
+    * GPS!!
+    * pozor na přesnou synchronizaci času
+

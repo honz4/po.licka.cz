@@ -1,0 +1,7 @@
+====== Geoestadística y análisis multivariante ======
+
+Normal distribution
+- H0: Data follow a normal distribution
+- H1: Data don't follow a normal distribution
+
+if P-value < 0.05

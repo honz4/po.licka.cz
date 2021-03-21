@@ -1,0 +1,260 @@
+====== časové horizonty rozhodování ======
+  * operativní – okamžité (sekundy, minuty, hodiny)‏
+  * krátkodobé – taktické (dny, měsíce)‏
+  * střednědobé – výhledové (roky, pětiletí)‏
+  * dlouhodobé – strategické (dekády)‏
+
+====== monitoringy ======
+  * **Geochemický monitoring**
+    * sledování látkových toků a energomateriálových bilancí a jejich změn v krajině v důsledku činnosti člověka a narušeni životního prostředí
+    * založen na odebírání vzorků, analýze obsahu prvků a látek a měření látkových toků v jednotlivých složkách prostředí - povrchové a podzemní vodě, půdě, ...
+    * ideální územní pro sledování energomateriálových toků  - povodí
+
+    * mezinárodní projekt GEOMON - dlouhodobé měření látkových toků a sledování jejich změn v malých modelových povodích (např. Lesní potok u Jevan)
+    * cíl: dlouhodobé řady dat, umožňujících stanovení případných změn a trendů ve vývoji biogeochemického metabolismu krajiny.
+
+  * **Biologický monitoring (biomonitoring)**
+    * založen na sledování změn prostředí pomocí monitorování výskytu a početnosti rostlinných a živočišných druhů v krajině.
+    * volba vhodných bioindikačních druhů (signalizační, testovací, akumulační, všeobecně detekční, kontrolní indikátory).
+
+  * **Bioindikace a biodiagnostika**  
+    * prováděny na úrovni buněčného výzkumu, tkání, ústrojí, organismů,  populaci a
+ společenstev
+    * stav, patologické,  fyziologické a etologické změny jsou často interpretovány pomocí metod matematické statistiky (diagnostika odchylek od normálního stavu)
+
+====== HODNOCENÍ VÝVOJE KRAJINY ======
+  * vývoj krajiny či její formování  - výsledkem 3  základních mechanizmů
+
+  * specifických dlouhodobých geomorfologických procesů
+  * osídlování krajiny organizmy
+  * disturbance 			=> lze definovat klíčové faktory, které krajinu spoluutvářejí	
+  * Hodnocení krajiny  - proces, v rámci něhož je krajina popisována, klasifikována a analyzována s následnou formulací výsledků.
+  * » mezioborová činnost zahrnující různé vědní disciplíny a jejich aplikace v plánování a managementu
+  * » základním aplikačním rysem v současnosti  je antropocentrická orientace
+  * » rozhodující faktor pro zvolení nejvhodnějšího přístupu k rozvoji určitého území
+  * » princip hodnocení změn= porovnání a kvantifikace dat ze dvou či více časových období
+  * » vyhodnocení vývoje struktury krajiny by mělo odpovědět na čtyři základní otázky
+====== Dílčí kroky procesu hodnocení krajiny ======
+  * I. Přípravná fáze
+    * shromažďování podkladů,příprava kapacit (lidských, materiálních,...),volba metody a techniky hodnocení,zpracování podkladu (digitalizace,...)
+  * II. Analýza území
+    * literární rešerše,analýza charakteristik území,“overlay“ analýza
+  * III. Terénní průzkum
+    * terénní šetření,dokumentace území,odběry vzorků
+  * IV. Prezentace výsledků
+  * vyhodnocení výsledků,projednání s odborníky a veřejností,závěry a doporučení
+
+  * přípravné mapování  - shromažďování podkladů, interpretace map, leteckých a družicových snímků, diferenciace krajiny
+  * základní mapování a průzkum biotopů  - celoplošný terénní průzkum, korekce diferenciace krajiny
+  * speciální mapování a podrobný průzkum biotopů  - selektivní činnost v ekologicky hodnotných územích, součinnost týmu specialistů
+
+====== úrovně hodnocení ======
+  * stanovení základních identifikačních znaků krajinných charakteristik (struktura, funkce, změna)
+  * hodnocení stavu zastoupených prvků
+====== Měřítko hodnocení ======
+  * úroveň či měřítko hodnocení rozhodují o reprezentativnosti získaných výsledků
+  * hodnocení může být prováděno na několika úrovních, resp. v různých měřítkách
+  * na tvar většinou nejsou kladeny příliš striktní požadavky na velikost ano
+  * nutné stanovit s ohledem na plánované formy hodnocení a využití, zvolené měřítko a podrobnost analýzy.
+  *  přísnější požadavky na stanovení krajinné jednotky jsou v případech, kdy v rámci těchto jednotkových ploch budou dále probíhat analýzy, jejichž výsledky pak mají mít reprezentativní charakter vždy pro celou krajinnou jednotku.
+
+====== Současnost - Rutina I (G)IT v OŽP ======
+  * GIS a správa území
+    *  zákres entit zachycující děje a činnosti v krajině
+    * extrahování doplňujících informací  z GIS (rozloha, parcely, souřadnice) a export do RTF
+    *  příprava měření a zpracování dat z GPS					
+    *  příprava a tisk situačních map
+    * složitější analýzy (větrná eroze, ohroženost sesuvy)
+  * Úkoly obecné informatiky
+    *  plánování a realizace nákupu drobného HW a jeho servis
+    *  aktualizace, reinstalace customizace SW	
+    *  tvorba dat, zálohování
+    *  základní práce síťových požadavků
+  * GIS a státní správa
+    * vyhledání parcel & zjišťování zóny, stavu (OF)
+    * tisk situačních map		
+    * zjišťování vlastníků, export do RTF
+  * Poskytování informací
+    *  požadavky z MŽP, AOPK				
+    *  požadavky studentů a ext. spolupracovníků*			
+    *  požadavky jiných organizací (projektanti)*
+
+====== Ochrana ŽP v ČR ======
+  * zákon 17 / 1991Sb. - definuje právo člověka na kvalitní ŽP
+  * zákon 114/1992 Sb. (vyhl. 395/1992 Sb.) => zákon 218/2004 Sb. O ochraně přírody a krajiny
+  * účelem zákona je přispět
+  * k udržení a obnově přírodní rovnováhy v krajině	
+  * k ochraně rozmanitosti forem života, přírodních hodnot a krás
+  * k šetrnému hospodaření s přírodními zdroji (§ 1).
+
+  * Ochrana přírody  (§2) = vymezená péče  státu a fyzických osob o volně žijící živočichy,  planě rostoucí rostliny a jejich společenstva,  o nerosty, horniny, paleontologické nálezy a geologické celky,  péče o ekologické , systémy a krajinné celky,  péče o vzhled a přístupnost krajiny
+
+  * **Orgány ochrany přírody**
+    * mají výkon státní správy,obecní úřady,pověřené obecní úřady,obecní úřady obcí s rozšířenou působností (OŘP),krajské úřady,Správy národních parků a  AOPK  - Správy CHKO,Česká inspekce životního prostředí (ČIŽP),Ministerstvo životního prostředí (MŽP),újezdní úřady, Ministerstvo obrany
+  * **Zvláštní ochrana přírody a krajiny**
+    * velkoplošná ZCHÚ – NP, CHKO,maloplošná ZCHÚ – NPR, NPP, PR, PP,ochrana druhů – zvláště chráněné druhy rostlin a živočichů (seznam ve vyhl. 395/1992 Sb. -  (kriticky ohrožené, silně ohrožené, ohrožené)),památné stromy
+
+  * **Obecná ochrana přírody a krajiny**
+    * významné krajinné prvky (VKP),přechodně chráněné plochy,přírodní park,Územní systém ekologické stability (ÚSES),obecná ochrana organismů,,ochrana dřevin - povolení ke kácení dřevin, náhradní výsadba,ochrana a využití jeskyní,ochrana paleontologických nálezů,ochrana krajinného rázu,
+  * **Ochrana přírody a krajiny s mezinárodním statusem**
+    * Biosferické rezervace (MAB – UNESCO),EECONET - cíl vytvořit společnou územně propojenou síť, zabezpečující ochranu, obnovu a nerušený vývoj ekosystémů a krajin nesporného evropského významu, integrovanou s ostatními způsoby využití,ÚSES národní ekologickou síť; klíčová území EECONET jsou části krajiny se soustředěnými přírodními hodnotami celonárodního a celoevropského významu,Biogenetické rezervace,Mokřady mezinárodního významu (RAMSAR),NATURA 2000 – ptačí oblasti, evropsky významné lokality
+
+  * aopk cenia, čgs, vuv, vumop, mžp, mze, mmr, sip, av čr, čhmu, geofond
+
+====== GIS a výkon státní správy ======
+  * v které zóně odstupňované ochrany přírody se dotčená parcela nachází?
+  * je  dotčená parcela v interakci (dotýká se, protíná, sousedí) s prvky ÚSES?
+  * které parcely tvoří zájmové území a kdo je vlastníkem daných parcel?
+
+====== GIS a odborná činnost ve vztahu k ... ======
+  * Lesnictví*
+    * vyjádření k LHP
+    *  ovlivnění dřevinné skladby, způsobu hospodaření
+    *  vylepšovací a ochranné práce v porostu
+    *  evidence zásahů
+    * data LHP tzn. hospodářské knihy & lesnické mapy
+    * přísun novel a vyhlášek k Lesnímu zákonu
+  * Zemědělství*
+    * omezení vybraných technologií dle platné zonace
+    * nástroje pro rozvoj šetrných technologií  -  pastva, rychle rostoucí plodiny
+    * stanovování oblastí zvláštního režimu a specifické intenzity hospodaření
+    * každoroční potvrzování zemědělských pozemků ležících v CHKO pro Mze
+    * evidence zásahů
+    * katastrální mapy (PK, EN, KN, LTB)+ SPI, mapy zemědělských bonitovaných ploch
+(od roku 2003 závazný podklad pro dotace)
+    * databáze zemědělských subjektů
+    * aktualizovaný landcover/landuse
+    * mapy přírodních podmínek
+    * (geologie, pedologie BPEJ/KPP, klima, reliéf, ohroženost půd, botanické a zoologické okrsky)
+  * Vodní hospodářství & Revitalizace
+    * vyjádření ke stavbám / VH objektům
+    * odborné stanoviska a podklady pro revitalizační zásahy
+    * evidence zásahů
+    * katastrální mapy (PK, KN)+ SPI
+    * vodohospodářské mapy
+    * hydrologické tabulky / databáze ČHMU, VUV - profily, průtoky, VH objekty
+    * aktualizovaný landcover/landuse
+    * mapy přírodních podmínek
+    * (geologie, pedologie BPEJ/KPP, klima, reliéf, ohroženost půd, botanické a zoologické okrsky)
+  * Krajinné plánování & Urbanistika
+    * správní činnost
+    * stanovení regulativů a stavebních uzávěr
+    * připomínkování ÚPD, posuzování a odborné stanoviska k ÚSES,
+    * závazná a doporučená pravidla pro architekturu dle krajinného rázu
+    * posuzovaní a odborná spolupráce na programech podpory mimo-produkčních funkcí krajiny - protierozní ochrany, výsadby prvků USES,
+ evidence zásahů
+    * data a mapové podklady Terplanu - ÚTP, ISÚ, Biogegrafické členění ČR, síť EECONET
+    * zonace, mapy přírodních poměrů
+  * Pozemkový fond
+    * nutno aktualizovat rozsahy ZCHU, I.zón, ...
+    * katastrální mapy + SPI
+  * Demografie & Rekreace
+    * osídlení, počty obyvatel
+    * evidence aktivit
+    * správní rozhodnutí
+    * vedení NS
+    * katastrální mapy + SPI
+    * zonace, mapy přírodních poměrů
+    * data ČSU
+    * nálezové databáze
+  * Průmyslové aktivity
+    *  evidence středisek průmyslu a zón jejich vlivu (REZZO 1-3,…)
+    * dobývací prostory
+    * katastrální mapy + SPI
+    * zonace, mapy přírodních poměrů
+    * data Geofondu, ČGS
+
+====== Specifická odborná činnost ======
+  * » Analýza rizikových míst krajiny (např. eroze)
+    * informace pro prioritu krajinných úprav, výsadby, přednostní řešení ÚSES...
+  * Vygenerování informační vrstvy STG  + tabulka dřevin x zásahů dle jednotlivých typů
+    *  podpora ÚSES, krajinného plánování,  výzkumu...
+  * Vygenerování informační vrstvy geosystémů  (=ekotopů)
+    * využití pro potřebu botaniků, managementu, zoologů,  výzkumných projektů
+    * pro srovnání ploch a  extrapolaci závěrů pro MGM
+    * Predikce reakce vegetace na stress
+    *  Porovnání obdobných preferencí u zájmových populací v prostředí jiných GSM jednotek
+    * Vyhledání vhodných  stanovišť pro migrující jedince
+    * Stanovení faktoru, který nejvíce rozhodl o směru a délce cesty
+    * Závislost počtu mláďat na faktorech stanoviště
+  * Lokalizace  TVO (turisticky významných objektů)
+    * NS, turistické cesty, MZCHU při rozhodovací činnosti
+    * vytipování míst největší koncentrace návštěvníků v krajině.
+  * Analýzy biodiverzity (=archivace monitoringu)
+    * v interakci s přírodními poměry
+    * antropogenními zásahy (jednotlivě x GSM).
+  * Vylišení KES a ekologicky nestabilních ploch
+    * pro rozvoj území, MGM krajiny,  
+  * Makroekologické studie druhového rozložení, stanovišť a biodiverzity za využití GIS a kanonické  korespondenční analýzy.
+    * modelování  rozptylu organismů na podkladu komplexního modelu krajiny  
+====== GIT a krajinotvorné programy v ČR ======
+  * Krajinotvorné programy jsou programy, které mají za cíl financovat rozvoj nebo obnovu krajiny (venkovské i městské) s ohledem na zachování přírodního nebo kulturního specifika české krajiny.
+  * Jednotlivé programy jsou nejčastěji rozděleny do více dotačních titulů a jsou vyhlašovány Ministerstvem životního prostředí
+, Ministerstvem zemědělství,Ministerstvem pro místní rozvoj.
+    * Většina dotací je přidělována podle různého klíče s podílem spolufinancování žadatele (obec, firma, příspěvková organizace apod.).
+===== Programy MŽP =====
+  * dotované z národních zdrojů: Program péče o krajinu,Program revitalizace říčních systémů,Program péče o přírodní prostředí – SFŽP,Program stabilizace lesa v Jizerských horách a na Ještědu,Správa nescizitelného státního majetku v zvláště chráněných územích (MAS),Program drobné vodohospodářské ekologické akce (dotace na výstavby, rekonstrukce kanalizace nebo ČOV v obcích do 3000 obyvatel)
+
+====== GIT & Ekologické sítě - ÚSES ======
+  * územní systém ekologické stability (USES)
+  * tvořen sítí ekologicky stabilnějších formací i druhově bohatších segmentů krajiny, které jsou na základě funkčních a prostorových   kritérií účelově rozmístěny v krajině.
+
+  * uchování a podpora přirozeného genofondu krajiny
+  * příznivé působení na okolní méně stabilní krajinu a jejich prostorové oddělení
+  * podpora polyfunkčního využívání krajiny
+  * uchování významných krajinných fenoménů  
+  * skladebné části: biocentrum,biokoridor,interakční prvky,lokální, regionální a nadregionální úroveň
+  * ÚSES je součástí ekologických sítí (společně se soustavou chráněných území NATURA 2000 a nadstavbou Evropské ekologické sítě EECONET).
+  * Biocentra -  umožňují trvalou existenci druhů i společenstev, přirozeného genofondu krajiny
+  * Biokoridory -  umožňují migraci šíření a vzájemné kontakty organismů
+  * Interakční prvky -  EVKP , EVLS
+    * vytvářejí existenční podmínky rostlinám a živočichům významně
+    * ovlivňujícím fungování ekosystémů krajiny (ekotonová společenstva
+    * okrajů lesů, remízky, solitérní dřeviny v krajině
+  * EVKP - ekologicky významný krajinný prvek (do 10 ha)
+  * EVLS - ekologicky významné liniové společenstvo
+
+  * Úrovně
+    * Provinciální a biosferické
+      * reprezentují bohatství naší bioty v rámci biogeografických provincií a celé planety
+      * ( > 10 000 ha )
+    * Nadregionální ekologicky významné krajinné celky s charakteristickými společenstvy
+      * ( > 1 000 ha )
+    * Regionální
+      * plošně rozlehlejší EVSK (10 - 50 ha )
+    * Místní (lokální)
+      * plošně méně rozlehlé EVSK ( 5 - 10 ha )
+  * Formy:
+      * Generel ÚSES  -  teoretická úroveň, pouze zpracování na základě metodických pokynů a přírodovědných hledisek
+      * Plán ÚSES  -  právně závazný, Generel ÚSES se stává plánem, pokud jeschválen v rámci územně plánovací dokumentace (ÚPD),v případě územního plánu (ÚP) obce zastupitelstvem obce,nebo Ministerstvem pro místní rozvoj v případě územního plánu velkého územního celku
+      * Projekt ÚSES  -  již konkrétní projekt vyhotovený pro účely realizaceprvků ÚSES v krajině
+
+===== IS ÚSES =====
+  * jednoznačně definované přístupové místo se všemi údaji o ÚSES
+  * rychlý přístup k údajům o ÚSES
+  * zajištění (garance) aktuální (nejnovější) podoby a věcné správnosti ÚSES
+  * existence jednotné srovnávací báze údajů o ÚSES
+  * možnost využívání ÚSES jako koncepčního nástroje ochrany a tvorby krajiny
+  * jednoznačné stanovení závaznosti konkrétních vymezení skladebných částí ÚSES
+  * možnost nápravy věcných i formálních nedostatků vymezení ÚSES
+  * možnost rychlého ověření věcné i formální správnosti nových návrhů, změn a upřesnění skladebných částí ÚSES
+  * historie lokalizace a vymezení skladebných částí ÚSES
+
+  * Kritéria, která rozhodují o výsledném rozmístění ÚSES v krajině
+    * kritérium rozmanitosti potenciálních ekosystémů
+    * kritérium prostorových vztahů potenciálních ekosystémů
+    * kritérium aktuálního stavu ekosystémů
+    * kritérium nezbytných prostorových parametrů
+    * kritérium společenských limitů a záměrů  
+    * Vymezení kostry ekologické stability
+    * na  základě  porovnání potenciálního a současného stavu krajiny
+    * princip relativního výběru
+    * obsahuje již fungující segmenty krajiny
+    * je víceméně náhodně roztroušena
+
+
+
+
+
+
+

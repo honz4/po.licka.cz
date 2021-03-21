@@ -1,0 +1,30 @@
+====== POPIS ======
+  * genetický algoritmus, který vytváří soubor pravodel založených na environmentálních proměnných aby určil vhodnou oblast pro druhy
+  * obsahuje několik odlišných algoritmů v interaktivním uměle inteligentním přístupu
+  * individuální algoritmy s různými předpovídanými přístupy
+  * předpovídá přesnost, testuje to porovnáváním sad bodů převzorkovaných ze známých výskytových a background bodů
+  * výsledkem je sada 5 až 50 různých pravidel, které dohromady určují rozsah ekologických nik druhů
+  * srážky + teplota (průměry a extrémy), ale navíc i vegetace, výška, sklon, orientace, půdní typ
+  * může předpokládat distribuci druhů v místech, která dosud nezamořily
+  * výsledkem může bt: soubor vzorových pravidel, mapa, ASCII grid
+  * garp best subsets
+    * několik GARP modelů, na základě ommission a commission orrerů vybere ty nejlepší modely a splácne je dohromady
+
+
+
+
+===== reference =====
+
+
+https://en.wikipedia.org/wiki/Genetic_Algorithm_for_Rule_Set_Production
+
+http://www.nhm.ku.edu/desktopgarp/UsersManual.html
+
+http://www.ncbi.nlm.nih.gov/pubmed/16506453
+
+http://www.bio-nica.info/biblioteca/Stockwell1999-GARP.pdf
+
+http://stackoverflow.com/questions/17648414/how-to-go-about-garp
+
+https://landshape.wordpress.com/2006/10/05/garp-modelling-system-users-guide-and-technical-reference/
+

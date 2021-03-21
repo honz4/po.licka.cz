@@ -1,0 +1,24 @@
+~~NOCACHE~~
+====== interwiki ======
+  * pridat conf/interwiki.local.conf
+  * pridat lib/images/interwiki/*.{gif,png}
+
+====== interwiki.local.conf ======
+  * [[cc>|creative commons]]
+  * [[cs>|cs.wikipedia]]
+  * [[die.net>|linux.die.net/man pages]]
+  * [[cref>|C/C++ reference]]
+  * [[so>|stackowerflow]]
+  * [[github>search|github/search]]
+  * [[sf>|sourceforge.net]]
+  * [[gcode>|code.google.com]]
+  * [[w3c>|W3C]]
+  * [[ted>talks|TED]]
+  * [[csfd>|CSFD]]
+  * [[dox>operatory/cela-cast.c]] realizováno pomocí [[dox>jazykc.tag.html]]
+  * [[iteb>|it-ebooks.info]]
+
+====== používanější interwiki.conf ======
+  * [[wp>|Wikipedia]]
+  * [[man>ls(1)]]
+

@@ -1,0 +1,3 @@
+Grafickou metodou pro stanovení počtu faktorů je sutinový graf, známý též jako scree plot. Jedná se vlastně o graf vlastních čísel (rozptylů) všech faktorů. Křivka grafu je klesající a mez oddělující vhodný počet faktorů nacházíme tam, kde vidíme nejvyšší pokles vlastních čísel mezi dvěma faktory. Na obr. 1 vidíme, že pokud se nechceme omezit na jeden nebo dva faktory, dochází k většímu poklesu grafu až zase mezi čtvrtým a pátým faktorem. Proto bude vhodné se omezit na 4 faktory. 
+
+{{ :wiki:scree.png?nolink |}}

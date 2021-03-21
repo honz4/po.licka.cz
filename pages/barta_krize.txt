@@ -1,0 +1,10 @@
+  * fáze krizového managementu:
+        * přípravné období
+        * realizační období
+        * období renovace
+  * činnosti:
+        * analýza a vyhodnocení bezpečnostních rizik
+        * plánování
+        * organizování
+        * realizace
+        * kontrola činností prováděna v souvislosti s řešením krizové situace

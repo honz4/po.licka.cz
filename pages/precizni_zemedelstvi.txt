@@ -1,0 +1,52 @@
+  * nižší zatížení životního prostředí
+  * co to chce: peníze, nadšené zemědělce, technologie které to umožní realizovat
+    * GNSS
+    * GIS (zpracování a vyhodnocení dat v prostoru, tvorba výnosových map)
+    * sklizňové a analytické senzory a monitory
+    * DPZ
+
+==== aktuální témata ====
+  * nejlepší je snímkování, protože je nedestruktivní
+  * musí to být pokud možno bezkontaktní
+
+
+==== variablitita pozemků ====
+  * nepotřebuje úplně přesná data, ten kombajn má rameno 18 metrů, takže zemědělce zajímá rozlišení 15-20 metrů
+  * = jak se v daném měřítku daná vlastnost významně mění v tom měřítku
+  * smyslem je stanovit variabilitu, tak, aby byla v agronomickém zásahu efektivní 
+  * jak ji zjistím: tradičně (kontaktní metoda a laboratorní analýza): velmi vysoká přesnost, ale velmi nákladná a náročná metoda
+  * UKZUZ = dělá co 4 roky zadarmo, ale když to potřebuju zpřesnit tak si to musím zaplatit sama
+  * nebo to zjistím senzorovýma metodama: mají nižší přesnost stanovení dané vlastnosti, ale mají větší prostorové pokrytí a hlavní výhodou je opakovatelnost
+
+==== ověřování metod mapování ====
+  * mapování půdy (vzorkování, rozbory, kontroly)
+  * mapování porostu (LAI, ...)
+
+==== penetrometrický odpor ====
+==== mapování elektrické vodivosti půdy ====
+  * je dána množstvím volných látek (kationtů)
+  * jaké je procento rozpuštěných kationtů a aniontů -> jaká bude běžná chemická reakce
+  * siemens
+  * výnosová mapa se dělá
+  * je to mnohem lepší než LAI
+  * výnosová mapa = tam kde je to nadprůměrné, tak tam zjistím tu vodivost a to je to ideální pro moje pole
+
+==== dusík a fosfor je to špatný ====
+  * eutrofizace - když to z té půdy odteče do vody
+  * jak ověřit: bud si koupím bedničku se sendou
+
+
+----
+
+  * směřuje to k bezkontaktnímu snímkování
+  * NDVI
+  * dneska jednoznačně Sentinel 2
+  * hyperspekktrální - jsou supr, pokud chci docílit kvantifikace, hyperspektrál proniká 20 čísel pod zem, ale potřebuju mít holou a suchou půdu
+      * pořízení není úplně nejlevnější
+  * kombajn je mobilní zařízení
+  * kombajn má na sobě senzory
+  * 
+
+
+
+

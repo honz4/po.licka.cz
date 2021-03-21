@@ -1,0 +1,23 @@
+
+==== occurence data format ====
+
+<code>
+abundance = hojnost, nadbytek
+ </code>
+As of openModellerDesktop version 1.0.6 your occurrence files need to be in the following format: \\
+#ID-tab-Taxon Name-tab-Longitude-tab-Latitude-tab-Abundance (optional) \\
+Lines starting with # are ignored.
+   * The **-tab-** markers above should be the inserted by pressing the tab key on your keyboard.
+   * The Id can be a number, text or combination there-of.
+   * The taxon name should be separated with spaces and may include specific and subspecific epithet. Note that names should be identical for the ths same taxon otherwise openModeller Desktop will treat each name variation as a separate taxon.
+   * The abundance column is optional. An abundance of 0 is used to indicate an absence record. **Note that not all openModeller algorithms support the use of absence data.**
+   * You can automatically retrieve occurrence data using the openModeller Desktop localities search tool (see below). We recommend using the 'GBIF Rest' option for best results.
+
+
+----
+====== algorithms ======
+
+
+
+https://en.wikipedia.org/wiki/Environmental_niche_modelling
+

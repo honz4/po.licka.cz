@@ -1,0 +1,87 @@
+====== kvalita prostorových dat ======
+  * není závislá nejen na datech ale i na uživateli
+  * přesná, důvěryhodná a dostatečná pro rozhodování uživatele, to jsou kvalitní data
+  * standardy a normy
+        * formalizují kvalitu dat
+  * nejčastěji se jedná o kvalitu prostorových dat ve vztahu k nejistotě
+
+==== dimenze prostorových dat ====
+  * prostor
+  * čas
+  * měřítko
+  * atribut
+  * vztah
+==== komponenty kvality dat ====
+  * polohová přesnost
+  * atributová přesnost
+  * časová přesnost
+  * úplnost
+  * logická konzistence
+  * sémantická přesnost
+  * správnost
+  * rozlišení
+  * původ
+  * účel
+  * použití
+  * rodokmen
+  * metakvalita
+  * homogenita
+  * spolehlivost
+
+
+====== nejistota ======
+  * = naše nedokolané a nepřesné znalosti o světě
+  * **představuje rozdíl mezi obsahem datové sady a jevem, který by data měla reprezentovat**
+  * neúplná reprezentace našeho světa
+  * nejsme si jisti, co přesně měříme nebo vidíme v přírodě nebo ve společnosti, ani jakké závěry vyvodit i z těch dokonalých údajů
+  * není možné vytvořit dokonalou reprezentaci světa
+  * GISy nejsou založené na přirozených jednotkách analázy
+
+===== 3 filtry zkreslení =====
+  * reálný svět -> konceptualizace -> reprezentace -> analýza
+  * nejistota může existovat jednak v umístění hranic zóny, ale také ve vlastnostech dané zóny
+  * **chyba (error)**
+        * rozdíl mezi hodnotou vlastnosti objektu měřenou s neznámou chybou (v testovací sadě) a skutečnou hodnotou vlastnosti objektu měřenou bez chyby (v referenční sadě)
+==== 1. konceptualizace ====
+
+  * **vágnost**
+        * kvůli absenci objektivních geografických jednotek
+        * tranformace bodových událostí na plošné jednotky
+        * vyskytuje se v důsledku špatné definice způsobené špatnou dokumentací nebo pokud jsou sledované objekty rozmazané
+  * **nejednoznačnost (ambiguity)**
+        * návrh vazby mezi ukazatelem a jevem je nejednoznačný
+        * nastává tehdy, pokud se místo samotných jevů používají jejich nedokolané indikátory
+        * např. při řetězení dat, kdy si dle meta-kategorií nejsme jisti zařazením konkrétní třídy do dané kategorie
+  * **fuzzy přístup ke klasifikaci atributů**
+        * **frekvenční pojetí** -> pravděpodobnost daného výsledku je definovaná jako podíl, kolikrát se výsledek vyskytuje v reálném nebo imaginárním experimentu, kdy je počet testů  velmi vysoký
+        * -> problém GIS - má 1 pole s jednou přesnou charakteristikou a 1 pozorovatele
+              * proto **subjektivní koncepce pravděpodobnosti**
+        * ve fuzzy logice může být stupeň příslušnosti objektu ke třídě částečný
+        * landuse, hranice, půdní typy, vegetační typy, ...
+==== 2. reprezentace ====
+  * rozdíl jestli dělám vektor nebo rastr
+  * **mixel** = prvky, u nichž výsledek statistické klasifikace naznačuje výskyt více kategorií (landcover)
+  * chybová matice
+
+==== 3. analýza ====
+  * dobrá GIS analýza nemůže napravit špatné pojetí geografie ani špatnou reprezentaci, ale může oslabit jejich pravděpodobné negativní důsledky
+===== zpracovávání nejistoty =====
+  * **Soft Computing**
+  * fuzzy logika, ANN, GA, teorie chaosu, pravděpodobnostní metody
+
+===== vizualizace nejistoty =====
+  * **grafické proměnné:**
+        * **vnitřní**
+              * mění svoji hodnotu v souvislosti s měnící se nejistotou
+              * systost barvy
+        *** vnější**
+              * ke standardnímu kartografickému vyjídření jsou přidány další objekty
+              * šipky, grafy, ...
+
+  * MacEachren
+        * srovnávací mapy
+              * mapa pro atribut a mapa pro nejistotu
+        * kombinované mapy
+              * oboje na jedné mapě
+        * interaktivní explorační nástroj
+        * sekvenční prezentacex

@@ -1,0 +1,7 @@
+Základní podoba modelu vychází z Newtonovských zákonů. Jak na sebe působí dvě a více mas (počet obyvatel, velikost nákupní plochy, průměrné výdělky obchodních center). Tyto dvě masy se mezi sebou na základě atributu snaží vyčlenit sféry zájmu podle toho, jak má daný bod sílu. Také v tom hraje roli to, jak moc jsou od sebe centra vzdálená.
+<code>masa = atraktivnost daného bodu
+breaking point = mezi dvěmi centry na té spojnici řeším, kde bude breaking point </code>
+
+Modely můžou počítat s euklidovskou vzdáleností, vzdáleností silniční sítě, apod. Do masy můžu vměstnat jakoukoliv kvantifikační charakteristiku.
+
+Masou bude podlahová plocha + ostatní vrsty

@@ -1,0 +1,188 @@
+<WRAP center round tip 60%>
+směry a přístupy, struktura a funkce krajiny, prostorová struktura krajiny a její změny, ochrana krajiny
+</WRAP>
+  * **krajinná ekologie** = multidisciplinární věda, která se zabývá vztahy mezi prostorovým uspořádáním krajiny a ekologickými procesy
+    * Hledá příčiny a následky prostorové heterogenity v různých měřítcích včetně role člověka při tvorbě a ovlivňování procesů v krajině
+  * zaměřuje se na strukturu, prostorový charakter krajinných složek a ekologických objektů (živočichové, biomasa, minerální živiny), funkce, tok objektů mezi krajinými složkami, změny a proměny této mozaiky v čase
+  * **krajina** = souvislé území, vnímané člověkem, jenož pohled je určiván činností a vzájemnou interakcí přírodních a antropogenních činitelů (//úmluva o evropské krajině, 2000//)
+  * **krajina** = otevřený, integrovaný a hiearchicky uspořádaný systém, specificky strukturovaný a dimenzovaný v prostoru a čase. Typ krajiny je definován výskytem a konfigurací ekosystémů, které tvoří základní a strukturní a funkční jednotky krajiny
+  * **krajina** = je ekologicky heterogenní část zemského povrchu, složená ze specifické soustavy ekosystémů, které jsou ve vzájemné interakci
+
+  * **aspekty krajinné ekologie**
+    - krajinná ekologie klade jednoznačný důraz __na prostorové uspořádání__ (spatial configuration) ekologických procesů
+    - krajinná ekologie se často zaměřuje na mnohem __větší prostorová měřítka__ než ta studovaná v klasické ekologii
+
+{{ ::keko.png?nolink&700 |}}
+
+==== měřítko v krajinné ekologii ====
+  * má zásadní význam
+  * problémy životního prostředí a biosféry se projevují na stále větších územích
+    * extrapolace výsledků získaných na základě malých měřítek není vždy možná
+    * výsledky studií prováděných v malém měřítku se často výrazně liší od výsledků získaných ve velkém měřítku (a naopak)
+  * hiearchické struktury v přírodě se taky liší na základě různého měřítka
+  * **ÚROVEŇ ORGANIZACE (LEVEL OF ORGANIZATION)** – popisuje umístění v rámci biotické hierarchie (organismus <-> populace <-> společenstvo <-> biom)
+  * **GRAIN** – nejnižší možná úroveň prostorového rozlišení v daném datasetu
+  * **EXTENT** – velikost studovaného území
+  * v ekologii je měřítko naopat než v kartografii !!!
+  * absolutní měřítko (skutečná vzdálenost, čas,..) vs relativní měřítko (relativní vzdálenost závislá na energii, jež musí daný organismus vydat, aby se dostal z bodu A do bodu B)
+  * měníme-li měřítko, mění se vztah mezi prostorovým uspořádáním a ekologickými procesy
+  * měníme-li měřítko, mohou se měnit statistické vztahy (závislosti)
+
+====== Struktura krajiny ======
+
+
+
+==== Struktura vertikální ====
+  * Struktura vertikální je dána geomorfologií, výškovou členitostí terénu. Je výsledkem přírodních vlivů. Taková krajina je tedy tvořena tzv. krajinnými složkami (klima, voda, půda, přirozená vegetace).
+  * Na krajinu ale nepůsobí pouze přírodní vlivy, člověk svými zásahy mění charakter a strukturu krajiny a překrývá krajinné složky tzv. krajinnými prvky (vznikají tedy spolupůsobením člověka a přírodních faktorů na krajinné složky) a tvoří tzv. krajinnou mozaiku. Antropické vlivy mohou v určitých krajinách překrývat vliv přírodních faktorů (např. lomová těžba kameniva vede ke změně reliéfu, stejně tak lze uvést navršení výsypek a hald v těžebních územích apod.).
+==== Struktura horizontální ====
+
+
+  * Horizontální struktura vyjadřuje vztahy mezi jednotlivými částmi krajinné mozaiky. Z tohoto hlediska můžeme rozeznávat tři základní skladebné součásti krajiny - tzv. krajinnou matrici, plošky a koridory (Forman, Godron, 2003).
+
+  * **Krajinná matrice** je největší a nejspojitější, dominantní (dominující) krajinnou složkou (např. v lesnaté krajině je to les, v zemědělské krajině pole apod.), rovněž v matrici dominující druhy převládají zároveň v celé krajině, má největší výměru a tedy největší vliv na dynamiku krajiny jako celku. Složky převažujícího typu také často řídí procesy v krajině (např. vysoké teploty z matrice pouště ovlivňují oázu apod.).
+    * nejrozsáhlejší element krajinné struktury, spojitá plocha s dominantní rolí ze strukturálního i funkčního hlediska
+
+  * **Krajinné plošky (enklávy)** představují neliniové, plošné útvary, které se vzhledem a podstatou liší od svého okolí (matrice). Plošky se odlišují svou velikostí, tvarem, typem, vnitřní heterogenitou, charakterem hranice, důležitým znakem plošek je jejich geneze, stáří, dynamika vývoje a kontrastnost.
+    * plošný element povrchu Země mající relativně homogenní charakter, který ji odlišuje od jejího sousedství
+
+  * **Koridory** představují liniové prvky území, které jsou podobně jako enkláva obklopeny odlišným prostředím (matricí nebo enklávami), jde o funkčně velmi významné prvky s liniovou strukturou zpravidla navazují na enklávy podobného typu. Koridorem jsou přirozené struktury (vodní tok), ale i člověkem vytvořené nepůvodní prvky (elektrické vedení, silnice).
+    * plošný prvek povrchu Země s relativně homogenním charakterem, u něhož výrazně převažuje jeho lineární rozměr
+
+
+==== Struktura časová ====
+
+
+  * **Primární struktura** – původní, člověkem neovlivněná (geologický podklad, reliéf, půda, vodstvo, ovzduší, lze sem zařadit potenciální přirozenou vegetaci, ale ta se na území ČR prakticky nevyskytuje)
+  * **Sekundární struktura** – člověkem ovlivněné či zcela pozměněné ekosystémy a nově vytvořené umělé prvky v krajině (využití území – LANDUSE a technické objekty) = LANDCOVER
+  * **Terciární struktura** – vybrané prvky socioekonomických systémů - jevů (nehmotné vztahy, limity se vztahem k a vlivem na hmotné prvky). Socioekonomické jevy (SEJ) v krajině tvoří tzv. funkční zóny (těžební a průmyslové areály, dopravní plochy, zemědělské kategorie, rekreační areály, chráněná území, lesnické kategorie), jsou nehmotné, proto se mohou prostorově překrývat. Dalšími příklady SEJ jsou: administrativní hranice území, hlukové zóny, zóny se zvýšeným znečištěním, kontaminace horninového prostředí, regionální a územní plány, odvětvové programy, plány na využití území (ať už pro krajinu pozitivní jako prostorovo-ochranné limity a omezení, nebo pro krajinu negativní realizace projektů pro rozvoj výrobních odvětví).
+{{ ::keko2.png?nolink |}}
+
+===== disturbance =====
+  * přechodná událost, která zabíjí, potlačuje nebo narušuje jednoho nebo více jedinců, čímž přímo či nepřímo otevírá prostor pro kolonizaci a rozvoj nových jedinců téhož či jiného druhu, tedy pro sukcesi
+  * tvoří hlavní zdroj prostorové i časové heterogenity přírodních společenstev, přední selekční mechanismus v evoluci životních strategií a hybnou sílu koloběhu živin
+  * disturbance obvykle působí po krátkou dobu:
+    * větrné bouře, hurikány – hodiny až dny
+    * požáry – hodiny až měsíce
+    * povodně – hodiny až týdny
+    * sopečné erupce – dny až týdny
+=== typy disturbancí ===
+  *** Dle typu činitele**:
+    * biologické
+    * fyzikální
+    * kombinované 
+  * **Dle původu činitele**:
+    * endogenní
+    * exogenní
+
+=== faktory ovlivňující disturbanci ===
+  * Interakce makroklimatických podmínek, terénu a vegetace
+    * např: Škody na lesních porostech v Nové Anglii způsobené hurikány se odvíjí od charakteristik samotného hurikánu (tj. směr a rychlost větru), topografie terénu a výšky a druhového složení lesa.
+  * Krajinná struktura a šíření disturbance
+    * prostorová homogenita často přispívá k šíření disturbance
+      * šíření škůdců v agroekosystémech, šíření požáru, atd.
+      * pravděpodobnost vývratu stromu roste s délkou okrajů a rozdrobením lesa na malé plošky
+    * v některých případech je ovšem šíření disturbance podporováno **prostorovou heterogenitou**
+      * fragmentované lesní porosty působí jako útočiště větších populací zvěře, jež následně ničí okolní zemědělské plodiny, případně původní druhy v samotném lesním fragmentu
+  * Disturbance nepůsobí v krajině rovnoměrně – míra jejího působení se liší v různých částech krajiny a dochází tak ke vzniku složitého heterogenního uspořádání.
+=== fragmentace ===
+  * Fragmentace představuje hrozbu pro mnoho druhů. Na jejich populace působí prostřednictvím těchto procesů:
+      * ztráta habitatu (habitat loss)
+      * degradace habitatu (habitat degradation)
+      * rozparcelování a izolace habitatu (habitat subdivision and isolation)
+{{ ::frag.png?nolink |}}
+====== organismy ======
+==== teorie ostrovní biogeografie ====
+  * I přes kritiku je teorie ostrovní biogeografie důležitým podkladem pro navrhování či hodnocení efektivity chráněných území a existuje obrovské množství empirických dat potvrzujících, že počet druhů narůstá se zvětšujícím se územím.
+  * Rozloha a vzdálenost od pevniny
+  * rozloha:
+    * velké ostrovy podporují více druhů díky větší heterogenitě prostředí a nižší pravděpodobnosti extinkce velkých populací
+  * vzdálenost:
+    * ostrovy blíže k pevnině podporují více druhů vlivem větší imigrace a rekolonizace
+
+{{ ::tob.png?nolink |}}
+
+==== metapopulační teorie ====
+  * Koncept metapopulace je založen na teorii, že populace jsou prostorově strukturovány do souborů více či méně oddělených místních rozmnožujících se populací, přičemž na dynamiku místních populací i celé metapopulace má značný vliv migrace jedinců mezi místními populacemi. 
+  * Přežití metapopulace je zajištěno rovnováhou mezi extinkcí a rekolonizací → organismy jako druh mohou přežít i přes trvalé lokálně nepříznivé ekologické podmínky.
+  * **Lokální populace**:  interakce na úrovni jednotlivých organismů ovlivňující demografii 
+  * **Metapopulace**: Soubor lokálních populací propojených migrací 
+  * **Areál rozšíření druhu**: zahrnuje všechny lokální populace a metapopulace
+{{ ::meta.png?nolink |}}
+===== BIOLOGICKÉ PRINCIPY OCHRANY HABITATU NA ÚROVNI KRAJINY =====
+  * Okrajové habitaty a druhy
+    * Rozdělení velké plošky na dvě menší způsobí vznik dodatečného okrajového efektu (ekotonu), vedoucí k nárůstu velikosti a početnosti populací okrajových druhů, jež jsou často druhy běžnými a široce rozšířenými v krajině.
+  * Pravděpodobnost lokální extinkce
+    * Větší ploška podporuje větší populace druhu než ploška malá, což znamená nižší pravděpodobnost vyhynutí daného druhu na lokální úrovni
+  * Extinkce
+    * Pravděpodobnost lokálního vyhynutí druhu je větší pokud je ploška malá a kvalita habitatu nízká.
+  * Bariéra pro disturbance
+    * Rozdělením velké plošky na dvě menší se vytváří bariéra pro šíření některých disturbancí.
+{{ ::fire.png?nolink |}}
+  * Výhody malých plošek
+    * Malé plošky přerušující rozsáhlé oblasti matrice (matrix) působí v krajině jako „nášlapné kameny“ (stepping stones) pro šíření některých druhů. Jsou na ně rovněž vázány vzácnější druhy v případech, kdy velké plošky chybí, případně nejsou pro daný druh vhodné. Malé plošky tedy poskytují odlišné a dodatečné ekologické benefity než plošky velké.
+  * Šířka okraje
+    * Okraj plošky by měl být širší na straně čelící převládajícím větrům a sluneční expozici
+  * Rovné a křivočaré hranice
+    * Rovné hranice podporují především pohyb druhů podél hranice, zatímco na složitých křivočarých hranicích převládá pohyb organismů skrz hranice.
+
+{{ ::hranice.png?nolink |}}
+
+====== krajinná ekologie u nás ======
+  * **2 základní typy krajiny:**
+    * __přírodní krajina__ je utvářena především znaky přírodní povahy, civilizační vliv zde není vůbec patrný nebo je výhradně podřízený přírodním podmínkám
+    * __kulturní krajina__ je naopak vytvářena činností člověka
+=== krajinný ráz ===
+
+    * je součástí legislativní ochrany přírody
+    * „Krajinný ráz, kterým je zejména přírodní, kulturní a historická charakteristika určitého místa či oblasti, je chráněn před činností snižující jeho estetickou a přírodní hodnotu. Zásahy do krajinného rázu, zejména umisťování a povolování staveb, mohou být prováděny pouze s ohledem na zachování významných krajinných prvků, zvláště chráněných území, kulturních dominant krajiny, harmonické měřítko a vztahy v krajině. ... "
+=== VKP ===
+  * je ekologicky, geomorfologicky nebo esteticky hodnotná část krajiny, která utváří typický vzhled krajiny nebo přispívá k udržení její stability.
+   * lesy, rašeliniště, vodní toky, rybníky, jezera, údolní nivy, mokřady, stepní trávníky, remízy, meze, trvalé travní plochy, naleziště nerostů a zkamenělin, umělé i přirozené skalní útvary, výchozy a odkryvy, cenné plochy porostů sídelních útvarů včetně historických zahrad a parků atd.
+    * VKP určuje AOPK (každý tam může poslat žádost, 
+
+=== úses ===
+  * ÚSES je podle zákona č. 114/1992 Sb., o ochraně přírody a krajiny vzájemně propojený soubor přirozených i pozměněných, avšak přírodě blízkých ekosystémů, které udržují přírodní rovnováhu a je veřejným zájmem, na kterém se podílejí vlastníci pozemků, obce i stát.
+  * Jedná se o soustavu ekologicky stabilnějších částí krajiny, účelně rozmístěných podle ekologických funkčních a prostorových kritérií.
+  * Hlavním smyslem ÚSES je:
+    - posílení ekologické stability krajiny zachováním nebo obnovením stabilních ekosystémů a jejich vzájemných vazeb,
+    - zachování přirozeného genofondu krajiny
+    - zachování či podpoření rozmanitosti původních biologických druhů a jejich společenstev.
+
+  * **skladebné prvky ÚSES**
+    * **Biocentrum** 
+      * Biotop, nebo centrum biotopů v krajině, který svým stavem a velikostí umožňuje trvalou existenci přirozeného či pozměněného, avšak přírodě blízkého ekosystému. 
+    * **Biokoridor**
+      * Území, které neumožňuje rozhodující části organismů trvalou dlouhodobou existenci, avšak umožňuje jejich migraci mezi biocentry a tím vytváří z oddělených biocenter síť. 
+    * **Interakční prvek**
+      * Krajinný segment, který na lokální úrovni zprostředkovává příznivé působení základních skladebných částí ÚSES (biocenter a biokoridorů) na okolní méně stabilní krajinu do větší vzdálenosti. Mimo to interakční prvky často umožňují trvalou existenci určitých druhů organismů, majících menší prostorové nároky (vedle řady druhů rostlin některé druhy hmyzu, drobných hlodavců, hmyzožravců, ptáků, obojživelníků atd.).
+
+  * **Generel ÚSES** vymezuje ÚSES jen na základě přírodovědných hledisek. Je vymezován co nejvolněji a jsou v něm vyjádřeny pouze přírodní danosti (trvalé ekologické podmínky a vyspělá a okamžitě nenahraditelná společenstva) (LÖW a kol. 1995).
+  *** Plán ÚSES** slouží orgánům ochrany přírody pro vymezení místního, regionálního i nadregionálního ÚSES. Plán je podkladem pro projekty ÚSES, provádění pozemkových úprav, pro zpracování územně plánovací dokumentace, lesních hospodářských plánů event. osnov. Jeho úkolem je prostorově a funkčně definovat nároky ÚSES v daném území (LÖW a kol. 1995)
+  ***Projekt ÚSES** je souborem přírodovědné, technické, ekonomické, organizační a majetkoprávní dokumentace. Je závazným podkladem pro provádění pozemkových úprav a součástí lesních hospodářských plánů (event. osnov). Jeho úkolem je připravovat, kontrolovat a evidovat realizaci dané skladebné části ÚSES, která byla již jednoznačně prostorově vymezena a schválena v plánu ÚSES (LÖW a kol. 1995).
+=== EECONET - European Ecological Network ===
+  * Deklarována politickým dokumentem Rady Evropy „Evropská strategie biologické a krajinné diverzity“
+  * **Cíl EECONET:** vytvořit společnou územně propojenou síť, zabezpečující ochranu, obnovu a nerušený vývoj ekosystémů a krajin nesporného evropského významu, integrovanou s ostatními způsoby využití.
+
+=== NATURA 2000 ===
+  * NATURA 2000 je celistvá evropská soustava území se stanoveným stupněm ochrany, která umožňuje zachovat typy evropských stanovišť a stanoviště evropsky významných druhů v jejich přirozeném areálu rozšíření ve stavu příznivém z hlediska ochrany nebo popřípadě umožní tento stav obnovit. Na území České republiky je Natura 2000 tvořena vymezenými ptačími oblastmi a vyhlášenými evropsky významnými lokalitami. (Zákon č. 114/1992 Sb.)
+  * Směrnice Rady 92/43/EHS ze dne 21. května 1992 **o ochraně přírodních stanovišť, volně žijících živočichů a planě rostoucích rostlin.** 
+  * Směrnice Rady 79/409/EHS ze dne 2. dubna 1979 **o ochraně volně žijících ptáků.**
+
+== evropsky významné lokality ==
+  * **EVL významně přispívají**
+    * k udržení nebo obnově příznivého stavu alespoň jednoho typu evropských stanovišť nebo alespoň jednoho evropsky významného druhu z hlediska jejich ochrany
+    * k udržení biologické rozmanitosti biogeografické oblasti.
+
+  * EVL jsou chráněny před poškozováním a ničením. Využívají se pouze tak, aby nedošlo k závažnému nebo nevratnému poškození nebo ke zničení evropských stanovišť anebo stanovišť evropsky významných druhů vyžadujících územní ochranu tvořících jejich předmět ochrany a aby nebyla narušena jejich celistvost. K zásahům, které by mohly vést k takovým nežádoucím důsledkům, si musí ten, kdo tyto zásahy zamýšlí, předem opatřit souhlas orgánu ochrany přírody.
+  * K zajištění udržení příznivého stavu lze území evropsky významných lokalit nebo jejich části vyhlásit za zvláště chráněná území nebo zde zřídit smluvně chráněná území.
+
+== ptačí oblasti ==
+  * Jako ptačí oblasti se vymezí území nejvhodnější pro ochranu z hlediska výskytu, stavu a početnosti populací těch druhů ptáků vyskytujících se na území České republiky a stanovených právními předpisy Evropských společenství, které stanoví vláda nařízením.
+  * Ptačí oblasti vymezí vláda nařízením s cílem zajistit přežití druhů ptáků (uvedených v odstavci 1 § 45e zákona 114/1992) a rozmnožování v jejich areálu rozšíření, přičemž vezme v úvahu požadavky těchto druhů na ochranu. Vláda může stanovit činnosti, ke kterým je třeba souhlas orgánu ochrany přírody.
+  * Vymezení ptačích oblastí podle odstavce 2 na území, které není dosud zvláštně chráněno podle části třetí tohoto zákona, je možné pouze po projednání s dotčenými kraji a obcemi. O způsobu hospodaření v ptačích oblastech je možno s vlastníkem nebo nájemcem pozemku uzavřít smlouvu.
+  * EVROPA: Celkem pres 5000 lokalit; Cca 11% pevniny EU
+  * 
+
+
+

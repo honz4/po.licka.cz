@@ -1,0 +1,27 @@
+  * patří pod rojovou inteligenci, mezi subsymbolické algoritmy
+        * == vlastnost rozsáhlých systémů sestávajících z množství jednoduchých agentů, jejichž vzájemná interakce (přímá/nepřímá) vede ke vzniku koherentních globálních funkčních vzorů
+  * to je to u těch neuronových sítí, že 10 skatů je lepších než 1000 samostatných horolezců (možná??)
+  * jsou dobří, samoorganizující se - komplexní kolektivní chování může vyplynout z četných interakcí mezi jednotlivými členy roje nebo hejna
+  * základem je //ant systém// 
+        * stigmerie = komunikace mezi agenty pomocí modifikace prostředí, ve kterém se vyskytují
+        * feromon = chemická značka
+        * ale pozor, můžou uvíznout v lokálním extrému - mravenci nedokáží dostatečně využít nebídnutou nejkratší cestu (ale někteří jiní mravenci to umí)
+
+**
+postup mravenců**
+
+  - mravenec hledá potravu v okolí mraveniště
+  - pokud najde jídlo, vrátí se domů a přitom značí cestu feromony
+  - ostatní mravenci následují cestu
+  - čím víc mravenců -> tím silnější feromonová stopa -> tím ještě víc mravenců
+
+Na začátku se chovají mravenci náhodně a vybírají si krátkou i dlouho trasu se stejnou pravděpodobností -> po optimalizaci mravenčím agentem si všichni vrhají tou kratší.
+
+===== modifikace systému =====
+==== elitismus ====
+  * posílení vlivu nejlepších řešení
+  * urychlí to, ale zároveň je větší pravděpodobnost, že mravenci uvíznou v sedlovém bodu
+  * využit Elitářským mravenčím systémem či mravenčím systémem založeném na pořadí (mravenci, až najdou cestu, tak se seřadí podle kvality nalezené cesty a podle toho jak se umístí, tolik vypustí feromonů, tudíž čím vyšší příčka, tím víc feromonů)
+
+  * 
+

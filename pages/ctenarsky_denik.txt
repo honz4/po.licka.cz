@@ -1,0 +1,161 @@
+=== Geografické myšlení: úvod do teoretických přístupů ===
+
+//Petr Daněk//
+
+  * https://docs.google.com/document/d/1F6ASuUBcmMwutzLvXp7FV4bhFZjZkZp9LNkBmH-FTeI/edit?usp=sharing
+
+----
+
+----
+
+==== 1.–3. kapitola ====
+První kapitola popisuje počátek geografie ve světě. Tento počátek je těžké uchopit vzhledem k tomu, že geografie je velmi rozsáhlý a těžko definovatelný obor, který každý chápe jinak. Podle některých obor geografie započal psanými záznamy již 50 let před Kristem, podle jiných zase až s počátkem geografických informačních systému ve dvacátém století. Pokud by však byl považován počátek tohoto oboru až v minulém století, otázkou pro mne zůstává, jak se téma prostorového poznávání a mapování nazývalo předtím, když ne právě geografií. \\
+V dosavadní interpretaci převažují tři přístupy. Prvním z nich je přístup internistický, kdy se určité poznatky postupně vyvíjí. Od mlhavých a nevědeckých představ k propracovanějších teoriím. Druhý přístup je všeobecně vnímán jako určité paradigma, kdy je po určité období vnímána geografie jako paradigma až do chvíle, než se objeví jiný vědecký postup či poznatek, které stávající paradigma nedokáže vysvětlit či vyvrátit. V tomto případě poté nastává tzv. vědecká revoluce. Typickým příkladem je teorie relativity. Třetí způsob, jak interpretovat historii geografie, je označován jako kontextuální. V praxi to znamená ovlivnění vnějšími událostmi, jak osobními, tak politickými apod. Například Alexander von Humboldt, který nestihl loď do Egypta a odjel do Venezuely, kde nasbíral mnoho významného materiálu. \\
+Je v geografii důležitá také teorie? Přístup, který odmítá teorii a zabývá se pouze prostými fakty se nazývá empirismus. Vtipné na tom že, že tento přístup je sám o sobě teorií nazýván. \\
+Je ovšem těžké nalézt hranici mezi teorií a fakty a zkoumáním, obzvláště v geografii. Je to věda, která se neustále vyvíjí (snad vyjma kartografie, kterou lze do geografie taktéž zařadit), a nové poznatky jsou během pár let uvedeny jako fakta, teorie jdou dokázány a mění se samy na fakta apod. Dle mého názoru je tedy teorie potřebná, protože právě z ní se mohou během let stát fakta. Bez teorií by lidstvo nejspíš nebylo tam, kde je teď. A vědci by si své teorie nemohli navzájem vyvracet\\
+Ovšem v socioekonomické geografii je tyto teorie těžší uchopit a popsat. Např. teorie centrálních míst či teorie prostorových děleb práce. Oproti fyzické geografii, kdy jsou teorie testovány, v humánní jsou podrobeny diskuzi. Navíc je mnohdy tento obor ovlivněn různými filozofickými směry. \\
+Jedním ze zajímavých rozdílů humánní a fyzické geografie je také její celkové chápání. Fyzická geografie se snaží procesy vysvětlit, kdežto humánní geografie se je snaží také změnit. Z mého pohledu ovšem může procesy měnit také fyzická geografie. Jsou jisté přírodní procesy, které změnit nelze, ale např. při úpravě či tvorbě krajiny je změna procesu jistě viditelná. \\
+
+----
+Je vůbec geografie věda? I na tuto otázkou existují dva způsoby odpovědi. Pokud je svět tvořený jedinečnými, neopakovatelnými místy, a geografie se zaměřuje na detailní zkoumání jejich jedinečnosti, nazýváme tento přístup idiografický. Druhým případem je nomotemický přístup (hypotéza je potrvzena opakovaným měřením). \\
+Z idiografické tradice pochází //regionální geografie//. Je důležité zmínit, že tyto dvě tradice nejsou protiklady, nýbrž se v jistých ohledech také doplňují. \\
+
+----
+
+**Počátky moderní geografie**
+Moderní geografické myšlení zdědilo tři velké otázky, kterými se zabývali geografové
+v předmoderní době:
+  * Jak se ve světě orientovat? 
+  * Jaký je vztah mezi přírodním světem a společností? -> obecná geografie
+  * Jak vysvětlit existenci rozdílů mezi místy? -> regionální geografie
+Otázka orientace ve světě je problémem, kterým se lidé zabývali již v středověku. Cestování, obchodování a další lidské  činnosti zapříčily obrovský rozmach v této disciplíně. V dnešní době do této disciplíny lze zařadit kartografii, GNSS systémy a i samotný GIS, a dva největší hybatelé, ekonomické a vojenské akce, stále ženou tyto "obory" kupředu. \\
+\\
+Nejdůležitějšími osobnosti v objevitelské tradici se stali Humboldt (již výše zmíněn) – terénní výzkum s použitím měřících přístrojů, a Carl Ritter, první profesor geografie na světě. Po smrti těchto dvou pánů (1859) nastává krize, zvaná jako //krize objevitelské tradice//. Jednak díky objevitelským cestám dochází ke zmapování všech částí světa a jednak díky zmizení bílých částí z map (objevení pramenu Nilu). Ovšem existují např. stále ještě nezdolané vrcholy, které dodnes nebyly přesně zaměřeny (příkladem budiž Gangkhar Puensum, nejvyšší hora Bhútánu). \\
+Dalším důvodem této krize byl pokrok zejména v přírodovědných oborech. Geografie totiž nedokázala definovat předmět svého zkoumání oproti ostatním oborům, jako např. geologie aj. Geografie totiž nezkoumá předměty do detailů, ale spíše hledá souvislosti a analyzuje. Z tohoto důvodu je také těžké uchopit geografii jako samostatný vědní obor.  Úkolem geografických škol bylo tehdy jen vychovávat učitele zeměpisu a uchovávat a třídit informace pro potřebu obchodu a politiky.\\
+S příchodem Darwina a jeho //teorie evoluce//  dochází také k teoretickému vymezení geografie. Ovlivnila prakticky všechna studovaná témata, od přírodních krajin po politické celky. \\
+Později jsou vědecké geografické poznatky o vzdálených místech použity k ovládnutí jich i jejich obyvatel. Moderní geografie se tudíž rozvíjí v nejvíce mocichtivých státech, jako je Německo, Francie a velká Británie. V tomto období vzniká hnutí anarchistů, kteří odmítají jakékoliv mocenská postavení.
+
+==== 4. kapitola ====
+**Hlavní koncept: Region** \\
+V poslední dekádě 19. stol již byla geografie etablovanou disciplínou na univerzitách v Evropě a počátkem 20. století i v USA. Nejvýznamnějšími, z hlediska vlivu na vývoj geografického myšlení,
+byli Paul Vidal de la Blache, Carl Sauer, a Richard Hartshorne. \\
+Ústřední postavou **francouzské geografické školy** byl Paul Vidal de la Blache. Na univerzitě v Sorbonně učil zeměpis, chtěl tím docílit posílení národní identity Francouzů. Za cíl si stanovil zkoumání vztahu příroda – společnost, zároveň se však nechával silně inspirovat Německou školou. Jeho vydaná monografie se stala jakýmsi základem a předlohou pro další studia vztahu přírodního prostředí a společenského života ve pecifických regionech.  \\
+Přírodní determinismus zvlášť silně zakořenil v USA (Berkleyská škola) . Její přístup je naprosto opačný francouzské školy a její přístup kategoricky odmítá.Centrem pozornosti je pořád studium vztahu příroda – společnost,
+ale v Sauerově přístupu se příčinná souvislost obrací a cílem je zkoumání vlivu člověka
+na přírodu. Sauer vymyslel specifickou mětodu sběru dat, kdy sám osobně strávil mnoho času ve zkoumané krajině a okolí intuitivě pozoroval (fyzicky tedy vzorky nesbíral). Byl kritický k evropské kolonizaci Nového světa, která
+podle něj vedla k trvalému vyčerpání krajiny a její kultury (což s ním plně souhlasím). Touto kolonizací došlo k rozvrácení všech hodnot, tradic, nemluvě o zavlečení chorob (stejný případ nastal např. i v Austrálii, kdy ovšem docházelo k úmrtím Aboriginců). Tímto došlo ke snížení kulturní i biologické odlišnosti. \\
+Chicagská škola je oproti tomu přístupem, který znovu aplikuje evoluční teorii ve studiu společnosti a usiluje
+o vyvinutí objektivních metod po vzoru přírodních věd. Tato škola nahlíží na město jako na přírodní areál a dala za vznik termínu "humánní ekologie". ADochází k aplikaci Darwinovy evoluční teorie druhů na město. Ekologický přístup
+chicagské školy se soustředil na studium biotické úrovně sociální organizace, pro
+kterou jsou charakteristické jak vztahy soupeření, tak i spolupráce. Ovšem díky chápání rasové segregace jako přirozeného výběru, který tato škola zastávala, došlo k legitimizaci ghett, za což je tato škola často kritizována.!!??!! \\
+V první polovině 20.stol došlo k posílení regionální přístupu na úkor obecné geografie, tzv. chorologie, a cílem této geografie je vymezování tzv. //přirozených regionů//. Přirozené regiony jsou chápány jako ohraničené části zemského povrchu, ale zevnitř jsou studovány jako komplex. \\
+//„Cílem chorologického
+pohledu je poznání povahy regionů a míst skrze pochopení společné existence
+různých sfér reality, a vzájemných vztahů mezi nimi, a jejich různorodých projevů…“
+(Hettner in Cresswell 2013: 63)//
+
+
+==== 5. kapitola ====
+Je opravdu geografie servisní disciplína? No dle mého je jí rozhodně míň než je jí třeba geoinformatika.
+Dále, ve světě jsou dva hlavní tažné motory ženoucí celý pokrok dopředu, a tím je vojenství a ekonomika. Ve světových válkách snad nejvíce je tento rozdíl poznat, protože během tohoto období se kreslily, překreslovaly a dokreslovaly mapy, měřily seismické otřesy, běhm druhé světové byl také objeven JET stream, který by jinak byl objeven nejspíš mnohem později. A mimo tato období geografie upadala, protože prostě nebyla potřeba.\\
+
+Stává se to, co se stává pořád. Lidi se neustále hádají jestli je geografie věda, rok, dva, deset, sto, hádají se, hádají a to je tak všechno, co umí. Výsledek pořád žádný. Je geografie věda? Ano? Tak pojďme dělat geografické věci! Je geografie věda? Ne? Tak pojďmě taky dělat geografické věci! Vždyť na tom snad nezáleží. Jak Češi v hospodě. Taky by nejraději vyřešili světový mír, ale pak z ní vylezou a jsou rádi, že ráno nemají kocovinu. \\
+
+Pokud má být geografie vědou, nesmí se zaměřovat na jedinečné. Blbost. Ne nadarmo se říká, že výjimka povrzuje pravidlo. Pokud si jedinečných věcí a úkazů nebudeme všímat, dojde to do stadia, kdy jedinečné úkazy už nebudou tak jedinečné a my se jich začít všímat prostě budeme muset protože nic jiného nám nezbyde. Navíc, geografie zkoumá dynamické jevy, kteér se neustále mění a každý jev má své specifické vlastnosti a takové věci nejde zobecňovat. \\ Je to až vtipné, jak je autor schopen popisovat na deseti stranách výjimečnost geografie a schopnost geografie fungovat jako samostatný vědní obor. Jakoby neměl nic jiného na práci. \\
+
+//„Protože věda klade velký důraz na teorii, znamená to, že vědecká geografie se musí vážně zabývat teorií… //– William Bunge měl asi ten den, kdy tu větu psal něco většího, než jednu houbu.\\
+
+Je skvělé, že statistické metody dokáží nadchnout studenty natolik, že sami začnou s těmito metodami experimentovat. Nicméně i toto přineslo své ovoce, když začali analyzovat prostory osídlení. Pak přišel Hagerstrand a začal zkoumat i vztahy mezi místy v prostoru a čase  
+
+A pak máme období, kdy vznikli hippie. Ghetta. Je válka ve Vietnamu. Rasová segregace v USA. A geografie rozhodně není ten obor, který by tyto konflikty vyřešil. Diskriminaci v mapě vážně nepoznám. Geografije by byla jistě přínosným a ocenitelným pomocníkem v těchto konfliktech, nekdy snad i nezbytná, nicméně ve výsledku nic neřeší. Ale to neznamená, že proto si geografie nezaslouží být vědou. Lidskou subjektivitu v ní nezachytíte. Ale ve kterém přírodovědném oboru ano? 
+
+==== 6. kapitola ====
+Kritiky prostorové vědy se stávají humanisté. Prostorová věda člověka bere jako předvídatelného jedince a neakceptuje jakoukoliv samostatné rozhodování. Kdežto humanisté lidskou bytost uznávají jako myslícího jedince který na základě svého rozhodnutí tvoří svou časovou linii. 
+
+Veškeré předchozí přístupy geografie se o subjektivní vnímaní světa nezajímaly, proto humanističtí geografové nemohli vycházet z okolních disciplín. Tudíž, ve snaze subjektivní interpretace světa, vzniklo ještě několik vnitřních členění tohoto přístupu. 
+
+Behaviorální geografie se snaží popsat lidské chování. Vychází z faktu, že lidské chování lze popsat bez znalostí vnitřního stavu organismu. V tohoto přístupu vznikly mentální mapy. Bezesporu tento přístup geografie posunul její vnímání do jiného levelu, ovšem muselo být nepředstavitelně těžké dělat takto naprosto detailní výzkum, byť v malém měřítku. s menší skupinou osob. Takový výzkum se také logicky nedá aplikovat na větší populaci. 
+
+Je třeba si uvědomit, že  lidské chování bude částečně vždy i ovlivněnou jistou mírou náhody, kterou my nejme schopni jak předvídat, tak ani zpětně zaznamenat.
+    
+Humanistickým geografům však stále behavioristický přístup nestačí a snaží se zohlednit v rozhodovacím procesu jednotlivých lidských jedinců také emocionální vazby například k danému místu apod. Z tohoto pohledu tedy významnost jednotlivých lokalit určují lidé. 
+    
+Nejdůležitějším místem je tedy rodiště jedince, místo kde strávil dětství, místo, kde má kořeny. 
+Nadále, zkušenosti, fantazie, a pocity spojené s danými událostmi rozhodují o vztahu jedince k danému místu. Na základě pozitivní zkušenosti s trasou, která je sice delší, byť s krásnějším výhledem, si jedinec pro přesun z bodu A do bodu B může vybrat právě tu delší trasu. 
+    
+Ale jaké metody pro tento výzkum použít? Pro pochopení chování jedince je jednoznačně nutná interakce s ním, tudíž nejjednodušší metodou je přímé pozorování /rozhovory, etnografické metody/. Otázkou zůstává, kolik lidí je v dnešní době ochotno takovýto výzkum absolvovat.
+    
+Již zanedlouho se humanistická geografie stala předmětem kritiky, jak ze strany pozitivistické tradice, tak se strany marxistické geografie. Ovšem z této strany nelze brát kritiku nijak vážně. Taková kritika se dá čekat vzhledem k faktu, že jejich přístupy byly defacto opačné. 
+    
+Není moc vědních oborů, které by byly natolik ovlivněny filozofickými směry v jednotlivých časových obdobích historie. Jistě, náboženství, politika, literatura, jsou obory jež spolu kráčí ruku v ruce po celou dobu. A stejně geografie a její pojetí a vnímání bylo ovlivněno vnímáním a pojetím světa v čase a prostoru. Podobně mohla být ovlivněna také astronomie, lékařství apod., ale tyto obory se brzy začaly vyvíjet samy a na filozofické směry již nadále moc nebraly ohled.
+
+==== 7.kapitola ====
+
+
+Tohle je kapitola nahlížející spíše na politické a historické události, co se udělat mělo, co se udělat nemělo a co se neudělalo. V dnešní době, kdy je svět plný stále nově přicházejících konfliktů,  v žádném státu se nedá vyhnout politickým machinacím a stejně tak lidstvo degeneruje díky technickým inovacím, je nesmírně těžké si něco myslet a vytvořit si osobní názor nezávislý na mediálních informacích hrnoucích se ze všech stran.
+
+    Geografie je v řešení ohnisek napětí světě, sociálních konfliktů a dalších velmi mocným pomocným nástrojem. Obzvláště díky inovativním technologiím, které mimojiné zapříčinily vznik oboru geoinformatiky a  díky velmi snadnému přístupu ke všemožným typům dat, je velmi snadné tato data analyzovat a hledat příčiny a důsledky všemožných politických, sociálních a přírodních katastrof. Ovšem ten konečný krok k samotnému řešení dané situace musí udělat člověk sám za sebe.
+    
+    Jeden přístup požaduje, aby geografie zůstala odtržena od problémů reálného světa a věnovala se přísně vědeckému výzkumu. Ovšem hlavním pozorovacím faktorem je lidská populace v prostoru a čase, studujeme sami sebe, každý z nás se chová jinak a my sami nejsme jednotvárně smýšlející a objektivně uvažující jedinci. Jak tedy na základě pozorování nás samotných můžeme chtít po geografii aby byla “čistou” vědou? A proč geografii nevyužít v odvětvích, kde využít jde? (Ať už politicky, sociálně, apod.)
+        
+    Mají se geografové aktivně snažit měnit svět? Když cítí potřebu ho změnit, proč by nemohli? Když chtějí, ať jdou demonstrovat, do jejich oboru to nikterak nezasahuje. A kdyby náhodou zneužili svého postavení geografa, stejně by se asi nic nestalo. Z jistého úhlu pohledu je jedno, zda jste geograf, kominík, nebo lékař, v dnešní době stačí, když umíte mluvit a strhnout sebou dav. 
+    
+    
+    „Geografové v křeslech celého světa, povstaňte! Nemáte co ztratit než vaše ochablá břicha “ – za slovo “geografové” lze dosadit jakékoliv slovo a stále bude věta dávat smysl. Víte, v době komunismu lidé měli za co bojovat, šli demonstrovat i za to, aby si mohli přečíst knihu, kterou komunisti v Česku zakázali, prostě cokoliv. Byli nespokojení s režimem a něco pro to dělali. Smutný fakt dnešní doby je ten, že ačkoliv lidé jsou stále s něčím nespokojení, jediné, co je dokáže zvednou ze židle je jeden afghánský uprchlík, který na sobě měl po vylodění značkové jeansy a  zcela jistě to byl ten samý, co zanedlouho poté znásilnil 18letou studentu na pražském hlavním nádraží (jak informoval server idnes.cz)
+    
+Je opravdu prostorová věda přístupem, který slouží zájmům autorit a moci? Hledám alespoň jednu vědu, která by kdy zájmům autorit a moci nesloužila. Původce tohoto problému musíme hledat v dávné dávné historii, kdy vznikla náboženství, směnový obchod (který byl předchůdcem vzniku pěněz) a první rasové konflikty. Pocit nadřazenosti jedné rasy a chtíč nadvlády, to jsou faktory, které hnaly vědce do vývoje. Aby začala být věda obecně neutrálním přístupem, na to by bylo potřeba odstranění třídních rozdílů mezi lidmi. Na podobné koncepci byl založen i komunismus a jak dopadl? Všichni jsou si rovni, ale někteří jsou si rovnější. Vždy se najde jeden, co chce víc, když může.
+Samozřejmě, prostorová věda a zájmy ekonomického systému jsou prokazatelně propojeny. Nicméně pro mě tím iniciátorem pro vznik sociálních nerovností tento vztah není. 
+
+
+Příkladem je uveden vznik ghetta jakožto výsledek fungování trhu s byty a pozemky. Ghetta mají svůj původ v dávnějších časech než v Chicagu a podle mě jsou spíše výsledkem nefungující politiky multikulturalismu a vystěhovávání minorit obyvatelstva, než maximalizace zisku pro developery na finančím trhu. Nehledě na původ ghett –  jak radikální, tak kvantitativní geograf potvrdí svou teorii o existující struktuře města. Kvantitativnímu geografovi tento výsledek stačí, a dále se jím nezabývá. Radikální geograf tento výsledek bere jako indikátor vyloučení sociálně slabých a jejich vykořišťování a snaží se jej vyřešit. Ale jestliže pro zlepšení životní situace těchto skupin lidí může přijít s návrhem řešení radikální geograf, nemůže stejně tak kvantitavní geograf předat své výsledky jiné, v oboru povolanější osobě, například sociologovi, který by navrhnul řešení nejméně stejně kvalitní jako radikální geograf? 
+
+
+Nerovnoměrný rozvoj ve světě a jeho příčiny? I na tuto otázku existuje jednoduchá odpověď. Můžeme za to my, exkurze do historie je jako procházka jednotlivými státy. Jedním z případů 21. století je Nigérie a její zásoby ropy. Nigérie má ze všech států Afriky největší zásoby ropy a zisky z jejího exportu tvoří přes polovinu jejich HDP. Tak proč je to stále tak “zaostalá” země? Ropní magnáti vyvraždí vesnici, kvůli ložisku ropy a nikdo nehne brvou. Nigérie je stát rozebraný zevnitř, trpící korupcí a s vojenskými puči na denním pořádku, ale je to stát někde v Africe, to nikoho nezajímá, svět se momentálně potýká s mnohem většími problémy.
+
+
+Podobně na tom po konci druhé světové války bylo Česko. Kdyby se připojilo k Marshallovu plánu (jistě, dřív než jsme se stihli připojit, chopili se moci komunisti), naše ekonomika by byla na úrovni západních států. Další z důvodů nerovnoměrného rozvoje.
+Zkrátka, rovnoměrného rozvoje v celém světě nedosáhneme, ať už bychom se snažili sebevíc. To je axiom.
+
+
+Co se týče politické ekologie – pokud je první příroda tou původní, jak může být znova vytvářena člověkem. Pokud s určité lokality  udělá přírodní park, nic to nemění na tom, že byla a bude stále člověkem ovlivněna. To, že přírodu “ohradí” na tisíc metrů čtverečních a řekne: “toto je příroda”, budeme to stále považovat za to původní či za to již člověkem ovlivněné? Nebude nám chybět ta svoboda?
+
+
+Nadmíru souhlasím s ovlivňováním životního prostředí člověkem. Žene se pouze za ziskem a nehledí na důsledky. Příkladem budiž klimatická změna. Ti, co se ženou za ziskem, či jsou prostě a jednoduše idioti, si stále odmítají připustit, že klimatická změna se již děje, k jejíž změně nemálo přispěl také člověk. Ale omezit vypouštění oxidu uhličitého? To by byly obrovské peněžní ztráty. 
+
+
+Mnoho lidí ve Spojených státech se domnívá, že klimatičtí aktivisté využívají hrozbu globálního oteplování k útokům na tržní ekonomiku a průmyslovou společnost obecně. Ovšem představa, že by stovky vědců společně pracovala na tak obrovském podvrhu je směšná, neboť jsou to právě vědci, kteří s oblibou vyvracejí závěry svých kolegů. Je otázkou času, kdy se podkopáváním důvěry veřejnosti stane z tohoto tématu vědecký konsenzus.
+
+
+
+
+Poznámky pod čarou
+
+----
+
+přijde mi, že autor nadává na ty kvantitativní geografy, co seděli uvnitř a počítali dostupnost obchodních center zatímco všichni ostatní byli venku a demonstrovali proti válce ve Vietnamu. Co je potřeba si uvědomit je fakt, že tato část geografie má své opodstatnění a uplatnění a není nutno ji odsouvat na vedlejší kolej.
+občas mám pocit, že mě trochu do toho jeho názoru až tlačí
+ … kvantitativní geograf vysvětluje sociální nerovnost ve městě jako výsledek objektivního působení trhu s bydlením, a tím přispívá k legitimizaci tohoto trhu <-- jako by to byl ten geograf, co za to může
+
+==== 8.kapitola ====
+tentokrát “ženy všech zemí, spojte se!” ?
+
+Dokážete si představit co by se dělo, kdyby světu vládly ženy? Válčilo by se i o boty.
+
+Jako pardon, ale jestli je cílem feminismu vytvářet teorie, které přispějí k rovnoměrnému postavení žen ve společnosti, kdo něco takového může stále považovat za geografický přístup? V každém přístupu si všichni vzájemně vyčítají nedostatečnou objektivitu, ale feministky tomu nasadily korunu. Na jednu stranu to chápu, v tomto postmoderním světě chtějí být ženy něco víc. Ale zároveň nechtějí. Ženy neví co chtějí. A nikdy to nepřiznají.
+    
+Genderové rozdíly jsou hluboce zakotveny v nás všech už od pravěku. Vždyť, kdo byl ten, co se staral o obživu a chránil vesnici? Muž. Kdo byl ten, co se staral o děti, vařil, pral, uklízel (dejme tomu, že v pravěku se uklízelo...)? Žena. 
+Typické ženské. Přijdou na scénu, a řeknou, že je všechno špatně. Celá geografie je na prd (pardon). Geografii vymysleli muži, tudíž je to sexistické, a tudíž je to špatně. A že prý byly odrazovány od účasti v geografických společnostech. A kdo za to asi může, že se nechaly odradit? Opět muž, jak jinak.
+
+Typické je zkoumání v různých kontextech, nechtějí jenom obecně vysvětlovat. Což je ještě pořád fajn, jsou dokonce tak aktivní, že stejně jako radikálové, dojdou až k samotnému řešení a opravdu, příkladem,  zvýší dostupnost zařízení péče o malé děti. Ale opět se dostávám k tomu, co už jsem zmiňovala minule. Je opravdu toto předmětem geografie? Ať se pak proboha nikdo nediví, že geografie není věda, když by geografové (a geografky) nejlépe chtěli řešit a vyřešit úplně všechny problémy lidstva (od samotného ohniska problému, přes jeho analýzu, po jeho výsledné řešení). 
+
+A teď to jsou samy feministky, které vytvoří nějakou jednotnou skupinu, a najednou přijdou a řeknou: “nejsme ženy jako sjednocená kategorie, my jsme různé ženy, každá je jiná a jsme utvářeny nerovnými vztahy jak mezi námi, tak mezi muži”.
+Zkoumat něco takového, to už je i na humanistické geografy moc.
+
+Co se týče feministické epistemologie – geografické myšlení je maskulinní, neposlouchá názory žen a maskulinní věda považuje sama sebe za jediný správný způsob poznání. Marně přemýšlím nad tím, co by se změnilo (ve vědě, v objevech), , kdyby ženy z výběru témat vyloučeny nebyly. Jak by byla od prvopočátku interpretace světa změněna?
+
+Aby to nevypadalo, že feministky zbytečně haním – podle mě je to hnutí, či směr, který je v moderním světě určitě potřeba, ale v geografii prostě nemá co dělat. 
+
+Žena dokáže ublížit slovy mnohem více než muž mečem. Žena snadněji přistoupí ke kompromisu. 
+Žena je matka, stojí u zrodu všeho nového. V tomto ohledu by žena-matka nevyvolávala konflikty a spíše by se s ní dalo dohodnout a domluvit, protože nebude chtít zbytečnou smrt. Protože ona chápe, že každý je něčí dítě, a každý má svou matku, stejnou jako je ona sama.
+A žena je mrcha. Žena může nahlásit nepravdivé domácí násilí a muž bude zavřen. Žena může pít a fetovat a stejně jí svěří dítě do péče. A žena je zlatokopka, která si poté stěžuje, že je brána jako sexuální objekt. 
+Jak řekl Zeman, “kunda sem, kunda tam” (2013). 

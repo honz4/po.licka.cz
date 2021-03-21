@@ -1,0 +1,275 @@
+  * krajina = struktura, fce, dynamika
+  * vlastnosti: landuse, struktura, 
+
+====== landcover ======
+  * vychází z přirozeného vnímání krajiny nebo z geografického aspektu ekologie krajiny
+  * základní fyziognomii ekosystémů tvořících krajinnou mozaiku
+  * jednotlivé typy LC jsou relativně homogenní a navzájem "viditelně"  (Forman et Godron 1986) či "nápadně" (Kovář 1993) odlišné
+  * zásadní význam v metodologii jeho výzkumu má zvolené měřítko a rozlišení
+  * přírodními hranicemi jednotlivých typů LC jsou zejména vodní toky, hranice mezi odlišnými ekosystémy, hranice cest, okraje zastavěných území apod.
+  * výzkum v detailnějším rozsahu lze třídy krajinného pokryvu odlišovat např. dle dominujících odrůd rostlin pěstovaných v kultuře
+  * pro účely velkoplošného a méně detailního hodnocení (např. úroveň kraje či republiky) je třeba modifikovat kategorie dílčích atributů
+  * sledování dynamiky vývoje - analýzy historických podkladů - možno rekonstruovat historický stav LC pro různá období
+====== landuse ======
+  * Landuse (LU) = soubor lidských aktivit, které jsou přímo vztažené k zemi a využívají její zdroje nebo z ní mají prospěch (FAO 1999)
+  * vegetační kryt formovaný přírodní sférou  modifikovaný lidskou aktivitou
+  * => sekundární krajinná struktura
+  * dominantní fyziognomický projev ve vzhledu kulturní krajiny a krajinného rázu
+  * **fční využití země**: jakým způsobem je země využívaná a podle toho,  co je cílem zisku.,produkty (dřevo, obilí),služby (bezmateriálové výnosy – chráněná území, rekreační území)
+  * **biofyzikální využití země**: Soubor činností prováděných postupně na území k zisku produktů nebo jiných výhod,sklizeň, orba, pastva, stavba a aplikace materiálu (např. hnojiv)
+
+====== Krajinné faktory ovlivňující způsob využívání ======
+  * PŘÍRODNÍ - makro-, mezoreliéf, nadmořská výška, sklonitost, expozice, nerostné zdroje, klima, vodní zdroje, půdy, biota
+  * SOCIÁLNĚ EKONOMICKÉ - makro-, mezo- a mikropoloha, suroviny, trh, nabídka a poptávka, doprava a dostupnost, pracovní síly, ekonomický cyklus
+  * HUMÁNNÍ - tradice, majetkové poměry, organizovanost, vzdělanost, technické schopnosti, hustota obyvatelstva, mentalita, životní úroveň, politický a ekonomický systém
+
+  * **INOVACE** – nová aktivita v území zatím nerealizovaná (pastevectví, zemědělství na orné půdě, rybníkářství, ovocnářství,  bramborářství, řepařství, rekreace, sport, nákupy..)‏
+  * **ADAPTACE** – přizpůsobení se nové aktivity místním podmínkám (přerozdělení půdy)
+  * **STRUKTURALIZACE** – prostorové rozmístění nové aktivity v území a přizpůsobení dřívějších forem nové
+
+  * diferenciace (zonace) území z hlediska vhodnosti k danému způsobu využití
+  * účelem je racionální prostorově-funkční rozmístění jednotlivých land-use typů
+  * člověk dokáže některé přírodní danosti ovlivnit – pomocí dodatkové energie
+  * umí zvýšit produkční potenciál půd (kultivace)
+  * umí regulovat vodní režim půd (odvodnění, závlahy),
+  * na vybraných místech mění sklonitostní charakteristiky svahu (terasování vinic)
+
+====== klasifikace landuse ======
+  * základní kategorie ČR: les,orná půda,zahrady,sady,louky,pastviny,vodní plochy,zastavěné plochy,ostatní plochy
+  * eu: pastviny,orná půda,trvale úrodná půda,vnitrozemské vodní plochy,urbanizované plochy,přírodní a extenzivně využívané plochy,jehličnaté a smíšené lesy,listnaté lesy,smíšeně využívané plochy,ostatní plochy
+
+====== mapování krajiny ======
+  * (základní) mapování krajiny = celoplošné zachycení ekologické diverzity krajiny v  M 1:10 000
+  * cíl: přehled  o současném stavu a rozložení různých společenstev v krajině pro navazující vymezení ekologicky významných segmentů   * krajiny vyžadujících péči a ochranu
+  * krajina je rozdělena na jednotlivé segmenty podle typů forem využívání krajiny a vegetace
+  * ZABAGED, DMU 25, LPIS, CORINE LandCover
+  * mapuju fyziotopy 
+  * biotopy: pouze mapování biotopů fytocenóz významných z hlediska OPaK,vylišení fytocenóz na některé z možných úrovní (asociace, podsvaz, svaz, řád, třída) v navržených ekologicky významných segmentech krajiny (VKP)
+
+====== Mapování biotopů (Natura 2000) ======
+  * v kontextu s implementací evropské soustavy přírodních stanovišť Natura 2000
+  * celoplošně v ČR v terénu od roku 2000 mapování biotopů, s důrazem na biotopy přírodní.
+  * mapovatel měl být dobrým znalcem vegetace, protože podle ní se biotopy v krajině rozpoznávají a také se musel dobře orientovat v krajině.
+  * přímo v terénu se zakreslovaly do mapy hranice výskytu jednotlivých biotopů a určovala se jejich kvalita dle stanovených kriterií.
+  * Katalog biotopů České republiky (Chytrý, Kučera, Kočí, 2001)
+  * Použity byly mapy v měřítku 1:10 000, což představuje reálnou přesnost cca 10 m.
+  * vzniklé zákresy se převedly do prostředí GIS => vrstva mapování biotopů (VMB)
+  * 1. fáze – sběr dat, zpracování /2000-2003/ ~ ArcView 3.x + NDS / ArcGIS 8.x
+  * 2. fáze – aktualizace	/1x za 10 let/ ~ WANAS
+  * podklady pro vyhlášení Evropsky významných lokalit z hlediska ochrany přírodních stanovišť
+====== Typy dat pro LULC ======
+  * Data z censů
+    * na základě přímého dotazování uživatele nebo sesbíraná sčítacími komisaři
+    * ýsledkem jsou součty nebo průměry z dané části
+    * Zdroj statistických dat nikoliv však detailních map
+    * tyto metody umožňují přímý výzkum využití země
+    * Data často poskytována národními službami v dobré přesnosti I rozlišení
+    * World census of agriculture
+    * VB – formát .tiff, rozlišení 5km
+    * Irsko – až do měřítka 1:1000
+    * USA – US Census Bureau  - většina dat statistických (pochází ze sčítání 2000)
+
+  * Administrativní data
+    * metody využití právních, institucionálních a administrativních dat
+    * např. pro určení chráněných území, lesních rezervací nebo oblasti s povolením pro pěstování specifických plodin
+    * užívají odlišné hodnoty pro dané oblasti z důvodu ochrany dat před zneužitím
+  * Data z pozemního pozorování
+    *  získaná přímým pozorováním země
+    *  může být doplněno informacemi od uživatelů
+    *  sledováno využití a/nebo pokrytí země
+
+  * Data z dálkového průzkumu Země
+    * získaná ze satelitních nebo leteckých snímků
+    * primární zdroj dat o pokrytí země
+    * využití země je odvozeno z pokrytí země
+    * Zdroj: detailních map, ale ne přímo statistických dat: National Land Cover Database,Pan-european Land Use and Land Cover Monitoring (PELCOM),rozlišení 1km, data z AVHRR, pokrývá Evropu,International Geosphere-Biosphere Programme (IGBP),European Union survey of tropical forest cover,National Aeronautics and Space Administration (NASA) Landsat Pathfinder project, on tropical forest cover;,FAO land cover map of Africa (to include development of a standard land cover classification for Africa)
+
+====== Corine Land Cover ======
+  * COoRdination of INformation on the Environment
+  * 1985 založen Evropskou komisí
+  * 1991 program Phare rozšířen i na střední  Evropu - pilotní studie o vhodnosti nomenklatury a metodologie
+  * Cíl: sběr, koordinace a zajištění kvalitních informací o životním prostředí a  přírodních zdrojích srovnatelné v rámci EHS (EU)
+  * Land Cover (krajinný pokryv) , Biotopes (biotopy) , Air (ovzduší)
+  * **CLC90**
+    * databáze krajinného pokryvu na základě jednotné metodiky
+    * vytvořena interpretací snímků družice LANDSAT nasnímaných mezi roky 1986 – 1995
+    * mapa vegetačního pokryvu v měřítku 1:100 000 (44 tříd)
+  * **CLC2000**
+    * potřeba aktualizace→ projekty IMAGE2000 a CLC2000 (I&CLC2000)
+    * databáze satelitních snímků Evropy z LANDSAT (prostor. rozlišení 25 m)
+    * výchozí materiál pro aktualizaci databáze CLC a identifikování změn
+    * zodpovídá Evropská agentura životního prostřední (EEA)
+    * databáze pro ucelené zhodnocení stavu ŽP
+    * slouží pro prostorové a místní analýzy na různých úrovních
+    * korekce databáze CLC90 (zjištěno mnoho chyb)
+    * vývoje CLC2000 se zúčastnilo asi 300 odborníků z přibližně 100 organizací
+    * náklady ~ 13 milionů eur
+    * minimální jednotka pro inventarizaci - 25 ha, min. šíře - 100 m (polygony)
+    * „změnová plocha”  - souvislá plocha min. 5 ha
+    * 3 rozlišovací úrovně (jako u CLC90)
+      * úroveň 1 (menší než 1:1 000 000) - 5 tříd
+      * úroveň 2 (1:500 000 až 1:1 000 000) - 15, tříd, na území ČR 13
+      * úroveň 3 (základní měřítko 1:100 000) - 44 tříd, na území ČR 28
+
+    * s použitím jednotné metodologie  - první standardizovaný přehled o krajinném pokryvu Evropy v roce 2000 a o změnách, ke kterým     došlo od prvního mapování
+    * produkty v základním měřítku  bezplatně na portálech land.copernicus.eu, EEA i národní Geoportál
+    * území ČR zpracovávala firma HELP SERVICE – REMOTE SENSING s.r.o.
+  * **CLC2006**
+    * r2006 projekt CORINE Land Cover - součástí evropského projektu GMES/COPERNICUS (Global Monitoring for Environment and Security)
+    * v rámci části projektu – GMES Fast Track Service on Land Monitoring - proběhla aktualizace databáze CORINE k referenčnímu roku 2006
+    * od r2008/9 k dispozici
+  * **GIO) Land monitoring service = CLC 2012**
+    * projekt: GMES Initial Operations (GIO) Land Monitoring 2011 – 2013 in the framework of regulation (EU) No 911/2010.
+    * projekt je zaměřený na validaci, verifikaci a vyhodnocení změn v krajinné pokrývce (land cover) za období 2006 – 2012 na mezinárodní úrovni
+    * výstup: zpřístupněné aktualizované údaje o krajinné  pokrývce (Corine Land Cover 2012) prostřednictvím standardních INSPIRE služeb
+    * koresponduje s plněním směrnice INSPIRE, kde Land cover patří pod přílohu II.
+====== HRLs – High resolution Layers ======
+  * Imperviousness (degree of imperviousness) – zastavěné plochy
+  * Forest areas (tree cover density and leaf type) – lesní plochy
+  * Agricultural areas (permanent grassland) – zemědělské plochy
+  * Wetlands (wetland inventory) - mokřady
+  * Water bodies (permanent water bodies) – vodní plochy
+====== Metoda překryvných operací pro detekci rozdílů ======
+
+  * aplikace překryvných operací  (overlay) je založena na předpokladu, že atributy z obou vstupních zdrojů si odpovídají
+  * ve 2 vrstvách v různých časových period pro dané území, je možno provést overlay k nalezení odchylek
+  * => oblasti se shodnými kategoriemi se nezměnili, ty s odlišnou klasifikací vykazují změny
+  * B-A/průměr (A,B)
+  * A - % zastoupení dané formy využití ploch na celkové rozloze zájmového území v předcházejícím termínu
+====== Křížová tabulka (cross-tabulation) ======
+  * mnohonásobný překryv, ukazující všechny kombinace s logickým operátorem AND
+  * komparativní technika pro kvalitativní data ve dvou obrazech
+  * výstup: tabulka obsahující seznam frekvencí, se kterými se každá možná kombinace hodnot ze 2 vstupních obrazů objevuje
+  * shodné plochy jdou po diagonále a ostatní kombinace, říkající jak se stav změnil (ke kolika a v jakém směru přesunům došlo)
+
+  * **χ -kvadrát test** -  určení zda je či není nějaká signifikantní asociace mezi dvěma obrazy
+  * **Cramerův V koeficient** – ukazatel intenzity vzájemného vztahu.
+  * metoda korelačního koeficientu, nabývá rozsahu 0 (žádná asociace) – 1(úplná korelace).
+  * **Kappa index** - počítá se v případě výskytu shodných kategorií (kvalitativních) v obou obrazech a také měří korelaci
+    * vyžaduje aby kategorie na obou mapách opravdu mínily identické položky
+    * využívá se jako koeficient error matrix
+
+
+====== Datové zdroje v ČR ======
+  * pro území ČR - relativně velké množství dat - poměrně detailně a velmi věrně zachycují stav krajiny v několika časových horizontech za 250 let
+  * časové řady jsou neúplné
+  * kombinace dat = získání komplexního obrazu o vývoji krajiny od roku 1845 do současnosti
+  * každý typ dat  -  jiné možnosti dle délky hodnoceného období, kvality či kvantity hodnocených jevů, rozlišovací schopnosti, dostupnosti a náročnosti zpracování...
+  * někdy nezachycují důležité změny ve vývoji krajiny, ale spíše ve vývoji společnosti
+  * podobné bohatství dat nemá k dispozici mnoho zemí v Evropě
+  * některé datové zdroje svědčící o vývoji krajiny - celosvětově unikátní
+země, které srovnatelná data mají (Rakousko) - na rozdíl od ČR neprodělaly některé dějinné zvraty, které krajinu výrazně poznamenaly (centrálně plánovaná ekonomika)
+
+====== Analýzy ekologické stability ======
+  * Ekologická stabilita = schopnost  ekologických systémů uchovat a reprodukovat  své podstatné charakteristiky pomocí autoregulačních procesů a vyrovnávat změny způsobené vnějšími i vnitřními činiteli a zachovávat své přirozené vlastnosti
+  * **vnitřní** - schopnost existovat při normálním působení faktorů prostředí, včetně extrémů, na něž jsou ekosystémy adaptovány -  je dána pevností vazeb
+  * **vnější** - schopnost odolávat působení mimořádných vnějších  faktorů na něž není ekosystém adaptován
+ekologická rovnováha = dynamický stav ekologických systémů, který se udržuje oscilací a do něhož se systém po odeznění změn vrací
+
+  * hodnocení ES poskytuje zpřesňující pohled na kvalitu ekologických funkcí území
+  * posouzení ES  =  základ mnoha aplikací krajinné ekologie
+  * hodnocení ES představuje metodicky, odborně i časově náročný úkol
+
+  * v praxi se pro hodnocení větších území používají postupy, které přinášejí rychlé, i když jen orientační výsledky
+  * praktická hodnocení umožňuji alespoň relativně porovnávat regionální rozdíly v ekologické stabilitě krajiny nebo posoudit vývoj krajiny v čase
+  * podklady doplnit o informace z generelu ÚSES
+  * zároveň je třeba posoudit strukturu analyzované krajiny – včetně koridorů
+====== Koeficient ekologické stability KES  ======
+  * kvantitativní posouzení stavu a vývoje ekologické stability
+  * všechny známé pokusy o kvantifikací ES krajiny metodou výpočtu koeficientů ES  vycházejí z poměrného zastoupení jednotlivých kategorii využití půdy   
+  * změna v poměrném zastoupení forem využití krajiny  → změna ekologické stability daného území
+  * = poměr rozlohy ploch relativně stabilních (S) k rozloze ploch relativně labilních (L)
+  * nutné rozdělit kategorie využiti půdy na ekologicky stabilní  a nestabilní
+  * plochy relativně stabilní:  lesy, trvalé travní porosty (louky, pastviny), sady, zahrady, vinice, vodní plochy
+  * plochy relativně labilní: orná půda, chmelnice a zastavěné plochy.
+  * rozdělení použito v Atlasu Životního prostředí a zdraví obyvatelstva ČSFR
+  * Nedostatek výpočtu
+  * předpokládá existenci labilních ploch v řešeném území
+  * => v opačném případě nelze KES stanovit  (jmenovatel nabývá hodnoty 0)
+
+====== (vážený) KES  ======
+  * výpočet s rozlišením ekologické významnosti jednotlivých kategorií LULC
+  * pa * kpn to celé lomeno P
+  * pa – výměra jednotlivých kategorií
+  * kpn - koeficient ekologické významnosti kategorií
+  * P – výměra katastrálního území
+
+====== Podrobná analýza ekologické stability ======
+  * podrobné mapováni krajiny, nejlépe v měřítku 1: 10 000
+  * metodické postupy používané v praxi (Petříček aj., 1994, Vondrušková aj., 1994...)
+  * výslednými mapovanými jednotkami jsou plochy aktuální vegetace
+  * mapa ve velkém M (1 : 10 000+) s vegetační charakteristikou rozlišených ploch a jejich hodnocením podle stupně ES
+  * absolutní a relativní zastoupení jednotlivých kategorií ES (0-5) v řešeném území
+  * plochy se klasifikují podle významu plochy z hlediska ES => stupeň ekologické stability
+  * 0  - bez významu, 5 - výjimečně velký význam
+====== (podrobný, dle USES) KES (Agroprojekt, 1995) ======
+  * doporučen v metodice ÚSES
+  * souhrnné hodnocení pro celé území
+  * stanoven váženým průměrem stupňů ES jednotlivých ploch v území
+  * A, B, C, D, E  - relativní podíly ploch stupně ekologické stability 5, 4, 3, 2, 1 na celkové ploše hodnoceného území
+  * předpoklad, že část území je stupně ekologické stability 1 nebo 2 (=nenulový jmenovatel)
+  * plochy klasifikované stupněm 0 (bez významu pro ekologickou stabilitu) nejsou do výpočtu zahrnuty
+  * výsledek je zpřesněným kvantitativním ukazatelem stability území  - pro závěry není dostačující
+  * podstatnějším výsledkem je mapa krajinných segmentů  + charakteristiky
+====== Koeficient rovnováhy krajiny Kh ======
+  *   * vyjadřuje stupeň přirozenosti jednotlivých forem přiřazením hodnoty Kh1 - zastavěné území  … 	Kh6 - lesy
+  * číselné označení - indexace - výhodné pro další zpracování
+  * vyjadřuje stupeň přirozenosti dané formy využiti půdy
+  * slouží jako index označující danou formu využíti půdy na kartogramech
+  * je číslem, s nímž lze manipulovat při výpočtech během zpracování
+  * přidělená čísla musí tvořit souvislou aritmetickou řadu  (s ohledem na výpočetní část řešení)
+  * pro kategorizaci intenzity - používány různé hodnotící stupnice – vyjadřující míru odchýlení aktuálních společenstev od přírodního stavu
+  * typy současné vegetace jsou do jednotlivých kategorií zařazovány podle charakteru a intenzity změn vegetace i jejího abiotického prostředí
+====== Hodnocení přirozenosti krajiny ======
+  * stupeň přirozenosti =  rozdíl mezi aktuálním a přirozeným stavem krajiny
+  * míra přímého i nepřímého ovlivnění přírodních charakteristik člověkem -  vyjádřenou změnami charakteristik rostlinných společenstev
+  * Kritéria hodnocení stupně přirozenosti
+    * změny struktury společenstva ve srovnání s přírodním společenstvem
+    * podíl druhů původních organizmů vzhledem k počtu druhů tvořící přírodní společenstvo
+    * podíl vymřelých druhů původní bioty
+    * podíl spontánních sekundárních organizmů - členů autochtonní regionální bioty
+    * podíl tzv. synantropních nebo ruderálnich organizmů ("průvodců člověka")
+    * životní trvalost kultivovaných i spontánních druhů v ekosystému
+
+  * v naší krajině neexistuje ekosystém, který by nebyl člověkem ovlivněn
+  * některá rostlinná společenstva, vesměs lesní, lze označit jako původní vegetaci
+====== Hessenská metoda oceňování biotopů ======
+  * Ekonomické hodnocení krajiny, kombinace expertní a nákladové metody
+  * dvouúrovňové hodnocení - spočívá v expertním relativním ohodnocení ekologických charakteristik daných typů území (v bodech) a přiřazení určité peněžní částky 1 bodu
+  * hodnota pro určitý biotop  - z hodnocení 8 ekologických a ekonomických faktorů či charakteristik
+  * každé hodnocení v rozsahu od 1 do 6  bodů s vyloučením nuly
+  * první čtyři charakteristiky – vlastní vyjádření ekologické kvality biotopu
+  * další čtyři charakteristiky  - vyjadřují stupeň vzácnosti či ohrožení biotopu
+  * součet bodů za prvé čtyři faktory je násoben součtem bodů za druhé čtyři charakteristiky a výsledný počet je vztažen k maximálně možnému počtu bodů (576).
+  * získaný počet bodů pro každý biotop  - převeden do peněžní podoby  - násobením bodu průměrnými náklady nezbytnými na obnovení   * původních přírodních struktur
+  * na hodnocení typů biotopů navazuje  - individuální hodnocení konkrétního biotopu (v konkrétním místě a čase), teré se provádí terénním průzkumem
+  * slouží k redukci (výjimečně i navýšení) základní bodové hodnoty v případě, že biotop neodpovídá stavu, jež je pro daný typ popsaný v Katalogu biotopů
+  * korekce bodové hodnoty  - pomocí koeficientu - určen na základě 6 pomocných kritérií
+  * aby bylo možné spočítat peněžní hodnotu určitého území, je nutné přiřadit jednomu bodu konkrétní finanční částku.
+  * vyjadřuje průměrné náklady na zvýšení hodnoty 1m2 o 1 bod v rámci 136ti hodnocených akcí a dosáhla v roce 2003 hodnoty 12,36 Kč
+  * převedení podkladů z mapování biotopů podle metodiky NATURA 2000 na číselný koeficient individuálního hodnocení Hessenské metody
+====== Analýza viditelnosti a hodnocení krajinného rázu ======
+  * Krajinný ráz = zdroj a informační nositel určitého počtu emocionálních smyslových předpokladů a konkrétních prostorových vlastností pro vnímání krajiny
+  * hodnocení KR  - rozvoj v posledních letech <=> ochranu KR ukládá zákon 114/ 1992
+    * problematické hodnocení toho, jak člověk krajinu vnímá - vždy značný podíl subjektivity (ne každá krajina zasluhuje stejnou míru ochrany)
+    * ! respektovat individuální vztahy lidí ke krajině které vyplývají z jejich životních zkušeností, postojů, estetického cítění, emocí, vzdělání, věku...
+    * 2 přístupy
+      * hodnocení celkového krajinného rázu určité krajiny (komplexní hodnoceni)
+      * hodnocení krajinného rázu vnímaného člověkem při pohledu z určitého místa v krajině (krajinná scenérie)
+  * Z hlediska účelu posouzeni
+      * hodnoceni současného krajinného rázu  - pro stanoveni limitů regionálního rozvoje nebo vymezeni krajinných celků
+      * hodnoceni vlivu existujících prvků v krajině na krajinný ráz  - jako podklad k návrhu zlepšujících opatření
+      * hodnocení předpokládaného vlivu navrhovaných změn v krajině na krajinný ráz  - jako součást procesu EIA, výběr vhodné podoby a umístění nové stavby v krajině
+
+====== Krajinné dominanty ======
+  * krajinný prvek nebo složka krajiny výrazně přesahující některou ze svých vlastností (tvar, velikost, barva, kulturní aspekt, etc.)   * rámec ostatních částí sledovaného prostoru.
+  * význam dominant - dán hlavní převažující charakteristikou - určující v působení na člověka
+  * dominanta může být dána jedním krajinným prvkem nebo jejich souborem
+  * dominanty můžeme diferencovat několika způsoby
+  * projev dominant může být pozitivní, negativní a vnitřně rozporný
+  * o projevu dominant  - rozhoduje vztah (soulad/nesoulad)  s okolím
+  * významnou okolností je i viditelnost dominant (např. 260°, 10 km) - ovlivňuje rozsah působení dominant
+  * Potírání dominant - pokud v dosahu působení stávající dominanty s pozitivním projevem umístíme novou dominantu, jejíž projev může být negativní, ale též pozitivní.
+  * př. umístění vysílače v blízkosti Petřínské rozhledny v panoramatu Pražského hradu
+
+

@@ -1,0 +1,7 @@
+  * můžu modelovat objekty, procesy i jevy
+  * modelování je prostředek k chápání objektivních zákonitostí přírody. V tomto procesu je vždy účelově vytvořený model na základě podobnosti s reálným modelovaným systémem. Poznatky získané při práci s modelem jsou pos léze použity jako hypotézy o chování výchozího originálního reálného systému
+
+  * abstrakce
+        * proces, který zanedbává konkrétní odlišnosti 
+        * obecný model s podstatnými vlastnostmi a vztahy
+        * fyzikální modely / fyzikálně-matematické / matematické

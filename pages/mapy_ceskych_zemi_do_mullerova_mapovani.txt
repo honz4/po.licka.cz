@@ -1,0 +1,106 @@
+<WRAP center round box 60%>
+6. a. mapy českých zemí do Mullerova mapování
+</WRAP>
+===== ČECHY =====
+=== mapa Mikuláše Klaudyána ===
+   * **1518**
+   * **1 : 637 000**
+   * je vyryta do dřeva
+   * obsahuje české názvosloví
+   * nemá matematický základ
+   * na první pohled je na výšku → zabírá pouze spodní třetinu (ve zbylých dvou třetinách jsou erby a další malůvky kolem Ludvíka Jagellonského)
+   * bohatý místopis, lesy, řeky, 280 měst
+   * proslavila se v zahraničí, kdy ji Zaltieri překleslil
+   * její jediný výtisk je v Litoměřické knihovně, ostatní jsou překreslené (Zaltieri, Munster)
+   * chybí výškopis (je ale nahrazen **horskými lesy**)
+   * jediný horopisný název jsou "Krkonoše"
+   * rozlišena města
+   * žádné "silnice"
+   * jsou tam tečky jako milníky a není jasné co přesně znamenají (snad vzdálenost)
+
+=== Crigingerova mapa ===
+   * **1568** v Lipsku
+   * **1 : 680 000**
+   * z mědirytiny
+   * **kopečková metoda**
+   * chybí Otava
+   * něco mezi obrázkovými a symbolickými znaky
+   * od 1571 **v [[Orteliově atlasu]]**
+   * existují dva výtisky, jeden v Salzburku a druhý ve strahovské knihovně (ani jeden výtisk se ovšem nedochoval úplně)
+   * saná až za současnou hranici Čech (je tam i kousek Moravy)
+=== Aretinova mapa ===
+   * **1619, pak 1632 a 1665**
+   * **1 : 504 000**
+   * "//Regni Bohemia nova et exacta descriptio//" ("Nový a přesný popis království českého)
+   * byla vytvořena na základě skutečného měření (prej Šimon Podolský)
+   * Aretin byl sekretář Petra Voka a prohlásil se za autora až třetího vydání
+   * první vydání bylo na mědirytině včetně šesti postav v dobových oblecích
+   * druhé vydání zpřesnilo zobrazení řek ve východních Čechách
+   * nejstarší politická (tematická) mapa na světě (hranice politického rozdělení země - 15 krajů)
+   * **kopečková metoda**
+   * města, u měst obrázek
+   * zmenšuje se měřítko a narůstá náplň mapy
+=== Vogtova mapa ===
+   * **1712**, Norimberk
+   * Jan Jiří Vogt napsal spis ke kterému byla tato mapa přiložena
+   * **1 : 396 000**
+   * rytina = personifikace českých řek
+   * možná první turistická mapa (vyskytuje se zde mnoho kulturních památek, zajímavostí, apod.)
+   * tematicky přesná
+=== Mullerovo mapování ===
+   * **1712 – 1722**
+   * **1 : 132 000**
+   * bylo zhotoveno 25 listů v měřítku 1 : 107 000
+   * 12 495 lokalit (48 znaků)
+   * byla z ní odvozena **mapa Království českého** (* 1720)
+
+----
+
+===== MORAVA =====
+=== Fabriciova mapa ===
+   * **1569**
+   * Fabricio při cestách do práce zmapoval Moravu. Nic velkýho.
+   * vznikla protože se na Moravu tlačili Turci
+   * jsou tam i Dolní Rakousy
+   * německé názvosloví, zkomolené názvy =)
+   * **1 : 288 888**
+   * na 6 měděných deskách
+   * v **[[orteliove_atlasu|Orteliově atlasu]]**
+   * byť je tam orientační síť, mapa stále nemá matematický základ
+
+=== Komenského mapa ===
+   * **1624, 1627, 1664**
+   * do roku 1788 bylo vytvořeno 13 mědirytin a asi 150 vydání
+   * **1 : 470 000**
+   * 720 místních názvů
+   * čtyři [[veduty]] (Polná, Brno, Olomouc, Znojmo)
+
+=== Vischerova mapa ===
+   * **1692**
+   * dvě [[veduty|veduty]] (Brno, Olomouc)
+   * **1 : 187 000**
+   * topograficky bohatší
+   * nebyla známá, nejsou její kopie (Vogtova mapa skončila stejně)
+
+
+=== Mullerovo mapování ===
+   * **1708 – 1712**
+   * bylo úplně první, takže také nejméně kvalitní
+
+
+----
+
+
+===== SLEZSKO =====
+=== Helwigova mapa ===
+   * **1561**
+   * **1 : 550 000**
+   * jižní orientace (aby Odra tekla dolů)
+   * na dřevě
+   * měla sloužit k cestovním potřebám (obsahuje návod k používání)
+   * originál se nedochoval
+   * v **[[orteliove_atlasu|Orteliově atlasu]]**
+=== Wielandovo mapování ====
+   * **1722 – 1736 **
+   * Muller se toho nedožil, Wieland taky ne, ve finále to dodělal Schubart
+
